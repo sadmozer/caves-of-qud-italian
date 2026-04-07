@@ -40,7 +40,7 @@ jobs:
           git push origin "${{ steps.version.outputs.tag }}"
 
       - name: Crea zip traduzione
-        run: zip -r "italian-translation-${{ steps.version.outputs.tag }}.zip" translated/ExampleLanguage/
+        run: cd translated && zip -r "../italian-translation-${{ steps.version.outputs.tag }}.zip" ExampleLanguage/
 
       - name: Crea release
         uses: softprops/action-gh-release@v2
