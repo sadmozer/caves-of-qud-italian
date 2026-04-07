@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.17
+
+<objects ExcludeFromCorpusGeneration="Key">
+
+  <object Name="Key" Load="">
+
+    <part Name="Key">
+
+    <tag Name="Key" Value="DisplayText">
+
+    <stag Name="Key">
+
+    <property Name="Key">
+
+    <xtagTextFragments>
+
+    <xtagGrammar>
+
+-->
+<objects Lang="example" Encoding="utf-8">
+  <object Name="Terrain" Load="Merge">
+    <xtagGrammar massNoun="▶true" />
+  </object>
+  <object Name="TerrainDesertCanyon" Load="Merge">
+    <part Name="Render" DisplayName="▶canyon deserti" />
+    <part Name="Description" Short="▶Un tempo i fiumi stessi erano famelici, e banchettavano con scisto e calcare prima di riposarsi gonfi nel Grande Mare di Sale. Ora le ferite-fessure sono marcite in cremisi e sale." />
+  </object>
+  <object Name="TerrainDesertCanyon2" Load="Merge">
+    <part Name="Render" DisplayName="▶canyon deserti" />
+    <part Name="Description" Short="▶Un tempo i fiumi stessi erano famelici, e banchettavano con scisto e calcare prima di riposarsi gonfi nel Grande Mare di Sale. Ora le ferite-fessure sono marcite in cremisi e sale." />
+  </object>
+  <object Name="TerrainDesertCanyon3" Load="Merge">
+    <part Name="Render" DisplayName="▶canyon deserti" />
+    <part Name="Description" Short="▶Un tempo i fiumi stessi erano famelici, e banchettavano con scisto e calcare prima di riposarsi gonfi nel Grande Mare di Sale. Ora le ferite-fessure sono marcite in cremisi e sale." />
+  </object>
+  <object Name="TerrainDesertCanyon4" Load="Merge">
+    <part Name="Render" DisplayName="▶canyon deserti" />
+    <part Name="Description" Short="▶Un tempo i fiumi stessi erano famelici, e banchettavano con scisto e calcare prima di riposarsi gonfi nel Grande Mare di Sale. Ora le ferite-fessure sono marcite in cremisi e sale." />
+  </object>
+  <object Name="TerrainSaltmarsh" Load="Merge">
+    <part Name="Render" DisplayName="▶palude salata" />
+    <part Name="Description" Short="▶Nelle pozze stagnanti, gigli luminosi gareggiano con il nastro di stelle nel cielo notturno. Sotto il sole salato, però, si ritraggono nell'ombra delle alghe saline." />
+  </object>
+  <object Name="TerrainSaltmarsh2" Load="Merge">
+    <part Name="Render" DisplayName="▶palude salata" />
+    <part Name="Description" Short="▶Nelle pozze stagnanti, gigli luminosi gareggiano con il nastro di stelle nel cielo notturno. Sotto il sole salato, però, si ritraggono nell'ombra delle alghe saline." />
+  </object>
+  <object Name="TerrainWatervine" Load="Merge">
+    <part Name="Render" DisplayName="▶palude salata" />
+    <part Name="Description" Short="▶Nelle pozze stagnanti, gigli luminosi gareggiano con il nastro di stelle nel cielo notturno. Sotto il sole salato, però, si ritraggono nell'ombra delle alghe saline." />
+  </object>
+  <object Name="TerrainSaltdunes" Load="Merge">
+    <part Name="Render" DisplayName="▶dune di sale" />
+    <part Name="Description" Short="▶Le dune del mare d'avorio sono come onde congelate al loro posto. Ci sono crepe nel sale, dove la terra, scottata dal sole gemmato, si è contratta e ha ceduto. L'orizzonte fonde il cielo con la vasta pianura di Moghra'yi, il Grande Deserto di Sale." />
+  </object>
+  <object Name="TerrainSaltdunes2" Load="Merge">
+    <part Name="Render" DisplayName="▶dune di sale" />
+    <part Name="Description" Short="▶Le dune del mare d'avorio sono come onde congelate al loro posto. Ci sono crepe nel sale, dove la terra, scottata dal sole gemmato, si è contratta e ha ceduto. L'orizzonte fonde il cielo con la vasta pianura di Moghra'yi, il Grande Deserto di Sale." />
+  </object>
+  <object Name="TerrainTremblezone" Load="Merge">
+    <part Name="Render" DisplayName="▶dune di sale" />
+    <part Name="Description" Short="▶Le dune del mare d'avorio sono come onde congelate al loro posto. Ci sono crepe nel sale, dove la terra, scottata dal sole gemmato, si è contratta e ha ceduto. L'orizzonte fonde il cielo con la vasta pianura di Moghra'yi, il Grande Deserto di Sale." />
+  </object>
+  <object Name="TerrainFlowerfields" Load="Merge">
+    <part Name="Render" DisplayName="▶campi fioriti" />
+    <part Name="Description" Short="▶Filamenti prismatici colonizzano le crepe tra il marcio salato. Ci sono prati qui, Ella dice." />
+  </object>
+  <object Name="TerrainJungle" Load="Merge">
+    <part Name="Render" DisplayName="▶giungla" />
+    <part Name="Description" Short="▶Trecce di radici e nastri di fronde tridimensionalizzano il terreno piatto. Una foglia caduta fa la casa a qualcosa." />
+  </object>
+  <object Name="TerrainDeepJungle" Load="Merge">
+    <part Name="Render" DisplayName="▶giungla profonda" />
+    <part Name="Description" Short="▶Una flora rigogliosa riempie il terreno con radici dense come un labirinto, e un'alta volta a corona soffoca gli ultimi raggi di luce." />
+  </object>
+  <object Name="TerrainFungalBase" Load="Merge">
+    <part Name="Render" DisplayName="▶Rainbow Wood" />
+    <part Name="Description" Short="▶Le spore danzano in vortici sopra berretti fungini caleidoscopici. Fiumi di zuppa primordiale, baciati dalla luce della lava, gorgogliano una melodia vivace." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainMoonStair" Load="Merge">
+    <part Name="Render" DisplayName="▶Moon Stair" />
+    <part Name="Description" Short="▶Prismi esagonali erompono da letti di marmo nero, e i loro spigoli si decoerono come tepida rugiada statica. La Stair ronfa a bassa frequenza." />
+    <tag Name="IndefiniteArticle" Value="▶la" />
+    <tag Name="DefiniteArticle" Value="▶la" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainCraters" Load="Merge">
+    <part Name="Render" DisplayName="▶crateri" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="RandomCrater" Load="Merge">
+    <part Name="Render" DisplayName="▶crateri" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="TerrainHills" Load="Merge">
+    <part Name="Render" DisplayName="▶colline" />
+    <part Name="Description" Short="▶Sussulti nel grafico d'onda della pietra nel tempo." />
+  </object>
+  <object Name="TerrainMountains" Load="Merge">
+    <part Name="Render" DisplayName="▶montagne" />
+    <part Name="Description" Short="▶Nel grafico d'onda della pietra nel tempo, dove le placche del mondo un tempo si agitarono in guerra, una quieta pace si è posata." />
+  </object>
+  <object Name="TerrainBananaGrove" Load="Merge">
+    <part Name="Render" DisplayName="▶boschetto di banane" />
+    <part Name="Description" Short="▶I milioni di dita intrecciate del boschetto oscillano in dolce opulenza. Verdi fronde abbracciano la base dello Spindle nel suo anfratto montuoso." />
+    <xtagGrammar massNoun="▶false" />
+  </object>
+  <object Name="TerrainWater" Load="Merge">
+    <part Name="Render" DisplayName="▶acqua" />
+    <part Name="Description" Short="▶Acqua" />
+  </object>
+  <object Name="TerrainRiverSvy" Load="Merge">
+    <part Name="Render" DisplayName="▶Fiume Svy" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+    <part Name="Description" Short="▶Svy si spinge oltre le cime incrostate di sale e si riversa nel terreno intrecciato di rampicanti. Le sue rive sono ombreggiate dalle carcasse di cromo dei giganti." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+  </object>
+  <object Name="TerrainRiverOpal" Load="Merge">
+    <part Name="Render" DisplayName="▶Fiume Opal" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+    <part Name="Description" Short="▶Lo Spindle scintilla in effigie acquosa sulla sua superficie. Traghetta granito frantumato attraverso un passo di montagna e nel suo frondoso estuario." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+  </object>
+  <object Name="TerrainOpalDuskwaters" Load="Merge">
+    <part Name="Render" DisplayName="▶Acque del Crepuscolo di Opal" />
+    <xtagGrammar Proper="▶true" />
+    <part Name="Description" Short="▶L'ombra dei rami strizza il calore dalle acque di Opal e lascia dietro di sé una pozza ombrosa." />
+  </object>
+  <object Name="TerrainRiverYonth" Load="Merge">
+    <part Name="Render" DisplayName="▶Fiume Yonth" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <part Name="Description" Short="▶Yonth attraversa il massiccio verso lo strano Est e conduce le sue acque senza nome a Qud. Creature-pesce si nutrono dei suoi frammenti di basalto." />
+  </object>
+  <object Name="TerrainMountainStream" Load="Merge">
+    <part Name="Render" DisplayName="▶ruscello di montagna" />
+    <part Name="Description" Short="▶Antiche alpi aperte in un passato senza età si riempiono di una fresca salamoia." />
+    <xtagGrammar massNoun="▶false" />
+  </object>
+  <object Name="TerrainLakeHinnom" Load="Merge">
+    <part Name="Render" DisplayName="▶Lago Hinnom" />
+    <part Name="Description" Short="▶Dita di corallo spuntano dal letto di spugna e trafiggono la fioritura algale, dove stormi di esh bianchi si radunano a centinaia." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainPalladiumReef" Load="Merge">
+    <part Name="Render" DisplayName="▶Palladium Reef" />
+    <part Name="Description" Short="▶Un'arcologia di polisi luminosi si arcua lungo il vecchio traliccio saldato, popolata da una ricca diversità di vita." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainRuins" Load="Merge">
+    <part Name="Render" DisplayName="▶rovine" />
+    <part Name="Description" Short="▶Qui si sgretolano i misteriosi lavori avvolti da rampicanti dei Mangiatori, foggiati sul tornio ciclopico in un passato senza età. Guglie e parapetti di cromo che si ergono tra le strette dello scisto accennano ai labirinti che si trovano sotto di essi." />
+  </object>
+  <object Name="TerrainBaroqueRuins" Load="Merge">
+    <part Name="Render" DisplayName="▶rovine barocche" />
+    <part Name="Description" Short="▶Una vegetazione esuberante fa da volta a una costellazione delle opere più sontuose dei Mangiatori. La giungla è lacerata agli angoli, dove balaustre di cristacciaio e lanceole a orchidea stellare fanno capolino." />
+  </object>
+  <object Name="TerrainJoppa" Load="Merge">
+    <part Name="Render" DisplayName="▶Joppa" />
+    <part Name="Description" Short="▶Formiche nella pula viridiana, i contadini traggono le ultime gocce di umidità incontaminata dalla terra brulicante di sale." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainJoppaRuins" Load="Merge">
+    <part Name="Render" DisplayName="▶palude salata" />
+    <part Name="Description" Short="▶Nelle pozze stagnanti, gigli luminosi gareggiano con il nastro di stelle nel cielo notturno. Sotto il sole salato, però, si ritraggono nell'ombra delle alghe saline." />
+  </object>
+  <object Name="TerrainTheSpindle" Load="Merge">
+    <part Name="Render" DisplayName="▶Spindle" />
+    <part Name="Description" Short="▶Qui giace il suolo sacro dove lo Spindle, un ago interminabile di blu maya, lacera la terra avvolta come una tomba e trafigge il firmamento." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+    <tag Name="IndefiniteArticle" Value="▶lo" />
+    <tag Name="DefiniteArticle" Value="▶lo" />
+  </object>
+  <object Name="TerrainOmonporch" Load="Merge">
+    <part Name="Render" DisplayName="▶Omonporch" />
+    <part Name="Description" Short="▶Attraverso l'ombra degli alberi soffocanti si lanciano i cento archi e contrafforti dei monumenti funebri. Si affacciano su arcate di marmo che coprono le catacombe dei Mangiatori della terra." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainKyakukya" Load="Merge">
+    <part Name="Render" DisplayName="▶Kyakukya" />
+    <part Name="Description" Short="▶Qui si trova il villaggio nella giungla dei veneratori del dio scimmia e le loro dimore di funghi giganti." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainRedRock" Load="Merge">
+    <part Name="Render" DisplayName="▶Red Rock" />
+    <part Name="Description" Short="▶Un affioramento di pietra naturalmente arrossata sporge dalla roccia salata." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainJoppaRedrockChannel" Load="Merge">
+    <part Name="Render" DisplayName="▶palude salata" />
+    <part Name="Description" Short="▶Nelle pozze stagnanti, gigli luminosi gareggiano con il nastro di stelle nel cielo notturno. Sotto il sole salato, però, si ritraggono nell'ombra delle alghe saline." />
+  </object>
+  <object Name="TerrainSixDayStilt" Load="Merge">
+    <part Name="Render" DisplayName="▶Six Day Stilt" />
+    <part Name="Description" Short="▶Il Six Day Stilt si erge dalle dune come il cadavere pietrificato di un kraken, incombente sulle pianure deserte." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainEynRogel" Load="Merge">
+    <part Name="Render" DisplayName="▶Eyn Rogel" />
+    <part Name="Description" Short="▶Eyn Rogel" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainGritGate" Load="Merge">
+    <part Name="Render" DisplayName="▶Grit Gate" />
+    <part Name="Description" Short="▶È ancora eretta la metà superiore del cancello colossale inciso con le rune di cento lingue indecifrabili. Sotto i suoi steccati di cromo si apre un ampio passaggio nel terreno della giungla." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainRustWell" Load="Merge">
+    <part Name="Render" DisplayName="▶pozzi di ruggine" />
+    <part Name="Description" Short="▶Rampicanti rossi di qudzu usano come tralicci pozzi di cromo trivellati nella terra." />
+    <xtagGrammar iArticle="▶i" />
+  </object>
+  <object Name="TerrainGolgotha" Load="Merge">
+    <part Name="Render" DisplayName="▶Golgotha" />
+    <part Name="Description" Short="▶Avvolte nella giungla in decomposizione si trovano le bocche delle grotte-ruggine di Golgotha, il cimitero del cromo." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainBethesdaSusa" Load="Merge">
+    <part Name="Render" DisplayName="▶Bethesda Susa" />
+    <part Name="Description" Short="▶Pietra spostata da eoni inghiotte l'architettura priva di angoli dell'antro di Bethsaida." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainAsphaltMines" Load="Merge">
+    <part Name="Render" DisplayName="▶miniere di asfalto" />
+    <part Name="Description" Short="▶Macerie avvolgono questa miniera abbandonata dove antiche tribù aspiravano il sangue nero per i loro inscrutabili scopi." />
+    <xtagGrammar iArticle="▶le" />
+  </object>
+  <object Name="TerrainRustedArchway" Load="Merge">
+    <part Name="Render" DisplayName="▶arco arrugginito" />
+    <part Name="Description" Short="▶Un arco di ruggine dipinge il cielo e cerchia il cammino un tempo percorso da gargantuani di cromo." />
+    <xtagGrammar massNoun="▶false" />
+  </object>
+  <object Name="TerrainEynRoj" Load="Merge">
+    <part Name="Render" DisplayName="▶Eyn Roj" />
+    <part Name="Description" Short="▶Nascosta in una radura di marmo si trova il tronco spaccato di Chavvah, l'Albero della Vita. Le sue foglie cadute giacciono come un tappeto specchiato, e gli scriccioli dei sogni cinguettano un canto psichico." />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+    <tag Name="IndefiniteArticle" Value="▶*delete" />
+    <tag Name="DefiniteArticle" Value="▶*delete" />
+  </object>
+  <object Name="TerrainPalladiumReef 3l" Load="Merge">
+    <part Name="Render" DisplayName="▶Yd Freehold" />
+    <part Name="Description" Short="▶Una topologia di tubature tinte montata nel letto di spugna è una stella polare per la comunità lirica." />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <xtagGrammar Proper="▶true" massNoun="▶false" />
+  </object>
+  <object Name="TerrainBrightsheol" Load="Merge">
+    <part Name="Render" DisplayName="▶Brightsheol" />
+  </object>
+  <object Name="TerrainTzimtzlum" Load="Merge">
+    <part Name="Render" DisplayName="▶Tzimtzlum" />
+  </object>
+</objects>

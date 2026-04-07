@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.17
+
+Some data is defined in the XML files, but looked up in strings table.  Much like the
+Conversations-example.xml, this is a <strings> table.  The Context should state a general path to the node.
+  -->
+<strings Lang="example" Encoding="utf-8">
+  <string Context="genotype.Mutated Human.extrainfo" ID="Mutations">▶Mutazioni</string>
+  <string Context="genotype.Mutated Human.extrainfo" ID="Moderate starting attributes">▶Attributi iniziali moderati</string>
+  <string Context="genotype.Mutated Human.extrainfo" ID="-600 reputation with {{C|the Putus Templar}}">▶-600 reputazione con {{C|i Putus Templar}}</string>
+  <string Context="genotype.True Kin.extrainfo" ID="High starting attributes">▶Attributi iniziali elevati</string>
+  <string Context="genotype.True Kin.extrainfo" ID="Access to cybernetics">▶Accesso alla cibernetica</string>
+  <string Context="genotype.True Kin.extrainfo" ID="{{C|20}} bonus skill points each level">▶{{C|20}} punti abilità bonus per livello</string>
+  <string Context="genotype.True Kin.extrainfo" ID="Bonus resistances based on arcology of origin">▶Resistenze bonus in base all'arcologia di origine</string>
+  <string Context="genotype.True Kin.extrainfo" ID="May rebuke robots">▶Può redarguire i robot</string>
+  <string Context="subtype.Arconaut.extrainfo" ID="Starts with random junk and artifacts">▶Inizia con rottami e artefatti casuali</string>
+  <string Context="subtype.Nomad.extrainfo" ID="Starts with a {{B|recycling suit}}">▶Inizia con una {{B|tuta da riciclaggio}}</string>
+  <string Context="subtype.Tinker.extrainfo" ID="Begins with a number of random artifacts and scrap">▶Inizia con una serie di artefatti e rottami casuali</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Allowed entrance to many settlements for purposes of trade">▶Ammesso in molti insediamenti per scopi commerciali</string>
+  <string Context="subtype.Water Merchant.extrainfo" ID="Starts with trade goods">▶Inizia con merci da commerciare</string>
+  <string Context="subtype.Watervine Farmer.extrainfo" ID="Starts with random cooking ingredients">▶Inizia con ingredienti da cucina casuali</string>
+</strings>

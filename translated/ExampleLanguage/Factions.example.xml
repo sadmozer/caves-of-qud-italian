@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.17
+
+<factions>
+
+  <faction Name="Key" DisplayName="DisplayText" FormatWithArticle="" Plural="">
+  FormatWithArticle: Boolean true/false - will include article when displaying the name
+  Plural: Boolean true/false
+
+    <waterritual recipetext="DisplayText">
+
+    <interests Blurb="DisplayText">
+
+      <interest Tags="Key" WillBuy="Key" WillSell="Key" MatchAny="Key" Inverse="Key" Description="DisplayText">
+
+    <ranks>
+
+      <rank Name="Key" DisplayName="DisplayText">
+
+-->
+<factions Lang="example" Encoding="utf-8">
+  <faction Name="Prey" DisplayName="▶edonisti al pascolo" />
+  <faction Name="Joppa" DisplayName="▶abitanti di Joppa" FormatWithArticle="true" />
+  <faction Name="Kyakukya" DisplayName="▶abitanti di Kyakukya" FormatWithArticle="true" />
+  <faction Name="Ezra" DisplayName="▶abitanti di Ezra" FormatWithArticle="true" />
+  <faction Name="Snapjaws" DisplayName="▶snapjaws" />
+  <faction Name="Baboons" DisplayName="▶babbuini" />
+  <faction Name="Apes" DisplayName="▶scimmie" />
+  <faction Name="Crabs" DisplayName="▶granchi" />
+  <faction Name="Bears" DisplayName="▶orsi" />
+  <faction Name="Winged Mammals" DisplayName="▶mammiferi alati" />
+  <faction Name="Birds" DisplayName="▶uccelli" />
+  <faction Name="Fish" DisplayName="▶pesci">
+    <interests>
+      <interest Tags="opalduskwaters,riveryonth,riversvy,mountainstream,riveropal" MatchAny="true" Description="▶luoghi acquatici" />
+    </interests>
+  </faction>
+  <faction Name="Insects" DisplayName="▶insetti" />
+  <faction Name="Swine" DisplayName="▶suini" />
+  <faction Name="Unshelled Reptiles" DisplayName="▶rettili senza guscio" />
+  <faction Name="Cannibals" DisplayName="▶cannibali" />
+  <faction Name="Arachnids" DisplayName="▶aracnidi" />
+  <faction Name="Cats" DisplayName="▶gatti" />
+  <faction Name="Dogs" DisplayName="▶cani" />
+  <faction Name="Cragmensch" DisplayName="▶cragmensch" />
+  <faction Name="Mollusks" DisplayName="▶molluschi" />
+  <faction Name="Tortoises" DisplayName="▶tartarughe" />
+  <faction Name="Robots" DisplayName="▶robot" />
+  <faction Name="Baetyls" DisplayName="▶baetyls" />
+  <faction Name="Dromad" DisplayName="▶mercanti dromadi" />
+  <faction Name="Entropic" DisplayName="▶esseri altamente entropici" />
+  <faction Name="Antelopes" DisplayName="▶antilopi" />
+  <faction Name="Worms" DisplayName="▶vermi" />
+  <faction Name="Oozes" DisplayName="▶melme" />
+  <faction Name="Equines" DisplayName="▶equini" />
+  <faction Name="Newly Sentient Beings" DisplayName="▶esseri di recente senzienti">
+    <interests Blurb="▶ non sanno nulla" />
+  </faction>
+  <faction Name="Goatfolk" DisplayName="▶caprafolk" />
+  <faction Name="Hermits" DisplayName="▶eremiti" />
+  <faction Name="Frogs" DisplayName="▶rane" />
+  <faction Name="Svardym" DisplayName="▶svardym">
+    <interests>
+      <interest Tags="gyreplagues" WillBuy="false" WillSell="true" Description="▶le pestilenze del Gyre" />
+    </interests>
+  </faction>
+  <faction Name="Naphtaali" DisplayName="▶tribù Naphtaali" FormatWithArticle="true" Plural="false" />
+  <faction Name="Trolls" DisplayName="▶troll" />
+  <faction Name="Issachari" DisplayName="▶tribù Issachari" FormatWithArticle="true" Plural="false" />
+  <faction Name="Strangers" DisplayName="▶misteriosi stranieri" />
+  <faction Name="Pariahs" DisplayName="▶paria" />
+  <faction Name="Hindren" DisplayName="▶hindren di Bey Lah" FormatWithArticle="true" />
+  <faction Name="Mopango" DisplayName="▶mopango" FormatWithArticle="true" />
+  <faction Name="Girsh" DisplayName="▶Girsh" FormatWithArticle="true" />
+  <faction Name="Barathrumites" DisplayName="▶Barathrumites" FormatWithArticle="true">
+    <ranks>
+      <rank Name="apprentice" DisplayName="▶apprendista" />
+      <rank Name="journeyfriend" DisplayName="▶compagno di viaggio" />
+      <rank Name="disciple" DisplayName="▶discepolo" />
+      <rank Name="meyvn" DisplayName="▶meyvn" />
+    </ranks>
+  </faction>
+  <faction Name="Consortium" DisplayName="▶Consortium of Phyta" FormatWithArticle="true" Plural="false" />
+  <faction Name="Templar" DisplayName="▶Putus Templar" FormatWithArticle="true">
+    <interests>
+      <interest Tags="ruins,tech,historic,sultan,cybernetics,rebekah,sultanTombPropaganda" WillBuy="true" WillSell="false" MatchAny="true" Inverse="true" Description="▶il mondo moderno" />
+    </interests>
+  </faction>
+  <faction Name="Mechanimists" DisplayName="▶Mechanimists" FormatWithArticle="true" />
+  <faction Name="Gyre Wights" DisplayName="▶spettri del Gyre" FormatWithArticle="true" />
+  <faction Name="Mamon" DisplayName="▶Figli di Mamon" FormatWithArticle="true" />
+  <faction Name="Seekers" DisplayName="▶Cercatori della Via Senza Sguardo" FormatWithArticle="true" />
+  <faction Name="Wardens" DisplayName="▶Confraternita dei Guardiani" FormatWithArticle="true" Plural="false" />
+  <faction Name="Water" DisplayName="▶baroni dell'acqua" />
+  <faction Name="Flowers" DisplayName="▶fiori" />
+  <faction Name="Roots" DisplayName="▶radici" />
+  <faction Name="Fungi" DisplayName="▶funghi" />
+  <faction Name="Vines" DisplayName="▶rampicanti" />
+  <faction Name="Urchins" DisplayName="▶ricci" />
+  <faction Name="Succulents" DisplayName="▶succulente" />
+  <faction Name="Trees" DisplayName="▶alberi" />
+  <faction Name="Merchants" DisplayName="▶Gilda dei Mercanti" FormatWithArticle="true" Plural="false" />
+  <faction Name="Farmers" DisplayName="▶Gilda dei Contadini" FormatWithArticle="true" Plural="false" />
+  <faction Name="Resheph" DisplayName="▶Culto dell'Agnello Avvolto" FormatWithArticle="true" Plural="false" />
+  <faction Name="Daughters" DisplayName="▶Figlie dell'Esilio" FormatWithArticle="true" Plural="true" />
+  <faction Name="YdFreehold" DisplayName="▶abitanti di Yd Freehold" FormatWithArticle="true" />
+  <faction Name="Chavvah" DisplayName="▶Chavvah, l'Albero della Vita" FormatWithArticle="false" Plural="false" />
+</factions>
