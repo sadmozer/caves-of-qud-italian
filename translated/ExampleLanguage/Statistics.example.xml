@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.17
+
+-->
+<statistics Lang="example" Encoding="utf-8">
+  <statistic Name="Strength">
+    <displayName>▶forza</displayName>
+    <displayNameSingular>▶forza</displayNameSingular>
+    <displayTitle>▶Forza</displayTitle>
+    <displayTitleSingular>▶Forza</displayTitleSingular>
+    <shortName>▶STR</shortName>
+    <shortTitle>▶Str</shortTitle>
+    <narrationName>▶forza</narrationName>
+    <helpText>▶La tua {{W|Forza}} determina quanti danni corpo a corpo infliggi (migliorando la penetrazione dell'armatura), la tua capacità di resistere al movimento forzato e la tua capacità di trasporto.</helpText>
+  </statistic>
+  <statistic Name="Agility">
+    <displayName>▶agilità</displayName>
+    <displayNameSingular>▶agilità</displayNameSingular>
+    <displayTitle>▶Agilità</displayTitle>
+    <displayTitleSingular>▶Agilità</displayTitleSingular>
+    <shortName>▶AGI</shortName>
+    <shortTitle>▶Agi</shortTitle>
+    <narrationName>▶agilità</narrationName>
+    <helpText>▶La tua {{W|Agilità}} determina la tua precisione con le armi corpo a corpo e a distanza, e la tua probabilità di schivare gli attacchi.</helpText>
+  </statistic>
+  <statistic Name="Toughness">
+    <displayName>▶resistenza</displayName>
+    <displayNameSingular>▶resistenza</displayNameSingular>
+    <displayTitle>▶Resistenza</displayTitle>
+    <displayTitleSingular>▶Resistenza</displayTitleSingular>
+    <shortName>▶TOU</shortName>
+    <shortTitle>▶Tou</shortTitle>
+    <narrationName>▶resistenza</narrationName>
+    <helpText>▶La tua {{W|Resistenza}} determina il tuo numero di punti vita, la velocità di rigenerazione dei punti vita e la tua capacità di resistere a veleni e malattie.</helpText>
+  </statistic>
+  <statistic Name="Intelligence">
+    <displayName>▶intelligenza</displayName>
+    <displayNameSingular>▶intelligenza</displayNameSingular>
+    <displayTitle>▶Intelligenza</displayTitle>
+    <displayTitleSingular>▶Intelligenza</displayTitleSingular>
+    <shortName>▶INT</shortName>
+    <shortTitle>▶Int</shortTitle>
+    <narrationName>▶intelligenza</narrationName>
+    <helpText>▶La tua {{W|Intelligenza}} determina il tuo numero di punti abilità e la tua capacità di esaminare artefatti.</helpText>
+  </statistic>
+  <statistic Name="Willpower">
+    <displayName>▶forza di volontà</displayName>
+    <displayNameSingular>▶forza di volontà</displayNameSingular>
+    <displayTitle>▶Forza di Volontà</displayTitle>
+    <displayTitleSingular>▶Forza di Volontà</displayTitleSingular>
+    <shortName>▶WIL</shortName>
+    <shortTitle>▶Wil</shortTitle>
+    <narrationName>▶forza di volontà</narrationName>
+    <helpText>▶La tua {{W|Forza di Volontà}} modifica i tempi di recupero delle tue abilità attivate, determina la tua capacità di resistere agli attacchi mentali e modifica la velocità di rigenerazione dei tuoi punti vita.</helpText>
+  </statistic>
+  <statistic Name="Ego">
+    <displayName>▶ego</displayName>
+    <displayNameSingular>▶ego</displayNameSingular>
+    <displayTitle>▶Ego</displayTitle>
+    <displayTitleSingular>▶Ego</displayTitleSingular>
+    <shortName>▶EGO</shortName>
+    <shortTitle>▶Ego</shortTitle>
+    <narrationName>▶ego</narrationName>
+    <helpText>▶Il tuo {{W|Ego}} determina la potenza delle tue mutazioni mentali, la tua capacità di contrattare con i mercanti e la tua capacità di dominare la volontà di altre creature viventi.</helpText>
+  </statistic>
+  <statistic Name="AV">
+    <displayName>▶AV</displayName>
+    <displayNameSingular>▶AV</displayNameSingular>
+    <displayTitle>▶AV</displayTitle>
+    <displayTitleSingular>▶AV</displayTitleSingular>
+    <shortName>▶AV</shortName>
+    <shortTitle>▶AV</shortTitle>
+    <narrationName>▶AV</narrationName>
+    <helpText>▶Il tuo {{W|Valore Armatura (AV)}} misura quanto sei protetto dagli attacchi fisici che ti colpiscono. Più alto è il punteggio, meno volte l'attacco di un avversario penetrerà la tua armatura e ti infliggerà danni.</helpText>
+  </statistic>
+  <statistic Name="DV">
+    <displayName>▶DV</displayName>
+    <displayNameSingular>▶DV</displayNameSingular>
+    <displayTitle>▶DV</displayTitle>
+    <displayTitleSingular>▶DV</displayTitleSingular>
+    <shortName>▶DV</shortName>
+    <shortTitle>▶DV</shortTitle>
+    <narrationName>▶DV</narrationName>
+    <helpText>▶Il tuo {{W|Valore Schivata (DV)}} misura quanto è probabile che tu venga colpito dagli attacchi fisici. Più alto è il punteggio, meno è probabile che l'attacco di un avversario ti colpisca. Il tuo DV è modificato dal tuo modificatore di Agilità.</helpText>
+  </statistic>
+  <statistic Name="MA">
+    <displayName>▶MA</displayName>
+    <displayNameSingular>▶MA</displayNameSingular>
+    <displayTitle>▶MA</displayTitle>
+    <displayTitleSingular>▶MA</displayTitleSingular>
+    <shortName>▶MA</shortName>
+    <shortTitle>▶MA</shortTitle>
+    <narrationName>▶MA</narrationName>
+    <helpText>▶La tua {{W|Armatura Mentale (MA)}} misura quanto sei protetto dagli attacchi mentali. Più alto è il punteggio, meno è probabile che l'attacco mentale di un avversario penetri le tue difese e ti danneggi. La tua MA è modificata dal tuo modificatore di Forza di Volontà.</helpText>
+  </statistic>
+  <statistic Name="Speed">
+    <displayName>▶rapidità</displayName>
+    <displayNameSingular>▶rapidità</displayNameSingular>
+    <displayTitle>▶Rapidità</displayTitle>
+    <displayTitleSingular>▶Rapidità</displayTitleSingular>
+    <shortName>▶QN</shortName>
+    <shortTitle>▶QN</shortTitle>
+    <narrationName>▶rapidità</narrationName>
+    <helpText>▶La tua {{W|Rapidità}} misura la velocità con cui esegui ogni azione.</helpText>
+  </statistic>
+  <statistic Name="MoveSpeed">
+    <displayName>▶velocità di movimento</displayName>
+    <displayNameSingular>▶velocità di movimento</displayNameSingular>
+    <displayTitle>▶Velocità di Movimento</displayTitle>
+    <displayTitleSingular>▶Velocità di Movimento</displayTitleSingular>
+    <shortName>▶MS</shortName>
+    <shortTitle>▶MS</shortTitle>
+    <narrationName>▶velocità di movimento</narrationName>
+    <helpText>▶La tua {{W|Velocità di Movimento}} misura quanto velocemente cammini o voli.</helpText>
+  </statistic>
+  <statistic Name="Temperature">
+    <displayName>▶temperatura</displayName>
+    <displayNameSingular>▶temperatura</displayNameSingular>
+    <displayTitle>▶Temperatura</displayTitle>
+    <displayTitleSingular>▶Temperatura</displayTitleSingular>
+    <shortName>▶T</shortName>
+    <shortTitle>▶T</shortTitle>
+    <narrationName>▶temperatura</narrationName>
+    <helpText>▶La tua {{W|Temperatura}} misura quanto sei caldo o freddo. Essere troppo freddo può ridurre la tua Rapidità e impedirti di compiere azioni fisiche. Essere troppo caldo può farti prendere fuoco e causarti danni ogni turno.</helpText>
+  </statistic>
+  <statistic Name="AcidResistance">
+    <displayName>▶resistenza all'acido</displayName>
+    <displayNameSingular>▶resistenza all'acido</displayNameSingular>
+    <displayTitle>▶Resistenza all'Acido</displayTitle>
+    <displayTitleSingular>▶Resistenza all'Acido</displayTitleSingular>
+    <shortName>▶AR</shortName>
+    <shortTitle>▶AR</shortTitle>
+    <narrationName>▶resistenza all'acido</narrationName>
+    <helpText>▶La tua {{W|Resist. all'Acido}} determina quanti danni da acido assorbi. A 100, sei immune ai danni da acido.</helpText>
+  </statistic>
+  <statistic Name="ColdResistance">
+    <displayName>▶resistenza al freddo</displayName>
+    <displayNameSingular>▶resistenza al freddo</displayNameSingular>
+    <displayTitle>▶Resistenza al Freddo</displayTitle>
+    <displayTitleSingular>▶Resistenza al Freddo</displayTitleSingular>
+    <shortName>▶CR</shortName>
+    <shortTitle>▶CR</shortTitle>
+    <narrationName>▶resistenza al freddo</narrationName>
+    <helpText>▶La tua {{W|Resist. al Freddo}} determina quanti danni da freddo assorbi e quanto sei isolato dagli effetti che riducono la tua temperatura. A 100, sei immune ai danni da freddo e la tua temperatura non può essere ridotta.</helpText>
+  </statistic>
+  <statistic Name="ElectricResistance">
+    <displayName>▶resistenza elettrica</displayName>
+    <displayNameSingular>▶resistenza elettrica</displayNameSingular>
+    <displayTitle>▶Resistenza Elettrica</displayTitle>
+    <displayTitleSingular>▶Resistenza Elettrica</displayTitleSingular>
+    <shortName>▶ER</shortName>
+    <shortTitle>▶ER</shortTitle>
+    <narrationName>▶resistenza elettrica</narrationName>
+    <helpText>▶La tua {{W|Resist. Elettrica}} determina quanti danni elettrici assorbi e quanto sei resistente alla corrente elettrica. A 100, sei immune ai danni elettrici e non conduci elettricità.</helpText>
+  </statistic>
+  <statistic Name="HeatResistance">
+    <displayName>▶resistenza al calore</displayName>
+    <displayNameSingular>▶resistenza al calore</displayNameSingular>
+    <displayTitle>▶Resistenza al Calore</displayTitle>
+    <displayTitleSingular>▶Resistenza al Calore</displayTitleSingular>
+    <shortName>▶HR</shortName>
+    <shortTitle>▶HR</shortTitle>
+    <narrationName>▶resistenza al calore</narrationName>
+    <helpText>▶La tua {{W|Resist. al Calore}} determina quanti danni da calore assorbi e quanto sei isolato dagli effetti che aumentano la tua temperatura. A 100, sei immune ai danni da calore e la tua temperatura non può essere aumentata.</helpText>
+  </statistic>
+  <statistic Name="Hitpoints">
+    <displayName>▶punti vita</displayName>
+    <displayNameSingular>▶punto vita</displayNameSingular>
+    <displayTitle>▶Punti Vita</displayTitle>
+    <displayTitleSingular>▶Punto Vita</displayTitleSingular>
+    <shortName>▶HP</shortName>
+    <shortTitle>▶HP</shortTitle>
+    <narrationName>▶vita</narrationName>
+  </statistic>
+  <statistic Name="AP">
+    <displayName>▶punti attributo</displayName>
+    <displayNameSingular>▶punto attributo</displayNameSingular>
+    <displayTitle>▶Punti Attributo</displayTitle>
+    <displayTitleSingular>▶Punto Attributo</displayTitleSingular>
+    <shortName>▶AP</shortName>
+    <shortTitle>▶AP</shortTitle>
+    <narrationName>▶punti attributo</narrationName>
+  </statistic>
+  <statistic Name="MP">
+    <displayName>▶punti mutazione</displayName>
+    <displayNameSingular>▶punto mutazione</displayNameSingular>
+    <displayTitle>▶Punti Mutazione</displayTitle>
+    <displayTitleSingular>▶Punto Mutazione</displayTitleSingular>
+    <shortName>▶MP</shortName>
+    <shortTitle>▶MP</shortTitle>
+    <narrationName>▶punti mutazione</narrationName>
+  </statistic>
+  <statistic Name="SP">
+    <displayName>▶punti abilità</displayName>
+    <displayNameSingular>▶punto abilità</displayNameSingular>
+    <displayTitle>▶Punti Abilità</displayTitle>
+    <displayTitleSingular>▶Punto Abilità</displayTitleSingular>
+    <shortName>▶SP</shortName>
+    <shortTitle>▶SP</shortTitle>
+    <narrationName>▶punti abilità</narrationName>
+  </statistic>
+  <statistic Name="XP">
+    <displayName>▶punti esperienza</displayName>
+    <displayNameSingular>▶punto esperienza</displayNameSingular>
+    <displayTitle>▶Punti Esperienza</displayTitle>
+    <displayTitleSingular>▶Punto Esperienza</displayTitleSingular>
+    <shortName>▶XP</shortName>
+    <shortTitle>▶XP</shortTitle>
+    <narrationName>▶punti esperienza</narrationName>
+  </statistic>
+  <statistic Name="XPValue">
+    <displayName>▶valore esperienza</displayName>
+    <displayNameSingular>▶valore esperienza</displayNameSingular>
+    <displayTitle>▶Valore Esperienza</displayTitle>
+    <displayTitleSingular>▶Valore Esperienza</displayTitleSingular>
+    <shortName>▶XV</shortName>
+    <shortTitle>▶XV</shortTitle>
+    <narrationName>▶valore esperienza</narrationName>
+  </statistic>
+  <statistic Name="Level">
+    <displayName>▶livello</displayName>
+    <displayNameSingular>▶livello</displayNameSingular>
+    <displayTitle>▶Livello</displayTitle>
+    <displayTitleSingular>▶Livello</displayTitleSingular>
+    <shortName>▶LV</shortName>
+    <shortTitle>▶Lv</shortTitle>
+    <narrationName>▶livello</narrationName>
+  </statistic>
+  <statistic Name="Energy">
+    <displayName>▶energia</displayName>
+    <displayNameSingular>▶energia</displayNameSingular>
+    <displayTitle>▶Energia</displayTitle>
+    <displayTitleSingular>▶Energia</displayTitleSingular>
+    <shortName>▶EN</shortName>
+    <shortTitle>▶EN</shortTitle>
+    <narrationName>▶energia</narrationName>
+  </statistic>
+</statistics>
