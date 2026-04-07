@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.17
+
+<factions>
+
+  <faction Name="Key" DisplayName="DisplayText" FormatWithArticle="" Plural="">
+  FormatWithArticle: Boolean true/false - will include article when displaying the name
+  Plural: Boolean true/false
+
+    <waterritual recipetext="DisplayText">
+
+    <interests Blurb="DisplayText">
+
+      <interest Tags="Key" WillBuy="Key" WillSell="Key" MatchAny="Key" Inverse="Key" Description="DisplayText">
+
+    <ranks>
+
+      <rank Name="Key" DisplayName="DisplayText">
+
+-->
+<factions Lang="example" Encoding="utf-8">
+  <faction Name="Sludges" DisplayName="▶sludges" />
+  <faction Name="Soups" DisplayName="▶soups">
+    <interests>
+      <interest Tags="soups" Description="▶soups" />
+      <interest Tags="stews" Description="▶stews" />
+      <interest Tags="messes" Description="▶messes of all kinds" />
+    </interests>
+  </faction>
+  <faction Name="Gelatinous Polyhedra" DisplayName="▶gelatinous polyhedra">
+    <interests>
+      <interest Tags="shapes" WillBuy="true" WillSell="false" Description="▶theoretical shapes and volumes" />
+    </interests>
+  </faction>
+  <faction Name="Jellies" DisplayName="▶jellies">
+    <interests>
+      <interest Tags="gelatin" WillBuy="false" WillSell="true" Description="▶meals made of gelatin" />
+    </interests>
+  </faction>
+  <faction Name="Slimes" DisplayName="▶slimes" />
+  <faction Name="Amoeba" DisplayName="▶amoeba">
+    <interests>
+      <interest Tags="adhesion" WillBuy="true" WillSell="false" Description="▶cell adhesion" />
+    </interests>
+  </faction>
+  <faction Name="Algae" DisplayName="▶algae">
+    <interests>
+      <interest Tags="lakesrivers" Description="▶the locations of lakes and rivers" />
+    </interests>
+  </faction>
+  <faction Name="Cocci" DisplayName="▶cocci">
+    <interests>
+      <interest Tags="moistproteinrich" Description="▶the locations of moist, protein-rich environments" />
+      <interest Tags="skinnasal" Description="▶skin and nasal cavities" />
+    </interests>
+  </faction>
+  <faction Name="Bacilli" DisplayName="▶bacilli">
+    <interests>
+      <interest Tags="moistproteinrich" Description="▶the locations of moist, protein-rich environments" />
+      <interest Tags="sporedispersal" Description="▶spore dispersal" />
+    </interests>
+  </faction>
+  <faction Name="Spirilla" DisplayName="▶spirilla">
+    <interests>
+      <interest Tags="moistproteinrich" Description="▶the locations of moist, protein-rich environments" />
+      <interest Tags="spirals" Description="▶spirals" />
+    </interests>
+  </faction>
+  <faction Name="Vibrios" DisplayName="▶vibrios">
+    <interests>
+      <interest Tags="moistproteinrich" Description="▶the locations of moist, protein-rich environments" />
+      <interest Tags="coves" WillBuy="true" WillSell="false" Description="▶the locations of coves and estuaries" />
+    </interests>
+  </faction>
+  <faction Name="Spirochaetes" DisplayName="▶spirochaetes">
+    <interests>
+      <interest Tags="moistproteinrich" Description="▶the locations of moist, protein-rich environments" />
+      <interest Tags="spirals" Description="▶spirals" />
+    </interests>
+  </faction>
+  <faction Name="Methanogens" DisplayName="▶methanogens">
+    <interests>
+      <interest Tags="methane" WillBuy="false" WillSell="true" Description="▶the locations of methane bogs" />
+    </interests>
+  </faction>
+  <faction Name="Thermoacidophiles" DisplayName="▶thermoacidophiles" />
+  <faction Name="Halophiles" DisplayName="▶halophiles" />
+  <faction Name="Molds" DisplayName="▶molds">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+      <interest Tags="network" Description="▶network topology" />
+    </interests>
+  </faction>
+  <faction Name="Mushrooms" DisplayName="▶mushrooms">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of hatters" />
+    </interests>
+  </faction>
+  <faction Name="Rusts" DisplayName="▶rusts">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+    </interests>
+  </faction>
+  <faction Name="Smuts" DisplayName="▶smuts">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+      <interest Tags="plantlairs" Description="▶the locations of plant lairs" />
+    </interests>
+  </faction>
+  <faction Name="Mildews" DisplayName="▶mildews">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+      <interest Tags="moldelders" Description="▶the locations of mold mentors" />
+    </interests>
+  </faction>
+  <faction Name="Yeasts" DisplayName="▶yeasts">
+    <interests>
+      <interest Tags="dead" WillBuy="true" WillSell="false" Description="▶the locations of dead things" />
+      <interest Tags="beerbreadwine" WillBuy="false" WillSell="true" Description="▶beer, bread, and wine" />
+    </interests>
+  </faction>
+  <faction Name="Crystal" DisplayName="▶splayed crystal-things that glint">
+    <interests>
+      <interest Tags="thingsunknown" Description="▶things others cannot possibly know" />
+    </interests>
+  </faction>
+  <faction Name="Snailfolk" DisplayName="▶snailfolk">
+    <interests>
+      <interest Tags="soups" Description="▶soups" />
+      <interest Tags="stews" Description="▶stews" />
+      <interest Tags="teas" Description="▶teas" />
+    </interests>
+  </faction>
+  <faction Name="Walking Ibes" DisplayName="▶walking ibes">
+    <interests>
+      <interest Tags="talltrees" WillBuy="true" WillSell="false" Description="▶the locations of tall trees" />
+      <interest Tags="music" WillBuy="false" WillSell="true" Description="▶musical performances" />
+    </interests>
+  </faction>
+  <faction Name="Elephantines" DisplayName="▶elephantines" />
+  <faction Name="Yanshufim" DisplayName="▶yanshufim" FormatWithArticle="true">
+    <interests>
+      <interest Tags="astral" WillBuy="true" WillSell="false" Description="▶locations of astral weakness" />
+    </interests>
+  </faction>
+  <faction Name="Foxen" DisplayName="▶foxen">
+    <interests>
+      <interest Tags="games" Description="▶games of chance" />
+      <interest Tags="rivers" Description="▶the location of rivers" />
+    </interests>
+  </faction>
+  <faction Name="Batfolk" DisplayName="▶batfolk">
+    <interests>
+      <interest Tags="caves" Description="▶caves" />
+      <interest Tags="vaultedroofs" WillBuy="true" WillSell="false" Description="▶the locations of vaulted roofs" />
+    </interests>
+  </faction>
+  <faction Name="Nephilim">
+    <interests>
+      <interest Tags="becoming" Description="▶becoming creatures of sense and purpose" />
+      <interest Tags="managingCult" Description="▶the management of worshippers" />
+    </interests>
+  </faction>
+  <faction Name="Knight Liminal" DisplayName="▶Knights Liminal" FormatWithArticle="true">
+    <interests>
+      <interest Tags="limen" Description="▶the Limen" />
+    </interests>
+  </faction>
+  <faction Name="Quetzal Council" DisplayName="▶Quetzal Council" FormatWithArticle="true">
+    <interests>
+      <interest Tags="self-sovereignty" Description="▶self-sovereignty" />
+      <interest Tags="plaguemitigation" Description="▶the mitigation of plagues" />
+    </interests>
+  </faction>
+  <faction Name="Chiliad Mamon" DisplayName="▶Grandchildren of Mamon" FormatWithArticle="true">
+    <interests>
+      <interest Tags="generationaltrauma" Description="▶the trauma of generational scars" />
+    </interests>
+  </faction>
+</factions>
