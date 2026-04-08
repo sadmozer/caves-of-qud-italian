@@ -1,0 +1,499 @@
+  <object Name="Lamprey Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|morso psichico}}" />
+  </object>
+  <object Name="BaseBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶breathbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="Breather_Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶denti tricuspidi" />
+  </object>
+  <object Name="Breather_Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio" />
+  </object>
+  <object Name="BaseBreatherCorpse" Load="Merge">
+    <part Name="Description" Short="▶La nebbia evapora dalle crepe tra le sue scaglie che si seccano." />
+    <part Name="Food" Message="▶Si incrina e riempie la tua bocca di nebbia." />
+  </object>
+  <object Name="FireBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶flamebeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa fumante punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="FireBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di flamebeard" />
+  </object>
+  <object Name="IceBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶sleetbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa gelida punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="IceBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di sleetbeard" />
+  </object>
+  <object Name="CorrosiveBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶tartbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa sfrigolante punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="CorrosiveBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di tartbeard" />
+  </object>
+  <object Name="NormalityBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶nullbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa esagonale punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="NormalityBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di nullbeard" />
+  </object>
+  <object Name="PoisonBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶gallbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa nociva punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="PoisonBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di gallbeard" />
+  </object>
+  <object Name="SleepBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶dreambeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa onirica punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="SleepBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di dreambeard" />
+  </object>
+  <object Name="StunBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶stillbeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa immobile punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="StunBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di stillbeard" />
+  </object>
+  <object Name="ConfusionBreather" Load="Merge">
+    <part Name="Render" DisplayName="▶mazebeard" />
+    <part Name="Description" Short="▶Scaglie rotolanti tessellano la forma robusta e curva di =pronouns.possessive=, e particelle di condensa abbagliante punteggiano il =pronouns.possessive= mento gonfio." />
+  </object>
+  <object Name="ConfusionBreatherCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di mazebeard" />
+  </object>
+  <object Name="Troll" Load="Merge">
+    <part Name="Render" DisplayName="▶troll" />
+  </object>
+  <object Name="Troll Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di troll" />
+    <part Name="Description" Short="▶Un grande mucchio di capelli bagnati e carne in decomposizione crea un rilievo sul terreno." />
+    <part Name="Food" Message="▶La carne è dura e avvolta nei peli." />
+  </object>
+  <object Name="Troll Foal" Load="Merge">
+    <part Name="Render" DisplayName="▶puledro di troll" />
+    <part Name="Description" Short="▶Spalle ruvide e irte, umide di liquido amniotico, ancorano braccia troppo lunghe e goffe, e il =pronouns.possessive= ampio dorso si tende con i muscoli appena allenati." />
+  </object>
+  <object Name="Troll King" Load="Merge">
+    <part Name="Render" DisplayName="▶re dei troll" />
+  </object>
+  <object Name="Troll King 1" Load="Merge">
+    <part Name="Render" DisplayName="▶Jotun" />
+    <part Name="Description" Short="▶Un umanoide canuto si curva sotto il peso del =pronouns.possessive= dorso ampio e scosceso. Fibre inzuppate di capelli scuri e arruffati avvolgono le grandi rocce pallide delle spalle, e sul =pronouns.possessive= ampio petto incrociati si trovano due asce di carburo arrugginite. Palpebre raggrinzite sono socchiuse sui dischi dei =pronouns.possessive= occhi lenti, appannati nel ristoro di un bagno di convalescenza." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Troll King 2" Load="Merge">
+    <part Name="Render" DisplayName="▶Fjorn-Kosef" />
+    <part Name="Description" Short="▶Una rete di gelo intrecciato avvolge la =pronouns.possessive= barba ispida e i folti capelli sopracciliari. La grande lastra ossea della =pronouns.possessive= testa è coronata da un diadema di respiro glaciale, e le =pronouns.possessive= braccia, lunghe e rachitiche e pallide come la morte, sono tatuate con motivi di filamenti scintillanti." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Fjolnir Fist" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|pugno incrostato di ghiaccio}}" />
+  </object>
+  <object Name="Troll King 3" Load="Merge">
+    <part Name="Render" DisplayName="▶Haggabah" />
+    <part Name="Description" Short="▶Dove luce su luce nuota e danza, buio su buio strepita e sbrana. Non c'è continuità nel movimento; invece il vuoto nero sembra a volte incendiarsi improvvisamente in una forma prima di sfumarsi di nuovo. Gli occhi si contraggono a questa cesura, e l'impressione di esserci svanisce di nuovo." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="HagHands" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|adumbral}} mano" />
+  </object>
+  <object Name="Addling Urchin" Load="Merge">
+    <part Name="Render" DisplayName="▶riccio stordente" />
+    <part Name="Description" Short="▶Una palla di spugna stigia è incollata al pavimento e chiazzata di rugiada disorientante." />
+  </object>
+  <object Name="Adiyy" Load="Merge">
+    <part Name="Render" DisplayName="▶adiyy" />
+    <part Name="Description" Short="▶Luccichii del Fuso piovvero dal cielo e seminarono la valle oloptica dell'occhio dell'adiyy. Vi germinarono molecole gluttoni che succhiarono il colore dalla testa, dal torace e dalle ali dell'insetto. Disfecero l'adiyy, lasciandolo a volteggiare di foglia in foglia, mezzo cieco e lugubre." />
+  </object>
+  <object Name="Adiyy_Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶morso acromo" />
+  </object>
+  <object Name="Agolzvuv" Load="Merge">
+    <part Name="Render" DisplayName="▶agolzvuv" />
+    <part Name="Description" Short="▶Il latte di tubatura marcio ha inzuppato le =pronouns.possessive= ali e le ha incollate permanentemente ai =pronouns.possessive= fianchi come una seconda pelle. Aculei umidi di pus avvolgono come guanti un paio di zampe anteriori e mediane simili a quelle di una mosca, mentre un terzo paio si piega sotto il =pronouns.possessive= addome, magro e nudo." />
+  </object>
+  <object Name="Agolzvuv_Foreleg_Barbs" Load="Merge">
+    <part Name="Render" DisplayName="▶zampa anteriore spinosa" />
+  </object>
+  <object Name="Agolzvuv_Midleg_Barbs" Load="Merge">
+    <part Name="Render" DisplayName="▶zampa mediana spinosa" />
+  </object>
+  <object Name="Aloe Fugues" Load="Merge">
+    <part Name="Render" DisplayName="▶aloe fugues" />
+    <part Name="Description" Short="▶Canali fogliari screziati si dispiegano a rosetta. Portano tutti le stesse imperfezioni." />
+  </object>
+  <object Name="Baetyl" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|baetyl}}" />
+    <part Name="PartsGas" NameForStatus="▶ParticulateRepulsion" />
+    <xtagTextFragments Skin="▶chassis" PoeticFeatures="▶lucentezza al cromo,diodi lampeggianti,prese d'aria" YounglingNoise="▶*beep*,*boop*" Activity="▶ricomporre significato da secoli di inversioni di bit" VillageActivity="▶emettere un impulso monotono" SacredThing="▶vita meccanica" />
+  </object>
+  <object Name="SparkingBaetyl" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|baetyl scintillante}}" />
+    <part Name="Description" Short="▶Una lente di vetro si è incrostata sulla pietra levigata dove il calore della matematica sacra ha bruciato l'aria prima di raffreddarsi in C.V.D. Sotto quel derma e lo strato meteoritico, un cuore elettrico macina nel campo magnetico del nucleo terrestre e irradia una cascata di scintille." />
+  </object>
+  <object Name="BananaRancher" Load="Merge">
+    <part Name="Render" DisplayName="▶allevatore di banane" />
+    <part Name="Description" Short="▶=pronouns.Subjective= =verb:maneuver:afterpronoun= sotto una tunica di tela di sacco e crine di capra intrecciato. La =pronouns.Possessive= pelle olivastra e i capelli color paglia luccicano di polvere del Fuso." />
+  </object>
+  <object Name="Bloated Pearlfrog" Load="Merge">
+    <part Name="Render" DisplayName="▶rana-perla gonfia" />
+    <part Name="Description" Short="▶La pelle del ventre depigmentata è tumefatta dalla materia di insetti tritata in una perla gigante e matura. Le sue zampe sono state riassorbite dal grasso; l'arte del salto padroneggiata dai suoi antenati sopravvive solo nella memoria ancestrale." />
+  </object>
+  <object Name="Bloated Pearlfrog Corpse" Load="Merge">
+    <part Name="Description" Short="▶Zampe aperte e gambe incrinatesi sono ripiegate sotto un corpo gigante e schiacciato." />
+    <part Name="Render" DisplayName="▶cadavere di rana-perla gonfia" />
+    <part Name="Food" Message="▶La carne sa di segatura senza tempo." />
+  </object>
+  <object Name="Boosterbot" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|boosterbot}}" />
+    <part Name="Description" Short="▶Una faccia a sella di materiale metallico scrutabile mostra pittogrammi di guarigione e trasformazione. Ruota su un cardine che si biforca in due braccia di cromo, ciascuna dotata di una mano a scatto rapido con dita scanalate per il potenziamento." />
+  </object>
+  <object Name="Boosterbot_Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶mano utile" />
+  </object>
+  <object Name="Boosterbot_Gun" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola potenziatore" />
+    <part Name="Description" Short="▶È una piccola balestra con un ampio canna per contenere i dardi." />
+  </object>
+  <object Name="Cyclopean Gibbon" Load="Merge">
+    <part Name="Render" DisplayName="▶gibbone ciclope" />
+    <part Name="Description" Short="▶Lunghi arti ricoperti di pelo scattano per proiettare la =pronouns.possessive= snella corporatura attraverso il mondo brachiato. Un solo occhio rompe il piano del =pronouns.possessive= viso nudo; la mancanza di percezione della profondità potrebbe inibire la =pronouns.possessive= efficacia nel lancio, se =pronouns.subjective= non fosse in grado di triangolare un bersaglio con i propri duplicati." />
+  </object>
+  <object Name="Gibbon Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di gibbone" />
+  </object>
+  <object Name="Diplomacy Droid" Load="Merge">
+    <part Name="Description" Short="▶Una figura slanciata è rivestita di cromo leggero battuto da martello e morsa per sembrare tessuto ammassato e approssimare il corpo politico. Il =pronouns.Possessive= pannello frontale è stampigliato con un'espressione neutra." />
+    <part Name="Render" DisplayName="▶droide della diplomazia" />
+  </object>
+  <object Name="Gelatinous Prism" Load="Merge">
+    <part Name="Render" DisplayName="▶prisma gelatinoso" />
+    <part Name="Description" Short="▶La materia organica viene liquefatta dagli agenti della decomposizione e pressurizzata dagli spazi angusti in forme prismatoidi. Galvanizzata da un istinto affine alla fame, l'entità gelatinosa ora si estrude in avanti in forma di prisma." />
+  </object>
+  <object Name="Gyrohumor" Load="Merge">
+    <part Name="Render" DisplayName="▶gyrohumor" />
+    <part Name="Description" Short="▶Gli umori sono i frammenti erosi della terra: polvere scagliata da un muro di scisto millenario, salamoia che cola attraverso una crepa sottilissima nel cromo, rugiada aggrappata all'imboccatura di un tubo dopo che ha eruttato il suo vapore settico. Nelle condizioni giuste, a scale temporali impenetrabili ai conoscenti, i frammenti vengono ammucchiati dalla geometria dell'entropia e ridati forma di materia prima." />
+  </object>
+  <object Name="Gyrohumor_Pseudopod" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|gigantesco pseudopodio}}" />
+  </object>
+  <object Name="FungusPuffer" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|soffio covante}}" />
+  </object>
+  <object Name="FungusPuffer1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|soffio d'oro covante}}" />
+    <part Name="Description" Short="▶Branchie auree si tendono e rilasciano, si tendono e rilasciano, si tendono e rilasciano, come se inspirassero nel gambo del puffer. Ad ogni espirazione erutta una nuvola di spore dorate come mote di luce solare. Si posano di nuovo sul cappello e si rapprendono in plasma dorato." />
+  </object>
+  <object Name="FungusPuffer2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|soffio azzurro covante}}" />
+    <part Name="Description" Short="▶Branchie azzurre si tendono e rilasciano, si tendono e rilasciano, si tendono e rilasciano, come se inspirassero nel gambo del puffer. Ad ogni espirazione erutta una nuvola di spore indaco come mote di crepuscolo. Si posano di nuovo sul cappello e si rapprendono in plasma azzurro." />
+  </object>
+  <object Name="FungusPuffer3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|soffio rosa covante}}" />
+    <part Name="Description" Short="▶Branchie rosate si tendono e rilasciano, si tendono e rilasciano, si tendono e rilasciano, come se inspirassero nel gambo del puffer. Ad ogni espirazione erutta una nuvola di spore rubino come mote di crepuscolo. Si posano di nuovo sul cappello e si rapprendono in plasma rosa." />
+  </object>
+  <object Name="FungusPuffer4" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g|soffio giada covante}}" />
+    <part Name="Description" Short="▶Branchie di giada si tendono e rilasciano, si tendono e rilasciano, si tendono e rilasciano, come se inspirassero nel gambo del puffer. Ad ogni espirazione erutta una nuvola di spore smeraldo come mote di crepuscolo. Si posano di nuovo sul cappello e si rapprendono in plasma di giada." />
+  </object>
+  <object Name="Juicing Cannibal" Load="Merge">
+    <part Name="Render" DisplayName="▶cannibale inoculato" />
+    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un =pronouns.personTerm= oltre il patogeno: muscoli rigonfi in grottesca asimmetria, pelle sia dilaniata che squamosa, denti limati in zanne, pupille tremanti dilatate come monete, e sclere vive di tributari di sangue." />
+  </object>
+  <object Name="Juicing Cannibal Fist" Load="Merge">
+    <part Name="Render" DisplayName="▶pugno" />
+  </object>
+  <object Name="Laser Turret Tinker" Load="Merge">
+    <part Name="Render" DisplayName="▶artigiano di torrette laser" />
+  </object>
+  <object Name="Ickslug" Load="Merge">
+    <part Name="Render" DisplayName="▶ickslug" />
+    <part Name="Description" Short="▶Una distesa inzuppata di tessuto molle si salda al pavimento. =pronouns.Subjective= =verb:crumple:afterpronoun= di vita ardente." />
+  </object>
+  <object Name="Ickslug Bite" Load="Merge">
+    <part Name="VibroWeapon" NameForStatus="▶VibroTeeth" />
+  </object>
+  <object Name="Irritable Palm" Load="Merge">
+    <part Name="Render" DisplayName="▶palma irritabile" />
+    <part Name="Description" Short="▶Fronde di muscovite si inclinano sotto il loro peso minerale. Tutto ciò che si avvicina e oscura la sua luce solare viene fustigato per la sua colpa." />
+  </object>
+  <object Name="Irritable Palm Frond" Load="Merge">
+    <part Name="Render" DisplayName="▶fronda" />
+  </object>
+  <object Name="Lagroot" Load="Merge">
+    <part Name="Render" DisplayName="▶lagroot" />
+    <part Name="Description" Short="▶Radici spinose si biforcano in somiglianza neuronale. I loro tuberi dendritici attendono di essere legati." />
+    <stag Name="Plank" Value="▶doga" />
+  </object>
+  <object Name="Mimic" Load="Merge">
+    <part Name="Render" DisplayName="▶mimo" />
+    <part Name="Description" Short="▶Una forma a stella di tentacoli puri e gommosi freme al punto zero. Quando =pronouns.subjective= =verb:sense:afterpronoun= qualcosa nelle vicinanze, la corrente elettrica carica una scala di fotoni specchio per replicare l'immagine." />
+  </object>
+  <object Name="Mimic Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di mimo" />
+    <part Name="Food" Message="▶Si dissolve in un mélange di sapori." />
+  </object>
+  <object Name="Molting Basilisk" Load="Merge">
+    <part Name="Render" DisplayName="▶spoglia di basilisco in muta" />
+    <part Name="Description" Short="▶La pelle in muta è quarzo opaco e statuaria." />
+  </object>
+  <object Name="Molting Basilisk Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶morso pietroso" />
+    <part Name="VibroWeapon" NameForStatus="▶VibroTeeth" />
+  </object>
+  <object Name="Molting Basilisk Husk" Load="Merge">
+    <part Name="Render" DisplayName="▶spoglia di basilisco in muta" />
+    <part Name="Description" Short="▶La pelle in muta è quarzo opaco e statuaria." />
+  </object>
+  <object Name="Normality Bot" Load="Merge">
+    <part Name="Render" DisplayName="▶estintore di anomalie" />
+    <part Name="Description" Short="▶La =pronouns.Possessive= codifica più profonda è l'imperativo morale: 'estinguere le anomalie spaziali e temporali, che provengano dal caso, dalla malevolenza o dal destino planare.'" />
+  </object>
+  <object Name="Point-Defense Laser" Load="Merge">
+    <part Name="Render" DisplayName="▶laser di difesa puntuale" />
+    <part Name="RespondToEvent" NameForStatus="▶TrackingDataProcessor" />
+    <part Name="Description" Short="▶È un mezzo occhio robotico sormontato da un telaio biforcuto e abbellito con ciglia antenna. Un minuscolo canna sbuca dalla sua pupilla e vibra. La palpebra interna è articolata, permettendo al drone di scansionare i proiettili in arrivo e abbatterli." />
+  </object>
+  <object Name="Bot Mallet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|mazzuolo}}" />
+  </object>
+  <object Name="Phase Spider" Load="Merge">
+    <part Name="Render" DisplayName="▶ragno di fase" />
+    <part Name="Description" Short="▶Il =pronouns.Possessive= sterno aracnide e otto zampe ricurve sono appiattiti allo spessore della carta per scivolare attraverso le lastre psicotectoniche dello spaziotempo. La luce di due dimensioni scivola su =pronouns.objective=." />
+  </object>
+  <object Name="Pulsed Field Magnet" Load="Merge">
+    <part Name="Render" DisplayName="▶magnete a campo pulsato" />
+    <part Name="Description" Short="▶Un obelisco di cromo adombra il pavimento nella sua gigantesca ombra, e il metallo accorre stridendo a genuflettarsi alla sua base." />
+  </object>
+  <object Name="Quartz Baboon" Load="Merge">
+    <part Name="Render" DisplayName="▶babbuino di quarzo" />
+    <part Name="Description" Short="▶Una volta il quarzo cristallizzò sulla pelle di una scimmia che si bagnava nelle pozze fumanti del sottosuolo. =pronouns.Subjective= fu scolpita dal raspo della pressione e dalla mano del tempo, e ora le =pronouns.possessive= vocali gutturali rimbalzano verso l'orecchio del vuoto." />
+  </object>
+  <object Name="Vicious_Baboon_Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶morso feroce" />
+  </object>
+  <object Name="Quartz Baboon Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di babbuino di quarzo" />
+    <part Name="Food" Message="▶La carne è dura come la pietra." />
+  </object>
+  <object Name="Red Death Dacca" Load="Merge">
+    <part Name="Render" DisplayName="▶{{r|dacca della morte rossa}}" />
+    <part Name="Description" Short="▶Mani rovesciate sono intrise nel sangue della fauna i cui animi furono ingannati dai grappoli variopinti delle sue non-banane. Le sue fronde sono più rigide del suo aspetto." />
+  </object>
+  <object Name="Red Death Dacca Hand" Load="Merge">
+    <part Name="Render" DisplayName="▶mano rossa" />
+  </object>
+  <object Name="Rimewyk" Load="Merge">
+    <part Name="Render" DisplayName="▶rimewyk" />
+    <part Name="Description" Short="▶Granelli di polvere congelati per eoni pietrosi marmorano il giogolare di un'iguana blu gigante." />
+  </object>
+  <object Name="Rimewyk_Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶{{icy|fauci gelide}}" />
+  </object>
+  <object Name="Slumberling" Load="Merge">
+    <part Name="Render" DisplayName="▶slumberling" />
+    <part Name="Description" Short="▶Quasi lo scambi per un masso, poi noti una piega nella =pronouns.possessive= pelle mentre =pronouns.subjective= =verb:draw:afterpronoun= un respiro lento, ibernativo. Improvvisamente capisci il detto tra gli allevatori di maiali: temi sempre i grandi massi." />
+  </object>
+  <object Name="Slumberling Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio" />
+  </object>
+  <object Name="Snailmother" Load="Merge">
+    <part Name="Render" DisplayName="▶madre lumaca" />
+    <part Name="Description" Short="▶Da un guscio immacolato di citrino rotolante, azzurro ghiacciato e giada lucidata, il collo viscoso si drizza verso l'alto e libera un uovo palpitante dalla =pronouns.possessive= morsa gelatinosa." />
+  </object>
+  <object Name="Snailmother Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di madre lumaca" />
+  </object>
+  <object Name="BrokenSnailmotherEgg" Load="Merge">
+    <part Name="Render" DisplayName="▶uovo di lumaca rotto" />
+    <part Name="Description" Short="▶Pezzi di guscio imploso giaciono in una zuppa sfatta di muco." />
+  </object>
+  <object Name="SnailmotherEgg" Load="Merge">
+    <part Name="Render" DisplayName="▶uovo di lumaca" />
+    <part Name="Description" Short="▶Un uovo circondato da muco con crepe sottilissime." />
+  </object>
+  <object Name="Urchin Belcher" Load="Merge">
+    <part Name="Render" DisplayName="▶eruttatore di ricci" />
+    <part Name="Description" Short="▶I ricci si appiccicano al tessuto scivoloso di schiuma di una bocca cavernosa mentre pinne dai raggi morbidi trascinano il corpo di pesce mastodontico sul terreno." />
+  </object>
+  <object Name="Urchin Belcher Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un mucchio di scaglie bagnate giace in una corona di morte gonfia." />
+    <part Name="Render" DisplayName="▶cadavere di eruttatore di ricci" />
+    <part Name="Food" Message="▶Il grasso inumidito si scioglie lentamente." />
+  </object>
+  <object Name="Waveform Worm" Load="Merge">
+    <part Name="Description" Short="▶Anelli di carne metamerici sono uniti in linea e stipati lungo una forma d'onda. Quando una delle fluttuazioni casuali per trilione al secondo causa un'increspatura nel tessuto cosmico, il verme si allinea a uno schema di interferenza costruttiva e viene proiettato in avanti." />
+    <part Name="Render" DisplayName="▶verme a forma d'onda" />
+  </object>
+  <object Name="WaveformWorm_Crush" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|bande schiaccanti}}" />
+  </object>
+  <object Name="White Esh" Load="Merge">
+    <part Name="Render" DisplayName="▶esh bianco" />
+    <part Name="Description" Short="▶Piume bianche come fiamma si piegano in una sinuosa curva di riposo. Le zampe a stelo e il becco da pescatore del =pronouns.Possessive= incorniciano il =pronouns.possessive= corpo in tonalità di corallo e orchidea." />
+  </object>
+  <object Name="WhiteEsh_Beak" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|becco adunco}}" />
+  </object>
+  <object Name="Mechanimist Zealot" Load="Merge">
+    <part Name="Render" DisplayName="▶zelota Mechanimista" />
+    <part Name="Description" Short="▶Ingranaggi e tondeggianti di tutte le dimensioni sono tatuati ai margini del =pronouns.possessive= corpo, e le =pronouns.possessive= labbra fremono nella recitazione della liturgia cromaica." />
+  </object>
+  <object Name="Mechanimist Catechist" Load="Merge">
+    <part Name="Render" DisplayName="▶catechista Mechanimista" />
+    <part Name="Description" Short="▶L'insegnante ornato di ciocche salate usa le =pronouns.possessive= dita per contare la ghematria e trasformare i numeri sacri in parole di significato." />
+  </object>
+  <object Name="Mechanimist Choraler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|corista Mechanimista}}" />
+    <part Name="Description" Short="▶Mani tatuate con pistoni si agitano in accompagnamento al tintinnio in falsetto del =pronouns.possessive=, inteso a replicare il suono dell'eco stellare che sfiora l'orbe di Kasaphescence nella polvere ovattata dello spazio." />
+  </object>
+  <object Name="Mechanimist Houndmaster" Load="Merge">
+    <part Name="Render" DisplayName="▶mastro di cani Mechanimista" />
+    <part Name="Description" Short="▶Le labbra del tutor di cani sono unte dal =pronouns.possessive= flusso costante di ringhii ghematriali, fonemi filati attraverso setacci numerologici, su cui i cani vengono addestrati." />
+  </object>
+  <object Name="Mechanimist Priest 1" Load="Merge">
+    <part Name="Render" DisplayName="▶sacerdote Mechanimista" />
+    <part Name="Description" Short="▶Su un registro sotto il tintinnio in falsetto dei =pronouns.possessive= coristi, il sacerdote intona versi dai Cantici Cromaici. I gesti enfatici delle braccia gonfiano le maniche del =pronouns.possessive= abito in grandi vele, rigonfie nell'aria estatica." />
+  </object>
+  <object Name="Mechanimist Preacher 1" Load="Merge">
+    <part Name="Render" DisplayName="▶predicatore Mechanimista" />
+    <part Name="Preacher" Prefix="▶Il predicatore dice, {{W|'" Frozen="▶Il predicatore borbotta in modo inudibile, rinchiuso nel ghiaccio." />
+  </object>
+  <object Name="Mechanimist Preacher 2" Load="Merge">
+    <part Name="Render" DisplayName="▶predicatore Mechanimista" />
+    <part Name="Preacher" Prefix="▶Il predicatore dice, {{W|'" Frozen="▶Il predicatore borbotta in modo inudibile, rinchiuso nel ghiaccio." />
+  </object>
+  <object Name="Mechanimist Preacher 3" Load="Merge">
+    <part Name="Render" DisplayName="▶predicatore Mechanimista" />
+    <part Name="Preacher" Prefix="▶Il predicatore dice, {{W|'" Frozen="▶Il predicatore borbotta in modo inudibile, rinchiuso nel ghiaccio." />
+  </object>
+  <object Name="Mechanimist Preacher 4" Load="Merge">
+    <part Name="Render" DisplayName="▶predicatore Mechanimista" />
+    <part Name="Preacher" Prefix="▶Il predicatore dice, {{W|'" Frozen="▶Il predicatore borbotta in modo inudibile, rinchiuso nel ghiaccio." />
+  </object>
+  <object Name="Mechanimist Temple Paladin" Load="Merge">
+    <part Name="Render" DisplayName="▶paladino Mechanimista" />
+    <part Name="Description" Short="▶Un paio di trecce a scala incorniciano il =pronouns.possessive= viso come marginalità circuitali nei Cantici Cromaici. Le =pronouns.Possessive= spalle larghe e i trapezi portano l'impronta della pratica del raggio saldante e dell'egida, strumenti artigianali che fungono anche da armamenti sacri." />
+  </object>
+  <object Name="Mechanimist Warden" Load="Merge">
+    <part Name="Render" DisplayName="▶guardiano del Sanctum" />
+  </object>
+  <object Name="Stilt Warden" Load="Merge">
+    <part Name="Render" DisplayName="▶protettore dello Stilt" />
+  </object>
+  <object Name="Banner-Knight Templar" Load="Merge">
+    <part Name="Render" DisplayName="▶Cavaliere Templare Stendardo" />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gravati dal peso del Santo Rombo." />
+  </object>
+  <object Name="Gunner-Knight Templar" Load="Merge">
+    <part Name="Render" DisplayName="▶Cavaliere Templare Cannoniere" />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. Le =pronouns.Possessive= mani si appiccicano alla canna fredda del =pronouns.possessive= fucile." />
+  </object>
+  <object Name="Knight Commander of the Holy Temple" Load="Merge">
+    <part Name="Render" DisplayName="▶Comandante dei Cavalieri del Tempio Sacro" />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. Il =pronouns.Possessive= petto è proiettato verso l'alto in emulazione della =pronouns.possessive= nobiltà avanzata." />
+  </object>
+  <object Name="Knight Templar" Load="Merge">
+    <part Name="Render" DisplayName="▶Cavaliere Templare" />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
+  </object>
+  <object Name="Newfather" Load="Merge">
+    <part Name="Render" DisplayName="▶nuovo padre" />
+    <part Name="Description" Short="▶Labbra bianche pendono dal =pronouns.possessive= viso incappucciato e mascelluto nell'asimmetria della delusione. Il =pronouns.Possessive= sopracciglio comprime la morbidezza fuori dai =pronouns.possessive= occhi esangui. =pronouns.Subjective= guarda i propri nuovi figli con una miscela di viva tenerezza e disgusto. Per =pronouns.objective=, sono piccoli burattini; le loro membra devono essere piegate intorno alle articolazioni con amorosa precisione, o verranno spalancate dalle loro stesse volontà, inutili e rotte." />
+  </object>
+  <object Name="Phylactery Squire" Load="Merge">
+    <part Name="Render" DisplayName="▶scudiero del filatterio" />
+    <part Name="Description" Short="▶La pelle umida scintilla dietro le =pronouns.possessive= orecchie. La =pronouns.Possessive= colonna vertebrale si incurva in attesa della sua curvatura destinata nel sangue, e =pronouns.subjective= =verb:poke:afterpronoun= il =pronouns.possessive= mento in emulazione degli anziani. La lucidatura del legno macchia le =pronouns.possessive= mani, che =pronouns.subjective= =verb:struggle:afterpronoun= a tenere perfettamente ferme." />
+  </object>
+  <object Name="Wraith-Knight Templar" Load="Merge">
+    <part Name="Render" DisplayName="▶Cavaliere Templare Spettro dell'Honorum Binario" />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
+  </object>
+  <object Name="Gyre Wight of Rermadon" Load="Merge">
+    <part Name="Render" DisplayName="▶spirito del Gyre di Rermadon" />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. =pronouns.Subjective= =verb:smell:afterpronoun= di budella di pesce bruciate." />
+  </object>
+  <object Name="Gyre Wight of Qas" Load="Merge">
+    <part Name="Render" DisplayName="▶spirito del Gyre di Qas" />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. =pronouns.Subjective= =verb:bear:afterpronoun= tatuaggi sulla pelle a forma di esagoni." />
+  </object>
+  <object Name="Gyre Wight of Qon" Load="Merge">
+    <part Name="Render" DisplayName="▶spirito del Gyre di Qon" />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. Il ritmo dei =pronouns.possessive= passi non contiene alcuno schema." />
+  </object>
+  <object Name="Bone Worm" Load="Merge">
+    <part Name="Render" DisplayName="▶verme osseo" />
+    <part Name="Description" Short="▶Bolle di collagene avvolgono i suoi cento segmenti e la materia ossea compatta si dimena fuori dalla sua estremità caudale." />
+  </object>
+  <object Name="BoneWorm_Crush" Load="Merge">
+    <part Name="Render" DisplayName="▶bande schiaccanti" />
+  </object>
+  <object Name="Bone Worm Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere di verme osseo" />
+    <part Name="Description" Short="▶Anelli di corpo vermiforme osseo sono schiacciati e immobili. Piccoli speroni ossei sui bordi raschiano la terra." />
+  </object>
+  <object Name="Caravan Guard" Load="Merge">
+    <part Name="Render" DisplayName="▶guardia della carovana" />
+  </object>
+  <object Name="BaseConservator" Load="Merge">
+    <part Name="Render" DisplayName="▶conservatore" />
+    <part Name="Description" Short="▶Lustrini di cromo specchiato si raccolgono in onde e si infrangono sulle cuciture del telaio galvanico del colosso seduto morto. Lustrini sciolti, come radicali liberi, vengono fatti ruzzolare dal tempo e dalla gravità terrestre." />
+  </object>
+  <object Name="LightLock" Load="Merge">
+    <part Name="Render" DisplayName="▶blocco luce" />
+  </object>
+  <object Name="ProjectileLightLock" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|fotone grasso}}" />
+    <part Name="Projectile" PassByVerb="▶crepitare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità divora =subject.t=!" />
+  </object>
+  <object Name="Eaters' Crest" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cresta dei Mangiatori}}" />
+  </object>
+  <object Name="Conservator" Load="Merge">
+    <part Name="Render" DisplayName="▶conservatore" />
+  </object>
+  <object Name="Crypt Ferret" Load="Merge">
+    <part Name="Render" DisplayName="▶furetto delle cripte" />
+    <part Name="Description" Short="▶La faina dal naso a vanga si insinua nelle crepe delle cripte e fruga nelle loro volte antiche. Una linea cugina di muschio sepolcrale simbiotico punteggia il pelo sul =pronouns.possessive= lungo dorso in falsa concordanza con il Marchio della Morte." />
+  </object>
+  <object Name="CryptFerret_Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶morso feroce" />
+  </object>
+  <object Name="Deep Slumberling" Load="Merge">
+    <part Name="Render" DisplayName="▶slumberling delle profondità" />
+    <part Name="Description" Short="▶Quattro camere di un gobbone dorsale di carne e pietra si gonfiano di respiro assopito come un mucchio di macerie tremanti. Zampe anteriori e posteriori grandi come vele di aquilone sono dotate di artigli arcuati, e un pelo fitto copre i =pronouns.possessive= occhi ambra dalle pesanti palpebre." />
+  </object>
+  <object Name="Fulcrete Catapult" Load="Merge">
+    <part Name="Render" DisplayName="▶catapulta di fulcrete" />
+    <part Name="Description" Short="▶Il cromo riveste il secchio e il braccio cavo del mangano, dove blocchi di fulcrete vengono convogliati dal loro arsenale cubico e caricati in posizione." />
+  </object>
+  <object Name="Winch_Lever" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|leva del verricello}}" />
+  </object>
+  <object Name="Gelatinous Cupola" Load="Merge">
+    <part Name="Render" DisplayName="▶cupola gelatinosa" />
+    <part Name="Description" Short="▶La materia organica viene liquefatta dagli agenti della decomposizione e pressurizzata dagli spazi angusti in forme prismatoidi. Galvanizzata da un istinto affine alla fame, l'entità gelatinosa ora si estrude in avanti in forma di cupola." />
+  </object>
+  <object Name="Graverobber" Load="Merge">
+    <part Name="Render" DisplayName="▶ladro di tombe" />
+    <part Name="Description" Short="▶Dita segnate da cicatrici con unghie incrostate di muschio stringono una borsa di pelle di maiale rigonfia di attrezzi da scavo funebre. Un cappuccio e un mantello neri avvolgono un corpo agile inclinato su una colonna vertebrale storta; =pronouns.subjective= =verb:are:afterpronoun= abituato a inchinarsi verso il suolo." />
+  </object>
+  <object Name="Goatfolk Qlippoth" Load="Merge">
+    <part Name="Render" DisplayName="▶qlippoth dei popoli capra" />
+    <part Name="Description" Short="▶Nappe intrecciate fuoriescono dalle ombre per incorniciare una fisionomia vuota, e le pieghe di un sarong si agitano a un vento non sentito. Il =pronouns.Possessive= fremito caprino è rifratto sui confini del prisma visivo; la =pronouns.possessive= figura cornuta appare sottostante alla realtà, come un sogno in scala di grigi." />
+  </object>
+  <object Name="Amaranthine Ashes" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|amarantino}} cenere" />
+    <part Name="Description" Short="▶La sostanza onirica fu schiacciata, bruciata e granulata in una morbida polvere astrale." />
+  </object>
