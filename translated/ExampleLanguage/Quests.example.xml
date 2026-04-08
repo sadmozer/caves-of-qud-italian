@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests Lang="it" Encoding="utf-8">
+  <quest ID="What's Eating the Watervine?" Name="▶Cosa Sta Mangiando la Vigna d'Acqua?" Accomplishment="▶Hai risolto il mistero della vigna d'acqua rosicchiata e avvertito i villagers di Joppa dei Girsh." Hagiograph="▶Nel mese di =month= del =year=, =name= camminò sotto gli archi cromati, respinse la folla di girshling e guarì i raccolti appassiti." Gospel="▶Nella sanguinosa Battaglia di Roccia Rossa, =name= combatté le forze combinate di girshling e babbuini per liberare i villagers di Joppa. In =player.t's= onore, essi =spice:history.gospels.Celebration.LateSultanate.!random=.">
+    <step ID="Travel to Red Rock" Name="▶Viaggia verso Roccia Rossa">
+      <text>▶Percorri due parasanghe a nord di Joppa fino a Roccia Rossa.</text>
+    </step>
+    <step ID="Find the Vermin" Name="▶Trova le Bestiacce">
+      <text>▶Trova le creature che stanno mangiando la vigna d'acqua di Joppa.</text>
+    </step>
+    <step ID="Get a Corpse" Name="▶Ottieni un Cadavere">
+      <text>▶Raccogli il cadavere di una delle creature.</text>
+    </step>
+    <step ID="Return with the Corpse" Name="▶Torna con il Cadavere">
+      <text>▶Torna a Joppa con il cadavere della bestiaccia della vigna d'acqua.</text>
+    </step>
+  </quest>
+  <quest ID="Raising Indrix" Name="▶Risvegliare Indrix" Hagiograph="▶O grazie! =name= recuperò un frammento di vetro nero da una giungla brulicante e lo riportò alla capra meccanica i cui circuiti alimenta." Gospel="▶Vagando nella giungla vicino a Kyakukya, =name= sognò di orbitare attorno a una stella oscura e nel suo vasto disco di accrescimento accumulare i mattoni del sé. Da allora in poi, =name= portò sempre con sé un prisma triangolare senza stelle.">
+    <step ID="Find Mamon Souldrinker" Name="▶Trova Mamon Souldrinker">
+      <text>▶Viaggia al villaggio delle capre e trova Mamon Souldrinker.</text>
+    </step>
+    <step ID="Recover the Amaranthine Prism" Name="▶Recupera il Prisma Amarantino">
+      <text>▶Riporta il prisma amarantino al Guardiano Indrix.</text>
+    </step>
+  </quest>
+  <quest ID="Fetch Argyve a Knickknack" Name="▶Procura a Argyve un Ninnolo" Accomplishment="▶Hai procurato un ninnolo a un vecchio." Hagiograph="▶All'interno di un tempio d'acqua e vite, =name= insegnò a un vecchio il valore del cromo." Gospel="▶=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= cementò =player.possessive= amicizia con la Gilda dei Fabbricanti sposando Argyve.">
+    <step ID="Find a Knickknack" Name="▶Trova un Ninnolo">
+      <text>▶Cerca nelle regioni intorno a Joppa un manufatto.</text>
+    </step>
+    <step ID="Return to Argyve" Name="▶Torna da Argyve">
+      <text>▶Porta il manufatto ad Argyve.</text>
+    </step>
+  </quest>
+  <quest ID="Fetch Argyve Another Knickknack" Name="▶Procura a Argyve un Altro Ninnolo" Accomplishment="▶Hai procurato un altro ninnolo a un vecchio." Hagiograph="▶All'ombra dell'acciaio sotto il Sole dell'Alto Sale, =name= insegnò a un vecchio il valore del cromo." Gospel="▶=spice:elements.entity@elements[random].weddingConditions.!random.capitalize=, =name= cementò =player.possessive= amicizia con la Gilda dei Fabbricanti sposando Argyve per la seconda volta.">
+    <step ID="Find Another Knickknack" Name="▶Trova un Altro Ninnolo">
+      <text>▶Cerca nelle regioni intorno a Joppa un altro manufatto.</text>
+    </step>
+    <step ID="Return to Argyve" Name="▶Torna da Argyve">
+      <text>▶Torna da Argyve con il manufatto.</text>
+    </step>
+  </quest>
+  <quest ID="Weirdwire Conduit... Eureka!" Name="▶Condotto Weirdwire... Eureka!" Accomplishment="▶Con il tuo aiuto, Argyve ha rilevato uno strano segnale." Hagiograph="▶Sotto gli auspici della palude, =name= inventò il Condotto Weirdwire e rilevò un segnale nascosto." Gospel="▶In un remoto laboratorio vicino all'oasi-borgata di Joppa, =name= e il suo apprendista Argyve inventarono un apparato che evocava la presenza di tamburi che rimbombano e cavi infuocati. Lo chiamarono Condotto Weirdwire.">
+    <step ID="Find 200 Feet of Wire" Name="▶Trova 200 Piedi di Filo">
+      <text>▶Cerca nei pozzi di ruggine, a est di Joppa, 200 piedi di filo.</text>
+    </step>
+    <step ID="Return to Argyve" Name="▶Torna da Argyve">
+      <text>▶Consegna il filo ad Argyve.</text>
+    </step>
+  </quest>
+  <quest ID="A Canticle for Barathrum" Name="▶Un Cantico per Barathrum" Accomplishment="▶Hai parlato con i Barathrumiti nel loro enclave a Grit Gate." Hagiograph="▶=name= scrisse e cantò un cantico per gli irenci orsiporcospini che vivono sotto terra." Gospel="▶Vagando nella giungla verso ovest, =name= si imbatté in un clan di urshiib che celebrava un rituale segreto. Per via dei =player.t's= occhi a disco, accettarono =name= nel loro gruppo e insegnarono a =player.objective= i loro segreti.">
+    <step ID="Travel to Grit Gate" Name="▶Viaggia verso Grit Gate">
+      <text>▶Viaggia fino al portale rovinato sotterraneo a nordest di Joppa.</text>
+    </step>
+    <step ID="Locate the Barathrumite Enclave" Name="▶Trova l'Enclave Barathrumita">
+      <text>▶Trova l'enclave Barathrumita all'interno di Grit Gate</text>
+    </step>
+    <step ID="Speak with the Barathrumites" Name="▶Parla con i Barathrumiti">
+      <text>▶Chiedi ai Barathrumiti dello strano segnale di Argyve.</text>
+    </step>
+  </quest>
+  <quest ID="A Signal in the Noise" Name="▶Un Segnale nel Rumore" Accomplishment="▶Hai parlato con i Barathrumiti nel loro enclave a Grit Gate." Hagiograph="▶=name= scrisse e cantò un cantico per gli irenci orsiporcospini che vivono sotto terra." Gospel="▶Vagando nella giungla verso ovest, =name= si imbatté in un clan di urshiib che celebrava un rituale segreto. Per via dei =player.t's= occhi a disco, accettarono =name= nel loro gruppo e insegnarono a =player.objective= i loro segreti.">
+    <step ID="Travel to Grit Gate" Name="▶Viaggia verso Grit Gate">
+      <text>▶Viaggia fino al portale rovinato sotterraneo nella giungla occidentale.</text>
+    </step>
+    <step ID="Locate the Barathrumite Enclave" Name="▶Trova l'Enclave Barathrumita">
+      <text>▶Trova l'enclave Barathrumita all'interno di Grit Gate</text>
+    </step>
+    <step ID="Speak with the Barathrumites" Name="▶Parla con i Barathrumiti">
+      <text>▶Chiedi ai Barathrumiti dello strano segnale.</text>
+    </step>
+  </quest>
+  <quest ID="More Than a Willing Spirit" Name="▶Più di un Animo Volenteroso" Accomplishment="▶Hai affrontato Golgotha e dimostrato le tue abilità ai Barathrumiti." Hagiograph="▶Nel mese di =month= del =year=, =name= emerse dagli scivoli dei rifiuti di Golgotha, vittorioso e ricoperto di melma." Gospel="▶Vagando nella giungla verso ovest, =name= si imbatté in un clan di urshiib che celebrava un rituale segreto. Per via del =player.t's= rivestimento di melma fetida, accettarono =name= nel loro gruppo e insegnarono a =player.objective= i loro segreti.">
+    <step ID="Travel to Golgotha" Name="▶Viaggia verso Golgotha">
+      <text>▶Viaggia verso la grande caverna Golgotha a nord di Grit Gate.</text>
+    </step>
+    <step ID="Find a Dysfunctional Waydroid" Name="▶Trova un Waydroid Non Funzionante">
+      <text>▶Trova un waydroid non funzionante tra le rovine di Golgotha.</text>
+    </step>
+    <step ID="Repair the Waydroid" Name="▶Ripara il Waydroid">
+      <text>▶Ripara il waydroid.</text>
+    </step>
+    <step ID="Return to Grit Gate" Name="▶Torna a Grit Gate">
+      <text>▶Torna a Grit Gate con il waydroid e parla con i Barathrumiti.</text>
+    </step>
+  </quest>
+  <quest ID="Decoding the Signal" Name="▶Decodificare il Segnale" Accomplishment="▶Hai parlato con il betilo nel Tempio della Roccia e decodificato il misterioso segnale." Hagiograph="▶Coraggio! =name= si gettò nell'imbocco di uno scaffale di ghiaccio aperto e conversò con un betilo nel sacro idioma." Gospel="▶All'interno di un gigantesco blocco di ghiaccio, =name= cementò =player.possessive= amicizia con i Meccanomisti scambiando voti sussurrati con un betilo scintillante.">
+    <step ID="Get Q Girl's Instructions onto the Data Disk" Name="▶Trascrivi le Istruzioni di Q Girl sul Disco Dati">
+      <text>▶Parla con Q Girl nel laboratorio e chiedi le di codificare le sue istruzioni per il betilo sul disco.</text>
+    </step>
+    <step ID="Locate the Mechanimist Compound at Bethesda Susa" Name="▶Trova il Complesso Meccanomista a Bethesda Susa">
+      <text>▶Viaggia verso nord fino alla grande caverna Bethesda Susa e trova il tempio Meccanomista.</text>
+    </step>
+    <step ID="Decode the Signal" Name="▶Decodifica il Segnale">
+      <text>▶Infiltra il complesso Meccanomista, attiva il betilo e decodifica il segnale.</text>
+    </step>
+    <step ID="Return to Grit Gate" Name="▶Torna a Grit Gate">
+      <text>▶Torna a Grit Gate e parla con Otho.</text>
+    </step>
+  </quest>
+  <quest ID="O Glorious Shekhinah!" Name="▶O Gloriosa Shekhinah!" Accomplishment="▶Su raccomandazione di un proselita, hai visitato il bazar dei mercanti e la grande cattedrale al Six Day Stilt." Hagiograph="▶=name= percorse le saline, verso nord e ovest, fino al bazar dei mercanti e alla grande cattedrale del Six Day Stilt. Là, gli stiltfolk cantarono inni in onore del sultano." Gospel="▶Dopo aver attraversato le pianure vuote, =name= raggiunse il bazar dei mercanti e la cattedrale al Six Day Stilt. Là si amicò con i Meccanomisti e lanciò un manufatto nel Pozzo Sacro.">
+    <step ID="Make a Pilgrimage to the Six Day Stilt" Name="▶Fai un Pellegrinaggio al Six Day Stilt">
+      <text>▶Attraversa il Grande Deserto di Sale per visitare il bazar dei mercanti e la cattedrale Meccanomista, dove un proselita ti ha chiesto di fare un'offerta di un ninnolo.</text>
+    </step>
+  </quest>
+  <quest ID="The Earl of Omonporch" Name="▶Il Conte di Omonporch" Accomplishment="▶Hai gestito la faccenda di Asphodel e assicurato i terreni alla base dello Spindle." Hagiograph="▶Nel mese di =month= del =year=, =name= nominò Asphodel il Bello conte di Omonporch e Protettore dello Spindle Gjaus." Gospel="▶Nel =year=, =name= nominò il corrotto amministratore Asphodel come conte e ministro di Omonporch. Là xe impose la pratica di =spice:elements.entity@elements[random].practices.!random= in =player.t's= nome.">
+    <step ID="Travel to Omonporch" Name="▶Viaggia verso Omonporch">
+      <text>▶Viaggia verso nord fino allo Spindle a Omonporch.</text>
+    </step>
+    <step ID="Secure the Spindle" Name="▶Assicura lo Spindle">
+      <text>▶Prendi il controllo dei terreni sotto lo Spindle.</text>
+    </step>
+    <step ID="Return to Grit Gate" Name="▶Torna a Grit Gate">
+      <text>▶Torna a Grit Gate per riferire il tuo successo.</text>
+    </step>
+  </quest>
+  <quest ID="Grave Thoughts" Name="▶Pensieri Funebri">
+    <step ID="Investigate the Rumbling" Name="▶Investiga il Boato">
+      <text>▶Accedi al mainframe e scansiona lo scisto che circonda l'enclave.</text>
+    </step>
+    <step ID="Speak to Otho" Name="▶Parla con Otho">
+      <text>▶Parla con Otho tramite l'interfono della sala del mainframe o di persona.</text>
+    </step>
+  </quest>
+  <quest ID="A Call to Arms" Name="▶Una Chiamata alle Armi" Accomplishment="▶Hai difeso valorosamente Grit Gate da un attacco dei Putus Templar." Hagiograph="▶=name= distrusse un battaglione di Figli e Figlie attraverso un enorme mainframe, ricoprendo il tempio circostante di vetro e gallio." Gospel="▶Nel mese di =month= del =year=, =name= ottenne una vittoria decisiva contro le forze combinate dei Templar nella sanguinosa Battaglia di Grit Gate. Grit Gate fu così devastata dal gallio bollente e dal vetro frantumato che fu ribattezzata il Cimitero di Otho.">
+    <step ID="Prepare Defenses" Name="▶Prepara le Difese">
+      <text>▶Alimenta le postazioni laser, alimenta i proiettori di forza, overclocka i chromeling e attiva Rodanis Y in preparazione all'attacco dei Putus Templar.</text>
+    </step>
+    <step ID="Defend Grit Gate" Name="▶Difendi Grit Gate">
+      <text>▶Difendi Grit Gate dai suoi assalitori.</text>
+    </step>
+  </quest>
+  <quest ID="The Assessment" Name="▶La Valutazione">
+    <step ID="Speak to Otho" Name="▶Parla con Otho">
+      <text>▶Parla con Otho per valutare le perdite subite nell'attacco.</text>
+    </step>
+  </quest>
+  <quest ID="Pax Klanq, I Presume?" Name="▶Pax Klanq, Presumo?" Accomplishment="▶Hai percorso il Sentiero del Corallo e convinto Pax Klanq, prodigio dei funghi, a fabbricare una batteria con il progetto di Q Girl." Hagiograph="▶Nel vuoto dello spazio, =name= il Muratore costruì un Sentiero del Corallo di mattoni stellari e conversò con un fungo nel sacro idioma." Gospel="▶In una cattedrale extradimensionale fatta di corallo e carne fungina, =name= cementò =player.possessive= relazione con i funghi sposando Pax Klanq.">
+    <step ID="Get Q Girl's Blueprints for the Climber" Name="▶Ottieni i Piani di Q Girl per l'Arrampicatore">
+      <text>▶Ottieni i piani per l'arrampicatore da consegnare a Pax Klanq.</text>
+    </step>
+    <step ID="Seek the Heart of the Rainbow" Name="▶Cerca il Cuore dell'Arcobaleno">
+      <text>▶Decifra la prima parte dell'enigma.</text>
+    </step>
+    <step ID="Eat the God's Flesh" Name="▶Mangia la Carne del Dio">
+      <text>▶Decifra la seconda parte dell'enigma.</text>
+    </step>
+    <step ID="Follow the Coral Path" Name="▶Segui il Sentiero del Corallo">
+      <text>▶Decifra la terza parte dell'enigma.</text>
+    </step>
+    <step ID="Convince Pax Klanq to Construct the Climber" Name="▶Convinci Pax Klanq a Costruire l'Arrampicatore">
+      <text>▶Fai sì che Pax Klanq accetti di fabbricare l'arrampicatore dal progetto di Q Girl.</text>
+    </step>
+    <step ID="Return to Grit Gate" Name="▶Torna a Grit Gate">
+      <text>▶Torna a Grit Gate e parla con Barathrum.</text>
+    </step>
+  </quest>
+  <quest ID="Petals on the Wind" Name="▶Petali nel Vento" Accomplishment="▶Su richiesta di un hindren paria, hai viaggiato al villaggio nascosto di Bey Lah per investigare un mistero." Hagiograph="▶Il benevolo =name= accettò di intromettersi negli affari del prato su richiesta di un paria deerfolk. Il sultano regna con gentilezza d'animo!" Gospel="▶A =spice:time.partsOfDay.!random= sotto un =spice:commonPhrases.strange.!random.article= cielo di prato, gli hindren di Bey Lah videro sull'orizzonte un'immagine che sembrava un grande specchio. Era =name=, e una volta che =player.subjective= arrivò, gli hindren gli costruirono un monumento e da allora in poi chiamarono =player.objective= il Kendren dello Specchio.">
+    <step ID="Investigate Bey Lah" Name="▶Investiga Bey Lah">
+      <text>▶Viaggia al villaggio nascosto di Bey Lah e investiga i problemi presenti.</text>
+    </step>
+  </quest>
+  <quest ID="Find Eskhind" Name="▶Trova Eskhind" Accomplishment="▶Hai trovato la hindren paria Eskhind e le sue sorelle all'interno di un albero cavo." Hagiograph="▶Ricordate! =name= ammonì il paria Eskhind per essere fuggita dal suo destino. Da allora in poi fu conosciuta come Eskhind la Mite." Gospel="▶Nel mese di =month= del =year=, =name= fu sfidato/a dall'accusata Eskhind a un duello per la posizione del cimelio hindren Kindrish. =name= vinse e ammonì Eskhind a tornare a Bey Lah.">
+    <step ID="Find Eskhind" Name="▶Trova Eskhind">
+      <text>▶Trova Eskhind e recupera Kindrish.</text>
+    </step>
+    <step ID="Speak to Warden Neelahind" Name="▶Parla con la Guardia Neelahind">
+      <text>▶Parla con la Guardia Neelahind, che era amica intima di Eskhind.</text>
+    </step>
+    <step ID="Deliver News of Eskhind" Name="▶Porta Notizie di Eskhind">
+      <text>▶Parla con Keh portando notizie di Eskhind.</text>
+    </step>
+  </quest>
+  <quest ID="Love and Fear" Name="▶Amore e Paura" Accomplishment="▶Hai trovato e restituito una poesia d'amore scartata." Hagiograph="▶Com'è ispiratrice la presenza di =name=, che ha così redento Eskhind la Mite che cercò la mano del più grande campione di Bey Lah!" Gospel="▶Nel nucleo bruciato di un ceppo d'albero, =name= cementò =player.possessive= amicizia con gli hindren di Bey Lah sposando Eskhind e la Guardia Neelahind.">
+    <step ID="Rescue an Imperiled Love" Name="▶Salva un Amore in Pericolo">
+      <text>▶Intervieni prima che il destino degli amanti sia segnato.</text>
+    </step>
+    <step ID="Return the Love Sonnet" Name="▶Restituisci il Sonetto d'Amore">
+      <text>▶Dai il foglio accartocciato al suo autore o al destinatario previsto.</text>
+    </step>
+  </quest>
+  <quest ID="Kith and Kin" Name="▶Amici e Parenti" Accomplishment="▶Nel bene o nel male per il destino di Bey Lah, hai risolto il mistero della scomparsa di Kindrish e aiutato la Guardia Neelahind ad amministrare la giustizia." Hagiograph="▶Salvatore benedetto! =name= portò pace e prosperità ai tormentati deerfolk del prato di Bey Lah." Gospel="▶Agendo contro i ladri e le autorità che li proteggono, =name= condusse un'indagine nel villaggio di Bey Lah. Grazie alla =spice:elements.entity@elements[random].adjectives.!random= perspicacia di =name=, la Guardia Neelahind fu in grado di amministrare correttamente la giustizia.">
+    <step ID="Brief Warden Neelahind" Name="▶Informa la Guardia Neelahind">
+      <text>▶Racconta alla Guardia di Bey Lah la natura controversa del furto di Kindrish.</text>
+    </step>
+    <step ID="Discover all the evidence" Name="▶Scopri tutte le Prove">
+      <text>▶Scopri tutte le prove che potrebbero portare al ladro.</text>
+    </step>
+    <step ID="Accuse the thief" Name="▶Accusa il Ladro">
+      <text>▶Parla con la Guardia Neelahind con prove dell'evento e accusa il ladro che ha preso Kindrish.</text>
+    </step>
+  </quest>
+  <quest ID="The Buried Watchers" Name="▶I Guardiani Sepolti" Accomplishment="▶Hai visitato una confraternita di mopango che vivono nella Tomba." Hagiograph="▶Nelle profondità della Tomba degli Eaters a Omonporch, =name= si imbatté in un clan di mopango che celebrava un rituale segreto. Ey accolse il sultano nel proprio gruppo e insegnò a =player.objective= i propri segreti." Gospel="▶Nelle profondità della Tomba degli Eaters a Omonporch, =name= si imbatté in un clan di mopango che celebrava un rituale segreto. Ey accolse il =sultanTerm= nel proprio gruppo e insegnò a =player.objective= i propri segreti.">
+    <step ID="Visit the Mopango Settlement in the Tomb of the Eaters" Name="▶Visita l'Insediamento Mopango nella Tomba degli Eaters">
+      <text>▶Trova Vivira, una torretta amichevole nelle catacombe nordovest, e digli che ti manda Zothom.</text>
+    </step>
+  </quest>
+  <quest ID="Fraying Favorites" Name="▶Preferiti che si Sgualciscono">
+    <step ID="Talk to Lebah" Name="▶Parla con Lebah">
+      <text>▶Chiedi a Lebah del suo incontro con il dispositivo repulsivo.</text>
+    </step>
+    <step ID="Recover the Repulsive Device" Name="▶Recupera il Dispositivo Repulsivo">
+      <text>▶Localizza k-Goninon nelle Catacombe Folk e recupera il dispositivo repulsivo.</text>
+    </step>
+    <step ID="Speak with the Watchers" Name="▶Parla con i Guardiani">
+      <text>▶Chiedi ai guardiani mopango Dadogom, Doyoba, Gyamyo e Yona del dispositivo repulsivo.</text>
+    </step>
+    <step ID="Use the Repulsive Device" Name="▶Usa il Dispositivo Repulsivo">
+      <text>▶Scegli come applicare al meglio il dispositivo repulsivo.</text>
+    </step>
+  </quest>
+  <quest ID="Tomb of the Eaters" Name="▶Tomba degli Eaters" Accomplishment="▶Sei tornato dalla Tomba degli Eaters dopo aver disabilitato con successo il campo magnetico dello Spindle.">
+    <step ID="Recover the Mark of Death" Name="▶Recupera il Marchio della Morte">
+      <text>▶Recupera il sigillo perduto usato dagli Eaters per contrassegnare i loro morti.</text>
+    </step>
+    <step ID="Inscribe the Mark" Name="▶Incidi il Marchio">
+      <text>▶Tatuati il marchio sul corpo.</text>
+    </step>
+    <step ID="Enter the Tomb of the Eaters" Name="▶Entra nella Tomba degli Eaters">
+      <text>▶Ottieni l'accesso alla Tomba sigillata.</text>
+    </step>
+    <step ID="Ascend the Tomb and Cross into Brightsheol" Name="▶Ascendi la Tomba e Attraversa verso Brightsheol">
+      <text>▶Ascendi la Tomba e trova la camera sepolcrale di Resheph. Da lì, scopri un modo per viaggiare verso Brightsheol.</text>
+    </step>
+    <step ID="Disable the Spindle's Magnetic Field" Name="▶Disabilita il Campo Magnetico dello Spindle">
+      <text>▶Accedi all'unità di controllo dello Spindle e disattiva il campo.</text>
+    </step>
+    <step ID="Return to Grit Gate" Name="▶Torna a Grit Gate">
+      <text>▶Torna a Grit Gate e parla con Barathrum.</text>
+    </step>
+  </quest>
+  <quest ID="Landing Pads" Name="▶Piazzole di Atterraggio">
+    <step ID="Consult Settlements" Name="▶Consulta gli Insediamenti">
+      <text>▶Convinci i leader di almeno tre insediamenti a fornire rifugio agli slynth.</text>
+    </step>
+    <step ID="Sanctuary Candidates" Name="▶Candidati al Santuario">
+      <text>▶Queste fazioni hanno accettato di ospitare gli slynth.</text>
+    </step>
+    <step ID="Bid the Slynth to Choose" Name="▶Invita gli Slynth a Scegliere">
+      <text>▶Dì a Thah di riunire gli slynth e prendere una decisione.</text>
+    </step>
+  </quest>
+  <quest ID="Return to the Hydropon" Name="▶Torna all'Hydropon">
+    <step ID="Return to the Hydropon" Name="▶Torna all'Hydropon">
+      <text>▶Una volta che gli slynth sono arrivati alla loro nuova casa, parla con Thah all'hydropon.</text>
+    </step>
+  </quest>
+  <quest ID="If, Then, Else" Name="▶Se, Allora, Altrimenti" Accomplishment="▶Hai aiutato Chavvah, l'Albero della Vita, a completare il rituale di -elsing e a recidere per sempre uno dei suoi chime-entità." Hagiograph="▶Bellezza nella sottrazione! Il Potatore =name= tagliò l'Albero della Vita in una forma più estetica." Gospel="▶Agendo in accordo con le molte volontà dell'Albero della Vita, =name= portò una pietra di transito al luminoso Morbido sotto il tronco di Chavvah. Là =player.subjective= eseguì un rituale segreto e tornò in superficie per sempre trasformato.">
+    <step ID="Gather Tau's Chime" Name="▶Raccogli il Chime di Tau">
+      <text>▶Recupera il chime di Tau dal suo ramo nel keter.</text>
+    </step>
+    <step ID="Go to the Bottom of Taproot" Name="▶Vai al Fondo del Taproot">
+      <text>▶Scendi lungo il taproot di Chavvah fino alla sua terminazione, 40 strati di profondità.</text>
+    </step>
+    <step ID="Reunite Tau with Her Chime" Name="▶Riunisci Tau con il Suo Chime">
+      <text>▶Tocca il suo chime al Taproot e completa il rituale di -elsing.</text>
+    </step>
+    <step ID="Return to the Keter" Name="▶Torna al Keter">
+      <text>▶Torna al keter e parla con Dyvvrach.</text>
+    </step>
+  </quest>
+  <quest ID="The Golem" Name="▶Il Golem" Accomplishment="">
+    <step ID="Soup" Name="▶Procura il Fluido Sanguigno">
+      <text>▶Porta 20 dracme di primordial soup a Pax Klanq.</text>
+    </step>
+    <step ID="Body" Name="▶Scegli un Corpo">
+      <text>▶Fornisci un seguace di livello 30 o superiore.</text>
+    </step>
+    <step ID="Catalyst" Name="▶Scegli un Catalizzatore">
+      <text>▶Fornisci 3 dracme di un liquido puro.</text>
+    </step>
+    <step ID="Atzmus" Name="▶Scegli un Atzmus">
+      <text>▶Fornisci l'arto di una creatura.</text>
+    </step>
+    <step ID="Armament" Name="▶Scegli un Armamento">
+      <text>▶Fornisci un'arma in zetacromo.</text>
+    </step>
+    <step ID="Incantation" Name="▶Scegli un'Incantazione">
+      <text>▶Fornisci una voce dalla tua cronologia.</text>
+    </step>
+    <step ID="Hamsa" Name="▶Scegli un Hamsa">
+      <text>▶Fornisci un oggetto che pesa 5 libbre o meno.</text>
+    </step>
+    <step ID="Power" Name="▶Acquisisci una Fonte di Energia per l'Ascensione">
+      <text>▶Fornisci 3 dracme di flusso neutronico o trova un'altra fonte di energia.</text>
+    </step>
+  </quest>
+  <quest ID="We Are Starfreight" Name="▶Siamo Starfreight">
+    <step ID="Barathrum" Name="▶Preparati ad Ascendere">
+      <text>▶Metti Barathrum nel golem.</text>
+    </step>
+    <step ID="Ascend" Name="▶Ascendi">
+      <text>▶Attiva i meccanismi di ascensione dello Spindle.</text>
+    </step>
+  </quest>
+  <quest ID="Reclamation" Name="▶Recupero">
+    <property Name="MessageLeaving">▶
+      Lasciare il campo di battaglia potrebbe dare ai Templar il tempo di riorganizzarsi e causare più vittime tra i Barathrumiti. Procedere?
+      </property>
+    <property Name="MessageArrival">▶
+      {{m|ULLLLLLLLLLLLQ!}}
+
+      Il gemito lacerante del Nephilim risuona, e il tuo corpo pulsa nell'aria elettrica!
+
+      È arrivato, {{R|=direction=}}.
+      </property>
+    <property Name="MessageArrivalSuper">▶
+      {{m|QQQYQQQYQQQYQQQYQQQ!}}
+
+      Ejecta di esplosione solare piove in nastri ardenti, e il tuo corpo è quasi annientato nel nulla dagli inarrabili gemiti dell'universo primordiale!
+
+      =name= discende, {{R|=direction=}}.
+      </property>
+    <step ID="Warleader1" Name="▶Sconfiggi =name=">
+      <text>▶Elimina la minaccia del capoguerra Templar dal perimetro di Omonporch.</text>
+    </step>
+    <step ID="Warleader2" Name="▶Sconfiggi =name=">
+      <text>▶Elimina la minaccia del capoguerra Templar dal perimetro di Omonporch.</text>
+    </step>
+    <step ID="Warleader3" Name="▶Sconfiggi =name=">
+      <text>▶Elimina la minaccia del capoguerra Templar dal perimetro di Omonporch.</text>
+    </step>
+    <step ID="Warleader4" Name="▶Sconfiggi =name=">
+      <text>▶Elimina la minaccia del capoguerra Templar dal perimetro di Omonporch.</text>
+    </step>
+    <step ID="Nephal" Name="▶Bestia in Agguato">
+      <text>▶Elimina la minaccia di =name=.</text>
+    </step>
+  </quest>
+</quests>
