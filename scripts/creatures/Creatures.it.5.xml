@@ -1,0 +1,500 @@
+    <part Name="Render" DisplayName="▶cherubino robot meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Baetyls Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino baetyl" />
+    <part Name="Description" Short="" />
+    <part Name="PartsGas" NameForStatus="▶RepulsioneParticellare" />
+  </object>
+  <object Name="Mechanical Baetyls Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino baetyl meccanico" />
+    <part Name="Description" Short="" />
+    <part Name="PartsGas" NameForStatus="▶RepulsioneParticellare" />
+  </object>
+  <object Name="Antelopes Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino antilope" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Antelopes Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino antilope meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Worms Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino verme" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Worms Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino verme meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Oozes Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino melma" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Oozes Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino melma meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Equines Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino equino" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Equines Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino equino meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Newly Sentient Beings Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino ceramica" />
+    <part Name="Description" Short="" />
+    <xtagTextFragments Skin="▶smalto" PoeticFeatures="▶maestria artistica,quiete gentile,meraviglia infantile" />
+  </object>
+  <object Name="Mechanical Newly Sentient Beings Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino ceramica meccanico" />
+    <part Name="Description" Short="" />
+    <xtagTextFragments Skin="▶smalto" PoeticFeatures="▶maestria artistica,quiete gentile,meraviglia infantile" />
+  </object>
+  <object Name="Hermits Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino eremita" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Hermits Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino eremita meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Frogs Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino rana" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Frogs Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino rana meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Strangers Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino straniero" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Strangers Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino straniero meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Flowers Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fiore" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Flowers Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fiore meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Roots Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino radice" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Roots Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino radice meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Fungi Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fungo" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Fungi Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fungo meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Vines Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino vite" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Vines Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino vite meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Urchins Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino riccio" />
+    <part Name="Description" Short="" />
+    <xtagTextFragments Skin="▶carne linguiforme" PoeticFeatures="▶spine a quinconce,sfericità,portamento senza tempo" />
+  </object>
+  <object Name="Mechanical Urchins Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino riccio meccanico" />
+    <part Name="Description" Short="" />
+    <xtagTextFragments Skin="▶carne linguiforme" PoeticFeatures="▶spine a quinconce,sfericità,portamento senza tempo" />
+  </object>
+  <object Name="Succulents Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fractus" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Succulents Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino fractus meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Trees Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino albero" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Mechanical Trees Cherub" Load="Merge">
+    <part Name="Render" DisplayName="▶cherubino albero meccanico" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="Cherubic Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶morso cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Bite" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic bite}}" />
+  </object>
+  <object Name="Cherubic Pistil" Load="Merge">
+    <part Name="Render" DisplayName="▶pistillo cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Pistil" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic pistil}}" />
+  </object>
+  <object Name="Cherubic Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio cherubico" />
+  </object>
+  <object Name="Cherubic Hand Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic claw}}" />
+  </object>
+  <object Name="Mechanical Cherubic Hand Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic claw}}" />
+  </object>
+  <object Name="Cherubic Fist" Load="Merge">
+    <part Name="Render" DisplayName="▶pugno cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Fist" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic fist}}" />
+  </object>
+  <object Name="Cherubic Nodule" Load="Merge">
+    <part Name="Render" DisplayName="▶nodulo cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Nodule" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic nodule}}" />
+  </object>
+  <object Name="Cherubic Handle" Load="Merge">
+    <part Name="Render" DisplayName="▶impugnatura cherubica" />
+  </object>
+  <object Name="Mechanical Cherubic Handle" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic handle}}" />
+  </object>
+  <object Name="Cherubic Strangle" Load="Merge">
+    <part Name="Render" DisplayName="▶strangolamento cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Strangle" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic stranglehold}}" />
+  </object>
+  <object Name="Cherubic Spines" Load="Merge">
+    <part Name="Render" DisplayName="▶spine cherubiche" />
+  </object>
+  <object Name="Mechanical Cherubic Spines" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic spines}}" />
+  </object>
+  <object Name="Cherubic Bark" Load="Merge">
+    <part Name="Render" DisplayName="▶corteccia cherubica" />
+  </object>
+  <object Name="Mechanical Cherubic Bark" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic bark}}" />
+  </object>
+  <object Name="Cherubic Spade" Load="Merge">
+    <part Name="Render" DisplayName="▶vanga cherubica" />
+  </object>
+  <object Name="Mechanical Cherubic Spade" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic spade}}" />
+  </object>
+  <object Name="Cherubic Bands" Load="Merge">
+    <part Name="Render" DisplayName="▶fasce cherubiche" />
+  </object>
+  <object Name="Mechanical Cherubic Bands" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic bands}}" />
+  </object>
+  <object Name="Cherubic Pseudopod" Load="Merge">
+    <part Name="Render" DisplayName="▶pseudopodio cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Pseudopod" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic pseudopod}}" />
+  </object>
+  <object Name="Cherubic Foot" Load="Merge">
+    <part Name="Render" DisplayName="▶piede cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Foot" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic foot}}" />
+  </object>
+  <object Name="Cherubic Kick" Load="Merge">
+    <part Name="Render" DisplayName="▶calcio cherubico" />
+  </object>
+  <object Name="Mechanical Cherubic Kick" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic kick}}" />
+  </object>
+  <object Name="Cherubic Talons" Load="Merge">
+    <part Name="Render" DisplayName="▶artigli cherubici" />
+  </object>
+  <object Name="Mechanical Cherubic Talons" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|mechanical cherubic talons}}" />
+  </object>
+  <object Name="BaseNephal" Load="Merge">
+    <part Name="Render" DisplayName="▶nephal" />
+    <part Name="Honorifics" Ordinary="▶Girsh" />
+    <tag Name="StaticLikeReason" Value="▶qualche motivo che nessuno ricorda" />
+    <tag Name="StaticHateReason" Value="▶aver mangiato uno dei loro cuccioli" />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Nephal_Weapon" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio" />
+  </object>
+  <object Name="ProjectileIrisdualBeam" Load="Merge">
+    <part Name="Render" DisplayName="▶{{rainbow|flash of neon}}" />
+    <part Name="Projectile" PassByVerb="▶guizzare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità consuma =subject.t=!" />
+  </object>
+  <object Name="Agolgot" Load="Merge">
+    <part Name="Render" DisplayName="▶Agolgot" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. La testa mostruosa e curva è punteggiata di verruche e lentiggini, e un pappagorgia impregnato rovescia salsa putrida sul pavimento. Anni di postura ricurva sotto le tubature hanno fracassato la =pronouns.possessive= spina diacalyptus, e la spugnosità della materia ha lasciato =pronouns.objective= ribollente e malato a causa dei =pronouns.possessive= dintorni. Infine, la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta nauseabonda e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio maculato" />
+  </object>
+  <object Name="Bethsaida" Load="Merge">
+    <part Name="Render" DisplayName="▶Bethsaida" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. I trapezi di cuoio si gonfiano con la pompa di capillari iperforcuti, il vapore si attacca alle =pronouns.possessive= narici senza stelle, e lunghi mani-piedi si biforcano in cento dita ciascuno. Sulle crude gobbe del =pronouns.possessive= corpo, persino la più morta delle crescite vitali (capelli, unghie) è risvegliata all'azione e si contorce come larve spaventate. Infine, la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta vischiosa e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_Talon" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio frattale" />
+  </object>
+  <object Name="Rermadon" Load="Merge">
+    <part Name="Render" DisplayName="▶Rermadon" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. Gas stellare ribolle dalle =pronouns.possessive= spine coralline, e una coda espansa fino alla larghezza di una pinna dalle pressioni selettive dell'acqua ondeggia attorno al cerchio unitario. Una nuvola di funghi marini soffoca e scoppia sulle =pronouns.possessive= vaste branchie risucchianti, e -- infine -- la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta aurale e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_Tail" Load="Merge">
+    <part Name="Render" DisplayName="▶coda pinnuta" />
+  </object>
+  <object Name="Qas" Load="Merge">
+    <part Name="Render" DisplayName="▶Qas" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. La forza quantizzata ha plasmato il =pronouns.possessive= muso titanico in una forma quadrata inquietante, e trecce di energia potenziale lavano il =pronouns.possessive= garrese fino a un'indistinzione priva di significato. Sotto il =pronouns.possessive= barile ricurvo, ginocchia elefantine sono bloccate ad angolo retto. Infine, la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta polare e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_Kick" Load="Merge">
+    <part Name="Render" DisplayName="▶calcio di scarto" />
+  </object>
+  <object Name="Qon" Load="Merge">
+    <part Name="Render" DisplayName="▶Qon" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. La =pronouns.Possessive= gola aggrovigliata come lo Svy abbracciato all'albero emette il Coronach dei Numeri da un becco monadico. Le piume del =pronouns.possessive= gigantesco kite iridescono nel luccichio dello Spindle e si coagulano in un'immagine disturbante di universale stortura. Infine, la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta abbagliante e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_Flap" Load="Merge">
+    <part Name="Render" DisplayName="▶alette rasanti" />
+  </object>
+  <object Name="Shugruith" Load="Merge">
+    <part Name="Render" DisplayName="▶Shug'ruith" />
+    <part Name="Description" Short="▶Una creatura di immensità si erge sull'orizzonte oculare superiore. Anelli d'acciaio da tunnel di intestini di verme estrusi eruttano polvere di scisto come pioggia di caverna, e una colonia di spine stellari cresce sulla =pronouns.possessive= schiena-mondo inclinata. In una corona attorno alla =pronouns.possessive= bocca cavitante, un centinaio di occhi sono cresciuti per assorbire ogni fotone dai rifugi gioiellati e senza sole della terra di ieri. Infine, la luce irisduale che ribolle sotto la =pronouns.possessive= pelle di vetro-tx viene filtrata in una tinta di fumo e cedrina e irradia fuori dal corpo in spirali lituus." />
+  </object>
+  <object Name="Nephal_CordedTail" Load="Merge">
+    <part Name="Render" DisplayName="▶coda cordonata" />
+  </object>
+  <object Name="BaseGirshCresh" Load="Merge">
+    <part Name="Render" DisplayName="▶cresh girshling" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="BaseVehicleGolem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem" />
+    <part Name="Description" Short="▶L'argilla magnetizzata è intrecciata da circuiti che tracciano tratti colossali e familiari: =body.features=. Una brillante miscela di brodo primordiale e =catalyst= scorre attraverso le =pronouns.possessive= arterie di vetro, e nella sua luce soffusa la =pronouns.possessive= postura evoca la presenza di =atzmus.creature.an=. Arti metacromo simili a diamanti sono scolpiti nel modo di =armament.skill.snippet=, e in una posizione di rilievo sul =pronouns.possessive= corpo, =pronouns.subjective= =verb:bear:afterpronoun= il sacro amuleto di =hamsa.an=." />
+  </object>
+  <object Name="Antelope Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem antilope" />
+  </object>
+  <object Name="Ape Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem scimmia" />
+  </object>
+  <object Name="Baboon Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem babbuino" />
+  </object>
+  <object Name="Baetyl Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem baetyl" />
+  </object>
+  <object Name="Bat Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem pipistrello" />
+  </object>
+  <object Name="Bear Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem orso" />
+  </object>
+  <object Name="Bed Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem letto" />
+  </object>
+  <object Name="Bipedal Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot bipede" />
+  </object>
+  <object Name="Bird Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem uccello" />
+  </object>
+  <object Name="Bush Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem cespuglio" />
+  </object>
+  <object Name="Cat Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem gatto" />
+  </object>
+  <object Name="Chair Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem sedia" />
+  </object>
+  <object Name="Clam Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem vongola" />
+  </object>
+  <object Name="Crab Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem granchio" />
+  </object>
+  <object Name="Cragmensch Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem cragmensch" />
+  </object>
+  <object Name="Crystal Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem cristallo" />
+  </object>
+  <object Name="Dawnglider Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem planatore dell'alba" />
+  </object>
+  <object Name="Dog Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem cane" />
+  </object>
+  <object Name="Door Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem porta" />
+  </object>
+  <object Name="Dromad Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem dromad" />
+  </object>
+  <object Name="Equine Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem equino" />
+  </object>
+  <object Name="Fish Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem pesce" />
+  </object>
+  <object Name="Flower Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem fiore" />
+  </object>
+  <object Name="Fractus Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem fractus" />
+  </object>
+  <object Name="Frog Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem rana" />
+  </object>
+  <object Name="Fungus Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem fungo" />
+  </object>
+  <object Name="Goat Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem capra" />
+  </object>
+  <object Name="Goatfolk Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem popolo-capra" />
+  </object>
+  <object Name="Hexapodal Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot esapode" />
+  </object>
+  <object Name="Hindren Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem hindren" />
+  </object>
+  <object Name="Hover Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem planante" />
+  </object>
+  <object Name="Human Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem umano" />
+  </object>
+  <object Name="Humanoid Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot umanoide" />
+  </object>
+  <object Name="Infrastructure Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem infrastrutturale" />
+  </object>
+  <object Name="Insect Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem insetto" />
+  </object>
+  <object Name="Iron Maiden Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem fanciulla di ferro" />
+  </object>
+  <object Name="Jelly Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem gelatina" />
+  </object>
+  <object Name="Lichen Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem lichene" />
+  </object>
+  <object Name="Mopango Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem mopango" />
+  </object>
+  <object Name="Mopango Charioteer Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem auriga mopango" />
+  </object>
+  <object Name="Nest Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem nido" />
+  </object>
+  <object Name="Oddity Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶stranezza golem" />
+  </object>
+  <object Name="Ooze Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem melma" />
+  </object>
+  <object Name="Quadrupedal Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot quadrupede" />
+  </object>
+  <object Name="Reptile Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem rettile" />
+  </object>
+  <object Name="Root Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem radice" />
+  </object>
+  <object Name="Slug Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem lumaca" />
+  </object>
+  <object Name="Slynth Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem slynth" />
+  </object>
+  <object Name="Snail Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem chiocciola" />
+  </object>
+  <object Name="Snapjaw Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem mascella-a-scatto" />
+  </object>
+  <object Name="Spider Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem ragno" />
+  </object>
+  <object Name="Succulent Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem succulenta" />
+  </object>
+  <object Name="Svardym Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem svardym" />
+  </object>
+  <object Name="Swine Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem maiale" />
+  </object>
+  <object Name="Table Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem tavolo" />
+  </object>
+  <object Name="Tortoise Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem tartaruga" />
+  </object>
+  <object Name="Tripedal Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot tripede" />
+  </object>
+  <object Name="Tree Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem albero" />
+  </object>
+  <object Name="Troll Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem troll" />
+  </object>
+  <object Name="Turret Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem torretta" />
+  </object>
+  <object Name="Urchin Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem riccio" />
+  </object>
+  <object Name="Urshiib Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem urshiib" />
+  </object>
+  <object Name="Vine Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem vite" />
+  </object>
+  <object Name="Wall Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem muro" />
+  </object>
+  <object Name="Wheeled Robot Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem robot a ruote" />
+  </object>
+  <object Name="Worm Golem" Load="Merge">
+    <part Name="Render" DisplayName="▶golem verme" />
+  </object>
+  <object Name="Metachrome Weapon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{metachrome|metachrome}} arma" />
+  </object>
+  <object Name="Metachrome Cudgel" Load="Merge">
