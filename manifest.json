@@ -1,0 +1,15 @@
+{
+  "ID": "sadmozer.lang.italian",
+  "Title": "Italian Translation Pack",
+  "Description": "La traduzione italiana di Caves of Qud!",
+  "Version": "0.0.1",
+  "Author": "SadMozer, Batraffo",
+  "Tags": "Localization",
+  "Directories": [
+    {
+      "Path": "/Language/",
+      "Version": ">=1.1.0",
+      "Build": ">=2.0.212"
+    }
+  ]
+}
