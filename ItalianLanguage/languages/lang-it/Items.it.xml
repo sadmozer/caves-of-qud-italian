@@ -1941,7 +1941,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
     <part Name="Render" DisplayName="▶stivali a maglia" />
     <part Name="Description" Short="▶Gli stivali di cuoio sono rinforzati da filo estruso meticolosamente arrotolato in centinaia di maglie di catena." />
   </object>
-  </object>
   <object Name="Steel Boots" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|acciaio}} stivali" />
     <part Name="Description" Short="▶Bande d'acciaio che portano i loro segni di leva sono state inchiodate a un paio di stivali di cuoio di cinghiale plissettati." />
