@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import coq_traduzioni; print\\(f'Voci nel dizionario: {len\\(coq_traduzioni.TRADUZIONI\\)}'\\)\")",
+      "Bash(python3 coq_traduzioni.py)",
+      "Bash(ls \"/mnt/c/Program Files \\(x86\\)/Steam/steamapps/common/Caves of Qud/CoQ_Data/StreamingAssets/Base/ExampleLanguage/traduzioni/\"*.xml)",
+      "Bash(python3 -)",
+      "Bash(python3 coq_traduzioni.py pipeline Strings.example.original.xml Strings.example.finale.xml non_tradotte.txt)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 _split_helper.py)",
+      "Bash(python3 -c \"import coq_traduzioni; print\\('Import OK'\\)\")",
+      "Bash(python3 -c \"import dizionario; print\\(f'Voci dizionario: {len\\(dizionario.TRADUZIONI\\)}'\\)\")",
+      "Bash(rm:*)"
+    ]
+  }
+}
