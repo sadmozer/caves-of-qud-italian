@@ -13,7 +13,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     Type: This should match one of the available types in relictypes
 
 -->
-<relics Lang="it" Encoding="utf-8">
+<relics Lang="example" Encoding="utf-8">
   <relictypemappings>
     <relictypemapping Name="▶ascia" Type="Axe" />
     <relictypemapping Name="▶pugnale" Type="ShortBlade" />
