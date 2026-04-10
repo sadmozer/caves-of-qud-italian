@@ -20,8 +20,6 @@ Caves of Qud supporta lingue personalizzate solo su un branch specifico. Prima d
 
 Steam scaricherà la versione del branch `lang-experimental`.
 
----
-
 ### 2. Installa i file della traduzione
 
 1. Vai alla pagina delle [**Releases**](../../releases) di questo repository.
