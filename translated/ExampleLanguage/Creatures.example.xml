@@ -19,7 +19,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagGrammar>
 
 -->
-<objects Lang="it" Encoding="utf-8">
+<objects Lang="example" Encoding="utf-8">
   <object Name="Creature" Load="Merge">
     <tag Name="PetResponse" Value="▶=subject.T= =verb:stare= fissando =object.t= con aria assente." />
     <tag Name="SimpleConversation" Value="▶Luna e Sole. Saggezza e volontà.~▶Che la terra sia generosa con noi questa stagione.~▶Pace, =player.formalAddressTerm=." />

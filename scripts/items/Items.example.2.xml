@@ -1,0 +1,500 @@
+    <part Name="Projectile" PassByVerb="▶ronzare" />
+  </object>
+  <object Name="Freeze Ray" Load="Merge">
+    <part Name="Render" DisplayName="▶{{freezing|congela}} raggio" />
+    <part Name="Description" Short="▶Il refrigerante gassoso fluisce attraverso un tubo di chiffon, depositando rugiada sul largo e piatto cromo della canna. Si riversa nell'aria dall'ugello scheggiato di ghiaccio." />
+  </object>
+  <object Name="ProjectileFreezeRay" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|fascio energetico}}" />
+    <part Name="Projectile" PassByVerb="▶crepitare" />
+  </object>
+  <object Name="Hypertractor" Load="Merge">
+    <part Name="Render" DisplayName="▶{{hypertractor|hypertractor}}" />
+    <part Name="Description" Short="▶Un prisma rigato rifrange e rifocalizza la luce per attirare oggetti verso il suo utilizzatore. I sofisti lo chiamano 'raggio qui'." />
+  </object>
+  <object Name="ProjectileHookRay" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|fascio energetico}}" />
+    <part Name="Projectile" PassByVerb="▶ronzare" />
+    <part Name="TreatAsSolid" Message="▶=subject.T= =verb:collapse= sotto la pressione della normalità." />
+  </object>
+  <object Name="Light Rail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|luce}} rail" />
+    <part Name="Description" Short="▶Legno intagliato artigianalmente ospita un sestetto di conduttori paralleli e un'armatura fotonica scorrevole. La venatura è bruciata di nero sul calcio del fucile." />
+  </object>
+  <object Name="ProjectileLightrail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|fotone lungo}}" />
+    <part Name="Projectile" PassByVerb="▶ronzare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità divora =subject.t=!" />
+  </object>
+  <object Name="Spaser Rifle" Load="Merge">
+    <part Name="Render" DisplayName="▶{{spaser|spaser}} fucile" />
+    <part Name="Description" Short="▶Il crysteel dai vapori cangianti avvolge il meccanismo oro/acqua che comprime la luce da lunghezza a cortezza d'onda. Scorie di plasmone ribollono sulla cresta della canna come vita di melma surriscaldata." />
+  </object>
+  <object Name="ProjectileSpaserRifle" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|plasmone}}" />
+    <part Name="Projectile" PassByVerb="▶ronzare" />
+  </object>
+  <object Name="Phase Cannon" Load="Merge">
+    <part Name="Render" DisplayName="▶cannone di fase" />
+    <part Name="Description" Short="▶Gli astragali delimitano le fessure fasiche lungo la lunghezza del tronco di cono. Il rumore viene aspirato dal tempo nell'attesa della fusione tra piani." />
+  </object>
+  <object Name="ProjectilePhaseCannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{M|bullone energetico}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+    <part Name="TreatAsSolid" Message="▶=subject.T= =verb:collapse= sotto la pressione della normalità." />
+  </object>
+  <object Name="Short Bow" Load="Merge">
+    <part Name="Render" DisplayName="▶arco corto" />
+    <part Name="Description" Short="▶L'osso posteriore di un saltatore fu scottato pulito e piegato a formare un arco ricurvo. Il tendine è infilato nelle tacche." />
+  </object>
+  <object Name="Compound Bow" Load="Merge">
+    <part Name="Render" DisplayName="▶arco compound" />
+    <part Name="Description" Short="▶Ruote folli furono aggiunte ai bracci, e cavi tesi si irrigidiscono per accentuare la forza dell'arciere." />
+  </object>
+  <object Name="Dart Gun" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola a dardi" />
+    <part Name="Description" Short="▶Una corda d'arco di tendine di maiale è incastrata dietro una guida di stelo di salamoia assottigliata per far scorrere un dardo." />
+  </object>
+  <object Name="Electrobow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|elettro}}{{c|arco}}" />
+    <part Name="Description" Short="▶I magneti sulle tacche della corda ronzano e una sottile curva di metallo risponde al ronzio. L'aria crepita quando le dita si avvicinano al poggia-frecce." />
+  </object>
+  <object Name="ProjectileElectrobow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|bullone energetico}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="Turbow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{turbow|turbow}}" />
+    <part Name="EnergyAmmoLoader" NameForStatus="▶AssistenteServo" />
+    <part Name="MagazineAmmoLoader" NameForStatus="▶AncoraggioProiettile" />
+    <part Name="Description" Short="▶I servi scattano nelle scanalature rotanti e una mini turbina ad aria esagera il tiro della corda dell'arco." />
+    <part Name="RulesDescription" Text="▶Questa arma aumenta la penetrazione base delle sue munizioni di 4.&#xA;Questa arma aumenta il dado danno delle sue munizioni di 4.&#xA;Questa arma aumenta il bonus danno delle sue munizioni di 1." />
+  </object>
+  <object Name="BaseArrowProjectile" Load="Merge">
+    <part Name="Projectile" PassByVerb="▶fischiare" />
+  </object>
+  <object Name="Wooden Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶freccia di legno" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di legno." />
+  </object>
+  <object Name="ProjectileWoodenArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|freccia di legno}}" />
+  </object>
+  <object Name="Steel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} freccia" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta d'acciaio." />
+  </object>
+  <object Name="ProjectileSteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} freccia" />
+  </object>
+  <object Name="Boomrose Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|boomrose}} freccia" />
+    <part Name="Description" Short="▶Rossi e arancioni vorticano nella punta bulbosa della freccia. L'accensione è a un passo." />
+  </object>
+  <object Name="ProjectileExplosiveArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|boomrose}} freccia" />
+  </object>
+  <object Name="Carbide Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b|carburo}} freccia" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di carburo." />
+  </object>
+  <object Name="ProjectileCarbideArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b|carburo}} freccia" />
+  </object>
+  <object Name="Folded Carbide Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|carburo piegato}} freccia" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di carburo piegato." />
+  </object>
+  <object Name="ProjectileFoldedCarbideArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|carburo piegato}} freccia" />
+  </object>
+  <object Name="Fullerite Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|freccia di fullerite}}" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di fullerite." />
+  </object>
+  <object Name="ProjectileFulleriteArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|fullerite}} freccia" />
+  </object>
+  <object Name="Crysteel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|crysteel}} freccia}}" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di crysteel." />
+  </object>
+  <object Name="ProjectileCrysteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|crysteel}} freccia}}" />
+  </object>
+  <object Name="Flawless Crysteel Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|perfetta {{crysteel|crysteel}} freccia}}" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di crysteel perfetto." />
+  </object>
+  <object Name="ProjectileFlawlessCrysteelArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|perfetta {{crysteel|crysteel}} freccia}}" />
+  </object>
+  <object Name="Zetachrome Arrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{zetachrome|zetachrome}} freccia" />
+    <part Name="Description" Short="▶Un'asta stretta impennata con piume di uccello è sormontata da una punta di zetachrome." />
+  </object>
+  <object Name="ProjectileZetachromeArrow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{zetachrome|zetachrome}} freccia" />
+  </object>
+  <object Name="BaseRocketProjectile" Load="Merge">
+    <part Name="Projectile" PassByVerb="▶sibilare" />
+  </object>
+  <object Name="Chaingun" Load="Merge">
+    <part Name="Render" DisplayName="▶mitragliatrice a catena" />
+    <part Name="Description" Short="▶Una catena cromata si avvolge attorno a un volano autoriavvolgente ed è punteggiata di rugiada di grasso. Una lunga canna è scalfita da cicatrici d'acciaio." />
+  </object>
+  <object Name="Grenade Launcher" Load="Merge">
+    <part Name="Render" DisplayName="▶lanciagranate" />
+    <part Name="Description" Short="▶Il ticchettio di un percussore contro l'acciaio fa trasalire la fauna. Un mirino cromato facilita l'arco della parabola." />
+  </object>
+  <object Name="Missile Launcher" Load="Merge">
+    <part Name="Render" DisplayName="▶lanciarazzi" />
+    <part Name="Description" Short="▶Il grasso bagna la maniglia di armamento e scende lungo il largo canale del missile verso un appoggio a spalla saldato." />
+  </object>
+  <object Name="HE Missile" Load="Merge">
+    <part Name="Render" DisplayName="▶Missile HE" />
+    <part Name="Description" Short="▶Una brillante testata gassosa punta la fine del canale della morte d'acciaio." />
+  </object>
+  <object Name="ProjectileHEMissile" Load="Merge">
+    <part Name="Render" DisplayName="▶missile" />
+  </object>
+  <object Name="Flamethrower" Load="Merge">
+    <part Name="Render" DisplayName="▶lanciafiamme" />
+    <part Name="Description" Short="▶Una pompa del carburante limpida espone nastri di pellicola oleosa, e dietro un manometro di tensione scatta. Lo schermo termico inclinato è bruciato di nero." />
+  </object>
+  <object Name="ProjectileFlamethrower" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|getto di fiamme}}" />
+    <part Name="Projectile" PassByVerb="▶sibilare" />
+  </object>
+  <object Name="Defoliant Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="▶{{defoliant|defoliante}} pompa" />
+    <part Name="Description" Short="▶Una pompa a mano scorre in un contenitore cromato con illustrazioni di piante appassite incise in rilievo." />
+  </object>
+  <object Name="ProjectileDefoliantGasStream" Load="Merge">
+    <part Name="Render" DisplayName="▶{{defoliant|getto di gas}}" />
+    <part Name="Projectile" PassByVerb="▶sfarfallare" />
+  </object>
+  <object Name="Fungicide Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="▶{{fungicide|fungicida}} pompa" />
+    <part Name="Description" Short="▶Una pompa a mano scorre in un contenitore cromato con illustrazioni di funghi marci incise in rilievo." />
+  </object>
+  <object Name="ProjectileFungicideGasStream" Load="Merge">
+    <part Name="Render" DisplayName="▶{{fungicide|getto di gas}}" />
+    <part Name="Projectile" PassByVerb="▶precipitarsi" />
+  </object>
+  <object Name="Mortar Tube" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|tubo del mortaio}}" />
+    <part Name="Description" Short="▶Polvere da sparo indurita è dipinta sull'arco interno del mortaio." />
+  </object>
+  <object Name="ProjectileMortar" Load="Merge">
+    <part Name="Render" DisplayName="▶proiettile di mortaio" />
+    <part Name="Projectile" PassByVerb="▶lanciarsi" />
+  </object>
+  <object Name="Normality Gas Pump" Load="Merge">
+    <part Name="Render" DisplayName="▶{{normal|gas di normalità}} pompa" />
+    <part Name="Description" Short="▶È un contenitore ermetico, un tubo e un ugello. Vi sono incise le parole: 'in caso di emergenza dimensionale, spruzzare'." />
+  </object>
+  <object Name="ProjectileNormalityGasStream" Load="Merge">
+    <part Name="Render" DisplayName="▶getto di gas" />
+    <part Name="Projectile" PassByVerb="▶precipitarsi" />
+  </object>
+  <object Name="Arc Cannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|cannone ad arco}}" />
+    <part Name="Description" Short="▶Cavi intrecciati insieme formano la canna di un blaster che spara lungo le linee del campo elettromagnetico curvato." />
+  </object>
+  <object Name="ProjectileArcCannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|arco elettrico}}" />
+    <part Name="Projectile" PassByVerb="▶balzare" />
+  </object>
+  <object Name="Linear Cannon" Load="Merge">
+    <part Name="Render" DisplayName="▶cannone lineare" />
+    <part Name="Description" Short="▶Volumi di metallo barocchi e a forma di aquilone sono disposti su un asse come un tornio per rasare la dimensionalità dai loro spazi interni. Un enorme calcio e impugnatura di fullerite verniciata sostengono il loro tremendo peso." />
+    <part Name="MagazineAmmoLoader" NameForStatus="▶MeccanismoCaricamento" />
+    <part Name="EnergyAmmoLoader" NameForStatus="▶AcceleratoreLineare" />
+  </object>
+  <object Name="ProjectileLinearCannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{y|proiettile 1D}}" />
+    <part Name="Projectile" PassByVerb="▶saettare" />
+  </object>
+  <object Name="Blast Cannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|scoppio}} cannone" />
+    <part Name="EquipCharge" NameForStatus="▶CollegamentoEnergetico" />
+    <part Name="Description" Short="▶Eleganti canne a spirale di metallo a matrice avvolgono un enorme cilindro di gas ionico. Al fuoco, la miscela viene iperpressurizzata in proiettile e inviata a esplodere in fondo alla linea di mira." />
+  </object>
+  <object Name="ProjectileBlastCannon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|energia pressurizzata}}" />
+    <part Name="Projectile" PassByVerb="▶vibrare" />
+    <xtagGrammar massNoun="▶vero" />
+  </object>
+  <object Name="Swarm Rack" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m|rastrelliera sciame}}" />
+    <part Name="Description" Short="▶Un favo cromato e spolverato di quarzo monta sul piano di visione e minaccia obliterazione a tutti. Saldature a barre si piegano al suo peso gigantesco, e le teste dei razzi spuntano dall'alveare esagonale." />
+  </object>
+  <object Name="ProjectileSwarmRocket" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m|razzo}}" />
+  </object>
+  <object Name="Borderlands Revolver" Load="Merge">
+    <part Name="Render" DisplayName="▶revolver cromato" />
+    <part Name="Description" Short="▶Una ruota cromata macchiata e salata scatta al ritmo della luna. Proprio sopra un pannello manuale di stelo di salamoia, il medaglione dell'impugnatura brilla in un lignaggio delfiano." />
+  </object>
+  <object Name="Semi-Automatic Pistol" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola semiautomatica" />
+    <part Name="Description" Short="▶Le impugnature di acrilico nero sono percorse da crepe sottili come capelli da dove mani nervose e sudate hanno strizzato via la precisione del tiro." />
+  </object>
+  <object Name="Grappling Gun" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola rampino" />
+    <part Name="Description" Short="▶Una molla di tensione spinge un percussore a colpire una camera di gas ed espellere un rampino con cavo; poi un verricello lo riavvolge." />
+  </object>
+  <object Name="ProjectileGrapplingGun" Load="Merge">
+    <part Name="Render" DisplayName="▶rampino" />
+    <part Name="Projectile" PassByVerb="▶lanciarsi" />
+  </object>
+  <object Name="Chain Pistol" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola a catena" />
+    <part Name="Description" Short="▶Un caricatore sottile come stagno pende dal pozzetto del caricatore cromato graffiato." />
+  </object>
+  <object Name="Laser Pistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|laser}} pistola" />
+    <part Name="Description" Short="▶La pistola è incisa con canapa di viticella d'acqua e circondata di salmastre. Sull'impugnatura c'è l'immagine di un nomade e di un cavaliere in salmastra. Il cavaliere sta abbattendo il nomade." />
+  </object>
+  <object Name="ProjectileLaserPistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|raggio laser}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità divora =subject.t=!" />
+  </object>
+  <object Name="Eigenpistol" Load="Merge">
+    <part Name="Render" DisplayName="▶eigenpistola" />
+    <part Name="Description" Short="▶Perpendicolare alla canna azzurra al neon c'è un mirino a piatto quadrato con una grande lente oculare incastonata. La visione attraverso la lente si distorce quando la pistola si inclina, ma il vettore tracciato rimane invariato." />
+  </object>
+  <object Name="ProjectileEigenpistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|vettore punto}}" />
+    <part Name="Projectile" PassByVerb="▶ronzare" />
+  </object>
+  <object Name="Arc Winder" Load="Merge">
+    <part Name="Render" DisplayName="▶avvolgitore ad arco" />
+    <part Name="Description" Short="▶Una manovella a spirale chiude un circuito incapsulato nel cromo ed espelle carica attraverso due punte di contatto. Il fumo si avvolge nel loro bagliore giallo." />
+  </object>
+  <object Name="ProjectileElectroPistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pacchetto ionico}}" />
+    <part Name="Projectile" PassByVerb="▶volare" />
+  </object>
+  <object Name="Nullray Pistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|pistola a raggio nullo}}" />
+    <part Name="Description" Short="▶Il metallo privo di stelle sulla canna assorbe la luce e la convoglia nel posto del nulla. L'acrilico dell'impugnatura è modellato sulle linee ley." />
+  </object>
+  <object Name="ProjectileNullray" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|nulla}}" />
+    <part Name="Projectile" PassByVerb="▶passare" />
+    <xtagGrammar Proper="▶vero" />
+  </object>
+  <object Name="Hand Rail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|mano}} rail" />
+    <part Name="Description" Short="▶Legno intagliato artigianalmente ospita un sestetto di conduttori paralleli e un'armatura fotonica scorrevole. La venatura è bruciata di nero sul calcio della pistola." />
+  </object>
+  <object Name="ProjectileHandrail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|fotone lungo}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità divora =subject.t=!" />
+  </object>
+  <object Name="Di-Thermo Beam" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|di-thermo}} raggio" />
+    <part Name="Description" Short="▶Un tubo del refrigerante e un tubo dell'antigelo sono bloccati nella canna in geometria simmetrica. Le levette girevoli ruotano il meccanismo e ne invertono l'orientamento." />
+  </object>
+  <object Name="ProjectileDiThermoBeamHeat" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|raggio termico}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="ProjectileDiThermoBeamCold" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|raggio freddo}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="Blood-Gradient Hand Vacuum" Load="Merge">
+    <part Name="Render" DisplayName="▶aspiratore a mano a gradiente di sangue" />
+    <part Name="BioAmmoLoader" NameForStatus="▶SistemaTrasfusionaleVitalità" />
+    <part Name="LiquidProducer" NameForStatus="▶MicrotubulliDissanguamento" />
+    <part Name="LiquidFueledPowerPlant" NameForStatus="▶EstrattoreBiodinamico" />
+    <part Name="Description" Short="▶Il sangue setacciato di pezzi grossolani sbatte in un contenitore di tetraxenonoglass. La pressione del vuoto aspira aria attraverso la canna, e fessure sul fermo di scorrimento sfiata un rutto metronomico." />
+  </object>
+  <object Name="ProjectileBloodGradientHandVacuumPulse" Load="Merge">
+    <part Name="Render" DisplayName="▶{{r|vuoto al plasma sanguigno}}" />
+    <part Name="Projectile" PassByVerb="▶stridere" />
+    <part Name="TreatAsSolid" Message="▶=subject.T= =verb:collapse= sotto la pressione della normalità." />
+  </object>
+  <object Name="Spaser Pistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{spaser|spaser}} pistola" />
+    <part Name="Description" Short="▶Il crysteel dai vapori cangianti avvolge il meccanismo oro/acqua che comprime la luce da lunghezza a cortezza d'onda. Scorie di plasmone ribollono sulla cresta della canna come vita di melma surriscaldata." />
+  </object>
+  <object Name="ProjectileSpaserPistol" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|plasmone}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="Space Inverter" Load="Merge">
+    <part Name="Render" DisplayName="▶invertitore spaziale" />
+    <part Name="Description" Short="▶Dietro la volata, un nimbo di spaziotempo instabile incapsulato nel vetro si arriccia attorno a un legame astrale. Il meccanismo del grilletto taglia il legame e proietta l'anomalia nel mondo libero." />
+  </object>
+  <object Name="High-Voltage Arc Winder" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|alta tensione}} avvolgitore ad arco" />
+    <part Name="Description" Short="▶Una manovella a spirale chiude un circuito incapsulato nel cromo ed espelle enormi quantità di carica attraverso due punte di contatto. Il fumo si avvolge nel loro bagliore bianco incandescente." />
+  </object>
+  <object Name="Psychal Fleshgun" Load="Merge">
+    <part Name="Render" DisplayName="▶{{psychalflesh|pistola di carne psichica}}" />
+    <part Name="Description" Short="▶Carne grezza è tesa su una massa che approssima la forma di una pistola. La pressione schiaccia una vena pulsante contro la sottopelle e polpa di sangue viene sputata fuori da due tubi di metallo costolati a un ticchettio metronomico. In momenti fuori sequenza, un'energia invisibile viene convogliata lungo le ley psichiche e nella massa di organi, producendo un fastidio liquido." />
+    <part Name="LiquidAmmoLoader" NameForStatus="▶ProiettorePsichicoBiodinamico" />
+    <part Name="LiquidProducer" NameForStatus="▶InnestoCircolatorio" />
+  </object>
+  <object Name="ProjectilePsychalFleshgun" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m|pulsazione psichica}}" />
+    <part Name="Projectile" PassByVerb="▶turbinare" />
+  </object>
+  <object Name="Longreach Grappling Gun" Load="Merge">
+    <part Name="Render" DisplayName="▶pistola rampino a lunga gittata" />
+    <part Name="Description" Short="▶Una molla di tensione spinge un percussore a colpire una camera di gas ed espellere un rampino a cavo lungo di precisione; poi un verricello lo riavvolge." />
+  </object>
+  <object Name="BaseShotgunProjectile" Load="Merge">
+    <part Name="Render" DisplayName="▶raffica di pallini" />
+    <part Name="Projectile" PassByVerb="▶frullare" />
+  </object>
+  <object Name="Shotgun Shell" Load="Merge">
+    <part Name="Render" DisplayName="▶cartuccia per fucile a pompa" />
+    <part Name="Description" Short="▶Una manciata di pallini è racchiusa in un bossolo spesso di carta cerata e plastica." />
+  </object>
+  <object Name="Pump Shotgun" Load="Merge">
+    <part Name="Render" DisplayName="▶fucile a pompa" />
+    <part Name="Description" Short="▶Un calcio anteriore di noce pende sotto la nervatura cromata e, quando pompato, erutta in uno scatto estatico." />
+  </object>
+  <object Name="Combat Shotgun" Load="Merge">
+    <part Name="Render" DisplayName="▶fucile a pompa da combattimento" />
+    <part Name="Description" Short="▶Le parti del calcio di noce furono svitate in favore del metallo senza stelle. Una pompa ingrassata fa scorrere i pallini nella camera con attrito minimo." />
+  </object>
+  <object Name="Ruin of House Isner" Load="Merge">
+    <part Name="Render" DisplayName="▶Rovina di Casa Isner" />
+    <part Name="Description" Short="▶La maestria di questa pistola lavorata in ottone e cromo è mozzafiato: impugnature di legno di re chiamano il palmo a una presa senz'aria, il cane è sagomato al pollice al micrometro, e il mirino attira l'occhio lungo la canna come lo scivolamento della seta. È incisa tutt'intorno con edera avvizzita, e la volata è baciata di sangue." />
+    <part Name="RulesDescription" Text="▶+1 Ego&#xA;I colpi critici segnati con quest'arma ottengono un bonus extra di +4 ai tiri di penetrazione.&#xA;Quando quest'arma spara un colpo con l'ultimo proiettile nel caricatore, il colpo ha mira perfetta ed è garantito segnare un colpo critico." />
+    <part Name="TakenAccomplishment" Text="▶Hai recuperato la pistola capolavoro e la leggendaria ode alla vendetta, il =this.refname=." Hagiograph="▶Il pistolero-sultano =name= uccise ciascuno dei sette signori di Casa Isner con un revolver capolavoro e festeggiò sui loro cadaveri ammassati." Gospel="▶Nel profondo della landa selvaggia vicino a =landmark.nearest=, =name= si imbatté in un clan di baroni dell'acqua che eseguivano un rituale segreto. A causa dei loro occhi traditori, =name= uccise ciascuno dei sette signori con un revolver capolavoro e festeggiò sui loro cadaveri ammassati." />
+    <xtagGrammar Proper="▶vero" />
+    <tag Name="IndefiniteArticle" Value="▶la" />
+    <tag Name="DefiniteArticle" Value="▶la" />
+  </object>
+  <object Name="Geomagnetic Disc" Load="Merge">
+    <part Name="Render" DisplayName="▶disco geomagnetico" />
+    <part Name="Description" Short="▶Degli ioni furono fatti girare in un disco euedrico su una ruota girevole, e l'acquamarina fu termoindurente sull'anello interno con vapore di mare profondo." />
+  </object>
+  <object Name="ThrowingAxe" Load="Merge">
+    <part Name="Render" DisplayName="▶ascia da lancio" />
+    <part Name="Description" Short="▶Una testa di lama graffiata dal sale è fissata a un manico scheggiato con un cuneo di legno." />
+  </object>
+  <object Name="CastNet" Load="Merge">
+    <part Name="Render" DisplayName="▶rete da lancio" />
+    <part Name="Description" Short="▶Il lino fu mietuto dalla Coppa d'Iride, ridotto in fibre, e intrecciato in una morbida griglia dai pescatori del Mare Pallido." />
+  </object>
+  <object Name="BaseStone" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra" />
+  </object>
+  <object Name="Small Stone" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra" />
+    <part Name="SizeAdjective" Adjective="▶piccola" />
+    <part Name="Description" Short="▶Un pezzo di roccia fu scavato dall'acqua dal suo letto natale e levigato dal tempo in una sfera." />
+  </object>
+  <object Name="Large Stone" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra" />
+    <part Name="SizeAdjective" Adjective="▶grande" />
+    <part Name="Description" Short="▶Un pezzo di roccia fu scavato dall'acqua dal suo letto natale e levigato dal tempo in una grande sfera." />
+  </object>
+  <object Name="BaseBoulder" Load="Merge">
+    <part Name="Render" DisplayName="▶masso" />
+    <part Name="SizeAdjective" Adjective="▶piccolo" />
+  </object>
+  <object Name="SmallBoulder" Load="Merge">
+    <part Name="Render" DisplayName="▶masso" />
+    <part Name="SizeAdjective" Adjective="▶piccolo" />
+    <part Name="Description" Short="▶È un pezzo di roccia, più antico di ogni libro." />
+  </object>
+  <object Name="MediumBoulder" Load="Merge">
+    <part Name="Render" DisplayName="▶masso" />
+    <part Name="SizeAdjective" Adjective="▶medio" />
+    <part Name="Description" Short="▶È un pezzo di roccia considerevole, più antico di ogni simbolo." />
+  </object>
+  <object Name="LargeBoulder" Load="Merge">
+    <part Name="Render" DisplayName="▶masso" />
+    <part Name="SizeAdjective" Adjective="▶grande" />
+    <part Name="Description" Short="▶È un grande pezzo di roccia, più antico di ogni idea." />
+  </object>
+  <object Name="SleepGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|sonno}} granata a gas mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. Il suo tappo è umido di rugiada onirica." />
+  </object>
+  <object Name="SleepGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|sonno}} granata a gas mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. Il suo tappo è umido di rugiada onirica." />
+  </object>
+  <object Name="SleepGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|sonno}} granata a gas mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. Il suo tappo è umido di rugiada onirica." />
+  </object>
+  <object Name="PoisonGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g|veleno}} granata a gas mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. È inciso con le ossa incrociate del pericolo." />
+  </object>
+  <object Name="PoisonGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g|veleno}} granata a gas mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. È inciso con le ossa incrociate del pericolo." />
+  </object>
+  <object Name="PoisonGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g|veleno}} granata a gas mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. È incisa con le ossa incrociate del pericolo." />
+  </object>
+  <object Name="StunGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata a gas stordente mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. Il suo cappuccio è bordato di spigoli taglienti." />
+  </object>
+  <object Name="StunGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata a gas stordente mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. Il suo cappuccio è bordato di spigoli taglienti." />
+  </object>
+  <object Name="StunGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata a gas stordente mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. Il suo cappuccio è bordato di spigoli taglienti." />
+  </object>
+  <object Name="AcidGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|acido}} granata a gas mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. Sfrigola all'interno." />
+  </object>
+  <object Name="AcidGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|acido}} granata a gas mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. Sfrigola all'interno." />
+  </object>
+  <object Name="AcidGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|acido}} granata a gas mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. Sfrigola all'interno." />
+  </object>
+  <object Name="FlashbangGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata stordente mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. È inciso con l'immagine di un occhio." />
+  </object>
+  <object Name="FlashbangGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata stordente mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. È inciso con l'immagine di un occhio." />
+  </object>
+  <object Name="FlashbangGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata stordente mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. È incisa con l'immagine di un occhio." />
+  </object>
+  <object Name="HeatGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|termica}} granata mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. È caldo al tatto." />
+  </object>
+  <object Name="HeatGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|termica}} granata mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. È caldo al tatto." />
+  </object>
+  <object Name="HeatGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|termica}} granata mk III" />
+    <part Name="Description" Short="▶Una spessa giacca metallica racchiude l'esplosivo ed è bloccata a una leva a rilascio rapido. È caldo al tatto." />
+  </object>
+  <object Name="ColdGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|ghiaccio}} granata mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è bloccato da una leva con un anello di estrazione. È freddo al tatto." />
+  </object>
+  <object Name="ColdGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|ghiaccio}} granata mk II" />
+    <part Name="Description" Short="▶Un banco metallico di esagoni cialdati è bloccato da una leva cromata. È freddo al tatto." />

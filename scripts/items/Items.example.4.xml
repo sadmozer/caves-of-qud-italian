@@ -1,0 +1,250 @@
+    <part Name="Render" DisplayName="▶{{b-B-Y-Y-Y-Y-Y-Y-B-b alternation|girocottero}} zaino" />
+    <part Name="Description" Short="▶Le pale articolate si dispiegano a formare una vite aerea che viene spinta verso l'alto da un propulsore d'aria montato in basso. All'attivazione, chi lo indossa si alza in volo." />
+    <part Name="BootSequence" VerbOnBootInitialized="▶tossire" VerbOnBootDone="▶ronzare" VerbOnBootAborted="▶scoppiettare" />
+    <part Name="MechanicalWings" NameForStatus="▶TrasmissioneMotrice" />
+  </object>
+  <object Name="Helping Hands" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|{{R|m}}ani {{R|a}}iutanti}}" />
+    <part Name="Description" Short="▶Mani protesiche con guanti sono attaccate alle estremità di aste articolate. Il meccanismo di controllo è alloggiato in una scatola a forma di falsa colonna vertebrale." />
+  </object>
+  <object Name="Banner of the Holy Rhombus" Load="Merge">
+    <part Name="Render" DisplayName="▶stendardo del {{r|Sacro Rombo}}" />
+    <part Name="Description" Short="▶L'aria circola e lo stendardo respira; i bordi del diamante rosso si restringono e si allungano. Il sangue scorre attraverso le arterie del tempo e nel tessuto della nuova carne." />
+  </object>
+  <object Name="Mercurial Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶{{mercurial|mercuriale}} mantello" />
+    <part Name="Description" Short="▶Il movimento anima in modo tremolante gli uccelli cuciti nelle morbide pieghe del tessuto." />
+  </object>
+  <object Name="Quartzfur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|quartzfur}} mantello" />
+    <part Name="Description" Short="▶La pelle cosparsa di prismi fu tosata da una scimmia morta e ricavata in un mantello." />
+  </object>
+  <object Name="Strength Exo" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W-W-W-W-W-R sequence|potenziato}} {{K-y-K-K-K-K-K-K-K-K sequence|esoscheletro}}" />
+    <part Name="BootSequence" VerbOnBootInitialized="▶gemere" VerbOnBootDone="▶ronzare" VerbOnBootAborted="▶tonfare" />
+    <part Name="EquipStatBoost" NameForStatus="▶AssistenzaServo" />
+    <part Name="Description" Short="▶Tubi di ardesia si assemblano per sostenere la forma umana." />
+  </object>
+  <object Name="Rainboweave Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶{{rainbow|arcobaleno}} mantello" />
+    <part Name="Description" Short="▶Punti di materia discontinua si radunano a falce verso un vento fittizio. Insieme piegano la luce attraverso il suo intero spettro e sfumano il busto di chi lo indossa in un caos policromo." />
+  </object>
+  <object Name="Ogre Fur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pelliccia d'orco}} mantello" />
+    <part Name="Description" Short="▶Una pelliccia ruvida è ricavata dal folto manto di un orco-scimmia in un ampio mantello dalle spalle larghe." />
+  </object>
+  <object Name="Kaleidocera Cape" Load="Merge">
+    <part Name="Render" DisplayName="▶{{kaleidoslug|caleidocera}} cappa" />
+    <part Name="Description" Short="▶I cerata pendolano sulla cappa come erba prismatica di un prato ventoso. Riflettono ricche tonalità in ceruleo, rubino, orchidea stellare e vuoto; insieme brillano di un effetto splendente." />
+  </object>
+  <object Name="Palladium Mesh Tabard" Load="Merge">
+    <part Name="Render" DisplayName="▶{{palladium mesh|maglia di palladio}} tabardo" />
+    <part Name="Description" Short="▶Gli elettrodi brillano sulla rete attraverso il tessuto di uuflax. Le maniche, allargate alla moda, mostrano la circuiteria araldica dorata e ciana." />
+  </object>
+  <object Name="Gigantic Chassis Plate" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|lastra di telaio}}" />
+    <part Name="Description" Short="▶Un'enorme lastra di cromo bruciato e laminato è stata staccata da un movimento terra. Proietta la sua ombra sul mostro che la impugna come una vela stellare." />
+  </object>
+  <object Name="Witchwood Wreath" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|legnostrega}} corona" />
+    <part Name="Description" Short="▶Ramoscelli dell'albero stregato sono potati e intrecciati in una ghirlanda per l'hindsun." />
+    <part Name="Harvestable" HarvestVerb="▶smontare" />
+  </object>
+  <object Name="Wide-brimmed Hat" Load="Merge">
+    <part Name="Render" DisplayName="▶cappello a tesa larga" />
+    <part Name="Description" Short="▶La calotta è schiacciata dall'uso in centinaia di pieghe cartacee, e la tesa è macchiata dalle firme frattali di sudore e sale." />
+  </object>
+  <object Name="Gentling Collar" Load="Merge">
+    <part Name="Render" DisplayName="▶cono ammansitore" />
+    <part Name="Description" Short="▶In carta di lana e acrilico il dolore dell'esperienza è levigato nel cono infantile uniforme. Morsetti arteriosi spuntano dalla superficie interna. Il cono è fissato da una catena di ottone, adornata da perle di vetro, e marchiato all'apice con il Sacro Rombo, segno del prezzo dell'innocenza." />
+  </object>
+  <object Name="Leather Cap" Load="Merge">
+    <part Name="Render" DisplayName="▶berretto di cuoio" />
+    <part Name="Description" Short="▶Un involucro di cuoio per il cranio è cucito nello stile senza bordo per chi preferisce infilarsi nei cunicoli piuttosto che proteggere l'occhio gemmato." />
+  </object>
+  <object Name="Crimson Hood" Load="Merge">
+    <part Name="Render" DisplayName="▶{{r|cremisi}} cappuccio" />
+    <part Name="Description" Short="▶Il pizzo rosso cinge il viso per esaltare le guance illuminate dal sole della moglie di un viticoltore." />
+  </object>
+  <object Name="Knollworm Skull" Load="Merge">
+    <part Name="Render" DisplayName="▶teschio di knollworm" />
+    <part Name="Description" Short="▶Un becco orribile si sporge sulla cavità cranica e adombra il viso nella luce inquietante di un sole fioco e dolente." />
+  </object>
+  <object Name="Steel Helmet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} elmo" />
+    <part Name="Description" Short="▶Un secondo cranio è stato forgiato a cono da un foglio di metallo desolforato. Minuscole iniziali sono graffiate." />
+  </object>
+  <object Name="Elastyne Skull Cap" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|elastyne}} cuffia cranica" />
+    <part Name="Description" Short="▶Un copricapo di materiale gommoso che gli arconauti chiamano stiratura nera è stato pescato da grotte di gomma e incollato al cuoio capelluto." />
+  </object>
+  <object Name="Electric Snail Shell" Load="Merge">
+    <part Name="Render" DisplayName="▶guscio di lumaca elettrica" />
+    <part Name="Description" Short="▶Un'imboccatura a spirale di guscio xantoso protegge la testa compromettendo solo minimamente la visione." />
+  </object>
+  <object Name="Ape Fur Hat" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|pelliccia di scimmia}} cappello" />
+    <part Name="Description" Short="▶La pelliccia morbida è ricavata dal manto alabastrino di una scimmia albina in un basco con paraorecchie." />
+  </object>
+  <object Name="Square Cap" Load="Merge">
+    <part Name="Render" DisplayName="▶berretto quadrato" />
+    <part Name="Description" Short="▶Un quadrato indossabile è modellato sul cappello a mortaio del muratore e decorato con una nappa colorata." />
+  </object>
+  <object Name="Chain Coif" Load="Merge">
+    <part Name="Render" DisplayName="▶coifa di maglia" />
+    <part Name="Description" Short="▶Un foglio di anelli di acciaio con un foro si adatta alla testa e al collo." />
+  </object>
+  <object Name="BaseForkHornedHelmet" Load="Merge">
+    <part Name="Render" DisplayName="▶elmo {{horned|cornuto}} a forca" />
+    <part Name="Description" Short="▶Le ramificazioni coperte di muschio di qualche grande alce sembrano essere cresciute attraverso un antico elmo di cuoio." />
+  </object>
+  <object Name="Headlamp" Load="Merge">
+    <part Name="Render" DisplayName="▶lampada frontale" />
+    <part Name="Description" Short="▶Una luce alogena è fissata a una fascia di cuoio per la testa." />
+  </object>
+  <object Name="Miner's Helmet" Load="Merge">
+    <part Name="Render" DisplayName="▶elmetto del minatore" />
+    <part Name="Description" Short="▶Una cupola di ferro e polpa indurita contiene la propria fonte di illuminazione." />
+  </object>
+  <object Name="Plastifer Bonnet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{plastifer|plastifer}} cuffia" />
+    <part Name="Description" Short="▶Un cappuccio di schiuma solidificata dal gas si irrigidisce istantaneamente sotto pressione. La sua superficie carsica è cosparsa delle abrasioni colorate di migliaia di anni e delle reazioni chimiche che producono; il materiale ha superato di gran lunga i limiti previsti della sua vita utile e si è avventurato nell'ignoto vuoto." />
+  </object>
+  <object Name="Leafy Helm" Load="Merge">
+    <part Name="Render" DisplayName="▶{{leafy|frondoso}} elmo" />
+    <part Name="Description" Short="▶Le foglie crescono su uno strato di terriccio indossabile a cupola." />
+  </object>
+  <object Name="Ganglionic Teleprojector" Load="Merge">
+    <part Name="Render" DisplayName="▶teloproiettore ganglionico" />
+    <part Name="Description" Short="▶Una visiera scanalata è avvolta in fili di filamento di tungsteno. Due antenne si arrotolano fuori dalle tempie in sembianza robotica." />
+  </object>
+  <object Name="Fullerite Armet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|fullerite}} armetto" />
+    <part Name="Description" Short="▶Il metallo graffiato dalle pietre dell'imbrunire avvolge il cervello in un secondo cranio." />
+  </object>
+  <object Name="Quartzfur Hat" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|quartzfur}} cappello" />
+    <part Name="Description" Short="▶La pelle cosparsa di prismi fu tosata da una scimmia morta e ricavata in un cappello." />
+  </object>
+  <object Name="Crysteel Coronet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|crysteel}} coronetta}}" />
+    <part Name="Description" Short="▶Gli altiforni hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le tenaglie di smeraldo usate per recuperare i getti atomizzarono e diffusero vanadio -- il bagliore verde -- nel collettore, imperfezionando il metallo e conferendo la sua caratteristica tonalità." />
+  </object>
+  <object Name="Ogre Fur Hat" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pelliccia d'orco}} cappello" />
+    <part Name="Description" Short="▶Una pelliccia ruvida è ricavata dal folto manto di un orco-scimmia in un basco con paraorecchie." />
+  </object>
+  <object Name="Flawless Crysteel Coronet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|crysteel}} coronetta perfetta}}" />
+    <part Name="Description" Short="▶Gli altiforni hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le tenaglie di smeraldo usate per recuperare i getti atomizzarono e diffusero vanadio -- il bagliore verde -- nel collettore, imperfezionando il metallo e conferendo la sua caratteristica tonalità. I getti macchiati da particelle di polvere furono scartati e dati in pasto ai litrovori, lasciando solo i prismi esagonali perfetti." />
+  </object>
+  <object Name="Psychic Meridian" Load="Merge">
+    <part Name="Render" DisplayName="▶{{psymeridian|meridiano psichico}}" />
+    <part Name="Description" Short="▶Materia pensante leggera fu depositata dalla pressione del regno materiale in una sostanza gelatinosa e arrotolata in un cerchietto. È tempestata di microvita cristallina, simbionti schiusi nel pieno del mare psichico." />
+    <part Name="RulesDescription" Text="▶Gli attacchi psichici falliti contro di te causano all'attaccante un'emorragia." />
+  </object>
+  <object Name="Enigma Cap" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|enigma}} berretto" />
+    <part Name="Description" Short="▶Un guscio calcareo è stato tagliato alla punta. Le sue volute impressionano l'occhio con una geometria gradevole prima di virare verso una disarmonia scomoda e vertiginosa." />
+  </object>
+  <object Name="Zetachrome Apex" Load="Merge">
+    <part Name="Render" DisplayName="▶{{zetachrome|zetacromo}} apice" />
+    <part Name="Description" Short="▶Il plasma quark-gluone si è rapidamente raffreddato ed è stato spento sui voidpeaks del primo universo, eccetto dove i globuli si sono intrappolati nelle piaghe 6D dello spazio-tempo. Lì hanno scivolato nella corrente per miliardi di anni finché esseri li hanno scoperti, costruito macchine per estrarli e raffreddarli, e riscaldarli di nuovo nelle loro fornaci stellari." />
+  </object>
+  <object Name="Mental Aggregator" Load="Merge">
+    <part Name="Render" DisplayName="▶aggregatore mentale" />
+    <part Name="Description" Short="▶Un foglio di metallo cartaceo increspato si inclina all'angolo di riposo." />
+  </object>
+  <object Name="Psychodyne Helmet" Load="Merge">
+    <part Name="Render" DisplayName="▶elmetto psicodinamico" />
+    <part Name="Description" Short="▶Il vetro di tetrasenoglass sposta verso il blu la luce che colpisce l'involucro esterno. Sul lato interno, gli elettromagneti eccitano un rivestimento di tessuto di mollusco stellare per creare l'acustica psichica perfetta." />
+    <part Name="EquipStatBoost" NameForStatus="▶CircuiteriaPsicodinamica" />
+  </object>
+  <object Name="Issachari Sun Veil" Load="Merge">
+    <part Name="Render" DisplayName="▶{{issachari|Issachari}} {{r-R-W sequence|sole}} velo" />
+    <part Name="Description" Short="▶Un tessuto nell'hue antisole della visione salina è piegato a misura di testa e collo.&#xA;" />
+  </object>
+  <object Name="Smiling Sun Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera del {{sun|sole}} sorridente" />
+    <part Name="Description" Short="▶Il sole raggia sulla pietra saponaria con guance alte e fiere di ocra e denti. L'ombra di una tettoia a mezzogiorno evoca una linea di alberi più fitta di foglie di qualsiasi altro posto sul plateau o a nord di Moghra'yi." />
+  </object>
+  <object Name="Frowning Moon Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera della {{moon|luna}} accigliata" />
+    <part Name="Description" Short="▶La luna fa il broncio su una giungla invisibile, i crateri del sopracciglio ombreggiati con cenere animale e consumati fino a un naturale crinale dal respiro velenoso degli dei." />
+  </object>
+  <object Name="Sun and Moon Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera del {{sun|sole}} e della {{moon|luna}}" />
+    <part Name="Description" Short="▶Il fuoco ardente sulla pietra saponaria scivola nella notte umida a un termine crepuscolare tracciato in sangue. Chi indossa la maschera assume questa e tutte le dualità." />
+  </object>
+  <object Name="Gentling Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera ammansitrice" />
+    <part Name="Description" Short="▶In carta di lana e acrilico il dolore dell'esperienza è levigato nell'aspetto di un bambino. Morsetti neuronali spuntano dalla superficie interna concava. La maschera è fissata da una catena di ottone, adornata da perle di vetro, e marchiata sulla fronte con il Sacro Rombo, segno del prezzo dell'innocenza." />
+  </object>
+  <object Name="Goggles" Load="Merge">
+    <part Name="Render" DisplayName="▶occhiali protettivi" />
+    <part Name="Description" Short="▶Anelli di cromo-ottone e strisce di cuoio sono tagliati con precisione dallo stencil di un artigiano, ma la vera firma è nel vetro: una dispersione di fratture minuscole dovute ai forti venti salini." />
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="Mirrorshades" Load="Merge">
+    <part Name="Render" DisplayName="▶{{mirrorshades|specchietti}}" />
+    <part Name="Description" Short="▶I riflessi della luce si infrangono sul fossato argentato e tornano al loro punto di origine. Il significante diventa il significato; il simulacro si realizza." />
+    <part Name="RefractLight" Verb="▶riflettere" />
+  </object>
+  <object Name="Night-vision Goggles" Load="Merge">
+    <part Name="Render" DisplayName="▶occhiali per la visione notturna" />
+    <part Name="Description" Short="▶Binocoli con ghiera di messa a fuoco leggono i segnali della luce infrarossa e producono un'immagine strutturata di verdi caldi all'occhio." />
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="Vinewood Sap Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera di resina di legno di vite" />
+    <part Name="Description" Short="▶Una sacca triangolare piegata di juta è stata impregnata di resina di legno di vite per assorbire i vapori nocivi." />
+  </object>
+  <object Name="Gas Mask" Load="Merge">
+    <part Name="Render" DisplayName="▶maschera antigas" />
+    <part Name="Description" Short="▶Una maschera di plastica resistente è stata dotata di un semplice filtro per proteggersi dai gas nocivi." />
+  </object>
+  <object Name="Telescopic Monocle" Load="Merge">
+    <part Name="Render" DisplayName="▶monocolo telescopico" />
+    <part Name="Description" Short="▶Un vetro curvo chiude l'estremità più stretta di una serie di tubi coassiali di ottone. Il più largo è dotato di una fascia di cuoio per la testa." />
+    <part Name="Toolbox" BehaviorDescription="▶Conferisce un bonus all'identificazione degli artefatti come se la tua Intelligenza fosse aumentata di 5." NameForStatus="▶Ingrandimento" />
+  </object>
+  <object Name="Spectacles" Load="Merge">
+    <part Name="Render" DisplayName="▶occhiali" />
+    <part Name="Description" Short="▶Due mandorle di vetro siedono in montature a filo e ridefiniscono i bordi del mondo." />
+  </object>
+  <object Name="Polyhedral Rings" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y-y-m-M-m-y-Y-M-m-y sequence|poliedrico}} anelli" />
+    <part Name="Description" Short="▶I cerchi presentano sfaccettature rombiche che riflettono la luce a lunghezze d'onda tra prugna e quarzo." />
+  </object>
+  <object Name="Silver Rondure" Load="Merge">
+    <part Name="Render" DisplayName="▶{{silvery|sferula d'argento}}" />
+    <part Name="Description" Short="▶L'argento fu fuso e colato in una sfera perfetta in venerazione isomorfica della Kasaphescence." />
+  </object>
+  <object Name="Telemetric Visor" Load="Merge">
+    <part Name="Render" DisplayName="▶{{telemetric|telemetrico}} {{C|visore}}" />
+    <part Name="Description" Short="▶La luna di vetro è inondata di informazioni attraverso i canali elettromagnetici." />
+    <part Name="IntPropertyChanger" NameForStatus="▶ScansioneTecnologica" />
+  </object>
+  <object Name="VISAGE" Load="Merge">
+    <part Name="Render" DisplayName="▶{{visage|VISAGE}}" />
+    <part Name="Description" Short="▶Strumento Visivo e Potenziamento Sensoriale (Edizione G)&#xA;&#xA;I dati vengono trasmessi avanti e indietro tra le lune di vetro del visore e del polsino. Mentre il bordo esterno brilla dorato nell'Edizione F, in questo modello sfuma nel grigio." />
+    <part Name="MultiIntPropertyChanger" NameForStatus="▶SistemiScansione" />
+  </object>
+  <object Name="Night-Sight Interpolators" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|visione notturna}} interpolatori" />
+    <part Name="Description" Short="▶Stampi ad anello sul telaio di metallo laminato raccolgono dati sensoriali ambientali e li usano per potenziare il frustum di visione." />
+    <part Name="RulesDescription" Text="▶Conferisce la visione notturna.&#xA;Puoi vedere due spazi oltre il primo oggetto occludente nella tua linea visiva." />
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="Dream Rondure" Load="Merge">
+    <part Name="Render" DisplayName="▶{{dreamy|sferula del sogno}}" />
+    <part Name="Description" Short="▶La materia onirica accelerata si gonfia fino a forze di marea ed elettrifica la membrana della sferula. Emette fumo in marmo." />
+  </object>
+  <object Name="Dazzle Cheek" Load="Merge">
+    <part Name="Render" DisplayName="▶guancia abbagliante" />
+    <part Name="Description" Short="▶La geometria nuota attraverso i diodi di cristallo della maschera. La sua espressione è sorridente nella chiave ipnagogica." />
+    <part Name="EquipStatBoost" NameForStatus="▶SistemaMimetismoAbbagliante" />
+    <part Name="AddsRep" NameForStatus="▶GeneratoreIpnotico" />
+  </object>
+  <object Name="BaseBeadBracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶braccialetto" />

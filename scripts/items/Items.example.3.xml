@@ -1,0 +1,500 @@
+  </object>
+  <object Name="ColdGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{C|del gelo}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È freddo al tatto." />
+  </object>
+  <object Name="HEGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{W|ad alto esplosivo}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con un mazzo di frecce rivolte verso l'esterno." />
+  </object>
+  <object Name="HEGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{W|ad alto esplosivo}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con un mazzo di frecce rivolte verso l'esterno." />
+  </object>
+  <object Name="HEGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{W|ad alto esplosivo}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con un mazzo di frecce rivolte verso l'esterno." />
+  </object>
+  <object Name="EMPGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{B|EMP}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con uno zigzag." />
+  </object>
+  <object Name="EMPGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{B|EMP}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con uno zigzag." />
+  </object>
+  <object Name="EMPGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{B|EMP}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con uno zigzag." />
+  </object>
+  <object Name="NormalityGasGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{normal|gas normalizzante}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Il guscio è inciso con un reticolato." />
+  </object>
+  <object Name="NormalityGasGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{normal|gas normalizzante}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. Il guscio è inciso con un reticolato." />
+  </object>
+  <object Name="NormalityGasGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{normal|gas normalizzante}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. Il guscio è inciso con un reticolato." />
+  </object>
+  <object Name="StasisGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{m|stasi}} mk I" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶detonare" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con simboli di arresto." />
+  </object>
+  <object Name="StasisGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{m|stasi}} mk II" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶detonare" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con simboli di arresto." />
+  </object>
+  <object Name="StasisGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{m|stasi}} mk III" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶detonare" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con simboli di arresto." />
+  </object>
+  <object Name="SunderGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{resonance|risonanza}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Emette un ronzio con un caratteristico crepitio.&#xA;&#xA;          {{C|2d100+20 danni agli oggetti strutturali.}}&#xA;          {{C|2d10+4 danni agli oggetti non strutturali.}}" />
+  </object>
+  <object Name="SunderGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{resonance|risonanza}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. Emette un ronzio con un caratteristico crepitio.&#xA;&#xA;          {{C|4d100+20 danni agli oggetti strutturali.}}&#xA;          {{C|4d10+8 danni agli oggetti non strutturali.}}" />
+  </object>
+  <object Name="SunderGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{resonance|risonanza}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. Emette un ronzio con un caratteristico crepitio.&#xA;&#xA;          {{C|6d100+20 danni agli oggetti strutturali.}}&#xA;          {{C|6d10+12 danni agli oggetti non strutturali.}}" />
+  </object>
+  <object Name="PlasmaGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{plasma|plasma}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Sfrigola e si gonfia all'interno." />
+  </object>
+  <object Name="PlasmaGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{plasma|plasma}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. Sfrigola e si gonfia all'interno." />
+  </object>
+  <object Name="PlasmaGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{plasma|plasma}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. Sfrigola e si gonfia all'interno." />
+  </object>
+  <object Name="DefoliantGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{defoliant|defoliante}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con figurine di piante appassite." />
+  </object>
+  <object Name="DefoliantGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{defoliant|defoliante}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con figurine di piante appassite." />
+  </object>
+  <object Name="DefoliantGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{defoliant|defoliante}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con figurine di piante appassite." />
+  </object>
+  <object Name="FungicideGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{fungicide|fungicida}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con figurine di funghi appassiti." />
+  </object>
+  <object Name="FungicideGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{fungicide|fungicida}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con figurine di funghi appassiti." />
+  </object>
+  <object Name="FungicideGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata al {{fungicide|fungicida}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con figurine di funghi appassiti." />
+  </object>
+  <object Name="FireSupportGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{spring-turret|torretta a molla}} mk I" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶dispiegare" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. La leva è sorretta da un meccanismo a molla multidirezionale." />
+  </object>
+  <object Name="FireSupportGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{spring-turret|torretta a molla}} mk II" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶dispiegare" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. La leva è sorretta da un meccanismo a molla multidirezionale." />
+  </object>
+  <object Name="FireSupportGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{spring-turret|torretta a molla}} mk III" />
+    <part Name="DeploymentGrenade" ActivationVerb="▶dispiegare" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. La leva è sorretta da un meccanismo a molla multidirezionale." />
+  </object>
+  <object Name="GravityGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{K|gravità}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. È inciso con un mazzo di frecce rivolte verso l'interno." />
+  </object>
+  <object Name="GravityGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{K|gravità}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. È inciso con un mazzo di frecce rivolte verso l'interno." />
+  </object>
+  <object Name="GravityGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{K|gravità}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con un mazzo di frecce rivolte verso l'interno." />
+  </object>
+  <object Name="TimeDilationGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{b|dilatazione temporale}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Il suo tappo è circondato da tacche di quadrante." />
+  </object>
+  <object Name="TimeDilationGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{b|dilatazione temporale}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. Il suo tappo è circondato da tacche di quadrante." />
+  </object>
+  <object Name="TimeDilationGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{b|dilatazione temporale}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. Il suo tappo è circondato da tacche di quadrante." />
+  </object>
+  <object Name="GlitterGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{glittering|scintillante}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Scintilla nella luce soffusa." />
+  </object>
+  <object Name="GlitterGrenade2" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{glittering|scintillante}} mk II" />
+    <part Name="Description" Short="▶Un gruppo metallico di esagoni gofferati è fissato da una leva cromata. Scintilla nella luce soffusa." />
+  </object>
+  <object Name="GlitterGrenade3" Load="Merge">
+    <part Name="Render" DisplayName="▶granata {{glittering|scintillante}} mk III" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. Scintilla nella luce soffusa." />
+  </object>
+  <object Name="PhaseGrenade1" Load="Merge">
+    <part Name="Render" DisplayName="▶granata di {{M-M-M-m-m-m-K-K-K-m-m sequence|spostamento di fase}} mk I" />
+    <part Name="Description" Short="▶Un bulbo di ghisa è fissato da una leva con un anello di estrazione. Altera la prospettiva nella luce fioca." />
+  </object>
+  <object Name="HandENuke" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m|Mano-E-Nuke}}" />
+    <part Name="Description" Short="▶Un pesante involucro metallico racchiude l'esplosivo ed è fissato a una leva a sgancio rapido. È inciso con un mazzo di frecce esplosive e vibra sotto il suo stesso peso." />
+  </object>
+  <object Name="Carapace" Load="Merge">
+    <part Name="Render" DisplayName="▶carapace" />
+    <part Name="Description" Short="▶Materia ossea spessa e a placche si adatta alla forma del suo ospite." />
+  </object>
+  <object Name="Quills" Load="Merge">
+    <part Name="Render" DisplayName="▶aculei" />
+    <part Name="Description" Short="▶Centinaia e centinaia di peli fossilizzati coronano il corpo in un mantello protettivo." />
+  </object>
+  <object Name="Wings" Load="Merge">
+    <part Name="Render" DisplayName="▶ali" />
+    <part Name="Description" Short="▶Ampie alette a profilo portante battono il vento." />
+  </object>
+  <object Name="Stinger" Load="Merge">
+    <part Name="Render" DisplayName="▶pungiglione" />
+    <part Name="Description" Short="▶Un'appendice caudale a forma di barba è sormontata da una gemma di rugiada venefica." />
+  </object>
+  <object Name="Horns" Load="Merge">
+    <part Name="Render" DisplayName="▶corna" />
+    <part Name="Description" Short="▶Un paio di estrusioni ossee scanalate corrono verso un punto simmetrico sopra la testa." />
+  </object>
+  <object Name="Horns Single" Load="Merge">
+    <part Name="Render" DisplayName="▶corno" />
+    <part Name="Description" Short="▶Un acuminato sperone osseo affilato geneticamente trafigge la sommità del cranio." />
+  </object>
+  <object Name="Horns Casque" Load="Merge">
+    <part Name="Render" DisplayName="▶elmo osseo" />
+    <part Name="Description" Short="▶Un'appendice di cranio adamantino incorona la testa in regalità litofila." />
+  </object>
+  <object Name="Horns Antlers" Load="Merge">
+    <part Name="Render" DisplayName="▶palchi" />
+    <part Name="Description" Short="▶Frattali ossei eruttano dalla sommità in un'ampia e stupefacente esibizione." />
+  </object>
+  <object Name="Horns Spiral" Load="Merge">
+    <part Name="Render" DisplayName="▶corno spiralato" />
+    <part Name="Description" Short="▶L'esagono di crescita del tempo ha scolpito materia ossea acuta in una tensione a cavatappi." />
+  </object>
+  <object Name="Hooks" Load="Merge">
+    <part Name="Render" DisplayName="▶uncini" />
+    <part Name="Description" Short="▶Uncini di ferro furono fissati a residui arti delle zampe per fornire al portatore una locomozione sgraziata e raschiante." />
+  </object>
+  <object Name="Beak" Load="Merge">
+    <part Name="Render" DisplayName="▶becco" />
+    <part Name="Description" Short="▶Uno strumento per la pulizia del piumaggio si incurva fuori dal cranio all'angolo del pittore ed è punteggiato da un paio di aperture respiratorie." />
+  </object>
+  <object Name="Beak Bill" Load="Merge">
+    <part Name="Render" DisplayName="▶spatola" />
+    <part Name="Description" Short="▶Un becco piatto per raccogliere il fango allunga la parte inferiore del volto." />
+  </object>
+  <object Name="Beak Rostrum" Load="Merge">
+    <part Name="Render" DisplayName="▶rostro" />
+    <part Name="Description" Short="▶Un becco si assottiglia fino a un lungo punto per beccare attraverso il guscio e le ossa." />
+  </object>
+  <object Name="Beak Frill" Load="Merge">
+    <part Name="Render" DisplayName="▶collare piumato" />
+    <part Name="Description" Short="▶Un ciuffo di piume ondeggianti delinea la forma del volto con colori splendidi." />
+  </object>
+  <object Name="Beak Proboscis" Load="Merge">
+    <part Name="Render" DisplayName="▶proboscide" />
+    <part Name="Description" Short="▶Un lungo e sottile tubo a forma di becco si restringe fino a un punto per trafiggere il fossato del fiore e succhiarne il nettare." />
+  </object>
+  <object Name="Burrowing Claws" Load="Merge">
+    <part Name="Render" DisplayName="▶artigli da scavo" />
+    <part Name="Description" Short="▶Palme a forma di vanga e lunghi artigli sono modellati per allentare la terra e spostarla." />
+  </object>
+  <object Name="Crystalline Point" Load="Merge">
+    <part Name="Render" DisplayName="▶punta cristallina" />
+  </object>
+  <object Name="Burrowing Claws Claw" Load="Merge">
+    <part Name="Render" DisplayName="▶artiglio" />
+  </object>
+  <object Name="Ghostly Flames" Load="Merge">
+    <part Name="Render" DisplayName="▶{{ghostly|spettrali}} {{fiery|fiamme}}" />
+    <part Name="Description" Short="▶Fiamme cristalline crepitano e lambiscono l'aria tremolante." />
+  </object>
+  <object Name="ProjectileFlamingRay" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|getto di fuoco}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="Icy Vapor" Load="Merge">
+    <part Name="Render" DisplayName="▶{{cryogenic|vapore ghiacciato}}" />
+    <part Name="Description" Short="▶Particelle di pioggia di ghiaccio danzano in piccoli nastri circolari." />
+  </object>
+  <object Name="ProjectileFreezingRay" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|getto di gelo}}" />
+    <part Name="Projectile" PassByVerb="▶sfrecciare" />
+  </object>
+  <object Name="ProjectileLightManipulation" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|lampo di luce}}" />
+    <part Name="Projectile" PassByVerb="▶saettare" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità consuma =subject.t=!" />
+  </object>
+  <object Name="Black Robes" Load="Merge">
+    <part Name="Render" DisplayName="▶vesti nere" />
+    <part Name="Description" Short="▶La lana fu tinta in un bagno di radice di terrore e sale di ferro, poi tessuta per riscaldare spalle ampie." />
+  </object>
+  <object Name="Ash-Stained Robes" Load="Merge">
+    <part Name="Render" DisplayName="▶vesti {{K|macchiate di cenere}}" />
+    <part Name="Description" Short="▶La terra dolente eruttò un nastro di vetro fuso sulle Scale Nere e consacrò un nonetto di portatori di lino che si nutrono di gas." />
+  </object>
+  <object Name="Furs" Load="Merge">
+    <part Name="Render" DisplayName="▶pellicce" />
+    <part Name="Description" Short="▶È un pezzo di pelle imbevuta di sale tagliata da una capra, o da un furetto delle tombe, ed è impolverata con la polvere bianca dei morti." />
+  </object>
+  <object Name="Woven Tunic" Load="Merge">
+    <part Name="Render" DisplayName="▶tunica tessuta" />
+    <part Name="Description" Short="▶Un rozzo filo di lino è stretto alla vita con una corda di canapa idrofila." />
+  </object>
+  <object Name="Cloth Robe" Load="Merge">
+    <part Name="Render" DisplayName="▶veste di tela" />
+    <part Name="Description" Short="▶Le particelle dell'ardesia levigata da eoni si attaccano alle fibre della lana di capra. Fanno lentiggini rosse sul vestito." />
+  </object>
+  <object Name="Wool Kilt" Load="Merge">
+    <part Name="Render" DisplayName="▶{{tartan|kilt di lana}}" />
+    <part Name="Description" Short="▶Corde di lana sono tessute nelle bande angolari del tartan. Rilucono in ricchi rossi, verdi, grigi del ferro e nero corvino." />
+  </object>
+  <object Name="Crude Toga" Load="Merge">
+    <part Name="Render" DisplayName="▶toga rozza" />
+    <part Name="Description" Short="▶Rozza lana di cinghiale è tagliata in un semicerchio impreciso da gettare su una spalla abbronzata in un attimo di necessità." />
+  </object>
+  <object Name="Filthy Toga" Load="Merge">
+    <part Name="Render" DisplayName="▶toga sudicia" />
+    <part Name="Description" Short="▶Le sue pieghe di fina lana di pecora bianca sono imbrattate dal limo appiccicoso del mondo dalle spalle larghe." />
+  </object>
+  <object Name="Leather Apron" Load="Merge">
+    <part Name="Render" DisplayName="▶grembiule di cuoio" />
+    <part Name="Description" Short="▶Cuoio di cinghiale fu messo in salamoia, calcinato e posto in un tamburo per la concia. Fu tagliato e modellato in un grembiule, e ora è una tela bruna per cicatrici di coltello e bruciature di pinza." />
+  </object>
+  <object Name="Cloth Overalls" Load="Merge">
+    <part Name="Render" DisplayName="▶salopette di tela" />
+    <part Name="Description" Short="▶Un filo ruvido filato stretto si gonfia al polpaccio ma si stringe alla caviglia. Il peso del tessuto tira giù le larghe spalline." />
+  </object>
+  <object Name="Bark Armor" Load="Merge">
+    <part Name="Render" DisplayName="▶armatura di corteccia" />
+    <part Name="Description" Short="▶Listelli di corniolo raschiato si adattano al torace, alla vita e alla coscia. La scorza è intaccata dai coleotteri." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Leather Armor" Load="Merge">
+    <part Name="Render" DisplayName="▶armatura di cuoio" />
+    <part Name="Description" Short="▶Cuoio di capra bollito fu tagliato in una corazza e dotato di cinghie e fibbie di ferro. Odora di cera d'api." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Vine-Weave Tunic" Load="Merge">
+    <part Name="Render" DisplayName="▶tunica {{y-g-g-y-y sequence|intrecciata di viti}}" />
+    <part Name="Description" Short="▶I tubicini resinosi di un groviglio di edera furono strappati, intrecciati e abbelliti con una fascia ricamata." />
+  </object>
+  <object Name="Studded Leather Armor" Load="Merge">
+    <part Name="Render" DisplayName="▶armatura di cuoio borchiata" />
+    <part Name="Description" Short="▶Antichi e inscrutabili chiodi di cromo pescati dal mare dei rifiuti punteggiano spessi cunei di cuoio di capra bollito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Pocketed Vest" Load="Merge">
+    <part Name="Render" DisplayName="▶gilet con tasche" />
+    <part Name="Description" Short="▶Una gonnella ruvida fu portata da una sarta di tasche e attrezzata per l'esplorazione di caverne e la raccolta di cianfrusaglie." />
+  </object>
+  <object Name="Sooty Smock" Load="Merge">
+    <part Name="Render" DisplayName="▶camice fuligginoso" />
+    <part Name="Description" Short="▶Un grembiule è cosparso di crateri di carbonio del colore del vuoto che assorbe la luce, cosa sognata dai sofisti che osservavano le stelle correre verso il loro medio escluso." />
+  </object>
+  <object Name="Slate Frock" Load="Merge">
+    <part Name="Render" DisplayName="▶gonnellino ardesia" />
+    <part Name="Description" Short="▶Il lino fu tagliato alla forma del corpo e posto in un bagno di tintura di foglie di dicalypto e trucioli di ferro per ottenere un lustro cromatico." />
+  </object>
+  <object Name="Umber Frock" Load="Merge">
+    <part Name="Render" DisplayName="▶gonnellino ocra" />
+    <part Name="Description" Short="▶Grezzo e pruriginoso lino fu filato grossolanamente, tagliato a forma e stretto da una corda di canapa." />
+  </object>
+  <object Name="Ring Mail" Load="Merge">
+    <part Name="Render" DisplayName="▶cotta di anelli" />
+    <part Name="Description" Short="▶Una camicia di cuoio è guarnita con anelli di acciaio cuciti." />
+    <xtagGrammar adjunctNoun="▶insieme" massNoun="▶vero" />
+  </object>
+  <object Name="Chain Mail" Load="Merge">
+    <part Name="Render" DisplayName="▶cotta di maglia" />
+    <part Name="Description" Short="▶Una splendente maglia di anelli collegati proveniente dal cuore d'acciaio del mare dei rifiuti." />
+    <xtagGrammar adjunctNoun="▶insieme" massNoun="▶vero" />
+  </object>
+  <object Name="Steel Plate Mail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|piastrone d'acciaio}}" />
+    <part Name="Description" Short="▶L'acciaio battuto a canna è modellato sulle lune pettorifere e cucito a un sottoveste di cuoio di capra imbottito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Puma Chitin Vest" Load="Merge">
+    <part Name="Render" DisplayName="▶gilet di {{leopard|chitina di puma}}" />
+    <part Name="Description" Short="▶Un gilet misto di fungusfill ricavato dalla muta di un felino della giungla chitinoso è stato dipinto e smaltato lucido." />
+  </object>
+  <object Name="Elastyne Skin Suit" Load="Merge">
+    <part Name="Render" DisplayName="▶tuta di pelle di {{K|elastina}}" />
+    <part Name="Description" Short="▶Un rotolo di tessuto elastico e filato fu tagliato in una tuta intera per sgattaiolare." />
+  </object>
+  <object Name="Patchwork Coat" Load="Merge">
+    <part Name="Render" DisplayName="▶cappotto {{patchwork|patchwork}}" />
+    <part Name="Description" Short="▶Tessuti da tutto l'altopiano -- piumino trapuntato, trama di stelo di salamoia, elastina appiccicosa -- sono stati tinti e cuciti in una giacca di caos colorato." />
+  </object>
+  <object Name="Carbide Plate Armor" Load="Merge">
+    <part Name="Render" DisplayName="▶armatura a piastre di {{b|carburo}}" />
+    <part Name="Description" Short="▶Metallo piegabile inciso di azzurro opaco è modellato sulle lune pettorifere e cucito a un sottoveste di cuoio di capra imbottito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Slate Mantle" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello ardesia" />
+    <part Name="Description" Short="▶Il tessuto fu tinto in un bagno di foglie di dicalypto e trucioli di ferro per ottenere un lustro cromatico e poi sartorialmente cucito in una gonna a spalle increspata." />
+  </object>
+  <object Name="Flexivest" Load="Merge">
+    <part Name="Render" DisplayName="▶flexigilet" />
+    <part Name="Description" Short="▶Una fascia di elastina è distesa su una corazza di plastica semi-dura, formando una maglia manovrabile." />
+  </object>
+  <object Name="Rubber Suit" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|tuta di gomma}}" />
+    <part Name="Description" Short="▶Una luce abbagliante si riflette sulla lucida e elastica tuta di linfa vulcanizzata e crea un sacco amniotico post-partum." />
+  </object>
+  <object Name="Plastifer Jerkin" Load="Merge">
+    <part Name="Render" DisplayName="▶giubbetto di {{plastifer|plastifer}}" />
+    <part Name="Description" Short="▶Una corazza di schiuma catturata dai gas si irrigidisce istantaneamente quando viene applicata pressione. La sua superficie carsica è spolverata con le colorate abrasioni di millenni e le reazioni chimiche che producono; il materiale ha superato gli anelli esterni della sua vita attesa e si è avventurato nell'ignoto vuoto." />
+  </object>
+  <object Name="Plastifer Chem Vest" Load="Merge">
+    <part Name="Render" DisplayName="▶gilet {{G|chimico}} di {{plastifer|plastifer}}" />
+    <part Name="Description" Short="▶Una corazza di schiuma catturata dai gas si irrigidisce istantaneamente quando viene applicata pressione. La sua superficie carsica è disposta con manicotti tubolari e spolverata con le colorate abrasioni di millenni e le reazioni chimiche che producono; il materiale ha superato gli anelli esterni della sua vita attesa e si è avventurato nell'ignoto vuoto." />
+    <part Name="ReduceEnergyCosts" NameForStatus="▶SistemaDiStent" />
+  </object>
+  <object Name="Recycling Suit" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|tuta di riciclaggio}}" />
+    <part Name="Description" Short="▶Tubi di gomma si insinuano attraverso elastina recuperata filtrata con filtri per recuperare le acque reflue dal corpo sovraccarico." />
+  </object>
+  <object Name="Leafy Vest" Load="Merge">
+    <part Name="Render" DisplayName="▶gilet {{leafy|foglioso}}" />
+    <part Name="Description" Short="▶Il cuoio di capra è verticalmente imbottito con uno strato di humus e le piantine sono nutrite per creare un cespuglio ambulante." />
+  </object>
+  <object Name="Fullerite Plate Mail" Load="Merge">
+    <part Name="Render" DisplayName="▶piastrone di {{K|fullerite}}" />
+    <part Name="Description" Short="▶Il metallo iperdensо in nero meteoritico fu surriscaldato e battuto alle forme di spalla e torace." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Fullerite Flake Armor" Load="Merge">
+    <part Name="Render" DisplayName="▶armatura a scaglie di {{K|fullerite}}" />
+    <part Name="Description" Short="▶Scaglie raschiate da un grosso cuneo del metallo gravido sono state fuse a caldo su qualche tipo di cuoio animale." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Crysteel Shardmail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacciaio}} cotta di schegge}}" />
+    <part Name="Description" Short="▶Gli altiforni aspirarono l'energia mareale fuori dal pianeta, riscaldarono il carbonio a temperature solari e lo versarono in stampi esagonali. Le tenaglie smeraldine usate per recuperare i pezzi si atomizzarono e dispersero vanadio -- il bagliore verde -- nel collettore, imperfezionando il metallo e conferendogli la sua tinta caratteristica." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="Nanoweave Vest" Load="Merge">
+    <part Name="Render" DisplayName="▶gilet di nanotessuto" />
+    <part Name="Description" Short="▶Le fibre del manifold sono colorate e hanno una texture al tatto unica tra tutti i tessuti. Un ordito molecolare fu tirato attraverso catene che si restringono su un telaio frattale." />
+  </object>
+  <object Name="Thermo Cask" Load="Merge">
+    <part Name="Render" DisplayName="▶barile {{thermo|termo}}" />
+    <part Name="Description" Short="▶Tubi di tetravetro di refrigerante e antigelo serpeggiano sui compressori della corazza a barile, e le bobine del condensatore e dell'evaporatore si proiettano dalle spalle come alberi nonno sopra il cespuglio dell'isolamento." />
+  </object>
+  <object Name="Gas Tumbler" Load="Merge">
+    <part Name="Render" DisplayName="▶agitatore di gas" />
+    <part Name="Description" Short="▶Bombole di cristacciaio tinte sono montate su un portapacchi dorsale. Le loro valvole sporgono da pressurizzatori di flusso, e una serie di tubi consentono diversi flussi di ingresso." />
+    <part Name="BootSequence" VerbOnBootInitialized="▶turbinare" VerbOnBootDone="▶schioccare" VerbOnBootAborted="▶sputacchiare" />
+  </object>
+  <object Name="Flawless Crysteel Shardmail" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacciaio}} cotta di schegge perfetta}}" />
+    <part Name="Description" Short="▶Gli altiforni aspirarono l'energia mareale fuori dal pianeta, riscaldarono il carbonio a temperature solari e lo versarono in stampi esagonali. Le tenaglie smeraldine usate per recuperare i pezzi si atomizzarono e dispersero vanadio -- il bagliore verde -- nel collettore, imperfezionando il metallo e conferendogli la sua tinta caratteristica. I pezzi macchiati di particelle di polvere furono scartati e dati ai litrovori, lasciando solo i perfetti prismi esagonali." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶vero" />
+  </object>
+  <object Name="High-Energy Thermo Cask" Load="Merge">
+    <part Name="Render" DisplayName="▶barile {{thermo|termo}} ad alta energia" />
+    <part Name="Description" Short="▶Una fitta rete di tubi di tetravetro dilatati trasporta refrigerante e antigelo sui maxi compressori della corazza a barile. I motori dei ventilatori emettono un basso ronzio, e le bobine del condensatore e dell'evaporatore si proiettano dalle spalle come alberi nonno sopra il cespuglio dell'isolamento." />
+  </object>
+  <object Name="Enigma Cone" Load="Merge">
+    <part Name="Render" DisplayName="▶cono {{B|enigmatico}}" />
+    <part Name="Description" Short="▶Un guscio calcareo fu modellato in un abito a campana. I suoi giri impressionano l'occhio con una geometria piacevole prima di virare verso una disarmonia scomoda e vertiginosa." />
+  </object>
+  <object Name="Zetachrome Lune" Load="Merge">
+    <part Name="Render" DisplayName="▶lune di {{zetachrome|zetacromo}}" />
+    <part Name="Description" Short="▶Il plasma quark-gluone si raffreddò rapidamente e si spense sui picchi del vuoto dell'universo primordiale, tranne dove i globuli rimasero intrappolati in pieghe 6D dello spaziotempo. Lì scivolarono nella scia per miliardi di anni finché gli esseri li scoprirono, costruirono macchine per estrarli e raffreddarli, e li riscaldarono di nuovo nei loro forni stellari." />
+  </object>
+  <object Name="Quilted Shawl" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W-w sequence|trapuntato}} {{C-c sequence|scialle}}" />
+    <part Name="Description" Short="▶Lana di molti colori fu acquistata a cavallo dai dromadi e proveniva dall'altra parte del Mar Pallido e della sua grande salina. Una volta che gli Issachar la filarono in filo sul telaio, un abitante delle paludi annodò a mano i tzitzit." />
+  </object>
+  <object Name="Worn Burnoose" Load="Merge">
+    <part Name="Render" DisplayName="▶burnús consumato" />
+    <part Name="Description" Short="▶La rozza lana di capra si sfilaccia dove le spazzole hanno pettinato via il sale e il silicio." />
+  </object>
+  <object Name="Albino Monkey Braid" Load="Merge">
+    <part Name="Render" DisplayName="▶treccia di scimmia {{Y|albina}}" />
+    <part Name="Description" Short="▶Tosata dal dorso di un lemure sacro, la chioma è intrecciata in una treccia del profeta." />
+  </object>
+  <object Name="Scarlet Shawl" Load="Merge">
+    <part Name="Render" DisplayName="▶scialle {{R|scarlatto}}" />
+    <part Name="Description" Short="▶Un drappeggio di seta sulle spalle è stato tagliato e tinto con insetti schiacciati raschiati da una quercia del Bacino dell'Iride." />
+  </object>
+  <object Name="Leather Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello di cuoio" />
+    <part Name="Description" Short="▶Un sudario di cuoio di capra è macchiato a cerchi dagli acidi del tempo." />
+  </object>
+  <object Name="Panther's Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello del pantera" />
+    <part Name="Description" Short="▶C'è un abbaglio maculato sulla pelle tagliata che porta il suo agile corridore all'identità felina." />
+  </object>
+  <object Name="Issachari Banner" Load="Merge">
+    <part Name="Render" DisplayName="▶stendardo {{issachari|Issachari}}" />
+    <part Name="Description" Short="▶Il punto platino su un campo di bianco sale porta riconoscimento solo agli occhi addestrati ai miraggi degli Issachari. Lo stendardo è stato cucito in un collare scarlatto." />
+  </object>
+  <object Name="Mechanical Wings" Load="Merge">
+    <part Name="Render" DisplayName="▶ali meccaniche" />
+    <part Name="Description" Short="▶La forza è spinta lungo spine di bronzo attraverso un'improbabile serie di movimenti sbattenti, dopodiché i parasole si aprono per catturare il vento mercuriale." />
+  </object>
+  <object Name="Nylon Bodypack" Load="Merge">
+    <part Name="Render" DisplayName="▶zaino di nylon" />
+    <part Name="Description" Short="▶Capelli di origine sconosciuta si attaccano allo schema a rombo sulle cinghie di nylon per fianchi e spalle. Tasche con cerniere e bottoni permettono il trasporto di tutti gli attrezzi del sottosuolo di cui si ha bisogno." />
+  </object>
+  <object Name="Grassy Yurtmat" Load="Merge">
+    <part Name="Render" DisplayName="▶stuoia di yurta {{leafy|erbosa}}" />
+    <part Name="Description" Short="▶Il tappeto di foglie e muschio all'uncinetto che ricopre le yurte fumanti delle popolazioni caprine è stato cucito a un collare di cuoio, dando al portatore l'aspetto di un cespuglio strisciante." />
+  </object>
+  <object Name="Ape Fur Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello di {{Y|pelo di scimmia}}" />
+    <part Name="Description" Short="▶Pelo morbido è tagliato dalla pelliccia alabastrina di una scimmia albina in un mantello dalle spalle ampie." />
+  </object>
+  <object Name="Portable Beehive" Load="Merge">
+    <part Name="Render" DisplayName="▶{{bee|alveare}} portatile" />
+    <part Name="Description" Short="▶Le api strisciano sul telaio a doghe montato sulla schiena. Qualcuna volteggia nei pressi." />
+  </object>
+  <object Name="Chrome Mantle" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello {{c|cromato}}" />
+    <part Name="Description" Short="▶Un punto brillante in stile circuiteria si biforca lungo il tessuto della spalla." />
+  </object>
+  <object Name="Molly Netting" Load="Merge">
+    <part Name="Render" DisplayName="▶rete molly" />
+    <part Name="Description" Short="▶Un antico rituale di intreccio delle funi fu usato per tessere una rete portata sulla schiena di cinghie fibrose e di sostegno." />
+  </object>
+  <object Name="Ironweave Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello di ferrotessuto" />
+    <part Name="Description" Short="▶Un panno scorrevole argentato si muove con la leggerezza del tessuto e poi si indurisce nell'immobilità o sotto la pressione del contatto. Una leggera patina sta iniziando a formarsi sul punto." />
+  </object>
+  <object Name="Praetorian's Cloak" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello del {{w|Pretoriano}}" />
+    <part Name="Description" Short="▶Una copertura dai mille fili prende il suo colore candescente dal minerale di brunitura e dalla dura luce del ripiano orientale e straniero del Grande Deserto." />
+  </object>
+  <object Name="Gyrocopter Backpack" Load="Merge">

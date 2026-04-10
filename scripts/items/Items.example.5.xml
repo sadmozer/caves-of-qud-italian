@@ -1,0 +1,2002 @@
+    <part Name="Description" Short="▶Archi di vetro tagliati e pescati dal mare di spazzatura sono stati abbinati per tavolozza e forati in perle. Sono stati appesi a un filo essiccato di budello di capra e scambiati su e giù per il Fiume Svy." />
+  </object>
+  <object Name="Bracelet1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R-W-w-r sequence|perlinato}} braccialetto" />
+  </object>
+  <object Name="Bracelet2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C-B-b-c sequence|perlinato}} braccialetto" />
+  </object>
+  <object Name="Bracelet3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m-M sequence|perlinato}} braccialetto" />
+  </object>
+  <object Name="Blood-stained neck-ring" Load="Merge">
+    <part Name="Render" DisplayName="▶collare" />
+    <part Name="Description" Short="▶Un ampio tubo di rame da tubatura è una gorgeretta improvvisata. È schizzato in motivi di sangue di verme e ruggine marina." />
+  </object>
+  <object Name="Compass Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶braccialetto bussola" />
+    <part Name="Description" Short="▶Una lente di vetro contiene un ago magnetizzato e siede all'interno di un cinturino da polso in cuoio." />
+    <part Name="NavigationBonus" NameForStatus="▶Bussola" />
+  </object>
+  <object Name="Wrist Fan" Load="Merge">
+    <part Name="Render" DisplayName="▶ventaglio da polso" />
+    <part Name="Description" Short="▶Piccole pale aerodinamiche girano sulla faccia circolare e soffiano aria leggera." />
+    <part Name="PartsGas" NameForStatus="▶MotoreRotativo" />
+  </object>
+  <object Name="Snakeskin Armlet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{snakeskin|pelle di serpente}} bracciale" />
+    <part Name="Description" Short="▶Un sottile taglio di ottone è stato forgiato in un crogiolo serpentino e dipinto con le strisce inquietanti della natura." />
+  </object>
+  <object Name="LeatherBracer" Load="Merge">
+    <part Name="Render" DisplayName="▶bracciale di cuoio" />
+    <part Name="Description" Short="▶Questo semplice bracciale è realizzato in cuoio di cinghiale bollito e allacciato con un cordoncino intrecciato. Le strisce di pelle protettiva sono progettate per deviare i colpi radenti al braccio e proteggere i poveri arcieri dalle proprie corde dell'arco errate." />
+  </object>
+  <object Name="Bio-Scanning Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{bio|bio-scansione}} braccialetto" />
+    <part Name="Description" Short="▶È un mini-grafico mutevole dei voltaggi dei segnali vitali rilevati nelle firme di calore e suono della fauna vicina." />
+    <part Name="IntPropertyChanger" NameForStatus="▶Bioscansione" />
+  </object>
+  <object Name="Structural Scanning Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{structural|strutturale}} {{Y-y-y-K-K-y-y-Y sequence|scansione}} braccialetto" />
+    <part Name="Description" Short="▶Sul supporto da polso, modelli a forma d'eco in tre dimensioni espongono le irregolarità strutturali di semplici oggetti inanimati nelle vicinanze." />
+    <part Name="IntPropertyChanger" NameForStatus="▶ScansioneSturutturale" />
+  </object>
+  <object Name="Hologram Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{hologram|ologramma}} braccialetto" />
+    <part Name="Description" Short="▶Un fermaglio a bracciale presenta un brillante pulsante cobalto.&#xA;&quot;Pensi che questo sia il vero =name=? Lo è.&quot;" />
+  </object>
+  <object Name="Force Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶braccialetto di forza" />
+    <part Name="Description" Short="▶Un piccolo interruttore esagonale siede su un polsino di cromo privo di ornamenti." />
+  </object>
+  <object Name="Wristcalc" Load="Merge">
+    <part Name="Render" DisplayName="▶calcolatrice da polso" />
+    <part Name="Description" Short="▶I diodi bruciano la loro luce ciano attraverso un'atmosfera di vetro curvo attorno a un anello metallico." />
+    <part Name="Toolbox" BehaviorDescription="▶Quando equipaggiato e alimentato, questo oggetto concede un bonus all'identificazione degli artefatti come se il tuo punteggio di Intelligenza fosse aumentato di 2." NameForStatus="▶Database" />
+    <part Name="ActiveLightSource" NameForStatus="▶Schermo" />
+  </object>
+  <object Name="Precinct Navigator" Load="Merge">
+    <part Name="Render" DisplayName="▶navigatore di quartiere" />
+    <part Name="Description" Short="▶Linee della griglia e un punto rosso sono dipinti sulla lente di vetro, e semplici rettangoli rappresentano le strade di cromo un tempo ordinate che da allora sono esplose come radici contorte attraverso lo spazio e il tempo." />
+    <part Name="NavigationBonus" NameForStatus="▶SistemiDiNavigazione" />
+  </object>
+  <object Name="Homoelectric Wrist Warmer" Load="Merge">
+    <part Name="Render" DisplayName="▶scalda polso omoelettrico" />
+    <part Name="Description" Short="▶Un manicotto lavorato a maglia si scalda attraverso la statica da contatto." />
+  </object>
+  <object Name="Slip Ring" Load="Merge">
+    <part Name="Render" DisplayName="▶anello scorrevole" />
+    <part Name="Description" Short="▶Un unguento scivoloso ricopre i pori disposti esagonalmente sulla superficie del toro metallico. C'è un tappo a pressione per le ricariche di lubrificante." />
+  </object>
+  <object Name="Displacer Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{displacer|dislocatore}} braccialetto" />
+    <part Name="Description" Short="▶Geroglifici di fluttuazione sono incisi sulla superficie interna di questo lucido toro metallico." />
+  </object>
+  <object Name="Ontological Anchor" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|ancora ontologica}}" />
+    <part Name="Description" Short="▶Il metallo plutonico è inciso con una proiezione bidimensionale del nido d'ape dodecaedrico rombico, permettendogli di agganciarsi alle linee ley della regione locale." />
+  </object>
+  <object Name="Tri-Hologram Bracelet" Load="Merge">
+    <part Name="Render" DisplayName="▶braccialetto tri-{{hologram|ologramma}}" />
+    <part Name="Description" Short="▶Le barre dividono il fermaglio del bracciale in tre fasce; un pulsante cobalto evoca il resto del quartetto." />
+  </object>
+  <object Name="Transkinetic Cuffs" Load="Merge">
+    <part Name="Render" DisplayName="▶{{transkinetic|transcinetici}} polsini" />
+    <part Name="Description" Short="▶Un quadrante scatta a intervalli giusti sul polso metallico, e argento mercuriale scorre attraverso tubature lungo la manica di plastifer." />
+  </object>
+  <object Name="BaseGlove" Load="Merge">
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="BaseGauntlet" Load="Merge">
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="Boar-skin gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶guanti di pelle di cinghiale" />
+    <part Name="Description" Short="▶Guanti tagliati dalle pelli dei cinghiali del canyon inferiore, indossati dai tagliabrini per proteggersi dai rovi dello stelo." />
+  </object>
+  <object Name="Leather Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶guanti di cuoio" />
+    <part Name="Description" Short="▶Un canyoner di centesima generazione ha tagliato pelle di capra alla forma modellante di una mano d'osso che sporgeva dal muro del loro laboratorio di calce antica." />
+  </object>
+  <object Name="Steel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} guanti" />
+    <part Name="Description" Short="▶Scaglie d'acciaio spolverosate di sale avvolgono le dita e il polso in un esoscheletro metallico." />
+  </object>
+  <object Name="Ulnar Stimulators" Load="Merge">
+    <part Name="Render" DisplayName="▶stimolatori ulnari" />
+    <part Name="Description" Short="▶Guanti aderenti di una rete conduttrice scuotono le mani in alte prestazioni." />
+  </object>
+  <object Name="Ape Fur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|pelo di scimmia}} guanti" />
+    <part Name="Description" Short="▶La pelliccia morbida viene tagliata dal manto alabastrino di una scimmia albina in guanti dalle dita spesse." />
+  </object>
+  <object Name="Elastyne Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|elastyne}} guanti" />
+    <part Name="Description" Short="▶Guanti di materiale gommoso che gli arconauti chiamano nero elastico sono stati pescati da grotte di gomma e cuciti sulla mano." />
+  </object>
+  <object Name="Chain Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶guanti a maglia" />
+    <part Name="Description" Short="▶Guanti di cuoio sono rinforzati da filo estruso meticolosamente arrotolato in centinaia di maglie di catena." />
+  </object>
+  <object Name="Carbide Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b|carburo}} guanti" />
+    <part Name="Description" Short="▶Un metallo pieghevole graffiato di azzurro opaco è tagliato a mano e cucito a un paio di sotto-guanti fatti di cuoio di capra imbottito." />
+  </object>
+  <object Name="Plastifer Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{plastifer|plastifer}} guanti" />
+    <part Name="Description" Short="▶Guanti di schiuma catturata da gas si irrigidiscono istantaneamente quando viene applicata pressione. Le loro superfici carsiche sono spolverosate dalle colorate abrasioni di chiliadi e dalle reazioni chimiche che producono; il loro materiale ha superato gli anelli esterni della sua vita attesa e si è avventurato nel vuoto ignoto." />
+  </object>
+  <object Name="Fullerite Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|fullerite}} guanti" />
+    <part Name="Description" Short="▶Metallo iperdensamente nero meteorico è stato surriscaldato e battuto a forma articolata di dito e palmo." />
+  </object>
+  <object Name="Quartzfur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|peloquarzo}} guanti" />
+    <part Name="Description" Short="▶La pelle ornata di prismi è stata tosata da una scimmia morta e tagliata in un paio di guanti." />
+  </object>
+  <object Name="Crysteel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} guanti}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità." />
+  </object>
+  <object Name="Ogre Fur Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pelo di orco}} guanti" />
+    <part Name="Description" Short="▶La pelliccia ruvida è tagliata dal manto tozzo di una scimmia orco in guanti dalle dita larghe, e nocche giganti segate a punta sporgono attraverso." />
+  </object>
+  <object Name="Flawless Crysteel Gauntlets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} guanti perfetti}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità. I getti macchiati di particelle di polvere sono stati scartati e dati in pasto ai litovori, lasciando solo i prismi esagonali perfetti." />
+  </object>
+  <object Name="Kaleidocera Muffs" Load="Merge">
+    <part Name="Render" DisplayName="▶{{kaleidoslug|kaleidocera}} manicotti" />
+    <part Name="Description" Short="▶Le cerata pendono sui manicotti come muffa cristallina su un anello di albero. Riflettono tonalità ricche in azzurro, rubino, orchidea stellare e vuoto; insieme brillano con effetto splendente." />
+  </object>
+  <object Name="Precision Nanon Fingers" Load="Merge">
+    <part Name="Render" DisplayName="▶dita {{Y|nanon}} di precisione" />
+    <part Name="Description" Short="▶Estensori per dita in fullerene si spiega come unghie di corte alla moda. Il loro calibro viene ridotto o ampliato secondo i requisiti del compito da microsservi incorporati nelle membrane." />
+    <part Name="RulesDescription" Text="▶Gli effetti percentuali delle tue armi sono 3 volte più probabili, inclusa la probabilità base per i colpi critici." />
+    <part Name="AdjustSpecialEffectChances" NameForStatus="▶OttimizzazioneNanon" />
+  </object>
+  <object Name="Zetachrome Gloves" Load="Merge">
+    <part Name="Render" DisplayName="▶{{zetachrome|zetacromo}} guanti" />
+    <part Name="Description" Short="▶Il plasma quark-gluone si è raffreddato rapidamente ed è stato spento sulle vette del vuoto dell'universo primordiale, tranne dove i globuli si sono intrappolati nelle pieghe 6D dello spaziotempo. Là sono scivolati nella scia per miliardi di anni fino a quando gli esseri li hanno scoperti, hanno costruito macchine per estrarli e raffreddarli, e li hanno riscaldati nelle loro fornaci stellari." />
+  </object>
+  <object Name="Leyline Puppeteers" Load="Merge">
+    <part Name="Render" DisplayName="▶{{psymeridian|burattinai delle linee ley}}" />
+    <part Name="Description" Short="▶Scanalature di canale sono incise nei palmi essiccati staticamente dei guanti con i motivi impossibili della geometria delle linee ley. Le dita si articolano ai radiali intersecanti e fanno girare il latente nell'essere." />
+    <part Name="RulesDescription" Text="▶Richiede 1 dram di flusso di neutroni per funzionare.&#xA;Piccola probabilità ogni turno che il flusso di neutroni venga consumato.&#xA;+10 scintillio psichico" />
+    <part Name="ChargeSink" NameForStatus="▶CircuiteriaArmoniosaLey" />
+    <part Name="EquipStatBoost" NameForStatus="▶GuainaTemporale" />
+  </object>
+  <object Name="BaseBoot" Load="Merge">
+    <xtagGrammar adjunctNoun="▶paio" />
+  </object>
+  <object Name="Leather Moccasins" Load="Merge">
+    <part Name="Render" DisplayName="▶mocassini di cuoio" />
+    <part Name="Description" Short="▶Tomaia di cuoio di cinghiale è graffiata con piccole fessure che scintillano in quarzo raschiato dal vento." />
+  </object>
+  <object Name="Sandals" Load="Merge">
+    <part Name="Render" DisplayName="▶sandali" />
+    <part Name="Description" Short="▶Un paio di scarpe con cinghie sono spaccate nelle suole in motivi sinusoidali di camminata su ghiaia." />
+  </object>
+  <object Name="Croccasins" Load="Merge">
+    <part Name="Render" DisplayName="▶{{crochide|croccasini}}" />
+    <part Name="Description" Short="▶Gli scuti sono disposti come pietre aguzze attorno al bordo della scarpa. La luce si riflette sullo smalto lucido." />
+  </object>
+  <object Name="Leather Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶stivali di cuoio" />
+    <part Name="Description" Short="▶Un cordoncino di filo d'oro pescato dalle viscere informatiche del sottosuolo allaccia il cuoio cucito a forma di scarpa di un cinghiale morto." />
+  </object>
+  <object Name="Magnetized Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶stivali magnetizzati" />
+    <part Name="Description" Short="▶Dal gambale alla suola sotto lo stivale macchiato d'inchiostro, una sottile piastra di nichel magnetizzato salda a forza chi li indossa al terriccio ferroso." />
+    <part Name="SaveModifier" NameForStatus="▶SuoleMagnetiche" />
+  </object>
+  <object Name="Sandals of the River-Wives" Load="Merge">
+    <part Name="Render" DisplayName="▶sandali delle spose del fiume" />
+    <part Name="Description" Short="▶Una perla di canyon allaccia cinghie di sandalo ricamate nell'immaginario sincretico delle ninfe delle acque rapide. Come il flusso del ghiacciaio stesso, la venerazione di Calipso si è mossa con i mystai giù per il favo diviso e dentro attraverso le fessure di scisto sotto il monte degli olivi. Là si è frammentata nei misteri delle mogli dai molti nomi, dove il ricordo dell'acqua dolce è diventato più sfaccettato della sua liscia superficie d'origine." />
+  </object>
+  <object Name="Chain Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶stivali a maglia" />
+    <part Name="Description" Short="▶Gli stivali di cuoio sono rinforzati da filo estruso meticolosamente arrotolato in centinaia di maglie di catena." />
+  </object>
+  </object>
+  <object Name="Steel Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} stivali" />
+    <part Name="Description" Short="▶Bande d'acciaio che portano i loro segni di leva sono state inchiodate a un paio di stivali di cuoio di cinghiale plissettati." />
+  </object>
+  <object Name="Elastyne Slippers" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|elastyne}} pantofole" />
+    <part Name="Description" Short="▶Un lembo di materiale gommoso che gli arconauti chiamano nero elastico è stato pescato da grotte di gomma e attaccato ai piedi." />
+  </object>
+  <object Name="Carbide Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b|carburo}} stivali" />
+    <part Name="Description" Short="▶Metallo pieghevole graffiato di azzurro opaco fascia un paio di stivali pescati nel lago." />
+  </object>
+  <object Name="Spring Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶stivali rimbalzanti" />
+    <part Name="Description" Short="▶Qualche ingegnoso artigiano ha fuso un tendine a molla attorno a ciascuno stivale per imitare l'andatura di un grande uccello in corsa." />
+    <part Name="RulesDescription" Text="▶Finché hai indossato questo oggetto per almeno 100 turni, scatti a tre volte la tua velocità di movimento." />
+  </object>
+  <object Name="Grease Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶stivali d'acciaio ingrassati" />
+    <part Name="Description" Short="▶Bande d'acciaio che portano i loro segni di leva sono state inchiodate a un paio di stivali di cuoio di cinghiale plissettati. Le loro suole sono state spalmato con cera scivolante strofinata dalle presse idrauliche della tomba dei Mangiatori." />
+  </object>
+  <object Name="Plastifer Sneakers" Load="Merge">
+    <part Name="Render" DisplayName="▶{{plastifer|plastifer}} scarpe da ginnastica" />
+    <part Name="Description" Short="▶Un paio di scarpe da ginnastica in schiuma catturata da gas si irrigidiscono istantaneamente quando viene applicata pressione. Le loro superfici carsiche sono spolverosate dalle coloratissime abrasioni di chiliadi e dalle reazioni chimiche che producono; il materiale ha superato gli anelli esterni della sua vita attesa e si è avventurato nel vuoto ignoto." />
+  </object>
+  <object Name="Yeshyrskin Slippers" Load="Merge">
+    <part Name="Render" DisplayName="▶pantofole di pelle di yeshyr" />
+    <part Name="Description" Short="▶Un filo d'argento stringe un taglio piuma di pelle dello yeshyr fantasmagorico, cacciato tra le rovine del frutteto a nord di Odrum. Sono fissate da una perla fumante." />
+  </object>
+  <object Name="Fullerite Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|fullerite}} stivali" />
+    <part Name="Description" Short="▶Bande saldate di crepuscolo invecchiato proteggono le gambe ma appesantiscono chi le indossa alla terra come minerale." />
+  </object>
+  <object Name="Step Sowers" Load="Merge">
+    <part Name="Render" DisplayName="▶semina{{g|t}}ori di passi" />
+    <part Name="Description" Short="▶La caviglia è stretta da una cinghia di cuoio e una fibbia di lamina d'oro; materia vegetale schiacciata sporca le suole." />
+  </object>
+  <object Name="Rocket Skates" Load="Merge">
+    <part Name="Render" DisplayName="▶{{rocket|razzo}} {{K|pattini}}" />
+    <part Name="Description" Short="▶Lo stivale alettato e con ruote era diventato il sigillo di diverse sette di socionauti durante il Tardo Sultanato. Per decenni i loro progenitori si lanciavano per i condotti a capsula dell'arcologia cadente, smontandola lastra per lastra, inseguiti dalla polizia ma trasportati dai loro pattini alla sicurezza dei loro nascondigli coperti di muschio. La metafora era scritta a chiare lettere sulle viscere di vetro della città: Brucia il passato. Lancia nel futuro." />
+    <part Name="BootSequence" VerbOnBootInitialized="▶tossisce" VerbOnBootDone="▶sfreccia" VerbOnBootAborted="▶sputa" />
+    <part Name="SaveModifier" NameForStatus="▶TrasmissioneMotrice" />
+    <part Name="TemperatureAdjuster" NameForStatus="▶ControlloEmissioni" />
+  </object>
+  <object Name="Crysteel Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} stivali}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità." />
+  </object>
+  <object Name="Ninefold Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{ninefold|noveplicato}} stivali" />
+    <part Name="Description" Short="▶Calligrafi sono incisi in file e colonne irregolari che serpeggiano sul quarto e sulla controscarpa dello stivale. La loro massa di caratteri sembra orbitare una dichiarazione centrale: &quot;Il cammino è contratto.&quot; Il resto della scrittura è inciso in una varietà di segni e stili che offrono interpretazioni concorrenti e composite della criptica proclamazione." />
+  </object>
+  <object Name="Flawless Crysteel Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} stivali perfetti}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità. I getti macchiati di particelle di polvere sono stati scartati e dati in pasto ai litovori, lasciando solo i prismi esagonali perfetti." />
+  </object>
+  <object Name="3D Cobblers" Load="Merge">
+    <part Name="Render" DisplayName="▶calzolai 3D" />
+    <part Name="Description" Short="▶Un tartan caleidoscopico struttura la linguetta e la tomaia. Sul contrafforte, un quadrato a diodo mostra l'immagine di un muro che si trasforma." />
+  </object>
+  <object Name="Anti-Gravity Boots" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|stivali anti-gravità}}" />
+    <part Name="Description" Short="▶Strisce di ur-metallo sulle suole sono magnetizzate da bobine bosoniche, producendo un nastro continuo di bolle di massa negativa che respingono chi li indossa verso l'alto." />
+    <part Name="MechanicalWings" NameForStatus="▶SistemaAntiGravità" />
+  </object>
+  <object Name="Kaleidocera Krakows" Load="Merge">
+    <part Name="Render" DisplayName="▶{{kaleidoslug|kaleidocera}} cracovie" />
+    <part Name="Description" Short="▶Le cerata pendono sulle punte delle scarpe come la Luna Scarabeo avvolta nella nebbia. Riflettono tonalità ricche in azzurro, rubino, orchidea stellare e vuoto; insieme brillano con effetto splendente." />
+  </object>
+  <object Name="Zetachrome Pumps" Load="Merge">
+    <part Name="Render" DisplayName="▶{{zetachrome|zetacromo}} décolleté" />
+    <part Name="Description" Short="▶Il plasma quark-gluone si è raffreddato rapidamente ed è stato spento sulle vette del vuoto dell'universo primordiale, tranne dove i globuli si sono intrappolati nelle pieghe 6D dello spaziotempo. Là sono scivolati nella scia per miliardi di anni fino a quando gli esseri li hanno scoperti, hanno costruito macchine per estrarli e raffreddarli, e li hanno riscaldati nelle loro fornaci stellari." />
+  </object>
+  <object Name="Jeweled Sandals" Load="Merge">
+    <part Name="Render" DisplayName="▶{{y-y-y-g-G-g-y sequence|sandali gioiellati}}" />
+    <part Name="Description" Short="▶Una gemma lucente, contenitore di giganteschi drammi e giganteschi piaceri, è inserita dentro un sandalo allacciato di cuoio sheyd." />
+  </object>
+  <object Name="BaseFloat" Load="Merge">
+    <part Name="Render" DisplayName="▶BaseFloat" />
+  </object>
+  <object Name="Light-Obfuscating Lens" Load="Merge">
+    <part Name="Render" DisplayName="▶{{starry|offuscante}} lente" />
+    <part Name="Description" Short="▶Una lente lunga quanto un torso alata da onde di rifrazione è sospesa a mezz'aria." />
+  </object>
+  <object Name="Symbiotic Firefly" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W-y-y-y sequence|lucciola}} simbiotica" />
+    <part Name="Description" Short="▶Un granello di luce gentile danza secondo i motivi della vita." />
+    <part Name="RulesDescription" Text="▶Emette luce in raggio 4.&#xA;Si spegne permanentemente quando viene disequipaggiata." />
+  </object>
+  <object Name="Luminous Mote" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|luminoso}} {{W-Y-y-K sequence|granello}}" />
+    <part Name="Description" Short="▶Il colore vortica attorno a un granello di polvere luminosa." />
+  </object>
+  <object Name="Floating Glowsphere" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|sfera luminosa}} fluttuante" />
+    <part Name="Description" Short="▶Un'opale fosforescente sta nel palmo di una mano e brilla con la luce delle aurore assorbite chiliadi fa. Fluttua in modo preternaturale." />
+  </object>
+  <object Name="Quantum Mote" Load="Merge">
+    <part Name="Render" DisplayName="▶{{quantum|granello quantistico}}" />
+    <part Name="Description" Short="▶Le particelle lampeggiano da un nucleo probabilistico e appaiono tracciate su conchiglie discrete di energia." />
+    <part Name="SaveModifier" NameForStatus="▶CampoProbabilistico" />
+  </object>
+  <object Name="Point-Defense Drone" Load="Merge">
+    <part Name="Render" DisplayName="▶drone di difesa puntuale" />
+    <part Name="Description" Short="▶È un occhio robotico coperto da un telaio forcuto e abbellito con ciglia-antenna. Una piccola canna sporge dalla sua pupilla e vibra. La palpebra interna è articolata, permettendo al drone di scansionare i proiettili in arrivo e abbatterli con luce laser." />
+  </object>
+  <object Name="ProjectilePointDefenseLaser" Load="Merge">
+    <part Name="Render" DisplayName="▶{{B|raggio laser}}" />
+    <part Name="Projectile" PassByVerb="▶striscia" />
+    <part Name="TreatAsSolid" Message="▶L'oscurità consuma =subject.t=!" />
+  </object>
+  <object Name="Chiral Rings" Load="Merge">
+    <part Name="Render" DisplayName="▶{{chiral|anelli chirali}}" />
+    <part Name="Description" Short="▶Anelli giganti e appiattiti di crysteel ipercooled correlano chi li indossa a un corpo astronomico e fungono da equatore celeste, declinazione e meridiano. I loro bordi sono limati su un tornio nanon e tagliano attraverso i detriti in orbita." />
+    <xtagGrammar adjunctNoun="▶set" />
+  </object>
+  <object Name="Black Mote" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|nero}} granello" />
+    <part Name="Description" Short="▶Una particella nera sfida il mondo inondata di luce e traccia un'orbita elicoidale." />
+    <part Name="EquipStatBoost" NameForStatus="▶SistemaDeformazioneLuce" />
+    <part Name="CancelRangedAttacks" NameForStatus="▶SistemaDeformazioneSpazio" />
+    <part Name="RandomLongRangeTeleportOnDamage" NameForStatus="▶SensoreProssimità" />
+  </object>
+  <object Name="BaseNephilimLightCircle" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce" />
+    <part Name="RulesDescription" Text="▶+1 a tutti i livelli di mutazione&#xA;+6 al livello della licenza cibernetica" />
+  </object>
+  <object Name="LightCircleAgolgot" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{agolgot|Agolgot}}" />
+    <part Name="Description" Short="▶Minareti di tonalità bilare grezza, putrefazione nera e giada velenosa ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno di malattia." />
+  </object>
+  <object Name="LightCircleBethsaida" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{bethsaida|Bethsaida}}" />
+    <part Name="Description" Short="▶Minareti di tonalità viscerale, lino di capelli/unghie e rubino di coagulo di sangue ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno di linfa vitale." />
+  </object>
+  <object Name="LightCircleQas" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{qas|Qas}}" />
+    <part Name="Description" Short="▶Minareti di potenziale di forza, cromo opaco e scala di grigi ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno esagonale." />
+  </object>
+  <object Name="LightCircleQon" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{qon|Qon}}" />
+    <part Name="Description" Short="▶Minareti di pittura abbagliante, brillio abissale e fuzz subconscio ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno di torpore." />
+  </object>
+  <object Name="LightCircleRermadon" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{rermadon|Rermadon}}" />
+    <part Name="Description" Short="▶Minareti di gas aurorale, smeraldo elettrificato e metalli fusi ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno di plasma." />
+  </object>
+  <object Name="LightCircleShugruith" Load="Merge">
+    <part Name="Render" DisplayName="▶cerchio di luce nell'accordo di {{shugruith|Shugruith}}" />
+    <part Name="Description" Short="▶Minareti di tonalità di polvere di scisto, lumaca schiacciata e marmo scintillante ruotano attorno a un punto zero e si sfocano in iridescenza in un arcobaleno minerale." />
+  </object>
+  <object Name="Wooden Buckler" Load="Merge">
+    <part Name="Render" DisplayName="▶rotella di legno" />
+    <part Name="Description" Short="▶Una ruota di dente di cane con sigilografia del clan collinare è fissata al braccio da una cinghia di cuoio." />
+  </object>
+  <object Name="Iron Buckler" Load="Merge">
+    <part Name="Render" DisplayName="▶rotella di ferro" />
+    <part Name="Description" Short="▶Una gota arrossata di ferro estratto è stata battuta a ruota per la difesa del braccio." />
+  </object>
+  <object Name="Steel Buckler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} rotella" />
+    <part Name="Description" Short="▶Un anello di acciaio lucido è stato stampato da una pressa metallica rovesciata e dotato di una barra di presa." />
+  </object>
+  <object Name="Steel Shield" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|acciaio}} scudo" />
+    <part Name="Description" Short="▶Uno scudo a forma di aquilone in acciaio sfoggia i geroglifici di dente e artiglio." />
+  </object>
+  <object Name="Carbide Shield" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b|carburo}} scudo" />
+    <part Name="Description" Short="▶Un aquilone blu sfoggia i geroglifici di dente e artiglio." />
+  </object>
+  <object Name="Fullerite Shield" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|fullerite}} egida" />
+    <part Name="Description" Short="▶L'ampia e alta egida è un aquilone dimezzato di raggio di sole e crepuscolo senza stelle, e dipinto sul suo piano graffiato dalla spada è il Santo Rombo del Tempio." />
+  </object>
+  <object Name="Crysteel Shield" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} egida}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità." />
+  </object>
+  <object Name="Flawless Crysteel Shield" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacc}} egida perfetta}}" />
+    <part Name="Description" Short="▶Le fornaci ad esplosione hanno succhiato l'energia delle maree dal pianeta, riscaldato il carbonio a temperature solari e versato il tutto in stampi esagonali. Le pinze di smeraldo usate per recuperare i getti si sono atomizzate e hanno ventilato vanadio -- il brillio verde -- nel collettore, imperfezionando il metallo e conferendogli la sua caratteristica tonalità." />
+  </object>
+  <object Name="Clay Pot" Load="Merge">
+    <part Name="Render" DisplayName="▶vaso di argilla" />
+    <part Name="Description" Short="▶Un vaso di terra di fango Svy cotto in un forno di palude cattura alcune manciate dal mare di suolo e le contiene in un mondo a bolla." />
+  </object>
+  <object Name="Tread Guard" Load="Merge">
+    <part Name="Render" DisplayName="▶guardia cingolata" />
+    <part Name="Description" Short="▶I telai metallici sono montati su cingoli per proteggersi dai detriti che inceppano le ruote." />
+  </object>
+  <object Name="Stopsvaalinn" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R-r-K-y-Y sequence|Stopsvalinn}}" />
+    <part Name="Description" Short="▶Uno strato di ruggine di età avanzata conferisce dimensione all'antico astago dalla faccia piatta. Il suo fronte è dipinto con lo stemma di una casata arcaica -- scrittura runica bianca su campo cremisi." />
+    <part Name="RulesDescription" Text="▶+1 Ego&#xA;Puoi attivare questo oggetto per evocare un campo di forza davanti a te. I robot spesso non saranno in grado di avanzare verso di te mentre il campo di forza è attivo." />
+    <part Name="TakenAccomplishment" Text="▶Hai recuperato la leggendaria egida della Casa Yish, =this.refname=." Hagiograph="▶Ricorda come =name= strappò l'egida leggendaria =this.refname= dalle zampe di un basso snapjaw e affermò la discendenza dai Saad di Yish!" Gospel="▶Alla Battaglia di =landmark.nearest|title=, =name= combatté per soggiogare gli snapjaw. =player.Subjective= impugnò una rotella con tale =spice:commonPhrases.finesse.!random= che divenne per sempre nota come =this.refname=." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Kindrish" Load="Merge">
+    <part Name="Description" Short="▶Perline di dente di cinghiale sull'antico amuleto sono consumate fino ai monconi dalla cartilagine del tempo, ma il cavo flessibile che le tiene insieme è forte come il giorno in cui fu intrecciato. Pendente dal braccialetto vi è una statuetta di un cervo, intagliata da una misteriosa sostanza che spacca la luce come il cristallo ma pesa come il metallo, producendo una vividezza ombreggiata altrove inedita." />
+    <part Name="TakenAccomplishment" Text="▶Hai recuperato il braccialetto ancestrale degli hindren, =this.refname=." Hagiograph="▶Attraverso la dimostrazione dell'straordinaria astuzia di =player.possessive=, =name= fu in grado di recuperare =this.refname=, il braccialetto ancestrale degli hindren, e fu così insignito del titolo di Grande-Cerva." Gospel="▶In una taverna nelle profondità dei selvaggi di =terrain.t=, =name= perse il suo prezioso braccialetto Kindrish per mano di un ladro locale. =name= assassinò il ladro =spice:elements.entity@elements[random].murdermethods.!random= e recuperò immediatamente il caro cimelio." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="BarathrumiteSafetyBand" Load="Merge">
+    <part Name="Render" DisplayName="▶anello della vita" />
+    <part Name="Description" Short="▶Un glifo diverso per 'vita' è inciso con luce su ognuno dei lucenti segmenti di cromo." />
+  </object>
+  <object Name="SlogTrophy" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g-w-w-g-g sequence|annunclus di Slog}}" />
+    <part Name="Description" Short="▶Una cintura di muscolo nastriforme stringe il polso e lo bagna con un grasso bruciante." />
+    <part Name="RulesDescription" Text="▶Subisci la metà del danno da veleno." />
+  </object>
+  <object Name="SkybearJetpack" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R-r-w-W-Y-y sequence|Planare-Volante}} dell'{{b-B-C-c sequence|Orso-Celeste}}" />
+    <part Name="Description" Short="▶Due torrette di cromo conduttore di sole coronano cilindri di gas in combustione, che cavalcano un traliccio metallico di vanghe che cingono una sorta di marchio di gilda. Un'elica a 6 fumi, firma del motore stellare attraverso cui questo planare è forgiato, si avvolge verso il cielo." />
+    <part Name="RulesDescription" Text="▶Puoi attivare questo oggetto per iniziare a scattare.&#xA; Mentre scatti, ogni volta che ti muovi in una direzione, scatti fino a 20 spazi verso il nemico o l'ostacolo più vicino ed esegui un attacco.&#xA; Per ogni tre spazi che scatti, ottieni +2 al colpire e +2 ai tiri di penetrazione." />
+    <xtagGrammar Proper="▶true" />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <part Name="TakenAccomplishment" Text="▶L'Orso-Celeste vola di nuovo! Dalle grinfie del passato gelato, hai recuperato =this.refname=." Hagiograph="▶Il respiro caldo e umido del sottosuolo ha defosilizzato l'Orso-Celeste e ci ha rivelato questa verità: =name= è Saad Amus, Saad Amus è =name=." Gospel="▶Per tutto il mese di =month=, =name= =spice:commonPhrases.ravaged.!random= la provincia di Bethesda Susa sul proprio jetpack, =spice:elements.entity@elements[random].ravaging.!random= di =mostHatedFaction.t= e =secondMostHatedFaction.t=. =player.Subjective= divenne noto come il =spice:commonPhrases.scourge.!random.capitalize= di Bethesda." />
+  </object>
+  <object Name="MurmurMask" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K-C-K sequence|mormorio}} {{Y-y-y-Y sequence|maschera}}" />
+    <part Name="Description" Short="▶Carta, vernice e perle un tempo familiari sono riorganizzate in una forma bestiale. Pallide luci del colore dello Spindolo brillano nelle orbite degli occhi, e un becco malvagio si apre in immobile minaccia. Sul volto, catene di ottone fissano i pezzi dell'innocenza lacerata che formano il Mormorio." />
+  </object>
+  <object Name="Blackboard" Load="Merge">
+    <part Name="Render" DisplayName="▶scudo di {{K|fullerite}} brunito" />
+    <part Name="Description" Short="▶Questa lastra nera di metallo è stata brunita di qualsiasi simbolo che potrebbe un tempo aver ornato la sua superficie opaca." />
+  </object>
+  <object Name="ScrapCape" Load="Merge">
+    <part Name="Render" DisplayName="▶mantello di rottami" />
+    <part Name="Description" Short="▶Dalle profondità dello strato 29, questo mantello fu tessuto dalla spazzatura; mille anni di storia ora drappeggiate sul posteriore." />
+  </object>
+  <object Name="n-Pointed Asterisk" Load="Merge">
+    <part Name="Render" DisplayName="▶asterisco a n punte" />
+    <part Name="Description" Short="▶Una sezione trasversale della scogliera di rifiuti è stata intagliata a forma di stella. Chiliadi di esseri viventi, rocce e materia artefatta nastrano le sue braccia: un mosaico di polipi, un bouquet di alghe, vetro bruciato, cromo coniato, guscio di nebulosa, latte d'iride e peluria fotonica casuale staccata da un ologramma in decomposizione." />
+    <part Name="RulesDescription" Text="▶Questo oggetto non ha bisogno di essere equipaggiato perché i suoi effetti siano attivi.&#xA;" />
+    <xtagGrammar iArticle="▶il" />
+  </object>
+  <object Name="Cyclopean Prism" Load="Merge">
+    <part Name="Render" DisplayName="▶prisma {{K|ametistino}}" />
+    <part Name="Description" Short="▶Un prisma triangolare di vetro nero senza stelle se ne sta immobile." />
+    <xtagGrammar Proper="▶true" />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+    <part Name="TakenAccomplishment" Text="▶Hai stretto il vetro nero del =this.refname= tra le mani." Hagiograph="▶=name= ametistino! Tremate davanti al dio-sultano forgiato dalla propria materia onirica, che porta il vetro nero!" Gospel="▶Vagando nella giungla vicino a Kyakukya, =name= sognò di orbitare una stella oscura e nel suo vasto disco di accrescimento accumulare i mattoni del sé. Da allora, =name= tenne sempre con sé un prisma triangolare senza stelle." />
+  </object>
+  <object Name="TauChime" Load="Merge">
+    <part Name="Render" DisplayName="▶campana di cristallo immobile" />
+    <part Name="Description" Short="▶Punte affilate sono attraversate da brillante ametista e zaffiro. I colori rimangono ma si smorzano in erica nella loro luce morente. La campana è immobile come una tomba." />
+  </object>
+  <object Name="TauHeadpiece" Load="Merge">
+    <part Name="Render" DisplayName="▶aureola {{crystalline|cristallina}}" />
+    <part Name="Description" Short="▶Il porpora bizantino arde a una tonalità media sui prismi affilati e collegati del cristallo. Ronza di vita nuova e ingegno." />
+    <part Name="RulesDescription" Text="▶Ti concede Accelera la Mente: ricarica un tempo di ricarica casuale all'uso." />
+    <part Name="BootSequence" VerbOnBootInitialized="▶vibra" VerbOnBootDone="▶tintinna" VerbOnBootAborted="▶si acquieta" />
+  </object>
+  <object Name="TauDagger" Load="Merge">
+    <part Name="Render" DisplayName="▶jile {{crystalline|cristallino}}" />
+    <part Name="Description" Short="▶Il cristallo spezzato si restringe a un rasoio odioso ai bordi della scheggia. Si spaccò alla curvatura di risonanza dell'angoscia, e cadde fuori dalla sua roccia madre come una promessa infranta." />
+    <part Name="RulesDescription" Text="▶Attacca MA invece di AV." />
+  </object>
+  <object Name="Nacham's Ribbon" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K-K-K-K-K-c-C-Y sequence|nastro di Nacham}}" />
+    <part Name="Description" Short="▶Un sipario di cavi ronzanti forma un mantello per spalle curve. Vibrano a frequenze neuronali a lungo dormienti." />
+    <part Name="Toolbox" BehaviorDescription="▶Quando alimentato, questo oggetto garantisce una probabilità del 40% che un oggetto fabbricato abbia una modifica casuale. Questo può includere modifiche non normalmente fabbricabili." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Vaam's Lens" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K-K-K-K-c-C-Y sequence|lente di Va'am}}" />
+    <part Name="Description" Short="▶Un tamburo oceanico di zircone sconosciuto si pulisce dalla polvere fino al granello per cancellazione elettrostatica. La croce centrale offre una presa per il portatore." />
+    <part Name="ReduceCooldowns" NameForStatus="▶AccelerazioneKinetica" />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Dagasha's Spur" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K-K-K-K-c-C-Y-C-c sequence|sperone di Dagasha}}" />
+    <part Name="Description" Short="▶Una corona di spine organizzata da cristalli ad angoli psionici rivelatori forma un punto di riferimento nel mare psichico." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Kah's Loop" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K-K-c-C-Y sequence|anello di Kah}}" />
+    <part Name="Description" Short="▶Un cavo nervato di punte a ago tangenti stringe l'arto e accelera la sua biomassa oltre ogni aspettativa." />
+    <part Name="IntPropertyChanger" BehaviorDescription="▶Chi lo indossa può compiere qualsiasi azione durante lo scatto senza penalità aggiuntive." NameForStatus="▶?????" />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Kesil Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto di {{kesil|Kesil}}" />
+    <part Name="Description" Short="▶Gioielli brillanti sono sparsi sui contorni di un volto galattico, e bordi tracciati tra loro disegnano la sagoma di un Fool fasciato. Lontano in cima al cromo, perle di luce brillante e ardente suggeriscono la forma di un'anfora mediale, e oltre il suo beccuccio, una struttura vasta e temporale. L'interno della maschera è nastrato da tracciature bruciate da dove fu modellata su un tornio al gallio, poi tinta con le iridi munte degli shedim e messa ad asciugare in una pozza di statica calda." />
+    <part Name="RulesDescription" Text="▶+1 a tutti i livelli di mutazione&#xA;+6 al livello della licenza cibernetica" />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Shemesh Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto di {{shemesh|Shemesh}}" />
+    <part Name="Description" Short="▶Rubini ardenti, corniole e granati sono disposti come un sole caldo e generoso. Minuscoli orbi rocciosi passano nello spazio vicino del volto, e nello spazio lontano un prisma di carico si allunga in un vuoto più ampio. L'interno della maschera è nastrato da tracciature bruciate da dove fu modellata su un tornio al gallio, poi tinta con le iridi munte degli shedim e messa ad asciugare in una pozza di statica calda." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Earth Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto della {{earth|Terra}}" />
+    <part Name="Description" Short="▶Sul volto, nastri di nube alabastrina circoscrivono un mare di lapislazzuli e foreste di giada. Al centro di tutto, uno Spindolo perfora il contorno esterno e scompare oltre la composizione. Un secondo arco ostruito, quello che deve essere l'ombra dello Spindolo, assorbe la luce proiettata dal cielo meridionale di bianco cristallino. L'interno della maschera è nastrato da tracciature bruciate da dove fu modellata su un tornio al gallio, poi tinta con le iridi munte degli shedim e messa ad asciugare in una pozza di statica calda." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Levant Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto del {{levant|Levante}}" />
+    <part Name="Description" Short="▶Rocce di diaspro si spezzano sui bordi della maschera e recingono un pallido mare di quarzo latteo. Lo Spindolo biseca il grande Volto, e la simmetria fiorisce sotto di esso. L'interno della maschera è nastrato da tracciature bruciate da dove fu modellata su un tornio al gallio, poi tinta con le iridi munte degli shedim e messa ad asciugare in una pozza di statica calda." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Olive Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto dell'{{olive|Ulivo}}" />
+    <part Name="Description" Short="▶Un unico monte di basalto e malachite intarsiati si apre; un'immagine dello Spindolo sboccia dal suo centro e domina l'aspetto adornato. L'interno della maschera è nastrato da tracciature bruciate da dove fu modellata su un tornio al gallio, poi tinta con le iridi munte degli shedim e messa ad asciugare in una pozza di statica calda." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="The Nil Face" Load="Merge">
+    <part Name="Render" DisplayName="▶Volto {{K|Nullo}}" />
+    <part Name="Description" Short="▶Una luna arcuata è spezzata da dove è stata staccata a forza dal tornio al gallio. Gli shedim non avevano occhi rimasti per colorare il Volto fioco e finale, e giacque troppo a lungo abbandonato in una pozza di statica calda. Il sultanato è in frantumi." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Repulsive Device" Load="Merge">
+    <part Name="Render" DisplayName="▶{{M|dispositivo repulsivo}}" />
+    <part Name="Description" Short="▶Sebbene abbia all'incirca le dimensioni e il peso di un neonato umano, la forma di questo dispositivo nero lucido assomiglia più a un feto strappato prematuramente dall'utero. La sua superficie è liscia e calda, con un pallido impulso che respira da qualche parte sotto la sua pelle nera come la pece. All'estremità della sua coda vi è un orifizio irto di denti uncinati, in perpetua ricerca di un punto d'ancoraggio che non trova mai." />
+  </object>
+  <object Name="Otherpearl" Load="Merge">
+    <part Name="Render" DisplayName="▶{{otherpearl|Altroperlą}}" />
+    <part Name="Description" Short="▶La madreperla dal colore totale è indurita in una forma ontologicamente perfetta; la matematica delle sfere ne sono mere approssimazioni. All'interno, motivi nastrati di etere sono congelati in stasi e coeriscono come un paesaggio al chiaro di luna, una scena in qualche modo ancorata al punto dello spaziotempo da cui l'hai osservata. Il significato di questo accoppiamento è sconosciuto e inconoscibile." />
+    <part Name="RulesDescription" Text="▶+40 scintillio psichico&#xA;Gli oggetti che trovi hanno cinque volte più probabilità di provenire da altre dimensioni." />
+    <part Name="TakenAccomplishment" Text="▶Hai stretto =this.refname= e ti sei avvolto nello specchio delle realtà." Hagiograph="▶Oh! I nostri cuori si sono trasformati in resti stellari quando =name= ha recitato un'elegia per la bambina sconosciuta Eudoxia!" Gospel="▶Nel mese di =month= dell'anno =year=, un amministratore corrotto fu nominato ministro di una città splendente con strade d'oro e vetro. =spice:pronouns.subject.!random.capitalize= mise al bando la composizione di elegie, e =name= fu costretto a fuggire." />
+    <xtagGrammar Proper="▶true" />
+    <tag Name="IndefiniteArticle" Value="▶il" />
+    <tag Name="DefiniteArticle" Value="▶il" />
+  </object>
+  <object Name="Flange from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="▶flangia dalla {{great machine|Grande Macchina}}" />
+    <part Name="Description" Short="▶Un enorme orlo a spirale si staccò dalla ruota motrice della cultura, cadde fuori dall'orbita del suo caveau stellare e, attraverso i metodi erosi del tempo, arrivò qui. Spore astroesotiche frustano il suo sottobordo di metaacciaio, pellegrini da un nucleo fungino caldo che aspettano il tempo tra ora e un qualche misterioso punto futuro." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Sail from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="▶vela dalla {{great machine|Grande Macchina}}" />
+    <part Name="Description" Short="▶Una vela-aquilone fiorita di lino extrasolare è tessuta su stecche per catturare l'aria velenosa di qualche lontano pianeta-palude e alimentare un ciclo ecumenico. Le sue scotte sono cucite con pletora sincretica da tutto il gamut sognante." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Gear from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="▶ingranaggio dalla {{great machine|Grande Macchina}}" />
+    <part Name="Description" Short="▶Sfilato dal suo tempio-macchina a lanterna in orbita attorno a una stella alcune centomila anni luce di distanza, il grande ingranaggio si staglia in stasi. Polvere di cento pianeti-casa vicini punta i suoi denti scanalati, mentre il suo foro è lucido di amaranto e olio d'incenso coltivato nell'arco di vita di una civiltà curata." />
+    <part Name="RulesDescription" Text="▶Le armi impugnate bloccate da questo scudo hanno una probabilità del 10% di essere disarmate." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="Gauge from the Great Machine" Load="Merge">
+    <part Name="Render" DisplayName="▶manometro dalla {{great machine|Grande Macchina}}" />
+    <part Name="Description" Short="▶Un enorme quadrante d'orologio è tracciato con lemniscate per misurare le pressioni enteogene che si accumulano nei nuclei di soli abissali. Il sacerdote della macchina che ne prendeva le letture e cantava il segnale è in debito con il collega lontano il cui circolo inventò il linguaggio fischiato 8000 anni dopo." />
+    <part Name="RulesDescription" Text="▶Denigra, Intimida e Sguardo Minaccioso confondono anche in base al rango 10 di Confusione." />
+    <xtagGrammar Proper="▶true" />
+  </object>
+  <object Name="RelicTonic" Load="Merge">
+    <part Name="Description" Short="▶Un tubetto di vetro tetraxenonoglass brilla all'interno con sciroppo opalino." />
+    <part Name="RulesDescription" Text="▶Guadagni un bonus permanente di +2 a un attributo casuale oppure due punti mutazione." GenotypeAlt="▶Guadagni due punti attributo." />
+  </object>
+  <object Name="RelicBook" Load="Merge">
+    <part Name="Description" Short="▶La luce cattura quattro angoli opalini e un medaglione in rilievo al centro di uuflax tessellato. Meraviglie sono tessute attraverso il tomo ciclopico." />
+  </object>
+  <object Name="BaseRelicAxe1" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato a un bordo d'ascia." />
+  </object>
+  <object Name="BaseRelicAxe2" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a un bordo d'ascia." />
+  </object>
+  <object Name="BaseRelicAxe2th" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a un ampio bordo d'ascia." />
+  </object>
+  <object Name="BaseRelicDagger1" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato a una punta corta." />
+  </object>
+  <object Name="BaseRelicDagger2" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a una punta corta." />
+  </object>
+  <object Name="BaseRelicLongsword1" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato al bordo di una lama." />
+  </object>
+  <object Name="BaseRelicLongsword1th" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato al bordo ampio di una lama." />
+  </object>
+  <object Name="BaseRelicLongsword2" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato al bordo di una lama." />
+  </object>
+  <object Name="BaseRelicLongsword2th" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato al bordo ampio di una lama." />
+  </object>
+  <object Name="BaseRelicCudgel1" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato a un prisma esagonale." />
+  </object>
+  <object Name="BaseRelicCudgel1th" Load="Merge">
+    <part Name="Description" Short="▶Ferro a campana cerimoniale è sagomato a un ampio prisma esagonale." />
+  </object>
+  <object Name="BaseRelicCudgel2" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a un prisma esagonale." />
+  </object>
+  <object Name="BaseRelicCudgel2th" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a un ampio prisma esagonale." />
+  </object>
+  <object Name="BaseRelicRifle1" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a una canna liscia." />
+  </object>
+  <object Name="BaseRelicRifle2" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a una canna spiralata." />
+  </object>
+  <object Name="BaseRelicRifle3A" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a una canna mozza." />
+  </object>
+  <object Name="BaseRelicRifle3B" Load="Merge">
+    <part Name="Description" Short="▶Acciaio di scoria cerimoniale è sagomato a una canna scanalata con precisione elicoidale." />
+  </object>
+  <object Name="BaseRelicPistol1" Load="Merge">
+    <part Name="Description" Short="▶Una ruota di cromo cerimoniale scatta al tempo della luna, e il medaglione dell'impugnatura brilla in lignaggio delfino." />
+  </object>
+  <object Name="BaseRelicPistol2" Load="Merge">
+    <part Name="Description" Short="▶Impugnature in acrilico nero sono accoppiate ai lati del pozzo del caricatore in cromo cerimoniale." />
+  </object>
+  <object Name="BaseRelicPistol3" Load="Merge">
+    <part Name="Description" Short="▶Un caricatore sottile come lo stagno pende dal pozzo del caricatore in cromo cerimoniale." />
+  </object>
+  <object Name="BaseTierArtifact" Load="Merge">
+    <part Name="Description" Short="▶Piccoli glifi sono incisi su ogni faccia esterna della scatola portatile." />
+  </object>
+  <object Name="BaseTierBody1_AV" Load="Merge">
+    <part Name="Description" Short="▶Pesci persici allevati negli acquari-silo di un settore abbandonato furono pescati e scuoiati in strisce. Quelle strisce furono conciati con cromo e cuciti in questo gilet." />
+  </object>
+  <object Name="BaseTierBody1_DV" Load="Merge">
+    <part Name="Description" Short="▶Questo camice è tessuto da uuflax imperituro rubato da un giardino-portale durante una disputa sindacale tra la gilda dei tessitori e i costruttori di finestre degli strati alti." />
+  </object>
+  <object Name="BaseTierHead1_AV" Load="Merge">
+    <part Name="Description" Short="▶Strappato dagli strati liminali di una guglia abbattuta dallo scisto, questo cranio animale fu consegnato a un incisore per la decorazione." />
+  </object>
+  <object Name="BaseTierHead1_DV" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato e cucito in un copricapo." />
+  </object>
+  <object Name="BaseTierFace1" Load="Merge">
+    <part Name="Description" Short="▶Le maschere mantennero il loro status sacro nella vita dei Mangiatori, anche quando persero la capacità di cucirle nei propri volti. Questa non è diversa." />
+  </object>
+  <object Name="BaseTierBack1" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato e cucito in una talma." />
+  </object>
+  <object Name="BaseTierHands1_AV" Load="Merge">
+    <part Name="Description" Short="▶Il cuoio di pesce persico era indossato dai pescatori nel primo sultanato, ma all'epoca di =spice.entity:name= era apprezzato dai gentiluomini. Questo paio è squisitamente lavorato." />
+  </object>
+  <object Name="BaseTierArm1" Load="Merge">
+    <part Name="Description" Short="▶Mentre gli incendi dei campanili infuriavano sotto, coraggiosi arconauti si immersero nelle profondità incandescenti per recuperare oggetti di valore. Quando i loro cadaveri furono trovati, la sabbia nelle loro tasche era stata soffiata in perle di vetro. Qualche tempo dopo, quelle perle furono infilate in un braccialetto." />
+  </object>
+  <object Name="BaseTierFeet1" Load="Merge">
+    <part Name="Description" Short="▶Stivali di cuoio di pesce persico, fattura pregiata. Furono rubati dalla cripta di un vecchio Mangiatore o fabbricati da un calzolaio per sembrarlo." />
+  </object>
+  <object Name="BaseTierFloating1" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierShield1" Load="Merge">
+    <part Name="Render" DisplayName="▶rotella di ferro" />
+    <part Name="Description" Short="▶Lontano dagli splendenti scudi dei periodi precedenti, questa parata concava fu semplicemente piegata e lucidata su un tornio municipale." />
+  </object>
+  <object Name="BaseTierBody2_AV" Load="Merge">
+    <part Name="Description" Short="▶Scaglie di cromo caddero come forfora dai campanili spezzati nel mare di spazzatura. Furono raccattate dai pescatori di minerali e scambiate lungo la catena della seta. Questa maglia è realizzata con le scaglie attorcigliate in anelli." />
+  </object>
+  <object Name="BaseTierBody2_DV" Load="Merge">
+    <part Name="Description" Short="▶I primi Mangiatori modificarono i loro geni per far crescere capelli di ur-filamento. Più tardi, una volta perduta quella tecnologia, i tombaroli li tosarono dai loro scalpi cadaverici. All'epoca di =spice.entity:name=, veniva chiamato raffinato. Questo gilet fu tessuto da quel materiale." />
+  </object>
+  <object Name="BaseTierHead2_AV" Load="Merge">
+    <part Name="Description" Short="▶I primi Mangiatori avevano allargato i propri crani per ragioni estetiche. All'epoca di =spice.entity:name=, gli abitanti degli alti minareti presero a indossarli come elmi. Questo è squisitamente decorato." />
+  </object>
+  <object Name="BaseTierHead2_DV" Load="Merge">
+    <part Name="Description" Short="▶I primi Mangiatori modificarono i loro geni per far crescere capelli di ur-filamento. Più tardi, una volta perduta quella tecnologia, i tombaroli li tosarono dai loro scalpi cadaverici. All'epoca di =spice.entity:name=, veniva chiamato raffinato. Questo cappello fu tessuto da quel materiale." />
+  </object>
+  <object Name="BaseTierFace2" Load="Merge">
+    <part Name="Description" Short="▶Le maschere mantennero il loro status sacro nella vita dei Mangiatori, anche quando persero la capacità di cucirle nei propri volti. Questa non è diversa." />
+  </object>
+  <object Name="BaseTierBack2" Load="Merge">
+    <part Name="Description" Short="▶Questo mantello fu tessuto da fili di capelli ur-filamento rubati dalle tombe dei primi Mangiatori." />
+  </object>
+  <object Name="BaseTierHands2_AV" Load="Merge">
+    <part Name="Description" Short="▶Il cuoio di pesce persico era indossato dai pescatori nel primo sultanato, ma all'epoca di =spice.entity:name= era apprezzato dai gentiluomini. Questo paio è squisitamente lavorato." />
+  </object>
+  <object Name="BaseTierArm2" Load="Merge">
+    <part Name="Description" Short="▶Mentre gli incendi dei campanili infuriavano sotto, coraggiosi arconauti si immersero nelle profondità incandescenti per recuperare oggetti di valore. Quando i loro cadaveri furono trovati, la sabbia nelle loro tasche era stata soffiata in perle di vetro. Qualche tempo dopo, quelle perle furono infilate in un braccialetto." />
+  </object>
+  <object Name="BaseTierFeet2" Load="Merge">
+    <part Name="Description" Short="▶Stivali di cuoio di pesce persico, fattura pregiata. Furono rubati dalla cripta di un vecchio Mangiatore o fabbricati da un calzolaio per sembrarlo." />
+  </object>
+  <object Name="BaseTierFloating2" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierShield2" Load="Merge">
+    <part Name="Description" Short="▶Lontano dagli splendenti scudi dei periodi precedenti, questa parata concava fu semplicemente piegata e lucidata su un tornio municipale." />
+  </object>
+  <object Name="BaseTierBody3_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di un usbergo di cristacc." />
+  </object>
+  <object Name="BaseTierBody3_DV" Load="Merge">
+    <part Name="Description" Short="▶L'isolamento in gomma che piastrellava a diamante gli alti condotti pneumatici fu tagliato di mezzanotte e portato da una congrega di sarti, che cucirono un corsetto." />
+  </object>
+  <object Name="BaseTierHead3_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di una mitra di cristacc." />
+  </object>
+  <object Name="BaseTierHead3_DV" Load="Merge">
+    <part Name="Description" Short="▶L'isolamento in gomma che piastrellava a diamante gli alti condotti pneumatici fu tagliato di mezzanotte e portato da una congrega di sarti, che cucirono un berretto." />
+  </object>
+  <object Name="BaseTierFace3" Load="Merge">
+    <part Name="Description" Short="▶Le maschere mantennero il loro status sacro nella vita dei Mangiatori, anche quando persero la capacità di cucirle nei propri volti. Questa non è diversa." />
+  </object>
+  <object Name="BaseTierBack3" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierHands3_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di un paio di guanti di cristacc." />
+  </object>
+  <object Name="BaseTierHands3_DV" Load="Merge">
+    <part Name="Description" Short="▶L'isolamento in gomma che piastrellava a diamante gli alti condotti pneumatici fu tagliato di mezzanotte e portato da una congrega di sarti, che cucirono un paio di muffole." />
+  </object>
+  <object Name="BaseTierArm3" Load="Merge">
+    <part Name="Description" Short="▶Un fermaglio di lamina lucida fu estratto a forza dalle viscere di vetro della polis e inciso come gioiello." />
+  </object>
+  <object Name="BaseTierFeet3_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di un paio di solleretti di cristacc." />
+  </object>
+  <object Name="BaseTierFeet3_DV" Load="Merge">
+    <part Name="Description" Short="▶L'isolamento in gomma che piastrellava a diamante gli alti condotti pneumatici fu tagliato di mezzanotte e portato da una congrega di sarti, che cucirono un paio di pantofole." />
+  </object>
+  <object Name="BaseTierFloating3" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierShield3" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica d'acciaio degli splendenti scudi." />
+  </object>
+  <object Name="BaseTierBody4_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di un usbergo di cristacc, poi rinforzata con pietra-budella." />
+  </object>
+  <object Name="BaseTierBody4_DV" Load="Merge">
+    <part Name="Description" Short="▶Spugna morta fu ammucchiata in prismi esagonali a Maqqom e trasportata per canali fino alle kurna all'ombra delle volte. Lì fu lavata pulita e lavorata a spugna in una blusa." />
+  </object>
+  <object Name="BaseTierHead4_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di una mitra di cristacc, poi rinforzata con pietra-budella." />
+  </object>
+  <object Name="BaseTierHead4_DV" Load="Merge">
+    <part Name="Description" Short="▶Spugna morta fu ammucchiata in prismi esagonali a Maqqom e trasportata per canali fino alle kurna all'ombra delle volte. Lì fu lavata pulita e lavorata a spugna in una cuffia." />
+  </object>
+  <object Name="BaseTierFace4" Load="Merge">
+    <part Name="Description" Short="▶Le maschere mantennero il loro status sacro nella vita dei Mangiatori, anche quando persero la capacità di cucirle nei propri volti. Questa non è diversa." />
+  </object>
+  <object Name="BaseTierBack4" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato, piegato due volte, e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierHands4_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di una mitra di cristacc, poi rinforzata con pietra-budella." />
+  </object>
+  <object Name="BaseTierHands4_DV" Load="Merge">
+    <part Name="Description" Short="▶Spugna morta fu ammucchiata in prismi esagonali a Maqqom e trasportata per canali fino alle kurna all'ombra delle volte. Lì fu lavata pulita e lavorata a spugna in un paio di guanti." />
+  </object>
+  <object Name="BaseTierArm4" Load="Merge">
+    <part Name="Description" Short="▶Un fermaglio di lamina lucida fu estratto a forza dalle viscere di vetro della polis e inciso come gioiello." />
+  </object>
+  <object Name="BaseTierFeet4_AV" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica di vetro di un paio di solleretti di cristacc, poi rinforzata con pietra-budella." />
+  </object>
+  <object Name="BaseTierFeet4_DV" Load="Merge">
+    <part Name="Description" Short="▶Spugna morta fu ammucchiata in prismi esagonali a Maqqom e trasportata per canali fino alle kurna all'ombra delle volte. Lì fu lavata pulita e lavorata a spugna in un paio di slipshoes." />
+  </object>
+  <object Name="BaseTierFloating4" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierShield4" Load="Merge">
+    <part Name="Description" Short="▶Quando erano attivi, gli altiforni di cristacc eruttavano scoria in una cintura di colline che cingeva la vecchia arcologia. Nell'era di =spice.entity:name=, la scoria veniva estratta e modellata in una replica d'acciaio degli splendenti scudi, poi rinforzata con pietra-budella." />
+  </object>
+  <object Name="BaseTierBody5_AV" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu forgiato in una corazza." />
+  </object>
+  <object Name="BaseTierBody5_DV" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu tagliato e adattato a un usbergo plastico." />
+  </object>
+  <object Name="BaseTierHead5_AV" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu forgiato in un elmetto." />
+  </object>
+  <object Name="BaseTierFace5" Load="Merge">
+    <part Name="Description" Short="▶Le maschere mantennero il loro status sacro nella vita dei Mangiatori, anche quando persero la capacità di cucirle nei propri volti. Questa non è diversa." />
+  </object>
+  <object Name="BaseTierBack5" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato, piegato due volte, e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierHands5_AV" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu forgiato in un paio di guanti." />
+  </object>
+  <object Name="BaseTierArm5" Load="Merge">
+    <part Name="Description" Short="▶Un fermaglio di cromo brillante fu estratto a forza dalle viscere di vetro della polis e inciso come gioiello." />
+  </object>
+  <object Name="BaseTierFeet5_AV" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu forgiato in un paio di sabbatoni." />
+  </object>
+  <object Name="BaseTierFloating5" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierShield5" Load="Merge">
+    <part Name="Description" Short="▶In vaste sale abissali, presse meccaniche alte come guglie schiacciavano sfere nere in diamante assassino. Una volta spente le luci, gruppi di ghiandaie tagliarono pezzi liberi con strumenti a gas e li portarono alle fucine degli strati bassi. Questo pezzo fu forgiato in un'egida." />
+  </object>
+  <object Name="BaseTierBody6_DV" Load="Merge">
+    <part Name="Description" Short="▶Le fibre multiple sono colorate e hanno una texture toccante come nessun altro tessuto. Una trama molecolare fu tirata attraverso orditi restringenti su un telaio frattale." />
+  </object>
+  <object Name="BaseTierFace6" Load="Merge">
+    <part Name="Description" Short="▶Pelle mellificata è suturata a uuflax colorato in una somiglianza psicotomimetica agli idoli dei Mangiatori nell'era di =spice.entity:name=." />
+  </object>
+  <object Name="BaseTierBack6" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato, piegato tre volte, e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierArm6" Load="Merge">
+    <part Name="Description" Short="▶Un fermaglio di cromo brillante fu estratto a forza dalle viscere di vetro della polis e inciso come gioiello." />
+  </object>
+  <object Name="BaseTierFloating6" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierFace7" Load="Merge">
+    <part Name="Description" Short="▶Pelle mellificata è suturata a uuflax colorato in una somiglianza psicotomimetica agli idoli dei Mangiatori nell'era di =spice.entity:name=." />
+  </object>
+  <object Name="BaseTierBack7" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato, piegato tre volte, e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierArm7" Load="Merge">
+    <part Name="Description" Short="▶Foglia d'oro di provenienza extramondana spirale sulla via stellare." />
+  </object>
+  <object Name="BaseTierFloating7" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="BaseTierFace8" Load="Merge">
+    <part Name="Description" Short="▶Pelle mellificata è suturata a uuflax colorato in una somiglianza psicotomimetica agli idoli dei Mangiatori nell'era di =spice.entity:name=." />
+  </object>
+  <object Name="BaseTierBack8" Load="Merge">
+    <part Name="Description" Short="▶Un foglio di uuflax imperituro fu strappato dagli enormi rocchetti del mercato, piegato quattro volte, e cucito in una talma a motivi geometrici." />
+  </object>
+  <object Name="BaseTierArm8" Load="Merge">
+    <part Name="Description" Short="▶Foglia d'oro di provenienza extramondana spirale sulla via stellare." />
+  </object>
+  <object Name="BaseTierFloating8" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo scheggiato di Spindolo luminoso, magnetizzato dalla caduta a terra, orbita attorno al suo guardiano prescelto." />
+  </object>
+  <object Name="Albino Ape Pelt" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|pelliccia di scimmia albina}}" />
+    <part Name="Description" Short="▶Un trapezio bianco neve di pelliccia pregiata di scimmia, apprezzato per la sua bellezza e calore." />
+  </object>
+  <object Name="Ogre Ape Pelt" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pelliccia di scimmia orco}}" />
+    <part Name="Description" Short="▶Un tappeto di pelo ruvido e dorato è schizzato di sangue in due tonalità." />
+  </object>
+  <object Name="EyelessCrabShell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|guscio di granchio senza occhi}}" />
+    <part Name="Description" Short="▶Il carapace perlaceo si avvolge attorno a uno sprone della mano e può essere usato per deviare i colpi in mischia." />
+  </object>
+  <object Name="SalthopperMandible" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|mandibola di saltarello}}" />
+    <part Name="Description" Short="▶Un bastoncino-lama dentellato di chitina sbiancata è ancora imbrattato degli avanzi dell'ultimo pasto del saltarello morto." />
+  </object>
+  <object Name="Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un cadavere." />
+  </object>
+  <object Name="Animal Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un cumulo di pelo bagnato e carne in putrefazione dà un po' di rilievo al suolo." />
+    <part Name="Food" Message="▶La carne è dura." />
+  </object>
+  <object Name="Small Animal Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un piccolo cumulo di pelo bagnato e carne in putrefazione fa un dosso nel terreno." />
+    <part Name="Food" Message="▶La carne è dura." />
+  </object>
+  <object Name="Humanoid Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un cumulo di pelo bagnato e carne in putrefazione dà un po' di rilievo al suolo." />
+    <part Name="Food" Message="▶La carne è dura." />
+  </object>
+  <object Name="Arthropod Corpse" Load="Merge">
+    <part Name="Description" Short="▶Il torso è capovolto e fa sbocciare un bouquet di zampe accartocciate." />
+    <part Name="Food" Message="▶Sgretolare l'esoscheletro lascia spazio a una carne morbida che si dissolve sulla lingua." />
+  </object>
+  <object Name="Crab Corpse" Load="Merge">
+    <part Name="Description" Short="▶Il torso con guscio è capovolto e fa sbocciare un bouquet di zampe accartocciate." />
+  </object>
+  <object Name="Winged Arthropod Corpse" Load="Merge">
+    <part Name="Description" Short="▶Il torso è capovolto e fa sbocciare un bouquet di zampe accartocciate. Il tutto è avvolto in un sudario di ali filiformi." />
+  </object>
+  <object Name="Scaled Reptile Corpse" Load="Merge">
+    <part Name="Description" Short="▶Scaglie spezzate giacciono in piatta tessellatura." />
+    <part Name="Food" Message="▶Masticare attraverso le scaglie è come mordere la roccia. La carne è magra ma saziante." />
+  </object>
+  <object Name="Fish Corpse" Load="Merge">
+    <part Name="Description" Short="▶Scaglie bagnate giacciono in piatta tessellatura." />
+    <part Name="Food" Message="▶La carne morbida si stacca dalle lische." />
+  </object>
+  <object Name="Frog Corpse" Load="Merge">
+    <part Name="Description" Short="▶Zampe allargate e gambe spezzate sono ripiegate sotto un corpo appiattito." />
+    <part Name="Food" Message="▶La carne è tenera." />
+  </object>
+  <object Name="Worm Corpse" Load="Merge">
+    <part Name="Description" Short="▶Anelli di corpo di verme spugnoso sono sgonfi e immobili. Piccole setole raschiano la terra." />
+    <part Name="Food" Message="▶Si mastica e si mastica." />
+  </object>
+  <object Name="Snail Corpse" Load="Merge">
+    <part Name="Description" Short="▶Una conchiglia vuota giace spezzata lungo la spirale e tinta di muco essiccato." />
+    <part Name="Food" Message="▶Schiacci la conchiglia in pezzi e la bocca si riempie di muco caldo." />
+  </object>
+  <object Name="Robot Corpse" Load="Merge">
+    <part Name="Description" Short="▶Un cadavere." />
+  </object>
+  <object Name="RobotLimb" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo di detriti metallici." />
+  </object>
+  <object Name="Human Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere umano" />
+    <part Name="Description" Short="▶Le forze del massacro hanno riorganizzato parti del corpo. Rifletti su come la riorganizzazione significhi qualcosa di diverso in ciascuno dei suoi contesti: pezzi su una scacchiera, cortigiani preferiti nella sala di un re, e parti su un corpo." />
+    <part Name="Food" Message="▶Un pasto disgustoso di tendini." />
+  </object>
+  <object Name="Charred Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere carbonizzato" />
+    <part Name="Food" Message="▶È carbonizzato." />
+    <part Name="Description" Short="▶Il fuoco ha prosciugato la luce da questo corpo. La sua immobilità si contorce contro il suolo che cambia." />
+  </object>
+  <object Name="Mangled Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere dilaniato" />
+    <part Name="Food" Message="▶È putrido." />
+    <part Name="Description" Short="▶Le forze del massacro hanno riorganizzato parti del corpo. Rifletti su come la riorganizzazione significhi qualcosa di diverso in ciascuno dei suoi contesti: pezzi su una scacchiera, cortigiani preferiti nella sala di un re, e parti su un corpo." />
+  </object>
+  <object Name="Ancient Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere mummificato" />
+    <part Name="Food" Message="▶Sa di vuoto." />
+    <part Name="Description" Short="▶Chi ha preservato la pelle e le viscere di questo immobile? È stata l'aria secca di Moghra'yi? O la persistenza premurosa del rituale umano? Ha importanza?" />
+  </object>
+  <object Name="Fresh Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere fresco" />
+    <part Name="Food" Message="▶È putrido." />
+    <part Name="Description" Short="▶Il sangue è ancora bagnato. Non avevi mai considerato l'umidità come una sorta di orologio, fino ad ora." />
+  </object>
+  <object Name="Moldering Corpse" Load="Merge">
+    <part Name="Render" DisplayName="▶cadavere in decomposizione" />
+    <part Name="Food" Message="▶Sa di muffa." />
+    <part Name="Description" Short="▶Qui giace un umanoide che non avrebbe mai immaginato che il proprio torso avrebbe ospitato polvere dalle branchie di minuscoli funghi, ma avrebbe dovuto." />
+  </object>
+  <object Name="TarBones" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|ossa incrostate di catrame}}" />
+    <part Name="Description" Short="▶Il tessuto fu mineralizzato mentre cresceva, poi staccato dall'albero delle cose viventi per diventare un artefatto della vita. Fu poi bollito in torba bruciata e trasformato in una colla dura." />
+    <part Name="Food" Message="▶Troppo appiccicoso per i tuoi gusti." />
+  </object>
+  <object Name="Ashes" Load="Merge">
+    <part Name="Render" DisplayName="▶ceneri" />
+    <part Name="Description" Short="▶La materia fu schiacciata, bruciata e granulata in una polvere morbida." />
+    <xtagGrammar adjunctNoun="▶mucchio" massNoun="▶true" />
+  </object>
+  <object Name="Bones" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|ossa}}" />
+    <part Name="Description" Short="▶Il tessuto fu mineralizzato mentre cresceva, poi staccato dall'albero delle cose viventi per diventare un artefatto della vita." />
+  </object>
+  <object Name="ExileCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|resti umani}}" />
+    <part Name="Food" Message="▶Sa di fradicio e malinconico." />
+    <part Name="Description" Short="▶Da una pozza di resina corallina spuntano le ossa non sbiancate di un adulto umano. I suoi resti hanno seminato un boschetto di funghi da altri mondi." />
+  </object>
+  <object Name="JoppaCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|resti umani}}" />
+    <part Name="Description" Short="▶Da un boschetto di brinestalk spuntano le ossa non sbiancate di un adulto umano." />
+  </object>
+  <object Name="CaverCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|ossa antiche}}" />
+    <part Name="Food" Message="▶Le delicate sfoglie di osso si sgretolano." />
+  </object>
+  <object Name="SkrefCorpse" Load="Merge">
+    <part Name="Render" DisplayName="▶resti appiattiti" />
+    <part Name="Food" Message="▶La frittella di carne è tenera." />
+    <part Name="Description" Short="▶Questi sembrano essere i resti appiattiti di qualche umanoide vanitoso." />
+  </object>
+  <object Name="BaseCyberneticsEquipment" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|impianto cibernetico}}" />
+    <xtagGrammar adjunctNoun="▶impianto" adjunctNounPost="▶true" />
+  </object>
+  <object Name="BiologicalIndexer" Load="Merge">
+    <part Name="Description" Short="▶Un minuscolo array di grafene che elabora dati ottici rispetto a un archivio di forme di vita organiche." />
+    <part Name="Render" DisplayName="▶{{Y|bioscanner ottico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso ai valori precisi di punti vita, armatura e schivata delle creature biologiche." />
+  </object>
+  <object Name="TechnologicalIndexer" Load="Merge">
+    <part Name="Description" Short="▶Un minuscolo array di grafene che elabora dati ottici rispetto a un archivio di forme di vita robotiche e artefatti." />
+    <part Name="Render" DisplayName="▶{{Y|technoscanner ottico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso ai valori precisi di punti vita, armatura e schivata delle creature robotiche e identifichi automaticamente gli artefatti." />
+  </object>
+  <object Name="ForceModulator" Load="Merge">
+    <part Name="Description" Short="▶Le frequenze emesse dai tuoi frammenti più piccoli sono sincronizzate con la banda standardizzata per l'emissione di forza." />
+    <part Name="Render" DisplayName="▶{{Y|modulatore di forza}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi camminare attraverso i campi di forza." />
+  </object>
+  <object Name="CherubicVisage" Load="Merge">
+    <part Name="Description" Short="▶Istruzioni carnali dettano la riformazione della struttura ossea del volto e della massa di tessuto gonfio in un aspetto morbido e angelico. Attraverso tale taumaturgia, la gente dell'antica Ibul, raccolta nel seno di una calotta glaciale collassata, vagava per le sue strade illuminate da lampade con guance rosee e disinteresse." />
+    <part Name="Render" DisplayName="▶{{Y|aspetto cherubico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+1 Ego" />
+  </object>
+  <object Name="ElectromagneticSensor" Load="Merge">
+    <part Name="Description" Short="▶Piccole distorsioni nel campo elettromagnetico causate dagli esseri macchina sono visibili a questo sensore." />
+    <part Name="Render" DisplayName="▶{{Y|sensore elettromagnetico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Rilevi i robot vicini senza doverli vedere." />
+  </object>
+  <object Name="NavigationSystem" Load="Merge">
+    <part Name="Description" Short="▶I dati di localizzazione geosociale sono dipinti attraverso la lente di vetro e sono sottesi da rappresentazioni del suolo vivente che si è spostato sulla terra per prendere il suo posto." />
+    <part Name="Render" DisplayName="▶{{Y|sistema di navigazione}}" />
+    <part Name="MultiNavigationBonus" NameForStatus="▶ModuloNavigazione" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶La tua probabilità di perderti nelle rovine è ridotta del 30%.&#xA;La tua probabilità di perderti in altri terreni è ridotta del 10%.&#xA;Questi effetti non si sommano ai bonus di un braccialetto bussola." />
+  </object>
+  <object Name="TibularHydrojets" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|idrogetti tibulari}}" />
+    <part Name="Description" Short="▶Canalette planate conducono la forza mioelettrica e spingono il corpo attraverso l'acqua." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+200 velocità di movimento mentre nuoti" />
+  </object>
+  <object Name="SkinGlitter1" Load="Merge">
+    <part Name="Description" Short="▶Un reticolo frattale di applique dermico conduce il bagliore interiore al mondo esterno." />
+    <part Name="Render" DisplayName="▶{{Y|brillantini cutanei}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+8% di probabilità di rifrangere gli attacchi basati sulla luce" />
+    <xtagGrammar massNoun="▶true" />
+  </object>
+  <object Name="SingleSkillsoft1" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono i modelli neurali di una particolare abilità." />
+    <part Name="Render" DisplayName="▶{{Y|skillsoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni un'abilità il cui costo è compreso tra 0 e 50 PS." />
+  </object>
+  <object Name="DermalInsulation" Load="Merge">
+    <part Name="Description" Short="▶Scaglie di fibra di vetro soffice si tendono attorno a un asse di supporto. Una volta installate, si srotolereanno e si gonfieranno sotto la pelle." />
+    <part Name="Render" DisplayName="▶{{Y|isolamento dermico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+6 resistenza al calore&#xA;+6 resistenza al freddo&#xA;+6 resistenza elettrica&#xA;+6 resistenza all'acido" />
+  </object>
+  <object Name="NightVision" Load="Merge">
+    <part Name="Description" Short="▶La retina ricca di nervi disperde la radiazione in arrivo e piega la luce così che le iridi diventano giada." />
+    <part Name="Render" DisplayName="▶{{Y|visione notturna}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni la capacità di vedere al buio." />
+  </object>
+  <object Name="HyperElasticAnkleTendons" Load="Merge">
+    <part Name="Description" Short="▶Corde fasciate di idrogel sono raggruppate in una." />
+    <part Name="Render" DisplayName="▶{{Y|tendini della caviglia iperelastici}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+6 velocità di movimento" />
+  </object>
+  <object Name="ParabolicMuscularSubroutine" Load="Merge">
+    <part Name="Description" Short="▶Fasci di nervi così disposti da stimolare i muscoli del braccio lungo un regolo parabolico." />
+    <part Name="Render" DisplayName="▶{{Y|subroutine muscolare parabolica}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶La tua gittata di lancio è aumentata di 2.&#xA;Quando lanci qualcosa a un bersaglio entro la tua gittata, la precisione del lancio è del 100%." />
+  </object>
+  <object Name="TranslucentSkin" Load="Merge">
+    <part Name="Description" Short="▶Il derma diafano proietta in rilievo silhouettato le reti circolatorie, muscolari e nervose." />
+    <part Name="Render" DisplayName="▶{{Y|pelle traslucida}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 DV" />
+  </object>
+  <object Name="StabilizerArmLocks" Load="Merge">
+    <part Name="Description" Short="▶Fermagli di cromo fissano le articolazioni delle braccia per emulare l'immobilità della non-vita." />
+    <part Name="Render" DisplayName="▶{{Y|blocchi stabilizzatori per le braccia}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ai fini della determinazione della tua precisione con attacchi a distanza, la tua agilità è trattata come se fosse 6 punti più alta." />
+  </object>
+  <object Name="RapidReleaseFingerFlexors" Load="Merge">
+    <part Name="Description" Short="▶Guaine tissutali a carica neuronica trasmettono la volontà più velocemente di quanto la biologia cellulare avesse raggiunto." />
+    <part Name="Render" DisplayName="▶{{Y|flessori delle dita a rilascio rapido}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Spari con le pistole il 25% più velocemente." />
+  </object>
+  <object Name="CarbideHandBones" Load="Merge">
+    <part Name="Description" Short="▶Il carburo blu si ammacca soltanto dove il collagene debole verrebbe frantumato in pezzi." />
+    <part Name="Render" DisplayName="▶{{Y|ossa delle mani in carburo}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶I tuoi pugni infliggono 2d3 danni." />
+  </object>
+  <object Name="CarbideFist" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|pugno di carburo}}" />
+    <part Name="Description" Short="▶La mano scheletrica di metallo blu cobalto rimane sospesa in temporanea inerzia." />
+  </object>
+  <object Name="Pentaceps" Load="Merge">
+    <part Name="Description" Short="▶Il quartetto di estensori dell'articolazione del ginocchio ottiene l'assistenza di un quinto sintetico." />
+    <part Name="Render" DisplayName="▶{{Y|pentacepite}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶La tua gittata di Carica è aumentata di 4 spazi." />
+  </object>
+  <object Name="CommunicationsInterlock" Load="Merge">
+    <part Name="Description" Short="▶Tra lo strumento multipronged e la cassaforte cifrata, si può interfacciare con tutte le porte robotiche disponibili." />
+    <part Name="Render" DisplayName="▶{{Y|interblocco comunicazioni}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Redarguisci i robot come se fossi 5 livelli più alto." />
+  </object>
+  <object Name="InflatableAxons" Load="Merge">
+    <part Name="Description" Short="▶Stent nanoscopici gonfiano i fili cerebrali eterici che limitano la conduzione della volontà." />
+    <part Name="Render" DisplayName="▶{{Y|assoni gonfiabili}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Attivabile. Ricarica 100.&#xA;Guadagni +40 velocità per 10 turni, poi diventi lento per 10 turni (-10 velocità)." />
+  </object>
+  <object Name="NocturnalApex" Load="Merge">
+    <part Name="Description" Short="▶I ritmi metabolici degli abitanti della Città Santa sono sincronizzati con i loro rituali diurni: di giorno, riposo in preghiera all'ombra di uno ziggurath scanalato; di notte, vagabondaggio negli arboreti tossici in cerca di sacrifici." />
+    <part Name="Render" DisplayName="▶{{Y|apice notturno}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+10% al tasso di guarigione naturale durante il giorno.&#xA;Una volta per notte, puoi fare il Predatore, guadagnando +6 agilità e +10 velocità per 100 turni." />
+  </object>
+  <object Name="AirCurrentMicrosensor" Load="Merge">
+    <part Name="Description" Short="▶Vicino al Mare del Dio Fumante, dove l'acqua di mare si schianta sulla roccia solare ed erutta in vapore mefitico, un labirinto di grotte vulcaniche forma uno spazio adimensionale dove l'utilità della vista svanisce. Per i figli del profondo, nuovi sensi crescono al suo posto." />
+    <part Name="Render" DisplayName="▶{{Y|microsensore di correnti d'aria}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Scale e altre transizioni di mappa su/giù sono sempre rivelate a te." />
+  </object>
+  <object Name="PneumaticPistons" Load="Merge">
+    <part Name="Description" Short="▶Il gas compresso spinge i pistoni nella muscolatura cosparsa di polvere di grafite e manda chi salta in volo." />
+    <part Name="Render" DisplayName="▶{{Y|pistoni pneumatici}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶La tua gittata di Salto è aumentata di 4 spazi." />
+  </object>
+  <object Name="ReactiveCranialPlating" Load="Merge">
+    <part Name="Description" Short="▶Piastre di carburo sono modellate a forma di cranio e legate con schiuma che si gonfia all'impatto." />
+    <part Name="Render" DisplayName="▶{{Y|rivestimento cranico reattivo}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Non puoi essere stordito da effetti cinetici." />
+  </object>
+  <object Name="PhaseHarmonicModulator" Load="Merge">
+    <part Name="Description" Short="▶Trottole invertite bilanciano la microstruttura di un'unità di controllo alloggiata in un disco bionico. All'interno, le fasi della realtà sono sovrapposte e proiettate verso l'esterno." />
+    <part Name="Render" DisplayName="▶{{Y|modulatore armonico di fase}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi interagire sia con oggetti e creature in fase che fuori fase." />
+  </object>
+  <object Name="FireSuppressionSystem" Load="Merge">
+    <part Name="Description" Short="▶Gel attivato dal calore è conservato in una capsula bionica e distribuito attraverso tubi di gomma sottocutanei." />
+    <part Name="Render" DisplayName="▶{{Y|sistema di soppressione del fuoco}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Scarica automaticamente gel ritardante di fiamma ogni turno in cui sei in fiamme." />
+  </object>
+  <object Name="AnchorSpikes" Load="Merge">
+    <part Name="Description" Short="▶Punte di cristacc sono suturate allo scheletro e sparano attraverso la pelle e il suolo quando si tendono." />
+    <part Name="Render" DisplayName="▶{{Y|punte d'ancoraggio}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Non puoi essere forzato a muoverti con mezzi fisici." />
+  </object>
+  <object Name="SkinGlitter2" Load="Merge">
+    <part Name="Description" Short="▶Un reticolo frattale di applique dermico conduce il bagliore interiore al mondo esterno." />
+    <part Name="Render" DisplayName="▶{{Y|brillantini cutanei}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+16% di probabilità di rifrangere gli attacchi basati sulla luce" />
+    <xtagGrammar massNoun="▶true" />
+  </object>
+  <object Name="SingleSkillsoft2" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono i modelli neurali di una particolare abilità." />
+    <part Name="Render" DisplayName="▶{{Y|skillsoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni un'abilità il cui costo è compreso tra 51 e 150 PS." />
+  </object>
+  <object Name="Schemasoft2" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono gli schemi per un'intera classe di artefatti di basso livello." />
+    <part Name="Render" DisplayName="▶{{Y|Schemasoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso a ogni schema per una singola classe di artefatti." />
+  </object>
+  <object Name="GroundingShunts" Load="Merge">
+    <part Name="Description" Short="▶La fibra di carbonio fuoriesce da due tamponi di contatto elettrodermici." />
+    <part Name="Render" DisplayName="▶{{Y|shunt di messa a terra}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+50 resistenza elettrica" />
+  </object>
+  <object Name="DermalPlating" Load="Merge">
+    <part Name="Description" Short="▶Piastre interconnesse di carburo sottile tessellano in un foglio sottocutaneo." />
+    <part Name="Render" DisplayName="▶{{Y|rivestimento dermico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+1 AV" />
+  </object>
+  <object Name="TransparentSkin" Load="Merge">
+    <part Name="Description" Short="▶La nuova carne è come pellicola fantasma, che non occulta nulla del macchinario della vita." />
+    <part Name="Render" DisplayName="▶{{Y|pelle trasparente}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+3 DV" />
+  </object>
+  <object Name="BionicHands" Load="Merge">
+    <part Name="Description" Short="▶Un paio di mani interamente nuove fabbricate da grafene e neutrafoam. I loro piloni attendono l'innesto." />
+    <part Name="Render" DisplayName="▶{{Y|mani bioniche}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 Agilità" />
+  </object>
+  <object Name="BionicArm" Load="Merge">
+    <part Name="Description" Short="▶Un braccio interamente nuovo fabbricato da grafene e neutrafoam. Il suo pilone attende l'innesto." />
+    <part Name="Render" DisplayName="▶{{Y|braccio bionico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 Forza" />
+  </object>
+  <object Name="UltraElasticAnkleTendons" Load="Merge">
+    <part Name="Description" Short="▶Corde di neutrafoam sono fasciate e raggruppate in una colonna scanalata." />
+    <part Name="Render" DisplayName="▶{{Y|tendini della caviglia ultraelastici}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+10 velocità di movimento" />
+  </object>
+  <object Name="BeautifulVisage" Load="Merge">
+    <part Name="Description" Short="▶Istruzioni dettano la riformazione del volto in un aspetto che suscita desideri latenti nei suoi osservatori." />
+    <part Name="Render" DisplayName="▶{{Y|aspetto bello}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 Ego" />
+  </object>
+  <object Name="DopamineSynth" Load="Merge">
+    <part Name="Description" Short="▶La cartuccia microscopica sintetizza dopamina a ritmo rapido e inonda i circuiti neurali in beatitudine motivazionale." />
+    <part Name="Render" DisplayName="▶{{Y|sintetizzatore di dopamina}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 Volontà" />
+  </object>
+  <object Name="BionicHeart" Load="Merge">
+    <part Name="Description" Short="▶Un apparato in cromo che pompa il sangue in onde fluide anziché con i frenetici battiti del tessuto muscolare cresciuto in un carcassa." />
+    <part Name="Render" DisplayName="▶{{Y|cuore bionico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+2 Robustezza" />
+  </object>
+  <object Name="GiantHands" Load="Merge">
+    <part Name="Description" Short="▶Per secoli sognarono: 'le mani devono crescere'. Nel morbido lustro di un laboratorio, il sogno fu realizzato." />
+    <part Name="Render" DisplayName="▶{{Y|mani giganti}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi impugnare armi a due mani con una mano sola." />
+  </object>
+  <object Name="MedassistModule" Load="Merge">
+    <part Name="Description" Short="▶Stent e applicatori pneumatici sono collegati direttamente a un'unità di controllo intelligente che comanda l'iniezione di coloranti proteici nelle vene." />
+    <part Name="Render" DisplayName="▶{{Y|modulo medico assistito}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Riduce il costo d'azione dell'applicazione degli iniettori dell'80%.&#xA;Può essere caricato con fino a 8 iniettori, che l'IA del modulo applicherà automaticamente quando opportuno (a propria discrezione) senza costo d'azione." />
+    <part Name="ReduceEnergyCosts" NameForStatus="▶SistemaManualeStenT" />
+  </object>
+  <object Name="PalladiumElectrodeposits" Load="Merge">
+    <part Name="Description" Short="▶La polvere ionica disciolta dal palladio facilita il trasferimento della corrente di calcolo." />
+    <part Name="Render" DisplayName="▶{{Y|elettrodepositi di palladio}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Fornisce 20 unità di potenza di calcolo sulla rete locale.&#xA;+2 Intelligenza se impiantato nella testa." />
+  </object>
+  <object Name="SecurityInterlock" Load="Merge">
+    <part Name="Description" Short="▶Chiavi scanalate per ogni lunghezza d'onda lungo ogni spettro consentono l'ingresso attraverso ogni portale." />
+    <part Name="Render" DisplayName="▶{{Y|interblocco di sicurezza}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi aprire qualsiasi porta." />
+  </object>
+  <object Name="IntravenousPort" Load="Merge">
+    <part Name="Description" Short="▶Tre cateteri imprimono la pelle dall'interno." />
+    <part Name="Render" DisplayName="▶{{Y|porta endovenosa}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Gli effetti dei tonici durano il doppio." />
+  </object>
+  <object Name="HighGradeDermalInsulation" Load="Merge">
+    <part Name="Description" Short="▶Scaglie di neutrofoam soffice si tendono attorno a un asse di supporto. Una volta installate, si srotolereanno e si gonfieranno sotto la pelle." />
+    <part Name="Render" DisplayName="▶{{Y|isolamento dermico di alta qualità}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+9 resistenza al calore&#xA;+9 resistenza al freddo&#xA;+9 resistenza elettrica&#xA;+9 resistenza all'acido" />
+  </object>
+  <object Name="MatterRecompositer" Load="Merge">
+    <part Name="Description" Short="▶Il flusso dentro questo piccolo cask può piegare lo spazio su una scala appena abbastanza grande da spostare un telaio umano nelle vicinanze." />
+    <part Name="Render" DisplayName="▶{{Y|ricompositore di materia}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Attivabile. Ricarica 100.&#xA;Ti teleporti in uno spazio casuale esplorato sulla mappa." />
+  </object>
+  <object Name="CustomVisage" Load="Merge">
+    <part Name="Description" Short="▶Software di modellazione meticolosamente dettagliato e istruzioni per la riformazione facciale permettono all'ospite di assumere il volto desiderato, rendendo obsolete per sempre le maschere." />
+    <part Name="Render" DisplayName="▶{{Y|aspetto personalizzato}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+300 reputazione con una fazione scelta al momento dell'installazione" />
+  </object>
+  <object Name="EquipmentRack" Load="Merge">
+    <part Name="Description" Short="▶Aste di montaggio in carburo sostengono uno scaffale giroscopico progettato per bagaglio extra." />
+    <part Name="Render" DisplayName="▶{{Y|rastrelliera per equipaggiamento}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni uno slot aggiuntivo per l'equipaggiamento sulla schiena." />
+  </object>
+  <object Name="BionicLiver" Load="Merge">
+    <part Name="Description" Short="▶Bile digestiva e alcalini ribollono in camere di vetro, mentre tessuto sintetico filtra le bio-tossine." />
+    <part Name="Render" DisplayName="▶{{Y|fegato bionico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Sei immune al veleno e alle malattie." />
+  </object>
+  <object Name="AnomalyFumigator" Load="Merge">
+    <part Name="Description" Short="▶Circuiteria paracausale eccita la struttura dello spaziotempo in un particolato normotropico." />
+    <part Name="Render" DisplayName="▶{{Y|fumigatore di anomalie}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Emetti nuvole di gas di normalità ogni turno." />
+  </object>
+  <object Name="SingleSkillsoft3" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono i modelli neurali di una particolare abilità." />
+    <part Name="Render" DisplayName="▶{{Y|skillsoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni un'abilità il cui costo è superiore a 151 PS." />
+  </object>
+  <object Name="Schemasoft3" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono gli schemi per un'intera classe di artefatti di medio livello." />
+    <part Name="Render" DisplayName="▶{{Y|Schemasoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso a ogni schema per una singola classe di artefatti." />
+  </object>
+  <object Name="FulleriteHandBones" Load="Merge">
+    <part Name="Description" Short="▶La fullerite nera si ammacca soltanto dove il collagene debole verrebbe frantumato in pezzi." />
+    <part Name="Render" DisplayName="▶{{Y|ossa delle mani in fullerite}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶I tuoi pugni infliggono 2d4+1 danni." />
+  </object>
+  <object Name="FulleriteFist" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|pugno di fullerite}}" />
+    <part Name="Description" Short="▶La mano scheletrica di metallo nero corvino rimane sospesa in temporanea inerzia." />
+  </object>
+  <object Name="MotorizedTreads" Load="Merge">
+    <part Name="Description" Short="▶Cingoli triangolari avvolgono i denti di ingranaggi giganti che girano per muoversi. Il loro umano è evaso dai confini del moto bipede." />
+    <part Name="Render" DisplayName="▶{{Y|cingoli motorizzati}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+150 velocità di movimento&#xA;+4 ai tiri salvezza contro movimento forzato, abbattimento e trattenimento&#xA;Non puoi indossare scarpe.&#xA;Questo impianto non può essere disinstallato." />
+    <part Name="SaveModifier" NameForStatus="▶TrazioneCingolata" />
+  </object>
+  <object Name="ReactiveTraumaPlate" Load="Merge">
+    <part Name="Description" Short="▶Una piastra corporea di plasteel sagomata assorbe lo shock d'impatto e si disintegra nel flusso sanguigno." />
+    <part Name="Render" DisplayName="▶{{Y|piastra traumatica reattiva}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Neutralizza una fonte di danno che causerebbe una quantità letale di danni o infliggerebbe almeno il 50% dei tuoi HP massimi. Questo impianto viene distrutto nel processo." />
+    <part Name="LifeSaver" LethalMessage="▶=subject.Name's= =object.name= =object.verb:burst= verso l'esterno, distruggendo =objpronouns.reflexive= per prevenire danni potenzialmente letali." MaxHitpointsThresholdMessage="▶=subject.Name's= =object.name= =object.verb:burst= verso l'esterno, distruggendo =objpronouns.reflexive= per prevenire danni catastrofici." NameForStatus="▶SistemaIntervenzioneTauma" />
+  </object>
+  <object Name="GunRack" Load="Merge">
+    <part Name="Description" Short="▶La rastrelliera per armi montata sulla schiena in cromo lucido ha due slot per pistole da tenere sopra ogni spalla o per un fucile da tenere sopra la spalla preferita." />
+    <part Name="Render" DisplayName="▶{{Y|rastrelliera per armi}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni slot aggiuntivi per arma missilistica sinistra e destra.&#xA;Non puoi indossare equipaggiamento sulla schiena." />
+  </object>
+  <object Name="OnboardRecoiler" Load="Merge">
+    <part Name="Description" Short="▶Un nucleo geospaziale è dotato di un tether bionico." />
+    <part Name="Render" DisplayName="▶{{Y|recoiler di bordo}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi imprimere su questo impianto una posizione (ricarica 100) e tornare ad essa (ricarica 50)." />
+  </object>
+  <object Name="MagneticCore" Load="Merge">
+    <part Name="Description" Short="▶Metallo laminato è legato come sfere concentriche, attenuando le correnti parassite magnetiche e alimentando orbite di prossimità." />
+    <part Name="Render" DisplayName="▶{{Y|nucleo magnetico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni uno slot aggiuntivo per oggetto nelle immediate vicinanze." />
+  </object>
+  <object Name="Phase-Adaptive Scope" Load="Merge">
+    <part Name="Description" Short="▶Una piccola lente di tetraxenonoglass è curva al raggio Q per tenere conto della parallasse interdimensionale." />
+    <part Name="Render" DisplayName="▶{{Y|mirino adattivo di fase}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Quando spari con un'arma missilistica o lanci qualcosa, il tuo proiettile cambia fase per attraversare gli ostacoli e raggiungere il bersaglio." />
+  </object>
+  <object Name="Schemasoft4" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono gli schemi per un'intera classe di artefatti di alto livello." />
+    <part Name="Render" DisplayName="▶{{Y|Schemasoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso a ogni schema per una singola classe di artefatti." />
+  </object>
+  <object Name="PrecisionForceLathe" Load="Merge">
+    <part Name="Description" Short="▶Un mandrino magneticamente schermato mantiene lo spazio in sospensione cinetica mentre un mandrino di forza gira e lo affila a una punta." />
+    <part Name="Render" DisplayName="▶{{Y|tornio di forza di precisione}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Fabbrichi coltelli di forza negli slot mano o arma da lancio non occupati.&#xA;Se lanci un coltello di forza, un altro si materializza immediatamente nel tuo slot arma da lancio.&#xA;I coltelli di forza infliggono 1d8 danni, hanno valore di penetrazione pari al valore di armatura del bersaglio e +6 gittata di lancio.&#xA;I coltelli di forza scompaiono dopo aver perso il contatto con te o essere stati desequipaggiati.&#xA;Se hai installato un impianto modulatore di forza, i coltelli di forza possono essere lanciati attraverso i campi di forza.&#xA;" />
+  </object>
+  <object Name="ForceKnife" Load="Merge">
+    <part Name="Render" DisplayName="▶coltello di {{C|forza}}" />
+    <part Name="Description" Short="▶Una lunghezza di spazio grezzo è stata cineticizzata e affilata a una punta." />
+    <part Name="VibroWeapon" NameForStatus="▶BordoPlanck" />
+  </object>
+  <object Name="GraftedMirrorArm" Load="Merge">
+    <part Name="Description" Short="▶Un braccio di plastifer si biforca dalla scapola e copia le istruzioni trasmesse dal nervo al muscolo nel suo gemello cresciuto." />
+    <part Name="Render" DisplayName="▶{{Y|braccio specchio innestato}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Guadagni uno slot aggiuntivo per arma da lancio.&#xA;Quando esegui un lancio, lanci da tutti i tuoi slot arma da lancio contemporaneamente." />
+  </object>
+  <object Name="MicromanipulatorArray" Load="Merge">
+    <part Name="Description" Short="▶Una dozzina di bracci e manipolatori si dispiegano da un supporto metallico che si fonde ai metacarpi." />
+    <part Name="Render" DisplayName="▶{{Y|array micromanipolatore}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Puoi armeggiare e riparare in combattimento al costo d'azione di un turno.&#xA;Riduce il costo d'azione di altre abilità di armeggio del 40%.&#xA;Concede un bonus all'identificazione degli artefatti come se il tuo punteggio di Intelligenza fosse aumentato di 8.&#xA;+10% di probabilità di recuperare frammenti smontando artefatti." />
+    <part Name="Toolbox" NameForStatus="▶SensoriDiagnostici" />
+  </object>
+  <object Name="PenetratingRadar" Load="Merge">
+    <part Name="Description" Short="▶Array ricetrasmittenti a picofase assemblano un modello squisitamente dettagliato del proprio ambiente." />
+    <part Name="Render" DisplayName="▶{{Y|radar penetrante}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni visibilità totale in un raggio di 10 spazi attorno a te, bloccata solo da campi di forza e anomalie spaziotemporali." />
+  </object>
+  <object Name="BiodynamicPowerPlant" Load="Merge">
+    <part Name="Description" Short="▶Una microturbina preleva emopotenza dalla circolazione del sangue e dalle reazioni chimiche in essa contenute." />
+    <part Name="Render" DisplayName="▶{{Y|centrale biodynamica}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Fornisce un continuo di 5000 unità di carica per turno agli oggetti equipaggiati che possono accedere ai sistemi di alimentazione di bordo, come gli oggetti con la modifica Connesso." />
+  </object>
+  <object Name="StasisProjector" Load="Merge">
+    <part Name="Description" Short="▶I cristalli si involvono lungo angoli di immobilità." />
+    <part Name="Render" DisplayName="▶{{Y|proiettore di stasi}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Attivabile. Ricarica 100.&#xA;Crea fino a 6 quadrati contigui di campo di stasi che durano circa 5 turni." />
+  </object>
+  <object Name="HolographicVisage" Load="Merge">
+    <part Name="Description" Short="▶Emulsione scivolosa sulla guancia e luce laser evoca calore pareidolico." />
+    <part Name="Render" DisplayName="▶{{Y|aspetto olografico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+200 reputazione con una fazione scelta al momento dell'installazione&#xA;Puoi attivare questo impianto per cambiare la fazione scelta." />
+  </object>
+  <object Name="OpticalMultiscanner" Load="Merge">
+    <part Name="Description" Short="▶Un minuscolo array di grafene che elabora dati ottici rispetto al registro ontologico e fenomenologico definitivo." />
+    <part Name="Render" DisplayName="▶{{Y|multiscanner ottico}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso ai valori precisi di punti vita, armatura e schivata di creature robotiche, creature biologiche e strutture.&#xA;Identifichi automaticamente gli artefatti.&#xA;Scale e altre transizioni di mappa su/giù sono sempre rivelate a te." />
+  </object>
+  <object Name="SocialCoprocessor" Load="Merge">
+    <part Name="Description" Short="▶Attorno a un processore centrale, innesti neurali si collegano ai lobi cerebrali responsabili del senso di calore sociale." />
+    <part Name="Render" DisplayName="▶{{Y|coprocessore sociale}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ogni volta che esegui il rituale dell'acqua con una nuova creatura, guadagni 25 reputazione extra. Se installi questo impianto dopo aver trattato con una creatura per la prima volta, guadagni 25 reputazione la prossima volta che tratti con essa.&#xA;I costi di reputazione nel rituale dell'acqua sono ridotti del 20%.&#xA;Puoi proselitare una creatura aggiuntiva.&#xA;La potenza di calcolo sulla rete locale aumenta l'efficacia di questo impianto." />
+  </object>
+  <object Name="StasisEntangler" Load="Merge">
+    <part Name="Description" Short="▶Facce di cristallo scolpite sono matricizzate e angolate per convogliare l'immobilità attraverso un grafo di vertici vivi." />
+    <part Name="Render" DisplayName="▶{{Y|entangler di stasi}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Attivabile. Ricarica 200.&#xA;Scegli una creatura in linea di vista. Tutte le altre creature sono poste in campi di stasi per 15 turni." />
+  </object>
+  <object Name="CrysteelHandBones" Load="Merge">
+    <part Name="Description" Short="▶Il cristacc variegato si ammacca soltanto dove il collagene debole verrebbe frantumato in pezzi." />
+    <part Name="Render" DisplayName="▶{{Y|ossa delle mani in cristacc}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶I tuoi pugni infliggono 3d4 danni." />
+  </object>
+  <object Name="CrysteelFist" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|pugno di cristacc}}" />
+    <part Name="Description" Short="▶La mano scheletrica di metallo smeraldo variegato rimane sospesa in temporanea inerzia." />
+  </object>
+  <object Name="HighFidelityMatterRecompositer" Load="Merge">
+    <part Name="Description" Short="▶Il flusso dentro questo piccolo cask può piegare lo spazio su una scala appena abbastanza grande da spostare un telaio umano nelle vicinanze. La circuiteria non lineare calcola tutti i risultati possibili e scarta quelli che fanno atterrare l'ospite fuori dall'area target." />
+    <part Name="Render" DisplayName="▶{{Y|ricompositore di materia ad alta fedeltà}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Attivabile. Ricarica 50.&#xA;Ti teleporti in qualsiasi spazio esplorato sulla mappa." />
+  </object>
+  <object Name="TreeSkillsoft" Load="Merge">
+    <part Name="Description" Short="▶Codificati su questo chip sono i modelli neurali di un particolare albero di abilità." />
+    <part Name="Render" DisplayName="▶{{Y|skillsoft}}" />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶Ottieni accesso a un intero albero di abilità." />
+  </object>
+  <object Name="BaseCathedra" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cattedra}}" />
+    <part Name="Description" Short="" />
+  </object>
+  <object Name="CathedraSapphire" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cattedra con tracciatura di zaffiro}}" />
+    <part Name="Description" Short="▶Reticolato attorno al quadrifoglio di uno schienale elefantino vi sono i glifi limati della cecità, messaggi dal misterion unito oltre il Golfo. Ali e balaustre sono ordinate nelle dimensioni perfette di qualche tipo di strana gerarchia." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+100 velocità di movimento&#xA;+50 punti vita&#xA;+100 capacità di carico&#xA;+3 Ego&#xA;Ottieni la capacità di volare.&#xA;&#xA;Attivabile. Ricarica 100.&#xA;Invochi una forza concussiva nell'area circostante, scaraventando indietro i nemici e stordendoli.&#xA;&#xA;Non puoi indossare equipaggiamento sulla schiena.&#xA;Questo impianto non può essere disinstallato." />
+  </object>
+  <object Name="CathedraRuby" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cattedra con tracciatura di rubino}}" />
+    <part Name="Description" Short="▶Creste d'onda di scoria interrompono la geometria planare del gigantesco sedile, cicatrici d'indice al momento in cui i mystai rotolarono fuori della terra il masso di rubino da cui fu scolpito. Gli schienali e i piedi artiglio sono bruciati e scompigliati; il rituale della trasformazione non finisce mai." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+100 velocità di movimento&#xA;+50 punti vita&#xA;+100 capacità di carico&#xA;+3 Ego&#xA;Ottieni la capacità di volare.&#xA;&#xA;Attivabile. Ricarica 100.&#xA;Generi un campo di pirococinesi attorno alla tua persona.&#xA;&#xA;Non puoi indossare equipaggiamento sulla schiena.&#xA;Questo impianto non può essere disinstallato." />
+  </object>
+  <object Name="CathedraWhiteOpal" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cattedra con tracciatura di opale bianco}}" />
+    <part Name="Description" Short="▶Chiliadi di lustrini sono attaccati alle figure nude intagliate in rilievo del sedile dorato. Popolano quella collina dorata, i loro corpi coniugati l'uno all'altro in tutti i modi che la geometria consente, riversandosi dalla cresta e giù lungo i braccioli a spirale che un tempo sostenevano le membra tremanti di un gran sacerdote della lussuria." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+100 velocità di movimento&#xA;+50 punti vita&#xA;+100 capacità di carico&#xA;+3 Ego&#xA;Ottieni la capacità di volare.&#xA;&#xA;Attivabile. Ricarica 100.&#xA;Rilasci un'esplosione di polvere di brillantini attorno a te.&#xA;&#xA;Non puoi indossare equipaggiamento sulla schiena.&#xA;Questo impianto non può essere disinstallato." />
+  </object>
+  <object Name="CathedraBlackOpal" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|cattedra con tracciatura di opale nero}}" />
+    <part Name="Description" Short="▶Su tutto il suo ampio schienale e i braccioli planari, linee sottili spartiscono la sedia e le sue pietre vivaci in grappoli di galassie. I loro modelli frattali alla microscala li pongono oltre l'abilità di carpentieri ormai fossilizzati; devono essere le cicatrici delle linee ley." />
+    <part Name="CyberneticsBaseItem" BehaviorDescription="▶+100 velocità di movimento&#xA;+50 punti vita&#xA;+100 capacità di carico&#xA;+3 Ego&#xA;Ottieni la capacità di volare.&#xA;&#xA;Attivabile. Ricarica 100.&#xA;Spacchi lo spaziotempo, teletrasportandoti in una posizione casuale di Qud.&#xA;&#xA;Non puoi indossare equipaggiamento sulla schiena.&#xA;Questo impianto non può essere disinstallato." />
+  </object>
+  <object Name="BaseCyberneticsCreditWedge" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|cuneo credito cibernetico}}" />
+    <part Name="Description" Short="▶Un piccolo cuneo di plastica." />
+  </object>
+  <object Name="Book" Load="Merge">
+    <xtagGrammar Proper="▶true" adjunctNoun="▶copia" />
+    <part Name="Description" Short="▶Pagine nitide di vellum di capra sono rilegati in un codice." />
+  </object>
+  <object Name="FocalCookbook" Load="Merge">
+    <part Name="Render" DisplayName="▶libro di cucina" />
+  </object>
+  <object Name="StandaloneMarkovBook" Load="Merge">
+    <part Name="Render" DisplayName="▶libro" />
+  </object>
+  <object Name="BloodstainedSheaf" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|fascio di pergamena di capra macchiata di sangue}}" />
+    <part Name="Description" Short="▶Fogli di pelle di capra scuoiata e tesa sono legati insieme con resina e scarabocchiati con sangue di capretto." />
+    <xtagGrammar Proper="▶false" adjunctNoun="" />
+    <xtagGrammar Proper="▶false" />
+  </object>
+  <object Name="Corpus" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Corpus Choliys}}" />
+  </object>
+  <object Name="TornGraphPaper" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|foglio strappato di carta millimetrata}}" />
+    <part Name="Description" Short="▶Un foglio volante è diviso da linee di coordinate in ciano. Sembra essere stato strappato da un raccoglitore." />
+    <xtagGrammar Proper="▶false" adjunctNoun="" />
+    <xtagGrammar Proper="▶false" />
+  </object>
+  <object Name="Sonnet" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|foglio di carta sgualcito}}" />
+    <part Name="Description" Short="▶Carta di polpa di brinestalk è coperta da un tremolante scarabocchio d'inchiostro. Sembra sia stato sgualcito e riallineato molte volte." />
+    <xtagGrammar Proper="▶false" adjunctNoun="" />
+  </object>
+  <object Name="HeirloomsCatalog" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Cimeli di Qud}}" />
+  </object>
+  <object Name="Sheaf1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|fascio di pergamena logora}}" />
+    <part Name="Description" Short="▶Diversi fogli di pergamena logora e macchiata dall'età sono legati insieme ai margini da una sorta di colla." />
+    <xtagGrammar Proper="▶false" adjunctNoun="" />
+  </object>
+  <object Name="Scroll Bound by Kelp" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|rotolo legato da un filo di alga}}" />
+    <part Name="Description" Short="▶Diversi fogli di pergamena logora e macchiata dall'età sono legati insieme da un filo di alga di una barriera lontana." />
+    <xtagGrammar Proper="▶false" adjunctNoun="" />
+  </object>
+  <object Name="Lives1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Vite Frivole, Vol. I}}" />
+    <part Name="Description" Short="▶Un voluminoso tomo le cui pagine sono rilegati tra due lastre di legno cerato." />
+  </object>
+  <object Name="Across1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Attraverso Moghra'yi, Vol. I: Le Sunderlies}}" />
+    <part Name="Description" Short="▶Un voluminoso tomo le cui pagine sono rilegati tra due lastre di legno cerato." />
+  </object>
+  <object Name="Across2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Attraverso Moghra'yi, Vol. II: Athenreach}}" />
+    <part Name="Description" Short="▶Un voluminoso tomo le cui pagine sono rilegati tra due lastre di legno cerato." />
+  </object>
+  <object Name="Across3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Attraverso Moghra'yi, Vol. III: Oth, la Città Libera}}" />
+    <part Name="Description" Short="▶Un voluminoso tomo le cui pagine sono rilegati tra due lastre di legno cerato." />
+  </object>
+  <object Name="DarkCalculus" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Sulle Origini e la Natura del Calcolo Oscuro}}" />
+    <part Name="Description" Short="▶Pagine fine di pergamena rigata sono rilegati in un codice algebrico." />
+  </object>
+  <object Name="Canticles3" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|I Cantici Cromaici, Versetti XVII-XXIV}}" />
+    <part Name="Description" Short="▶Una macchina di treni di ingranaggi a spirale e canali di rame è meticolosamente incisa sulla copertina della torah meccanista." />
+  </object>
+  <object Name="MimicandMadpole" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Il Mimo e il Madpole}}" />
+  </object>
+  <object Name="OnHumanMimicry" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Sul Mimo Umanoide di Animali e Piante}}" />
+  </object>
+  <object Name="FromEntropytoHierarchy" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Dall'Entropia alla Gerarchia}}" />
+  </object>
+  <object Name="FromEntropytoHierarchy2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Dall'Entropia alla Gerarchia, 2ª Edizione}}" />
+  </object>
+  <object Name="DisquisitionOnTheMaladyOfTheMimic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Disquisizione sul Morbo del Mimo}}" />
+  </object>
+  <object Name="Crime and Punishment" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Delitto e Castigo}}" />
+    <part Name="Description" Short="▶La copertina di questo antico e pesante tomo è sbiadita alla tonalità media di diecimila famiglie di polvere e oli della pelle." />
+  </object>
+  <object Name="AphorismsAboutBirds" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Aforismi sugli Uccelli}}" />
+  </object>
+  <object Name="BloodandFear" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Sangue e Paura: Sul Ciclo Vitale di Lah}}" />
+  </object>
+  <object Name="ArtlessBeauty" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|La Bellezza Senza Arte}}" />
+  </object>
+  <object Name="FaunsoftheMeadow" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Fauni del Prato}}" />
+    <part Name="Description" Short="▶Questo volume a caratteri grandi è fatto di carta di brinestalk polpata e pressata a mano. La copertina è preservata con resina." />
+  </object>
+  <object Name="MurmursPrayer" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|La Preghiera dei Mormori}}" />
+    <part Name="Description" Short="▶Questo volume a caratteri grandi è fatto di carta di brinestalk polpata e pressata a mano. La copertina è preservata con resina." />
+  </object>
+  <object Name="InMaqqomYd" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|In Maqqom Yd}}" />
+    <part Name="Description" Short="▶Questo volume a caratteri grandi è fatto di carta di brinestalk polpata e pressata a mano. La copertina è preservata con resina." />
+  </object>
+  <object Name="EtaandtheEarthling1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Eta e il Terrestre, Canto I}}" />
+  </object>
+  <object Name="CouncilAtGammaRock" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Consiglio alla Roccia Gamma}}" />
+    <part Name="Description" Short="▶Un registro volante di vellum è stato arrotolato, legato a umbilici, e sigillato col marchio di cera dei Meccanisti." />
+  </object>
+  <object Name="ModuloMoonStair" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Modulo Scala della Luna e l'Albero della Vita}}" />
+  </object>
+  <object Name="GolemOperatingManual" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|MANUALE OPERATIVO PER CREATURA DI GRANDI DIMENSIONI}}" />
+    <part Name="Description" Short="▶Pagine fine di pergamena rigata sono rilegati in un codice algebrico." />
+  </object>
+  <object Name="MerchantAdvertisement" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|*pubblicità*}}" />
+    <part Name="Description" Short="▶Un registro volante di vellum è stato arrotolato, legato a umbilici, e sigillato col marchio di cera del maestro artigiano." />
+    <xtagGrammar Proper="▶false" />
+  </object>
+  <object Name="HistoryofJoppaVol1" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Storia di Joppa, Vol. 1}}" />
+    <part Name="Description" Short="▶Un registro volante di polpa di brinestalk è stato legato a bastoncini di legno cerato e arrotolato." />
+  </object>
+  <object Name="HistoryofJoppaVol2" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Storia di Joppa, Vol. 2}}" />
+    <part Name="Description" Short="▶Un registro volante di polpa di brinestalk è stato legato a bastoncini di legno cerato e arrotolato." />
+  </object>
+  <object Name="DataDisk" Load="Merge">
+    <part Name="Render" DisplayName="▶disco dati" />
+    <part Name="Description" Short="▶Sotto l'otturatore metallico, un disco cristallino è scanalato con pozzi microscopici che codificano dati." />
+  </object>
+  <object Name="Chem Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|cella chimica}}" />
+    <part Name="Description" Short="▶All'interno del piccolo cask, il sale liquido trasferisce ioni al catodo e produce scintilla." />
+  </object>
+  <object Name="Fidget Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|fidget}} {{c|cella}}" />
+    <part Name="Description" Short="▶Far ruotare il cuboide stannico attorno a qualsiasi asse di rotazione genera un pizzico di resistenza. Un cinturino da polso e un telaio giroscopico consentono alla cella di assorbire e immagazzinare l'energia cinetica di chi la indossa." />
+    <part Name="EquipCharge" NameForStatus="▶ConvertitoreCinetico" />
+  </object>
+  <object Name="Solar Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|solare}} {{c|cella}}" />
+    <part Name="Description" Short="▶Il cubo fotovoltaico cuoce con il calore dell'Alto Sole di Sale e lo immagazzina come succo accelerato." />
+  </object>
+  <object Name="Nuclear Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{m|nucleare}} {{c|cella}}" />
+    <part Name="Description" Short="▶Roccia terrestre vecchia di un milione di anni decade all'interno della scatola della batteria, dove le particelle gamma emesse vengono convogliate attraverso un diodo giunzione e immagazzinate per uso esplosivo." />
+  </object>
+  <object Name="Antimatter Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|antimateria}} {{c|cella}}" />
+    <part Name="Description" Short="▶Una cassetta di ursteel rinchiude il campo magnetico che mantiene i positroni in sospensione. Quando si forma una corrente, le particelle accoppiate si annichilano e inviano tutta la forza della rottura universale attraverso un canale verso un dispositivo." />
+  </object>
+  <object Name="Lead-Acid Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|piombo-acido}} {{c|cella}}" />
+    <part Name="Description" Short="▶All'interno del cask isolato della batteria, l'apparato elettromotore estrae l'energia dall'acido e la converte in carica elettrica." />
+  </object>
+  <object Name="Combustion Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|combustione}} {{c|cella}}" />
+    <part Name="Description" Short="▶All'interno del cask isolato della batteria, l'apparato elettromotore estrae l'energia dall'olio e la converte in carica elettrica." />
+  </object>
+  <object Name="Thermoelectric Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|termoelettrica}} {{c|cella}}" />
+    <part Name="Description" Short="▶All'interno del cask isolato della batteria, l'apparato elettromotore estrae l'energia dalla lava e la converte in carica elettrica." />
+  </object>
+  <object Name="Biodynamic Cell" Load="Merge">
+    <part Name="Render" DisplayName="▶{{r|biodinamica}} {{c|cella}}" />
+    <part Name="Description" Short="▶All'interno del cask isolato della batteria, l'apparato elettromotore estrae l'energia dal sangue e la converte in carica elettrica." />
+  </object>
+  <object Name="Torch" Load="Merge">
+    <part Name="Render" DisplayName="▶torcia" />
+    <part Name="Description" Short="▶Una lunghezza di brinestalk è avvolta in panno imbevuto d'olio." />
+  </object>
+  <object Name="Glowsphere" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|sfera luminosa}}" />
+    <part Name="Description" Short="▶Un'opale fosforescente sta nel palmo di una mano e brilla con la luce delle aurore assorbite chiliadi fa." />
+  </object>
+  <object Name="Bandage" Load="Merge">
+    <part Name="Render" DisplayName="▶benda" />
+    <part Name="Description" Short="▶È garza di seta di verme arrotolata attorno a un bastoncino di legno, adatta a tamponare le emorragie." />
+  </object>
+  <object Name="Empty Booster" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|vuoto}} iniettore" />
+    <part Name="Description" Short="▶Un tubo di vetro e un ago ipodermico consegnano un tonico direttamente nel flusso sanguigno. Questo è vuoto." />
+  </object>
+  <object Name="Witchwood Bark" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|corteccia di witchwood}}" />
+    <part Name="Food" Message="▶Un caldo formicolio ti travolge." />
+    <part Name="Description" Short="▶Licheni si attaccano nelle scanalature attorcigliate del legno depositato, scintillando e odorant di spezia." />
+    <part Name="RulesDescription" Text="▶Guarisce e confonde quando mangiata." />
+    <xtagGrammar adjunctNoun="▶porzione" massNoun="▶true" />
+  </object>
+  <object Name="Scrap" Load="Merge">
+    <part Name="Description" Short="▶Un pezzo di rottame è stato staccato o sbucciato da un fossile di macchina." />
+  </object>
+  <object Name="Scrap Metal" Load="Merge">
+    <part Name="Render" DisplayName="▶lamiera di metallo piegata" />
+  </object>
+  <object Name="Scrap Crystal" Load="Merge">
+    <part Name="Render" DisplayName="▶lente incrinata" />
+  </object>
+  <object Name="Scrap Electronics" Load="Merge">
+    <part Name="Render" DisplayName="▶microchip fratturato" />
+  </object>
+  <object Name="Scrap Energy" Load="Merge">
+    <part Name="Render" DisplayName="▶condensatore bruciato" />
+  </object>
+  <object Name="Scrap 00" Load="Merge">
+    <part Name="Render" DisplayName="▶circuito stampato corroso" />
+  </object>
+  <object Name="Scrap 1" Load="Merge">
+    <part Name="Render" DisplayName="▶relè energetico guasto" />
+  </object>
+  <object Name="Scrap 2" Load="Merge">
+    <part Name="Render" DisplayName="▶nucleo di elaborazione bruciato" />
+  </object>
+  <object Name="Scrap 3" Load="Merge">
+    <part Name="Render" DisplayName="▶alloggiamento robotico incrinato" />
+  </object>
+  <object Name="Scrap 4" Load="Merge">
+    <part Name="Render" DisplayName="▶array microcontrollore rotto" />
+  </object>
+  <object Name="Scrap 5" Load="Merge">
+    <part Name="Render" DisplayName="▶assemblaggio monomateria parziale" />
+  </object>
+  <object Name="Scrap 6" Load="Merge">
+    <part Name="Render" DisplayName="▶microreattore di antimateria dissintonizzato" />
+  </object>
+  <object Name="Scrap 7" Load="Merge">
+    <part Name="Render" DisplayName="▶unità master IA disfunzionale" />
+  </object>
+  <object Name="Scrap 8" Load="Merge">
+    <part Name="Render" DisplayName="▶nucleo metamorfico" />
+  </object>
+  <object Name="Med Scrap Metal" Load="Merge">
+    <part Name="Render" DisplayName="▶bisturi spuntato" />
+  </object>
+  <object Name="Med Scrap Crystal" Load="Merge">
+    <part Name="Render" DisplayName="▶lente di ingrandimento frantumata" />
+  </object>
+  <object Name="Med Scrap Electronics" Load="Merge">
+    <part Name="Render" DisplayName="▶stent chirurgico piegato" />
+  </object>
+  <object Name="Med Scrap Energy" Load="Merge">
+    <part Name="Render" DisplayName="▶nucleo impianto bruciato" />
+  </object>
+  <object Name="Med Scrap 00" Load="Merge">
+    <part Name="Render" DisplayName="▶metamuscolo contorvto" />
+  </object>
+  <object Name="Med Scrap 1" Load="Merge">
+    <part Name="Render" DisplayName="▶valvola sostitutiva usurata" />
+  </object>
+  <object Name="Med Scrap 2" Load="Merge">
+    <part Name="Render" DisplayName="▶controller cibernetico distrutto" />
+  </object>
+  <object Name="Med Scrap 3" Load="Merge">
+    <part Name="Render" DisplayName="▶crisos fratturato" />
+  </object>
+  <object Name="Med Scrap 4" Load="Merge">
+    <part Name="Render" DisplayName="▶nanoscafi in polvere" />
+  </object>
+  <object Name="Med Scrap 5" Load="Merge">
+    <part Name="Render" DisplayName="▶generatore di cellule staminali esaurito" />
+  </object>
+  <object Name="Med Scrap 6" Load="Merge">
+    <part Name="Render" DisplayName="▶rigeneratore corticale dissintonizzato" />
+  </object>
+  <object Name="Med Scrap 7" Load="Merge">
+    <part Name="Render" DisplayName="▶detelomentatore cellulare difettoso" />
+  </object>
+  <object Name="Med Scrap 8" Load="Merge">
+    <part Name="Render" DisplayName="▶testa sostitutiva di bassa qualità" />
+  </object>
+  <object Name="Tonic" Load="Merge">
+    <part Name="Description" Short="▶Un tubo di vetro e un ago ipodermico consegnano un tonico direttamente nel flusso sanguigno." />
+  </object>
+  <object Name="LoveTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{love|amore}} iniettore" />
+    <part Name="RulesDescription" Text="▶Ti senti insolitamente innamorato per circa mezza giornata, durante la quale ti innamorerai della prima cosa che guardi.&#xA;Se inietti qualcun altro, si innamorerà di te e ti seguirà per 3000-3600 turni. C'è un tasso di fallimento dell'1% per ogni livello in più rispetto a te." />
+  </object>
+  <object Name="BlazeTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{blaze|fiamma}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 41-50 turni&#xA;+100 resistenza al calore&#xA;Non puoi essere congelato.&#xA;Il danno da calore che infliggi è aumentato del 25%.&#xA;-50 resistenza al freddo&#xA;+10 Velocità&#xA;La tua temperatura non può essere aumentata da fonti di calore esterne.&#xA;Devi muoverti per evitare di prendere fuoco e perdere gli effetti di questo tonico." GenotypeAlt="▶Durata: 41-50 turni&#xA;+100 resistenza al calore&#xA;Non puoi essere congelato.&#xA;Il danno da calore che infliggi è aumentato del 25%.&#xA;-50 resistenza al freddo&#xA;+20 Velocità&#xA;La tua temperatura non può essere aumentata da fonti di calore esterne.&#xA;Devi muoverti per evitare di prendere fuoco e perdere gli effetti di questo tonico." />
+  </object>
+  <object Name="HulkHoneyTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{G|miele}} di {{w|colosso}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 41-50 turni&#xA;+6 Forza&#xA;+2 punti vita temporanei per livello&#xA;-25 velocità di movimento&#xA;Non puoi sentire dolore.&#xA;Sei immune alla paura.&#xA;Subisci l'1% dei tuoi punti vita massimi come danno ogni turno (questo danno non può ridurrti a meno di un punto vita)" GenotypeAlt="▶Durata: 41-50 turni&#xA;+9 Forza&#xA;+3 punti vita temporanei per livello&#xA;-25 velocità di movimento&#xA;Non puoi sentire dolore.&#xA;Sei immune alla paura.&#xA;Subisci l'1% dei tuoi punti vita massimi come danno ogni turno (questo danno non può ridurrti a meno di un punto vita)" />
+  </object>
+  <object Name="SalveTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|balsamo}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 5 turni&#xA;Recuperi 0,6 punti vita per livello (minimo 3) ogni turno." GenotypeAlt="▶Durata: 5 turni&#xA;Recuperi 0,9 punti vita per livello (minimo 5) ogni turno." />
+  </object>
+  <object Name="SkulkTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{skulk|skulk}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 1001-1200 turni&#xA;La tua velocità di movimento è aumentata del 25% di notte e sottoterra ma ridotta del 20% alla luce del giorno.&#xA;+3 Agilità di notte e sottoterra -3 Agilità alla luce del giorno&#xA;Puoi vedere al buio (raggio 8).&#xA;Fai crescere artigli scavatori.&#xA;Subisci il doppio del danno dagli attacchi basati sulla luce." GenotypeAlt="▶Durata: 1001-1200 turni&#xA;La tua velocità di movimento è aumentata del 40% di notte e sottoterra ma ridotta del 20% alla luce del giorno.&#xA;+4 Agilità di notte e sottoterra -3 Agilità alla luce del giorno&#xA;Puoi vedere al buio (raggio 8).&#xA;Subisci il doppio del danno dagli attacchi basati sulla luce." />
+  </object>
+  <object Name="SphynxSaltTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{sphynx|sphynx}} {{Y|sale}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 18-22 turni&#xA;Sei immune agli attacchi confusionari.&#xA;Le tue mutazioni mentali attivabili si ricaricano il doppio più velocemente." GenotypeAlt="▶Durata: 18-22 turni&#xA;Sei immune agli attacchi confusionari.&#xA;Sbirci nel tuo futuro prossimo (puoi tornare al punto nel tempo in cui hai usato questo farmaco per la prima volta alla fine della sua durata)." />
+  </object>
+  <object Name="ShadeOilTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{shade|olio d'ombra}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 41-50 turni&#xA;+8 DV&#xA;C'è una probabilità del 25% per turno che tu sfasi fuori dalla dimensione spaziale per 1-3 turni." GenotypeAlt="▶Durata: 41-50 turni&#xA;+8 DV&#xA;Ottieni la capacità di sfasarti fuori dalla dimensione spaziale per 7-9 turni." />
+  </object>
+  <object Name="UbernostrumTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{ubernostrum|ubernostrum}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 10 turni&#xA;Recuperi 0,6 punti vita per livello (minimo 3) ogni turno.&#xA;Al termine del decimo turno, sei purgato di tutti i debuff biologici a breve termine e ricresci fino a un arto amputato." GenotypeAlt="▶Durata: 10 turni&#xA;Recuperi 0,9 punti vita per livello (minimo 5) ogni turno.&#xA;Al termine del decimo turno, sei purgato di tutti i debuff biologici a breve termine e ricresci fino a un arto amputato." />
+  </object>
+  <object Name="RubbergumTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{rubbergum|gomma elastica}} iniettore" />
+    <part Name="RulesDescription" Text="▶Durata: 41-50 turni&#xA;+100 resistenza elettrica&#xA;+25 resistenza al freddo&#xA;-1 AV&#xA;+5 ai tiri salvezza contro l'essere trattenuto.&#xA;-5 ai tiri salvezza contro il sanguinamento.&#xA;Subisci solo la metà del danno dagli attacchi di schiacciamento.&#xA;Subisci solo la metà del danno dalla caduta.&#xA;Non puoi essere afferrato." GenotypeAlt="▶Durata: 41-50 turni&#xA;+100 resistenza elettrica&#xA;+50 resistenza al freddo&#xA;-1 AV&#xA;+5 ai tiri salvezza contro l'essere trattenuto.&#xA;-5 ai tiri salvezza contro il sanguinamento.&#xA;Subisci solo il 25% del danno dagli attacchi di schiacciamento.&#xA;Subisci solo il 25% del danno dalla caduta.&#xA;Non puoi essere afferrato.&#xA;Questi effetti si sommano se vengono ingerite più gomme elastiche." />
+  </object>
+  <object Name="NectarTonic" Load="Merge">
+    <part Name="Render" DisplayName="▶{{eater|dei Mangiatori'}} {{nectar|nettare}} iniettore" />
+    <part Name="RulesDescription" Text="▶Guadagni un bonus permanente di +1 a un attributo casuale oppure un punto mutazione." GenotypeAlt="▶Guadagni un punto attributo." />
+  </object>
+  <object Name="Tool" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|[Strumento]}}" />
+  </object>
+  <object Name="Basic Toolkit" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|kit base di attrezzi}}" />
+    <part Name="Description" Short="▶Un assortimento di utensili da armeggio tintinnano contro lo stagno: pinzette, un piccolo martello, pinze, pinze invertite, biglie di vetro e tre chiavi inglesi." />
+    <part Name="Toolbox" BehaviorDescription="▶Questo oggetto aumenta la probabilità di recuperare frammenti aggiuntivi quando smontate un artefatto." />
+  </object>
+  <object Name="Advanced Toolkit" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|kit avanzato di attrezzi}}" />
+    <part Name="Description" Short="▶Un assortimento di utensili da armeggio tintinnano contro il carburo: voltmetro, polyjack, coltello a saldatura, scudo ionico, circuito stampato e tre valvole termoioniche di ricambio." />
+    <part Name="Toolbox" BehaviorDescription="▶Quando alimentato, questo oggetto aumenta notevolmente la probabilità di identificare artefatti e recuperare frammenti aggiuntivi quando si smontano artefatti. Quando non alimentato, funziona come un kit base di attrezzi, aumentando leggermente la probabilità di recuperare frammenti aggiuntivi." />
+  </object>
+  <object Name="Pickaxe" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|piccone}}" />
+    <part Name="Description" Short="▶La sua testa è una scheggia di metallo levigata, appuntita a un'estremità e piatta all'altra. La polvere è incastrata nelle sue incisioni sottili e brilla su tutto lo spettro opalescente delle possibilità rocciose." />
+  </object>
+  <object Name="Nanopneumatic Jackhammer" Load="Merge">
+    <part Name="Render" DisplayName="▶martello pneumatico nanoneumatico" />
+    <part Name="Description" Short="▶Un tubo pneumatico è spinto sotto una cricca e attraverso una gigantesca punta di trapano. Tasche d'aria crenulate consentono l'assorbimento vibrativo per creare una cascata di pressione, mentre cinghie dorsali stabilizzanti proteggono i punti di contatto del portatore da pericolosi sobbalzi." />
+  </object>
+  <object Name="Hoversled" Load="Merge">
+    <part Name="Render" DisplayName="▶slitta aerea" />
+    <part Name="Description" Short="▶Una slitta si repelle sopra il terreno e ondeggia dolcemente su un'onda eterea. È circondata da una corona di polvere fluttuante." />
+  </object>
+  <object Name="Portable Wall" Load="Merge">
+    <part Name="Render" DisplayName="▶muro portatile" />
+    <part Name="Description" Short="▶Piccoli glifi sono incisi su ogni faccia esterna della scatola portatile. Sebbene i contrarians si interroghino ancora sul loro significato, la maggior parte dei culti linguistici prominenti di Qud ha convergito su un'unica interpretazione: 'Per Quando Sia la Natura Che gli Architetti Ti Hanno Abbandonato'. Un unico anello di ottone ti separa dalla promessa di quelle parole." />
+  </object>
+  <object Name="Spiral Borer" Load="Merge">
+    <part Name="Render" DisplayName="▶perforatore a spirale" />
+    <part Name="Description" Short="▶Uno zaino posteriore scanalato pesante di metallo di nucleo appesantisce le spalle. Sul lato è stampata una pittografia di un trapano che punta verso il basso nella terra." />
+  </object>
+  <object Name="Tattoo Gun" Load="Merge">
+    <part Name="Render" DisplayName="▶{{b-B-C-c-y-Y sequence|tatuaggio}} pistola" />
+    <part Name="Description" Short="▶L'inchiostro è iniettato nella e sotto la pelle-tela da un ago e un motore rotante." />
+  </object>
+  <object Name="TemplarPhylactery" Load="Merge">
+    <part Name="Render" DisplayName="▶filatterio Templare" />
+    <part Name="Description" Short="▶Una scatola di gioielli intagliata nel legno si apre su una lastra fotografica e un proiettore di luce. Scolpito nel cristallo attorno al bordo vi è un verso scelto dalla torah rombica." />
+  </object>
+  <object Name="Neuro Animator" Load="Merge">
+    <part Name="Render" DisplayName="▶{{nanoneuro|nano-neuro}} {{Y|animatore}}" />
+    <part Name="Description" Short="▶Spinti dalla loro aspirazione per una piantagione di banane completamente autonoma e a clima controllato, la Ricerca e Sviluppo della Hegemonic Fruit ideò il neuro animatore, che tesse un sistema nervoso nella materia inorganica degli oggetti inanimati. Originariamente, la piena sentienza era il loro differenziatore di prodotto, ma nel giro di mesi alternative più economiche come Spray-a-Brain vennero a dominare il mercato." />
+  </object>
+  <object Name="Droid Scrambler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|disturbatore di droidi}}" />
+    <part Name="Description" Short="▶Un discoid trasmettitore emette rumore staccato per creare interferenze nelle bande di frequenza a corto raggio." />
+  </object>
+  <object Name="BaseRecoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|recoiler}}" />
+    <part Name="Description" Short="▶Una cassetta è tagliata con scanalature esagonali e impregnata della giusta quantità di carica magnetica per avvolgere un tether spaziotemporale (e generare il suo caratteristico odore di gomma calda). In cima, un pulsante incassato fa scattare il potenziale e avvia il recoil." />
+  </object>
+  <object Name="Joppa Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶recoiler di Joppa" />
+  </object>
+  <object Name="Grit Gate Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|Grit Gate}} recoiler" />
+  </object>
+  <object Name="Golgotha Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{g|Golgotha}} recoiler" />
+  </object>
+  <object Name="Kyakukya Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{R|Kyakukya}} recoiler" />
+  </object>
+  <object Name="Six Day Stilt Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{Y|Six Day Stilt}} recoiler" />
+  </object>
+  <object Name="Bethesda Susa Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{C|Bethesda Susa}} recoiler" />
+  </object>
+  <object Name="Ezra Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Ezra}} recoiler" />
+  </object>
+  <object Name="Yd Freehold Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|Yd Freehold}} recoiler" />
+  </object>
+  <object Name="Ruin Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶recoiler a punto casuale" />
+  </object>
+  <object Name="Programmable Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶recoiler programmabile" />
+  </object>
+  <object Name="Reprogrammable Recoiler" Load="Merge">
+    <part Name="Render" DisplayName="▶recoiler riprogrammabile" />
+  </object>
+  <object Name="Spraybottle" Load="Merge">
+    <part Name="Render" DisplayName="▶flacone spray" />
+    <part Name="Description" Short="▶Qualche armeggiatore ha inventato un tubo di aspirazione e un ugello pressurizzato per spruzzare il liquido che non volevano versare." />
+  </object>
+  <object Name="Fixit Spray" Load="Merge">
+    <part Name="Render" DisplayName="▶schiuma spray Fix-It" />
+    <part Name="Description" Short="▶Una bomboletta di spray piena di stucco schiumante." />
+  </object>
+  <object Name="Desalination Pellet" Load="Merge">
+    <part Name="Render" DisplayName="▶granulo di desalinizzazione" />
+    <part Name="Description" Short="▶Un cappuccio gessoso bianco di reticolo di riso assorbe il sale dai volumi liquidi. La lettera 'H' è incisa sulla sua faccia." />
+    <part Name="DesalinationPellet" Message="▶=subject.T= =verb:fizzle= per alcuni secondi." DestroyMessage="▶=subject.T= =verb:fizzle= per alcuni secondi, poi =verb:evaporate=." ConvertMessage="▶=object.T= =object.verb:react= stranamente con =subject.t= e =object.verb:convert= =pronouns.objective= in =volume.drams.of.liquid|strip=." />
+  </object>
+  <object Name="Metamorphic Polygel" Load="Merge">
+    <part Name="Render" DisplayName="▶{{metamorphic|poligel metamorfico}}" />
+    <part Name="Description" Short="▶Melma rosa impasta la parete interna di una bottiglia di vetro e comincia a prendere la forma di ciò che c'è dall'altra parte." />
+    <xtagGrammar adjunctNoun="▶tubetto" massNoun="▶true" />
+  </object>
+  <object Name="Spray-a-Brain" Load="Merge">
+    <part Name="Render" DisplayName="▶Spray{{r|-}}a{{r|-}}Brain" />
+    <part Name="Description" Short="▶&quot;SPRAY-A-BRAIN: Se questi muri potessero parlare...&quot;" />
+  </object>
+  <object Name="High-Powered Magnet" Load="Merge">
+    <part Name="Render" DisplayName="▶magnete ad alta potenza" />
+    <part Name="Description" Short="▶Frammenti di ferro punteggiano le sue superfici cancerose." />
+  </object>
+  <object Name="Jewel-Encrusted Item" Load="Merge">
+    <part Name="Render" DisplayName="▶oggetto" />
+  </object>
+  <object Name="Bronze Ingot" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|lingotto di bronzo}}" />
+    <part Name="Description" Short="▶Un blocco pesante e affusolato fu modellato dalla zuppa bitonale di rame e stagno liquidi." />
+  </object>
+  <object Name="Grave Goods" Load="Merge">
+    <part Name="Render" DisplayName="▶oggetti funerari" />
+    <part Name="Description" Short="▶Per ritualizzare il passaggio a Brightsheol o a un altro luogo sottile, furono interrati vari ornamenti: moneta, manichino, medaglione e pipa." />
+    <xtagGrammar massNoun="▶true" />
+  </object>
+  <object Name="Copper Nugget" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|pepita di rame}}" />
+    <part Name="Description" Short="▶Un grumo di metallo ottone fu liberato dalla sua roccia ospite." />
+  </object>
+  <object Name="Silver Nugget" Load="Merge">
+    <part Name="Render" DisplayName="▶{{silvery|pepita d'argento}}" />
+    <part Name="Description" Short="▶Un grumo di metallo brilla nella tonalità stellata." />
+  </object>
+  <object Name="Gold Nugget" Load="Merge">
+    <part Name="Render" DisplayName="▶{{W|pepita d'oro}}" />
+    <part Name="Description" Short="▶Un grumo di metallo brilla nella tonalità del gioielliere di scorie solari brillanti." />
+  </object>
+  <object Name="Gemstone" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa grezza" />
+  </object>
+  <object Name="Rough Agate" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{K|agata}} grezza" />
+    <part Name="Description" Short="▶Le ombre di minuscole nebulose sono schiacciate nei contorni di una piccola pietra." />
+  </object>
+  <object Name="Rough Topaz" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{W|topazio}} grezzo" />
+    <part Name="Description" Short="▶Mille raggi di sole sono rifratti attraverso il prisma di una piccola pietra." />
+  </object>
+  <object Name="Rough Jasper" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{R|diaspro}} grezzo" />
+    <part Name="Description" Short="▶I mantici neri della terra sono incisi nella lucidatura rossa." />
+  </object>
+  <object Name="Rough Amethyst" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{M|ametista}} grezza" />
+    <part Name="Description" Short="▶Trascorse milioni di anni nelle pieghe dei sedimenti terrestri. Poi fu spezzata dal suo bozzolo, farfalla brillante." />
+  </object>
+  <object Name="Rough Sapphire" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{B|zaffiro}} grezzo" />
+    <part Name="Description" Short="▶Oceani che riflettono i cieli di mille mondi frattali sono racchiusi in un volume geometrico." />
+  </object>
+  <object Name="Rough Emerald" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{G|smeraldo}} grezzo" />
+    <part Name="Description" Short="▶Le impurità nella pietra madre generano cose verdeggianti, il modello della vita ripetuto su scala minore." />
+  </object>
+  <object Name="Rough Peridot" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{peridot|peridoto}} grezzo" />
+    <part Name="Description" Short="▶Sfrecciò nel vuoto impattata in una roccia nera e si schiantò, lucente e libera, sul nostro mondo." />
+  </object>
+  <object Name="Polished Gemstone" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa liscia" />
+  </object>
+  <object Name="Polished Agate" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{K|agata}} liscia" />
+    <part Name="Description" Short="▶Le ombre di minuscole nebulose sono schiacciate nei contorni di una piccola pietra. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Topaz" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{W|topazio}} liscio" />
+    <part Name="Description" Short="▶Mille raggi di sole sono rifratti attraverso il prisma di una piccola pietra. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Jasper" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{R|diaspro}} liscio" />
+    <part Name="Description" Short="▶I mantici neri della terra sono incisi in un uovo rosso. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Amethyst" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{M|ametista}} liscia" />
+    <part Name="Description" Short="▶Trascorse milioni di anni nelle pieghe dei sedimenti terrestri. Poi fu spezzata dal suo bozzolo, farfalla brillante. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Sapphire" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{B|zaffiro}} liscio" />
+    <part Name="Description" Short="▶Oceani che riflettono i cieli di mille mondi frattali sono racchiusi in un volume geometrico. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Emerald" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{G|smeraldo}} liscio" />
+    <part Name="Description" Short="▶Le impurità nella pietra madre generano cose verdeggianti, il modello della vita ripetuto su scala minore. I suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Polished Peridot" Load="Merge">
+    <part Name="Render" DisplayName="▶pietra preziosa di {{peridot|peridoto}} liscio" />
+    <part Name="Description" Short="▶Sfrecciò nel vuoto impattata in una roccia nera e si schiantò, lucente e libera, sul nostro mondo. Tutti i suoi bordi grezzi sono stati lucidati a lucido." />
+  </object>
+  <object Name="Random Figurine" Load="Merge">
+    <part Name="Description" Short="▶Questa statuetta lavorata in =material= raffigura intricatamente =creature.a.name:withTitles|strip=:&#xA;&#xA;=creature.description.short=" />
+  </object>
+  <object Name="Random Copper Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{w|rame}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Rhinox figure" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{w|rame}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Silver Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{silvery|argento}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Gold Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{W|oro}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Agate Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{K|agata}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Topaz Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{W|topazio}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Jasper Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{R|diaspro}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Amethyst Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{M|ametista}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Sapphire Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{B|zaffiro}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Emerald Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{G|smeraldo}} di {{|=creature.name|strip=}}" />
+  </object>
+  <object Name="Random Peridot Figurine" Load="Merge">
+    <part Name="Render" DisplayName="▶statuetta di {{peridot|peridoto}} =creature.name|strip= " />
+  </object>
+  <object Name="Trinket" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|cianfrusaglia}}" />
+  </object>
+  <object Name="BoxOfCrayons" Load="Merge">
+    <part Name="Render" DisplayName="▶{{w|scatola di {{R-W-G-B-M-C-Y sequence|pastelli}}}}" />
+    <part Name="Description" Short="▶Cera dagli alveari di Odrum è miscelata in tintura e modellata a forma di stilo. Insieme nella scatola campionano l'iridescenza del mondo e offrono gli strumenti per espanderla." />
+  </object>
+  <object Name="Salt Mill" Load="Merge">
+    <part Name="Render" DisplayName="▶macinino del sale" />
+    <part Name="Description" Short="▶Legno d'ulivo intagliato e tinto contiene i denti d'acciaio che macinano le irregolarità dal sale da cucina." />
+  </object>
+  <object Name="Spiral Iron" Load="Merge">
+    <part Name="Render" DisplayName="▶ferro a vortice" />
+    <part Name="Description" Short="▶Un morsetto di metallo caldo costringe i capelli brucianti alle curve girevoli del vortice." />
+  </object>
+  <object Name="Bubble Level" Load="Merge">
+    <part Name="Render" DisplayName="▶livella a bolla" />
+    <part Name="Description" Short="▶Un pannello torale di cristallo biseca il bordo dritto e mette una bolla unta in vista al centro." />
+  </object>
+  <object Name="FoldingChair" Load="Merge">
+    <part Name="Render" DisplayName="▶{{c|sedia pieghevole di metallo}}" />
+    <part Name="Description" Short="▶Tubi di scopo noto si espandono a giunti saldati e supportano una tavola su cui sedersi." />
+  </object>
+  <object Name="PlasticTree" Load="Merge">
+    <part Name="Description" Short="▶Le fronde sono dispiegate in un'imitazione cerosa della vita. Da vicino appare dura e unta, ma mentre ti allontani i suoi bordi si ammorbidiscono e svolge la funzione dell'albero." />
+    <part Name="Render" DisplayName="▶albero di plastica" />
+  </object>
+  <object Name="Small Sphere of Negative Weight" Load="Merge">
+    <part Name="Render" DisplayName="▶piccola sfera di peso negativo" />
+    <part Name="Description" Short="▶Una sfera di qualche metallo piriteico nero cede alle pressioni negative della gravità e tenta di cadere verso l'alto." />
+  </object>
+  <object Name="Timecube" Load="Merge">
+    <part Name="Render" DisplayName="▶{{K|cubo del tempo}}" />
+    <part Name="Description" Short="▶Un cubo con soli quattro angoli. Pittografie su ogni faccia per alba, mezzogiorno, tramonto e mezzanotte insistono su una nuova divisione dei giorni. È intagliato con raffigurazioni fantastiche di orologi rotti." />
+  </object>
+  <object Name="Waterskin" Load="Merge">
+    <part Name="Render" DisplayName="▶otre per acqua" />
+    <part Name="Description" Short="▶La vescica di una capra è annodata in fondo e sospesa da una cinghia di intestino." />
+  </object>
+  <object Name="Oilskin" Load="Merge">
+    <part Name="Render" DisplayName="▶otre per olio" />
+    <part Name="Description" Short="▶La vescica di una capra è annodata in fondo e sospesa da una cinghia di intestino." />
+  </object>
+  <object Name="Camel Bladder" Load="Merge">
+    <part Name="Render" DisplayName="▶vescica di cammello" />
+    <part Name="Description" Short="▶Una grande vescica di cammello è annodata in fondo e sospesa con una cinghia di intestino." />
+    <part Name="RulesDescription" Text="▶Quando indossata, il liquido in questo oggetto non contribuisce al tuo ingombro." />
+  </object>
+  <object Name="Canteen" Load="Merge">
+    <part Name="Render" DisplayName="▶borraccia" />
+    <part Name="Description" Short="▶Una brocca di alluminio è rivestita in tessuto verde oliva per conservare l'acqua." />
+  </object>
+  <object Name="Phial" Load="Merge">
+    <part Name="Render" DisplayName="▶fiala" />
+    <part Name="Description" Short="▶Un breve canale di vetro per conservare liquidi preziosi scintilla quando ruotato." />
+  </object>
+  <object Name="SoupPhial" Load="Merge">
+    <part Name="Description" Short="▶Una fiala di vetro." />
+  </object>
