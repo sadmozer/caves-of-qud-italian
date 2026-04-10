@@ -19,7 +19,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <rank Name="Key" DisplayName="DisplayText">
 
 -->
-<factions Lang="example" Encoding="utf-8">
+<factions Lang="it" Encoding="utf-8">
   <faction Name="Prey" DisplayName="▶edonisti al pascolo" />
   <faction Name="Joppa" DisplayName="▶abitanti di Joppa" FormatWithArticle="true" />
   <faction Name="Kyakukya" DisplayName="▶abitanti di Kyakukya" FormatWithArticle="true" />

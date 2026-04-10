@@ -3,7 +3,7 @@
 Caves of Qud - Generated Localizable XML 2.0.212.17
 
 -->
-<inventoryActions Lang="example" Encoding="utf-8">
+<inventoryActions Lang="it" Encoding="utf-8">
   <inventoryAction Name="InterfaceWithGritGateMainframe">
     <display>▶interfaccia</display>
     <key>▶i</key>

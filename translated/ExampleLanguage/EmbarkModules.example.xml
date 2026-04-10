@@ -7,7 +7,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
   <module Class="Key">
 
 -->
-<embarkmodules Lang="example" Encoding="utf-8">
+<embarkmodules Lang="it" Encoding="utf-8">
   <module Class="XRL.CharacterBuilds.Qud.QudGamemodeModule">
     <window ID="Chargen/Modes">
       <title>▶:scegli modalità di gioco:</title>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<quests Lang="example" Encoding="utf-8">
+<quests Lang="it" Encoding="utf-8">
   <quest ID="What's Eating the Watervine?" Name="▶Cosa Sta Mangiando la Vigna d'Acqua?" Accomplishment="▶Hai risolto il mistero della vigna d'acqua rosicchiata e avvertito i villagers di Joppa dei Girsh." Hagiograph="▶Nel mese di =month= del =year=, =name= camminò sotto gli archi cromati, respinse la folla di girshling e guarì i raccolti appassiti." Gospel="▶Nella sanguinosa Battaglia di Roccia Rossa, =name= combatté le forze combinate di girshling e babbuini per liberare i villagers di Joppa. In =player.t's= onore, essi =spice:history.gospels.Celebration.LateSultanate.!random=.">
     <step ID="Travel to Red Rock" Name="▶Viaggia verso Roccia Rossa">
       <text>▶Percorri due parasanghe a nord di Joppa fino a Roccia Rossa.</text>

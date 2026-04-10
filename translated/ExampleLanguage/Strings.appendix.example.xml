@@ -5,7 +5,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
 Some data is defined in the XML files, but looked up in strings table.  Much like the
 Conversations-example.xml, this is a <strings> table.  The Context should state a general path to the node.
   -->
-<strings Lang="example" Encoding="utf-8">
+<strings Lang="it" Encoding="utf-8">
   <string Context="genotype.Mutated Human.extrainfo" ID="Mutations">▶Mutazioni</string>
   <string Context="genotype.Mutated Human.extrainfo" ID="Moderate starting attributes">▶Attributi iniziali moderati</string>
   <string Context="genotype.Mutated Human.extrainfo" ID="-600 reputation with {{C|the Putus Templar}}">▶-600 reputazione con {{C|i Putus Templar}}</string>

@@ -11,7 +11,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <extrainfo>
 
 -->
-<genotypes Lang="example" Encoding="utf-8">
+<genotypes Lang="it" Encoding="utf-8">
   <genotype Name="Mutated Human" DisplayName="▶Umano Mutato">
     <stat Name="Strength" ChargenDescription="▶Il tuo punteggio di {{W|Forza}} determina quanto efficacemente penetri l'armatura degli avversari con gli attacchi corpo a corpo, quanti danni infliggono i tuoi attacchi corpo a corpo, la tua capacità di resistere al movimento forzato e la tua capacità di trasporto." />
     <stat Name="Agility" ChargenDescription="▶Il tuo punteggio di {{W|Agilità}} determina la tua precisione con le armi corpo a corpo e a distanza, e la tua capacità di schivare gli attacchi." />

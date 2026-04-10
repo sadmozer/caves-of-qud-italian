@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<worlds Lang="example" Encoding="utf-8">
+<worlds Lang="it" Encoding="utf-8">
   <world Name="ThinWorld" Load="Merge" DisplayName="▶Mondo Sottile" />
   <world Name="Tzimtzlum" Load="Merge" DisplayName="▶Tzimtzlum" />
   <world Name="Interior" Load="Merge" DisplayName="▶Interno">
