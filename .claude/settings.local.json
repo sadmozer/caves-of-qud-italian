@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(chmod +x:*)",
-      "Bash(python3 -c \"import sys,json; lines=[json.loads\\(l\\) for l in sys.stdin if l.strip\\(\\)]; [print\\(m.get\\('role',''\\),':',str\\(m.get\\('content',''\\)\\)[:300]\\) for m in lines[-20:] if isinstance\\(m,dict\\) and 'role' in m]\")"
-    ]
-  }
-}
