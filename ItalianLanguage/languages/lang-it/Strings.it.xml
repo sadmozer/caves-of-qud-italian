@@ -2770,6 +2770,7 @@
   <string ID="Generating historical sites...">▶Generando siti storici...</string>
   <string ID="abandoned village">▶villaggio abbandonato</string>
   <string ID="salt marsh">▶palude salata</string>
+  <string Context="RingGateBuilder GateName PrefixRoot -1" ID="">▶</string>
   <string Context="RingGateBuilder GateName PrefixRoot 0" ID="Aleph-">▶Aleph-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 1" ID="Bet-">▶Bet-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 2" ID="Gimel-">▶Gimel-</string>

@@ -2772,7 +2772,6 @@ alone if no match found.
   <string ID="Generating historical sites...">▶Generating historical sites...</string>
   <string ID="abandoned village">▶abandoned village</string>
   <string ID="salt marsh">▶salt marsh</string>
-  <string Context="RingGateBuilder GateName PrefixRoot -1" ID="">▶</string>
   <string Context="RingGateBuilder GateName PrefixRoot 0" ID="Aleph-">▶Aleph-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 1" ID="Bet-">▶Bet-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 2" ID="Gimel-">▶Gimel-</string>

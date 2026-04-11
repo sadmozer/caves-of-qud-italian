@@ -5,7 +5,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
 -->
 <biomes Lang="it" Encoding="utf-8">
   <biome Name="Fungal">
-    <defaultVariant Name="None" />
+    <defaultVariant/>
     <variant Name="Weak">
       <noun>▶macchia fungina</noun>
     </variant>
@@ -17,7 +17,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     </variant>
   </biome>
   <biome Name="Slimy">
-    <defaultVariant Name="None" />
+    <defaultVariant/>
     <variant Name="Weak">
       <noun>▶macchia di melma</noun>
       <adjective>▶melmoso</adjective>
@@ -31,7 +31,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     </variant>
   </biome>
   <biome Name="Tarry">
-    <defaultVariant Name="None" />
+    <defaultVariant/>
     <variant Name="Weak">
       <noun>▶macchia di catrame</noun>
       <adjective>▶catramoso</adjective>
@@ -44,7 +44,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     </variant>
   </biome>
   <biome Name="Rusty">
-    <defaultVariant Name="None" />
+    <defaultVariant/>
     <variant Name="Weak">
       <noun>▶macchia di ruggine</noun>
       <adjective>▶arrugginito</adjective>
@@ -58,6 +58,6 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     </variant>
   </biome>
   <biome Name="Psychic">
-    <defaultVariant Name="None" />
+    <defaultVariant/>
   </biome>
 </biomes>
