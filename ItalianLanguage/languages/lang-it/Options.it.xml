@@ -118,7 +118,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <option ID="OptionAutoSipLevel" DisplayText="▶Thirst threshold for automatic drinking" Category="▶Automation" Values="Dehydrated|▶Dehydrated,Parched|▶Parched,Thirsty|▶Thirsty,Quenched|▶Quenched,Tumescent|▶Tumescent" />
   <option ID="OptionAutoTorch" DisplayText="▶Automatically douse and light torches" Category="▶Automation" />
   <option ID="OptionAutoDisassembleScrap" DisplayText="▶Automatically disassemble scrap" Category="▶Automation" />
-  <option ID="OptionAutoexploreIgnoreEasyEnemies" DisplayText="▶Difficulty threshold for ignoring hostile creatures" Category="▶Automation" Values="None|▶None,Easy|▶Easy,Average|▶Average,Tough|▶Tough,Very Tough|▶Very Tough,Impossible|▶Impossible" />
+  <option ID="OptionAutoexploreIgnoreEasyEnemies" DisplayText="▶Difficulty threshold for ignoring hostile creatures" Category="▶Automation" Values="None,Easy,Average,Tough,Very Tough,Impossible" />
   <option ID="OptionAutoexploreIgnoreDistantEnemies" DisplayText="▶Range threshold for ignoring hostile creatures" Category="▶Automation" Values="None|▶None,1|▶1,2|▶2,3|▶3,5|▶5,7|▶7,10|▶10,15|▶15,20|▶20,30|▶30,40|▶40" />
   <option ID="OptionAutoexploreAttackIgnoredAdjacentEnemies" DisplayText="▶Attack ignored hostiles that you move adjacent to during autoexplore" Category="▶Automation" />
   <option ID="OptionInterruptHeldMovement" DisplayText="▶Interrupt held movement when hostiles are nearby" Category="▶Automation" />

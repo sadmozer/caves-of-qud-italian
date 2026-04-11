@@ -1308,8 +1308,8 @@
   <string Context="BodyPart Cybernetics Install Message" ID="You installed =cybernetic.isPlural:some:a= cybernetic =useName= and came one step closer to the Grand Unification.">▶Hai installato =cybernetic.isPlural:dei:un= =useName= cibernetico e ti sei avvicinato alla Grande Unificazione.</string>
   <string Context="BodyPart Cybernetics Install Mural" ID="Gaze upon the sublime body of =name=! See the glistening =useName=!">▶Gaze upon the sublime body of =name=! See the glistening =useName=!</string>
   <string Context="BodyPart Cybernetics Install Gospel" ID="While wandering around =player.terrain.t=, =name= stumbled upon a clan of machine folk. Because of =player.possessive= =spice:elements.$element.quality.!random=, they accepted =player.objective= into their fold and helped =player.objective= Become by installing =cybernetic.a.name= implant.">▶While wandering around =player.terrain.t=, =name= stumbled upon a clan of machine folk. Because of =player.possessive= =spice:elements.$element.quality.!random=, they accepted =player.objective= into their fold and helped =player.objective= Become by installing =cybernetic.a.name= implant.</string>
-  <string Context="BodyPart Equip Too Small" ID="This item is too small for you to equip.">▶Questo oggetto è troppo piccolo per essere equipaggiato.</string>
-  <string Context="BodyPart Equip Too Large" ID="This item is too large for you to equip.">▶Questo oggetto è troppo grande per essere equipaggiato.</string>
+  <string Context="BodyPart Equip Fail Too Small" ID="This item is too small for you to equip.">▶Questo oggetto è troppo piccolo per essere equipaggiato.</string>
+  <string Context="BodyPart Equip Fail Too Large" ID="This item is too large for you to equip.">▶Questo oggetto è troppo grande per essere equipaggiato.</string>
   <string Context="BodyPart Equip Need Another Slot" ID="You need =hasAny.if:another:a= free =origSlot= to equip that!">▶Hai bisogno di =hasAny.if:un altro:un= slot =origSlot= libero per equipaggiare quello!</string>
   <string Context="BodyPart Equip Need Slots" ID="You need another =shortBy.cardinal= free =type= slots to equip that!">▶Hai bisogno di altri =shortBy.cardinal= slot =type= liberi per equipaggiare quello!</string>
   <string Context="BodyPart Equip Need Slot" ID="You need another free =bodyPartType.type= slot to equip that!">▶Hai bisogno di un altro slot =bodyPartType.type= libero per equipaggiare quello!</string>
@@ -1571,19 +1571,18 @@
   <string Context="RandomAltarBaetyl Reward List" ID="=list.andList=">▶=list.andList=</string>
   <string Context="RandomAltarBaetyl Journal Entry" ID="A &quot;SATED&quot; baetyl">▶Una betilica "SAZIA"</string>
   <string Context="RandomAltarBaetyl Journal Entry" ID="A baetyl demanding &quot;=demand=&quot; and promising &quot;=reward=&quot;.">▶Una betilica che chiede "=demand=" e promette "=reward=".</string>
-  <string Context="Body Use Of Loss" ID="You have lost the use of your =part.ordinalName=.">▶Hai perso l'uso del tuo =part.ordinalName=.</string>
-  <string Context="Body Use Of Recover" ID="You have recovered the use of your =part.ordinalName=.">▶Hai recuperato l'uso del tuo =part.ordinalName=.</string>
-  <string Context="Body Bleeding Description" ID="Dried =bleedLiquid= crusts on the severed =part.name= of =parent.a.name:withTitles|strip=.">▶Dried =bleedLiquid= crusts on the severed =part.name= of =parent.a.name:withTitles|strip=.</string>
-  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!">▶Il tuo =limb.ordinalName= =limb.ifPlural:sono:è= amputato!</string>
-  <string Context="Body Limb Dismember Mural" ID="While fighting a battle to protect the practice of =spice.elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered.">▶While fighting a battle to protect the practice of =spice.elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered.</string>
-  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered.">▶Il tuo =limb.ordinalName= =limb.ifPlural:sono:è= amputato.</string>
-  <string Context="Body Generate Part" ID="You regenerate your =part.ordinalName=!">▶Rigeneri il tuo =part.ordinalName=!</string>
-  <string Context="Body Regenerate Limb" ID="=subject.Does:regenerate= =subject.possessive= =part.ordinalName=!">▶=subject.Does:regenerate= =subject.possessive= =part.ordinalName=!</string>
-  <string Context="Body MissingPart One With Parent" ID="=parent.possessive= =part.name=">▶=parent.possessive= =part.name=</string>
-  <string Context="Body MissingPart One Without Parent" ID="=part.ifPlural:a set of :==part.a.name=">▶=part.ifPlural:a set of :==part.a.name=</string>
-  <string Context="Body MissingPart More Than One" ID="=num.cardinal==part.IfPlural: sets of:= =part.name.forcePlural=">▶=num.cardinal==part.IfPlural: sets of:= =part.name.forcePlural=</string>
-  <string Context="Body Missing Limb Description" ID="=parent.it.is= missing =mainSummary.andList=, and so =parent.does:do= not have the use of =abstractSummary.orList=.">▶=parent.it.is= missing =mainSummary.andList=, and so =parent.does:do= not have the use of =abstractSummary.orList=.</string>
-  <string Context="Body Missing Limb Description Short" ID="=parent.It.is= missing =mainSummary.andList=.">▶=parent.It.is= missing =mainSummary.andList=.</string>
+  <string Context="Body Lost Use Of Part" ID="You have lost the use of your =part.ordinalName=.">Hai perso l'uso del tuo =part.ordinalName=.</string>
+  <string Context="Body Recover Use Of Part" ID="You have recovered the use of your =part.ordinalName=.">Hai recuperato l'uso del tuo =part.ordinalName=.</string>
+  <string Context="Body Severed Limb Description" ID="Dried =subject.bleedLiquid= crusts on the severed =limb.name= of =subject.a.name:withTitles|strip=.">Croste secche di =subject.bleedLiquid= ricoprono il =limb.name= reciso di =subject.a.name:withTitles|strip=.</string>
+  <string Context="Body Limb Dismember Message" ID="Your =limb.ordinalName= =limb.ifPlural:are:is= dismembered!">Il tuo =limb.ordinalName= =limb.ifPlural:sono:è= amputato!</string>
+  <string Context="Body Limb Dismember Mural" ID="While fighting a battle to protect the practice of =spice:elements.$element.practices.!random=, =name= valorously had =player.possessive= =limb.ordinalName= dismembered.">Durante una battaglia per proteggere la pratica di =spice:elements.$element.practices.!random=, =name= perse valorosamente =player.possessive= =limb.ordinalName=.</string>
+  <string Context="Body Limb Dismember Accomplishment" ID="Your =limb.ordinalName= =limb.ifPlural:were:was= dismembered.">Il tuo =limb.ordinalName= =limb.ifPlural:sono stati:è stato= amputato.</string>
+  <string Context="Body Regenerate Limb" ID="=subject.Does:regenerate= =subject.their= =limb.ordinalName=!">=subject.Does:rigenera= =subject.their= =limb.ordinalName=!</string>
+  <string Context="Body MissingParts summary list item (single possessed)" ID="=subject.their= =part.name=">=subject.their= =part.name=</string>
+  <string Context="Body MissingParts summary list item (single)" ID="=part.ifPlural:a set of :==part.a.name=">=part.ifPlural:un insieme di :==part.a.name=</string>
+  <string Context="Body MissingParts summary list item (multiple)" ID="=num.cardinal==part.IfPlural: sets of:= =part.pluralize=">=num.cardinal==part.IfPlural: gruppi di:= =part.pluralize=</string>
+  <string Context="Body MissingParts Description" ID="=subject.It.is= missing =mainSummary.andList=, and so =subject.it.does:do= not have the use of =abstractSummary.orList=.">=subject.It.is= privo di =mainSummary.andList=, quindi non può usare =abstractSummary.orList=.</string>
+  <string Context="Body MissingParts Description (simple)" ID="=subject.It.is= missing =mainSummary.andList=.">=subject.It.is= privo di =mainSummary.andList=.</string>
   <string Context="EskhindSonnetBook Title" ID="{{W|a crumpled sheet of paper}}">▶{{W|un foglio di carta stropicciato}}</string>
   <string Context="EskhindSonnetBook Scheme A/B Choice 1 Line 1" ID="all four limbs of mine do long to run">▶all four limbs of mine do long to run</string>
   <string Context="EskhindSonnetBook Scheme A/B Choice 1 Line 2" ID="weary mind cannot conceive of fun">▶weary mind cannot conceive of fun</string>
@@ -1844,7 +1843,7 @@
   <string Context="Inventory Equip" ID="=subject.Does:equip= =object.indefiniteForOthers#subject=.">▶=subject.Does:equip= =object.indefiniteForOthers#subject=.</string>
   <string Context="Inventory Container Not Owned Confirm Popup" ID="That is not owned by you. Are you sure you want to take it?">▶Non è di tua proprietà. Sei sicuro di volerlo prendere?</string>
   <string Context="Inventory take from container" ID="=subject.Does:take= =object.the.name= from =container.the.name= =subject.to.its.direction#container=.">▶=subject.Does:take= =object.the.name= from =container.the.name= =subject.to.its.direction#container=.</string>
-  <string Context="Inventory take from direction" ID="=subject.Does:take= =object.the.name= =subject.from.its.direction#direction=.">▶=subject.Does:take= =object.the.name= =subject.from.its.direction#direction=.</string>
+  <string Context="Inventory take from direction" ID="=subject.Does:take= =object.the.name==subject.from.its.direction#direction|spaceBefore=.">▶=subject.Does:take= =object.the.name==subject.from.its.direction#direction|spaceBefore=.</string>
   <string Context="Inventory take" ID="=subject.Does:take= =object.the.name=.">▶=subject.Does:take= =object.the.name=.</string>
   <string Context="Inventory drop" ID="=subject.Does:drop= =object.the.name=.">▶=subject.Does:drop= =object.the.name=.</string>
   <string Context="Inventory Equip Fail Stuck" ID="You cannot equip items while stuck!">▶Non puoi equipaggiare oggetti mentre sei bloccato!</string>
@@ -2300,6 +2299,7 @@
   <string ID="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.">▶=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.</string>
   <string Context="DeathReason Self Kill" ID="You =accidental.if:accidentally :=killed =subject.itself=.">▶=accidental.if:Accidentalmente :=hai ucciso =subject.itself=.</string>
   <string Context="DeathReason Killed By" ID="You were =accidental.if:accidentally :=killed by =object.an=.">▶Sei stato =accidental.if:accidentalmente :=ucciso da =object.an=.</string>
+  <string Context="Physics (Inventory) Category" ID="*All">▶Tutto</string>
   <string Context="Physics (Inventory) Category" ID="Ammo">▶Munizioni</string>
   <string Context="Physics (Inventory) Category" ID="Applicators">▶Applicatori</string>
   <string Context="Physics (Inventory) Category" ID="Armor">▶Armatura</string>
@@ -2504,13 +2504,14 @@
   <string Context="Rebuke Robot neutralize" ID="=subject.Does:wander= away disinterestedly">▶=subject.Does:wander= away disinterestedly</string>
   <string Context="Camp Fail Hostiles" ID="You can't cook with hostiles nearby.">▶Non puoi cucinare con nemici nelle vicinanze.</string>
   <string Context="Camp Fail Already Here" ID="There =campfire.is= already =campfire.a.name= here.">▶There =campfire.is= already =campfire.a.name= here.</string>
-  <string Context="Campfire Cannot Already Question" ID="There =campfire.is= already =campfire.a.name= =subject.to.its.direction#campfire=. Do you want to go to =campfire.them=?">▶C'è già =campfire.a.name= =subject.to.its.direction#campfire=. Vuoi andare da =campfire.them=?</string>
-  <string Context="Campfire Cannot Other Zone" ID="You can only build a campfire in the same zone you are in.">▶Puoi costruire un fuoco da campo solo nella zona in cui ti trovi.</string>
-  <string Context="Campfire Cannot NoPlace" ID="There is nothing there you can build a campfire on.">▶Non c'è niente lì su cui costruire un fuoco da campo.</string>
-  <string Context="Campfire Cannot Blocked" ID="Something is in the way!">▶C'è qualcosa di mezzo!</string>
-  <string Context="Campfire Cannot In Pool" ID="You cannot start a campfire in =pool.the.name=.">▶Non puoi accendere un fuoco da campo in =pool.the.name=.</string>
+  <string Context="Camp Already Exists Prompt" ID="There =campfire.is= already =campfire.a.name= =subject.to.its.direction#campfire=. Do you want to go to =campfire.them=?">▶C'è già =campfire.a.name= =subject.to.its.direction#campfire=. Vuoi andare da =campfire.them=?</string>
+  <string Context="Camp TargetPicker Label" ID="Make Camp">▶Make Camp</string>
+  <string Context="Camp Fail Other Zone" ID="You can only build a campfire in the same zone you are in.">▶Puoi costruire un fuoco da campo solo nella zona in cui ti trovi.</string>
+  <string Context="Camp Fail NoPlace" ID="There is nothing there you can build a campfire on.">▶Non c'è niente lì su cui costruire un fuoco da campo.</string>
+  <string Context="Camp Fail Blocked" ID="Something is in the way!">▶C'è qualcosa di mezzo!</string>
+  <string Context="Camp Fail In Pool" ID="You cannot start a campfire in =pool.the.name=.">▶Non puoi accendere un fuoco da campo in =pool.the.name=.</string>
+  <string Context="Camp Success" ID="=subject.Does:make= camp.">=subject.Does:allestisce= un accampamento.</string>
   <string Context="Camp ActivatedAbility Name" ID="Make Camp">▶Accampati</string>
-  <string Context="Make Camp Ability Description" ID="Start a campfire for cooking meals and preserving foods. You can't make camp in combat.">▶Accendi un fuoco da campo per cucinare pasti e conservare cibi. Non puoi accamparti in combattimento.</string>
   <string Context="Charge ActivatedAbility Name" ID="Charge">▶Carica</string>
   <string Context="Sprint ActivatedAbility Name" ID="Sprint">▶Scatta</string>
   <string Context="Tinker Recharge" ID="You don't have any =bits.bitString= bits, which are required for recharging.">▶You don't have any =bits.bitString= bits, which are required for recharging.</string>
