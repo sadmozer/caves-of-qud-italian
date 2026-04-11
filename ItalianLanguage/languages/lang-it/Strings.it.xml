@@ -232,7 +232,7 @@
   <string Context="TradeWindow left column item" ID="=item.long=">▶=item.long=</string>
   <string Context="TradeWindow right column weight" ID="[{{K|=weight= lbs.}}]">▶[{{K|=weight= lbs.}}]</string>
   <string Context="TradeWindow right column currency" ID="[{{W|=value:0.00=}}]">▶[{{W|=value:0.00=}}]</string>
-  <string Context="TradeWindow right column value" ID="[=value:0.00=]">▶[=value:0.00=]</string>
+  <string Context="TradeWindow right column value" ID="[=value:0.00|tradeColor#item=]">▶[=value:0.00|tradeColor#item=]</string>
   <string Context="Chargen Worldgen Title" ID="{{W|Creating World}}">▶{{W|Creazione del Mondo}}</string>
   <string Context="Ability Bar effects line" ID="{{W|ACTIVE EFFECTS:}} =effects.commaList=">▶{{W|EFFETTI ATTIVI:}} =effects.commaList=</string>
   <string Context="Ability Bar target details" ID="{{C|{{{{B|TARGET:}} =target.name=}}">▶{{C|{{{{B|TARGET:}} =target.name=}}</string>
@@ -644,6 +644,7 @@
   <string Context="AutoAct Wait Loading Status Complete" ID="Done waiting.">▶Attesa completata.</string>
   <string Context="AutoAct Wait Loading Status Bar" ID="Waiting for =remaining.things:round=...">▶In attesa per =remaining.things:round=...</string>
   <string Context="AutoAct interrupt 'because' (clause)" ID="of =object.the.name= =subject.to.its.direction#object=">▶of =object.the.name= =subject.to.its.direction#object=</string>
+  <string Context="Core Popup World Seed Copy Message" ID="World seed copied to your clipboard.">▶World seed copiato negli appunti.</string>
   <string Context="Core Hotload Config" ID="Configuration hotloaded...">▶Configurazione ricaricata...</string>
   <string Context="Core Hotload Books" ID="Hot Loading Books...&#10;" Value="▶Hot Loading Books..." />
   <string Context="Core Invalid Object" ID="Invalid inventory object: =object.name=">▶Oggetto inventario non valido: =object.name=</string>
@@ -914,7 +915,7 @@
   <string Context="XRLUITradeUI Trade Sides Drams" ID=" {{C|=total1:0.???=}} drams &lt;-&gt; {{C|=total2:0.???=}} drams ── {{W|$=freeDrams=}} " Value="▶ {{C|=total1:0.???=}} drams &lt;-&gt; {{C|=total2:0.???=}} drams ── {{W|$=freeDrams=}}" />
   <string Context="XRLUITradeUI Trade" ID="trade">▶scambia</string>
   <string Context="XRLUITradeUI Transfer" ID="transfer">▶trasferisci</string>
-  <string Context="XRLUITradeUI No Inventory" ID="=trader.T= cannot carry things">▶=trader.T= non può trasportare oggetti</string>
+  <string Context="XRLUITradeUI No Inventory" ID="=trader.The.name|strip= cannot carry things.">▶=trader.The.name|strip= non può trasportare oggetti</string>
   <string Context="XRLUITradeUI Engaged" ID="=trader.T= =trader.is= engaged in melee combat and =trader.is= too busy to trade with you.">▶=trader.T= =trader.is= impegnato in combattimento e non può commerciare con te.</string>
   <string Context="XRLUITradeUI IsAflame" ID="=trader.T= =trader.is= on fire and =trader.is= too busy to trade with you.">▶=trader.T= =trader.is= in fiamme e non può commerciare con te.</string>
   <string Context="XRLUITradeUI WillNot Until Pay None" ID="=trader.T= will not trade with you until you pay =trader.them= the {{C|=owed=}} =owed.pluralize:dram= of {{B|fresh water}} you owe =trader.them=.">▶=trader.T= non commercerà con te finché non paghi {{C|=owed=}} =owed.pluralize:sorso= di {{B|acqua fresca}} che devi a =trader.them=.</string>

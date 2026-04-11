@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-SRC="$(dirname "$0")/translated/ExampleLanguage"
-DEST="/mnt/c/Program Files (x86)/Steam/steamapps/common/Caves of Qud/CoQ_Data/StreamingAssets/Base/ExampleLanguage"
+SRC="$(dirname "$0")/../ItalianLanguage"
+DEST="/mnt/c/Users/%USERPROFILE%/AppData/LocalLow/Freehold Games/CavesOfQud/Mods"
 
 if [[ ! -d "$SRC" ]]; then
     echo "Errore: cartella sorgente non trovata: $SRC"
