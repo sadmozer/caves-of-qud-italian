@@ -24,14 +24,14 @@ Steam scaricherà la versione del branch `lang-experimental`.
 
 1. Vai alla pagina delle [**Releases**](../../releases) di questo repository.
 2. Scarica lo zip dell'ultima release (es. `italian-translation-v1.2.0.zip`).
-3. Estrai lo zip nella cartella `%USERPROFILE%\AppData\LocalLow\Freehold Games\CavesOfQud\Mods`
+3. Estrai lo zip, poi copia e incolla la cartella `ItalianLanguage` nella cartella `%USERPROFILE%\AppData\LocalLow\Freehold Games\CavesOfQud\Mods`
 
 ### 3. Seleziona la lingua italiana
 
 1. Apri Caves of Qud da Steam
 2. All'apertura del main menu potrebbe apparire un popup dove viene richiesto se si vuole attivare le scripted mod, abilitale
 3. Dal main menu nel pannello a sinistra, seleziona **Language**.
-4. Cambia la lingua da **English** a **Italian**.
+4. Cambia la lingua da **English** a **Italiano**.
 5. Il gioco si riavvierà automaticamente con la traduzione italiana attiva.
 
 ---
