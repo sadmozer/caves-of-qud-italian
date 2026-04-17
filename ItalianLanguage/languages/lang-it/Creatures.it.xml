@@ -21,7 +21,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
 -->
 <objects Lang="it" Encoding="utf-8">
   <object Name="Creature" Load="Merge">
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:stare= fissando =object.t= con aria assente." />
+    <tag Name="PetResponse" Value="▶=subject.T= fissa =object.t= con aria assente." />
     <tag Name="SimpleConversation" Value="▶Luna e Sole. Saggezza e volontà.~▶Che la terra sia generosa con noi questa stagione.~▶Pace, =player.formalAddressTerm=." />
     <xtagTextFragments Skin="▶pelle" PoeticFeatures="▶denti lucenti,capelli ispidi,occhi infossati" YounglingNoise="▶*heh*" Activity="▶vagabondare oziosamente" VillageActivity="▶dormire nelle nostre case" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale" SacredThing="▶l'atto della procreazione" ArableLand="▶terra arabile" ValuedOre="▶metalli preziosi" />
     <stag Name="HardMaterial" Value="▶osso" />
@@ -29,7 +29,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="BaseAnimal" Load="Merge">
     <xtagTextFragments Skin="▶pelle" PoeticFeatures="▶denti lucenti,pelle ispida,zoccoli sferici" YounglingNoise="▶*whine*" Activity="▶vagabondare oziosamente,rovistare in cerca di cibo,sonnecchiare sotto l'alto sole salino" VillageActivity="▶dormire nelle nostre case,mangiare il nostro cibo" GuestActivity="▶spezzare il pane" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale" SacredThing="▶l'atto della procreazione,l'ombra dal sole salino,sonnellini,cibo abbondante" ArableLand="▶pascolo" ValuedOre="▶ombra e cibarie" />
     <tag Name="SimpleConversation" Value="▶{{emote|*ringhio sommesso*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:growl= sommessamente." />
+    <tag Name="PetResponse" Value="▶=subject.T= ringhia sommessamente." />
   </object>
   <object Name="BaseAntelope" Load="Merge">
     <tag Name="SimpleConversation" Value="▶{{emote|*pascoleggia pigramente*}}" />
@@ -49,13 +49,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <tag Name="HeroNameTitleMayorSyn" Value="▶oratore,predicatore,cantatrice,saggio,sindaco,anziano-uccello" />
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Oratore,Predicatore,Cantatrice,Saggio,Sindaco,Anziano-Uccello" />
     <xtagTextFragments Skin="▶piume" PoeticFeatures="▶becco sagittale,ali cherubiche,portamento fiero" YounglingNoise="▶*chirp*" Activity="▶cinguettare coi pari,cantare il canto degli uccelli,fare il nido,scaldarsi al sole" VillageActivity="▶cinguettare a noi,scaldarsi al sole,intonare il canto degli uccelli" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,da nascondere nel mio nido,a cui cinguettare" SacredThing="▶l'arte della parola e del canto,chiacchiere,il dono del volo,vermi,l'aria cosparsa di sale" ArableLand="▶rami alti" ValuedOre="▶gingilli cromati,gingilli lucenti" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:chirp=." />
+    <tag Name="PetResponse" Value="▶=subject.T= cinguetta." />
   </object>
   <object Name="BaseCat" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Elegante,Sfinge,Simile alla Sfinge,Astuto,Aggraziato,Flessuoso,Saggio,Sapiente,Sofistico" />
     <tag Name="HeroNameTitleMayorSyn" Value="▶sfinge,sindaco,anziano" />
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Sfinge,Sindaco,Anziano" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:meow=." />
+    <tag Name="PetResponse" Value="▶=subject.T= miagola." />
     <xtagTextFragments Skin="▶pelliccia" PoeticFeatures="▶orecchie triangolari,baffi perlacei,occhi senza età" YounglingNoise="▶*mew*,*prrrup*" Activity="▶dormire e inseguire uccelli per tutta la giornata" VillageActivity="▶dormire nelle nostre case" SacredThing="▶silenzio giudicante" />
   </object>
   <object Name="BaseClam" Load="Merge">
@@ -65,7 +65,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶conchiglia" PoeticFeatures="▶perle abbaglianti,bellezza geometrica,portamento senza età" YounglingNoise="▶*shloop*" Activity="▶stare aperta in modo invitante" VillageActivity="▶stare aperta in modo invitante" SacredThing="▶dimensioni tascabili,la sicurezza dell'enclosure" />
     <stag Name="HardMaterial" Value="▶conchiglia" />
     <tag Name="SimpleConversation" Value="▶{{emote|*aperta in modo invitante*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:shloop=." />
+    <tag Name="PetResponse" Value="▶=subject.T= slurpa." />
   </object>
   <object Name="BaseCrab" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Grande,Sapiente,Giudizioso,Gigante,Denso,Spesso,Dal guscio ornato" />
@@ -74,10 +74,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶chitina" PoeticFeatures="▶ripiano senza età del guscio,chele titaniche,occhi stilizzati" YounglingNoise="▶*click*,*croak*" Activity="▶camminare di fianco senza meta" VillageActivity="▶rinforzare le pareti delle nostre case" SacredThing="▶l'arte del pizzicare" />
     <stag Name="HardMaterial" Value="▶chitina" />
     <tag Name="SimpleConversation" Value="▶{{emote|*gracidio raucoso*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:croak=." />
+    <tag Name="PetResponse" Value="▶=subject.T= gracchia." />
   </object>
   <object Name="BaseDog" Load="Merge">
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:bark=." />
+    <tag Name="PetResponse" Value="▶=subject.T= abbaia." />
   </object>
   <object Name="BaseFish" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Antico,Grande,Gigante,Con pinne ornate,Veloce,Con molte pinne" />
@@ -86,7 +86,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶scaglie" PoeticFeatures="▶pinne sagomate,iridescenza,sottile dimensionalità" YounglingNoise="▶*blub*" Activity="▶nuotare in cerchio,brucare alghe,deporre uova,annidarsi nella brineweed" VillageActivity="▶annidarsi nella nostra brineweed,deponendo le uova" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,da nascondere nell'acqua" SacredThing="▶la necessità dell'acqua,l'acqua,lo scavare,la pinna" ArableLand="▶pozze d'acqua,fiumi,laghi" ValuedOre="▶tesori sommersi" />
     <stag Name="HardMaterial" Value="▶scaglia" />
     <tag Name="SimpleConversation" Value="▶{{emote|*ti fissa senza battere ciglio*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:gurgle=." />
+    <tag Name="PetResponse" Value="▶=subject.T= gorgoglia." />
   </object>
   <object Name="BaseInsect" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Grande,Vivace,Variopinto,Agile,Gigante,Impupato" />
@@ -95,7 +95,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶chitina" PoeticFeatures="▶ali diafane,spiracoli ariosi,occhi fotofractal" YounglingNoise="▶*bzzz*" Activity="▶ronzare per l'alveare,scavare nella terra,frugare nello sterco" VillageActivity="▶fare il nido meticolosamente,moltiplicarsi in massa,deporre uova e schioccare" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,per fare il nido più efficacemente,per il mio alveare" SacredThing="▶cinguettare alla luce della Luna degli Scarabei,xenofagia,esapodi,larve,chitina,la protezione di un esoscheletro" ArableLand="▶zone di nidificazione,zone di alveari" ValuedOre="▶polline" />
     <stag Name="HardMaterial" Value="▶chitina" />
     <tag Name="SimpleConversation" Value="▶{{emote|*schiocco acuto*}}~▶{{emote|*ronzio sommesso*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:buzz=." />
+    <tag Name="PetResponse" Value="▶=subject.T= ronza." />
   </object>
   <object Name="BaseOoze" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Grande,Sapiente,Giudizioso,Gigante,Sofico,Erudito,Cubico,Regolare,Sferico,Platonico,Simmetrico,Triangolare" />
@@ -104,7 +104,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶membrana" PoeticFeatures="▶geometria impeccabile,traslucenza,quieto schizzo" YounglingNoise="▶*squish*,*spurt*" Activity="▶riassorbire materia,ondulare,liquefarsi e rapprendersi" VillageActivity="▶tremare ritmicamente,ondulare,liquefarsi e rapprendersi" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,per scopi di riassorbimento,per poterlo inghiottire,per assorbirlo" SacredThing="▶solidi platonici,ooze,gelatina,fluidodinamica,la membrana" ArableLand="▶pozze di liquido,materia libera,gelatina" ValuedOre="▶materia,vita" />
     <stag Name="HardMaterial" Value="▶membrana" />
     <tag Name="SimpleConversation" Value="▶{{emote|*trasuda rumorosamente*}}~▶{{emote|*gorgoglio sommesso*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:spurt=." />
+    <tag Name="PetResponse" Value="▶=subject.T= spruzza." />
   </object>
   <object Name="BaseReptile" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Giudizioso,Cauto,Astuto,Caldo,Abbronzato dal sole,Immobile" />
@@ -113,7 +113,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶scaglie" PoeticFeatures="▶immobilità pietrosa,iridescenza,occhi a palpebre pesanti" YounglingNoise="▶*ssss*" Activity="▶scaldarsi al sole,sdraiarsi su rocce calde,sibilare sotto la Luna degli Scarabei,inghiottire insetti" VillageActivity="▶scaldarsi al sole,sdraiarsi su rocce calde,sibilare sotto la Luna degli Scarabei" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,su cui sedermi per tenermi caldo,a cui sibilare" SacredThing="▶rocce calde,il sole salino,larve di insetti,calore,tane" ArableLand="▶rocce calde" ValuedOre="▶larve di insetti,rocce calde" />
     <stag Name="HardMaterial" Value="▶scaglia" />
     <tag Name="SimpleConversation" Value="▶{{w|*sibilo sommesso*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:hiss=." />
+    <tag Name="PetResponse" Value="▶=subject.T= sibila." />
   </object>
   <object Name="BaseFrog" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Giudizioso,Cauto,Astuto,Caldo,Abbronzato dal sole,Immobile" />
@@ -122,7 +122,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶pelle" PoeticFeatures="▶immobilità pietrosa,iridescenza,occhi a palpebre pesanti" YounglingNoise="▶*bthp*" Activity="▶scaldarsi al sole,sdraiarsi su rocce calde,gracidare sotto la Luna degli Scarabei,inghiottire insetti" VillageActivity="▶scaldarsi al sole,sdraiarsi su rocce calde,gracidare sotto la Luna degli Scarabei" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,su cui sedermi per tenermi caldo,a cui gracidare" SacredThing="▶rocce calde,il sole salino,larve di insetti,calore,stagni" ArableLand="▶rocce calde" ValuedOre="▶larve di insetti,rocce calde" />
     <stag Name="HardMaterial" Value="▶osso" />
     <tag Name="SimpleConversation" Value="▶{{emote|*gracida*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:croak=." />
+    <tag Name="PetResponse" Value="▶=subject.T= gracchia." />
   </object>
   <object Name="BaseSpider" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Astuto,Cauto,Erudito,Grande,Gigante,Multipodale" />
@@ -148,7 +148,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶cheratina" PoeticFeatures="▶immobilità pietrosa,portamento senza età,occhi a palpebre pesanti" YounglingNoise="▶*croak*" Activity="▶camminare a fatica,dentro i gusci,sonnecchiare all'ombra" VillageActivity="▶dormire dentro il suo guscio" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,da nascondere nel mio guscio" SacredThing="▶il santuario di un luogo cavo,il carapace,verdure,pace e tranquillità,la casa" ArableLand="▶prati silenziosi,angoli ombrosi" ValuedOre="▶pace e tranquillità" />
     <stag Name="HardMaterial" Value="▶guscio" />
     <tag Name="SimpleConversation" Value="▶{{emote|*sniffa e starnutisce*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:croak=." />
+    <tag Name="PetResponse" Value="▶=subject.T= gracchia." />
   </object>
   <object Name="BaseUrchin" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Cauto,Erudito,Grande,Gigante,Ampio,Bulboso" />
@@ -157,7 +157,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶anelli" PoeticFeatures="▶ondulazione,semplicità geometrica,portamento senza età" YounglingNoise="▶*undulate*" Activity="▶ondulare serenamente" VillageActivity="▶bagnarsi nei nostri stufati,ondulare vicino ai nostri stufati" SacredThing="▶non avere né braccia né gambe né testa" />
     <stag Name="HardMaterial" Value="▶spine" />
     <tag Name="SimpleConversation" Value="▶{{w|*ondula pigramente*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:undulate=." />
+    <tag Name="PetResponse" Value="▶=subject.T= ondeggia." />
   </object>
   <object Name="BaseWorm" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Cauto,Erudito,Grande,Gigante,Lungo,Grosso,Spesso" />
@@ -166,10 +166,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagTextFragments Skin="▶anelli" PoeticFeatures="▶ondulazione,semplicità geometrica,portamento senza età" YounglingNoise="▶*slither*" Activity="▶scavare tunnel nella terra" VillageActivity="▶bagnarsi nei nostri stufati, trasformare i nostri stufati in stufati di vermi" SacredThing="▶non avere né braccia né gambe" />
     <stag Name="HardMaterial" Value="▶bozzolo" />
     <tag Name="SimpleConversation" Value="▶{{emote|*ondula pigramente*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:slither=." />
+    <tag Name="PetResponse" Value="▶=subject.T= striscia." />
   </object>
   <object Name="Robot" Load="Merge">
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:beep= and =verb:boop=." />
+    <tag Name="PetResponse" Value="▶=subject.T= emette bip e boop." />
     <stag Name="HardMaterial" Value="▶involucro" />
   </object>
   <object Name="BaseRobot" Load="Merge">
@@ -182,11 +182,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="BaseMiner" Load="Merge">
     <part Name="Render" DisplayName="▶minatore" />
-    <part Name="Description" Short="▶Pistoni su trampoli sparano in quartine alternate e trasportano il minatore e =pronouns.possessive= mine in schemi esoterici sul terreno. Quando i suoi istinti topografici sono soddisfatti, un portello si apre e =pronouns.subjective= =verb:lay:afterpronoun= =pronouns.possessive= uovo esplosivo." />
+    <part Name="Description" Short="▶Pistoni su trampoli sparano in quartine alternate e trasportano il minatore e =pronouns.possessive= mine in schemi esoterici sul terreno. Quando i suoi istinti topografici sono soddisfatti, un portello si apre e depone =pronouns.possessive= uovo esplosivo." />
   </object>
   <object Name="Turret Tinker" Load="Merge">
     <part Name="Render" DisplayName="▶artigiano torretta" />
-    <part Name="Description" Short="▶=pronouns.Possessive= testa cilindrica è ornata da una cresta riccia il cui simbolismo è sconosciuto. =pronouns.Subjective= marcia diligentemente su un paio di pistoni cromati verso =pronouns.possessive= scopo finale." />
+    <part Name="Description" Short="▶=pronouns.Possessive= testa cilindrica è ornata da una cresta riccia il cui simbolismo è sconosciuto. Marcia diligentemente su un paio di pistoni cromati verso =pronouns.possessive= scopo finale." />
   </object>
   <object Name="BaseHumanoid" Load="Merge">
     <xtagTextFragments Skin="▶pelle" PoeticFeatures="▶fronte alta,gambe distese,occhi pieni di meraviglia" Activity="▶svolgere il noioso lavoro di parlare coi pari,cacciare e raccogliere,vagare tra le dune di sale" VillageActivity="▶dormire nei sacchi a pelo e sedersi sulle sedie,oziare in giro,leggere libri,sbucciare e mangiare musa" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,per ispirare la mia arte,per ispirare la mia poesia,per essere la mia musa,per aiutare con il lavoro in fattoria,per i giochi che facciamo sotto la Luna degli Scarabei" SacredThing="▶l'atto della procreazione,filosofia,alcol,grani della terra,frutta con nocciolo,arte,poesia,pasti caldi,pane e vino,ceramica,pittura" ArableLand="▶terra arabile,bestiame,la generosità della terra" ValuedOre="▶metalli preziosi,artefatti,cromo,diaspro,cibernetica,il nettare dei Mangiatori" />
@@ -198,7 +198,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Re,Regina,Sindaco,Anziano" />
     <xtagTextFragments Skin="▶pelliccia" PoeticFeatures="▶spalle imponenti,sguardo gentile,occhi pensierosi" YounglingNoise="▶*hoot*" Activity="▶ammazzare le cose a bastonate" VillageActivity="▶sedersi in una posa meditativa" SacredThing="▶bacche e ramoscelli" />
     <tag Name="SimpleConversation" Value="▶{{emote|*si percuote il petto*}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:gibber=." />
+    <tag Name="PetResponse" Value="▶=subject.T= balbetta." />
   </object>
   <object Name="BaseBaboon" Load="Merge">
     <part Name="Render" DisplayName="▶babbuino" />
@@ -236,13 +236,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <stag Name="Plank" Value="▶tavola" />
     <stag Name="HardMaterial" Value="▶legno" />
     <tag Name="SimpleConversation" Value="▶{{emote|*La pianta non dà alcun segno di comprensione*.}}" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:sway= dolcemente." />
+    <tag Name="PetResponse" Value="▶=subject.T= si dondola dolcemente." />
   </object>
   <object Name="MutatedPlant" Load="Merge">
     <tag Name="HeroNameTitleMayorSyn" Value="▶sindaco-pianta,anziana-pianta" />
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Sindaco-Pianta,Anziana-Pianta" />
     <xtagTextFragments Skin="▶cuticola" PoeticFeatures="▶radici intrecciate,quieta immobilità,portamento verdeggiante" YounglingNoise="▶*sway*" Activity="▶scaldarsi al sole,ondeggiare nel vento,affondare le radici nel terreno,essere strisciata dagli insetti" VillageActivity="▶scaldarsi al sole,affondare le radici nel terreno,ondeggiare nel vento" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,per seppellire nel terreno,per impressionare le altre piante" SacredThing="▶anidride carbonica,il sole,l'acqua,affondare le radici,bere acqua dal terreno,ogni sfumatura di verde" ArableLand="▶abbondante luce solare" ValuedOre="▶acqua,anidride carbonica,luce solare" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:sway= dolcemente." />
+    <tag Name="PetResponse" Value="▶=subject.T= si dondola dolcemente." />
     <stag Name="Plank" Value="▶striscia" />
     <stag Name="HardMaterial" Value="▶stelo" />
   </object>
@@ -267,7 +267,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Sultano,Monarca,Sindaco-Fungo,Anziano-Fungo" />
     <xtagTextFragments Skin="▶gambo" PoeticFeatures="▶branchie ansimanti,turgidezza,fame di cose morte" YounglingNoise="▶*squish*" Activity="▶scaldarsi all'ombra" VillageActivity="▶scaldarsi all'ombra" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale" SacredThing="▶biomassa necrotica" ArableLand="▶cadaveri maturi" ValuedOre="▶materia organica" />
     <stag Name="HardMaterial" Value="▶carne" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:squish=." />
+    <tag Name="PetResponse" Value="▶=subject.T= schiaccia." />
   </object>
   <object Name="MutatedFungus" Load="Merge">
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Saggio,Sapiente,Erudito,Sensato,Sofico,Frangiato,Pallido,Fecondo,Antico,Sporifero" />
@@ -275,7 +275,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Sultano,Monarca,Sindaco-Fungo,Anziano-Fungo" />
     <xtagTextFragments PoeticFeatures="▶branchie ansimanti,turgidezza,fame di cose morte" YounglingNoise="▶*squish*" Activity="▶scaldarsi all'ombra" VillageActivity="▶scaldarsi all'ombra" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale" SacredThing="▶biomassa necrotica" ArableLand="▶cadaveri maturi" ValuedOre="▶materia organica" />
     <stag Name="HardMaterial" Value="▶carne" />
-    <tag Name="PetResponse" Value="▶=subject.T= =verb:squish=." />
+    <tag Name="PetResponse" Value="▶=subject.T= schiaccia." />
   </object>
   <object Name="BaseNest" Load="Merge">
     <xtagTextFragments YounglingNoise="▶*squish*" Activity="▶incubare larve" VillageActivity="▶incubare larve" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale" SacredThing="▶nidificare" ArableLand="▶un posto umido" ValuedOre="▶umidità" />
@@ -318,7 +318,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="AppleFarmer" Load="Merge">
     <part Name="Render" DisplayName="▶coltivatore di mele" />
-    <part Name="Description" Short="▶=pronouns.This= =pronouns.personTerm= robusto e baffuto =verb:wear:afterpronoun= un grembiule bianco macchiato di succo di mele stellate. =pronouns.Possessive= capelli neri come il carbone si appiccicano alla pelle abbronzata della fronte. Dal suo avambraccio sinistro pende uno straccio bagnato, con cui =pronouns.subjective= =verb:scrub:afterpronoun= lo sporco dalle mani ogni pochi istanti." />
+    <part Name="Description" Short="▶=pronouns.This= =pronouns.personTerm= robusto e baffuto indossa un grembiule bianco macchiato di succo di mele stellate. =pronouns.Possessive= capelli neri come il carbone si appiccicano alla pelle abbronzata della fronte. Dal suo avambraccio sinistro pende uno straccio bagnato, con cui strofina lo sporco dalle mani ogni pochi istanti." />
   </object>
   <object Name="AppleFarmerDaughter" Load="Merge">
     <part Name="Render" DisplayName="▶figlia del coltivatore di mele" />
@@ -349,7 +349,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Bear" Load="Merge">
     <part Name="Render" DisplayName="▶orso" />
-    <part Name="Description" Short="▶&quot;L'Orso Grizzly è enorme e selvaggio; &#xA;=pronouns.Subjective= =verb:have:afterpronoun= divorato il bambino in fasce.&#xA;Il bambino in fasce non sa&#xA;=pronouns.Subjective= =verb:have:afterpronoun= essere stato mangiato dall'orso.&quot;&#xA;-A.E. Housman" />
+    <part Name="Description" Short="▶&quot;L'Orso Grizzly è enorme e selvaggio; &#xA;Ha divorato il bambino in fasce.&#xA;Il bambino in fasce non sa&#xA;Ha essere stato mangiato dall'orso.&quot;&#xA;-A.E. Housman" />
   </object>
   <object Name="Bear_Claw" Load="Merge">
     <part Name="Render" DisplayName="▶artiglio" />
@@ -368,7 +368,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Boar" Load="Merge">
     <part Name="Render" DisplayName="▶cinghiale" />
-    <part Name="Description" Short="▶Rispetto ai cugini maiali, il tempo selvatico ha accorciato le orecchie, ha spinto i canini attraverso la mascella, e lo ha vestito con un mantello di pelo ispido. =pronouns.Subjective= =verb:root:afterpronoun= nel terreno alla ricerca di gioielli." />
+    <part Name="Description" Short="▶Rispetto ai cugini maiali, il tempo selvatico ha accorciato le orecchie, ha spinto i canini attraverso la mascella, e lo ha vestito con un mantello di pelo ispido. Affonda le radici nel terreno alla ricerca di gioielli." />
   </object>
   <object Name="Boar Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di cinghiale" />
@@ -380,7 +380,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Cave Spider" Load="Merge">
     <part Name="Render" DisplayName="▶ragno delle caverne" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= dalle membra sottili come aghi e nervoso/a. Pezzi della sua casa di seta sono attaccati ai peli sottostanti." />
+    <part Name="Description" Short="▶È dalle membra sottili come aghi e nervoso/a. Pezzi della sua casa di seta sono attaccati ai peli sottostanti." />
   </object>
   <object Name="CaveSpider_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶zanne" />
@@ -390,7 +390,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Ray Cat" Load="Merge">
     <part Name="Render" DisplayName="▶gatto raggio" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un gattino piccolo e le fibre vitree del suo mantello piegano la luce delle stelle lontane in strani anelli.&#xA;&#xA;{{m|fosforescente}}" />
+    <part Name="Description" Short="▶È un gattino piccolo e le fibre vitree del suo mantello piegano la luce delle stelle lontane in strani anelli.&#xA;&#xA;{{m|fosforescente}}" />
   </object>
   <object Name="Cat Claw" Load="Merge">
     <part Name="Render" DisplayName="▶artiglio" />
@@ -412,18 +412,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Dog" Load="Merge">
     <part Name="Render" DisplayName="▶cane selvatico" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un groviglio ringhioso di pelo arruffato." />
+    <part Name="Description" Short="▶È un groviglio ringhioso di pelo arruffato." />
   </object>
   <object Name="Dog Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di cane" />
   </object>
   <object Name="Chromeling" Load="Merge">
     <part Name="Render" DisplayName="▶{{c|chromeling}}" />
-    <part Name="Description" Short="▶Assemblato con rottami metallici, =pronouns.subjective= =verb:teeter:afterpronoun=. A cosa pensava l'artista e creatore mentre batteva il metallo per dargli una sembianza? =pronouns.Subjective= =verb:occupy:afterpronoun= un punto tra poli su diversi assi: a metà tra scimpanzé e umano, a metà tra bambino e adulto. =pronouns.Subjective= =verb:are:afterpronoun= piccolo/a, e ci sono ombre sotto la sua guancia cromata." />
+    <part Name="Description" Short="▶Assemblato con rottami metallici, barcolla. A cosa pensava l'artista e creatore mentre batteva il metallo per dargli una sembianza? Occupa un punto tra poli su diversi assi: a metà tra scimpanzé e umano, a metà tra bambino e adulto. È piccolo/a, e ci sono ombre sotto la sua guancia cromata." />
   </object>
   <object Name="Electrofuge" Load="Merge">
     <part Name="Render" DisplayName="▶electrofuge" />
-    <part Name="Description" Short="▶Capelli sottili come la seta si irrigidiscono per la carica statica sulle otto zampe simili a fusi, e =pronouns.subjective= =verb:crackle:afterpronoun= mentre =pronouns.subjective= =verb:crawl:afterpronoun=." />
+    <part Name="Description" Short="▶Capelli sottili come la seta si irrigidiscono per la carica statica sulle otto zampe simili a fusi, e crepita mentre striscia." />
   </object>
   <object Name="Electrofuge Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere electrofuge" />
@@ -453,7 +453,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="GiantDragonfly" Load="Merge">
     <part Name="Render" DisplayName="▶libellula gigante" />
-    <part Name="Description" Short="▶Grandi ali diafane battono l'aria mentre =pronouns.subjective= =verb:drone:afterpronoun= sul posto." />
+    <part Name="Description" Short="▶Grandi ali diafane battono l'aria mentre ronza sul posto." />
   </object>
   <object Name="Giant Dragonfly Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di libellula gigante" />
@@ -479,7 +479,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Goat" Load="Merge">
     <part Name="Render" DisplayName="▶capra" />
-    <part Name="Description" Short="▶Le corna arricciate sono incise con la scrittura del tempo che corrode, e =pronouns.subjective= =verb:chew:afterpronoun= il bolo senza preoccuparsi del disordine nella barba annodata." />
+    <part Name="Description" Short="▶Le corna arricciate sono incise con la scrittura del tempo che corrode, e mastica il bolo senza preoccuparsi del disordine nella barba annodata." />
   </object>
   <object Name="Goat_Horns" Load="Merge">
     <part Name="Render" DisplayName="▶corna curve" />
@@ -498,7 +498,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="IrritableTortoise" Load="Merge">
     <part Name="Render" DisplayName="▶tartaruga irritabile" />
-    <part Name="Description" Short="▶Il lungo tornio del tempo ha rasato le prospettive da sotto i piedi di un rettile finché =pronouns.subjective= si è nascosto in un guscio di plastrone e carapace, cupo e stizzoso." />
+    <part Name="Description" Short="▶Il lungo tornio del tempo ha rasato le prospettive da sotto i piedi di un rettile finché si è nascosto in un guscio di plastrone e carapace, cupo e stizzoso." />
   </object>
   <object Name="Jilted Lover" Load="Merge">
     <part Name="Render" DisplayName="▶{{g|amante abbandonato}}" />
@@ -541,10 +541,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Scrap-clad Hermit" Load="Merge">
     <part Name="Render" DisplayName="▶eremita rivestito di rottami" />
-    <part Name="Description" Short="▶Il patchwork di metallo bruciato e rivetti scrostati di ruggine crea un gradiente di nuova carne sul corpo dell'eremita. =pronouns.Possessive= capelli sono annodati in un nido di ratto e tenuti su da una molletta di vetro rotto. =pronouns.Subjective= =verb:scream:afterpronoun= in una lingua di =pronouns.possessive= propria invenzione." />
+    <part Name="Description" Short="▶Il patchwork di metallo bruciato e rivetti scrostati di ruggine crea un gradiente di nuova carne sul corpo dell'eremita. =pronouns.Possessive= capelli sono annodati in un nido di ratto e tenuti su da una molletta di vetro rotto. Urla in una lingua di =pronouns.possessive= propria invenzione." />
   </object>
   <object Name="Seed-Spitting Vine" Load="Merge">
-    <part Name="Description" Short="▶Viticci verde giada si arricciano verso l'interno e abbracciano il centro in tensione. =pronouns.Possessive= foglie vibrano con scricchiolii a basso volume mentre =pronouns.subjective= =verb:compact:afterpronoun= semi per sputarli." />
+    <part Name="Description" Short="▶Viticci verde giada si arricciano verso l'interno e abbracciano il centro in tensione. =pronouns.Possessive= foglie vibrano con scricchiolii a basso volume mentre compatta semi per sputarli." />
     <part Name="Render" DisplayName="▶{{g|rampicante sputasemi}}" />
   </object>
   <object Name="Seed Slingshot" Load="Merge">
@@ -557,7 +557,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="BaseWatervineFarmer" Load="Merge">
     <part Name="Render" DisplayName="▶coltivatore di watervine" />
-    <part Name="Description" Short="▶I brandelli di una kufiya macchiata di sudore sbattono nel vento da dove pendono attorno al collo del coltivatore. Nella mano nodosa e bruna stringe una falce di ferro curva con cui =pronouns.subjective= =verb:cull:afterpronoun= wafer gonfi di umidità dalla pianta verdeazzurra chiamata watervine." />
+    <part Name="Description" Short="▶I brandelli di una kufiya macchiata di sudore sbattono nel vento da dove pendono attorno al collo del coltivatore. Nella mano nodosa e bruna stringe una falce di ferro curva con cui raccoglie wafer gonfi di umidità dalla pianta verdeazzurra chiamata watervine." />
   </object>
   <object Name="Young Ivory" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|giovane avorio}}" />
@@ -566,7 +566,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Snapjaw" Load="Merge">
     <part Name="Render" DisplayName="▶snapjaw" />
-    <part Name="Description" Short="▶Ciuffi di pelo ricoprono la pelle tesa su muscoli tesi. Si tiene dritto sulle zampe, ma sembra pronto a cadere su tutte e quattro. =pronouns.Possessive= muso ringhia e le orecchie fremono. =pronouns.Subjective= =verb:bark:afterpronoun=, e la tribù iena risponde." />
+    <part Name="Description" Short="▶Ciuffi di pelo ricoprono la pelle tesa su muscoli tesi. Si tiene dritto sulle zampe, ma sembra pronto a cadere su tutte e quattro. =pronouns.Possessive= muso ringhia e le orecchie fremono. Abbaia, e la tribù iena risponde." />
     <xtagTextFragments YounglingNoise="▶*heh*,*heheh*,*heheheh*" Activity="▶cacciare e raccogliere,razziare villaggi,ululare alla Luna degli Scarabei,rosicchiare la carne dalle ossa" VillageActivity="▶dormire nei sacchi a pelo e sedersi sulle sedie,oziare in giro,leggere libri,sbucciare e mangiare musa,ululare alla luna,rosicchiare la carne dalle ossa scartate" NeedsItemFor="▶per la mia collezione,per saziare la mia avidità,per il suo valore commerciale,per ispirare la mia arte,per ispirare la mia poesia,a cui ringhiare inutilmente,come qualcosa a cui ululare,per essere la mia musa,per aiutare col lavoro in fattoria,per i giochi che facciamo sotto la Luna degli Scarabei" SacredThing="▶l'atto della procreazione,filosofia,le terre coltivate degli altri,ululare alla Luna degli Scarabei,ringhiare,rosicchiare la carne dalle ossa,alcol,grani della terra,frutta con nocciolo,arte,poesia,pasti caldi,pane e vino,ceramica,pittura" ArableLand="▶villaggi indifesi,contadini sventurati,le case delle creature sedentarie" ValuedOre="▶carne e ossa,carne fresca,tracce" />
   </object>
   <object Name="Snapjaw Corpse" Load="Merge">
@@ -604,7 +604,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Beetlebum" Load="Merge">
     <part Name="Render" DisplayName="▶beetlebum" />
-    <part Name="Description" Short="▶Ali blu come un cappellino si adattano al palloncino addominale, gonfiato a un volume da dirigibile dalla spazzatura che =pronouns.subjective= =verb:have:afterpronoun= mangiato." />
+    <part Name="Description" Short="▶Ali blu come un cappellino si adattano al palloncino addominale, gonfiato a un volume da dirigibile dalla spazzatura che ha mangiato." />
   </object>
   <object Name="Beetlebum_Mandibles" Load="Merge">
     <part Name="Render" DisplayName="▶mandibole grandi" />
@@ -625,7 +625,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Two-Headed Boar" Load="Merge">
     <part Name="Render" DisplayName="▶cinghiale a due teste" />
-    <part Name="Description" Short="▶Una coppia di musi gocciolanti di bava si azzannano reciprocamente all'orecchio peloso. Gli stinchi sono allargati per sostenere più peso dei cugini a testa singola, e =pronouns.subjective= =verb:squeal:afterpronoun= con la collera di un animale doppiamente affamato." />
+    <part Name="Description" Short="▶Una coppia di musi gocciolanti di bava si azzannano reciprocamente all'orecchio peloso. Gli stinchi sono allargati per sostenere più peso dei cugini a testa singola, e strilla con la collera di un animale doppiamente affamato." />
   </object>
   <object Name="Guard Dog" Load="Merge">
     <part Name="Render" DisplayName="▶cane da guardia" />
@@ -658,7 +658,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Feral Lah Pod" Load="Merge">
     <part Name="Render" DisplayName="▶{{r|baccello rotolante}}" />
-    <part Name="Description" Short="▶Un baccello rizoma con un germaglio come piede fremisce sulla terra e perde la sua materia esterna fragile. =pronouns.Subjective= =verb:seek:afterpronoun= un recipiente caldo per consegnare =pronouns.possessive= dono esplosivo." />
+    <part Name="Description" Short="▶Un baccello rizoma con un germaglio come piede fremisce sulla terra e perde la sua materia esterna fragile. Cerca un recipiente caldo per consegnare =pronouns.possessive= dono esplosivo." />
   </object>
   <object Name="Giant Centipede Nest" Load="Merge">
     <part Name="Render" DisplayName="▶nido di millepiedi gigante" />
@@ -682,11 +682,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Hide-Sheathed Hermit" Load="Merge">
     <part Name="Render" DisplayName="▶eremita rivestito di pelle" />
-    <part Name="Description" Short="▶Il patchwork di pelli incrostate di cenere e fango crea un gradiente di carne sul corpo dell'eremita. =pronouns.Possessive= capelli si sono annodati in un nido di ratto. =pronouns.Subjective= =verb:scream:afterpronoun= in una lingua di =pronouns.possessive= propria invenzione." />
+    <part Name="Description" Short="▶Il patchwork di pelli incrostate di cenere e fango crea un gradiente di carne sul corpo dell'eremita. =pronouns.Possessive= capelli si sono annodati in un nido di ratto. Urla in una lingua di =pronouns.possessive= propria invenzione." />
   </object>
   <object Name="Honey Skunk" Load="Merge">
     <part Name="Render" DisplayName="▶moffetta del miele" />
-    <part Name="Description" Short="▶Tutto vicino al minuto mammifero è umido: pelliccia, capelli, foglie, suolo, leghe argentate lisce. =pronouns.Subjective==verb:'re:afterpronoun= diventato un mondo peloso in sé, e la dolce e nauseabonda nebbia di miele intorno a =pronouns.objective= è l'atmosfera." />
+    <part Name="Description" Short="▶Tutto vicino al minuto mammifero è umido: pelliccia, capelli, foglie, suolo, leghe argentate lisce. È diventato un mondo peloso in sé, e la dolce e nauseabonda nebbia di miele intorno a =pronouns.objective= è l'atmosfera." />
   </object>
   <object Name="Knollworm" Load="Merge">
     <part Name="Render" DisplayName="▶knollworm" />
@@ -727,7 +727,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Plated Knollworm" Load="Merge">
     <part Name="Render" DisplayName="▶knollworm corazzato" />
-    <part Name="Description" Short="▶=pronouns.Subjective= ha secreto resina di verme che si è indurita sotto la pressione dello shale in placche corazzate. All'interno, un cordone spesso di segmenti ispidi è sormontato da un'apertura cuspidale per rompere la roccia." />
+    <part Name="Description" Short="▶Ha secreto resina di verme che si è indurita sotto la pressione dello shale in placche corazzate. All'interno, un cordone spesso di segmenti ispidi è sormontato da un'apertura cuspidale per rompere la roccia." />
   </object>
   <object Name="Salthopper" Load="Merge">
     <part Name="Render" DisplayName="▶salthopper" />
@@ -798,7 +798,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="TemplarSquireBase" Load="Merge">
     <part Name="Render" DisplayName="▶scudiero dei Templari" />
-    <part Name="Description" Short="▶La pelle umida scintilla dietro le orecchie. =pronouns.Possessive= schiena si curva in anticipazione della sua curvatura destinata al sangue, e =pronouns.subjective= =verb:poke:afterpronoun= fuori il mento in emulazione degli anziani. Il grasso della spada macchia le mani." />
+    <part Name="Description" Short="▶La pelle umida scintilla dietro le orecchie. =pronouns.Possessive= schiena si curva in anticipazione della sua curvatura destinata al sangue, e sporge fuori il mento in emulazione degli anziani. Il grasso della spada macchia le mani." />
   </object>
   <object Name="Thirst Thistle" Load="Merge">
     <part Name="Render" DisplayName="▶cardo assetato" />
@@ -828,7 +828,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling" />
-    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="Girshling_Claw" Load="Merge">
     <part Name="Render" DisplayName="▶artiglio" />
@@ -839,14 +839,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Defanged Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling senzazanne" />
-    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula nelle cavità dove c'erano le zanne e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula nelle cavità dove c'erano le zanne e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="Girshling_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶zanne" />
   </object>
   <object Name="Rank Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling rancido" />
-    <part Name="Description" Short="▶Fango di morte ribollente si accumula alle punte delle zanne e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶Fango di morte ribollente si accumula alle punte delle zanne e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="RankGirshling_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶{{g|rancide}} zanne" />
@@ -856,14 +856,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Conjoined Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling congiunto" />
-    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne congiunte e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne congiunte e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="Conjoined Girshling Cresh" Load="Merge">
     <part Name="Description" Short="▶Un groppo di uova rivestite di resina si agita sul posto. Occhi congiunti fissano attraverso la membrana." />
   </object>
   <object Name="Plasmatic Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling plasmatico" />
-    <part Name="Description" Short="▶Gas stellare condensato si accumula alle punte delle zanne e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶Gas stellare condensato si accumula alle punte delle zanne e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="PlasmaticGirshling_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶{{G|incandescenti}} zanne" />
@@ -873,14 +873,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Polarized Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling polarizzato" />
-    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula ad angoli retti sulle punte delle zanne reticolate e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula ad angoli retti sulle punte delle zanne reticolate e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="Polarized Girshling Cresh" Load="Merge">
     <part Name="Description" Short="▶Un groppo di uova rivestite di resina si agita sul posto. Occhi esagonali fissano attraverso la membrana." />
   </object>
   <object Name="Cryptic Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling criptico" />
-    <part Name="Description" Short="▶Gas onirico condensato si accumula alle punte delle zanne a zigzag e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶Gas onirico condensato si accumula alle punte delle zanne a zigzag e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="CrypticGirshling_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶{{b|a zigzag}} zanne" />
@@ -890,7 +890,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Burrowing Girshling" Load="Merge">
     <part Name="Render" DisplayName="▶girshling scavatore" />
-    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne da scavo e gocciola sulle pallide zampe. =pronouns.Subjective= =verb:shudder:afterpronoun= nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e =pronouns.subjective= =verb:let:afterpronoun= uscire un guaito fiero e penetrante." />
+    <part Name="Description" Short="▶La saliva di orchidea stellare si accumula alle punte delle zanne da scavo e gocciola sulle pallide zampe. Rabbrividisce nella cattura di qualche estasi primigenia perduta nello spazio e nel tempo, e lascia uscire un guaito fiero e penetrante." />
   </object>
   <object Name="Burrowing Girshling Cresh" Load="Merge">
     <part Name="Description" Short="▶Un groppo di uova rivestite di resina si agita sul posto. Occhi cerosi fissano attraverso la membrana." />
@@ -950,11 +950,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="FaundrenVillager" Load="Merge">
     <part Name="Render" DisplayName="▶villico faundren" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:frolic:afterpronoun= e =verb:play:afterpronoun= accanto ai propri pari, il portamento del corpo magro e nervoso contrasta con la muscolatura tesa dei guardiani maturi. Laddove gli hindren adulti sono timorosi e cauti, i faundren guardano il nuovo e l'insolito con meraviglia." />
+    <part Name="Description" Short="▶Giocherella e gioca accanto ai propri pari, il portamento del corpo magro e nervoso contrasta con la muscolatura tesa dei guardiani maturi. Laddove gli hindren adulti sono timorosi e cauti, i faundren guardano il nuovo e l'insolito con meraviglia." />
   </object>
   <object Name="HindrenScout" Load="Merge">
     <part Name="Render" DisplayName="▶esploratore hindren" />
-    <part Name="Description" Short="▶Ansia personificata, =pronouns.subjective= =verb:stand:afterpronoun= in tesa compostezza, gli stinchi tesi e le orecchie lunghe che fremono. Occhi stretti saettano qua e là in cerca di intrusi. Qui nel corpo dell'esploratore, i nervi tesi dei fattori hindren sono portati all'acme." />
+    <part Name="Description" Short="▶Ansia personificata, sta in tesa compostezza, gli stinchi tesi e le orecchie lunghe che fremono. Occhi stretti saettano qua e là in cerca di intrusi. Qui nel corpo dell'esploratore, i nervi tesi dei fattori hindren sono portati all'acme." />
   </object>
   <object Name="HindrenPariah" Load="Merge">
     <part Name="Render" DisplayName="▶paria hindren" />
@@ -991,7 +991,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Unplanished Godhed" Load="Merge">
     <part Name="Render" DisplayName="▶godhed non levigato" />
-    <part Name="Description" Short="▶Un uovo greebled di metallo e vetro a circuiti fu pescato dalla chromefall per essere saldato e servire come centro di massa spirituale per un minian di woodsprogs. =pronouns.Possessive= pannello sensoriale rimane non levigato, e quindi =pronouns.subjective= deve ancora mostrare gli anelli di crescita del significato comunitario." />
+    <part Name="Description" Short="▶Un uovo greebled di metallo e vetro a circuiti fu pescato dalla chromefall per essere saldato e servire come centro di massa spirituale per un minian di woodsprogs. =pronouns.Possessive= pannello sensoriale rimane non levigato, e quindi deve ancora mostrare gli anelli di crescita del significato comunitario." />
   </object>
   <object Name="Planished Godhed" Load="Merge">
     <part Name="Render" DisplayName="▶godhed levigato" />
@@ -1013,7 +1013,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Agolmaggot" Load="Merge">
     <part Name="Render" DisplayName="▶agolmaggot" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un verme pallido e contorcente, e pustole di gas nocivo imbottiscono l'addome gonfio." />
+    <part Name="Description" Short="▶È un verme pallido e contorcente, e pustole di gas nocivo imbottiscono l'addome gonfio." />
   </object>
   <object Name="YithMaggotBite" Load="Merge">
     <part Name="Render" DisplayName="▶{{G|mandibole acide}}" />
@@ -1068,7 +1068,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Disciple of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="▶discepolo della Via Cieca" />
-    <part Name="Description" Short="▶I muscoli intrecciati lungo la colonna vertebrale si sono ridotti a quasi niente, e le pieghe nel kittel ornamentale cedono nella loro assenza. =pronouns.Subjective= vibra alla frequenza di un altro tempo-luogo." />
+    <part Name="Description" Short="▶I muscoli intrecciati lungo la colonna vertebrale si sono ridotti a quasi niente, e le pieghe nel kittel ornamentale cedono nella loro assenza. Vibra alla frequenza di un altro tempo-luogo." />
   </object>
   <object Name="Drillbot" Load="Merge">
     <part Name="Render" DisplayName="▶{{c|drillbot}}" />
@@ -1148,7 +1148,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Ice frog" Load="Merge">
     <part Name="Render" DisplayName="▶rana di ghiaccio" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:gulp:afterpronoun= e =verb:shiver:afterpronoun= ciuffi dalle narici coperte di brina." />
+    <part Name="Description" Short="▶Inghiotte e rabbrividisce ciuffi dalle narici coperte di brina." />
   </object>
   <object Name="Ice frog corpse" Load="Merge">
     <part Name="Render" DisplayName="▶{{C|rana di ghiaccio}} cadavere" />
@@ -1161,7 +1161,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Plated Chromeling" Load="Merge">
     <part Name="Render" DisplayName="▶{{C|chromeling corazzato}}" />
-    <part Name="Description" Short="▶Assemblato con rottami metallici, =pronouns.subjective= =verb:teeter:afterpronoun=. A cosa pensava l'artista e creatore mentre batteva il metallo per dargli una sembianza? =pronouns.Subjective= =verb:occupy:afterpronoun= un punto tra poli su diversi assi: a metà tra scimpanzé e umano, a metà tra bambino e adulto. =pronouns.Subjective= =verb:are:afterpronoun= piccolo/a, e ci sono ombre sotto la sua guancia cromata." />
+    <part Name="Description" Short="▶Assemblato con rottami metallici, barcolla. A cosa pensava l'artista e creatore mentre batteva il metallo per dargli una sembianza? Occupa un punto tra poli su diversi assi: a metà tra scimpanzé e umano, a metà tra bambino e adulto. È piccolo/a, e ci sono ombre sotto la sua guancia cromata." />
   </object>
   <object Name="Prism Perch" Load="Merge">
     <part Name="Render" DisplayName="▶pesce persico prisma" />
@@ -1183,7 +1183,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Rustacean" Load="Merge">
     <part Name="Render" DisplayName="▶{{r|rustacean}}" />
-    <part Name="Description" Short="▶Un guscio ampio e piatto nella tonalità del ferro prosciugato dall'aria ha iniziato a sfaldarsi in un motivo verderame. =pronouns.Subjective= =verb:shake:afterpronoun= un'unica chela mostruosa e seghettata, incrostata di un anno di Morte Rossa, la polvere metallica erosa." />
+    <part Name="Description" Short="▶Un guscio ampio e piatto nella tonalità del ferro prosciugato dall'aria ha iniziato a sfaldarsi in un motivo verderame. Scuote un'unica chela mostruosa e seghettata, incrostata di un anno di Morte Rossa, la polvere metallica erosa." />
   </object>
   <object Name="Rustacean Crab_Claw" Load="Merge">
     <part Name="Render" DisplayName="▶{{r|chela incrostata di ruggine}}" />
@@ -1216,7 +1216,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Two-Headed Slugsnout" Load="Merge">
     <part Name="Render" DisplayName="▶slugsnout a due teste" />
-    <part Name="Description" Short="▶Scood bagnata lascia scie dai musi a forma di forcella, raccogliendosi sul pavimento. =pronouns.Subjective= vomita nodi di pelo in armonie alternate, e =pronouns.subjective= sbatte i piedi dagli zoccoli biforcuti in irritazione." />
+    <part Name="Description" Short="▶Scood bagnata lascia scie dai musi a forma di forcella, raccogliendosi sul pavimento. Vomita nodi di pelo in armonie alternate, e sbatte i piedi dagli zoccoli biforcuti in irritazione." />
   </object>
   <object Name="Worker ant" Load="Merge">
     <part Name="Render" DisplayName="▶formica operaia" />
@@ -1284,7 +1284,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <part Name="Render" DisplayName="▶schiavo gente-capra" />
   </object>
   <object Name="Snapjaw Troglodyte" Load="Merge">
-    <part Name="Description" Short="▶Il pelo è appiccicato in grumi macchiati di sangue sulla pelle; lunghe zanne rompono il piano del muso ispido. =pronouns.Possessive= zampe posteriori ticchettano e =pronouns.subjective= =verb:reach:afterpronoun= con le zampe anteriori per il conforto della terra. Negli anfratti senza luce della terra, i trogloditi sono rivendicati dalle forze primordiali che un tempo li spinsero verso la civiltà." />
+    <part Name="Description" Short="▶Il pelo è appiccicato in grumi macchiati di sangue sulla pelle; lunghe zanne rompono il piano del muso ispido. =pronouns.Possessive= zampe posteriori ticchettano e tende con le zampe anteriori per il conforto della terra. Negli anfratti senza luce della terra, i trogloditi sono rivendicati dalle forze primordiali che un tempo li spinsero verso la civiltà." />
   </object>
   <object Name="Snapjaw Feeder" Load="Merge">
     <part Name="Render" DisplayName="▶snapjaw divoratore" />
@@ -1381,7 +1381,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Eyeless King Crab" Load="Merge">
     <part Name="Render" DisplayName="▶granchio reale cieco" />
-    <part Name="Description" Short="▶Un ripiano mostruoso di avorio senza sole si solleva su zampe appuntite. I peduncoli oculari sono gusci di stalagmite -- solo muschio cresce lì ora -- e =pronouns.subjective= =verb:wield:afterpronoun= un monolite-chela che taglia la pietra come erba secca." />
+    <part Name="Description" Short="▶Un ripiano mostruoso di avorio senza sole si solleva su zampe appuntite. I peduncoli oculari sono gusci di stalagmite -- solo muschio cresce lì ora -- e impugna un monolite-chela che taglia la pietra come erba secca." />
   </object>
   <object Name="Eyeless King Crab_Claw" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|chela mostruosa}}" />
@@ -1392,7 +1392,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Fire Ant Queen" Load="Merge">
     <part Name="Render" DisplayName="▶regina delle formiche di fuoco" />
-    <part Name="Description" Short="▶Fumo profumato si eleva in spirali dai minuti pori sparsi sull'ampio gastro, e le antenne scottate si contorcono e sfregano l'aria addensata. =pronouns.Subjective= ha più corporatura nel torace della sua covata, e ali dipinte di venature brillano sul dorso." />
+    <part Name="Description" Short="▶Fumo profumato si eleva in spirali dai minuti pori sparsi sull'ampio gastro, e le antenne scottate si contorcono e sfregano l'aria addensata. Ha più corporatura nel torace della sua covata, e ali dipinte di venature brillano sul dorso." />
   </object>
   <object Name="Gelatinous Frustum" Load="Merge">
     <part Name="Render" DisplayName="▶frustum gelatinoso" />
@@ -1411,7 +1411,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Gyre Wight of Shug'ruith" Load="Merge">
     <part Name="Render" DisplayName="▶spirito del gorgo di Shug'ruith" />
-    <part Name="Description" Short="▶Una figura è contrassegnata da vesti di orchidea stellare come devota del Gorgo e festante nel numen metamorfico. Unghie nere di sudiciume lampeggiano dalla manica in una poesia gestuale per dire che la pestilenza è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la preminenza della crescita bruta. =pronouns.Subjective= =verb:are:afterpronoun= cosparso/a di polvere di scisto." />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti di orchidea stellare come devota del Gorgo e festante nel numen metamorfico. Unghie nere di sudiciume lampeggiano dalla manica in una poesia gestuale per dire che la pestilenza è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la preminenza della crescita bruta. È cosparso/a di polvere di scisto." />
   </object>
   <object Name="Holographic Ivory" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|avorio olografico}}" />
@@ -1442,7 +1442,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Livid Creeper" Load="Merge">
     <part Name="Render" DisplayName="▶rampicante livido" />
-    <part Name="Description" Short="▶=pronouns.Possessive= steli ad anelli sono contusi e scoloriti dove la memoria del rifiuto ha gonfiato la linfa negli speroni fruttiferi. =pronouns.Subjective= =verb:slink:afterpronoun= sul piano verticale, ungendo i canne con lubrificante e poi dissolvendoli con un sibilo di frittura." />
+    <part Name="Description" Short="▶=pronouns.Possessive= steli ad anelli sono contusi e scoloriti dove la memoria del rifiuto ha gonfiato la linfa negli speroni fruttiferi. Sgattaiola sul piano verticale, ungendo i canne con lubrificante e poi dissolvendoli con un sibilo di frittura." />
   </object>
   <object Name="Creeper_Thorns" Load="Merge">
     <part Name="Render" DisplayName="▶spine" />
@@ -1468,7 +1468,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Mysterious Gunslinger" Load="Merge">
     <part Name="Render" DisplayName="▶pistolero misterioso" />
-    <part Name="Description" Short="▶La tesa del cappello sgualcita proietta un'ombra sull'enigma senza volto, e solo una manciata di peli del mento sfuggono alla luce. =pronouns.Subjective= =verb:wear:afterpronoun= una tunica cimmeriana tessuta da lana a nastri e ricamata in polvere, e le dita battono al ritmo lunare." />
+    <part Name="Description" Short="▶La tesa del cappello sgualcita proietta un'ombra sull'enigma senza volto, e solo una manciata di peli del mento sfuggono alla luce. Indossa una tunica cimmeriana tessuta da lana a nastri e ricamata in polvere, e le dita battono al ritmo lunare." />
   </object>
   <object Name="Plastronoid" Load="Merge">
     <part Name="Render" DisplayName="▶plastronoid" />
@@ -1495,7 +1495,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Twinning Lamprey" Load="Merge">
     <part Name="Render" DisplayName="▶lamprea gemellante" />
-    <part Name="Description" Short="▶Un nastro di tessuto senza squame fremisce in sospensione oltre una bocca cerchiata di denti triangolari ripetuti. =pronouns.Subjective= =verb:extrude:afterpronoun= un doppio attraverso i piani specchiati della realtà." />
+    <part Name="Description" Short="▶Un nastro di tessuto senza squame fremisce in sospensione oltre una bocca cerchiata di denti triangolari ripetuti. Estrude un doppio attraverso i piani specchiati della realtà." />
   </object>
   <object Name="Lamprey Bite" Load="Merge">
     <part Name="Render" DisplayName="▶{{B|morso psichico}}" />
@@ -1642,7 +1642,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="BananaRancher" Load="Merge">
     <part Name="Render" DisplayName="▶allevatore di banane" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:maneuver:afterpronoun= sotto una tunica di tela di sacco e crine di capra intrecciato. La =pronouns.Possessive= pelle olivastra e i capelli color paglia luccicano di polvere del Fuso." />
+    <part Name="Description" Short="▶Manovra sotto una tunica di tela di sacco e crine di capra intrecciato. La =pronouns.Possessive= pelle olivastra e i capelli color paglia luccicano di polvere del Fuso." />
   </object>
   <object Name="Bloated Pearlfrog" Load="Merge">
     <part Name="Render" DisplayName="▶rana-perla gonfia" />
@@ -1666,7 +1666,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Cyclopean Gibbon" Load="Merge">
     <part Name="Render" DisplayName="▶gibbone ciclope" />
-    <part Name="Description" Short="▶Lunghi arti ricoperti di pelo scattano per proiettare la =pronouns.possessive= snella corporatura attraverso il mondo brachiato. Un solo occhio rompe il piano del =pronouns.possessive= viso nudo; la mancanza di percezione della profondità potrebbe inibire la =pronouns.possessive= efficacia nel lancio, se =pronouns.subjective= non fosse in grado di triangolare un bersaglio con i propri duplicati." />
+    <part Name="Description" Short="▶Lunghi arti ricoperti di pelo scattano per proiettare la =pronouns.possessive= snella corporatura attraverso il mondo brachiato. Un solo occhio rompe il piano del =pronouns.possessive= viso nudo; la mancanza di percezione della profondità potrebbe inibire la =pronouns.possessive= efficacia nel lancio, se non fosse in grado di triangolare un bersaglio con i propri duplicati." />
   </object>
   <object Name="Gibbon Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di gibbone" />
@@ -1707,7 +1707,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Juicing Cannibal" Load="Merge">
     <part Name="Render" DisplayName="▶cannibale inoculato" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un =pronouns.personTerm= oltre il patogeno: muscoli rigonfi in grottesca asimmetria, pelle sia dilaniata che squamosa, denti limati in zanne, pupille tremanti dilatate come monete, e sclere vive di tributari di sangue." />
+    <part Name="Description" Short="▶È un =pronouns.personTerm= oltre il patogeno: muscoli rigonfi in grottesca asimmetria, pelle sia dilaniata che squamosa, denti limati in zanne, pupille tremanti dilatate come monete, e sclere vive di tributari di sangue." />
   </object>
   <object Name="Juicing Cannibal Fist" Load="Merge">
     <part Name="Render" DisplayName="▶pugno" />
@@ -1717,7 +1717,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Ickslug" Load="Merge">
     <part Name="Render" DisplayName="▶ickslug" />
-    <part Name="Description" Short="▶Una distesa inzuppata di tessuto molle si salda al pavimento. =pronouns.Subjective= =verb:crumple:afterpronoun= di vita ardente." />
+    <part Name="Description" Short="▶Una distesa inzuppata di tessuto molle si salda al pavimento. Crolla di vita ardente." />
   </object>
   <object Name="Ickslug Bite" Load="Merge">
     <part Name="VibroWeapon" NameForStatus="▶VibroTeeth" />
@@ -1736,7 +1736,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Mimic" Load="Merge">
     <part Name="Render" DisplayName="▶mimo" />
-    <part Name="Description" Short="▶Una forma a stella di tentacoli puri e gommosi freme al punto zero. Quando =pronouns.subjective= =verb:sense:afterpronoun= qualcosa nelle vicinanze, la corrente elettrica carica una scala di fotoni specchio per replicare l'immagine." />
+    <part Name="Description" Short="▶Una forma a stella di tentacoli puri e gommosi freme al punto zero. Quando percepisce qualcosa nelle vicinanze, la corrente elettrica carica una scala di fotoni specchio per replicare l'immagine." />
   </object>
   <object Name="Mimic Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di mimo" />
@@ -1776,7 +1776,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Quartz Baboon" Load="Merge">
     <part Name="Render" DisplayName="▶babbuino di quarzo" />
-    <part Name="Description" Short="▶Una volta il quarzo cristallizzò sulla pelle di una scimmia che si bagnava nelle pozze fumanti del sottosuolo. =pronouns.Subjective= fu scolpita dal raspo della pressione e dalla mano del tempo, e ora le =pronouns.possessive= vocali gutturali rimbalzano verso l'orecchio del vuoto." />
+    <part Name="Description" Short="▶Una volta il quarzo cristallizzò sulla pelle di una scimmia che si bagnava nelle pozze fumanti del sottosuolo. Fu scolpita dal raspo della pressione e dalla mano del tempo, e ora le =pronouns.possessive= vocali gutturali rimbalzano verso l'orecchio del vuoto." />
   </object>
   <object Name="Vicious_Baboon_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶morso feroce" />
@@ -1801,7 +1801,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Slumberling" Load="Merge">
     <part Name="Render" DisplayName="▶slumberling" />
-    <part Name="Description" Short="▶Quasi lo scambi per un masso, poi noti una piega nella =pronouns.possessive= pelle mentre =pronouns.subjective= =verb:draw:afterpronoun= un respiro lento, ibernativo. Improvvisamente capisci il detto tra gli allevatori di maiali: temi sempre i grandi massi." />
+    <part Name="Description" Short="▶Quasi lo scambi per un masso, poi noti una piega nella =pronouns.possessive= pelle mentre trae un respiro lento, ibernativo. Improvvisamente capisci il detto tra gli allevatori di maiali: temi sempre i grandi massi." />
   </object>
   <object Name="Slumberling Claw" Load="Merge">
     <part Name="Render" DisplayName="▶artiglio" />
@@ -1892,7 +1892,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Banner-Knight Templar" Load="Merge">
     <part Name="Render" DisplayName="▶Cavaliere Templare Stendardo" />
-    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gravati dal peso del Santo Rombo." />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. È gravati dal peso del Santo Rombo." />
   </object>
   <object Name="Gunner-Knight Templar" Load="Merge">
     <part Name="Render" DisplayName="▶Cavaliere Templare Cannoniere" />
@@ -1904,27 +1904,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Knight Templar" Load="Merge">
     <part Name="Render" DisplayName="▶Cavaliere Templare" />
-    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. È gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
   </object>
   <object Name="Newfather" Load="Merge">
     <part Name="Render" DisplayName="▶nuovo padre" />
-    <part Name="Description" Short="▶Labbra bianche pendono dal =pronouns.possessive= viso incappucciato e mascelluto nell'asimmetria della delusione. Il =pronouns.Possessive= sopracciglio comprime la morbidezza fuori dai =pronouns.possessive= occhi esangui. =pronouns.Subjective= guarda i propri nuovi figli con una miscela di viva tenerezza e disgusto. Per =pronouns.objective=, sono piccoli burattini; le loro membra devono essere piegate intorno alle articolazioni con amorosa precisione, o verranno spalancate dalle loro stesse volontà, inutili e rotte." />
+    <part Name="Description" Short="▶Labbra bianche pendono dal =pronouns.possessive= viso incappucciato e mascelluto nell'asimmetria della delusione. Il =pronouns.Possessive= sopracciglio comprime la morbidezza fuori dai =pronouns.possessive= occhi esangui. Guarda i propri nuovi figli con una miscela di viva tenerezza e disgusto. Per =pronouns.objective=, sono piccoli burattini; le loro membra devono essere piegate intorno alle articolazioni con amorosa precisione, o verranno spalancate dalle loro stesse volontà, inutili e rotte." />
   </object>
   <object Name="Phylactery Squire" Load="Merge">
     <part Name="Render" DisplayName="▶scudiero del filatterio" />
-    <part Name="Description" Short="▶La pelle umida scintilla dietro le =pronouns.possessive= orecchie. La =pronouns.Possessive= colonna vertebrale si incurva in attesa della sua curvatura destinata nel sangue, e =pronouns.subjective= =verb:poke:afterpronoun= il =pronouns.possessive= mento in emulazione degli anziani. La lucidatura del legno macchia le =pronouns.possessive= mani, che =pronouns.subjective= =verb:struggle:afterpronoun= a tenere perfettamente ferme." />
+    <part Name="Description" Short="▶La pelle umida scintilla dietro le =pronouns.possessive= orecchie. La =pronouns.Possessive= colonna vertebrale si incurva in attesa della sua curvatura destinata nel sangue, e sporge il =pronouns.possessive= mento in emulazione degli anziani. La lucidatura del legno macchia le =pronouns.possessive= mani, che si sforza a tenere perfettamente ferme." />
   </object>
   <object Name="Wraith-Knight Templar" Load="Merge">
     <part Name="Render" DisplayName="▶Cavaliere Templare Spettro dell'Honorum Binario" />
-    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. =pronouns.Subjective==verb:'re:afterpronoun= gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
+    <part Name="Description" Short="▶Maglia lucidata e spazzolata pende sul =pronouns.possessive= dorso curvo e la mandibola prominente. Anche il colore fu succhiato via dai =pronouns.possessive= iris dalla =pronouns.possessive= stirpe aggrovigliata, e le =pronouns.possessive= labbra umide e rosee catturano la luce e la rimandano indietro in uno sberleffo tagliente. È gonfi in emulazione della =pronouns.possessive= nobiltà e del simbolo della =pronouns.possessive= spada." />
   </object>
   <object Name="Gyre Wight of Rermadon" Load="Merge">
     <part Name="Render" DisplayName="▶spirito del Gyre di Rermadon" />
-    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. =pronouns.Subjective= =verb:smell:afterpronoun= di budella di pesce bruciate." />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. Odora di budella di pesce bruciate." />
   </object>
   <object Name="Gyre Wight of Qas" Load="Merge">
     <part Name="Render" DisplayName="▶spirito del Gyre di Qas" />
-    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. =pronouns.Subjective= =verb:bear:afterpronoun= tatuaggi sulla pelle a forma di esagoni." />
+    <part Name="Description" Short="▶Una figura è contrassegnata da vesti d'orchidea stellare come votaria del Gyre e celebrante del numen metamorfico. Unghie nere di sporcizia guizzano fuori dalla =pronouns.possessive= manica in un gesto-poesia per dire che la peste è solo trasmutazione, la morte è la scala verso la vita, e l'esistenza dei bambini prova la prelatura della crescita grezza. Porta tatuaggi sulla pelle a forma di esagoni." />
   </object>
   <object Name="Gyre Wight of Qon" Load="Merge">
     <part Name="Render" DisplayName="▶spirito del Gyre di Qon" />
@@ -1986,7 +1986,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Graverobber" Load="Merge">
     <part Name="Render" DisplayName="▶ladro di tombe" />
-    <part Name="Description" Short="▶Dita segnate da cicatrici con unghie incrostate di muschio stringono una borsa di pelle di maiale rigonfia di attrezzi da scavo funebre. Un cappuccio e un mantello neri avvolgono un corpo agile inclinato su una colonna vertebrale storta; =pronouns.subjective= =verb:are:afterpronoun= abituato a inchinarsi verso il suolo." />
+    <part Name="Description" Short="▶Dita segnate da cicatrici con unghie incrostate di muschio stringono una borsa di pelle di maiale rigonfia di attrezzi da scavo funebre. Un cappuccio e un mantello neri avvolgono un corpo agile inclinato su una colonna vertebrale storta; è abituato a inchinarsi verso il suolo." />
   </object>
   <object Name="Goatfolk Qlippoth" Load="Merge">
     <part Name="Render" DisplayName="▶qlippoth dei popoli capra" />
@@ -2013,7 +2013,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="High Dervish of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="▶alto derviscio della Via Cieca" />
-    <part Name="Description" Short="▶Il grasso è stato tolto dalle =pronouns.possessive= membra-fuso sul tornio psichico. Le iridi dei =pronouns.possessive= occhi sono modellate su forme che non possono essere disegnate nelle geometrie del mondo naturale, e =pronouns.subjective= =verb:wear:afterpronoun= una benda sugli occhi per custodire i loro segreti e segnare la =pronouns.possessive= conoscenza. La =pronouns.Possessive= arma è immateriale ma inscindibile; è stata filata dalla stessa materia del pensiero del =pronouns.possessive= ego." />
+    <part Name="Description" Short="▶Il grasso è stato tolto dalle =pronouns.possessive= membra-fuso sul tornio psichico. Le iridi dei =pronouns.possessive= occhi sono modellate su forme che non possono essere disegnate nelle geometrie del mondo naturale, e indossa una benda sugli occhi per custodire i loro segreti e segnare la =pronouns.possessive= conoscenza. La =pronouns.Possessive= arma è immateriale ma inscindibile; è stata filata dalla stessa materia del pensiero del =pronouns.possessive= ego." />
   </object>
   <object Name="Holographic Beth" Load="Merge">
     <part Name="Render" DisplayName="▶beth olografico" />
@@ -2043,7 +2043,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Ogre Ape" Load="Merge">
     <part Name="Render" DisplayName="▶{{W|scimmia orco}}" />
-    <part Name="Description" Short="▶Dalla grande fronte inclinata di quest'uomo-scimmia non spunta alcun pelo, sebbene una ricca pelliccia nera scorra sul resto del =pronouns.possessive= corpo. Le ampie nocche sopportano il peso della bestia mentre essa =verb:saunter= avanti in cerca di qualcosa da colpire." />
+    <part Name="Description" Short="▶Dalla grande fronte inclinata di quest'uomo-scimmia non spunta alcun pelo, sebbene una ricca pelliccia nera scorra sul resto del =pronouns.possessive= corpo. Le ampie nocche sopportano il peso della bestia mentre essa avanza avanti in cerca di qualcosa da colpire." />
   </object>
   <object Name="Ogre ape fist" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|pugno di scimmia}}" />
@@ -2079,10 +2079,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="BaseSlynth" Load="Merge">
     <part Name="Render" DisplayName="▶slynth" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:peer:afterpronoun= da sotto la larga foglia-bordo che cade sulla =pronouns.possessive= testa come un cappello, e il fiore che corona il verdeggiante copricapo diffonde un bagliore rosseggiante attorno a =pronouns.objective=. Le ninfee non hanno mai camminato prima, ma le =pronouns.possessive= radici si raccolgono a ogni passo sollevato, appiattendosi di nuovo quando vengono posate." />
+    <part Name="Description" Short="▶Sbircia da sotto la larga foglia-bordo che cade sulla =pronouns.possessive= testa come un cappello, e il fiore che corona il verdeggiante copricapo diffonde un bagliore rosseggiante attorno a =pronouns.objective=. Le ninfee non hanno mai camminato prima, ma le =pronouns.possessive= radici si raccolgono a ogni passo sollevato, appiattendosi di nuovo quando vengono posate." />
   </object>
   <object Name="Slynth Wanderer" Load="Merge">
-    <part Name="Description" Short="▶Da lontano, =pronouns.subjective= potrebbe essere scambiato per un umano che indossa un cappello a tesa larga con una lanterna, ma =pronouns.subjective= =verb:are:afterpronoun= tutt'altro che umano e il =pronouns.possessive= cappello non è un indumento. =pronouns.Subjective= =verb:carry:afterpronoun= le =pronouns.possessive= armi e attrezzature in agili dita verdi, la larga foglia sulla =pronouns.possessive= testa segnata e consumata dalle intemperie, il fiore splendente sulla =pronouns.possessive= corona che brilla intensamente. =pronouns.Subjective= =verb:dress:afterpronoun= come un vagabondo e =verb:speak:afterpronoun= come se fosse nuovo alla pratica." />
+    <part Name="Description" Short="▶Da lontano, potrebbe essere scambiato per un umano che indossa un cappello a tesa larga con una lanterna, ma è tutt'altro che umano e il =pronouns.possessive= cappello non è un indumento. Porta le =pronouns.possessive= armi e attrezzature in agili dita verdi, la larga foglia sulla =pronouns.possessive= testa segnata e consumata dalle intemperie, il fiore splendente sulla =pronouns.possessive= corona che brilla intensamente. Si veste come un vagabondo e parla come se fosse nuovo alla pratica." />
   </object>
   <object Name="Strip Fly" Load="Merge">
     <part Name="Render" DisplayName="▶mosca a striscia" />
@@ -2093,7 +2093,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Trash Abbot" Load="Merge">
     <part Name="Render" DisplayName="▶abate della spazzatura" />
-    <part Name="Description" Short="▶Gli strati dei mucchi di spazzatura incrostata di ruggine lo avvolgono come un tallith decorato. =pronouns.Subjective= =verb:wear:afterpronoun= anche orecchini di vetro millenario, spalline di circuiti stampati dipinti di gallio e braccialetti alla caviglia di capelli di cadavere." />
+    <part Name="Description" Short="▶Gli strati dei mucchi di spazzatura incrostata di ruggine lo avvolgono come un tallith decorato. Indossa anche orecchini di vetro millenario, spalline di circuiti stampati dipinti di gallio e braccialetti alla caviglia di capelli di cadavere." />
   </object>
   <object Name="Urn Porter" Load="Merge">
     <part Name="Render" DisplayName="▶spolveratore di urne" />
@@ -2160,22 +2160,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="MopangoCharioteer" Load="Merge">
     <part Name="Render" DisplayName="▶auriga mopango" />
-    <part Name="Description" Short="▶Questa creatura incurvata, luminosa e corazzata siede permanentemente fissata nel telaio di un veicolo basso, su cui è montata una coppia di ruote immacolate. =pronouns.Subjective= =verb:roll:afterpronoun= con precisione esperta, la velocità superando quella dei =pronouns.possessive= parenti che camminano." />
+    <part Name="Description" Short="▶Questa creatura incurvata, luminosa e corazzata siede permanentemente fissata nel telaio di un veicolo basso, su cui è montata una coppia di ruote immacolate. Fa rotolare con precisione esperta, la velocità superando quella dei =pronouns.possessive= parenti che camminano." />
   </object>
   <object Name="MopangoPilgrim" Load="Merge">
     <part Name="Render" DisplayName="▶pellegrino mopango" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
+    <part Name="Description" Short="▶Si rannicchia in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
     <tag Name="HeroNameTitleWiseDescriptor" Value="▶Umile,Imperscrutabile,Impassibile,Semplice,Ordinario,Longevo,Deliberato" />
     <tag Name="HeroNameTitleMayorSyn" Value="▶saggio,oracolo,veggente,faro" />
     <tag Name="HeroNameTitleMayorSynCap" Value="▶Saggio,Oracolo,Veggente,Faro" />
   </object>
   <object Name="MopangoTombdweller" Load="Merge">
     <part Name="Render" DisplayName="▶abitatore delle tombe mopango" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
+    <part Name="Description" Short="▶Si rannicchia in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
   </object>
   <object Name="MopangoWatcher" Load="Merge">
     <part Name="Render" DisplayName="▶guardiano mopango" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
+    <part Name="Description" Short="▶Si rannicchia in un morbido alone di luce fresca che emana direttamente dalle placche della =pronouns.possessive= armatura carapace e dalla pelliccia tra di esse. Ogni movimento è accompagnato da una musica sibilante mentre quelle placche scivolano l'una sull'altra, sussurrando una preghiera silenziosa." />
   </object>
   <object Name="Blast Cannon Tinker" Load="Merge">
     <part Name="Render" DisplayName="▶meccanico cannone a esplosione" />
@@ -2259,7 +2259,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Kaleidoslug" Load="Merge">
     <part Name="Render" DisplayName="▶{{kaleidoslug|kaleidoslug}}" />
-    <part Name="Description" Short="▶Con una luce abbastanza intensa, =pronouns.subjective= quasi =verb:glow:afterpronoun=. Come brilla la pelle del =pronouns.possessive= tronco striato come nastri di vetro dipinto sospesi in un guscio di cristallo -- eppure =pronouns.subjective= =verb:move:afterpronoun=. Le =pronouns.Possessive= branchie frattali ondeggiano in una corrente invisibile, e di tanto in tanto, =pronouns.subjective= =verb:croon:afterpronoun= una melodia morbida e ulutante." />
+    <part Name="Description" Short="▶Con una luce abbastanza intensa, quasi brilla. Come brilla la pelle del =pronouns.possessive= tronco striato come nastri di vetro dipinto sospesi in un guscio di cristallo -- eppure si muove. Le =pronouns.Possessive= branchie frattali ondeggiano in una corrente invisibile, e di tanto in tanto, canticchia una melodia morbida e ulutante." />
   </object>
   <object Name="Kaleidoslug Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di kaleidoslug" />
@@ -2271,7 +2271,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Lithofex" Load="Merge">
     <part Name="Render" DisplayName="▶lithofex" />
-    <part Name="Description" Short="▶Le crepe nelle =pronouns.possessive= scaglie si allargano mentre =pronouns.subjective= =verb:flex:afterpronoun= le =pronouns.possessive= articolazioni pietrificate, e la polvere incipria il terreno sotto =pronouns.objective=. Sotto le =pronouns.possessive= palpebre a stalattite, un fascio pietrificante viene messo a fuoco." />
+    <part Name="Description" Short="▶Le crepe nelle =pronouns.possessive= scaglie si allargano mentre flette le =pronouns.possessive= articolazioni pietrificate, e la polvere incipria il terreno sotto =pronouns.objective=. Sotto le =pronouns.possessive= palpebre a stalattite, un fascio pietrificante viene messo a fuoco." />
   </object>
   <object Name="ProjectileStoneGaze" Load="Merge">
     <part Name="Render" DisplayName="▶{{K|sguardo funesto}}" />
@@ -2349,14 +2349,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Trining Lamprey" Load="Merge">
     <part Name="Render" DisplayName="▶lamprea trinante" />
-    <part Name="Description" Short="▶Un gigantesco nastro di tessuto senza scaglie vibra in sospensione oltre una bocca cerchiata di denti triangolari ripetuti, e pinne immaginate vestono la =pronouns.possessive= lunghezza lucente. =pronouns.Subjective= =verb:extrude:afterpronoun= un doppio attraverso i piani specchiati della realtà, e si inverte attraverso di essi per estrudere un triplo." />
+    <part Name="Description" Short="▶Un gigantesco nastro di tessuto senza scaglie vibra in sospensione oltre una bocca cerchiata di denti triangolari ripetuti, e pinne immaginate vestono la =pronouns.possessive= lunghezza lucente. Estrude un doppio attraverso i piani specchiati della realtà, e si inverte attraverso di essi per estrudere un triplo." />
   </object>
   <object Name="TriningLamprey_Bite" Load="Merge">
     <part Name="Render" DisplayName="▶{{B|morso psichico}}" />
   </object>
   <object Name="Sultan Croc" Load="Merge">
     <part Name="Render" DisplayName="▶coccodrillo sultano" />
-    <part Name="Description" Short="▶Depositi di materia ossea sono stati colati negli stampi di placche fratturate e creste lungo la =pronouns.possessive= gigantesca estensione. =pronouns.Subjective= =verb:flatten:afterpronoun= sotto il =pronouns.possessive= stesso peso titanico, e denti grandi come picconi di fulcrete si allineano nella =pronouns.possessive= bocca simile a pietra." />
+    <part Name="Description" Short="▶Depositi di materia ossea sono stati colati negli stampi di placche fratturate e creste lungo la =pronouns.possessive= gigantesca estensione. Si appiattisce sotto il =pronouns.possessive= stesso peso titanico, e denti grandi come picconi di fulcrete si allineano nella =pronouns.possessive= bocca simile a pietra." />
   </object>
   <object Name="Sultan Croc Corpse" Load="Merge">
     <part Name="Render" DisplayName="▶cadavere di sultano {{g|coccodrillo}}" />
@@ -2366,18 +2366,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Svardym Egg Sac" Load="Merge">
     <part Name="Render" DisplayName="▶sacco uova di svardym" />
-    <part Name="Description" Short="▶La =pronouns.Possessive= membrana bitorzoluta si gonfia e pulsa mentre =pronouns.subjective= =verb:struggle:afterpronoun= di contenere la massa guizzante di vita embrionale di rana al suo interno." />
+    <part Name="Description" Short="▶La =pronouns.Possessive= membrana bitorzoluta si gonfia e pulsa mentre si sforza di contenere la massa guizzante di vita embrionale di rana al suo interno." />
   </object>
   <object Name="Svardym Hatchling" Load="Merge">
     <part Name="Render" DisplayName="▶cucciolo di svardym" />
-    <part Name="Description" Short="▶Piedi verdi sovradimensionati e lucenti ticchettano come gocce di pioggia: silenziosi da soli e assordanti in massa. Spinto da un metabolismo fulmineo e agitato da tuonanti morsi della fame, =pronouns.subjective= =verb:long:afterpronoun= di afferrare la preda nelle =pronouns.possessive= zampe anteriori appiccicose e rosicchiarla fino all'osso." />
+    <part Name="Description" Short="▶Piedi verdi sovradimensionati e lucenti ticchettano come gocce di pioggia: silenziosi da soli e assordanti in massa. Spinto da un metabolismo fulmineo e agitato da tuonanti morsi della fame, desidera di afferrare la preda nelle =pronouns.possessive= zampe anteriori appiccicose e rosicchiarla fino all'osso." />
   </object>
   <object Name="Svardym_WebbedFoot" Load="Merge">
     <part Name="Render" DisplayName="▶piede palmato" />
   </object>
   <object Name="Svardym Scrounge" Load="Merge">
     <part Name="Render" DisplayName="▶svardym raccoglitore" />
-    <part Name="Description" Short="▶Pur essendo ancora giovane, =pronouns.subjective= =verb:have:afterpronoun= acquisito senno oltre quello di un cucciolo e ora =verb:gather:afterpronoun= anche ninnoli scintillanti da accumulare. Schiacciando polipi di corallo in bocca e avvolgendo i pezzetti nella saliva appiccicosa, =pronouns.subjective= =verb:craft:afterpronoun= bocconi di schegge taglienti da lanciare contro chi lo minaccia." />
+    <part Name="Description" Short="▶Pur essendo ancora giovane, ha acquisito senno oltre quello di un cucciolo e ora raccoglie anche ninnoli scintillanti da accumulare. Schiacciando polipi di corallo in bocca e avvolgendo i pezzetti nella saliva appiccicosa, crea bocconi di schegge taglienti da lanciare contro chi lo minaccia." />
   </object>
   <object Name="Svardym_Spit" Load="Merge">
     <part Name="Render" DisplayName="▶bocca di polipi schiacciati" />
@@ -2388,19 +2388,19 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Svardym Jut" Load="Merge">
     <part Name="Render" DisplayName="▶svardym prominente" />
-    <part Name="Description" Short="▶Pur essendo ancora giovane, =pronouns.subjective= =verb:have:afterpronoun= acquisito senno oltre quello di un cucciolo e ora =verb:gather:afterpronoun= anche armi per una caccia migliore. Spezzando un pezzo di corallo lungo le sue linee di taglio e masticandolo, =pronouns.subjective= =verb:shape:afterpronoun= i detriti in un bordo fragile ma letale." />
+    <part Name="Description" Short="▶Pur essendo ancora giovane, ha acquisito senno oltre quello di un cucciolo e ora raccoglie anche armi per una caccia migliore. Spezzando un pezzo di corallo lungo le sue linee di taglio e masticandolo, plasma i detriti in un bordo fragile ma letale." />
   </object>
   <object Name="Svardym Eld" Load="Merge">
     <part Name="Render" DisplayName="▶svardym anziano" />
-    <part Name="Description" Short="▶Questo svardym ha fatto ciò che pochissimi altri hanno fatto: =pronouns.subjective==verb:'ve:afterpronoun= invecchiato. Dal cervello verrucoso e più pesante dei =pronouns.possessive= simili, =pronouns.subjective= =verb:roam:afterpronoun= il territorio con i =pronouns.possessive= sottoposti, avvolto in un mantello, in cerca di prede vulnerabili alle =pronouns.possessive= deviazioni psichiche." />
+    <part Name="Description" Short="▶Questo svardym ha fatto ciò che pochissimi altri hanno fatto: ha invecchiato. Dal cervello verrucoso e più pesante dei =pronouns.possessive= simili, vaga il territorio con i =pronouns.possessive= sottoposti, avvolto in un mantello, in cerca di prede vulnerabili alle =pronouns.possessive= deviazioni psichiche." />
   </object>
   <object Name="Arch Dervish of the Sightless Way" Load="Merge">
     <part Name="Render" DisplayName="▶arciderviscio della Via Cieca" />
-    <part Name="Description" Short="▶Il grasso è stato tolto dalle =pronouns.possessive= membra-fuso sul tornio psichico. Le iridi dei =pronouns.possessive= occhi sono modellate su forme che non possono essere disegnate nelle geometrie del mondo naturale, e =pronouns.subjective= =verb:wear:afterpronoun= una benda sugli occhi per custodire i loro segreti. La =pronouns.Possessive= arma è immateriale ma inscindibile; è stata filata dalla stessa materia del pensiero del =pronouns.possessive= ego. Intorno al =pronouns.possessive= collo =pronouns.subjective= =verb:wear:afterpronoun= la gorgiera ornamentale; la =pronouns.possessive= maestria nel combattimento le ha dato accesso a una visione più antica della vista." />
+    <part Name="Description" Short="▶Il grasso è stato tolto dalle =pronouns.possessive= membra-fuso sul tornio psichico. Le iridi dei =pronouns.possessive= occhi sono modellate su forme che non possono essere disegnate nelle geometrie del mondo naturale, e indossa una benda sugli occhi per custodire i loro segreti. La =pronouns.Possessive= arma è immateriale ma inscindibile; è stata filata dalla stessa materia del pensiero del =pronouns.possessive= ego. Intorno al =pronouns.possessive= collo indossa la gorgiera ornamentale; la =pronouns.possessive= maestria nel combattimento le ha dato accesso a una visione più antica della vista." />
   </object>
   <object Name="Astral Tabby" Load="Merge">
     <part Name="Render" DisplayName="▶gatto soriano astrale" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:flicker:afterpronoun= dietro il =pronouns.possessive= manto marmoreo, abitando sincronicamente questa dimensione mentre percorre i corridoi onirici del =pronouns.possessive= mondo chimerico." />
+    <part Name="Description" Short="▶Sfarfalla dietro il =pronouns.possessive= manto marmoreo, abitando sincronicamente questa dimensione mentre percorre i corridoi onirici del =pronouns.possessive= mondo chimerico." />
   </object>
   <object Name="Astral_Tabby_Claw" Load="Merge">
     <part Name="Render" DisplayName="▶artiglio" />
@@ -2469,11 +2469,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Grand Newfather" Load="Merge">
     <part Name="Render" DisplayName="▶grande nuovo padre" />
-    <part Name="Description" Short="▶Grandi labbra bianche pendono dalla =pronouns.possessive= faccia incappucciata e con la mascella esagerata nell'asimmetria della delusione. Le =pronouns.Possessive= sopracciglia esprimono la durezza dei =pronouns.possessive= occhi vecchi e privi di colore. =pronouns.Subjective= guarda i =pronouns.possessive= grandi nuovi figli con un misto di acuta tenerezza e disgusto. Per =pronouns.objective=, sono piccoli burattini; le loro membra devono essere piegate attorno alle loro articolazioni con amorevole precisione, o vengono spalancate dalle loro stesse volontà, inutili e spezzate." />
+    <part Name="Description" Short="▶Grandi labbra bianche pendono dalla =pronouns.possessive= faccia incappucciata e con la mascella esagerata nell'asimmetria della delusione. Le =pronouns.Possessive= sopracciglia esprimono la durezza dei =pronouns.possessive= occhi vecchi e privi di colore. Guarda i propri grandi nuovi figli con un misto di acuta tenerezza e disgusto. Per =pronouns.objective=, sono piccoli burattini; le loro membra devono essere piegate attorno alle loro articolazioni con amorevole precisione, o vengono spalancate dalle loro stesse volontà, inutili e spezzate." />
   </object>
   <object Name="Gyre Wight Apotheote" Load="Merge">
     <part Name="Render" DisplayName="▶apoteosi del wight del vortice" />
-    <part Name="Description" Short="▶Il =pronouns.Possessive= stomaco è unto e gonfio dall'emolinfa coagulata, e le =pronouns.possessive= membra sono avvizzite e piegate. =pronouns.Subjective= =verb:are:afterpronoun= il vaso del numen metamorfico ora; le cicatrici del =pronouns.possessive= genoma mescolato sottoscrivono il =pronouns.possessive= corpo che crolla come croste luminose." />
+    <part Name="Description" Short="▶Il =pronouns.Possessive= stomaco è unto e gonfio dall'emolinfa coagulata, e le =pronouns.possessive= membra sono avvizzite e piegate. È il vaso del numen metamorfico ora; le cicatrici del =pronouns.possessive= genoma mescolato sottoscrivono il =pronouns.possessive= corpo che crolla come croste luminose." />
   </object>
   <object Name="Apotheote_Claws" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|artiglio a unghia lucente}}" />
@@ -2551,7 +2551,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Zero Jell" Load="Merge">
     <part Name="Render" DisplayName="▶{{y|gelatina zero}}" />
-    <part Name="Description" Short="▶Le particelle scoppiano su una placenta vitrea che separa il mondo disordinato da una grande cupola interiore di disordine ancor più vasto. =pronouns.Subjective= si muove in un foxtrot quantizzato, tremando attraverso il confine dello spaziotempo locale e stabilendosi da qualche parte solo quando l'entanglement lo richiede." />
+    <part Name="Description" Short="▶Le particelle scoppiano su una placenta vitrea che separa il mondo disordinato da una grande cupola interiore di disordine ancor più vasto. Si muove in un foxtrot quantizzato, tremando attraverso il confine dello spaziotempo locale e stabilendosi da qualche parte solo quando l'entanglement lo richiede." />
   </object>
   <object Name="Entropic Pseudopod" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|pseudopodo entropico}}" />
@@ -2584,7 +2584,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="VehicleTemplarMech3" Load="Merge">
     <part Name="Render" DisplayName="▶mecha del tempio mk II" />
-    <part Name="Description" Short="▶Una tuta divina di cromo brilla nell'olio di sangue battesimale della Grande Cisterna, dove persino stando al bacino più basso =pronouns.subjective= sfondava le travi della caverna. Trecce di uuflax cinte con legami di foglia d'oro extraterrestre si riversano dall'antenna a corona e sul =pronouns.possessive= telaio deltoide. Ogni pezzo del =pronouns.possessive= vetro e cromo era proveniente dal cuore arcologico, incassato nella resina, sollevato a catena e spazzolato a caldo nella fonderia del tempio. Il portello d'accesso è appeso con un tappeto sigillo del pilota, che vi è entrato per ancorarsi qui anni fa e ora comunica con la Divinità." />
+    <part Name="Description" Short="▶Una tuta divina di cromo brilla nell'olio di sangue battesimale della Grande Cisterna, dove persino stando al bacino più basso sfondava le travi della caverna. Trecce di uuflax cinte con legami di foglia d'oro extraterrestre si riversano dall'antenna a corona e sul =pronouns.possessive= telaio deltoide. Ogni pezzo del =pronouns.possessive= vetro e cromo era proveniente dal cuore arcologico, incassato nella resina, sollevato a catena e spazzolato a caldo nella fonderia del tempio. Il portello d'accesso è appeso con un tappeto sigillo del pilota, che vi è entrato per ancorarsi qui anni fa e ora comunica con la Divinità." />
   </object>
   <object Name="GiganticMachineHull" Load="Merge">
     <part Name="Render" DisplayName="▶{{c|scafo meccanico}}" />
@@ -2607,7 +2607,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Daughter of Exile" Load="Merge">
     <part Name="Render" DisplayName="▶figlia dell'Esilio" />
-    <part Name="Description" Short="▶Macchie d'olio e ustioni ad arco rigano la carne che fa capolino da sotto il frustum del =pronouns.possessive= abito, e gli strumenti cinturati alla =pronouns.possessive= vita producono un affossamento nei =pronouns.possessive= pantaloni. =pronouns.Subjective= =verb:are:afterpronoun= guidata dal punto ricamato dell'emblema diasporico del =pronouns.possessive= ordine, fissato con un ago magnetico, e che la indica verso i giardini selvaggi oltre il muro." />
+    <part Name="Description" Short="▶Macchie d'olio e ustioni ad arco rigano la carne che fa capolino da sotto il frustum del =pronouns.possessive= abito, e gli strumenti cinturati alla =pronouns.possessive= vita producono un affossamento nei =pronouns.possessive= pantaloni. È guidata dal punto ricamato dell'emblema diasporico del =pronouns.possessive= ordine, fissato con un ago magnetico, e che la indica verso i giardini selvaggi oltre il muro." />
   </object>
   <object Name="Giant Clam" Load="Merge">
     <part Name="Render" DisplayName="▶vongola gigante" />
@@ -3292,7 +3292,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="BaseVehicleGolem" Load="Merge">
     <part Name="Render" DisplayName="▶golem" />
-    <part Name="Description" Short="▶L'argilla magnetizzata è intrecciata da circuiti che tracciano tratti colossali e familiari: =body.features=. Una brillante miscela di brodo primordiale e =catalyst= scorre attraverso le =pronouns.possessive= arterie di vetro, e nella sua luce soffusa la =pronouns.possessive= postura evoca la presenza di =atzmus.creature.an=. Arti metacromo simili a diamanti sono scolpiti nel modo di =armament.skill.snippet=, e in una posizione di rilievo sul =pronouns.possessive= corpo, =pronouns.subjective= =verb:bear:afterpronoun= il sacro amuleto di =hamsa.an=." />
+    <part Name="Description" Short="▶L'argilla magnetizzata è intrecciata da circuiti che tracciano tratti colossali e familiari: =body.features=. Una brillante miscela di brodo primordiale e =catalyst= scorre attraverso le =pronouns.possessive= arterie di vetro, e nella sua luce soffusa la =pronouns.possessive= postura evoca la presenza di =atzmus.creature.an=. Arti metacromo simili a diamanti sono scolpiti nel modo di =armament.skill.snippet=, e in una posizione di rilievo sul =pronouns.possessive= corpo, porta il sacro amuleto di =hamsa.an=." />
   </object>
   <object Name="Antelope Golem" Load="Merge">
     <part Name="Render" DisplayName="▶golem antilope" />
@@ -3621,7 +3621,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="AppleMerchant" Load="Merge">
     <part Name="Render" DisplayName="▶coltivatore di mele" />
-    <part Name="Description" Short="▶=pronouns.This= =pronouns.personTerm= robusto e baffuto =verb:wear:afterpronoun= un grembiule bianco macchiato del succo delle mele stellari. I capelli corvini di =pronouns.possessive= si appiattiscono contro la pelle abbronzata della fronte di =pronouns.possessive=. Dall'avambraccio sinistro di =pronouns.possessive= pende uno straccio bagnato, con il quale =pronouns.subjective= =verb:scrub:afterpronoun= la sporcizia dalle mani di =pronouns.possessive= ogni pochi istanti." />
+    <part Name="Description" Short="▶=pronouns.This= =pronouns.personTerm= robusto e baffuto indossa un grembiule bianco macchiato del succo delle mele stellari. I capelli corvini di =pronouns.possessive= si appiattiscono contro la pelle abbronzata della fronte di =pronouns.possessive=. Dall'avambraccio sinistro di =pronouns.possessive= pende uno straccio bagnato, con il quale strofina la sporcizia dalle mani di =pronouns.possessive= ogni pochi istanti." />
   </object>
   <object Name="Bookbinder" Load="Merge">
     <part Name="Render" DisplayName="▶rilegatore" />
@@ -3647,27 +3647,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Kipper" Load="Merge">
     <part Name="Render" DisplayName="▶conserviere" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:knead:afterpronoun= i resti di marmellate e paste contro il camice di =pronouns.possessive=. Steli tagliati di yuckwheat decorano inconsapevolmente i capelli grigi di =pronouns.possessive=. =pronouns.Subjective= =verb:smell:afterpronoun= come un pasto d'infanzia." />
+    <part Name="Description" Short="▶Impasta i resti di marmellate e paste contro il camice di =pronouns.possessive=. Steli tagliati di yuckwheat decorano inconsapevolmente i capelli grigi di =pronouns.possessive=. Odora come un pasto d'infanzia." />
   </object>
   <object Name="Vintner" Load="Merge">
     <part Name="Render" DisplayName="▶viticoltore" />
-    <part Name="Description" Short="▶Denti macchiati d'uva riempiono la bocca sorridente di =pronouns.possessive=. =pronouns.Subjective= =verb:sing:afterpronoun= le lodi del vino della famiglia di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Denti macchiati d'uva riempiono la bocca sorridente di =pronouns.possessive=. Canta le lodi del vino della famiglia di =pronouns.possessive=." />
   </object>
   <object Name="Shoemaker" Load="Merge">
     <part Name="Render" DisplayName="▶calzolaio" />
-    <part Name="Description" Short="▶Maniche intrise di sudore soffiano attraverso un grembiule di cuoio. =pronouns.Subjective= =verb:turn:afterpronoun= un punteruolo tra le dita di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Maniche intrise di sudore soffiano attraverso un grembiule di cuoio. Gira un punteruolo tra le dita di =pronouns.possessive=." />
     <tag Name="StaticLikeReason" Value="▶forgiargli scarpe artigianali" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli scarpe artigianali" />
   </object>
   <object Name="Hatter" Load="Merge">
     <part Name="Render" DisplayName="▶cappellaio" />
-    <part Name="Description" Short="▶=pronouns.Subjective==verb:'ve:afterpronoun= intrecciato un cinturino di cuoio tra le dita di =pronouns.possessive=. Pellicce di una dozzina di animali pendono dalla spalla di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Ha intrecciato un cinturino di cuoio tra le dita di =pronouns.possessive=. Pellicce di una dozzina di animali pendono dalla spalla di =pronouns.possessive=." />
     <tag Name="StaticLikeReason" Value="▶forgiargli cappelli artigianali" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli cappelli artigianali" />
   </object>
   <object Name="Glover" Load="Merge">
     <part Name="Render" DisplayName="▶guantaio" />
-    <part Name="Description" Short="▶I tranchi dei guanti sono fissati al dorso delle mani di =pronouns.possessive= con filo allentato. =pronouns.Subjective= =verb:bite:afterpronoun= un ago per tenerlo al sicuro." />
+    <part Name="Description" Short="▶I tranchi dei guanti sono fissati al dorso delle mani di =pronouns.possessive= con filo allentato. Morde un ago per tenerlo al sicuro." />
     <tag Name="StaticLikeReason" Value="▶forgiargli guanti artigianali" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli guanti artigianali" />
   </object>
@@ -3683,19 +3683,19 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Haberdasher" Load="Merge">
     <part Name="Render" DisplayName="▶merciaio" />
-    <part Name="Description" Short="▶Filo metallico, spago e filo si aggrovigliano da rocchetti legati al gilet di =pronouns.possessive=. =pronouns.Subjective= =verb:sport:afterpronoun= un mantello arricciato di moda sconosciuta." />
+    <part Name="Description" Short="▶Filo metallico, spago e filo si aggrovigliano da rocchetti legati al gilet di =pronouns.possessive=. Sfoggia un mantello arricciato di moda sconosciuta." />
     <tag Name="StaticLikeReason" Value="▶forgiargli mantelli artigianali" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli mantelli artigianali" />
   </object>
   <object Name="Armorer" Load="Merge">
     <part Name="Render" DisplayName="▶armaiolo" />
-    <part Name="Description" Short="▶Delle pinze si incastrano tra il grembiule annerito di fuliggine di =pronouns.possessive= e il torace di =pronouns.possessive=. =pronouns.Subjective= =verb:clasp:afterpronoun= un coltello girevole e un martello per lavorare cuoio e metallo." />
+    <part Name="Description" Short="▶Delle pinze si incastrano tra il grembiule annerito di fuliggine di =pronouns.possessive= e il torace di =pronouns.possessive=. Afferra un coltello girevole e un martello per lavorare cuoio e metallo." />
     <tag Name="StaticLikeReason" Value="▶forgiargli armatura artigianale" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli armatura artigianale" />
   </object>
   <object Name="Gunsmith" Load="Merge">
     <part Name="Render" DisplayName="▶armiere" />
-    <part Name="Description" Short="▶Una tesa di cappello schiacciata copre gli occhi di =pronouns.possessive= e una fondina di cuoio siede sulla spalla di =pronouns.possessive=. =pronouns.Subjective= =verb:roll:afterpronoun= un proiettile di piombo sulle nocche callose di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Una tesa di cappello schiacciata copre gli occhi di =pronouns.possessive= e una fondina di cuoio siede sulla spalla di =pronouns.possessive=. Fa rotolare un proiettile di piombo sulle nocche callose di =pronouns.possessive=." />
     <tag Name="StaticLikeReason" Value="▶forgiargli un'arma artigianale" />
     <tag Name="StaticHateReason" Value="▶rifiutarsi di forgiargli un'arma artigianale" />
   </object>
@@ -3705,7 +3705,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="IchorMerchant" Load="Merge">
     <part Name="Render" DisplayName="▶mercante di icor" />
-    <part Name="Description" Short="▶Il grembiule di =pronouns.possessive= è umido di linfa di mille alberi. Le labbra di =pronouns.possessive= sono dipinte ad acquerello. =pronouns.Subjective= =verb:wring:afterpronoun= icor dai capelli di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Il grembiule di =pronouns.possessive= è umido di linfa di mille alberi. Le labbra di =pronouns.possessive= sono dipinte ad acquerello. Strizza icor dai capelli di =pronouns.possessive=." />
     <tag Name="LairName" Value="▶distilleria" />
     <tag Name="LairNameContext" Value="▶la distilleria di =subject.refname:long:withTitles:LairName|strip=" />
     <tag Name="LairPulldownMessage" Value="▶Scopri una distilleria appartata. Vuoi investigare?" />
@@ -3715,7 +3715,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Jeweler" Load="Merge">
     <part Name="Render" DisplayName="▶gioielliere" />
-    <part Name="Description" Short="▶Un monocolo telescopico è fissato all'occhio di =pronouns.possessive=, e =pronouns.subjective= =verb:squint:afterpronoun= permanentemente. =pronouns.Subjective= =verb:twirl:afterpronoun= una pietra delicata in valutazione." />
+    <part Name="Description" Short="▶Un monocolo telescopico è fissato all'occhio di =pronouns.possessive=, e strizza gli occhi permanentemente. Fa girare una pietra delicata in valutazione." />
   </object>
   <object Name="Gemcutter" Load="Merge">
     <part Name="Render" DisplayName="▶incisore di gemme" />
@@ -3767,7 +3767,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="ElderBob" Load="Merge">
     <part Name="Render" DisplayName="▶Irudad" />
-    <part Name="Description" Short="▶Un sorriso caldo si diffonde su un viso vecchio lentigginoso dal tempo e da un milione di briciole di sale. =pronouns.Subjective= =verb:shrink:afterpronoun= sotto una schiena gobba e =verb:drum:afterpronoun= il suolo sotto di =pronouns.objective= con una coda corta e coronata di aculei. Un secondo paio di braccia si eleva sopra il cedimento delle spalle di =pronouns.possessive=, dove le mani si incontrano e le dita si intrecciano a formare un altro viso, questo vacuo e preistorico, senza bocca e con occhi bianchi come il deserto." />
+    <part Name="Description" Short="▶Un sorriso caldo si diffonde su un viso vecchio lentigginoso dal tempo e da un milione di briciole di sale. Si restringe sotto una schiena gobba e tamburella il suolo sotto di =pronouns.objective= con una coda corta e coronata di aculei. Un secondo paio di braccia si eleva sopra il cedimento delle spalle di =pronouns.possessive=, dove le mani si incontrano e le dita si intrecciano a formare un altro viso, questo vacuo e preistorico, senza bocca e con occhi bianchi come il deserto." />
     <part Name="Honorifics" Primary="▶Anziano" />
     <xtagGrammar Proper="▶true" />
   </object>
@@ -3783,7 +3783,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Ctesiphus" Load="Merge">
     <part Name="Render" DisplayName="▶Ctesiphus" />
-    <part Name="Description" Short="▶Una notte intrecciata di stelle, un gatto raggio attraversò il suolo paludoso e vagò fino a Joppa. I coltivatori di vitiligno, svegliati dalle gioiose grida di una bambina, si riunirono per esultare al favorevole presagio ed esaltare la generosità della Luna dello Scarabeo. Da allora, Ctesiphus =verb:have= trascorso i giorni di =pronouns.possessive= raggomitolato all'ombra delle capanne di stelo salato e passeggiando per i sentieri di terra. Finché =pronouns.subjective==verb:'re:afterpronoun= avvicinato con cura, =pronouns.subjective= =verb:welcome:afterpronoun= le mani di amici e sconosciuti allo stesso modo.&#xA;&#xA;{{m|phosphorescent}}" />
+    <part Name="Description" Short="▶Una notte intrecciata di stelle, un gatto raggio attraversò il suolo paludoso e vagò fino a Joppa. I coltivatori di vitiligno, svegliati dalle gioiose grida di una bambina, si riunirono per esultare al favorevole presagio ed esaltare la generosità della Luna dello Scarabeo. Da allora, Ctesiphus ha trascorso i giorni di =pronouns.possessive= raggomitolato all'ombra delle capanne di stelo salato e passeggiando per i sentieri di terra. Finché è avvicinato con cura, accoglie le mani di amici e sconosciuti allo stesso modo.&#xA;&#xA;{{m|phosphorescent}}" />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Tam" Load="Merge">
@@ -3792,31 +3792,31 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Mehmet" Load="Merge">
     <part Name="Render" DisplayName="▶Mehmet" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:are:afterpronoun= un uomo scolpito dal vento con la postura di un falciatore di vitiligni; la spina dorsale di =pronouns.possessive= è piegata per puntare il vivace turchese degli occhi di =pronouns.possessive= all'angolo di aratura, i fianchi di =pronouns.possessive= sono spinti in avanti in modo strano con la rilassata pigrizia di una postura molto più distesa di =pronouns.possessive=. Se non fosse per il sale sulla fronte di =pronouns.possessive= e le nocche cicatrizzate, =pronouns.subjective= sembrerebbe un Saad di marmo appollaiato sotto una tomba in rovina." />
+    <part Name="Description" Short="▶È un uomo scolpito dal vento con la postura di un falciatore di vitiligni; la spina dorsale di =pronouns.possessive= è piegata per puntare il vivace turchese degli occhi di =pronouns.possessive= all'angolo di aratura, i fianchi di =pronouns.possessive= sono spinti in avanti in modo strano con la rilassata pigrizia di una postura molto più distesa di =pronouns.possessive=. Se non fosse per il sale sulla fronte di =pronouns.possessive= e le nocche cicatrizzate, sembrerebbe un Saad di marmo appollaiato sotto una tomba in rovina." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="VillageZeroConvert" Load="Merge">
     <part Name="Render" DisplayName="▶coltivatore di vitiligni e convertito Mecanista" />
   </object>
   <object Name="WatervineFarmerConvert" Load="Merge">
-    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e =pronouns.subjective= =verb:have:afterpronoun= confezionato un sacco di vinewafer per approssimare l'abito ardesia del popolo cromatico. Un fascio di vitiligno legato con filo di rame è appeso al fianco di =pronouns.possessive=, e =pronouns.subjective= =verb:rub:afterpronoun= un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
+    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e ha confezionato un sacco di vinewafer per approssimare l'abito ardesia del popolo cromatico. Un fascio di vitiligno legato con filo di rame è appeso al fianco di =pronouns.possessive=, e strofina un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
   </object>
   <object Name="PigFarmerConvert" Load="Merge">
     <part Name="Render" DisplayName="▶allevatore di maiali e convertito Mecanista" />
-    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e =pronouns.subjective= =verb:have:afterpronoun= confezionato un sacco di mele per approssimare l'abito ardesia del popolo cromatico. Un bastone da pastore rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e =pronouns.subjective= =verb:rub:afterpronoun= un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
+    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e ha confezionato un sacco di mele per approssimare l'abito ardesia del popolo cromatico. Un bastone da pastore rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e strofina un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
   </object>
   <object Name="CannibalConvert" Load="Merge">
     <part Name="Render" DisplayName="▶cannibale e convertito Mecanista" />
-    <part Name="Description" Short="▶Un kufiya strappato è stato tagliato e ricucito a cappuccio, e =pronouns.subjective= =verb:have:afterpronoun= confezionato uno zaino per approssimare l'abito ardesia del popolo cromatico. Un osso umano rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e =pronouns.subjective= =verb:rub:afterpronoun= un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
+    <part Name="Description" Short="▶Un kufiya strappato è stato tagliato e ricucito a cappuccio, e ha confezionato uno zaino per approssimare l'abito ardesia del popolo cromatico. Un osso umano rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e strofina un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
   </object>
   <object Name="IssachariConvert" Load="Merge">
     <part Name="Render" DisplayName="▶razziatore Issachari e convertito Mecanista" />
-    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e =pronouns.subjective= =verb:have:afterpronoun= confezionato uno stendardo logoro per approssimare l'abito ardesia del popolo cromatico. Un pugnale di bronzo rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e =pronouns.subjective= =verb:rub:afterpronoun= un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
+    <part Name="Description" Short="▶Il kufiya di =pronouns.possessive= è stato tagliato e ricucito a cappuccio, e ha confezionato uno stendardo logoro per approssimare l'abito ardesia del popolo cromatico. Un pugnale di bronzo rivestito di filo di rame è appeso al fianco di =pronouns.possessive=, e strofina un pollice inchiodato con sale su un talismano di circuito stampato incrinato." />
   </object>
   <object Name="Warden Yrame" Load="Merge">
     <part Name="Render" DisplayName="▶Yrame" />
     <part Name="Honorifics" Primary="▶Guardiano" />
-    <part Name="Description" Short="▶Il grande Yrame sposta il suo peso tra le zampe posteriori e anteriori. =pronouns.Subjective= =verb:shake:afterpronoun= una tempesta di forfora arrugginita dai denti delle grandi corna di =pronouns.possessive=, e =pronouns.subjective= =verb:blow:afterpronoun= un alone di aria ghiacciante dalle mani dalle vene di brina di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Il grande Yrame sposta il suo peso tra le zampe posteriori e anteriori. Scuote una tempesta di forfora arrugginita dai denti delle grandi corna di =pronouns.possessive=, e soffia un alone di aria ghiacciante dalle mani dalle vene di brina di =pronouns.possessive=." />
     <tag Name="staticFaction1" Value="Joppa,friend,▶difendere il loro villaggio" />
     <xtagGrammar Proper="▶true" />
   </object>
@@ -3845,7 +3845,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="Lulihart" Load="Merge">
     <part Name="Render" DisplayName="▶Lulihart" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Del gracile cervino non c'è molto di più che un fascio di arti sottili come fusi, pelo verde pallido a chiazze e pelle color avorio. Nonostante sia una delle creature più delicate della duna, =pronouns.subjective= =verb:perch:afterpronoun= sugli zoccoli di =pronouns.possessive= con disinvolta compostezza." />
+    <part Name="Description" Short="▶Del gracile cervino non c'è molto di più che un fascio di arti sottili come fusi, pelo verde pallido a chiazze e pelle color avorio. Nonostante sia una delle creature più delicate della duna, si posa sugli zoccoli di =pronouns.possessive= con disinvolta compostezza." />
   </object>
   <object Name="Tszappur" Load="Merge">
     <part Name="Render" DisplayName="▶Tszappur" />
@@ -3854,12 +3854,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Shem -1" Load="Merge">
     <part Name="Render" DisplayName="▶{{c|Shem -1}}" />
-    <part Name="Description" Short="▶Shem ha aumentato il corpo di =pronouns.possessive= oltre la forma basilare del chromeling saldando un cappotto asimmetrico e arricciato di metallo di scarto. È troppo grande e grandioso per la piccola figura di =pronouns.possessive=, ma Shem si muove con sicurezza, come se =pronouns.subjective= si aspettasse di crescere per riempirlo." />
+    <part Name="Description" Short="▶Shem ha aumentato il corpo di =pronouns.possessive= oltre la forma basilare del chromeling saldando un cappotto asimmetrico e arricciato di metallo di scarto. È troppo grande e grandioso per la piccola figura di =pronouns.possessive=, ma Shem si muove con sicurezza, come se si aspettasse di crescere per riempirlo." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Otho" Load="Merge">
     <part Name="Render" DisplayName="▶Otho" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:stand:afterpronoun= con immensa importanza e immobilità, come su qualche vertice nascosto ma vitale dell'enclave.&#xA;&#xA;In nome di Barathrum, =pronouns.subjective==verb:'ve:afterpronoun= conferito su =pronouns.reflexive= la tonsura della gestione e rasato i capelli dal cranio di =pronouns.possessive=. Il muso di =pronouns.possessive= si restringe in proporzione ai corridoi stretti attorno a =pronouns.objective=. La tunica di =pronouns.possessive= è impeccabilmente pulita. I Waydroids bippano e ronzano a =pronouns.objective= obbedientemente mentre passano affrettandosi." />
+    <part Name="Description" Short="▶Sta con immensa importanza e immobilità, come su qualche vertice nascosto ma vitale dell'enclave.&#xA;&#xA;In nome di Barathrum, ha conferito su =pronouns.reflexive= la tonsura della gestione e rasato i capelli dal cranio di =pronouns.possessive=. Il muso di =pronouns.possessive= si restringe in proporzione ai corridoi stretti attorno a =pronouns.objective=. La tunica di =pronouns.possessive= è impeccabilmente pulita. I Waydroids bippano e ronzano a =pronouns.objective= obbedientemente mentre passano affrettandosi." />
     <tag Name="staticFaction3" Value=",dislike,▶rifiutare loro l'ingresso a Grit Gate" />
     <tag Name="staticFaction2" Value=",dislike,▶rifiutare loro l'ingresso a Grit Gate" />
     <tag Name="staticFaction1" Value=",dislike,▶rifiutare loro l'ingresso a Grit Gate" />
@@ -3867,7 +3867,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Q Girl" Load="Merge">
     <part Name="Render" DisplayName="▶Q Girl" />
-    <part Name="Description" Short="▶=pronouns.Subjective==verb:'re:afterpronoun= un opale nel monocromo.&#xA;&#xA;I capelli di =pronouns.possessive= sono un quasar di ocra rossa e indaco nella luce sbiancata dell'officina. La cartilagine di =pronouns.possessive= è trafitta da anelli poliedrici che ruotano in antinomia con la semplice geometria della caverna. Sotto gli aculei la pelle di =pronouns.possessive= è decorata con linee ramificate, elaborazioni fantastiche sui motivi delle schede di circuito scartate. =pronouns.Subjective==verb:'re:afterpronoun= circondata da apparecchiature di propria creazione di =pronouns.possessive=. Attraverso l'armonia di quelle macchine, =pronouns.subjective= =verb:cut= un solco attraverso la salamoia entropica che sfrigola attorno a =pronouns.objective= in un coro sempre più forte." />
+    <part Name="Description" Short="▶È un opale nel monocromo.&#xA;&#xA;I capelli di =pronouns.possessive= sono un quasar di ocra rossa e indaco nella luce sbiancata dell'officina. La cartilagine di =pronouns.possessive= è trafitta da anelli poliedrici che ruotano in antinomia con la semplice geometria della caverna. Sotto gli aculei la pelle di =pronouns.possessive= è decorata con linee ramificate, elaborazioni fantastiche sui motivi delle schede di circuito scartate. È circondata da apparecchiature di propria creazione di =pronouns.possessive=. Attraverso l'armonia di quelle macchine, taglia un solco attraverso la salamoia entropica che sfrigola attorno a =pronouns.objective= in un coro sempre più forte." />
     <tag Name="staticFaction3" Value=",friend,▶sviluppare un modello meccanico quantistico" />
     <tag Name="staticFaction2" Value=",dislike,▶=pronouns.possessive= aspetto insolito" />
     <tag Name="staticFaction1" Value=",hate,▶mettere in discussione la legittimità delle loro gerarchie" />
@@ -3876,7 +3876,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Barathrum" Load="Merge">
     <part Name="Render" DisplayName="▶Barathrum" />
-    <part Name="Description" Short="▶Il greebling assurdo dell'età ha causato la crescita di un ulteriore ciuffo di aculei dove ogni radice di aculeo era stata, così la schiena gobba dell'orso arco più anziano è ora prativa di aghi bianchi di ogni direzione e lunghezza. =pronouns.Subjective= =verb:seem:afterpronoun= un mondo in uno; una spina dorsale accartocciata da un migliaio di anni mantiene ancora una postura di presenza e conoscenza. Sepolti sotto scarpate di pelle raggrinzita, gli occhi di =pronouns.possessive= covano fino all'orizzonte come soli morenti." />
+    <part Name="Description" Short="▶Il greebling assurdo dell'età ha causato la crescita di un ulteriore ciuffo di aculei dove ogni radice di aculeo era stata, così la schiena gobba dell'orso arco più anziano è ora prativa di aghi bianchi di ogni direzione e lunghezza. Sembra un mondo in uno; una spina dorsale accartocciata da un migliaio di anni mantiene ancora una postura di presenza e conoscenza. Sepolti sotto scarpate di pelle raggrinzita, gli occhi di =pronouns.possessive= covano fino all'orizzonte come soli morenti." />
     <tag Name="staticFaction1" Value=",friend,▶inventare il Barathrum clock" />
     <tag Name="staticFaction2" Value=",friend,▶inventare l'astrolabio" />
     <tag Name="staticFaction3" Value="Templar,hate,▶fungere da controesempio ai precetti della loro ortodossia" />
@@ -3895,7 +3895,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Sparafucile" Load="Merge">
     <part Name="Render" DisplayName="▶Sparafucile" />
-    <part Name="Description" Short="▶Dita extra-lunghe e slanciate spingono le lunghezze micrometriche necessarie per regolare una lente di mira o impostare l'oscillatore su un'elsa vibrante. =pronouns.Subjective= =verb:turn:afterpronoun= l'attenzione di =pronouns.possessive= verso di te mentre ti avvicini, per osservare e leggere il tuo discorso." />
+    <part Name="Description" Short="▶Dita extra-lunghe e slanciate spingono le lunghezze micrometriche necessarie per regolare una lente di mira o impostare l'oscillatore su un'elsa vibrante. Gira l'attenzione di =pronouns.possessive= verso di te mentre ti avvicini, per osservare e leggere il tuo discorso." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Jacobo" Load="Merge">
@@ -3905,22 +3905,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Dardi" Load="Merge">
     <part Name="Render" DisplayName="▶Dardi" />
-    <part Name="Description" Short="▶Il grande urshiib è cosparso di spezie e bagnato di unto al miele, e =pronouns.subjective= =verb:smell:afterpronoun= di un melange: fungo caldo, inchiostro nauseante, zafferano e lingua cotta." />
+    <part Name="Description" Short="▶Il grande urshiib è cosparso di spezie e bagnato di unto al miele, e odora di un melange: fungo caldo, inchiostro nauseante, zafferano e lingua cotta." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Hortensa" Load="Merge">
     <part Name="Render" DisplayName="▶Hortensa" />
-    <part Name="Description" Short="▶Striature di capelli grigi e pelle raggrinzita attorno agli occhi di =pronouns.possessive= indicano la giusta posizione di Hortensa sulla linea temporale della vita, ma il fisico di =pronouns.possessive= rimane dritto, le mani di =pronouns.possessive= rimangono destrezzose, e i muscoli di =pronouns.possessive= sono pieni di figura e reattivi. Il portamento di =pronouns.possessive= è affilato e non addolcito dall'età; le labbra di =pronouns.possessive= sono socchiuse nella tensione del pensiero razionale. Ma =pronouns.subjective= =verb:are:afterpronoun= a proprio agio; i movimenti di =pronouns.possessive= non sono affrettati. Ci sono accenni di gioia e calore nel viso di =pronouns.possessive=; brillano attraverso i densi strati di tessuto cresciuti dalla cura della routine." />
+    <part Name="Description" Short="▶Striature di capelli grigi e pelle raggrinzita attorno agli occhi di =pronouns.possessive= indicano la giusta posizione di Hortensa sulla linea temporale della vita, ma il fisico di =pronouns.possessive= rimane dritto, le mani di =pronouns.possessive= rimangono destrezzose, e i muscoli di =pronouns.possessive= sono pieni di figura e reattivi. Il portamento di =pronouns.possessive= è affilato e non addolcito dall'età; le labbra di =pronouns.possessive= sono socchiuse nella tensione del pensiero razionale. Ma è a proprio agio; i movimenti di =pronouns.possessive= non sono affrettati. Ci sono accenni di gioia e calore nel viso di =pronouns.possessive=; brillano attraverso i densi strati di tessuto cresciuti dalla cura della routine." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Iseppa" Load="Merge">
     <part Name="Render" DisplayName="▶Iseppa" />
-    <part Name="Description" Short="▶Gli occhi del Pale Sea del morbido urshiib raggiungono una sorta di paradosso focale. Sembrano focalizzarsi sia impossibilmente vicino, sulle viti e i fermi che =pronouns.subjective= =verb:sort:afterpronoun= davanti a =pronouns.objective=, sia impossibilmente lontano, sull'orizzonte del pensiero raggiungibile. Le palpebre di =pronouns.possessive= si abbassano con la stanchezza di entrambi i compiti." />
+    <part Name="Description" Short="▶Gli occhi del Pale Sea del morbido urshiib raggiungono una sorta di paradosso focale. Sembrano focalizzarsi sia impossibilmente vicino, sulle viti e i fermi che seleziona davanti a =pronouns.objective=, sia impossibilmente lontano, sull'orizzonte del pensiero raggiungibile. Le palpebre di =pronouns.possessive= si abbassano con la stanchezza di entrambi i compiti." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Neek" Load="Merge">
     <part Name="Render" DisplayName="▶Neek" />
-    <part Name="Description" Short="▶Il viso di =pronouns.possessive= è tenero, pulito e punteggiato di minuscole pellicce. I capelli di =pronouns.possessive= sono gelatinizzati e sagomati in un rettangolo appuntito. Gli occhi di =pronouns.possessive= sono chiari e larghi. Vestiti strani pendono attorno alla stretta figura di =pronouns.possessive=, e le dita di =pronouns.possessive= si agitano in asincronia schematica. Occasionalmente =pronouns.subjective= =verb:beam:afterpronoun= un sorriso e =verb:freeze:afterpronoun= il movimento di =pronouns.possessive= prima di riprendere come se nulla fosse accaduto." />
+    <part Name="Description" Short="▶Il viso di =pronouns.possessive= è tenero, pulito e punteggiato di minuscole pellicce. I capelli di =pronouns.possessive= sono gelatinizzati e sagomati in un rettangolo appuntito. Gli occhi di =pronouns.possessive= sono chiari e larghi. Vestiti strani pendono attorno alla stretta figura di =pronouns.possessive=, e le dita di =pronouns.possessive= si agitano in asincronia schematica. Occasionalmente sorride un sorriso e si congela il movimento di =pronouns.possessive= prima di riprendere come se nulla fosse accaduto." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Mafeo" Load="Merge">
@@ -3930,7 +3930,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Aloysius" Load="Merge">
     <part Name="Render" DisplayName="▶Aloysius" />
-    <part Name="Description" Short="▶Pelliccia bianca e pieghe della pelle si dispiegano dagli angoli degli occhi timidi di =pronouns.possessive=. =pronouns.Subjective= =verb:run:afterpronoun= un bullone di ricambio sulle nocche di =pronouns.possessive=, pronto a riparare un chromeling bisognoso per la millesima e prima volta piuttosto che chiacchierare con un'altra persona." />
+    <part Name="Description" Short="▶Pelliccia bianca e pieghe della pelle si dispiegano dagli angoli degli occhi timidi di =pronouns.possessive=. Passa un bullone di ricambio sulle nocche di =pronouns.possessive=, pronto a riparare un chromeling bisognoso per la millesima e prima volta piuttosto che chiacchierare con un'altra persona." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="OthoCopy" Load="Merge">
@@ -3940,14 +3940,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <part Name="Render" DisplayName="▶Commerciante Urshiib" />
   </object>
   <object Name="Euclid" Load="Merge">
-    <part Name="Description" Short="▶Il viticcio rampicante si arrotola stretto attorno a un palo di legno delle streghe. Un nodulo di viticci annodati dondola avanti e indietro, seguendo il ritmo del movimento delle creature e degli oggetti vicini. Le orecchie di =pronouns.possessive= si drizzano al suono del linguaggio, e =pronouns.subjective= =verb:flick:afterpronoun= foglie contro il palo di =pronouns.possessive= per imitare frasi che =pronouns.subjective= ha sentito pronunciare secoli fa." />
+    <part Name="Description" Short="▶Il viticcio rampicante si arrotola stretto attorno a un palo di legno delle streghe. Un nodulo di viticci annodati dondola avanti e indietro, seguendo il ritmo del movimento delle creature e degli oggetti vicini. Le orecchie di =pronouns.possessive= si drizzano al suono del linguaggio, e agita foglie contro il palo di =pronouns.possessive= per imitare frasi che ha sentito pronunciare secoli fa." />
     <part Name="Render" DisplayName="▶Euclid" />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Eskhind" Load="Merge">
     <part Name="Render" DisplayName="▶Eskhind" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶La fiera postura di =pronouns.possessive= e l'ardente intensità degli occhi di =pronouns.possessive= la distinguono dalla parentela cervide di =pronouns.possessive=. Quei taglienti gioielli di giada sono addolciti dalla pelliccia rossa in polvere delle guance di =pronouns.possessive=, e il filtrum spaccato di =pronouns.possessive= è l'unica deviazione dalle linee neutrali restringenti delle labbra di =pronouns.possessive=. Salvo i polsini di cuoio di =pronouns.possessive=, nulla che =pronouns.subjective= =verb:wear:afterpronoun= è di fattura hindren." />
+    <part Name="Description" Short="▶La fiera postura di =pronouns.possessive= e l'ardente intensità degli occhi di =pronouns.possessive= la distinguono dalla parentela cervide di =pronouns.possessive=. Quei taglienti gioielli di giada sono addolciti dalla pelliccia rossa in polvere delle guance di =pronouns.possessive=, e il filtrum spaccato di =pronouns.possessive= è l'unica deviazione dalle linee neutrali restringenti delle labbra di =pronouns.possessive=. Salvo i polsini di cuoio di =pronouns.possessive=, nulla che indossa è di fattura hindren." />
   </object>
   <object Name="Meyehind" Load="Merge">
     <part Name="Render" DisplayName="▶Meyehind" />
@@ -3957,23 +3957,23 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="Liihart" Load="Merge">
     <part Name="Render" DisplayName="▶Liihart" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶=pronouns.Subjective==verb:'re:afterpronoun= così piccola da sembrare una faundren, ma uno sguardo più attento alle sue spalle tese e agli occhi calcolatori la rivela come un piccolo adulto completamente cresciuto. =pronouns.Subjective= =verb:wear:afterpronoun= i capelli di =pronouns.possessive= in una coppia di chignon stretti quanto i nervi di =pronouns.possessive=. Le piccole mani di =pronouns.possessive=, arricciate e ansiose, sono coperte dalle tipiche ustioni e tagli di un artigiano dilettante." />
+    <part Name="Description" Short="▶È così piccola da sembrare una faundren, ma uno sguardo più attento alle sue spalle tese e agli occhi calcolatori la rivela come un piccolo adulto completamente cresciuto. Indossa i capelli di =pronouns.possessive= in una coppia di chignon stretti quanto i nervi di =pronouns.possessive=. Le piccole mani di =pronouns.possessive=, arricciate e ansiose, sono coperte dalle tipiche ustioni e tagli di un artigiano dilettante." />
   </object>
   <object Name="Isahind" Load="Merge">
     <part Name="Render" DisplayName="▶Isahind" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Vapore gelido fuoriesce dalle mani di =pronouns.possessive=, risale la tunica di manifattura straniera di =pronouns.possessive=, e avvolge in nebbia i capelli scuri di =pronouns.possessive= lunghi alle spalle. Ciò che più distingue =pronouns.objective= tra i parenti hindren di =pronouns.possessive=, tuttavia, è il sorriso caldo che =pronouns.subjective= =verb:flash:afterpronoun= a tutti, anche agli intrusi nel bosco." />
+    <part Name="Description" Short="▶Vapore gelido fuoriesce dalle mani di =pronouns.possessive=, risale la tunica di manifattura straniera di =pronouns.possessive=, e avvolge in nebbia i capelli scuri di =pronouns.possessive= lunghi alle spalle. Ciò che più distingue =pronouns.objective= tra i parenti hindren di =pronouns.possessive=, tuttavia, è il sorriso caldo che mostra a tutti, anche agli intrusi nel bosco." />
   </object>
   <object Name="Neelahind" Load="Merge">
     <part Name="Render" DisplayName="▶Neelahind" />
     <part Name="Honorifics" Primary="▶Guardiano" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Tutta muscolatura agile e dura vigilanza, Neelahind =verb:become= la sua occupazione come guardiana di Bey Lah. =pronouns.Subjective= =verb:bloom:afterpronoun= per riempire le falde dell'armatura di =pronouns.possessive=, ma l'occhio attento che incontra il suo scorge una verità segreta: dentro il corpo robusto e solido della guerriera si nasconde una faundren spaventata e confusa." />
+    <part Name="Description" Short="▶Tutta muscolatura agile e dura vigilanza, Neelahind diventa la sua occupazione come guardiana di Bey Lah. Sboccia per riempire le falde dell'armatura di =pronouns.possessive=, ma l'occhio attento che incontra il suo scorge una verità segreta: dentro il corpo robusto e solido della guerriera si nasconde una faundren spaventata e confusa." />
   </object>
   <object Name="Keh" Load="Merge">
     <part Name="Render" DisplayName="▶Hindriarch Keh" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Il tempo ha messo rughe nelle orecchie di =pronouns.possessive= e un profondo solco nella gola di =pronouns.possessive=. La voce acuta così prodotta avvia e ferma il moto della vita nel prato. L'arco della tradizione ha nominato =pronouns.possessive= Hindriarch, iscritto nel taglio a ghirlanda dei capelli di =pronouns.possessive=, e il declino del tempo ha fissato =pronouns.possessive= nelle menti delle faundren come Grand-Doe. Per tutti a Bey Lah, =pronouns.subjective= =verb:are:afterpronoun= la legge sovrana." />
+    <part Name="Description" Short="▶Il tempo ha messo rughe nelle orecchie di =pronouns.possessive= e un profondo solco nella gola di =pronouns.possessive=. La voce acuta così prodotta avvia e ferma il moto della vita nel prato. L'arco della tradizione ha nominato =pronouns.possessive= Hindriarch, iscritto nel taglio a ghirlanda dei capelli di =pronouns.possessive=, e il declino del tempo ha fissato =pronouns.possessive= nelle menti delle faundren come Grand-Doe. Per tutti a Bey Lah, è la legge sovrana." />
   </object>
   <object Name="PariahKeh" Load="Merge">
     <part Name="Render" DisplayName="▶Keh-hind" />
@@ -3982,7 +3982,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="Kesehind" Load="Merge">
     <part Name="Render" DisplayName="▶Kesehind" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Fasci di spesso muscolo cervicale seguono le linee guida della pelliccia sul viso accigliato di =pronouns.possessive=. =pronouns.Subjective= =verb:clutch:afterpronoun= l'arma di =pronouns.possessive= in un abbraccio duro, e =pronouns.subjective= =verb:paint:afterpronoun= un ghigno con il labbro di =pronouns.possessive= per suggerire quanto =pronouns.subjective= =verb:are:afterpronoun= invaghito del ruolo di malvivente di basso rango di =pronouns.possessive=." />
+    <part Name="Description" Short="▶Fasci di spesso muscolo cervicale seguono le linee guida della pelliccia sul viso accigliato di =pronouns.possessive=. Stringe l'arma di =pronouns.possessive= in un abbraccio duro, e dipinge un ghigno con il labbro di =pronouns.possessive= per suggerire quanto è invaghito del ruolo di malvivente di basso rango di =pronouns.possessive=." />
   </object>
   <object Name="Angohind" Load="Merge">
     <part Name="Render" DisplayName="▶Angohind" />
@@ -3996,10 +3996,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Warden Indrix" Load="Merge">
-    <part Name="Description" Short="▶Sotto una criniera di capelli grossolani, le labbra di Custode Indrix si muovono senza emettere alcun suono, forse formando una litania invocata in nome del dio vendicativo che =pronouns.subjective= =verb:serve:afterpronoun=. I capelli grossolani crescono in una massa ininterrotta lungo =pronouns.possessive= torso, quello di un essere umano ma più largo e teso di muscoli di qualsiasi uomo, scomparendo solo dietro la fascia del =pronouns.possessive= kilt. Ma per il Sindaco Nuntu e il custode =pronouns.reflexive=, nessuno conosce le circostanze dell'estraniarsi di Indrix dal =pronouns.possessive= clan, perché nessuno osa menzionarlo per non attirare l'ira del custode. Uno dei suoi grandi corni ricurvi è stato nettamente reciso dalla =pronouns.possessive= testa. Quel corno insieme ad altri pendono da una cintura portata bassa sui fianchi di Indrix, conferendogli la distinzione di essere l'unico guerriero a portare il proprio arto come trofeo." />
+    <part Name="Description" Short="▶Sotto una criniera di capelli grossolani, le labbra di Custode Indrix si muovono senza emettere alcun suono, forse formando una litania invocata in nome del dio vendicativo che serve. I capelli grossolani crescono in una massa ininterrotta lungo =pronouns.possessive= torso, quello di un essere umano ma più largo e teso di muscoli di qualsiasi uomo, scomparendo solo dietro la fascia del =pronouns.possessive= kilt. Ma per il Sindaco Nuntu e il custode =pronouns.reflexive=, nessuno conosce le circostanze dell'estraniarsi di Indrix dal =pronouns.possessive= clan, perché nessuno osa menzionarlo per non attirare l'ira del custode. Uno dei suoi grandi corni ricurvi è stato nettamente reciso dalla =pronouns.possessive= testa. Quel corno insieme ad altri pendono da una cintura portata bassa sui fianchi di Indrix, conferendogli la distinzione di essere l'unico guerriero a portare il proprio arto come trofeo." />
     <part Name="Render" DisplayName="▶Indrix" />
     <part Name="Honorifics" Primary="▶Custode" />
-    <tag Name="staticFaction2" Value="Goatfolk,odio,▶qualche motivo che =pronouns.subjective= non condivide" />
+    <tag Name="staticFaction2" Value="Goatfolk,odio,▶qualche motivo che non condivide" />
     <tag Name="staticFaction1" Value="Kyakukya,amico,▶difendendo il loro villaggio" />
     <xtagGrammar Proper="▶true" />
   </object>
@@ -4009,27 +4009,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Yurl" Load="Merge">
-    <part Name="Description" Short="▶Yurl, una vite di cetriolo senziente, affonda le =pronouns.possessive= radici in un basso vaso di argilla sul pavimento della =pronouns.possessive= capanna. Innumerevoli merci riposano su scaffali di quercia per tutta la stanza, e con i =pronouns.possessive= viticci Yurl =verb:exhibit= le merci ai clienti interessati strisciando su un graticcio di ferro. Noterete che Yurl =verb:creep= verso i prodotti quasi prima che voi ci pensiate; il dono della telepatia offre alla vivace vite un vantaggio distinto come ceraio." />
+    <part Name="Description" Short="▶Yurl, una vite di cetriolo senziente, affonda le =pronouns.possessive= radici in un basso vaso di argilla sul pavimento della =pronouns.possessive= capanna. Innumerevoli merci riposano su scaffali di quercia per tutta la stanza, e con i =pronouns.possessive= viticci Yurl espone le merci ai clienti interessati strisciando su un graticcio di ferro. Noterete che Yurl striscia verso i prodotti quasi prima che voi ci pensiate; il dono della telepatia offre alla vivace vite un vantaggio distinto come ceraio." />
     <part Name="Render" DisplayName="▶Yurl" />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Erah" Load="Merge">
     <part Name="Render" DisplayName="▶Erah" />
     <part Name="Honorifics" Primary="▶Sidraio" />
-    <part Name="Description" Short="▶=pronouns.Subjective= sono chiaramente agili quanto gli altri woodsprog, ma =pronouns.subjective= =verb:bear:afterpronoun= i segni rivelatori dell'età e delle ferite ai margini. Il pelo attorno ai =pronouns.possessive= occhi larghi come il mare è ora bianco e innerva le rughe del =pronouns.possessive= viso. Una chiazza di spalla emerge nuda e crivellata dal ricordo del fuoco e del vapore. Infine, il =pronouns.possessive= grembiule, incrostato di viscere di ingredienti, tintinna di mestoli e boccali di chitina scolpita." />
+    <part Name="Description" Short="▶Sono chiaramente agili quanto gli altri woodsprog, ma porta i segni rivelatori dell'età e delle ferite ai margini. Il pelo attorno ai =pronouns.possessive= occhi larghi come il mare è ora bianco e innerva le rughe del =pronouns.possessive= viso. Una chiazza di spalla emerge nuda e crivellata dal ricordo del fuoco e del vapore. Infine, il =pronouns.possessive= grembiule, incrostato di viscere di ingredienti, tintinna di mestoli e boccali di chitina scolpita." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Wild Water Merchant" Load="Merge">
     <part Name="Render" DisplayName="▶mercante d'acqua dagli occhi allucinati" />
-    <part Name="Description" Short="▶Bagliori brillanti negli occhi in raptura di un anemico mercante d'acqua ti danno improvvisa pausa. =pronouns.Subjective= =verb:are:afterpronoun= vestito con un rattoppo di brandelli di mantello, e nonostante il lago di sudore depositato sul sedimento unto della =pronouns.possessive= pelle, la =pronouns.possessive= bocca è screpolata in fessure dopo giorni di rifiuto a bere la stessa acqua vitale che =pronouns.subjective= =verb:peddle:afterpronoun=. Incredibilmente, la =pronouns.possessive= espressione riesce ancora a sfoggiare una sfumatura di allegria, brillando nel fuoco di un segreto non condiviso." />
+    <part Name="Description" Short="▶Bagliori brillanti negli occhi in raptura di un anemico mercante d'acqua ti danno improvvisa pausa. È vestito con un rattoppo di brandelli di mantello, e nonostante il lago di sudore depositato sul sedimento unto della =pronouns.possessive= pelle, la =pronouns.possessive= bocca è screpolata in fessure dopo giorni di rifiuto a bere la stessa acqua vitale che vende. Incredibilmente, la =pronouns.possessive= espressione riesce ancora a sfoggiare una sfumatura di allegria, brillando nel fuoco di un segreto non condiviso." />
   </object>
   <object Name="Mamon" Load="Merge">
-    <part Name="Description" Short="▶Mamon =verb:stand= quasi una testa più alto dei =pronouns.possessive= parenti e più largo alle spalle. Grandi ciuffi di capelli imbrattati di sangue, alcuni dei quali intrecciati, si allargano dalla =pronouns.possessive= testa e dal mento, e un copricapo cremisi stracciato pende da uno dei =pronouns.possessive= enormi corni. In lunghe strisce sul =pronouns.possessive= petto nudo il pelo è bruciato e la pelle scorticata. =pronouns.Subjective= =verb:wear:afterpronoun= un sarong avvolto attorno alla =pronouns.possessive= vita, le sue fibre di lana zuppa di un liquido sgradevole e inchiostrato. Il =pronouns.possessive= viso è una visione di follia, al tempo stesso il volto di una vecchia in estasi e di un bambino in preda allo spavento." />
+    <part Name="Description" Short="▶Mamon sta quasi una testa più alto dei =pronouns.possessive= parenti e più largo alle spalle. Grandi ciuffi di capelli imbrattati di sangue, alcuni dei quali intrecciati, si allargano dalla =pronouns.possessive= testa e dal mento, e un copricapo cremisi stracciato pende da uno dei =pronouns.possessive= enormi corni. In lunghe strisce sul =pronouns.possessive= petto nudo il pelo è bruciato e la pelle scorticata. Indossa un sarong avvolto attorno alla =pronouns.possessive= vita, le sue fibre di lana zuppa di un liquido sgradevole e inchiostrato. Il =pronouns.possessive= viso è una visione di follia, al tempo stesso il volto di una vecchia in estasi e di un bambino in preda allo spavento." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Oboroqoru" Load="Merge">
     <part Name="Render" DisplayName="▶Oboroqoru" />
-    <part Name="Description" Short="▶Non ti trovi ai piedi di un colle invernale ma sotto una montagna di muscoli, avvolta in pelliccia sbiancata, che dev'essere il gioiello della corona della natura. Fuso dallo stesso stampo delle grandi scimmie (o forse l'esemplare da cui quelle scimmie furono plasmate), il dio vivente differisce solo nel fatto che =pronouns.subjective= =verb:bear:afterpronoun= non due ma sei braccia, ognuna delle quali potrebbe essere il tronco lanoso di un antico tasso. I =pronouns.possessive= pugni hanno proporzioni che suggeriscono la potenza con cui gli dèi canuti modellarono le montagne quando la terra era giovane. Tuttavia, il =pronouns.possessive= aspetto non porta un briciolo di quella furia divina; =pronouns.subjective= =verb:don't:afterpronoun= infuria ma invece =verb:sit:afterpronoun= in contemplazione di eoni." />
+    <part Name="Description" Short="▶Non ti trovi ai piedi di un colle invernale ma sotto una montagna di muscoli, avvolta in pelliccia sbiancata, che dev'essere il gioiello della corona della natura. Fuso dallo stesso stampo delle grandi scimmie (o forse l'esemplare da cui quelle scimmie furono plasmate), il dio vivente differisce solo nel fatto che porta non due ma sei braccia, ognuna delle quali potrebbe essere il tronco lanoso di un antico tasso. I =pronouns.possessive= pugni hanno proporzioni che suggeriscono la potenza con cui gli dèi canuti modellarono le montagne quando la terra era giovane. Tuttavia, il =pronouns.possessive= aspetto non porta un briciolo di quella furia divina; non infuria ma invece siede in contemplazione di eoni." />
     <tag Name="PronounSet" Value="▶Lui/Lui/Suo/Suo/SéStesso/dio/divinità/signore/Figlio/Fratello/Padre" />
     <xtagGrammar Proper="▶true" />
   </object>
@@ -4038,7 +4038,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="GolgothaSlog" Load="Merge">
     <part Name="Render" DisplayName="▶Slog" />
-    <part Name="Description" Short="▶Una lumaca è diventata troppo grande perché la sua anatomia sappia cosa fare. Bolle di brodo maleodorante scoppiano sopra pori respiratori grandi come gomiti, e una quinta fase di materia spazzatura fuoriesce dal =pronouns.possessive= mantello crostoso e giù lungo la chiglia appuntita della =pronouns.possessive= schiena. Dove la natura ha avuto la decenza di terminare il corpo della lumaca comune in un piede muscolare, la coda di Slog è invece un tubo di scarico soffocato da uno sfintere che =pronouns.subjective= =verb:use:afterpronoun= per spruzzare acqua sporca fetida nel =pronouns.possessive= territorio." />
+    <part Name="Description" Short="▶Una lumaca è diventata troppo grande perché la sua anatomia sappia cosa fare. Bolle di brodo maleodorante scoppiano sopra pori respiratori grandi come gomiti, e una quinta fase di materia spazzatura fuoriesce dal =pronouns.possessive= mantello crostoso e giù lungo la chiglia appuntita della =pronouns.possessive= schiena. Dove la natura ha avuto la decenza di terminare il corpo della lumaca comune in un piede muscolare, la coda di Slog è invece un tubo di scarico soffocato da uno sfintere che usa per spruzzare acqua sporca fetida nel =pronouns.possessive= territorio." />
     <xtagGrammar Proper="▶true" />
     <tag Name="SharesRecipeText" Value="▶Sai perché sono qui, Slog." />
   </object>
@@ -4060,12 +4060,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Skybear" Load="Merge">
     <part Name="Render" DisplayName="▶Saad Amus" />
-    <part Name="Description" Short="▶Un uomo intero è formato di sostanza cutanea che rispecchia la diffusione subsuperficiale e le imperfezioni a rivolo del marmo scolpito. =pronouns.Subjective= =verb:are:afterpronoun= bianco e rosa e arrossato dalla sanguigna della luce lunare filtrata attraverso un setaccio di cromo monofilamento. Occhi ridotti a un punto duraturo, =pronouns.subjective= =verb:cast:afterpronoun= uno sguardo furioso su un mondo reso estraneo." />
+    <part Name="Description" Short="▶Un uomo intero è formato di sostanza cutanea che rispecchia la diffusione subsuperficiale e le imperfezioni a rivolo del marmo scolpito. È bianco e rosa e arrossato dalla sanguigna della luce lunare filtrata attraverso un setaccio di cromo monofilamento. Occhi ridotti a un punto duraturo, lancia uno sguardo furioso su un mondo reso estraneo." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="SkybearClone" Load="Merge">
     <part Name="Render" DisplayName="▶clone di Saad Amus" />
-    <part Name="Description" Short="▶Un uomo intero è formato di sostanza cutanea che rispecchia la diffusione subsuperficiale e le imperfezioni a rivolo del marmo scolpito. =pronouns.Subjective= =verb:are:afterpronoun= bianco e rosa e arrossato dalla sanguigna della luce lunare filtrata attraverso un setaccio di cromo monofilamento. Occhi ridotti a un punto duraturo, =pronouns.subjective= =verb:cast:afterpronoun= uno sguardo furioso su un mondo reso estraneo." />
+    <part Name="Description" Short="▶Un uomo intero è formato di sostanza cutanea che rispecchia la diffusione subsuperficiale e le imperfezioni a rivolo del marmo scolpito. È bianco e rosa e arrossato dalla sanguigna della luce lunare filtrata attraverso un setaccio di cromo monofilamento. Occhi ridotti a un punto duraturo, lancia uno sguardo furioso su un mondo reso estraneo." />
   </object>
   <object Name="Phinae Hoshaiah" Load="Merge">
     <part Name="Render" DisplayName="▶Phinae Hoshaiah" />
@@ -4077,14 +4077,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Asphodel" Load="Merge">
     <part Name="Render" DisplayName="▶Asphodel" />
-    <part Name="Description" Short="▶Asphodel (chiamata la Bella) =subject.verb:turn= le =pronouns.possessive= antere inclinate ad angoli seducenti. Tutti i dorati brillanti del sole del raccolto e della buccia di banana sono guarnizioni alla fragile bellezza del =pronouns.possessive= petalo. =pronouns.Subjective= =verb:claim:afterpronoun= la linea estetica di Hegelrut, e da quell'argomentazione fiorisce il =pronouns.possessive= diritto su Omonporch e l'intera Grande Ombra del boschetto." />
+    <part Name="Description" Short="▶Asphodel (chiamata la Bella) =subject.verb:turn= le =pronouns.possessive= antere inclinate ad angoli seducenti. Tutti i dorati brillanti del sole del raccolto e della buccia di banana sono guarnizioni alla fragile bellezza del =pronouns.possessive= petalo. Rivendica la linea estetica di Hegelrut, e da quell'argomentazione fiorisce il =pronouns.possessive= diritto su Omonporch e l'intera Grande Ombra del boschetto." />
     <xtagGrammar Proper="▶true" />
     <tag Name="PronounSet" Value="▶xe/xem/xyr" />
   </object>
   <object Name="Haddas" Load="Merge">
     <part Name="Render" DisplayName="▶Haddas" />
     <part Name="Honorifics" Primary="▶Sindaco" />
-    <part Name="Description" Short="▶Boccioli di fiori si raggruppano in sei attraverso la =pronouns.possessive= corteccia topazio segnata dal tempo e sono circondati da foglie verde lucido. =pronouns.Subjective= =verb:shoot:afterpronoun= su alto in sfida a millenni di ombra muraria, ma la =pronouns.possessive= corona si abbassa con dolce stanchezza, e le =pronouns.possessive= radici esposte tracciano il perimetro di un salone erboso. L'albero più antico del boschetto, chiamato Haddas, ti dà il benvenuto alla =pronouns.possessive= ombra." />
+    <part Name="Description" Short="▶Boccioli di fiori si raggruppano in sei attraverso la =pronouns.possessive= corteccia topazio segnata dal tempo e sono circondati da foglie verde lucido. Scatta su alto in sfida a millenni di ombra muraria, ma la =pronouns.possessive= corona si abbassa con dolce stanchezza, e le =pronouns.possessive= radici esposte tracciano il perimetro di un salone erboso. L'albero più antico del boschetto, chiamato Haddas, ti dà il benvenuto alla =pronouns.possessive= ombra." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Warden 1-FF" Load="Merge">
@@ -4128,7 +4128,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Biographer" Load="Merge">
     <part Name="Render" DisplayName="▶Herododicus" />
-    <part Name="Description" Short="▶Il cromo si raggruppa in pieghe simili a tessuto su una tunica metallica che drappeggia i =pronouns.possessive= arti snelli, ansiosi e simili a penne. Una grande cassa metallica — la =pronouns.possessive= testa — siede in cima al =pronouns.possessive= telaio troppo fragile, e un lucente occhio di vetro ti brilla addosso in diverse sfumature di luce colorata. =pronouns.Subjective= =verb:seem:afterpronoun= sul punto di scusarsi." />
+    <part Name="Description" Short="▶Il cromo si raggruppa in pieghe simili a tessuto su una tunica metallica che drappeggia i =pronouns.possessive= arti snelli, ansiosi e simili a penne. Una grande cassa metallica — la =pronouns.possessive= testa — siede in cima al =pronouns.possessive= telaio troppo fragile, e un lucente occhio di vetro ti brilla addosso in diverse sfumature di luce colorata. Sembra sul punto di scusarsi." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Writhing Spike" Load="Merge">
@@ -4146,12 +4146,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Vaam" Load="Merge">
-    <part Name="Description" Short="▶Archi di conchiglia brunita si raccolgono insieme come un timido baco metallico. =pronouns.Subjective= =verb:inch:afterpronoun= avanti su appendici a forma di spazzola, e l'unico modo per capire con certezza da che parte =pronouns.subjective= =verb:face:afterpronoun= è la croce di luce che taglia la =pronouns.possessive= piastra frontale." />
+    <part Name="Description" Short="▶Archi di conchiglia brunita si raccolgono insieme come un timido baco metallico. Avanza lentamente avanti su appendici a forma di spazzola, e l'unico modo per capire con certezza da che parte è rivolta è la croce di luce che taglia la =pronouns.possessive= piastra frontale." />
     <part Name="Render" DisplayName="▶Va'am" />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Dagasha" Load="Merge">
-    <part Name="Description" Short="▶Non c'è bocca qui, eppure =pronouns.subjective= =verb:scream:afterpronoun=: un lamento sottile e acuto troppo alto per le orecchie. Punti inalgebrici di malvagità coprono l'intero corpo serpentino di =pronouns.possessive=, e occhi a fessura scrutano un tortuoso cammino avanti." />
+    <part Name="Description" Short="▶Non c'è bocca qui, eppure urla: un lamento sottile e acuto troppo alto per le orecchie. Punti inalgebrici di malvagità coprono l'intero corpo serpentino di =pronouns.possessive=, e occhi a fessura scrutano un tortuoso cammino avanti." />
     <part Name="Render" DisplayName="▶Dagasha" />
     <xtagGrammar Proper="▶true" />
   </object>
@@ -4162,22 +4162,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Doyoba" Load="Merge">
     <part Name="Render" DisplayName="▶Doyoba" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura tira la =pronouns.possessive= rete da pesca, controllando continuamente la sicurezza del suo contenuto." />
+    <part Name="Description" Short="▶Si rannicchia in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura tira la =pronouns.possessive= rete da pesca, controllando continuamente la sicurezza del suo contenuto." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Dadogom" Load="Merge">
     <part Name="Render" DisplayName="▶Dadogom" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura si muove poco e assomiglia a una roccia fosforescente." />
+    <part Name="Description" Short="▶Si rannicchia in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura si muove poco e assomiglia a una roccia fosforescente." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Gyamyo" Load="Merge">
     <part Name="Render" DisplayName="▶Gyamyo" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura è tracciata da una lunga coda e si dimena nella calma abitudine." />
+    <part Name="Description" Short="▶Si rannicchia in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura è tracciata da una lunga coda e si dimena nella calma abitudine." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Yona" Load="Merge">
     <part Name="Render" DisplayName="▶Yona" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:squat:afterpronoun= in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura è adornata di gioielli fatti di rottami erosi della Tomba." />
+    <part Name="Description" Short="▶Si rannicchia in un soffice alone di luce fresca che emana direttamente dalle placche del =pronouns.possessive= carapace e dal pelo tra di esse. Ogni movimento è accompagnato da musica sibilante man mano che quelle placche scorrono l'una sull'altra, sussurrando una preghiera senza parole.&#xA;          &#xA;Questa creatura è adornata di gioielli fatti di rottami erosi della Tomba." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Vivira" Load="Merge">
@@ -4192,7 +4192,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Lebah" Load="Merge">
     <part Name="Render" DisplayName="▶Lebah" />
-    <part Name="Description" Short="▶=pronouns.Subjective= =verb:glow:afterpronoun= più dolcemente degli altri mopango, bioluminescendo in tonalità pallide e delicate che lo mimetizzano contro le pareti imbiancate della vita fossilizzata." />
+    <part Name="Description" Short="▶Brilla più dolcemente degli altri mopango, bioluminescendo in tonalità pallide e delicate che lo mimetizzano contro le pareti imbiancate della vita fossilizzata." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Rainwater Shomer" Load="Merge">
@@ -4202,7 +4202,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Mak" Load="Merge">
     <part Name="Render" DisplayName="▶Mak" />
-    <part Name="Description" Short="▶Pelle umida e screziata si sfalda attorno a mille verruche a bolla, e una corona di corna avvolge la =pronouns.possessive= enorme testa alta tredici spanne. Sul =pronouns.possessive= viso malachine, due palpebre simili a vello pendono a coprire occhi iracondi d'ambra. Un rombo gutturale nello spettro del contrabbasso fuoriesce dal =pronouns.possessive= sacco vocale, vibrando la membrana verrucosa sulle =pronouns.possessive= dita dei piedi abnormi. =pronouns.Subjective= =verb:are:afterpronoun= un bozzolo di dispetto maciullato per mille anni, grande come una montagna." />
+    <part Name="Description" Short="▶Pelle umida e screziata si sfalda attorno a mille verruche a bolla, e una corona di corna avvolge la =pronouns.possessive= enorme testa alta tredici spanne. Sul =pronouns.possessive= viso malachine, due palpebre simili a vello pendono a coprire occhi iracondi d'ambra. Un rombo gutturale nello spettro del contrabbasso fuoriesce dal =pronouns.possessive= sacco vocale, vibrando la membrana verrucosa sulle =pronouns.possessive= dita dei piedi abnormi. È un bozzolo di dispetto maciullato per mille anni, grande come una montagna." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Goek" Load="Merge">
@@ -4212,7 +4212,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Geeub" Load="Merge">
     <part Name="Render" DisplayName="▶Geeub" />
-    <part Name="Description" Short="▶Il corpo imponente della grande rana è in posa di pace e adornato come un tempio di pelle. Le =pronouns.possessive= spalle stillano di morbide stoffe e ornamenti lungo tutta la gamma del valore; =pronouns.subjective= =verb:take:afterpronoun= nessuna cura di disporli o separarli." />
+    <part Name="Description" Short="▶Il corpo imponente della grande rana è in posa di pace e adornato come un tempio di pelle. Le =pronouns.possessive= spalle stillano di morbide stoffe e ornamenti lungo tutta la gamma del valore; si prende nessuna cura di disporli o separarli." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Bep" Load="Merge">
@@ -4227,18 +4227,18 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Tillifergaewicz" Load="Merge">
     <part Name="Render" DisplayName="▶Tillifergaewicz" />
-    <part Name="Description" Short="▶Da un vassoio di coltivazione idroponica spolverato di ghiaia decorativa, si alza, si torce e si raggruppa una colonna di uva di mare nella forma approssimativa di una donna. Sebbene i =pronouns.possessive= fili verde-bollosi siano solo una vaga imitazione della carne degli arti e delle dita, =pronouns.subjective= =verb:carry:afterpronoun= =pronouns.reflexive= con facilità umana e =verb:manage:afterpronoun= di vocalizzare in un tono rauco ma udibile." />
+    <part Name="Description" Short="▶Da un vassoio di coltivazione idroponica spolverato di ghiaia decorativa, si alza, si torce e si raggruppa una colonna di uva di mare nella forma approssimativa di una donna. Sebbene i =pronouns.possessive= fili verde-bollosi siano solo una vaga imitazione della carne degli arti e delle dita, porta =pronouns.reflexive= con facilità umana e riesce di vocalizzare in un tono rauco ma udibile." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Rokhas" Load="Merge">
     <part Name="Render" DisplayName="▶Rokhas" />
-    <part Name="Description" Short="▶=pronouns.Subjective= è una pietra fangosa nel caleidoscopio. La =pronouns.possessive= pelle butterata dal sale, la schiena curva e l'espressione austera vengono dalle regioni agricole del Qud occidentale, ma =pronouns.subjective= =verb:stand:afterpronoun= avvolto nei colori brillanti del =pronouns.possessive= brillante gruppo orientale." />
+    <part Name="Description" Short="▶È una pietra fangosa nel caleidoscopio. La =pronouns.possessive= pelle butterata dal sale, la schiena curva e l'espressione austera vengono dalle regioni agricole del Qud occidentale, ma sta avvolto nei colori brillanti del =pronouns.possessive= brillante gruppo orientale." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Une" Load="Merge">
     <part Name="Render" DisplayName="▶Une" />
     <part Name="Honorifics" Primary="▶Custode" />
-    <part Name="Description" Short="▶Drappeggiato in un pesante mantello di rottami, indossando una maschera bestiale e maneggiando una ghironda a manovella, =pronouns.subjective= =verb:look:afterpronoun= più il ruolo di un attore di pageant che di un difensore del villaggio. Da vicino, tuttavia, intravedi l'elsa del =pronouns.possessive= brand, il calcio del =pronouns.possessive= fucile e il fullerene nero brunito dell'egida anonima di fullerite che =pronouns.subjective= =verb:employ:afterpronoun=. Occhi d'azzurrum brunito fanno capolino attraverso le cavità della =pronouns.possessive= maschera adunca, suggerendo la stessa minaccia che il =pronouns.possessive= costume avrebbe dovuto annullare." />
+    <part Name="Description" Short="▶Drappeggiato in un pesante mantello di rottami, indossando una maschera bestiale e maneggiando una ghironda a manovella, sembra più il ruolo di un attore di pageant che di un difensore del villaggio. Da vicino, tuttavia, intravedi l'elsa del =pronouns.possessive= brand, il calcio del =pronouns.possessive= fucile e il fullerene nero brunito dell'egida anonima di fullerite che impiega. Occhi d'azzurrum brunito fanno capolino attraverso le cavità della =pronouns.possessive= maschera adunca, suggerendo la stessa minaccia che il =pronouns.possessive= costume avrebbe dovuto annullare." />
     <tag Name="staticFaction2" Value="Templar,odio,▶parricidio e tradimento" />
     <tag Name="staticFaction1" Value="YdFreehold,amico,▶difendendo il Freehold" />
     <xtagGrammar Proper="▶true" />
@@ -4249,12 +4249,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Thah" Load="Merge">
     <part Name="Render" DisplayName="▶Thah" />
-    <part Name="Description" Short="▶Da lontano, lo slynth potrebbe essere scambiato per un essere umano con un cappello allargato e lanternato, ma =pronouns.subjective= =verb:are:afterpronoun= tutt'altro che umano e il =pronouns.possessive= cappello non è un indumento. Questo si incurva con una piccola gobba guadagnata da molte ore di lettura nel corso di molti anni. =pronouns.Subjective= =verb:reel:afterpronoun= con l'aria ansiosa di un essere in attesa di qualcosa di sconosciuto." />
+    <part Name="Description" Short="▶Da lontano, lo slynth potrebbe essere scambiato per un essere umano con un cappello allargato e lanternato, ma è tutt'altro che umano e il =pronouns.possessive= cappello non è un indumento. Questo si incurva con una piccola gobba guadagnata da molte ore di lettura nel corso di molti anni. Barcolla con l'aria ansiosa di un essere in attesa di qualcosa di sconosciuto." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Dyvvrach" Load="Merge">
     <part Name="Render" DisplayName="▶Dyvvrach" />
-    <part Name="Description" Short="▶Nastri specchiati in colori profondi e vivaci percorrono il molteplice interno del carillon di cristallo. =pronouns.Subjective= =verb:ring:afterpronoun= in toni sonori e autorevoli." />
+    <part Name="Description" Short="▶Nastri specchiati in colori profondi e vivaci percorrono il molteplice interno del carillon di cristallo. Risuona in toni sonori e autorevoli." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Miryam" Load="Merge">
@@ -4264,17 +4264,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   </object>
   <object Name="Tzedech" Load="Merge">
     <part Name="Render" DisplayName="▶Tzedech" />
-    <part Name="Description" Short="▶Emozioni e scopo sono concentrati in punti acuti e brillanti. =pronouns.Subjective= =verb:ring:afterpronoun= e =verb:spin:afterpronoun= in sfida all'inerzia grezza al lavoro nell'etere psichico." />
+    <part Name="Description" Short="▶Emozioni e scopo sono concentrati in punti acuti e brillanti. Risuona e ruota in sfida all'inerzia grezza al lavoro nell'etere psichico." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Tikva" Load="Merge">
     <part Name="Render" DisplayName="▶Tikva" />
-    <part Name="Description" Short="▶Come malachine =pronouns.subjective= =verb:crust:afterpronoun= nell'abitudine mammillare e =verb:glow:afterpronoun= con calore fogliare. I =pronouns.possessive= rintocchi sono alti e corali; =pronouns.subjective= =verb:harmonize:afterpronoun= con i tordi del sogno e il vento." />
+    <part Name="Description" Short="▶Come malachine si incrostra nell'abitudine mammillare e brilla con calore fogliare. I =pronouns.possessive= rintocchi sono alti e corali; si armonizza con i tordi del sogno e il vento." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Dreamer" Load="Merge">
     <part Name="Render" DisplayName="▶_" />
-    <part Name="Description" Short="▶Cenere calda e lustrini irradiano colori impossibili nelle arterie del piccolo carillon, e la polvere vortica attorno alla =pronouns.possessive= orbita psicomagnetica. =pronouns.Subjective= =verb:warble:afterpronoun= alla frequenza dei sogni." />
+    <part Name="Description" Short="▶Cenere calda e lustrini irradiano colori impossibili nelle arterie del piccolo carillon, e la polvere vortica attorno alla =pronouns.possessive= orbita psicomagnetica. Gorgheggia alla frequenza dei sogni." />
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Thicksalt" Load="Merge">
@@ -4319,7 +4319,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="AgateSeveranceStar" Load="Merge">
     <part Name="Render" DisplayName="▶Agate Severance Star" />
     <xtagGrammar Proper="▶true" />
-    <part Name="Description" Short="▶Un severo =pronouns.personTerm= hindren =verb:wear:afterpronoun= un tabardo bianco immacolato con lunghe code sartoriali drappeggiante sul =pronouns.possessive= dorso allungato. I fianchi pezzati sono disposti in bisacce cariche di gadget esoterici, e una crosta biancastra-azzurra cresce sul =pronouns.possessive= viso, rendendo il =pronouns.possessive= sguardo acuto ancora più incisivo." />
+    <part Name="Description" Short="▶Un severo =pronouns.personTerm= hindren indossa un tabardo bianco immacolato con lunghe code sartoriali drappeggiante sul =pronouns.possessive= dorso allungato. I fianchi pezzati sono disposti in bisacce cariche di gadget esoterici, e una crosta biancastra-azzurra cresce sul =pronouns.possessive= viso, rendendo il =pronouns.possessive= sguardo acuto ancora più incisivo." />
   </object>
   <object Name="SapientBear" Load="Merge">
     <part Name="Render" DisplayName="▶orso parlante" />

@@ -1,62 +1,64 @@
-Stai traducendo file XML del mod ItalianLanguage per Caves of Qud.
-  Il mod si trova in:                                                                                                                                           
-    ItalianLanguage/languages/lang-it/                                                                          
+Traduci in italiano file XML della mod di localizzazione di Caves of Qud (RPG post-apocalittico, tono poetico/arcaico/bizzarro).                              
                                                                                                                                                                 
-  ## Sistema di template del gioco                                                                                                                              
-                                                                                                                                                                
-  Ogni stringa tradotta inizia con il carattere ▶ (es. `▶Testo tradotto`).                                                                                      
-                                                                                                                                                              
-  ### Template da CONSERVARE invariati:                                                                                                                         
-  - `=pronouns.subjective=` / `=pronouns.Subjective=` — pronome soggetto (lui/lei/loro da Genders.it.xml)                                                     
-  - `=pronouns.possessive=` / `=pronouns.Possessive=` — pronome possessivo (suo/sua/loro)                                                                       
-  - `=pronouns.objective=` — pronome oggetto
-  - `=pronouns.personTerm=` — termine di genere (uomo/donna)                                                                                                    
-  - `=pronouns.This=` / `=pronouns.this=` — "Questo/a" + soggetto                                                                                             
-  - `=subject.Basename=` / `=subject.Basename|strip=` — nome della creatura (non tradurre)                                                                      
-  - `=subject.T=` / `=subject.t=` — "Il/la [nome]" (articolo + nome)                                                                                            
-  - `=object.T=` / `=object.t=` — stesso ma per l'oggetto                                                                                                       
-  - `=subject.possessive=` — possessivo del soggetto                                                                                                            
-  - `=shoutMessage=`, `=npc.name=`, ecc. — qualsiasi variabile di contenuto dinamico                                                                            
-  - `{{W|...}}`, `{{r|...}}`, `{{g|...}}` ecc. — formattazione colore, mantieni la struttura                                                                    
-  - `|strip`, `|cap`, `|a` ecc. — modificatori, mantieni                                                                                                        
-                                                                                                                                                                
-  ### Template da SOSTITUIRE con il verbo italiano già coniugato:                                                                                               
-  - `=verb:X:afterpronoun=` — coniugazione inglese in base al pronome. Sostituisci con il verbo italiano coniugato.                                             
-  - `=subject.verb:X=` — coniugazione inglese in base al soggetto. Sostituisci con il verbo italiano coniugato.                                                 
-  - `=verb:X=` (senza afterpronoun) — stesso, sostituisci.                                                                                                      
-                                                                                                                                                                
-  **Regola di coniugazione**: le descrizioni delle creature sono quasi sempre 3ª persona.                                                                       
-  - Creatura singola (lui/lei): usa 3ª persona singolare (es. "scuote", "soffia", "urla", "è", "ha")                                                          
-  - Creatura plurale (loro): usa 3ª persona plurale (es. "scuotono", "soffiano", "urlano", "sono", "hanno")                                                     
-  - `=verb:are:afterpronoun=` → `è` (singolare) / `sono` (plurale)                                                                                              
-  - `=verb:have:afterpronoun=` → `ha` (singolare) / `hanno` (plurale)                                                                                           
-  - `=verb:'re:afterpronoun=` → `è` / `sono`                                                                                                                    
-  - `=verb:don't:afterpronoun=` → `non` (il verbo che segue va coniugato separatamente)                                                                         
-                                                                                                                                                                
-  In italiano il soggetto pronominale è spesso omissibile:                                                                                                      
-  - ❌ `=pronouns.Subjective= scuote` → `Lui scuote` (ridondante)                                                                                               
-  - ✅ `Scuote` (soggetto implicito nel verbo)                                                                                                                  
-    Tuttavia mantieni `=pronouns.Subjective=` se serve disambiguare o enfatizzare.                                                                              
-                                                                                                                                                                
-  ## Pronomi di genere (Genders.it.xml già creato)                                                                                                              
-  | Genere     | Sogg. | Ogg. | Poss. | Riflessivo  | Uomo/Donna | Figlio/a  | Fratello/a | Padre/Madre |                                                       
-  |------------|-------|------|-------|-------------|------------|-----------|------------|-------------|                                                       
-  | male       | lui   | lui  | suo   | se stesso   | uomo       | figlio    | fratello   | padre       |                                                       
-  | female     | lei   | lei  | sua   | se stessa   | donna      | figlia    | sorella    | madre       |                                                       
-  | nonspecific| loro  | loro | loro  | se stesso   | —          | —         | —          | —           |                                                       
-  | plural     | loro  | loro | loro  | se stessi   | persone    | figli     | fratelli   | genitori    |                                                       
-  | neuter     | esso  | esso | suo   | se stesso   | —          | —         | —          | —           |                                                       
-                                                                                                                                                                
-  ## Note grammaticali italiane                                                                                                                                 
-  - Il possessivo (`suo/sua`) concorda con il genere del **nome posseduto**, non del possessore. Il sistema di sostituzione semplice non può gestirlo           
-  automaticamente; accetta l'imprecisione o riscrivi la frase.                                                                                                  
-  - Evita il soggetto pronominale esplicito se già espresso dal verbo (pro-drop).                                                                             
-  - Nelle descrizioni di creature specifiche (es. Yrame, personaggi con nome proprio), puoi scrivere direttamente in 3ª persona senza usare `=pronouns.X=` se il
-   genere è fisso.                                                                                                                                              
   ## Formato XML                                                                                                                                                
-  Ogni voce tradotta segue questo schema:                                                                                                                       
-    <object Name="NomeCosa" Load="Merge">                                                                                                                     
-      <part Name="Description" Short="▶Testo tradotto con =template= invariati."/>                                                                              
-    </object>                                                                                                                                                   
-  o per stringhe:                                                                                                                                               
-    <string Context="..." ID="...">▶Testo tradotto</string>
+  Due strutture possibili:                                                                                                                                      
+    <part Name="Description" Short="▶traduzione"/>                                                                                                              
+    <string Context="..." ID="originale">▶traduzione</string>                                                                                                   
+                                              
+  Regole: modifica SOLO il contenuto dopo ▶. Non aggiungere righe. Non toccare attributi Name/Context/ID né struttura XML. Conserva &#xA;, &quot; e simili      
+  entità XML.                                                                                                                                                   
+                                                                                                                                                                
+  ## Template: conserva invariati                                                                                                                               
+  - =pronouns.subjective= / =pronouns.Subjective=                                                                                                               
+  - =pronouns.possessive= / =pronouns.Possessive=                                                                                                               
+  - =pronouns.objective= / =pronouns.reflexive=                                                                                                                 
+  - =pronouns.personTerm= / =pronouns.formalAddressTerm=
+  - =pronouns.This= / =pronouns.this=                                                                                                                           
+  - =subject.T= / =subject.t= / =subject.The.name= / =subject.the.name=
+  - =object.T= / =object.t= / =object.The.name= / =object.the.name=                                                                                             
+  - =subject.Basename= / =subject.Basename|strip=                                                                                                               
+  - =subject.possessive= / =subject.its= / =subject.is= / =subject.them=                                                                                        
+  - =object.a.name= / =object.name= / =object.name's=                                                                                                           
+  - =name= / =player.name= / =npc.name= e qualsiasi nome proprio                                                                                                
+  - =effect.name= / =weapon.name= / =hands.name= e simili nomi dinamici                                                                                         
+  - =shoutMessage= e qualsiasi variabile di contenuto dinamico
+  - Template numerici: =volume=, =number=, =amount=, =duration= e simili                                                                                        
+  - {{W|...}} {{r|...}} {{g|...}} ecc. — colori, conserva struttura e contenuto                                                                                 
+  - Modificatori pipe: |strip |cap |a |capitalize |pluralize ecc.                                                                                               
+                                                                                                                                                                
+  ## Template: elimina e riscrivi in italiano                                                                                                                   
+  - =verb:X:afterpronoun= → verbo italiano coniugato diretto                                                                                                    
+  - =verb:'re:afterpronoun= / =verb:'ve:afterpronoun= → riscrivi in italiano                                                                                    
+  - =subject.Does:verb= → =subject.The.name= + verbo italiano                                                                                                   
+    (eccezione: se soggetto è oggetto posseduto dal giocatore, valuta caso per caso)                                                                            
+                                                                                                                                                                
+  Il pronome soggetto italiano si omette quando il soggetto è già espresso da =subject.The.name= o dal contesto.                                                
+                                                                                                                                                                
+  ## Articoli                                                                                                                                                   
+  Usa sempre articoli italiani corretti (il/lo/la/i/gli/le/l' — un/uno/una/un'). Lo/gli davanti a s+cons., z, x, gn, pn, ps, y. Mai "the" o "a/an" nel testo    
+  tradotto.                                                                                                                                                     
+                                                                                                                                                                
+  ## Genere       
+  - Creatura genere fisso (male/female): usa genere corretto in articoli e aggettivi                                                                            
+  - Genere variabile: usa =pronouns.X= e minimizza accordi; "piccolo/a" solo se necessario
+  - Oggetti/astratti (neuter): usa genere grammaticale italiano corretto                                                                                        
+                                              
+  ## Nomi propri — non tradurre                                                                                                                                 
+  Luoghi, razze, personaggi: Joppa, Qud, Barathrum, Grit Gate, Stilt, ecc.                                                                                      
+                                                                                                                                                                
+  ## Esempi                                                                                                                                                     
+                                                                                                                                                                
+  ❌ =pronouns.Subjective= =verb:root:afterpronoun= nel terreno alla ricerca di gioielli.                                                                       
+  ✅ ▶Grufa nel terreno alla ricerca di gioielli.
+                                                                                                                                                                
+  ❌ =pronouns.This= =pronouns.personTerm= robusto =verb:wear:afterpronoun= un grembiule bianco.                                                                
+  ✅ ▶=pronouns.This= =pronouns.personTerm= robusto indossa un grembiule bianco.
+                                                                                                                                                                
+  ❌ ▶=subject.Does:si stacca= da =object.the.name=!
+  ✅ ▶=subject.The.name= si stacca da =object.the.name=!                                                                                                        
+                                                                                                                                                                
+  ❌ =pronouns.Subjective= =verb:are:afterpronoun= un gattino piccolo [...] {{m|fosforescente}}
+  ✅ ▶È un gattino piccolo [...] {{m|fosforescente}}                                                                                                            
+                                                                                                                                                                
+  ❌ ▶=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.                                                                                     
+  ✅ ▶=subject.The.name= comincia ad agire come se fosse =effect.name|strip=.
