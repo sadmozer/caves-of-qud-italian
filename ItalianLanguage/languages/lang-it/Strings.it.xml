@@ -1,4 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud code extracted string table. 2.0.212.19
+
+Comments should be deleted when copied to a new translation table, but are provided to
+help find the usage of the string in the base source code.
+
+The Context attribute is optional, it includes some information about how the string is
+used. The table will first check for a match on Context and ID, but will also check for ID
+alone if no match found.
+-->
 <strings Lang="it" Encoding="utf-8">
   <string Context="Tutorial BattleRemains inventory nudge" ID="You should view the tooltip before equipping the axe.">▶Dovresti visualizzare il tooltip prima di equipaggiare l'ascia.</string>
   <string Context="Tutorial BattleRemains odd event" ID="Huh, you somehow destroyed the battle axe. Let's move on.">▶Beh, hai distrutto in qualche modo l'ascia da battaglia. Andiamo avanti.</string>
@@ -1524,8 +1534,8 @@
   <string Context="GameObject DisplayName Unknown" ID="&lt;unknown&gt;">▶&lt;sconosciuto&gt;</string>
   <string Context="RandomlySpendPoints spentPointsReport fragment" ID="=subject.Poss:base rank= in =mutation.name= increases to =mutation.baseLevel|rules=">▶=subject.Poss:grado base= in =mutation.name= aumenta a =mutation.baseLevel|rules=</string>
   <string Context="spotmessage.defaultVerb" ID="see">▶vedi</string>
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an= =subject.generalDirection#object=, so you refrain from =autoActDescription=.">▶=subject.Does#verb= =object.an= =subject.generalDirection#object=, quindi ti fermi dall'=autoActDescription=.</string>
-  <string Context="spotmessage" ID="=subject.Does#verb= =object.an= =subject.generalDirection#object= and stop =autoActDescription=.">▶=subject.Does#verb= =object.an= =subject.generalDirection#object= e interrompe =autoActDescription=.</string>
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles= =subject.generalDirection#object=, so you refrain from =autoActDescription=.">▶=subject.Does#verb= =object.an:withTitles= =subject.generalDirection#object=, quindi ti fermi dall'=autoActDescription=.</string>
+  <string Context="spotmessage" ID="=subject.Does#verb= =object.an:withTitles= =subject.generalDirection#object= and stop =autoActDescription=.">▶=subject.Does#verb= =object.an:withTitles= =subject.generalDirection#object= e interrompe =autoActDescription=.</string>
   <string Context="spotmessage" ID="=subject.Does#verb= =object.an:notvisible= =subject.generalDirection#object=, so you refrain from =autoActDescription=.">▶=subject.Does#verb= =object.an:notvisible= =subject.generalDirection#object=, quindi ti fermi dall'=autoActDescription=.</string>
   <string Context="spotmessage" ID="=subject.Does#verb= =object.an:notvisible= =subject.generalDirection#object= and stop =autoActDescription=.">▶=subject.Does#verb= =object.an:notvisible= =subject.generalDirection#object= e interrompe =autoActDescription=.</string>
   <string Context="Tutorial Death" ID="Oh, you died. That's okay. It's a very common occurance in the world of Qud.&#10;&#10;Because the tutorial drops you off in Classic mode with permadeath, your character is wiped when you die.&#10;&#10;The good news is: you get to make a whole new character! Now with a little more knowledge than you had before." Value="▶Oh, sei morto. Va bene. È un evento molto comune nel mondo di Qud.&#10;&#10;Poiché il tutorial ti mette in modalità Classica con morte permanente, il tuo personaggio viene eliminato quando muori.&#10;&#10;La buona notizia è: puoi creare un personaggio completamente nuovo! Con un po' più di conoscenza di prima." />
