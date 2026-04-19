@@ -3,8 +3,10 @@ from lxml import etree
 import re
 import sys
 
-EN_DIR = Path("../ExampleLanguage")
-IT_DIR = Path("../ItalianLanguage/languages/lang-it")
+ROOT = Path(__file__).resolve().parent.parent
+
+EN_DIR = ROOT / "ExampleLanguage"
+IT_DIR = ROOT / "ItalianLanguage/languages/lang-it"
 
 placeholder_pattern = re.compile(r"\{\d+\}|%[sd]")
 
