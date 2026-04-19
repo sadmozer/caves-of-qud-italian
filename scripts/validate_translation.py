@@ -53,6 +53,8 @@ def check_placeholders(en_text, it_text, file):
 
 
 def compare_elements(en_elem, it_elem, file):
+    en_children = list(en_elem)
+    it_children = list(it_elem)
 
     if en_elem.tag != it_elem.tag:
         errors.append(
@@ -89,19 +91,18 @@ def compare_elements(en_elem, it_elem, file):
                     f"in {file}: {it_text[:60]}"
                 )
 
-
-        if (
-            en_text
-            and it_text
-            and en_text == it_text
-        ):
-            warnings.append(
-                f"[Line {en_elem.sourceline}] "
-                f"Possibly untranslated string in {file}: "
-            )
-
-    en_children = list(en_elem)
-    it_children = list(it_elem)
+        if len(en_children) == 0:
+            if (
+                en_text
+                and it_text
+                and len(en_text) > 3
+                and re.search(r"[A-Za-z]", en_text)
+                and en_text == it_text
+            ):
+                warnings.append(
+                    f"[Line {en_elem.sourceline}] "
+                    f"Possibly untranslated string in {file}: "
+                )
 
     if len(en_children) != len(it_children):
         errors.append(
