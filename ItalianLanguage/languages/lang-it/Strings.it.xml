@@ -2508,7 +2508,7 @@
   <string Context="Camp TargetPicker Label" ID="Make Camp">▶Accamparsi</string>
   <string Context="Camp Fail Other Zone" ID="You can only build a campfire in the same zone you are in.">▶Puoi costruire un fuoco da campo solo nella zona in cui ti trovi.</string>
   <string Context="Camp Fail NoPlace" ID="There is nothing there you can build a campfire on.">▶Non c'è niente lì su cui costruire un fuoco da campo.</string>
-  <string Context="Camp Fail Blocked" ID="Something is in the way!">▶C'è qualcosa di mezzo!</string>
+  <string Context="Camp Fail Blocked" ID="Something is in the way!">▶C'è qualcosa che blocca il passaggio!</string>
   <string Context="Camp Fail In Pool" ID="You cannot start a campfire in =pool.the.name=.">▶Non puoi accendere un fuoco da campo in =pool.the.name=.</string>
   <string Context="Camp Success" ID="=subject.Does:make= camp.">=subject.Does:allestisce= un accampamento.</string>
   <string Context="Camp ActivatedAbility Name" ID="Make Camp">▶Accampati</string>
