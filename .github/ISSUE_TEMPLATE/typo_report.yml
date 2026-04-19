@@ -1,0 +1,30 @@
+name: Typo or Translation Mistake
+description: Report a typo, mistranslation, or awkward Italian text.
+title: "[TYPO] "
+labels:
+  - typo
+body:
+  - type: input
+    id: file
+    attributes:
+      label: XML file
+      description: Which file contains the issue?
+      placeholder: Example - Items.xml
+
+  - type: input
+    id: original
+    attributes:
+      label: Current translated text
+      placeholder: Paste current Italian text
+
+  - type: input
+    id: correction
+    attributes:
+      label: Suggested correction
+      placeholder: Paste improved text
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Explain why this should be changed (optional)

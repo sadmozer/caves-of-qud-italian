@@ -1295,10 +1295,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Bark Armor" Load="Merge">
     <part Name="Render" DisplayName="▶armatura di corteccia" />
     <part Name="Description" Short="▶Listelli di corniolo raschiato si adattano al torace, alla vita e alla coscia. La scorza è intaccata dai coleotteri." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Leather Armor" Load="Merge">
     <part Name="Render" DisplayName="▶armatura di cuoio" />
     <part Name="Description" Short="▶Cuoio di capra bollito fu tagliato in una corazza e dotato di cinghie e fibbie di ferro. Odora di cera d'api." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Vine-Weave Tunic" Load="Merge">
     <part Name="Render" DisplayName="▶tunica {{y-g-g-y-y sequence|intrecciata di viti}}" />
@@ -1307,6 +1309,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Studded Leather Armor" Load="Merge">
     <part Name="Render" DisplayName="▶armatura di cuoio borchiata" />
     <part Name="Description" Short="▶Antichi e inscrutabili chiodi di cromo pescati dal mare dei rifiuti punteggiano spessi cunei di cuoio di capra bollito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Pocketed Vest" Load="Merge">
     <part Name="Render" DisplayName="▶gilet con tasche" />
@@ -1337,6 +1340,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Steel Plate Mail" Load="Merge">
     <part Name="Render" DisplayName="▶{{Y|piastrone d'acciaio}}" />
     <part Name="Description" Short="▶L'acciaio battuto a canna è modellato sulle lune pettorifere e cucito a un sottoveste di cuoio di capra imbottito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Puma Chitin Vest" Load="Merge">
     <part Name="Render" DisplayName="▶gilet di {{leopard|chitina di puma}}" />
@@ -1353,6 +1357,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Carbide Plate Armor" Load="Merge">
     <part Name="Render" DisplayName="▶armatura a piastre di {{b|carburo}}" />
     <part Name="Description" Short="▶Metallo piegabile inciso di azzurro opaco è modellato sulle lune pettorifere e cucito a un sottoveste di cuoio di capra imbottito." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Slate Mantle" Load="Merge">
     <part Name="Render" DisplayName="▶mantello ardesia" />
@@ -1386,14 +1391,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Fullerite Plate Mail" Load="Merge">
     <part Name="Render" DisplayName="▶piastrone di {{K|fullerite}}" />
     <part Name="Description" Short="▶Il metallo iperdensо in nero meteoritico fu surriscaldato e battuto alle forme di spalla e torace." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Fullerite Flake Armor" Load="Merge">
     <part Name="Render" DisplayName="▶armatura a scaglie di {{K|fullerite}}" />
     <part Name="Description" Short="▶Scaglie raschiate da un grosso cuneo del metallo gravido sono state fuse a caldo su qualche tipo di cuoio animale." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Crysteel Shardmail" Load="Merge">
     <part Name="Render" DisplayName="▶{{K|{{crysteel|cristacciaio}} cotta di schegge}}" />
     <part Name="Description" Short="▶Gli altiforni aspirarono l'energia mareale fuori dal pianeta, riscaldarono il carbonio a temperature solari e lo versarono in stampi esagonali. Le tenaglie smeraldine usate per recuperare i pezzi si atomizzarono e dispersero vanadio -- il bagliore verde -- nel collettore, imperfezionando il metallo e conferendogli la sua tinta caratteristica." />
+    <xtagGrammar adjunctNoun="▶completo" massNoun="▶true" />
   </object>
   <object Name="Nanoweave Vest" Load="Merge">
     <part Name="Render" DisplayName="▶gilet di nanotessuto" />
@@ -1685,7 +1693,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
   <object Name="Night-vision Goggles" Load="Merge">
     <part Name="Render" DisplayName="▶occhiali per la visione notturna" />
     <part Name="Description" Short="▶Binocoli con ghiera di messa a fuoco leggono i segnali della luce infrarossa e producono un'immagine strutturata di verdi caldi all'occhio." />
-    <xtagGrammar iArticle="▶un paio di" />
+    <xtagGrammar adjunctNoun="▶un paio di" />
   </object>
   <object Name="Vinewood Sap Mask" Load="Merge">
     <part Name="Render" DisplayName="▶maschera di resina di legno di vite" />
@@ -2140,6 +2148,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.19
     <xtagGrammar Proper="▶true" />
   </object>
   <object Name="Kindrish" Load="Merge">
+      <part Name="Render" DisplayName="▶{{g-G-y-Y-Y-y-G-g alternation|Kindrish}}" />
     <part Name="Description" Short="▶Perline di dente di cinghiale sull'antico amuleto sono consumate fino ai monconi dalla cartilagine del tempo, ma il cavo flessibile che le tiene insieme è forte come il giorno in cui fu intrecciato. Pendente dal braccialetto vi è una statuetta di un cervo, intagliata da una misteriosa sostanza che spacca la luce come il cristallo ma pesa come il metallo, producendo una vividezza ombreggiata altrove inedita." />
     <part Name="TakenAccomplishment" Text="▶Hai recuperato il braccialetto ancestrale degli hindren, =this.refname=." Hagiograph="▶Attraverso la dimostrazione dell'straordinaria astuzia di =player.possessive=, =name= fu in grado di recuperare =this.refname=, il braccialetto ancestrale degli hindren, e fu così insignito del titolo di Grande-Cerva." Gospel="▶In una taverna nelle profondità dei selvaggi di =terrain.t=, =name= perse il suo prezioso braccialetto Kindrish per mano di un ladro locale. =name= assassinò il ladro =spice:elements.entity@elements[random].murdermethods.!random= e recuperò immediatamente il caro cimelio." />
     <xtagGrammar Proper="▶true" />

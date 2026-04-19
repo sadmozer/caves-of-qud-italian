@@ -1,0 +1,29 @@
+name: Mod Bug Report
+description: Report a bug with the Italian translation mod.
+title: "[BUG] "
+labels:
+  - bug
+
+body:
+  - type: input
+    id: gameversion
+    attributes:
+      label: Game Version
+      placeholder: Example - lang-experimental branch
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the bug.
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce it?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages / screenshots

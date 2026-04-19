@@ -1,0 +1,24 @@
+name: Translation Suggestion
+description: Suggest a better translation for a term or phrase.
+title: "[SUGGESTION] "
+labels:
+  - suggestion
+
+body:
+  - type: input
+    id: english
+    attributes:
+      label: Original English term
+      placeholder: Example - Toughness
+
+  - type: input
+    id: italian
+    attributes:
+      label: Suggested Italian translation
+      placeholder: Example - Tempra
+
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Why this translation?
+      description: Explain your reasoning.
