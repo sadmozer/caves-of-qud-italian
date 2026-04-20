@@ -713,10 +713,10 @@ alone if no match found.
   <string Context="Core GameEnd Lairs" ID="You found {{C|=lairs=}} =lairs.pluralize:lair=.&#10;" Value="▶Hai trovato {{C|=lairs=}} =lairs.pluralize:tana=.&#10;" />
   <string Context="Core GameEnd Items" ID="You found {{C|=items=}} =items.pluralize:item=.&#10;" Value="▶Hai trovato {{C|=items=}} =items.pluralize:oggetto=.&#10;" />
   <string Context="Core GameEnd Artifacts" ID="You generated {{C|=artifacts=}} storied =artifacts.pluralize:item=.&#10;" Value="▶Hai generato {{C|=artifacts=}} =artifacts.pluralize:oggetto= storico.&#10;" />
-  <string Context="Core GameEnd Most Advanced" ID="The most advanced artifact in your possession was =artifact.a.name:asIfKnown:noConfusion=.&#10;" Value="▶The most advanced artifact in your possession was =artifact.a.name:asIfKnown:noConfusion=." />
-  <string Context="Core GameEnd Mode" ID="This game was played in =game.mode= mode.&#10;" Value="▶This game was played in =game.mode= mode." />
-  <string Context="Core Gameend Chronology Title" ID="&#10;&#10;{{C|=ind=}} Chronology for {{W|=player.name=}} {{C|=ind=}}&#10;&#10;" Value="▶&#10;&#10;{{C|=ind=}} Chronology for {{W|=player.name=}} {{C|=ind=}}" />
-  <string Context="Core Gameend FinalMessages Title" ID="&#10;&#10;{{C|=ind=}} Final Messages for {{W|=player.name=}} {{C|=ind=}}&#10;&#10;" Value="▶&#10;&#10;{{C|=ind=}} Final Messages for {{W|=player.name=}} {{C|=ind=}}" />
+  <string Context="Core GameEnd Most Advanced" ID="The most advanced artifact in your possession was =artifact.a.name:asIfKnown:noConfusion=.&#10;" Value="▶L'artefatto più avanzato in tuo possesso era =artifact.a.name:asIfKnown:noConfusion=." />
+  <string Context="Core GameEnd Mode" ID="This game was played in =game.mode= mode.&#10;" Value="▶▶Questa partita è stata giocata in modalità =game.mode=." />
+  <string Context="Core Gameend Chronology Title" ID="&#10;&#10;{{C|=ind=}} Chronology for {{W|=player.name=}} {{C|=ind=}}&#10;&#10;" Value="▶&#10;&#10;{{C|=ind=}} Cronologia di {{W|=player.name=}} {{C|=ind=}}" />
+  <string Context="Core Gameend FinalMessages Title" ID="&#10;&#10;{{C|=ind=}} Final Messages for {{W|=player.name=}} {{C|=ind=}}&#10;&#10;" Value="▶&#10;&#10;{{C|=ind=}} Messaggi finali di {{W|=player.name=}} {{C|=ind=}}" />
   <string Context="Core SavedGame Index" ID="Indexing saved games...">▶Indicizzazione dei salvataggi...</string>
   <string Context="Core No SavedGame" ID="You have no existing saved games.">▶Non hai salvataggi esistenti.</string>
   <string Context="Delete Save" ID="Are you sure you want to delete this saved game?">▶Sei sicuro di voler eliminare questo salvataggio?</string>
@@ -843,7 +843,7 @@ alone if no match found.
   <string Context="direction.description (U)" ID="above">▶sopra</string>
   <string Context="direction.description (.)" ID="here">▶qui</string>
   <string Context="direction.description (?)" ID="somewhere">▶da qualche parte</string>
-  <string Context="direction.description (compass)" ID="to the =dir.direction.expanded=">▶verso il =dir.direction.expanded=</string>
+  <string Context="direction.description (compass)" ID="to the =dir.direction.expanded=">▶verso =dir.direction.expanded=</string>
   <string Context="direction.description.player" ID="=dir.to.the.direction=">▶=dir.to.the.direction=</string>
   <string Context="direction.description.actor (D)" ID="below =subject.them=">▶sotto =subject.them=</string>
   <string Context="direction.description.actor (U)" ID="above =subject.them=">▶sopra =subject.them=</string>
@@ -2789,7 +2789,7 @@ alone if no match found.
   <string Context="RingGateBuilder TeleportGateNameRoot" ID="=prefixRoot==root=">▶=prefixRoot==root=</string>
   <string Context="WorldCreation Rivers" ID="Generating rivers...">▶Generando fiumi...</string>
   <string Context="WorldCreation Canyons" ID="Generating canyons...">▶Generando canyon...</string>
-  <string Context="Zone WindChange direction only, with Mind's Compass" ID="The wind changes direction from the =old.direction.expanded= to the =new.direction.expanded=.">▶Il vento cambia direzione dal =old.direction.expanded= verso il =new.direction.expanded=.</string>
+  <string Context="Zone WindChange direction only, with Mind's Compass" ID="The wind changes direction from the =old.direction.expanded= to the =new.direction.expanded=.">▶Il vento cambia direzione da =old.direction.expanded= verso =new.direction.expanded=.</string>
   <string Context="Zone WindChange direction only" ID="The wind changes direction.">▶Il vento cambia direzione.</string>
   <string Context="Zone WindChange stops" ID="The wind becomes still.">▶Il vento si calma.</string>
   <string Context="Zone WindChange starts with Mind's Compass" ID="The wind begins blowing at =newWindDesc= from the =new.direction.expanded=.">▶Il vento inizia a soffiare a =newWindDesc= dal =new.direction.expanded=.</string>

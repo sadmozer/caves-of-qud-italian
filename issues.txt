@@ -3,3 +3,4 @@
 - uniformare nomi skills e abilità (esempio: sbattere != slam)
 - terminare traduzione Strings.Conversations
 - terminare traduzione HistorySpice.it.jsonc
+- terminare traduzione HiddenObjects.it.xml

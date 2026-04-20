@@ -19,7 +19,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           Impara le basi di Caves of Qud.
               </description>
       </mode>
-      <mode ID="Classic" Title="▶Classico">
+      <mode ID="Classic" Title="▶Classica">
         <description>▶
           Morte permanente: perdi il personaggio quando muori.
               </description>
@@ -37,7 +37,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           {{c|∙}} Salvataggio automatico agli insediamenti.
               </description>
       </mode>
-      <mode ID="Daily" Title="▶Giornaliero">
+      <mode ID="Daily" Title="▶Giornaliera">
         <description>▶
           {{c|∙}} Una sola possibilità con personaggio e seme del mondo fissi.
           {{c|∙}} Attualmente al giorno {{W|=now.dayOfYear=}} dell'anno {{W|=now.year=}}.
