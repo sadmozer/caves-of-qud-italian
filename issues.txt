@@ -1,0 +1,5 @@
+- traduzione errata "weep" in "pianto" 
+- correggere le parole con pluralize (esempio: sorsoes invece di sorsi)
+- uniformare nomi skills e abilità (esempio: sbattere != slam)
+- terminare traduzione Strings.Conversations
+- terminare traduzione HistorySpice.it.jsonc
