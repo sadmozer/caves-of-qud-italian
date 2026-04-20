@@ -10,6 +10,9 @@ IT_DIR = ROOT / "ItalianLanguage/languages/lang-it"
 
 placeholder_pattern = re.compile(r"\{\d+\}|%[sd]")
 
+# Attributes that serve as lookup keys and must not change in translation
+KEY_ATTRS = ("ID", "Context", "Name")
+
 errors = []
 warnings = []
 
@@ -70,6 +73,17 @@ def compare_elements(en_elem, it_elem, file):
             f"{en_elem.tag}"
         )
 
+    for attr in KEY_ATTRS:
+        en_val = en_elem.get(attr)
+        it_val = it_elem.get(attr)
+        # Attributes starting with ▶ are display text (translatable), not keys
+        if en_val is not None and not en_val.startswith("▶") and en_val != it_val:
+            errors.append(
+                f"[Line {en_elem.sourceline}] "
+                f"Key attribute '{attr}' changed in {file}: "
+                f"'{en_val}' -> '{it_val}'"
+            )
+
     if en_elem.text and it_elem.text:
         check_placeholders(
             en_elem.text,
@@ -105,11 +119,41 @@ def compare_elements(en_elem, it_elem, file):
                 )
 
     if len(en_children) != len(it_children):
-        errors.append(
-            f"[Line {en_elem.sourceline}] "
-            f"Node count mismatch in {file}: {len(en_children)} != {len(it_children)}"
-            f"{en_text[:60]}"
-        )
+        def _elem_key(e):
+            return tuple(e.get(a, "") for a in KEY_ATTRS)
+
+        en_keys = [_elem_key(c) for c in en_children]
+        it_keys = [_elem_key(c) for c in it_children]
+        en_key_set = set(en_keys)
+        it_key_set = set(it_keys)
+
+        missing = sorted(en_key_set - it_key_set)
+        extra = sorted(it_key_set - en_key_set)
+
+        if missing or extra:
+            for k in missing:
+                id_, ctx, name = k
+                label = f"ID='{id_}'" if id_ else f"Name='{name}'"
+                if ctx:
+                    label += f" Context='{ctx}'"
+                errors.append(
+                    f"[Line {en_elem.sourceline}] "
+                    f"Missing in IT translation {file}: {label}"
+                )
+            for k in extra:
+                id_, ctx, name = k
+                label = f"ID='{id_}'" if id_ else f"Name='{name}'"
+                if ctx:
+                    label += f" Context='{ctx}'"
+                errors.append(
+                    f"[Line {en_elem.sourceline}] "
+                    f"Extra in IT translation {file}: {label}"
+                )
+        else:
+            errors.append(
+                f"[Line {en_elem.sourceline}] "
+                f"Node count mismatch in {file}: {len(en_children)} != {len(it_children)}"
+            )
         return
 
     for ec, ic in zip(en_children, it_children):
