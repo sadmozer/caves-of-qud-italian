@@ -6,7 +6,7 @@ import sys
 ROOT = Path(__file__).resolve().parent.parent
 
 EN_DIR = ROOT / "ExampleLanguage"
-IT_DIR = ROOT / "ItalianLanguage/languages/lang-it"
+IT_DIR = ROOT / "ItalianLanguage/languages"
 
 placeholder_pattern = re.compile(r"\{\d+\}|%[sd]")
 
