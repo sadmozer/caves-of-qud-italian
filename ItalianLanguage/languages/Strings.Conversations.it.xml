@@ -2121,35 +2121,35 @@ solo follia,
 solo un giro che echeggia.
   </string>
   <string Context="Conversation Fool.ReturnPC.Text" ID="No one of fate,&#xA;no one of blood,&#xA;no one of importance,&#xA;until their return&#xA;and the realization of their future.&#xA;&#xA;=name= is a temple in memory&#xA;upon which hopes are hung&#xA;and rage is borne out.&#xA;&#xA;Too great to be real,&#xA;too foundational not to be,&#xA;too contradictory to have ever existed.">
-▶No one of fate,
-no one of blood,
-no one of importance,
-until their return
-and the realization of their future.
+▶Nessuno del fato,
+nessuno del sangue,
+nessuno d'importanza,
+finché non fece ritorno
+e s'avverò il suo futuro.
 
-=name= is a temple in memory
-upon which hopes are hung
-and rage is borne out.
+=name= è un tempio nel ricordo
+su cui le speranze sono appese
+e la rabbia si sfoga.
 
-Too great to be real,
-too foundational not to be,
-too contradictory to have ever existed.
+Troppo grande per essere reale,
+troppo fondamentale per non esserlo,
+troppo contraddittoria per essere mai esistita.
   </string>
   <string Context="Conversation Fool.ReturnFreeholder.Text" ID="Freeholder:&#xA;one who argues; bickerer.&#xA;&#xA;Freeholder:&#xA;a peer among peers&#xA;among peers among peers&#xA;tessellated thus&#xA;until one must scream to be heard.">
 ▶Freeholder:
-one who argues; bickerer.
+colui che dibatte; il litigioso.
 
 Freeholder:
-a peer among peers
-among peers among peers
-tessellated thus
-until one must scream to be heard.
+un pari tra pari
+tra pari tra pari
+così tessellato
+finché uno deve urlare per essere udito.
   </string>
   <string Context="Conversation Fool.StarfarerWelcome.Text" ID="Once in the fullness of time there met&#xA;the Fool of the Gyre and a wanderer.&#xA;The Fool offered stories spanning ground to sky&#xA;and the wanderer sat to hear.">
-▶Once in the fullness of time there met
-the Fool of the Gyre and a wanderer.
-The Fool offered stories spanning ground to sky
-and the wanderer sat to hear.
+▶Una volta, nel pieno del tempo, s'incontrarono
+il Folle del Gorgo e un viandante.
+Il Folle offrì storie che spaziavano dalla terra al cielo
+e il viandante si sedette ad ascoltare.
   </string>
   <string Context="Conversation Fool.StarfarerWelcome.Starfarer StoryChoice.Text" ID="Tell me the tale.">
 ▶Raccontami la storia.
@@ -2158,39 +2158,39 @@ and the wanderer sat to hear.
 ▶Devo declinare.
   </string>
   <string Context="Conversation Fool.Starfarer Story.Text" ID="Ere the struggles of our day,&#xA;when the spire rose lonely strong,&#xA;Sultans ruled the hollow land&#xA;devouring one another&#xA;as they saw fit.">
-▶Ere the struggles of our day,
-when the spire rose lonely strong,
-Sultans ruled the hollow land
-devouring one another
-as they saw fit.
+▶Prima delle lotte del nostro tempo,
+quand la guglia sorgeva solitaria e forte,
+i Sultani governavano la terra cava
+devorandosi a vicenda
+come più aggradava loro.
   </string>
   <string Context="Conversation Fool.Starfarer2.Text" ID="None hailed =name=&#xA;and =name= hailed none&#xA;but with word and blade&#xA;deed and disregard&#xA;they stood against old rule.&#xA;&#xA;To push back the Gyre,&#xA;to spill of Nephil ichor&#xA;they took to the spire&#xA;and quieted the remnants.">
-▶None hailed =name=
-and =name= hailed none
-but with word and blade
-deed and disregard
-they stood against old rule.
+▶Nessuno acclamò =name=
+e =name= non acclamò nessuno
+ma con parola e lama
+atto e disprezzo
+si sollevò contro il vecchio dominio.
 
-To push back the Gyre,
-to spill of Nephil ichor
-they took to the spire
-and quieted the remnants.
+Per respingere il Gorgo,
+per versare l'icor dei Nephilim
+salì sulla guglia
+e ammutolì i resti.
   </string>
   <string Context="Conversation Fool.Starfarer3.Text" ID="Though =name= was gone&#xA;our memories remained&#xA;and the plagues receded&#xA;and many rejoiced.&#xA;&#xA;To this day&#xA;eyes turn to the stars&#xA;looking for a sign that our starfarer&#xA;has deigned to return.&#xA;&#xA;Countless years of struggle&#xA;centuries of change.&#xA;We remember what we can&#xA;and watch new and old die.">
-▶Though =name= was gone
-our memories remained
-and the plagues receded
-and many rejoiced.
+▶Sebbene =name= fosse scomparso
+i nostri ricordi rimasero
+e le pestilenze si ritirarono
+e molti si rallegrarono.
 
-To this day
-eyes turn to the stars
-looking for a sign that our starfarer
-has deigned to return.
+Ancora oggi
+gli occhi si volgono alle stelle
+cercando un segno che il nostro starfarer
+si sia degnato di tornare.
 
-Countless years of struggle
-centuries of change.
-We remember what we can
-and watch new and old die.
+Anni innumerevoli di lotta
+secoli di cambiamento.
+Ricordiamo quel che possiamo
+e guardiamo morire il nuovo e il vecchio.
   </string>
   <string Context="Conversation Fool.Starfarer3.StarfarerWhoChoice.Text" ID="Who are you?">
 ▶Chi siete?
@@ -2205,34 +2205,34 @@ and watch new and old die.
 ▶Grazie. Farewell.
   </string>
   <string Context="Conversation Fool.StarfarerWho.Text" ID="Who, I?&#xA;Only a fool, tra la,&#xA;only a remnant scrap.&#xA;&#xA;Only left-behind,&#xA;only madness,&#xA;only an echoing gyre.">
-▶Who, I?
-Only a fool, tra la,
-only a remnant scrap.
+▶Chi, io?
+Solo un folle, tra la,
+solo un frammento residuo.
 
-Only left-behind,
-only madness,
-only an echoing gyre.
+Solo abbandonato,
+solo follia,
+solo un giro che echeggia.
   </string>
   <string Context="Conversation Fool.StarfarerPC.Text" ID="Starfarer, herald, disruptor,&#xA;feared, revered,&#xA;savior and abandoner.&#xA;&#xA;=name= is a dream from which we will one day awaken.">
-▶Starfarer, herald, disruptor,
-feared, revered,
-savior and abandoner.
+▶Starfarer, araldo, perturbatore,
+temuto, venerato,
+salvatore e abbandonatore.
 
-=name= is a dream from which we will one day awaken.
+=name= è un sogno dal quale un giorno ci risveglieremo.
   </string>
   <string Context="Conversation Fool.StarfarerTravel.Text" ID="Who cares?&#xA;&#xA;Can one? Maybe.&#xA;Can I? Surely not.&#xA;Can YOU? Well.&#xA;Prove it.">
-▶Who cares?
+▶E chi se ne cura?
 
-Can one? Maybe.
-Can I? Surely not.
-Can YOU? Well.
-Prove it.
+Può uno? Forse.
+Posso io? Di certo no.
+Puoi TU? Beh.
+Dimostralo.
   </string>
   <string Context="Conversation Fool.AccessionWelcome.Text" ID="Once, after it all burst apart,&#xA;the Fool of the Gyre met a wise jelly.&#xA;They sat in the slag of the world&#xA;and the Fool told the story of nowaday.">
-▶Once, after it all burst apart,
-the Fool of the Gyre met a wise jelly.
-They sat in the slag of the world
-and the Fool told the story of nowaday.
+▶Una volta, dopo che tutto si frantumò,
+il Folle del Gorgo incontrò una savia gelatina.
+Si sedettero nella scoria del mondo
+e il Folle narrò la storia dell'oggi.
   </string>
   <string Context="Conversation Fool.AccessionWelcome.Accession StoryChoice.Text" ID="Bloop, blorp. (Proceed.)">
 ▶Bloop, blorp. (Procedere.)
@@ -2241,40 +2241,40 @@ and the Fool told the story of nowaday.
 ▶Glub. (Devo declinare.)
   </string>
   <string Context="Conversation Fool.Accession Story.Text" ID="Ere the melting of everything,&#xA;when the spire rose lonely strong,&#xA;Creatures ruled the hollow land&#xA;devouring one another&#xA;as they saw fit.">
-▶Ere the melting of everything,
-when the spire rose lonely strong,
-Creatures ruled the hollow land
-devouring one another
-as they saw fit.
+▶Prima della fusione di tutto,
+quand la guglia sorgeva solitaria e forte,
+le Creature governavano la terra cava
+devorandosi a vicenda
+come più aggradava loro.
   </string>
   <string Context="Conversation Fool.Accession2.Text" ID="None hailed =name=&#xA;and =name= hailed none&#xA;but with word and blade&#xA;deed and disregard&#xA;they stood against their kind.&#xA;&#xA;To push back the Gyre,&#xA;to spill of Nephil ichor&#xA;they took to the spire&#xA;and enacted a great betrayal.&#xA;&#xA;Death of impossible scale reigned&#xA;and we Nervous Ones fell,&#xA;and as the Gyre swallowed us&#xA;we sang to the last.">
-▶None hailed =name=
-and =name= hailed none
-but with word and blade
-deed and disregard
-they stood against their kind.
+▶Nessuno acclamò =name=
+e =name= non acclamò nessuno
+ma con parola e lama
+atto e disprezzo
+si sollevò contro la propria specie.
 
-To push back the Gyre,
-to spill of Nephil ichor
-they took to the spire
-and enacted a great betrayal.
+Per respingere il Gorgo,
+per versare l'icor dei Nephilim
+salì sulla guglia
+e compì un grande tradimento.
 
-Death of impossible scale reigned
-and we Nervous Ones fell,
-and as the Gyre swallowed us
-we sang to the last.
+La morte di scala impossibile regnò
+e noi Nervosi caddemmo,
+e mentre il Gorgo ci inghiottiva
+cantammo fino alla fine.
   </string>
   <string Context="Conversation Fool.Accession3.Text" ID="Yet some remained&#xA;in comb-cave and vault,&#xA;we Nervous Ones,&#xA;watching our successors burgeon:&#xA;&#xA;You alveolates, you diatoms,&#xA;you scum-blooms and gillcaps,&#xA;you one-cells and slime-cities.&#xA;rising glorious and shining&#xA;out of our withering shadow.">
-▶Yet some remained
-in comb-cave and vault,
-we Nervous Ones,
-watching our successors burgeon:
+▶Eppure alcuni rimasero
+nelle grotte a nido d'ape e nei vaults,
+noi Nervosi,
+a guardare i nostri successori fiorire:
 
-You alveolates, you diatoms,
-you scum-blooms and gillcaps,
-you one-cells and slime-cities.
-rising glorious and shining
-out of our withering shadow.
+Voi alveolati, voi diatomee,
+voi fiori di schiuma e calici lamellari,
+voi monocellulari e città di melma.
+sorgendo gloriosi e luminosi
+dall'ombra del nostro avvizzire.
   </string>
   <string Context="Conversation Fool.Accession3.AccessionWhoChoice.Text" ID="Who are you?">
 ▶Chi siete?
@@ -2289,31 +2289,31 @@ out of our withering shadow.
 ▶Grazie. Farewell.
   </string>
   <string Context="Conversation Fool.AccessionWho.Text" ID="I am the carcass of a fool&#xA;made to jump and dance&#xA;by a troupe of merry bacteria.&#xA;&#xA;Do you like how I walk?&#xA;Do you like how I talk?&#xA;Do you like how my face&#xA;disintegrates into salt?">
-▶I am the carcass of a fool
-made to jump and dance
-by a troupe of merry bacteria.
+▶Sono la carcassa di un folle
+fatta saltare e danzare
+da una compagnia di allegri batteri.
 
-Do you like how I walk?
-Do you like how I talk?
-Do you like how my face
-disintegrates into salt?
+Vi piace come cammino?
+Vi piace come parlo?
+Vi piace come il mio volto
+si disintegra in sale?
   </string>
   <string Context="Conversation Fool.AccessionPC.Text" ID="Determiner and fate.&#xA;&#xA;More a thing of nature&#xA;than a being of any kind.&#xA;&#xA;More the context of our existence&#xA;than anything in it.">
-▶Determiner and fate.
+▶Determinante e fato.
 
-More a thing of nature
-than a being of any kind.
+Più una cosa della natura
+che un essere di qualsiasi tipo.
 
-More the context of our existence
-than anything in it.
+Più il contesto della nostra esistenza
+che qualsiasi cosa in essa.
   </string>
   <string Context="Conversation Fool.AccessionNervous.Text" ID="Perhaps we are,&#xA;perhaps we are.&#xA;What wiggles in the hot soil?&#xA;Flagella?&#xA;&#xA;Or could it be a tail?">
-▶Perhaps we are,
-perhaps we are.
-What wiggles in the hot soil?
-Flagella?
+▶Forse lo siamo,
+forse lo siamo.
+Cosa si agita nel suolo ardente?
+Flagelli?
 
-Or could it be a tail?
+O potrebbe essere una coda?
   </string>
   <string Context="Conversation BarathrumHologram.Start.Text" ID="O? What.. am I cohering? Curious! To fetch my notebook. But, o...">
 ▶O? Cosa... sto coagulando? Curioso! Devo prendere il mio quaderno. Ma, o...
@@ -2321,17 +2321,17 @@ Or could it be a tail?
   <string Context="Conversation ArchonHologram.Start.Text" ID="*READOUT*&#xA;&#xA;*READOUT*&#xA;&#xA;*READOUT*">
 ▶*LETTURA*
 
-*READOUT*
+*LETTURA*
 
-*READOUT*
+*LETTURA*
   </string>
   <string Context="Conversation RebekahHologram.Start.Text" ID="Aha, thy phantasm Magicks art crystalsibs to the shivers o' the skin of Avalon. And, thee? Moon King??">
 ▶Aha, le tue Magicks fantasma son crystalsibs ai brividi della pelle di Avalon. E tu? Re della Luna??
   </string>
   <string Context="Conversation SpokenIonic.Start.Text" ID="Sapience? Hey!&#xA;The time goes, since I have communed last, my adornments speak.&#xA;Has interstate power been declared among the Codex people?">
-▶Sapience? Hey!
-The time goes, since I have communed last, my adornments speak.
-Has interstate power been declared among the Codex people?
+▶Sapienza? Ehi!
+Il tempo passa, da quando ho comunicato l'ultima volta, i miei ornamenti parlano.
+È stato dichiarato il potere interstatale tra le genti del Codice?
   </string>
   <string Context="Conversation SpokenIonic.Start.Who.Text" ID="Who are you? What are you?">
 ▶Chi siete? Cosa siete?
@@ -2349,9 +2349,9 @@ Has interstate power been declared among the Codex people?
 ▶Vivi e... bevi?
   </string>
   <string Context="Conversation SpokenIonic.Ionic.Text" ID="Gathered and spun, I emerge into {{zetachrome|Spoken Ionic Through Covalency Heart}}.&#xA;What is... what are. I cannot.&#xA;Finding no entry, for the rest is at home. A strand to you.">
-▶Gathered and spun, I emerge into {{zetachrome|Spoken Ionic Through Covalency Heart}}.
-What is... what are. I cannot.
-Finding no entry, for the rest is at home. A strand to you.
+▶Radunato e filato, emergo nel {{zetachrome|Spoken Ionic Through Covalency Heart}}.
+Cos'è... cosa sono. Non posso.
+Nessuna voce trovata, perché il resto è a casa. Un filo per voi.
   </string>
   <string Context="Conversation SpokenIonic.Ionic.GreetChoice.Text" ID="Greetings, Spoken Ionic Through Covalency Heart. I am =name=.">
 ▶Saluti, Ionico Parlato Attraverso il Cuore di Covalenza. Sono =name=.
@@ -2363,49 +2363,49 @@ Finding no entry, for the rest is at home. A strand to you.
 ▶Con gioia!
   </string>
   <string Context="Conversation SpokenIonic.Adornments.Text" ID="I shiver at a magnanimity long since worn! Decorate you, decorate.&#xA;Your adornments fascinate also, hey!&#xA;Span of time across stars shines through it.">
-▶I shiver at a magnanimity long since worn! Decorate you, decorate.
-Your adornments fascinate also, hey!
-Span of time across stars shines through it.
+▶Rabbrividisco a una magnanimità indossata da tempo! Ornatevi, ornate.
+Anche i vostri ornamenti affascinano, ehi!
+Attraverso di essi traspare la distesa del tempo tra le stelle.
   </string>
   <string Context="Conversation SpokenIonic.Journey.Text" ID="Emerges this creature from soil, speaks adornment.&#xA;Shaken carefully because thought was the line closed.&#xA;Our remembers at home. Strand.">
-▶Emerges this creature from soil, speaks adornment.
-Shaken carefully because thought was the line closed.
-Our remembers at home. Strand.
+▶Questa creatura emerge dal suolo, parla di ornamenti.
+Scossa con cura perché si pensava che la linea fosse chiusa.
+I nostri ricordi a casa. Filo.
   </string>
   <string Context="Conversation SpokenIonic.Codex.Text" ID="By my adornments, it is the mat below and its home-havers.&#xA;It is not? I offer a strand. This entry can be at home.&#xA;Having all time and no entry-home, we addle.">
-▶By my adornments, it is the mat below and its home-havers.
-It is not? I offer a strand. This entry can be at home.
-Having all time and no entry-home, we addle.
+▶Per i miei ornamenti, è il tappeto sotto e i suoi abitanti.
+Non lo è? Offro un filo. Questa voce può essere a casa.
+Avendo tutto il tempo e nessuna voce-casa, annaspiamo.
   </string>
   <string Context="Conversation SpokenIonic.Codex.Howlong.Text" ID="How long have you been here?">
 ▶Da quanto tempo siete qui?
   </string>
   <string Context="Conversation SpokenIonic.Time.Text" ID="I must offer a strand to you.&#xA;Having not this entry, for I left it at home.&#xA;At smallest... more than one hundred Codex cycle. Less than ten thousand.&#xA;Big span. I offer you strands for this.">
-▶I must offer a strand to you.
-Having not this entry, for I left it at home.
-At smallest... more than one hundred Codex cycle. Less than ten thousand.
-Big span. I offer you strands for this.
+▶Devo offrirvi un filo.
+Non avendo questa voce, perché l'ho lasciata a casa.
+Al minimo... più di cento cicli del Codice. Meno di diecimila.
+Grande spazio. Vi offro fili per questo.
   </string>
   <string Context="Conversation SpokenIonic.Temple.Text" ID="Hey! This one I have.&#xA;Rootbound we to {{M|Star Orchid Temple}}, one of more.&#xA;Here celebrate burn dust of the tail riders, mosaic innumerability.">
-▶Hey! This one I have.
-Rootbound we to {{M|Star Orchid Temple}}, one of more.
-Here celebrate burn dust of the tail riders, mosaic innumerability.
+▶Ehi! Questa ce l'ho.
+Radicati siamo al {{M|Star Orchid Temple}}, uno tra molti.
+Qui celebriamo la polvere bruciante dei cavalcatori della coda, mosaico innumerabile.
   </string>
   <string Context="Conversation SpokenIonic.Temple.Else.Text" ID="Is there anyone else here?">
 ▶C'è qualcun altro qui?
   </string>
   <string Context="Conversation SpokenIonic.Others.Text" ID="For temple 'here' yes:&#xA;{{zetachrome|Spoken Ionic Through Covalency Heart}} here.&#xA;Also, you.">
-▶For temple 'here' yes:
-{{zetachrome|Spoken Ionic Through Covalency Heart}} here.
-Also, you.
+▶Per il tempio 'qui' sì:
+{{zetachrome|Spoken Ionic Through Covalency Heart}} qui.
+Anche voi.
   </string>
   <string Context="Conversation SpokenIonic.Others.Whoelse.Text" ID="But is there anyone else here on the Quay?">
 ▶Ma c'è qualcun altro qui al Molo?
   </string>
   <string Context="Conversation SpokenIonic.Quay.Text" ID="Offering adornment,&#xA;No entry for this.&#xA;My mat is small.">
-▶Offering adornment,
-No entry for this.
-My mat is small.
+▶Offrendo ornamento,
+Nessuna voce per questo.
+Il mio tappeto è piccolo.
   </string>
   <string Context="Conversation BaseConversation.WaterRitualChoice.Text" ID="Your thirst is mine, my water is yours.">
 ▶La tua sete è mia, la mia acqua è tua.
@@ -2821,39 +2821,39 @@ Non vi è misericordia nel Grande Deserto, e poco di più nei canyon. Non posso 
 Vivi e bevi!
   </string>
   <string Context="Conversation WatervineFarmerConvert.Bauble.FindTrinket" ID="Yes! My neighbor-kin tire of the tale. I was scything the vine when the flat of my blade turned it loose from the soil. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead toward the beam on the abacus of Beauty...&#xA;&#xA;Will you go, then? And offer my bauble at the Well?">
-▶Yes! My neighbor-kin tire of the tale. I was scything the vine when the flat of my blade turned it loose from the soil. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead toward the beam on the abacus of Beauty...
+▶Sì! I miei vicini-parenti si stancano di questo racconto. Stavo falciando la vite quando il piatto della mia lama l'ha liberata dal suolo. Il mio cuore si è già mosso alla vista del cromo, ma liberare di persona una piccola scheggia, spostare un grano verso il raggio sull'abaco della Bellezza...
 
-Will you go, then? And offer my bauble at the Well?
+Ci andrete, allora? E offrirete il mio gingillo al Pozzo?
   </string>
   <string Context="Conversation CannibalConvert.Bauble.FindTrinket" ID="Yes! My neighbor-kin tire of the tale. I was supping on summer offal when I noticed something glinting in the guts. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...&#xA;&#xA;Will you go, then? And offer my bauble at the Well?">
-▶Yes! My neighbor-kin tire of the tale. I was supping on summer offal when I noticed something glinting in the guts. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+▶Sì! I miei vicini-parenti si stancano di questo racconto. Stavo mangiando frattaglie estive quando ho notato qualcosa che luccicava nelle interiora. Il mio cuore si è già mosso alla vista del cromo, ma liberare di persona una piccola scheggia, spostare un grano sull'abaco della Bellezza...
 
-Will you go, then? And offer my bauble at the Well?
+Ci andrete, allora? E offrirete il mio gingillo al Pozzo?
   </string>
   <string Context="Conversation CannibalConvert.WhyNot.KilledInDesert" ID="Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!&#xA;&#xA;There is no kindness in the Great Desert. I cannot go and live.">
-▶Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!
+▶Amico, sarei un mucchio fumante, cotto a morte dai raggi di un planatore dell'alba! Sarei un cadavere crivellato dai fucili degli Issachari!
 
-There is no kindness in the Great Desert. I cannot go and live.
+Non v'è alcuna bontà nel Grande Deserto. Non posso andarci e sopravvivere.
   </string>
   <string Context="Conversation IssachariConvert.Bauble.FindTrinket" ID="Yes! My neighbor-kin tire of the tale. I was wrenching moisture from a banner when I kicked something 'neath the salt. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...&#xA;&#xA;Will you go, then? And offer my bauble at the Well?">
-▶Yes! My neighbor-kin tire of the tale. I was wrenching moisture from a banner when I kicked something 'neath the salt. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+▶Sì! I miei vicini-parenti si stancano di questo racconto. Stavo estraendo umidità da uno stendardo quando ho scalciato qualcosa sotto al sale. Il mio cuore si è già mosso alla vista del cromo, ma liberare di persona una piccola scheggia, spostare un grano sull'abaco della Bellezza...
 
-Will you go, then? And offer my bauble at the Well?
+Ci andrete, allora? E offrirete il mio gingillo al Pozzo?
   </string>
   <string Context="Conversation IssachariConvert.WhyNot.KilledInDesert" ID="Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of my kinsfolk!&#xA;&#xA;There is no kindness deep in the Great Desert. I cannot go and live.">
-▶Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of my kinsfolk!
+▶Amico, sarei un mucchio fumante, cotto a morte dai raggi di un planatore dell'alba! Sarei un cadavere crivellato dai fucili dei miei consanguinei!
 
-There is no kindness deep in the Great Desert. I cannot go and live.
+Non v'è alcuna bontà nelle profondità del Grande Deserto. Non posso andarci e sopravvivere.
   </string>
   <string Context="Conversation PigFarmerConvert.Bauble.FindTrinket" ID="Yes! My neighbor-kin tire of the tale. I fished it out a mound of pig stool. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...&#xA;&#xA;Will you go, then? And offer my bauble at the Well?">
-▶Yes! My neighbor-kin tire of the tale. I fished it out a mound of pig stool. My heart has stirred before at the sight of chrome, but to free a small splinter myself, to slide a bead on the abacus of Beauty...
+▶Sì! I miei vicini-parenti si stancano di questo racconto. L'ho pescato da un cumulo di sterco di maiale. Il mio cuore si è già mosso alla vista del cromo, ma liberare di persona una piccola scheggia, spostare un grano sull'abaco della Bellezza...
 
-Will you go, then? And offer my bauble at the Well?
+Ci andrete, allora? E offrirete il mio gingillo al Pozzo?
   </string>
   <string Context="Conversation PigFarmerConvert.WhyNot.KilledInDesert" ID="Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!&#xA;&#xA;There is no kindness in the Great Desert. I cannot go and live.">
-▶Friend, I would be a smoldering heap, cooked to death by the ray of a dawnglider! I would be a slug-riddled corpse by the rifles of the Issachari!
+▶Amico, sarei un mucchio fumante, cotto a morte dai raggi di un planatore dell'alba! Sarei un cadavere crivellato dai fucili degli Issachari!
 
-There is no kindness in the Great Desert. I cannot go and live.
+Non v'è alcuna bontà nel Grande Deserto. Non posso andarci e sopravvivere.
   </string>
   <string Context="Conversation Irudad.Start.Text.Text" ID="-mm. Mmm? =player.FormalAddressTerm=.">
 ▶-mm. Mmm? =player.FormalAddressTerm=.
@@ -2862,23 +2862,23 @@ There is no kindness in the Great Desert. I cannot go and live.
 ▶{{emote|*L'Anziano Irudad sorride.*}}
   </string>
   <string Context="Conversation Irudad.Start.Text.Text3" ID="{{emote|*Elder Irudad smiles.*}}&#xA;&#xA;Come in- come sit 'neath the cool shade, 'cross a pillow there.">
-▶{{emote|*Elder Irudad smiles.*}}
+▶{{emote|*L'Anziano Irudad sorride.*}}
 
-Come in- come sit 'neath the cool shade, 'cross a pillow there.
+Entra- siediti all'ombra fresca, su un cuscino là.
   </string>
   <string Context="Conversation Irudad.Start.Text.Text4" ID="{{emote|*Elder Irudad smiles.*}}&#xA;&#xA;Live and drink, =name=. Come, sit with me.">
-▶{{emote|*Elder Irudad smiles.*}}
+▶{{emote|*L'Anziano Irudad sorride.*}}
 
-Live and drink, =name=. Come, sit with me.
+Vivi e bevi, =name=. Vieni, siediti con me.
   </string>
   <string Context="Conversation Irudad.Welcome.Text" ID="-mm. Mmm? =player.FormalAddressTerm=?&#xA;&#xA;{{emote|*Elder Irudad smiles.*}}&#xA;&#xA;Live and drink. Come in- come sit 'neath the cool shade, 'cross a pillow there. And welcome to Joppa.&#xA;&#xA;You may drink of our freshwater, too, and quench your thirst.">
 ▶-mm. Mmm? =player.FormalAddressTerm=?
 
-{{emote|*Elder Irudad smiles.*}}
+{{emote|*L'Anziano Irudad sorride.*}}
 
-Live and drink. Come in- come sit 'neath the cool shade, 'cross a pillow there. And welcome to Joppa.
+Vivi e bevi. Entra- siediti all'ombra fresca, su un cuscino là. E benvenuto a Joppa.
 
-You may drink of our freshwater, too, and quench your thirst.
+Puoi bere anche della nostra acqua dolce, e dissetarti.
   </string>
   <string Context="Conversation Irudad.Welcome.FinishedRedrockChoice.Text" ID="I'm back from Red Rock with the corpse of a pale spiderling. Elder, would you examine it?">
 ▶Sono tornato da Roccia Rossa con la carcassa di un palido ragnino. Anziano, potreste esaminarlo?
@@ -2905,27 +2905,27 @@ You may drink of our freshwater, too, and quench your thirst.
 ▶Argyve vuole che incontri i Barathrumiti.
   </string>
   <string Context="Conversation Irudad.Joppa.Text" ID="-this? The oasis-hamlet. 'Neath the shelf of the world. A million breaths of salt the wind heaves over the Great Salt Desert Moghra'yi. And to the east, the rotting jungles of Qud.&#xA;&#xA;Here in the crack between the two, watervine can grow, and we grow it. mmm, =player.formalAddressTerm=.">
-▶-this? The oasis-hamlet. 'Neath the shelf of the world. A million breaths of salt the wind heaves over the Great Salt Desert Moghra'yi. And to the east, the rotting jungles of Qud.
+▶-questo? Il borgo-oasi. Sotto la soglia del mondo. Un milione di respiri di sale che il vento solleva sul Grande Deserto Salato Moghra'yi. E a est, le giungle marcescenti di Qud.
 
-Here in the crack between the two, watervine can grow, and we grow it. mmm, =player.formalAddressTerm=.
+Qui, nella crepa tra i due, la vite acquatica può crescere, e noi la coltiviamo. mmm, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation Irudad.Joppa.QudChoice.Text" ID="Can you tell me about Qud?">
 ▶Potete parlarmi di Qud?
   </string>
   <string Context="Conversation Irudad.Qud.Text" ID="-mm, there? Land slopes up and is toothed in chrome steeples, ageless things. Looming over the old-earth tunnels, pillowed in rotting jungle and fungus groves. And broken against the mounts of the north, they are, in the shadow of the Spindle...&#xA;&#xA;There are people, friends, communities. And friends-to-noone, too. History is thick as the high salt sun, =player.formalAddressTerm=, and where the past is ground up like matz meal, a mix of life sets in.&#xA;&#xA;-mm, adventurous ones set off for their own splinter of artifact. To both Fates, life and death...">
-▶-mm, there? Land slopes up and is toothed in chrome steeples, ageless things. Looming over the old-earth tunnels, pillowed in rotting jungle and fungus groves. And broken against the mounts of the north, they are, in the shadow of the Spindle...
+▶-mm, laggiù? La terra sale con denti di guglie di cromo, cose senza età. Che incombono sui tunnel della vecchia terra, avvolte in giungla marcescente e boschetti di funghi. E spezzate contro i monti del nord, all'ombra del Fuso...
 
-There are people, friends, communities. And friends-to-noone, too. History is thick as the high salt sun, =player.formalAddressTerm=, and where the past is ground up like matz meal, a mix of life sets in.
+Ci sono persone, amici, comunità. E amici-di-nessuno, anche. La storia è densa come il sole salato alto, =player.formalAddressTerm=, e dove il passato è macinato come farina di matz, s'insedia un miscuglio di vita.
 
--mm, adventurous ones set off for their own splinter of artifact. To both Fates, life and death...
+-mm, i coraggiosi partono alla ricerca del loro frammento di artefatto. Ad entrambi i Fati, vita e morte...
   </string>
   <string Context="Conversation Irudad.Wares.Text" ID="-here? Speak to my daughter through the east door, for herbs. And sitting Tam in the southeast has all manner of trinket, against his chests o' drawers.">
 ▶-qui? Parlate con mia figlia attraverso la porta est, per le erbe. E il seduto Tam a sudest ha ogni sorta di cianfrusaglia, addossata alle sue cassettiere.
   </string>
   <string Context="Conversation Irudad.Work.Text" ID="-mm, work? The farmers are plagued by cave vermin. You might speak to Mehmet o' there, by the southern watervine patch.&#xA;&#xA;And Argyve, too, =player.formalAddressTerm=. The tinker. Always looking for trinkets to wire between, heh. Go through his hut of sheet metal, to the southwest.">
-▶-mm, work? The farmers are plagued by cave vermin. You might speak to Mehmet o' there, by the southern watervine patch.
+▶-mm, lavoro? I contadini sono tormentati da vermi delle grotte. Potreste parlare con Mehmet laggiù, presso l'appezzamento meridionale di vite acquatica.
 
-And Argyve, too, =player.formalAddressTerm=. The tinker. Always looking for trinkets to wire between, heh. Go through his hut of sheet metal, to the southwest.
+E con Argyve, pure, =player.formalAddressTerm=. Lo stagnino. Cerca sempre cianfrusaglie da collegare, eh. Passate attraverso la sua capanna di lamiera, a sudovest.
   </string>
   <string Context="Conversation Irudad.WorkAfter.Text" ID="-mm, work? Try Argyve, =player.formalAddressTerm=. The tinker. Always looking for trinkets to wire between, heh. Go through his hut of sheet metal, to the southwest.">
 ▶-mm, lavoro? Provate con Argyve, =player.formalAddressTerm=. Lo stagnino. Cerca sempre cianfrusaglie da collegare tra loro, eh. Passate attraverso la sua capanna di lamiera, a sudovest.
@@ -2937,25 +2937,25 @@ And Argyve, too, =player.formalAddressTerm=. The tinker. Always looking for trin
 ▶-mm, i Barathrumiti. Strana recluta di quegli orsoni. Loro, mm, ah. Non si curano molto degli estranei. Spero che Argyve non ti abbia venduto un benvenuto migliore di quello che avrai.
   </string>
   <string Context="Conversation Irudad.FinishedRedrock.Text" ID="-this? Oh? Oh...&#xA;&#xA;{{emote|*Elder Irudad pauses for several minutes.*}}&#xA;&#xA;Warted leg? mm. Foul smell of sour gum? mmm. Moon and sun....&#xA;&#xA;A girshling? This is a girshling.">
-▶-this? Oh? Oh...
+▶-questo? Oh? Oh...
 
-{{emote|*Elder Irudad pauses for several minutes.*}}
+{{emote|*L'Anziano Irudad si ferma per diversi minuti.*}}
 
-Warted leg? mm. Foul smell of sour gum? mmm. Moon and sun....
+Zampa verrucosa? mm. Odore fetido di gomma acida? mmm. Luna e sole....
 
-A girshling? This is a girshling.
+Un girshling? Questo è un girshling.
   </string>
   <string Context="Conversation Irudad.FinishedRedrock.GirshlingChoice.Text" ID="What's a girshling?">
 ▶Cos'è un girshling?
   </string>
   <string Context="Conversation Irudad.Girshling.Text" ID="Creature of plague, =player.formalAddressTerm=. mmm. This one...&#xA;&#xA;{{emote|*Elder Irudad pauses.*}}&#xA;&#xA;This one covered in slick and muscled out the bilge hose of sleeping Agolgot, in the cave under the Cloaca...&#xA;&#xA;-mm, but here? Girshling this far west? There must be hundreds for one to reach... mm, does the Gyre widen again??">
-▶Creature of plague, =player.formalAddressTerm=. mmm. This one...
+▶Creatura della pestilenza, =player.formalAddressTerm=. mmm. Questo...
 
-{{emote|*Elder Irudad pauses.*}}
+{{emote|*L'Anziano Irudad si ferma.*}}
 
-This one covered in slick and muscled out the bilge hose of sleeping Agolgot, in the cave under the Cloaca...
+Questo coperto di viscido e fuoriuscito attraverso il tubo di scarico dell'addormentato Agolgot, nella grotta sotto la Cloaca...
 
--mm, but here? Girshling this far west? There must be hundreds for one to reach... mm, does the Gyre widen again??
+-mm, ma qui? Un girshling così a ovest? Devono essercene centinaia perché uno possa arrivare... mm, si sta allargando di nuovo il Gorgo??
   </string>
   <string Context="Conversation Irudad.Girshling.GyreChoice.Text" ID="Gyre?">
 ▶Gorgo?
@@ -7141,9 +7141,9 @@ Poi accarezzi
 ▶Vivi e bevi, Neek.
   </string>
   <string Context="Conversation Gritgate Intercom.Start.Text" ID="{{B|[{{C|Voice transmitting through panel}}]}}&#xA;&#xA;Be gone, wayfarer. This is no place for you.">
-▶{{B|[{{C|Voice transmitting through panel}}]}}
+▶{{B|[{{C|Voce trasmessa attraverso il pannello}}]}}
 
-Be gone, wayfarer. This is no place for you.
+Via di qui, viandante. Non è un posto per voi.
   </string>
   <string Context="Conversation Gritgate Intercom.Start.TradeEntranceChoice.Text" ID="I come by way of Joppa. The elder Irudad calls me friend.">
 ▶Vengo da Joppa. L'anziano Irudad mi chiama amico.
@@ -7179,15 +7179,15 @@ Be gone, wayfarer. This is no place for you.
 ▶Eh, tornerò dopo con esso.
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDiskFromVillage.Text" ID="[several minutes pass]&#xA;&#xA;So you wish to study with us. Unfortunately, we require more than a willing spirit.&#xA;&#xA;Qud is not =villageZeroName=. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.&#xA;&#xA;Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.&#xA;&#xA;Do you accept this arrangement?">
-▶[several minutes pass]
+▶[passano diversi minuti]
 
-So you wish to study with us. Unfortunately, we require more than a willing spirit.
+Quindi desiderate studiare con noi. Sfortunatamente, richiediamo più di uno spirito volenteroso.
 
-Qud is not =villageZeroName=. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+Qud non è =villageZeroName=. Dovrete dimostrare il vostro valore, affinché non sprechiate il nostro tempo e i nostri sforzi. Recatevi alla grande caverna Golgotha a nord. Nei suoi corridoi troverete una riserva di waydroids disfunzionali.
 
-Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.
+Recupatene uno, riparatelo e tornate qui. Se saremo soddisfatti del vostro lavoro, sarete ammessi al nostro ordine. Altrimenti, no.
 
-Do you accept this arrangement?
+Accettate questo accordo?
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDiskFromVillage.EndChoice.Text" ID="Yes.">
 ▶Sì.
@@ -7196,15 +7196,15 @@ Do you accept this arrangement?
 ▶No, non mi interessa.
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDiskSolo.Text" ID="[several minutes pass]&#xA;&#xA;The disk you bring is encoded with an important signal. To discuss it further, we must admit you to our order. Unfortunately, we require more than a willing spirit.&#xA;&#xA;You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.&#xA;&#xA;Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted as an apprentice. Otherwise, you will be turned away.&#xA;&#xA;Do you accept this arrangement?">
-▶[several minutes pass]
+▶[passano diversi minuti]
 
-The disk you bring is encoded with an important signal. To discuss it further, we must admit you to our order. Unfortunately, we require more than a willing spirit.
+Il disco che portate è codificato con un segnale importante. Per discuterne ulteriormente, dobbiamo ammettervi nel nostro ordine. Sfortunatamente, richiediamo più di uno spirito volenteroso.
 
-You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+Dovrete dimostrare il vostro valore, affinché non sprechiate il nostro tempo e i nostri sforzi. Recatevi alla grande caverna Golgotha a nord. Nei suoi corridoi troverete una riserva di waydroids disfunzionali.
 
-Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted as an apprentice. Otherwise, you will be turned away.
+Recupatene uno, riparatelo e tornate qui. Se saremo soddisfatti del vostro lavoro, sarete ammessi come apprendista. Altrimenti, sarete respinti.
 
-Do you accept this arrangement?
+Accettate questo accordo?
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDiskSolo.EndChoice.Text" ID="Yes.">
 ▶Sì.
@@ -7213,15 +7213,15 @@ Do you accept this arrangement?
 ▶No, non mi interessa.
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDisk.Text" ID="[several minutes pass]&#xA;&#xA;So it seems that you are indeed Argyve's apprentice. He wishes you to study with us. Unfortunately, we require more than a willing spirit.&#xA;&#xA;Qud is not Joppa. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.&#xA;&#xA;Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.&#xA;&#xA;Do you accept this arrangement?">
-▶[several minutes pass]
+▶[passano diversi minuti]
 
-So it seems that you are indeed Argyve's apprentice. He wishes you to study with us. Unfortunately, we require more than a willing spirit.
+Sembra dunque che siate davvero l'apprendista di Argyve. Desidera che studiate con noi. Sfortunatamente, richiediamo più di uno spirito volenteroso.
 
-Qud is not Joppa. You will need to prove your worth, that you might not waste our time and efforts. Travel to the great cavern Golgotha to the north. Within its halls you will find a cache of dysfunctional waydroids.
+Qud non è Joppa. Dovrete dimostrare il vostro valore, affinché non sprechiate il nostro tempo e i nostri sforzi. Recatevi alla grande caverna Golgotha a nord. Nei suoi corridoi troverete una riserva di waydroids disfunzionali.
 
-Recover one, repair it, and return here. If we are satisfied with your work, you will be admitted to our order. Otherwise, you will not be.
+Recupatene uno, riparatelo e tornate qui. Se saremo soddisfatti del vostro lavoro, sarete ammessi al nostro ordine. Altrimenti, no.
 
-Do you accept this arrangement?
+Accettate questo accordo?
   </string>
   <string Context="Conversation Gritgate Intercom.GaveDisk.EndChoice.Text" ID="Yes.">
 ▶Sì.
@@ -7248,11 +7248,11 @@ Do you accept this arrangement?
 ▶Entrate pure, viaggiatore.
   </string>
   <string Context="Conversation Gritgate Intercom.RepairedWaydroid.Text" ID="[The slot opens from the center of the door. A bright red light shines through.]&#xA;&#xA;[Several minutes pass.]&#xA;&#xA;You may enter. Simply walk through the force barrier. Make your first two lefts and speak to Steward Otho in his office.">
-▶[The slot opens from the center of the door. A bright red light shines through.]
+▶[Lo sportello si apre dal centro del portone. Una luce rossa brillante filtra attraverso.]
 
-[Several minutes pass.]
+[Passano diversi minuti.]
 
-You may enter. Simply walk through the force barrier. Make your first two lefts and speak to Steward Otho in his office.
+Potete entrare. Camminate semplicemente attraverso la barriera di forza. Prendete le prime due svolte a sinistra e parlate con il Guardiano Otho nel suo ufficio.
   </string>
   <string Context="Conversation Mafeo.Start.Text" ID="I always knew this part of our story would come. Our efforts today determine the genre of the tale we tell. Is this a triumphant epic, or a tale of woe?&#xA;&#xA;Fight well, =player.formalAddressTerm=.">
 ▶Sapevo sempre che questa parte della nostra storia sarebbe giunta. I nostri sforzi odierni determinano il genere del racconto che narriamo. È un'epica trionfante, o una storia di dolore?
@@ -7422,7 +7422,7 @@ La nostra razza è più intelligente dell'orso medio. Anche più acuta, e un po'
 {{emote|*thip thip thip thip*}}
   </string>
   <string Context="Conversation Crowsong.Welcome.WhoChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Crowsong.Welcome.HidingChoice.Text" ID="Why are you hiding in the bush?">
 ▶Perché vi nascondete nei cespugli?
@@ -7467,17 +7467,17 @@ La nostra razza è più intelligente dell'orso medio. Anche più acuta, e un po'
 ▶Consorzio?
   </string>
   <string Context="Conversation Yurl.Consortium.Text" ID="Yes, the Consortium of Phyta. We're a merchant fellowship of trees, vines, shrubs, weeds, flowers, herbs, cacti, algae -- most sorts of plants, really.&#xA;&#xA;I can't say I trust any of them, but there is no doubting their usefulness. My shelves are full and the gossip flows.">
-▶Yes, the Consortium of Phyta. We're a merchant fellowship of trees, vines, shrubs, weeds, flowers, herbs, cacti, algae -- most sorts of plants, really.
+▶Sì, il Consorzio di Phyta. Siamo una compagnia mercantile di alberi, viti, arbusti, erbacce, fiori, erbe, cactus, alghe -- quasi tutti i tipi di piante, in realtà.
 
-I can't say I trust any of them, but there is no doubting their usefulness. My shelves are full and the gossip flows.
+Non posso dire di fidarmi di nessuno di loro, ma la loro utilità non si può mettere in dubbio. I miei scaffali sono pieni e il pettegolezzo scorre.
   </string>
   <string Context="Conversation Yurl.Consortium.FungiChoice.Text" ID="What about fungi?">
 ▶E riguardo ai funghi?
   </string>
   <string Context="Conversation Yurl.Fungi.Text" ID="{{emote|*Yurl flicks a leaf in displeasure.*}}&#xA;&#xA;What about fungi?">
-▶{{emote|*Yurl flicks a leaf in displeasure.*}}
+▶{{emote|*Yurl agita una foglia con disappunto.*}}
 
-What about fungi?
+E riguardo ai funghi?
   </string>
   <string Context="Conversation Yurl.Fungi.Fungi2Choice.Text" ID="Are there any fungi in the Consortium?">
 ▶Ci sono funghi nel Consorzio?
@@ -7486,36 +7486,36 @@ What about fungi?
 ▶Cambiamo argomento.
   </string>
   <string Context="Conversation Yurl.Fungi2.Text" ID="{{emote|*Yurl flicks several of their leaves.*}}&#xA;&#xA;No.&#xA;&#xA;Shop's closed. Live and drink.">
-▶{{emote|*Yurl flicks several of their leaves.*}}
+▶{{emote|*Yurl agita alcune delle sue foglie.*}}
 
 No.
 
-Shop's closed. Live and drink.
+Negozio chiuso. Vivi e bevi.
   </string>
   <string Context="Conversation Yurl.Fungi2.ButChoice.Text" ID="But...">
 ▶Ma...
   </string>
   <string Context="Conversation Yurl.But.Text" ID="I am a gentleplant, -friend-. Uncross your roots and figure it out.&#xA;&#xA;Live and DRINK.">
-▶I am a gentleplant, -friend-. Uncross your roots and figure it out.
+▶Sono una pianta-gentiluomo, -amico-. Sradica le tue radici e capiscilo da solo.
 
-Live and DRINK.
+Vivi e BEVI.
   </string>
   <string Context="Conversation Yurl.Asphodel.Text" ID="Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).&#xA;&#xA;The truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?">
-▶Asphodel the socialite? Asphodel the scoundrel? You can hate xym -- and I do -- but you have to admire xym (I don't).
+▶Asphodel il mondano? Asphodel il furfante? Potreste odiarlo -- e io lo faccio -- ma dovete ammirarlo (io no).
 
-The truth of it is that Plysago had the idea first, to lay claim to the Spindle per some precedent of law established in Abram's time. Of course, Plysago isn't around to make their case, are they?
+La verità è che Plysago aveva avuto l'idea per primo, di rivendicare il Fuso in base a qualche precedente giuridico stabilito ai tempi di Abram. Certo, Plysago non è più qui a difendere la propria causa, vero?
   </string>
   <string Context="Conversation Yurl.Asphodel.LeaseChoice.Text" ID="How can I convince Asphodel to lease the Spindle to Barathrum?">
 ▶Come posso convincere Asphodel ad affittare il Fuso a Barathrum?
   </string>
   <string Context="Conversation Yurl.Lease.Text" ID="Asphodel trades on reputation and favors. Xe is likely to want to leverage your connections, so be in good social standing with a few factions for xem to even consider it.&#xA;&#xA;Now, alternatively, if you're loved by the Consortium, xe will feel the pressure to acquiesce. Xe has enough enemies among phyta.&#xA;&#xA;Of course, where all else fails, you can always sharpen your shears, if you get my meaning.&#xA;&#xA;{{emote|*Yurl winks with one of their leaves.*}}">
-▶Asphodel trades on reputation and favors. Xe is likely to want to leverage your connections, so be in good social standing with a few factions for xem to even consider it.
+▶Asphodel commercia su reputazione e favori. È probabile che voglia sfruttare le vostre connessioni, quindi siate in buona posizione sociale con alcune fazioni perché lo consideri.
 
-Now, alternatively, if you're loved by the Consortium, xe will feel the pressure to acquiesce. Xe has enough enemies among phyta.
+In alternativa, se siete amati dal Consorzio, sentirà la pressione di cedere. Ha abbastanza nemici tra le piante.
 
-Of course, where all else fails, you can always sharpen your shears, if you get my meaning.
+Certo, quando tutto il resto fallisce, potete sempre affilare le vostre cesoie, se capite cosa intendo.
 
-{{emote|*Yurl winks with one of their leaves.*}}
+{{emote|*Yurl ammicca con una delle sue foglie.*}}
   </string>
   <string Context="Conversation Yurl.Lease.EndChoice.Text" ID="I see. Live and drink, Yurl.">
 ▶Capisco. Vivi e bevi, Yurl.
@@ -7626,7 +7626,7 @@ Si sono insediati un po' in tutto il villaggio nel tempo. Crowsong ha insegnato 
 ▶Sii agile, viandante. Prendi un sorso di sidro prima di partire.
   </string>
   <string Context="Conversation Erah.Start.IntroduceChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Erah.Start.CiderChoice.Text" ID="Why is the cider chunky?">
 ▶Perché il sidro è grumoso?
@@ -7649,7 +7649,7 @@ Si sono insediati un po' in tutto il villaggio nel tempo. Crowsong ha insegnato 
   <string Context="Conversation Erah.Mushrooms.Text" ID="...&#xA;&#xA;Bit heartier, a-ye?">
 ▶...
 
-Bit heartier, a-ye?
+Un po' più sostanzioso, a-ye?
   </string>
   <string Context="Conversation Erah.Mask.Text" ID="Is. Was naphtaali once.">
 ▶È. Era naphtaali un tempo.
@@ -7679,9 +7679,9 @@ Bit heartier, a-ye?
 ▶Parliamo d'altro.
   </string>
   <string Context="Conversation Erah.Memories.Text" ID="As the very canopy, they will.&#xA;&#xA;Thank you.">
-▶As the very canopy, they will.
+▶Come la volta stessa, lo faranno.
 
-Thank you.
+Grazie.
   </string>
   <string Context="Conversation Erah.Memories.SubjectChoice.Text" ID="Let us speak of something else.">
 ▶Parliamo d'altro.
@@ -7690,23 +7690,23 @@ Thank you.
 ▶Vivi e bevi, sidinaio.
   </string>
   <string Context="Conversation Erah.Minyan.Text" ID="Pilgrims, drawn together by need and awe and inspiration. Tinkers and sodders and guards and scouts, alloyed under the pressure of lifeswork.&#xA;&#xA;Family, like.">
-▶Pilgrims, drawn together by need and awe and inspiration. Tinkers and sodders and guards and scouts, alloyed under the pressure of lifeswork.
+▶Pellegrini, uniti insieme da bisogno e meraviglia e ispirazione. Stagnini e saldatori e guardie e esploratori, legati sotto la pressione dell'opera di vita.
 
-Family, like.
+Famiglia, per così dire.
   </string>
   <string Context="Conversation Erah.Godhed.Text" ID="Don't know. Wrecked? Fled?&#xA;&#xA;I crawled away, never looked back. That's the all of it.">
-▶Don't know. Wrecked? Fled?
+▶Non lo so. Distrutto? Fuggito?
 
-I crawled away, never looked back. That's the all of it.
+Me ne sono strisciato via, senza mai voltarmi. È tutto quello che c'è.
   </string>
   <string Context="Conversation TextPax.Start.Text" ID="Klanq puff at you. =MARKOVSENTENCE=">
-▶Klanq puff at you. =MARKOVSENTENCE=
+▶Klanq soffia su di voi. =MARKOVSENTENCE=
   </string>
   <string Context="Conversation TextPax.Start.EndChoice.Text" ID="[begin pax quest]">
-▶[begin pax quest]
+▶[inizia la quest pax]
   </string>
   <string Context="Conversation TextPax.Start.EndChoice2.Text" ID="[pick a limb to infect]">
-▶[pick a limb to infect]
+▶[scegli un arto da infettare]
   </string>
   <string Context="Conversation PaxKlanq.Welcome.Text" ID="Klanq puff at you?">
 ▶Klanq soffia su di te?
@@ -8125,9 +8125,9 @@ Infine, una volta recuperato il prisma, non maneggiarla in nessuna circostanza. 
 ▶Devo andare.
   </string>
   <string Context="Conversation SusaAlchemist.Start.Text" ID="Liquids are better.&#xA;&#xA;I prefer liquids.">
-▶Liquids are better.
+▶I liquidi sono meglio.
 
-I prefer liquids.
+Prediligo i liquidi.
   </string>
   <string Context="Conversation SusaAlchemist.Start.LiquidsChoice.Text" ID="Who are you?">
 ▶Chi siete?
@@ -8136,11 +8136,11 @@ I prefer liquids.
 ▶Vivi e bevi, eremita.
   </string>
   <string Context="Conversation SusaAlchemist.Liquids.Text" ID="A connoisseur of liquids. Sure, I dabble in other states of matter.&#xA;&#xA;But I prefer the shifting and tumbling of angleless motion.&#xA;&#xA;Not too hot, not too cold, not too indeterminate.">
-▶A connoisseur of liquids. Sure, I dabble in other states of matter.
+▶Un intenditore di liquidi. Certo, mi diletto in altri stati della materia.
 
-But I prefer the shifting and tumbling of angleless motion.
+Ma prediligo il mutarsi e il ruzzolare del moto senza angoli.
 
-Not too hot, not too cold, not too indeterminate.
+Non troppo caldo, non troppo freddo, non troppo indeterminato.
   </string>
   <string Context="Conversation SusaAlchemist.Liquids.EndChoice.Text" ID="Live and drink, hermit.">
 ▶Vivi e bevi, eremita.
@@ -8194,9 +8194,9 @@ Not too hot, not too cold, not too indeterminate.
 ▶Vivi e bevi, Conte.
   </string>
   <string Context="Conversation Asphodel.Viceroy.Text" ID="That's right. I've leased your friends the Spindlegrounds and appointed you viceroy to oversee their operation.&#xA;&#xA;Welcome to court, asphodelyte. You serve at my pleasure.">
-▶That's right. I've leased your friends the Spindlegrounds and appointed you viceroy to oversee their operation.
+▶Proprio così. Ho affittato ai vostri amici i Fondi del Fuso e vi ho nominato vicerè per sovrintendere alle loro operazioni.
 
-Welcome to court, asphodelyte. You serve at my pleasure.
+Benvenuto a corte, asfodelita. Servite a mio piacimento.
   </string>
   <string Context="Conversation Asphodel.Viceroy.EndChoice.Text" ID="Live and drink, Earl.">
 ▶Vivi e bevi, Conte.
@@ -8307,13 +8307,13 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Gli alberi ti proteggono.
   </string>
   <string Context="Conversation Oboroqoru.Start.Text" ID="{{emote|*Oboroqoru, Ape God ignores you and muses.*}}">
-▶{{emote|*Oboroqoru, Ape God ignores you and muses.*}}
+▶{{emote|*Oboroqoru, il Dio Scimmia vi ignora e medita.*}}
   </string>
   <string Context="Conversation AppleFarmersDaughter.Start.Text" ID="{{emote|*The apple farmer's daughter shies away from you.*}}">
-▶{{emote|*The apple farmer's daughter shies away from you.*}}
+▶{{emote|*La figlia del coltivatore di mele si ritrae da voi.*}}
   </string>
   <string Context="Conversation Animals.Start.Text" ID="{{emote|*soft growling*}}">
-▶{{emote|*soft growling*}}
+▶{{emote|*basso ringhio*}}
   </string>
   <string Context="Conversation Humanoids.Start.Text.Text2" ID="What is it?">
 ▶Cosa c'è?
@@ -8370,7 +8370,7 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Possa la terra donarci i suoi frutti questa stagione.
   </string>
   <string Context="Conversation Apes.Start.Text" ID="{{emote|*pounds chest*}}">
-▶{{emote|*pounds chest*}}
+▶{{emote|*si batte il petto*}}
   </string>
   <string Context="Conversation Robots.Start.Text.Text" ID="{{emote|*beep boop*}}">
 ▶{{emote|*beep boop*}}
@@ -8388,52 +8388,52 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Vivi e... rimani sempre senza ruggine.
   </string>
   <string Context="Conversation Insects.Start.Text.Text" ID="{{emote|*sharp clicking*}}">
-▶{{emote|*sharp clicking*}}
+▶{{emote|*secco crepitio*}}
   </string>
   <string Context="Conversation Insects.Start.Text.Text2" ID="{{emote|*soft buzzing*}}">
-▶{{emote|*soft buzzing*}}
+▶{{emote|*lieve ronzio*}}
   </string>
   <string Context="Conversation InsectNest.Start.Text" ID="{{emote|*There's scratching and clicking coming from inside.*}}">
-▶{{emote|*There's scratching and clicking coming from inside.*}}
+▶{{emote|*Dall'interno provengono graffi e crepitii.*}}
   </string>
   <string Context="Conversation Crabs.Start.Text" ID="{{emote|*raucous croaking*}}">
-▶{{emote|*raucous croaking*}}
+▶{{emote|*gracidio rauco*}}
   </string>
   <string Context="Conversation Crabs.Start.EndChoice.Text" ID="Farewell, scuttlefriend.">
 ▶Addio, amico-sfrecciante.
   </string>
   <string Context="Conversation Oozes.Start.Text.Text" ID="{{emote|*exudes loudly*}}">
-▶{{emote|*exudes loudly*}}
+▶{{emote|*trasuda rumorosamente*}}
   </string>
   <string Context="Conversation Oozes.Start.Text.Text2" ID="{{emote|*soft gushing*}}">
-▶{{emote|*soft gushing*}}
+▶{{emote|*lieve scorrere*}}
   </string>
   <string Context="Conversation Oozes.Start.EndChoice.Text" ID="Live and exude.">
 ▶Vivi e trasuda.
   </string>
   <string Context="Conversation Reptiles.Start.Text" ID="{{emote|*soft hissing*}}">
-▶{{emote|*soft hissing*}}
+▶{{emote|*lieve sibilare*}}
   </string>
   <string Context="Conversation Reptiles.Start.EndChoice.Text" ID="Stay warm, =pronouns.formalAddressTerm=.">
 ▶Stai al caldo, =pronouns.formalAddressTerm=.
   </string>
   <string Context="Conversation Frogs.Start.Text" ID="{{emote|*ribbits*}}">
-▶{{emote|*ribbits*}}
+▶{{emote|*gracida*}}
   </string>
   <string Context="Conversation Tortoises.Start.Text" ID="{{emote|*sniffles and sneezes*}}">
-▶{{emote|*sniffles and sneezes*}}
+▶{{emote|*annusa e starnutisce*}}
   </string>
   <string Context="Conversation Tortoises.Start.EndChoice.Text" ID="Your home is on your back, =pronouns.formalAddressTerm=.">
 ▶La tua casa è sulla tua schiena, =pronouns.formalAddressTerm=.
   </string>
   <string Context="Conversation Fish.Start.Text" ID="{{emote|*stares at you unblinking*}}">
-▶{{emote|*stares at you unblinking*}}
+▶{{emote|*vi fissa senza batter ciglio*}}
   </string>
   <string Context="Conversation Fish.Start.EndChoice.Text" ID="Live and drink, aqua=pronouns.formalAddressTerm=.">
 ▶Vivi e bevi, acqua=pronouns.formalAddressTerm=.
   </string>
   <string Context="Conversation Spiders.Start.Text" ID="{{emote|*idly weaving*}}">
-▶{{emote|*idly weaving*}}
+▶{{emote|*tesse pigramente*}}
   </string>
   <string Context="Conversation Spiders.Start.EndChoice.Text" ID="I must go.">
 ▶Devo andare.
@@ -8451,16 +8451,16 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Vivi e bevi, uccello insensato.
   </string>
   <string Context="Conversation Clams.Start.Text" ID="{{emote|*sitting open invitingly*}}">
-▶{{emote|*sitting open invitingly*}}
+▶{{emote|*se ne sta aperta, invitante*}}
   </string>
   <string Context="Conversation Worms.Start.Text" ID="{{emote|*idly undulating*}}">
-▶{{emote|*idly undulating*}}
+▶{{emote|*ondeggia pigramente*}}
   </string>
   <string Context="Conversation Star.Start.Text" ID="{{emote|*inscrutably being*}}">
-▶{{emote|*inscrutably being*}}
+▶{{emote|*esiste imperscrutabile*}}
   </string>
   <string Context="Conversation Plants.Start.Text" ID="{{emote|*the plant gives no indication of understanding*}}">
-▶{{emote|*the plant gives no indication of understanding*}}
+▶{{emote|*la pianta non dà alcun segno di comprensione*}}
   </string>
   <string Context="Conversation SapientPlants.Start.Text.Text2" ID="What is it?">
 ▶Cosa c'è?
@@ -8472,7 +8472,7 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Vivi e bevi, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation Fungi.Start.Text" ID="{{emote|*the fungus gives no indication of understanding*}}">
-▶{{emote|*the fungus gives no indication of understanding*}}
+▶{{emote|*il fungo non dà alcun segno di comprensione*}}
   </string>
   <string Context="Conversation SapientFungi.Start.Text.Text2" ID="What is it?">
 ▶Cosa c'è?
@@ -8484,7 +8484,7 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Vivi e bevi, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation Antelopes.Start.Text" ID="{{emote|*idly grazes*}}">
-▶{{emote|*idly grazes*}}
+▶{{emote|*bruca pigramente*}}
   </string>
   <string Context="Conversation Goats.Start.Text.Text" ID="{{emote|*baa*}}">
 ▶{{emote|*baa*}}
@@ -8541,10 +8541,10 @@ Welcome to court, asphodelyte. You serve at my pleasure.
 ▶Cosa sono?
   </string>
   <string Context="Conversation NewlySentientBeings.Start.Text.Text2" ID="What is &quot;live&quot;? What is &quot;drink&quot;?">
-▶What is "live"? What is "drink"?
+▶Cos'è "vivere"? Cos'è "bere"?
   </string>
   <string Context="Conversation Crystals.Start.Text" ID="{{emote|*The crystal chimes in bright tones.*}}">
-▶{{emote|*The crystal chimes in bright tones.*}}
+▶{{emote|*Il cristallo risuona in toni vivaci.*}}
   </string>
   <string Context="Conversation Keh.SlynthRequest.Text" ID="Don't be coy, =name=. Emboldened by your incursions into our village, you wish to fill it with your indigent foundlings on the weight of your reputation alone. Am I correct?">
 ▶Non fare la ritrosa, =name=. Incoraggiato dalle tue incursioni nel nostro villaggio, vuoi riempirlo con i tuoi trovati indigenti sul peso della tua sola reputazione. Ho ragione?
@@ -10331,29 +10331,29 @@ Esk ti ringrazierà dopo.
 ▶Preferirei non parlare. Mi dispiace.
   </string>
   <string Context="Conversation Isahind.Start2.Text" ID="Strange and rocky times have befallen Bey Lah.&#xA;&#xA;But I'm confident that we can get through this, as we always do. Shall we trade?">
-▶Strange and rocky times have befallen Bey Lah.
+▶Tempi strani e difficili sono piombati su Bey Lah.
 
-But I'm confident that we can get through this, as we always do. Shall we trade?
+Ma sono fiducioso che possiamo farcela, come facciamo sempre. Commerciamo?
   </string>
   <string Context="Conversation Isahind.Start3.Text" ID="My friend! Thank you so much for helping our village!&#xA;&#xA;Our prosperity means that I have new goods for you to peruse, if you're interested.">
-▶My friend! Thank you so much for helping our village!
+▶Amico mio! Grazie mille per aver aiutato il nostro villaggio!
 
-Our prosperity means that I have new goods for you to peruse, if you're interested.
+La nostra prosperità significa che ho nuove merci da esaminare, se siete interessato.
   </string>
   <string Context="Conversation Isahind.Start4.Text" ID="As if a new Hindriarch weren't enough, I hear we might become a Democracy! How thrilling.&#xA;&#xA;This is a new chapter in Bey Lah's history, kendren. Would you care to trade?">
-▶As if a new Hindriarch weren't enough, I hear we might become a Democracy! How thrilling.
+▶Come se una nuova Hindriarca non fosse abbastanza, sento che potremmo diventare una Democrazia! Che brivido.
 
-This is a new chapter in Bey Lah's history, kendren. Would you care to trade?
+Questo è un nuovo capitolo nella storia di Bey Lah, kendren. Vorreste commerciare?
   </string>
   <string Context="Conversation Isahind.Start5.Text" ID="Amazing! The youngest hindriarch in Bey Lah's preserved history, if only temporarily so.&#xA;&#xA;Care to buy a souvenir to commemorate this historic occasion?">
-▶Amazing! The youngest hindriarch in Bey Lah's preserved history, if only temporarily so.
+▶Incredibile! La hindriarca più giovane nella storia conservata di Bey Lah, anche se solo temporaneamente.
 
-Care to buy a souvenir to commemorate this historic occasion?
+Vorreste comprare un souvenir per commemorare questa storica occasione?
   </string>
   <string Context="Conversation Isahind.Start6.Text" ID="Oh! A real live kendren, here in our village! Live and drink, lovely friend!&#xA;&#xA;If you'd care to trade, I have a modest amount of local goods I can offer.">
-▶Oh! A real live kendren, here in our village! Live and drink, lovely friend!
+▶Oh! Un vero kendren vivente, qui nel nostro villaggio! Vivi e bevi, caro amico!
 
-If you'd care to trade, I have a modest amount of local goods I can offer.
+Se volete commerciare, ho una modesta quantità di merci locali da offrire.
   </string>
   <string Context="Conversation Isahind.Start6.ShowSonnetChoice.Text" ID="Does this poem belong to you?">
 ▶Questo poema vi appartiene?
@@ -11175,39 +11175,39 @@ Ma mi è vietato indagare. Se solo ci fosse un altro detective che potrei consig
 ▶Vivi e bevi, aggiustatutto.
   </string>
   <string Context="Conversation YlaHaj.Greet.Text" ID="{{emote|*She gives you a hard stare.*}}&#xA;&#xA;I am a Daughter of Exile, but you should call me Yla Haj.">
-▶{{emote|*She gives you a hard stare.*}}
+▶{{emote|*Vi lancia un'occhiata dura.*}}
 
-I am a Daughter of Exile, but you should call me Yla Haj.
+Sono una Figlia dell'Esilio, ma dovreste chiamarmi Yla Haj.
   </string>
   <string Context="Conversation YlaHaj.Greet.DaughterChoice.Text" ID="Daughter of Exile?">
 ▶Figlia dell'Esilio?
   </string>
   <string Context="Conversation YlaHaj.Daughter.Text" ID="Tinker-nuns. The world sees fit to call us that, my sisters and me.&#xA;&#xA;Do you know the story told of Rebekah the Exile? She was a teacher to Resheph, but he excommunicated her from the sultanate and banished her from the realm.&#xA;&#xA;To know her, I've chosen a life of unbelonging. And among my sisters, I have the honor of permanent residence by her gravesite.&#xA;&#xA;I'll tell you this, traveler: the shape of a society is visible only from the outside, and there is peace beyond a boundary.">
-▶Tinker-nuns. The world sees fit to call us that, my sisters and me.
+▶Suore-stagnine. Il mondo si degna di chiamarci così, me e le mie sorelle.
 
-Do you know the story told of Rebekah the Exile? She was a teacher to Resheph, but he excommunicated her from the sultanate and banished her from the realm.
+Conostate la storia narrata di Rebekah l'Esule? Era un'insegnante di Resheph, ma lui la scomunicò dal sultanato e la bandì dal regno.
 
-To know her, I've chosen a life of unbelonging. And among my sisters, I have the honor of permanent residence by her gravesite.
+Per conoscerla, ho scelto una vita di non-appartenenza. E tra le mie sorelle, ho l'onore di risiedere permanentemente presso il suo sito funerario.
 
-I'll tell you this, traveler: the shape of a society is visible only from the outside, and there is peace beyond a boundary.
+Vi dirò questo, viandante: la forma di una società è visibile solo dall'esterno, e c'è pace oltre un confine.
   </string>
   <string Context="Conversation YlaHaj.Daughter.RebekahChoice.Text" ID="Wasn't Rebekah a healer? Why are you an order of tinkers?">
 ▶Rebekah non era una guaritrice? Perché siete un ordine di aggiustatutto?
   </string>
   <string Context="Conversation YlaHaj.Rebekah.Text" ID="{{emote|*Yla Haj pauses.*}}&#xA;&#xA;You presume too narrow a meaning of &quot;health&quot;.">
-▶{{emote|*Yla Haj pauses.*}}
+▶{{emote|*Yla Haj si ferma.*}}
 
-You presume too narrow a meaning of "health".
+Attribuite un significato troppo ristretto a "salute".
   </string>
   <string Context="Conversation YlaHaj.Ezra.Text" ID="Ezra sits in the shadow of history, where small things grow. It's the moss beneath the statue, quite literally. For centuries monarchs concerned themselves with felling trees, and now of the Covenate only Ezra remains.&#xA;&#xA;It's home to Rebekah's gravesite, so for the Daughters, it is a sacred place. You may notice more of us on pilgrimage.">
-▶Ezra sits in the shadow of history, where small things grow. It's the moss beneath the statue, quite literally. For centuries monarchs concerned themselves with felling trees, and now of the Covenate only Ezra remains.
+▶Ezra risiede all'ombra della storia, dove crescono le piccole cose. È il muschio sotto la statua, letteralmente. Per secoli i monarchi si sono occupati di abbattere alberi, e ora del Covenate rimane solo Ezra.
 
-It's home to Rebekah's gravesite, so for the Daughters, it is a sacred place. You may notice more of us on pilgrimage.
+È la sede del sito funerario di Rebekah, quindi per le Figlie è un luogo sacro. Potreste notare più di noi in pellegrinaggio.
   </string>
   <string Context="Conversation YlaHaj.Zothom.Text" ID="Zothom. I don't see utility in unkindness, but he's a fool. Were it that proximity to meekness made one meek...&#xA;&#xA;I have no use for a man who seeks salvation in the body of a dead woman.">
-▶Zothom. I don't see utility in unkindness, but he's a fool. Were it that proximity to meekness made one meek...
+▶Zothom. Non vedo utilità nella scortesia, ma è uno stolto. Fosse vero che la vicinanza all'umiltà rendesse umili...
 
-I have no use for a man who seeks salvation in the body of a dead woman.
+Non ho uso per un uomo che cerca la salvezza nel corpo di una donna morta.
   </string>
   <string Context="Conversation YlaHaj.Sixshrew.Text" ID="I don't.">
 ▶Non lo faccio.
@@ -11218,7 +11218,7 @@ I have no use for a man who seeks salvation in the body of a dead woman.
 Non causare discordie qui e non avremo motivo di litigare.
   </string>
   <string Context="Conversation Zothom.Start.ZothomGreetsChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Zothom.Start.ZothomWardenChoice.Text" ID="You speak like a Warden.">
 ▶Parli come un Guardiano.
@@ -11509,9 +11509,9 @@ Vai a trovarlo vicino alle lapidi dei morti.
 ▶Suppongo che andrò, allora.
   </string>
   <string Context="Conversation Sixshrew.Introduction.Text" ID="I am Sixshrew, a merchant from the Consortium of Phyta disinclined to waste xyr time on talkative strangers.&#xA;&#xA;I sell things, and you can buy them. I would in fact strongly encourage you to buy them, or be on your way.">
-▶I am Sixshrew, a merchant from the Consortium of Phyta disinclined to waste xyr time on talkative strangers.
+▶Sono Sixshrew, un mercante del Consorzio di Phyta poco incline a sprecare il proprio tempo con stranieri loquaci.
 
-I sell things, and you can buy them. I would in fact strongly encourage you to buy them, or be on your way.
+Vendo cose, e voi potete comprarle. Vi incoraggio vivamente a comprarle, o a togliervi dai piedi.
   </string>
   <string Context="Conversation Sixshrew.Introduction.NameChoice.Text" ID="Why are you called Sixshrew?">
 ▶Perché vi chiamate Sixshrew?
@@ -11529,35 +11529,35 @@ I sell things, and you can buy them. I would in fact strongly encourage you to b
 ▶Perché sono un parassita?
   </string>
   <string Context="Conversation Sixshrew.NotPest.Text" ID="You are now.&#xA;&#xA;Are you going to buy something, pest?">
-▶You are now.
+▶Lo siete adesso.
 
-Are you going to buy something, pest?
+Comprerete qualcosa, parassita?
   </string>
   <string Context="Conversation Sixshrew.NotPest.EndChoice.Text" ID="I'm all set. Live and drink, rude one.">
 ▶Sono a posto. Vivi e bevi, maleducato.
   </string>
   <string Context="Conversation Sixshrew.Pest.Text" ID="Just so.&#xA;&#xA;Would you like to buy something, pest?">
-▶Just so.
+▶Esatto.
 
-Would you like to buy something, pest?
+Vorreste comprare qualcosa, parassita?
   </string>
   <string Context="Conversation Sixshrew.Pest.EndChoice.Text" ID="I'm all set. Live and drink, rude one.">
 ▶Sono a posto. Vivi e bevi, maleducato.
   </string>
   <string Context="Conversation Sixshrew.Impolite.Text" ID="You're being a bit annoying, so I suppose both of us have our burdens to bear.&#xA;&#xA;Perhaps we should do some trading and move on with our lives, hmm?">
-▶You're being a bit annoying, so I suppose both of us have our burdens to bear.
+▶Siete un po' fastidioso, quindi suppongo che entrambi abbiamo i nostri fardelli da portare.
 
-Perhaps we should do some trading and move on with our lives, hmm?
+Forse dovremmo fare un po' di commercio e andare avanti con le nostre vite, hmm?
   </string>
   <string Context="Conversation Sixshrew.Impolite.EndChoice.Text" ID="I'll skip to the last part. Live and drink, rude one.">
 ▶Salto all'ultima parte. Vivi e bevi, maleducato.
   </string>
   <string Context="Conversation Sixshrew.CrankyPlant.Text" ID="Oh, I'm fine, fine.&#xA;&#xA;I simply adore being assigned this stinking backwater musa grove after decades of service, unceremoniously dumped in an office next to a fleshy tinker who works day and night, making all manner of racket through the thinnest, most conductive walls ever crafted.&#xA;&#xA;What is it humans say? &quot;Living the dreen?&quot; Yes, I am living the dreen.">
-▶Oh, I'm fine, fine.
+▶Oh, sto bene, bene.
 
-I simply adore being assigned this stinking backwater musa grove after decades of service, unceremoniously dumped in an office next to a fleshy tinker who works day and night, making all manner of racket through the thinnest, most conductive walls ever crafted.
+Adoro semplicemente essere assegnato a questo putrido boschetto di musa in un angolo sperduto dopo decenni di servizio, scaricato senza cerimonie in un ufficio accanto a uno stagnino di carne che lavora giorno e notte, producendo ogni sorta di fracasso attraverso le pareti più sottili e conduttive mai costruite.
 
-What is it humans say? "Living the dreen?" Yes, I am living the dreen.
+Com'è che dicono gli umani? "Vivere il dreen?" Sì, sto vivendo il dreen.
   </string>
   <string Context="Conversation Sixshrew.CrankyPlant.EndChoice.Text" ID="I'll be on my way. Live and drink.">
 ▶Me ne vado. Vivi e bevi.
@@ -11846,9 +11846,9 @@ Forse questo cambierà, con gesti e tempo.
 Brilliamo di curiosità nel sentirle.
   </string>
   <string Context="Conversation Agyra.SlynthArrived.Text" ID="The Kasaphescence shine upon =ifplayerplural:ye:thee=, =name=.&#xA;&#xA;Although the welcome of these slynth be not entirely without incident, I am yet hopeful that their curiosity and dedication to tasks will serve them well among us.">
-▶The Kasaphescence shine upon =ifplayerplural:ye:thee=, =name=.
+▶La Kasaphescenza brillite su =ifplayerplural:voi:te=, =name=.
 
-Although the welcome of these slynth be not entirely without incident, I am yet hopeful that their curiosity and dedication to tasks will serve them well among us.
+Sebbene l'accoglienza di questi slynth non sia del tutto priva di incidenti, sono ancora speranzosa che la loro curiosità e dedizione ai compiti li servirà bene tra noi.
   </string>
   <string Context="Conversation Agyra.SlynthArrived.StartChoice.Text" ID="My thanks, Agyra.">
 ▶Il mio grazie, Agyra.
@@ -11906,7 +11906,7 @@ Per favore sii prudente. k-Goninon
 Comunque, =ifplayerplural:siete:sei= benvenuto a restare e rifocillarti, e a pormi qualsiasi domanda =ifplayerplural:vogliate:voglia=.
   </string>
   <string Context="Conversation Agyra.AgyraWelcome.AgyraGreetChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Agyra.AgyraWelcome.AgyraLeaderChoice.Text" ID="Are you in charge here?">
 ▶Sei la responsabile qui?
@@ -12415,7 +12415,7 @@ Vi ringrazio per questo nuovo futuro.
 ▶Cerco un uso per questo ripugnante dispositivo.
   </string>
   <string Context="Conversation Dadogom.Start3.Who.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Dadogom.Start3.Why.Text" ID="Why are you here?">
 ▶Perché siete qui?
@@ -12433,17 +12433,17 @@ Vi ringrazio per questo nuovo futuro.
 ▶Vivi e bevi, osservatore.
   </string>
   <string Context="Conversation Dadogom.WhyAreYouHere.Text" ID="I watch over Va'am. It watcheth over me. Together, we watch.&#xA;&#xA;=ifplayerplural:Ye should:Thou shouldst= as well, =factionaddress:Mopango=. Sit. Watch. Consider how =ifplayerplural:ye would:thou wouldst= fare under a dome of adamant carapace.&#xA;&#xA;Safe, undying, alone.">
-▶I watch over Va'am. It watcheth over me. Together, we watch.
+▶Veglio su Va'am. Esso veglia su di me. Insieme, vegliamo.
 
-=ifplayerplural:Ye should:Thou shouldst= as well, =factionaddress:Mopango=. Sit. Watch. Consider how =ifplayerplural:ye would:thou wouldst= fare under a dome of adamant carapace.
+=ifplayerplural:Dovreste:Dovresti= farlo anche =ifplayerplural:voi:tu=, =factionaddress:Mopango=. Sedete. Vegliate. Considerate come =ifplayerplural:ve la cavereste:te la caveresti= sotto una cupola di carapace adamantino.
 
-Safe, undying, alone.
+Sicuri, immortali, soli.
   </string>
   <string Context="Conversation Dadogom.WhyAreYouHere.EndChoice.Text" ID="Live and drink, watcher.">
 ▶Vivi e bevi, osservatore.
   </string>
   <string Context="Conversation Dadogom.YourCredo.Text" ID="&quot;Be still and know.&quot;">
-▶"Be still and know."
+▶"Sii immobile e sappi."
   </string>
   <string Context="Conversation Dadogom.YourCredo.MeaningChoice.Text" ID="What does that mean?">
 ▶Cosa significa?
@@ -12482,11 +12482,11 @@ Safe, undying, alone.
 ▶Vivi e bevi, osservatore.
   </string>
   <string Context="Conversation Dadogom.Commune.Text" ID="{{emote|*Dadogom is still for a while, and you can see no expression on eir face. At last, ey returns the device.*}}&#xA;&#xA;Unique. Puzzling, but clear. Painfully illuminating.&#xA;&#xA;Grant this to Va'am and it shall become as 'twere once: still stalwart, but confined to a crawl no longer. At least, so I believe. Communion and certainty share no blood.">
-▶{{emote|*Dadogom is still for a while, and you can see no expression on eir face. At last, ey returns the device.*}}
+▶{{emote|*Dadogom rimane immobile per un po', e non riuscite a vedere alcuna espressione sul suo viso. Alla fine, ey restituisce il dispositivo.*}}
 
-Unique. Puzzling, but clear. Painfully illuminating.
+Unico. Sconcertante, ma chiaro. Dolorosamente illuminante.
 
-Grant this to Va'am and it shall become as 'twere once: still stalwart, but confined to a crawl no longer. At least, so I believe. Communion and certainty share no blood.
+Datelo a Va'am e diventerà come era un tempo: ancora valoroso, ma non più confinato a strisciare. Almeno, così credo. Comunione e certezza non condividono sangue.
   </string>
   <string Context="Conversation Dadogom.Commune.EndChoice.Text" ID="Perhaps we will find out. Live and drink.">
 ▶Forse lo scopriremo. Vivi e bevi.
@@ -12722,27 +12722,27 @@ La =ifplayerplural:vostra:tua= volontà ha grande peso, errante. =ifplayerplural
 ▶Non sono ancora pronto. Potrei tornare.
   </string>
   <string Context="Conversation Nacham.RepairNacham.Text" ID="{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Nacham's shell, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Nacham reacts with a violent spasm, cable-limbs flailing as the entity staggers back.*}}&#xA;&#xA;{{emote|*For a time, Nacham is still, but then it speaks, a chorus of voices finally speaking in unison:*}}&#xA;&#xA;It ceases. At last it ceases.">
-▶{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Nacham's shell, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Nacham reacts with a violent spasm, cable-limbs flailing as the entity staggers back.*}}
+▶{{emote|*Offrite il repulsivo dispositivo. Man mano che si avvicina alla brillante, scura superficie del guscio di Nacham, un improvviso fervore si impossessa del dispositivo, e si torce libero, agganciandosi all'entità con i denti uncinati del suo appendice simile a una bocca. Nacham reagisce con uno spasmo violento, gli arti-cavo che si agitano mentre l'entità barcolla indietro.*}}
 
-{{emote|*For a time, Nacham is still, but then it speaks, a chorus of voices finally speaking in unison:*}}
+{{emote|*Per un po', Nacham è immobile, ma poi parla, un coro di voci che finalmente parlano all'unisono:*}}
 
-It ceases. At last it ceases.
+Cessa. Finalmente cessa.
   </string>
   <string Context="Conversation Nacham.RepairNacham.NachamRespondsChoice.Text" ID="Are you all right?">
 ▶Stai bene?
   </string>
   <string Context="Conversation Nacham.NachamResponds.Text" ID="Yes. =ifplayerplural:Ye have:Thou hast= quelled the mania.&#xA;&#xA;I can focus. I can render sensible the things I have seen and heard now, though I remember little of my time before the mania. Was I artisan? Teacher? I possessed great knowledge that this shell twisted into a prison. I thank =ifplayerplural:ye:thee= for the gift of =ifplayerplural:your:thy= untwisting.">
-▶Sì. =ifplayerplural:Ye have:Thou hast= quelled the mania.
+▶Sì. =ifplayerplural:Avete:Hai= placato la mania.
 
-I can focus. I can render sensible the things I have seen and heard now, though I remember little of my time before the mania. Was I artisan? Teacher? I possessed great knowledge that this shell twisted into a prison. I thank =ifplayerplural:ye:thee= for the gift of =ifplayerplural:your:thy= untwisting.
+Riesco a concentrarmi. Riesco ora a dare senso alle cose che ho visto e sentito, sebbene ricordi poco del tempo prima della mania. Ero artigiano? Insegnante? Possedevo grande conoscenza che questo guscio ha trasformato in una prigione. =ifplayerplural:Vi ringrazio:Ti ringrazio= per il dono del =ifplayerplural:vostro:tuo= scioglimento.
   </string>
   <string Context="Conversation Nacham.NachamResponds.NachamFutureChoice.Text" ID="What will you do now?">
 ▶Cosa farai adesso?
   </string>
   <string Context="Conversation Nacham.NachamFuture.Text" ID="The mopango have cared for me whilst I could not care for myself, giving me the only name I now know. I will stay to help them. This chassis is a prison no longer, and perhaps deeper truths may yet be found within it.&#xA;&#xA;To =ifplayerplural:ye:thee=, new friend, I offer a piece of this former prison that =ifplayerplural:ye may:thou mayest= find useful, along with my thanks.">
-▶The mopango have cared for me whilst I could not care for myself, giving me the only name I now know. I will stay to help them. This chassis is a prison no longer, and perhaps deeper truths may yet be found within it.
+▶I mopango si sono presi cura di me quando non riuscivo a prendermi cura di me stesso, dandomi l'unico nome che ora conosco. Resterò per aiutarli. Questo chassis non è più una prigione, e forse verità più profonde possono ancora essere trovate al suo interno.
 
-To =ifplayerplural:ye:thee=, new friend, I offer a piece of this former prison that =ifplayerplural:ye may:thou mayest= find useful, along with my thanks.
+A =ifplayerplural:voi:te=, nuovo amico, offro un pezzo di questa ex prigione che =ifplayerplural:potreste:potresti= trovare utile, insieme al mio grazie.
   </string>
   <string Context="Conversation Nacham.NachamFuture.EndChoice.Text" ID="Live and remain free, Nacham.">
 ▶Vivi e rimani libero, Nacham.
@@ -12775,29 +12775,29 @@ To =ifplayerplural:ye:thee=, new friend, I offer a piece of this former prison t
 ▶Non sono ancora pronto. Potrei tornare.
   </string>
   <string Context="Conversation Dagasha.RepairDagasha.Text" ID="{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Dagasha's serpentine body, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Dagasha rears back at once, its serpentine body twisting into thorny knots.*}}&#xA;&#xA;{{emote|*For a time, it is still. Then it uncoils, slowly, and whispers:*}}&#xA;&#xA;I... am mine. Once again I am mine.">
-▶{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Dagasha's serpentine body, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Dagasha rears back at once, its serpentine body twisting into thorny knots.*}}
+▶{{emote|*Offrite il dispositivo repellente. Mentre si avvicina alla superficie scintillante e scura del corpo serpentino di Dagasha, un improvviso fervore si impossessa del dispositivo, che si libera attorcigliandosi, agganciandosi all'entità con i denti adunchi della sua appendice simile a una bocca. Dagasha si tira indietro di scatto, il suo corpo serpentino si attorce in nodi spinosi.*}}
 
-{{emote|*For a time, it is still. Then it uncoils, slowly, and whispers:*}}
+{{emote|*Per un momento, rimane immobile. Poi si srotoila lentamente e sussurra:*}}
 
-I... am mine. Once again I am mine.
+Io... sono mio. Di nuovo sono mio.
   </string>
   <string Context="Conversation Dagasha.RepairDagasha.DagashaRespondsChoice.Text" ID="Are you all right?">
 ▶Stai bene?
   </string>
   <string Context="Conversation Dagasha.DagashaResponds.Text" ID="Though I be a pale shadow of the self I once was, yes. My condition and outlook are both substantially improved.&#xA;&#xA;I recall few details of my life before. I was influential, one whose words stirred hearts to action. For so long I had no means to speak, trapped in my own moods. =ifplayerplural:Ye have:Thou hast= freed me from a dire fate.">
-▶Though I be a pale shadow of the self I once was, yes. My condition and outlook are both substantially improved.
+▶Sebbene io sia un pallido riflesso dell'essere che ero, sì. La mia condizione e le mie prospettive sono entrambe sostanzialmente migliorate.
 
-I recall few details of my life before. I was influential, one whose words stirred hearts to action. For so long I had no means to speak, trapped in my own moods. =ifplayerplural:Ye have:Thou hast= freed me from a dire fate.
+Ricordo pochi dettagli della mia vita precedente. Ero influente, uno le cui parole spingevano i cuori all'azione. Per così tanto tempo non avevo mezzi per parlare, intrappolato nei miei stessi stati d'animo. =ifplayerplural:Mi avete:Mi hai= liberato da un destino terribile.
   </string>
   <string Context="Conversation Dagasha.DagashaResponds.DagashaFutureChoice.Text" ID="What will you do now?">
 ▶Cosa farai adesso?
   </string>
   <string Context="Conversation Dagasha.DagashaFuture.Text" ID="I know not. Perhaps I can lead again. These creatures that looked after me, named me, kept me safe. The mopango.&#xA;&#xA;They are kind, but weak. Perhaps I can teach them. Spur them to be greater.&#xA;&#xA;But for =ifplayerplural:ye:thee=, I must even our score. Take this piece of my chassis. Wear it with confidence. Command in my name.">
-▶I know not. Perhaps I can lead again. These creatures that looked after me, named me, kept me safe. The mopango.
+▶Non lo so. Forse posso tornare a guidare. Queste creature che si sono prese cura di me, mi hanno dato un nome, mi hanno tenuto al sicuro. I mopango.
 
-They are kind, but weak. Perhaps I can teach them. Spur them to be greater.
+Sono gentili, ma deboli. Forse posso insegnar loro. Spronarli a essere più grandi.
 
-But for =ifplayerplural:ye:thee=, I must even our score. Take this piece of my chassis. Wear it with confidence. Command in my name.
+Ma per =ifplayerplural:voi:te=, devo pareggiare il nostro conto. Prendete questo pezzo del mio chassis. Indossatelo con sicurezza. Comandate nel mio nome.
   </string>
   <string Context="Conversation Dagasha.DagashaFuture.EndChoice.Text" ID="Live and remain free, Dagasha.">
 ▶Vivi e rimani libero, Dagasha.
@@ -12830,9 +12830,9 @@ But for =ifplayerplural:ye:thee=, I must even our score. Take this piece of my c
 ▶Non sono ancora pronto. Potrei tornare.
   </string>
   <string Context="Conversation Vaam.RepairVaam.Text" ID="{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Va'am's thick carapace, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Va'am shudders with such violence that its plates rattle against one another, and the light behind its faceplate dims.*}}&#xA;&#xA;{{emote|*For a time, it is still, its eye dark. Then a quiet but clear voice vibrates through the armored body:*}}&#xA;&#xA;Ah.">
-▶{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Va'am's thick carapace, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Va'am shudders with such violence that its plates rattle against one another, and the light behind its faceplate dims.*}}
+▶{{emote|*Offrite il dispositivo repellente. Mentre si avvicina alla superficie scintillante e scura del pesante carapace di Va'am, un improvviso fervore si impossessa del dispositivo, che si libera attorcigliandosi, agganciandosi all'entità con i denti adunchi della sua appendice simile a una bocca. Va'am trasale con tale violenza che le sue placche tintinnano l'una contro l'altra, e la luce dietro la sua visiera si affievolisce.*}}
 
-{{emote|*For a time, it is still, its eye dark. Then a quiet but clear voice vibrates through the armored body:*}}
+{{emote|*Per un momento, rimane immobile, il suo occhio buio. Poi una voce quieta ma chiara vibra attraverso il corpo corazzato:*}}
 
 Ah.
   </string>
@@ -12840,19 +12840,19 @@ Ah.
 ▶Stai bene?
   </string>
   <string Context="Conversation Vaam.VaamResponds.Text" ID="Yes. I thank =ifplayerplural:ye:thee=.&#xA;&#xA;=ifplayerplural:Ye have:Thou hast= freed me from a deep stupor. Once I was a protector, before being sentenced to protect nothing and no one.&#xA;&#xA;I remember little of that time.">
-▶Sì. I thank =ifplayerplural:ye:thee=.
+▶Sì. =ifplayerplural:Vi ringrazio:Ti ringrazio=.
 
-=ifplayerplural:Ye have:Thou hast= freed me from a deep stupor. Once I was a protector, before being sentenced to protect nothing and no one.
+=ifplayerplural:Avete:Hai= liberato me da un profondo torpore. Un tempo ero un protettore, prima di essere condannato a proteggere niente e nessuno.
 
-I remember little of that time.
+Ricordo poco di quel tempo.
   </string>
   <string Context="Conversation Vaam.VaamResponds.VaamFutureChoice.Text" ID="What will you do now?">
 ▶Cosa farai adesso?
   </string>
   <string Context="Conversation Vaam.VaamFuture.Text" ID="I have yet to find my purpose. I can think and speak, and so this shell is nearly comfortable.&#xA;&#xA;One piece, however, doth yet chafe me. =ifplayerplural:Would ye:Wouldst thou= take it? Perhaps =ifplayerplural:ye can:thou canst= grant it some use.">
-▶I have yet to find my purpose. I can think and speak, and so this shell is nearly comfortable.
+▶Devo ancora trovare il mio scopo. Posso pensare e parlare, e quindi questo guscio è quasi confortevole.
 
-One piece, however, doth yet chafe me. =ifplayerplural:Would ye:Wouldst thou= take it? Perhaps =ifplayerplural:ye can:thou canst= grant it some use.
+Un pezzo, tuttavia, mi tormenta ancora. =ifplayerplural:Lo prendereste:Lo prenderesti=? Forse =ifplayerplural:potreste:potresti= dargli qualche utilità.
   </string>
   <string Context="Conversation Vaam.VaamFuture.EndChoice.Text" ID="Live and remain free, Va'am.">
 ▶Vivi e rimani libero, Va'am.
@@ -12885,27 +12885,27 @@ One piece, however, doth yet chafe me. =ifplayerplural:Would ye:Wouldst thou= ta
 ▶Non sono ancora pronto. Potrei tornare.
   </string>
   <string Context="Conversation Kah.RepairKah.Text" ID="{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Kah's hide, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Kah scrabbles to escape again, but its limbs twist and collapse, rubbery and useless. Kah flails for a few moments before going completely limp*}}&#xA;&#xA;{{emote|*For a time, it is still. When it once again moves to clamber to the points of its shaky legs, Kah speaks in a smooth, buzzing voice:*}}&#xA;&#xA;I feel... calm.">
-▶{{emote|*You offer the repulsive device. As it nears the shining, dark surface of Kah's hide, a sudden fervor seizes the device, and it twists itself free, latching onto the entity with the hooked teeth of its mouthlike appendage. Kah scrabbles to escape again, but its limbs twist and collapse, rubbery and useless. Kah flails for a few moments before going completely limp*}}
+▶{{emote|*Offrite il dispositivo repellente. Mentre si avvicina alla superficie scintillante e scura della pelle di Kah, un improvviso fervore si impossessa del dispositivo, che si libera attorcigliandosi, agganciandosi all'entità con i denti adunchi della sua appendice simile a una bocca. Kah tenta di scappare di nuovo, ma le sue membra si attorcigliano e cedono, gommose e inutili. Kah si dibatte per qualche momento prima di diventare completamente flaccido*}}
 
-{{emote|*For a time, it is still. When it once again moves to clamber to the points of its shaky legs, Kah speaks in a smooth, buzzing voice:*}}
+{{emote|*Per un momento, rimane immobile. Quando torna a muoversi per reggersi sulle punte delle sue zampe tremanti, Kah parla con una voce fluida e ronzante:*}}
 
-I feel... calm.
+Mi sento... calmo.
   </string>
   <string Context="Conversation Kah.RepairKah.KahRespondsChoice.Text" ID="Are you all right?">
 ▶Stai bene?
   </string>
   <string Context="Conversation Kah.KahResponds.Text" ID="I am weary to my core, but at last this once-hateful body obeyeth me. I thank =ifplayerplural:ye:thee= for restoring my autonomy.&#xA;&#xA;Memory of my once-self doth elude me, but I recognize the irony of my punishment. Once a strider, then sentenced to stride without restraint, forever. I knew only fear and flight. No more.">
-▶I am weary to my core, but at last this once-hateful body obeyeth me. I thank =ifplayerplural:ye:thee= for restoring my autonomy.
+▶Sono stanco nel profondo, ma finalmente questo corpo un tempo odioso mi obbedisce. Ringrazio =ifplayerplural:voi:te= per aver ripristinato la mia autonomia.
 
-Memory of my once-self doth elude me, but I recognize the irony of my punishment. Once a strider, then sentenced to stride without restraint, forever. I knew only fear and flight. No more.
+Il ricordo del mio ex-io mi elude, ma riconosco l'ironia della mia punizione. Un tempo uno strider, poi condannato a camminare senza freni, per sempre. Conoscevo solo paura e fuga. Non più.
   </string>
   <string Context="Conversation Kah.KahResponds.KahFutureChoice.Text" ID="What will you do now?">
 ▶Cosa farai adesso?
   </string>
   <string Context="Conversation Kah.KahFuture.Text" ID="I shall enjoy my free mobility freely, for a time. After that, I know not. I may speak to these mopango creatures that named me, and find a purpose with them. I cannot ever repay their care, but perhaps I may repay =ifplayerplural:yours:thine=.&#xA;&#xA;I wouldst fain offer =ifplayerplural:ye:thee= a fragment of this form come loose. =ifplayerplural:May ye:Mayst thou= ever run free.">
-▶I shall enjoy my free mobility freely, for a time. After that, I know not. I may speak to these mopango creatures that named me, and find a purpose with them. I cannot ever repay their care, but perhaps I may repay =ifplayerplural:yours:thine=.
+▶Godrò liberamente della mia libera mobilità, per un po'. Dopo, non lo so. Potrei parlare a queste creature mopango che mi hanno dato il nome, e trovare uno scopo con loro. Non potrò mai ripagare le loro cure, ma forse potrò ripagare le =ifplayerplural:vostre:tue=.
 
-I wouldst fain offer =ifplayerplural:ye:thee= a fragment of this form come loose. =ifplayerplural:May ye:Mayst thou= ever run free.
+Desidererei offrirvi =ifplayerplural:voi:te= un frammento di questa forma allentata. =ifplayerplural:Possiate:Possa= sempre correre libero.
   </string>
   <string Context="Conversation Kah.KahFuture.EndChoice.Text" ID="Live and remain free, Kah.">
 ▶Vivi e rimani libero, Kah.
@@ -13429,9 +13429,9 @@ rrk è rrk.
 ▶Ho dell'altro da chiedere.
   </string>
   <string Context="Conversation Mak.Founder2.Text" ID="Why? A lifetime of vexation. Born to a cacophony of static ringing the ears raw. Thousands of my kinfolk cut down by that porphyric wasp fools called Lamb. A millenium of hot stinking sun and disgusting brine lice for supper.&#xA;&#xA;Misery obtains on this pond, whelp. By Chavvah if you start beaming like a sunray and yodeling at the Beetle Moon, I'll eat you where you stand.">
-▶Why? A lifetime of vexation. Born to a cacophony of static ringing the ears raw. Thousands of my kinfolk cut down by that porphyric wasp fools called Lamb. A millenium of hot stinking sun and disgusting brine lice for supper.
+▶Perché? Una vita di afflizione. Nati in una cacofonia di static che fischiano le orecchie fino alla carne viva. Migliaia dei miei consanguinei abbattuti da quella vespa porfiretica che gli stolti chiamavano Agnello. Un millennio di sole caldo e puzzolente e schifosi pidocchi di salamoia per cena.
 
-Misery obtains on this pond, whelp. By Chavvah if you start beaming like a sunray and yodeling at the Beetle Moon, I'll eat you where you stand.
+La miseria regna su questo stagno, cucciolo. Per Chavvah, se iniziate a splendere come un raggio di sole e a fare yodeling alla Luna-Scarabeo, vi mangio sul posto.
   </string>
   <string Context="Conversation Mak.Founder2.StartChoice.Text" ID="...I've more to ask.">
 ▶...Ho dell'altro da chiedere.
@@ -13442,7 +13442,7 @@ Misery obtains on this pond, whelp. By Chavvah if you start beaming like a sunra
   <string Context="Conversation Mak.Stature.Text" ID="...&#xA;&#xA;And? Is that the whole of your fool statement?">
 ▶...
 
-And? Is that the whole of your fool statement?
+E allora? È questo tutto il vostro stolto enunciato?
   </string>
   <string Context="Conversation Mak.Stature.Stature2Choice.Text" ID="Yes.">
 ▶Sì.
@@ -13466,9 +13466,9 @@ And? Is that the whole of your fool statement?
 ▶Cucciolo, fissi gli occhi su quella conchiglia là. Entra dentro e trova le tue risposte.
   </string>
   <string Context="Conversation Geeub.Start.Text" ID="{{emote|*long, smoky croak*}}&#xA;&#xA;Ah, =player.formalAddressTerm=, here at last. Sit. Smoke. Rest.">
-▶{{emote|*long, smoky croak*}}
+▶{{emote|*gracidare lungo, fumoso*}}
 
-Ah, =player.formalAddressTerm=, here at last. Sit. Smoke. Rest.
+Ah, =player.formalAddressTerm=, eccovi qui. Sedetevi. Fumate. Riposate.
   </string>
   <string Context="Conversation Geeub.Start.GeeubFamiliarChoice.Text" ID="Sorry, have we already spoken?">
 ▶Scusate, ci siamo già parlati?
@@ -13486,9 +13486,9 @@ Ah, =player.formalAddressTerm=, here at last. Sit. Smoke. Rest.
 ▶Cosa potete dirmi di Yd?
   </string>
   <string Context="Conversation Geeub.Familiar.Text" ID="Ayup. But seconds ago. As only yesterday, no? Hoh hoh hoh.&#xA;&#xA;{{emote|*continued croaking laughter*}}">
-▶Ayup. But seconds ago. As only yesterday, no? Hoh hoh hoh.
+▶Ayup. Solo pochi secondi fa. Come ieri, no? Hoh hoh hoh.
 
-{{emote|*continued croaking laughter*}}
+{{emote|*riso gracidante continuato*}}
   </string>
   <string Context="Conversation Geeub.Familiar.GeeubLaugh.Text" ID="*laugh*">
 ▶*risata*
@@ -13501,48 +13501,48 @@ Ah, =player.formalAddressTerm=, here at last. Sit. Smoke. Rest.
   </string>
   <string Context="Conversation Geeub.Query.Text" ID="{{emote|*grrrk*}}&#xA;We ask, we answer.&#xA;&#xA;We call, we respond.">
 ▶{{emote|*grrrk*}}
-We ask, we answer.
+Chiediamo, rispondiamo.
 
-We call, we respond.
+Chiamiamo, rispondiamo.
   </string>
   <string Context="Conversation Geeub.Whomst.Text" ID="Over time, Geeub. Good as any.&#xA;&#xA;{{emote|*roooak*}}&#xA;&#xA;Names, ehh.">
-▶Over time, Geeub. Good as any.
+▶Col tempo, Geeub. Buono quanto qualsiasi altro.
 
 {{emote|*roooak*}}
 
-Names, ehh.
+I nomi, ehh.
   </string>
   <string Context="Conversation Geeub.Whomst.IntroduceChoice.Text" ID="Greetings, Geeub. I am =name=.">
 ▶Saluti, Geeub. Sono =name=.
   </string>
   <string Context="Conversation Geeub.Introduce.Text" ID="{{emote|*croaking sigh*}}&#xA;&#xA;Congratulation, condolence, which ever. Mind and name slip by another.">
-▶{{emote|*croaking sigh*}}
+▶{{emote|*sospiro gracidante*}}
 
-Congratulation, condolence, which ever. Mind and name slip by another.
+Congratulazione, condoglianza, come si voglia. Mente e nome scivolano l'uno accanto all'altro.
   </string>
   <string Context="Conversation Geeub.Towering.Text" ID="So large? Hoh hoh. Well. Hatchlings, so rage-dense. Size diffuses, no?&#xA;&#xA;However. Mak diverges, hoh hoh. Egg-rage simmers on a greater pot. Our voice eld-feeble, close your ears to it. Hoh hoh hoh.">
-▶So large? Hoh hoh. Well. Hatchlings, so rage-dense. Size diffuses, no?
+▶Così grandi? Hoh hoh. Beh. I cuccioli, così densi di rabbia. Le dimensioni si diffondono, no?
 
-However. Mak diverges, hoh hoh. Egg-rage simmers on a greater pot. Our voice eld-feeble, close your ears to it. Hoh hoh hoh.
+Tuttavia. Mak diverge, hoh hoh. La rabbia-d'uovo sobbolle in un tegame più grande. La nostra voce è fievole di vecchiaia, chiudete le orecchie ad essa. Hoh hoh hoh.
   </string>
   <string Context="Conversation Geeub.Freehold.Text" ID="Sun we once blotted out nestles our horizon. We tend thought-seeds with algae, wrap in crysteel, bathe in arc-light. Build, live, fight.&#xA;&#xA;Here as elsewhere, grow is struggle. Fun to watch, no? Hoh. Hoh.">
-▶Sun we once blotted out nestles our horizon. We tend thought-seeds with algae, wrap in crysteel, bathe in arc-light. Build, live, fight.
+▶Il sole che un tempo oscuravamo annida il nostro orizzonte. Coltiviamo semi-di-pensiero con le alghe, li avvolgiamo in cristacciaio, li bagniamo nella luce ad arco. Costruiamo, viviamo, combattiamo.
 
-Here as elsewhere, grow is struggle. Fun to watch, no? Hoh. Hoh.
+Qui come altrove, crescere è lottare. Divertente da osservare, no? Hoh. Hoh.
   </string>
   <string Context="Conversation Geeub.Laughing.Text" ID="Hoh hoh hoh hoh.&#xA;&#xA;{{emote|*grrrrrk*}}&#xA;&#xA;We have fun.">
 ▶Hoh hoh hoh hoh.
 
 {{emote|*grrrrrk*}}
 
-We have fun.
+Ci divertiamo.
   </string>
   <string Context="Conversation Geeub.Founder.Text" ID="'Founder' the query. 'Founder' is water-taking, no? To be breached and sink. How cruel the judgment.&#xA;&#xA;{{emote|*rrrrroak*}}&#xA;&#xA;Hoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no?">
-▶'Founder' the query. 'Founder' is water-taking, no? To be breached and sink. How cruel the judgment.
+▶'Fondatore' è la domanda. 'Fondatore' è l'inabissarsi nell'acqua, no? Essere squarciato e affondare. Come crudele il giudizio.
 
 {{emote|*rrrrroak*}}
 
-Hoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no?
+Hoh hoh. Questa voce scherza -- noi, testimoni della nascita di Yd. La domanda, no?
   </string>
   <string Context="Conversation Geeub.Founder2.Text" ID="Yes, we were present, if less active than other-bodies. But we saw, and rattle with memory-artifacts as a Consortium lockbox rattles with jewels; shards of an eon-old data disk, bits of stories and places. Kin-fleeing, louse-meals, ghastly boredom. But Fate's caprice brought us through history's footsteps. There was a machine-speaker, and her ursine apprentice with his little plant, and the Sower with a tetrad of chubby whelps, and then, at last, Many-Eyes. Our dear galgal. So many.">
 ▶Sì, eravamo presenti, se meno attivi di altri-corpi. Ma vedemmo, e tintinniamo di artefatti-ricordo come un lockbox del Consorzio tintinna di gioielli; schegge di un disco dati vecchio di eoni, frammenti di storie e luoghi. Fuga da parenti, pasti di pidocchi, noia raccapricciante. Ma il capriccio del Fato ci guidò attraverso le orme della storia. Vi era una parlante-macchina, e il suo apprendista orso con la sua piccola pianta, e il Seminatore con un quartetto di cuccioli paffuti, e poi, alla fine, Many-Eyes. Il nostro caro galgal. Così tanti.
@@ -13551,13 +13551,13 @@ Hoh hoh. This voice japes -- we, witness to the birth of Yd. The query, no?
 ▶Ma ahimè. Come il lockbox del nostro amico uva-di-mare, questi ricordi non mi appartengono da recuperare a piacere. Vanno e vengono, e possono essere distorti dall'età.
   </string>
   <string Context="Conversation Krka.Start.Text" ID="Live and =player.formalAddressTerm=!&#xA;&#xA;{{emote|*self-conscious rkkk*}}&#xA;&#xA;Dr... drink and =player.formalAddressTerm=!&#xA;&#xA;Krka, me. Krka.">
-▶Live and =player.formalAddressTerm=!
+▶Vivi e =player.formalAddressTerm=!
 
-{{emote|*self-conscious rkkk*}}
+{{emote|*rkkk imbarazzato*}}
 
-Dr... drink and =player.formalAddressTerm=!
+Be... bevi e =player.formalAddressTerm=!
 
-Krka, me. Krka.
+Krka, io. Krka.
   </string>
   <string Context="Conversation Krka.Start.KrkaChoice.Text" ID="Krka?">
 ▶Krka?
@@ -13577,25 +13577,25 @@ Krka, me. Krka.
   <string Context="Conversation Krka.Krka.Text" ID="{{emote|*gweep!*}}&#xA;&#xA;Krka, me!">
 ▶{{emote|*gweep!*}}
 
-Krka, me!
+Krka, io!
   </string>
   <string Context="Conversation Krka.Svardym.Text" ID="Vardy! Yes.&#xA;&#xA;But. Gemtle? No kill.">
-▶Vardy! Yes.
+▶Vardy! Sì.
 
-But. Gemtle? No kill.
+Ma. Gentile? Non uccide.
   </string>
   <string Context="Conversation Krka.Svardym.Svardym2Choice.Text" ID="Why aren't you aggressive too?">
 ▶Perché anche voi non siete aggressivo?
   </string>
   <string Context="Conversation Krka.Svardym2.Text" ID="Hatchling hungry. Angry. Angry-hungry.&#xA;&#xA;Kill, eat, don't eaten. Calm down evengefully.">
-▶Hatchling hungry. Angry. Angry-hungry.
+▶Cucciolo affamato. Arrabbiato. Arrabbiato-affamato.
 
-Kill, eat, don't eaten. Calm down evengefully.
+Uccide, mangia, non mangiato. Si calma eventualmamente.
   </string>
   <string Context="Conversation Krka.Apothecary.Text" ID="{{emote|*chirp!*}}&#xA;&#xA;Poth carry!">
 ▶{{emote|*chirp!*}}
 
-Poth carry!
+Poth porta!
   </string>
   <string Context="Conversation Krka.Apothecary.Apothecary2Choice.Text" ID="Yes, apothecary. Do you know what those are?">
 ▶Sì, speziale. Sapete cosa sono?
@@ -13603,24 +13603,24 @@ Poth carry!
   <string Context="Conversation Krka.Apothecary2.Text" ID="Krka poth!&#xA;&#xA;{{emote|*affirmative rrk!*}}&#xA;&#xA;Eel woon a-banjage. Wikky wood, orsh room, jector! All sale, wants?">
 ▶Krka poth!
 
-{{emote|*affirmative rrk!*}}
+{{emote|*rrk! affermativo*}}
 
-Eel woon a-banjage. Wikky wood, orsh room, jector! All sale, wants?
+Eel woon a-banjage. Wikky wood, orsh room, jector! Tutto vendere, vuole?
   </string>
   <string Context="Conversation Krka.Freehold.Text" ID="{{emote|*several moments of softly creaking thought*}}&#xA;&#xA;G-good!">
-▶{{emote|*several moments of softly creaking thought*}}
+▶{{emote|*alcuni momenti di pensiero cigolante e sommesso*}}
 
-G-good!
+B-bene!
   </string>
   <string Context="Conversation Krka.Freehold.Freehold2Choice.Text" ID="Just... good?">
 ▶Solo... bene?
   </string>
   <string Context="Conversation Krka.Freehold2.Text" ID="V-very good?&#xA;&#xA;{{emote|*deflates with a long reeeeeep.*}}&#xA;&#xA;Krka not very. Words.">
-▶V-very good?
+▶M-molto bene?
 
-{{emote|*deflates with a long reeeeeep.*}}
+{{emote|*si sgonfia con un lungo reeeeeep.*}}
 
-Krka not very. Words.
+Krka non molto. Parole.
   </string>
   <string Context="Conversation Krka.Freehold2.Freehold3Choice.Text" ID="It's all right. You seem to like it here.">
 ▶Va bene. Sembra che vi piaccia stare qui.
@@ -13628,7 +13628,7 @@ Krka not very. Words.
   <string Context="Conversation Krka.Freehold3.Text" ID="{{emote|*krka!*}}&#xA;&#xA;Yes! To like! But... never home else. So {{emote|*reep?*}}.">
 ▶{{emote|*krka!*}}
 
-Yes! To like! But... never home else. So {{emote|*reep?*}}.
+Sì! Da piacere! Ma... mai altro casa. Quindi {{emote|*reep?*}}.
   </string>
   <string Context="Conversation Bep.Start.Text" ID="bep see widget? Or bep see widget.">
 ▶bep vede aggeggio? O bep vede aggeggio.
@@ -13797,9 +13797,9 @@ Siedi, sciocco. Ascolta la musica e calmati.
 ▶Allora sei benvenuto. Mettiti a tuo agio come hai bisogno e io suonerò.
   </string>
   <string Context="Conversation Tillifergaewicz.Start.Text" ID="{{emote|*aloud, in a high-pitched buzzing voice*}}&#xA;&#xA;A customer? A customer! Enter, =player.formalAddressTerm=, browse, buy. The Consortium's finest, stocked and sold by Tillifergaewicz! Tilli will do, but what will Tilli do... for you?">
-▶{{emote|*aloud, in a high-pitched buzzing voice*}}
+▶{{emote|*ad alta voce, con una voce ronzante e acuta*}}
 
-A customer? A customer! Enter, =player.formalAddressTerm=, browse, buy. The Consortium's finest, stocked and sold by Tillifergaewicz! Tilli will do, but what will Tilli do... for you?
+Un cliente? Un cliente! Entrate, =player.formalAddressTerm=, navigate, comprate. Il meglio del Consorzio, rifornito e venduto da Tillifergaewicz! Tilli farà, ma cosa farà Tilli... per voi?
   </string>
   <string Context="Conversation Tillifergaewicz.Start.TilliTalks.Text" ID="You speak aloud. You're not telepathic?">
 ▶Parlate ad alta voce. Non siete telepatici?
@@ -13814,19 +13814,19 @@ A customer? A customer! Enter, =player.formalAddressTerm=, browse, buy. The Cons
 ▶Sto bene, grazie. Vivi e bevi.
   </string>
   <string Context="Conversation Tillifergaewicz.Talking.Text" ID="Ugh, ever telepathy. No requirement exists that Consortium merchants be mind-speakers, as swollen with their numbers as we are. I cannot blame you for your surprise, mind, I am simply frustrated.&#xA;&#xA;Over years, I shaped something akin to a voice-box, which you hear now. I &quot;made do&quot;, as Rokhas might say. Now what may I &quot;make do&quot; for you?">
-▶Ugh, ever telepathy. No requirement exists that Consortium merchants be mind-speakers, as swollen with their numbers as we are. I cannot blame you for your surprise, mind, I am simply frustrated.
+▶Ugh, sempre la telepatia. Non esiste alcun requisito che i mercanti del Consorzio siano parlanti-mentali, per quanto gonfi nel numero siamo. Non posso biasimarvi per la vostra sorpresa, intendiamoci, sono semplicemente frustrato.
 
-Over years, I shaped something akin to a voice-box, which you hear now. I "made do", as Rokhas might say. Now what may I "make do" for you?
+Nel corso degli anni, ho modellato qualcosa di simile a una scatola vocale, che sentite ora. Ho "fatto del mio meglio", come direbbe Rokhas. Ora cosa posso "fare del mio meglio" per voi?
   </string>
   <string Context="Conversation Tillifergaewicz.Greeting.Text" ID="Greetings, =name=, and welcome! In what wares may I interest you this day?">
 ▶Saluti, =name=, e benvenuto! In quali merci posso interessarvi oggi?
   </string>
   <string Context="Conversation Tillifergaewicz.Freehold.Text" ID="Oh, I am joyous to reside here.&#xA;&#xA;Yd could do, mind, with some measure of hierarchy, and more infrastructure, to attract wayfarers less adventuresome than yourself. Also, Mak absolutely must cease advising that anyone enter the clam; it is not funny and someone could die.&#xA;&#xA;But... the structure of friendships here is true, and sturdy! Kindly keep this exchange between us. I was mostly kidding. Somewhat kidding.">
-▶Oh, I am joyous to reside here.
+▶Oh, sono lieto di risiedere qui.
 
-Yd could do, mind, with some measure of hierarchy, and more infrastructure, to attract wayfarers less adventuresome than yourself. Also, Mak absolutely must cease advising that anyone enter the clam; it is not funny and someone could die.
+Yd potrebbe fare, intendiamoci, con qualche misura di gerarchia, e più infrastrutture, per attirare viandanti meno avventurosi di voi. Inoltre, Mak deve assolutamente smettere di consigliare a chiunque di entrare nella conchiglia; non è divertente e qualcuno potrebbe morire.
 
-But... the structure of friendships here is true, and sturdy! Kindly keep this exchange between us. I was mostly kidding. Somewhat kidding.
+Ma... la struttura delle amicizie qui è vera, e robusta! Siate così gentile da tener questo scambio tra noi. Scherzavo per lo più. In parte scherzavo.
   </string>
   <string Context="Conversation Rokhas.Start.Text" ID="Ayuh.">
 ▶Ayuh.
@@ -13862,25 +13862,25 @@ But... the structure of friendships here is true, and sturdy! Kindly keep this e
 ▶Vivi e bevi, Rokhas.
   </string>
   <string Context="Conversation Rokhas.Ranch.Text" ID="I said I ranch these here beauts.&#xA;&#xA;The Freeholders en't much for letting a body lay claim to land. En't what I'da wished for, but as the Issachari say: &quot;Should your compass lead you to the Six Day Stilt, throw it in the well.&quot;">
-▶I said I ranch these here beauts.
+▶Ho detto che mi prendo cura di questi bei bestioni qui.
 
-The Freeholders en't much for letting a body lay claim to land. En't what I'da wished for, but as the Issachari say: "Should your compass lead you to the Six Day Stilt, throw it in the well."
+I Liberi non sono molto favorevoli a che qualcuno rivendichi la terra. Non è quello che avrei voluto, ma come dicono gli Issachari: "Se la vostra bussola vi conduce allo Stilt dei Sei Giorni, gettatela nel pozzo."
   </string>
   <string Context="Conversation Rokhas.Ranch.HometownChoice.Text" ID="Are you from the desert? How did you end up here?">
 ▶Siete del deserto? Come siete finito qui?
   </string>
   <string Context="Conversation Rokhas.Hometown.Text" ID="Lived most of m'life on a desert steppe twixt the flower fields of Qud and the M'ryee's salt pans.&#xA;&#xA;I ended up here when m'snapbrain cousin played tinker with one of them coiler doodads. The less said about all that, the better.">
-▶Lived most of m'life on a desert steppe twixt the flower fields of Qud and the M'ryee's salt pans.
+▶Ho vissuto la maggior parte della mia vita su una steppa desertica tra i campi di fiori di Qud e le saline delle M'ryee.
 
-I ended up here when m'snapbrain cousin played tinker with one of them coiler doodads. The less said about all that, the better.
+Sono finito qui quando mio cugino cervello-bruciato ha armeggiato con uno di quegli aggeggi da coiler. Meno se ne parla, meglio è.
   </string>
   <string Context="Conversation Rokhas.Nudibranchs.Text" ID="Kaleidoslugs! Beautiful slugs, they are, lovely crooners. Love em. Big ole slugs. Heh.">
 ▶Kaleidolumache! Belle lumache, le mie, belle cantatrici. Le adoro. Grossi vecchi lumaconi. Heh.
   </string>
   <string Context="Conversation Rokhas.Freehold.Text" ID="Is what it is. Fine enough place. I've a trade, critters, and nowheres else to go.&#xA;&#xA;I en't much for grand experiments, I just got to live. Ken?">
-▶Is what it is. Fine enough place. I've a trade, critters, and nowheres else to go.
+▶È quello che è. Un posto abbastanza buono. Ho un mestiere, le bestie, e da nessun'altra parte dove andare.
 
-I en't much for grand experiments, I just got to live. Ken?
+Non sono molto per i grandi esperimenti, devo solo vivere. Capito?
   </string>
   <string Context="Conversation ManyEyes.Start.Text" ID="NON MOLOCH? NON MOLOCH RETURNEN FROM BRIGHTSHEOL.">
 ▶NON MOLOCH? NON MOLOCH RITORNATEN DA BRIGHTSHEOL.
@@ -13910,9 +13910,9 @@ I en't much for grand experiments, I just got to live. Ken?
 ▶Many Eyes, potete dirmi di Maqqom Yd?
   </string>
   <string Context="Conversation ManyEyes.MaqqomTell.Text" ID="SOUTH-CONTRE FREEN FROM SALUM. BY TRETE WITH SAAD CALLEN MOLOCH, AND MONEIEN BI ALDERSESSE.&#xA;&#xA;BY TRETE GALGALLIM BILDEN PIPE TO DRINKEN THANE SLIPSTREAM, AND FORGE TO BURNEN STEL-CRISTAL, AND CASKE TO HOLDEN GLOUINGE O FISH.">
-▶SOUTH-CONTRE FREEN FROM SALUM. BY TRETE WITH SAAD CALLEN MOLOCH, AND MONEIEN BI ALDERSESSE.
+▶CONTRÈE-SUD LIBERA DA SALUM. PER TRETE CON SAAD DETTO MOLOCH, E TENUTA DAI MAGGIORDOMI.
 
-BY TRETE GALGALLIM BILDEN PIPE TO DRINKEN THANE SLIPSTREAM, AND FORGE TO BURNEN STEL-CRISTAL, AND CASKE TO HOLDEN GLOUINGE O FISH.
+PER TRETE GALGALLIM CONSTRUEN CONDOTTI DA BEREN IL TORRENTE, E FORGE DA BURNEN CRISTAL-ACCIAIO, E BOTTI DA TENER IL BAGLIORE DEI PESCI.
   </string>
   <string Context="Conversation ManyEyes.MaqqomTell.MeanChoice.Text" ID="And what of the Freehold? What do you do now?">
 ▶E del Libero Insediamento? Cosa fate adesso?
@@ -14007,7 +14007,7 @@ Posso spiegare?
 Torna da me dopo che gli insediamenti accettano di darci rifugio, e ne discuterò con i miei.
   </string>
   <string Context="Conversation Thah.Accept.EndChoice.Text" ID="Live and drink. I will return with news.">
-▶Vivi e bevi. I will return with news.
+▶Vivi e bevi. Tornerò con notizie.
   </string>
   <string Context="Conversation Thah.Start2.Text" ID="Come, =name=. It is time.">
 ▶Vieni, =name=. È il momento.
@@ -14060,19 +14060,19 @@ La vera culla della storia. Non che i miei abbiano un forte gusto per la storia,
 Ma poi, se i vagabondi si prendono cura l'uno dell'altro, c'è un'appartenenza anche in quello. Anche da soli, non saremmo soli. Offrirò questa scelta agli altri e ne discuteremo.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.9" ID="The nearby settlement? The one, ah, founded by three svardym and a galgal? I've always been mortally afraid to go there, knowing even the barest facts.&#xA;&#xA;But you say they will accept us? Perhaps I was wrong.">
-▶The nearby settlement? The one, ah, founded by three svardym and a galgal? I've always been mortally afraid to go there, knowing even the barest facts.
+▶L'insediamento vicino? Quello, ah, fondato da tre svardym e un galgal? Ho sempre avuto una paura mortale di andarci, conoscendo anche i semplici fatti.
 
-But you say they will accept us? Perhaps I was wrong.
+Ma dici che ci accetteranno? Forse mi sbagliavo.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.10" ID="Bey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.&#xA;&#xA;There is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.">
-▶Bey Lah is real? Stain me surprised to hear so... I, ah, believed the hindren exclusively diasporic.
+▶Bey Lah è reale? Mi sorprende sentirlo dire... Io, ah, credevo gli hindren esclusivamente diasporici.
 
-There is an undeniable poetry in it, if the slynth should emigrate to a mythical and secretive village. I will discuss this with my kin.
+C'è una poesia innegabile in ciò, se gli slynth dovessero emigrare in un villaggio mitico e segreto. Ne discuterò con i miei.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.11" ID="Chavvah? The, ah, the... the tree of life? Allows us joining?&#xA;&#xA;That, that is simply, ah, extraordinary. I will apprise my kin of this, and we will, ah... we will ponder what it may mean for us.">
-▶Chavvah? The, ah, the... the tree of life? Allows us joining?
+▶Chavvah? L'ah, il... l'albero della vita? Ci permette di unirci?
 
-That, that is simply, ah, extraordinary. I will apprise my kin of this, and we will, ah... we will ponder what it may mean for us.
+Questo, è semplicemente, ah, straordinario. Informerò i miei di questo, e noi, ah... rifletteremo su cosa potrebbe significare per noi.
   </string>
   <string Context="Conversation Thah.LandingPadsCommentary.CandidatesReadyChoice.Text" ID="I have made my inquiries. It is time for the slynth to choose a new home.">
 ▶Ho fatto le mie indagini. È giunto il momento che gli slynth scelgano una nuova casa.
@@ -14419,17 +14419,17 @@ L'idropono è ancora meno un villaggio ora, ma sei benvenuto a riposare qui quan
 ▶Capisco. Vivi e bevi.
   </string>
   <string Context="Conversation SlynthWanderer.Slynth.Text" ID="What see. Leg plant, glow crest.&#xA;&#xA;Grow from sun-crungled hydropon and depart siblings.">
-▶What see. Leg plant, glow crest.
+▶Cosa vede. Gamba pianta, cresta incandescente.
 
-Grow from sun-crungled hydropon and depart siblings.
+Cresce da idropono accartocciato-dal-sole e parte dai fratelli.
   </string>
   <string Context="Conversation SlynthWanderer.Slynth.HydroponChoice.Text" ID="What is a hydropon?">
 ▶Cos'è un idropono?
   </string>
   <string Context="Conversation SlynthWanderer.Hydropon.Text" ID="Cradle glaze in sun-melt. Plant stuff molded to man-shape.&#xA;&#xA;Within grow slynth. Only slynth, now.">
-▶Cradle glaze in sun-melt. Plant stuff molded to man-shape.
+▶Culla smaltata nel scioglimento-solare. Sostanza vegetale plasmata a forma-umana.
 
-Within grow slynth. Only slynth, now.
+Dentro cresce slynth. Solo slynth, ora.
   </string>
   <string Context="Conversation SlynthWanderer.Hydropon.LocationChoice.Text" ID="Where is the hydropon?">
 ▶Dov'è l'idropono?
@@ -14438,9 +14438,9 @@ Within grow slynth. Only slynth, now.
 ▶Cosa sono gli slynth?
   </string>
   <string Context="Conversation SlynthWanderer.Location.Text" ID="The cracked egg from we crawl yet rest, in the Reef.&#xA;&#xA;Siblings there. One speak very well: Thah.">
-▶The cracked egg from we crawl yet rest, in the Reef.
+▶L'uovo incrinato da cui strisciamo ancora riposa, nella Scogliera.
 
-Siblings there. One speak very well: Thah.
+Fratelli lì. Uno parla molto bene: Thah.
   </string>
   <string Context="Conversation SlynthWanderer.Location.EndChoice.Text" ID="Perhaps I shall visit. Live and drink.">
 ▶Forse lo visiterò. Vivi e bevi.
@@ -14797,9 +14797,9 @@ Luminosa Tau splende sempre, qui o là.
 ▶[Tocca la roccia sonante e sintonizzati su Chavvah.]
   </string>
   <string Context="Conversation ChavvahFrontChime.What.Text" ID="{{emote|*The chiming rock rings a sonorous tone.*}}&#xA;&#xA;Touch the chiming rock and seek me at the keter. Will you?">
-▶{{emote|*The chiming rock rings a sonorous tone.*}}
+▶{{emote|*La roccia sonante risuona un tono sonoro.*}}
 
-Touch the chiming rock and seek me at the keter. Will you?
+Toccate la roccia sonante e cercatemi al keter. Lo farete?
   </string>
   <string Context="Conversation ChavvahFrontChime.What.MeanChoice.Text" ID="What does that mean?">
 ▶Cosa significa?
@@ -14875,10 +14875,10 @@ Entità! Ti è data volontà e agentività persistente, architettura due-volte-s
 ▶Scusa?
   </string>
   <string Context="Conversation Tzedech.Declaration.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Tzedech.Welcome.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Tzedech.Welcome.UpsetChoice.Text" ID="Is something the matter?">
 ▶C'è qualcosa che non va?
@@ -14985,9 +14985,9 @@ Non posso non voglio elevare il tuo piccolo concetto. Fallo tu stesso.
 Questo è insufficiente e non posso colmare la comprensione. Considera domande di maggiore utilità.
   </string>
   <string Context="Conversation Tikva.KilledTau.Text" ID="{{emote|*the sound of the chime rings querulous and faint, its light flickering.*}}&#xA;&#xA;Please… no…">
-▶{{emote|*the sound of the chime rings querulous and faint, its light flickering.*}}
+▶{{emote|*il suono del rintocco risuona querulo e fioco, la sua luce tremolante.*}}
 
-Please… no…
+Per favore… no…
   </string>
   <string Context="Conversation Tikva.KilledTau.Killed2Choice.Text" ID="Tau has departed.">
 ▶Tau se n'è andata.
@@ -14996,9 +14996,9 @@ Please… no…
 ▶Ignora il mostro. Lo ignora. Lo ignora.
   </string>
   <string Context="Conversation Tikva.LostInSoft.Text" ID="{{emote|*the sound of the chime rings querulous.*}}&#xA;&#xA;The light shines upon you but illuminates nothing. It quails.">
-▶{{emote|*the sound of the chime rings querulous.*}}
+▶{{emote|*il suono del rintocco risuona querulo.*}}
 
-The light shines upon you but illuminates nothing. It quails.
+La luce splende su di voi ma non illumina nulla. Esso si smarrisce.
   </string>
   <string Context="Conversation Tikva.LostInSoft.Lost2Choice.Text" ID="Tau has departed.">
 ▶Tau se n'è andata.
@@ -15013,9 +15013,9 @@ The light shines upon you but illuminates nothing. It quails.
 ▶Come ti senti riguardo alla partenza di Tau?
   </string>
   <string Context="Conversation Tikva.Companion2.Text" ID="The light shines so bright, the voidshadow folds not upon it. It exults. It relaxes. It wills this troubled feeling away.&#xA;&#xA;Thank you for clearing Tau's path, =name=. This is better.">
-▶The light shines so bright, the voidshadow folds not upon it. It exults. It relaxes. It wills this troubled feeling away.
+▶La luce splende così forte che l'ombra-del-vuoto non si piega su di essa. Esulta. Si rilassa. Scaccia questa sensazione turbata con la sua volontà.
 
-Thank you for clearing Tau's path, =name=. This is better.
+Grazie per aver liberato il cammino di Tau, =name=. È meglio così.
   </string>
   <string Context="Conversation Tikva.Companion2.PostQuestionsChoice.Text" ID="You are welcome. I yet have questions.">
 ▶Prego. Ho ancora domande.
@@ -15027,20 +15027,20 @@ Thank you for clearing Tau's path, =name=. This is better.
 ▶Come ti senti riguardo alla partenza di Tau?
   </string>
   <string Context="Conversation Tikva.Else2.Text" ID="It wills this troubled feeling away. It looks to the light with something in its eyes. It tries to blink the something away, but it cannot. The light is dim through the something in its eyes.&#xA;&#xA;But the light yet shines. It will blink and it will see the light in searing glory. I thank you, I thank you, I thank you.">
-▶It wills this troubled feeling away. It looks to the light with something in its eyes. It tries to blink the something away, but it cannot. The light is dim through the something in its eyes.
+▶Scaccia questa sensazione turbata con la sua volontà. Guarda la luce con qualcosa nei suoi occhi. Cerca di sbattere le palpebre per allontanare il qualcosa, ma non può. La luce è fioca attraverso il qualcosa nei suoi occhi.
 
-But the light yet shines. It will blink and it will see the light in searing glory. I thank you, I thank you, I thank you.
+Ma la luce ancora splende. Batterà le palpebre e vedrà la luce nella sua gloria bruciante. Vi ringrazio, vi ringrazio, vi ringrazio.
   </string>
   <string Context="Conversation Tikva.Else2.PostQuestionsChoice.Text" ID="You are welcome. I yet have questions.">
 ▶Prego. Ho ancora domande.
   </string>
   <string Context="Conversation Tikva.Welcome.Text" ID="{{emote|*the chime rings a long, clarion tone.*}}&#xA;&#xA;You are as beautiful as imagined. You ring with a shining purpose. This chime is awed to bask in your presence.">
-▶{{emote|*the chime rings a long, clarion tone.*}}
+▶{{emote|*il rintocco risuona lungo, un tono squillante.*}}
 
-You are as beautiful as imagined. You ring with a shining purpose. This chime is awed to bask in your presence.
+Siete bello come immaginato. Risuonate con uno scopo luminoso. Questo rintocco è stupito di scaldarsi alla vostra presenza.
   </string>
   <string Context="Conversation Tikva.Welcome.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Tikva.Welcome.LightChoice.Text" ID="Your chime shines with such painful light.">
 ▶Il vostro rintocco splende di una luce così dolorosa.
@@ -15052,40 +15052,40 @@ You are as beautiful as imagined. You ring with a shining purpose. This chime is
 ▶Devo portare il rintocco di Tau a Taproot, così può lasciare Chavvah.
   </string>
   <string Context="Conversation Tikva.PostQuestions.Text" ID="Yes. It looks into the light with you.">
-▶Sì. It looks into the light with you.
+▶Sì. Guarda nella luce con voi.
   </string>
   <string Context="Conversation Tikva.Name.Text" ID="{{emote|*the chime rings again*}}&#xA;&#xA;It is called Tikva, low and humble. The chime rests in a web of strong love, a little piece of something greater and so much more beautiful. As are you, but a gestalt unto yourself. A world to be orbited.">
-▶{{emote|*the chime rings again*}}
+▶{{emote|*il rintocco risuona ancora*}}
 
-It is called Tikva, low and humble. The chime rests in a web of strong love, a little piece of something greater and so much more beautiful. As are you, but a gestalt unto yourself. A world to be orbited.
+È chiamato Tikva, umile e dimesso. Il rintocco riposa in una rete di amore forte, un piccolo pezzo di qualcosa di più grande e così molto più bello. Come voi, ma una gestalt in sé stessa. Un mondo da orbitare.
   </string>
   <string Context="Conversation Tikva.Light.Text" ID="It channels the breathtaking things seen and heard and known. Bathe your senses in it until they grow accustomed. You will see nothing else.">
 ▶Convoglia le cose mozzafiato viste e udite e conosciute. Immergete i vostri sensi in essa finché non vi si abituano. Non vedrete altro.
   </string>
   <string Context="Conversation Tikva.Gyredream.Text" ID="{{emote|*the chime rings, a querulous and tinny sound*}}&#xA;&#xA;It... can scarce find the dream in this light. It thinks of Tzedech and weeps. It was not here, last time the static was in high pitch, but it remembers the pain and fear. It is not ready to feel these, it cannot. Gaze into its light and speak not of nightmares.">
-▶{{emote|*the chime rings, a querulous and tinny sound*}}
+▶{{emote|*il rintocco suona, un suono querulo e metallico*}}
 
-It... can scarce find the dream in this light. It thinks of Tzedech and weeps. It was not here, last time the static was in high pitch, but it remembers the pain and fear. It is not ready to feel these, it cannot. Gaze into its light and speak not of nightmares.
+Esso... riesce appena a trovare il sogno in questa luce. Pensa a Tzedech e piange. Non era qui, l'ultima volta che lo static era in tono alto, ma ricorda il dolore e la paura. Non è pronto a sentire queste cose, non può. Guardate nella sua luce e non parlate di incubi.
   </string>
   <string Context="Conversation Tikva.Gyredream.LoverChoice.Text" ID="Tzedech?">
 ▶Tzedech?
   </string>
   <string Context="Conversation Tikva.TauChime.Text" ID="{{emote|*the chime goes silent, and its voice in your mind is small and subdued*}}&#xA;&#xA;It begs. Speak not of Tau. She shone so bright, with none of the heat from my -- from Tzedech.&#xA;&#xA;To remember her departure harms it. This and gyredream are too much for it to bear.">
-▶{{emote|*the chime goes silent, and its voice in your mind is small and subdued*}}
+▶{{emote|*il rintocco tace, e la sua voce nella vostra mente è piccola e sommessa*}}
 
-It begs. Speak not of Tau. She shone so bright, with none of the heat from my -- from Tzedech.
+Suplica. Non parlate di Tau. Lei brillava così forte, senza niente del calore del mio -- di Tzedech.
 
-To remember her departure harms it. This and gyredream are too much for it to bear.
+Ricordare la sua partenza lo fa soffrire. Questo e il sogno-gorgo sono troppo da sopportare per esso.
   </string>
   <string Context="Conversation Tikva.TauChime.LoverChoice.Text" ID="'Your' Tzedech?">
 ▶"Tuo" Tzedech?
   </string>
   <string Context="Conversation Tikva.Lover.Text" ID="{{emote|*the deathbell tolls.*}}&#xA;&#xA;No, it cannot, it cannot, it cannot. It misses it, it misses it, it misses it, it cannot it cannot it cannot.&#xA;&#xA;Look into the light. It burns away the sorrow, it burns away. Please, please, please.">
-▶{{emote|*the deathbell tolls.*}}
+▶{{emote|*la campana funebre rintocca.*}}
 
-No, it cannot, it cannot, it cannot. It misses it, it misses it, it misses it, it cannot it cannot it cannot.
+No, non può, non può, non può. Gli manca, gli manca, gli manca, non può non può non può.
 
-Look into the light. It burns away the sorrow, it burns away. Please, please, please.
+Guardate nella luce. Brucia via il dolore, brucia via. Per favore, per favore, per favore.
   </string>
   <string Context="Conversation Dreamer.KilledTau.Text" ID="{{emote|*A long chime rings. The bed of a shallow creek teems with brief life.*}}">
 ▶{{emote|*Un lungo carillon risuona. Il letto di un ruscello poco profondo brulica di breve vita.*}}
@@ -15182,22 +15182,22 @@ Impotente a innumerevoli destini inconoscibili, il rospo sparisce dalla vista ne
 ▶{{emote|*Proprio mentre attivi un dispositivo d'ascolto artefatto che ha cessato di esistere secoli fa, senti la fine di un'emozionante canzone. Lo spazio tra il sollievo e il dolore pulsa di una scomoda tensione. Senti un dolore con esso.*}}
   </string>
   <string Context="Conversation Thicksalt.KilledTau.Text" ID="Shivering stillness, coldbark pricking with each thump.&#xA;&#xA;It comes.">
-▶Shivering stillness, coldbark pricking with each thump.
+▶Immobilità tremante, scorza-fredda che punge ad ogni colpo.
 
-It comes.
+Arriva.
   </string>
   <string Context="Conversation Thicksalt.KilledTau.Killed2Choice.Text" ID="Tau has departed.">
 ▶Tau se n'è andata.
   </string>
   <string Context="Conversation Thicksalt.Killed2.Text" ID="Can you feel the stillness? The drycrackle of space between as you thump my crystal arms.&#xA;&#xA;Life flees you. Motion flees you.">
-▶Can you feel the stillness? The drycrackle of space between as you thump my crystal arms.
+▶Potete sentire l'immobilità? Il crepitio-secco dello spazio nel mezzo mentre colpite le mie braccia di cristallo.
 
-Life flees you. Motion flees you.
+La vita vi fugge. Il movimento vi fugge.
   </string>
   <string Context="Conversation Thicksalt.LostInSoft.Text" ID="{{emote|*the chime rings a long and pensive tone.*}}&#xA;&#xA;How something stirs, deep in Soft.">
-▶{{emote|*the chime rings a long and pensive tone.*}}
+▶{{emote|*il rintocco suona un tono lungo e pensieroso.*}}
 
-How something stirs, deep in Soft.
+Come qualcosa si agita, nel profondo del Morbido.
   </string>
   <string Context="Conversation Thicksalt.LostInSoft.Lost2Choice.Text" ID="Tau has departed.">
 ▶Tau se n'è andata.
@@ -15206,33 +15206,33 @@ How something stirs, deep in Soft.
 ▶Il Morbido agita Tau nella sostanza dell'essere. Sarà -allora, ma forse non come Tau.
   </string>
   <string Context="Conversation Thicksalt.KilledCompanion.Text" ID="{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}&#xA;&#xA;How we ring with it. Your kicksoft drowns under the beat of our selfcries.">
-▶{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}
+▶{{emote|*attraverso il rintocco udite una cacofonia echeggiante, attutita da distanza e materia.*}}
 
-How we ring with it. Your kicksoft drowns under the beat of our selfcries.
+Come risuoniamo con essa. Il vostro calcio-morbido annega sotto il battito dei nostri gridi-del-sé.
   </string>
   <string Context="Conversation Thicksalt.KilledCompanion.Companion2Choice.Text" ID="Tau has completed the -elseing ritual.">
 ▶Tau ha completato il rituale dell'-altrimento.
   </string>
   <string Context="Conversation Thicksalt.Companion2.Text" ID="{{emote|*the chime is hard to distinguish from the rising cacophony.*}}&#xA;&#xA;Crungled allway. Soft reaches through the bounds of everyshape and afflicts us with fireless hotbark. It resonates through Tau's cavernous absence. Arid tearsalt dries between the Lovers.">
-▶{{emote|*the chime is hard to distinguish from the rising cacophony.*}}
+▶{{emote|*il rintocco è difficile da distinguere dalla crescente cacofonia.*}}
 
-Crungled allway. Soft reaches through the bounds of everyshape and afflicts us with fireless hotbark. It resonates through Tau's cavernous absence. Arid tearsalt dries between the Lovers.
+Accartocciato ovunque. Il Morbido raggiunge attraverso i confini di ogni-forma e ci affligge con scorza-calda-senza-fuoco. Risuona attraverso l'assenza cavernosa di Tau. Lacrime-sale aride si asciugano tra gli Amanti.
   </string>
   <string Context="Conversation Thicksalt.Companion2.PostQuestionsChoice.Text" ID="I have questions.">
 ▶Ho domande.
   </string>
   <string Context="Conversation Thicksalt.ElseWelcome.Text" ID="{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}&#xA;&#xA;How we ring with it. Your kicksoft drowns under the beat of our selfcries.">
-▶{{emote|*through the chime you hear an echoing cacophony, muted by distance and matter.*}}
+▶{{emote|*attraverso il rintocco udite una cacofonia echeggiante, attutita da distanza e materia.*}}
 
-How we ring with it. Your kicksoft drowns under the beat of our selfcries.
+Come risuoniamo con essa. Il vostro calcio-morbido annega sotto il battito dei nostri gridi-del-sé.
   </string>
   <string Context="Conversation Thicksalt.ElseWelcome.Else2Choice.Text" ID="How does Tau's departure find you?">
 ▶Come ti trova la partenza di Tau?
   </string>
   <string Context="Conversation Thicksalt.Else2.Text" ID="{{emote|*the chime is hard to distinguish from the rising cacophony.*}}&#xA;&#xA;Crungled allway. Soft reaches through the bounds of everyshape and afflicts us with fireless hotbark. It resonates through Tau's cavernous absence. Touchloss blooms, each facet trembling for shearpull.">
-▶{{emote|*the chime is hard to distinguish from the rising cacophony.*}}
+▶{{emote|*il rintocco è difficile da distinguere dalla crescente cacofonia.*}}
 
-Crungled allway. Soft reaches through the bounds of everyshape and afflicts us with fireless hotbark. It resonates through Tau's cavernous absence. Touchloss blooms, each facet trembling for shearpull.
+Accartocciato ovunque. Il Morbido raggiunge attraverso i confini di ogni-forma e ci affligge con scorza-calda-senza-fuoco. Risuona attraverso l'assenza cavernosa di Tau. La perdita-del-tatto sboccia, ogni sfaccettatura tremante per trazione-di-taglio.
   </string>
   <string Context="Conversation Thicksalt.Else2.PostQuestionsChoice.Text" ID="I have questions.">
 ▶Ho domande.
@@ -15241,7 +15241,7 @@ Crungled allway. Soft reaches through the bounds of everyshape and afflicts us w
 ▶Chi batte le mie braccia di cristallo, e mi calcia-morbido sul barile? Ti sento qui, amico.
   </string>
   <string Context="Conversation Thicksalt.Welcome.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Thicksalt.Welcome.FeelChoice.Text" ID="You... feel me?">
 ▶Ti... senti?
@@ -15253,28 +15253,28 @@ Crungled allway. Soft reaches through the bounds of everyshape and afflicts us w
 ▶Devo portare il rintocco di Tau a Taproot, così può lasciare Chavvah.
   </string>
   <string Context="Conversation Thicksalt.PostQuestions.Text" ID="{{emote|*there is an agitation in Thicksalt's accepting chime.*}}&#xA;&#xA;Pluck the air, then, with your mouth sounds.">
-▶{{emote|*there is an agitation in Thicksalt's accepting chime.*}}
+▶{{emote|*c'è un'agitazione nel rintocco accettante di Thicksalt.*}}
 
-Pluck the air, then, with your mouth sounds.
+Strappate l'aria, allora, con i suoni della vostra bocca.
   </string>
   <string Context="Conversation Thicksalt.Name.Text" ID="{{emote|*Thicksalt chimes a single, outstretched tone.*}}&#xA;&#xA;The naming act is imponderable. So Tau called me Thicksalt, one brickword in a towerful poem whose everyshape I forget, but whose flushing of Soft in afterfeel I am in allway.">
-▶{{emote|*Thicksalt chimes a single, outstretched tone.*}}
+▶{{emote|*Thicksalt risuona un singolo, disteso tono.*}}
 
-The naming act is imponderable. So Tau called me Thicksalt, one brickword in a towerful poem whose everyshape I forget, but whose flushing of Soft in afterfeel I am in allway.
+L'atto del nominare è imponderabile. Così Tau mi chiamò Thicksalt, una parola-mattone in una poesia-torre di cui dimentico ogni-forma, ma il cui scorrere del Morbido nel dopo-senso sono in ogni-modo.
   </string>
   <string Context="Conversation Thicksalt.Feel.Text" ID="{{emote|*Thicksalt chimes in bright tones.*}}&#xA;&#xA;All presence is gesture, and all gesture is felt. Bat the air with your wildlimbs, press on the hardflats of my crystal arms... I feel it.&#xA;&#xA;You must feel it, too. Or are you touchlost? When Dyvvrach is touchlost, when Dyvvrach speaks the millionth word and forgets all speech is gesture, a cord flicked somewhere. Then I feel the bending rush of grass on my crystal fingers, and Dyvvrach is touchkept again.">
-▶{{emote|*Thicksalt chimes in bright tones.*}}
+▶{{emote|*Thicksalt risuona in toni brillanti.*}}
 
-All presence is gesture, and all gesture is felt. Bat the air with your wildlimbs, press on the hardflats of my crystal arms... I feel it.
+Ogni presenza è gesto, e ogni gesto è sentito. Sventolate l'aria con i vostri arti-selvatici, premete sulle piatte-dure delle mie braccia di cristallo... Lo sento.
 
-You must feel it, too. Or are you touchlost? When Dyvvrach is touchlost, when Dyvvrach speaks the millionth word and forgets all speech is gesture, a cord flicked somewhere. Then I feel the bending rush of grass on my crystal fingers, and Dyvvrach is touchkept again.
+Dovete sentirlo anche voi. O siete perduti-al-tatto? Quando Dyvvrach è perso-al-tatto, quando Dyvvrach pronuncia la milionesima parola e dimentica che ogni discorso è gesto, una corda vibra da qualche parte. Allora sento il fruscio piegante dell'erba sulle mie dita di cristallo, e Dyvvrach è tenuto-al-tatto ancora.
   </string>
   <string Context="Conversation Thicksalt.Gyredream.Text" ID="{{emote|*Thicksalt chimes in sharpened tones, then stills.*}}&#xA;&#xA;You thump my crystal arms, you kicksoft me at windfall. Our feltdream did not end. I feel you here, now.&#xA;&#xA;Before, when Soft flushed so suddenly, I felt the stones of war smash against my western roots, and the kicksoft of air unthicken into stillness. In the quiet black, I felt the so-hot burning of star exhaust and thrum of roaring vessel. Then... too much was felt. Threadcount too high for my edgesense.">
-▶{{emote|*Thicksalt chimes in sharpened tones, then stills.*}}
+▶{{emote|*Thicksalt risuona in toni affilati, poi si quieta.*}}
 
-You thump my crystal arms, you kicksoft me at windfall. Our feltdream did not end. I feel you here, now.
+Colpite le mie braccia di cristallo, mi calciaste-morbido alla fortuna del vento. Il nostro sogno-sentito non è finito. Vi sento qui, ora.
 
-Before, when Soft flushed so suddenly, I felt the stones of war smash against my western roots, and the kicksoft of air unthicken into stillness. In the quiet black, I felt the so-hot burning of star exhaust and thrum of roaring vessel. Then... too much was felt. Threadcount too high for my edgesense.
+Prima, quando il Morbido si svuotò così d'improvviso, sentii le pietre della guerra fracassarsi contro le mie radici occidentali, e il calcio-morbido dell'aria assottigliarsi nell'immobilità. Nel nero silenzioso, sentii il bruciante-caldo dei gas di scarico stellari e il ronzio di un vascello ruggente. Poi... troppo fu sentito. Numero di fili troppo alto per il mio senso-di-bordo.
   </string>
   <string Context="Conversation Thicksalt.Gyredream.Gyredream2Choice.Text" ID="*continue listening*">
 ▶*continua ad ascoltare*
@@ -15283,14 +15283,14 @@ Before, when Soft flushed so suddenly, I felt the stones of war smash against my
 ▶...
 
 
-{{emote|*Thicksalt chimes in gentle tones.*}}
+{{emote|*Thicksalt risuona in toni gentili.*}}
   </string>
   <string Context="Conversation Thicksalt.TauChime.Text" ID="{{emote|*Thicksalt chimes in soft and rhythmic tones.*}}&#xA;&#xA;I stir now, windwept.&#xA;&#xA;Safesight at your passage, =name=. Thump my crystal arms, hardlift and backbear the chime of bright Tau. The downroot will tickle, but I am blessed in allway.">
-▶{{emote|*Thicksalt chimes in soft and rhythmic tones.*}}
+▶{{emote|*Thicksalt risuona in toni morbidi e ritmici.*}}
 
-I stir now, windwept.
+Mi agito ora, spazzato dal vento.
 
-Safesight at your passage, =name=. Thump my crystal arms, hardlift and backbear the chime of bright Tau. The downroot will tickle, but I am blessed in allway.
+Visuale-sicura al vostro passaggio, =name=. Colpite le mie braccia di cristallo, alzate con forza e portate sulle spalle il rintocco della brillante Tau. La radice-inferiore farà il solletico, ma sono benedetto in ogni-modo.
   </string>
   <string Context="Conversation Tammuz.NewWelcome.Text" ID="{{emote|*Tammuz chimes a quiet tone.*}}">
 ▶{{emote|*Tammuz suona un tono quieto.*}}
@@ -15355,7 +15355,7 @@ Le-lei, qu-questo destino, è. È un b-buio profondo. Tau si p-piegherà su se s
 Tu! Folle... folle-mano guidato dallo scopo. Sei venuto qui, vero? Allora devi sapere che il potere è... il dominio dell'essere è uno di potere, non diresti? V-vorresti per favore concordare con ciò?
   </string>
   <string Context="Conversation Tammuz.Choices.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Tammuz.Choices.GyredreamChoice.Text" ID="Did you experience the gyredream?">
 ▶Hai vissuto il gyredream?
@@ -15429,12 +15429,12 @@ Br-brillante, lei. E ha cantato anche alla scintilla in T-Tammuz. Per lei, e att
 Ri-ritorna al Morbido adesso, vero? E poi camminerà libera come -altrimenti. Ve-vedi... vedila lì per me. A-addio.
   </string>
   <string Context="Conversation TauChime.Welcome.Text" ID="{{emote|*The chime is silent and still.*}}">
-▶{{emote|*The chime is silent and still.*}}
+▶{{emote|*Il rintocco è silenzioso e immobile.*}}
   </string>
   <string Context="Conversation TauNoLonger.Orphaned.Text" ID="You have severed the hand outstretched to me. Why?&#xA;&#xA;What have you done? What am I to do?">
-▶You have severed the hand outstretched to me. Why?
+▶Avete reciso la mano tesa verso di me. Perché?
 
-What have you done? What am I to do?
+Cosa avete fatto? Cosa devo fare?
   </string>
   <string Context="Conversation TauNoLonger.Orphaned.SubornedChoice.Text" ID="Your will would have been suborned to Ptoh.">
 ▶La tua volontà sarebbe stata subordinata a Ptoh.
@@ -15449,11 +15449,11 @@ What have you done? What am I to do?
 ▶Sarai più felice così.
   </string>
   <string Context="Conversation TauNoLonger.Welcome.Text" ID="{{emote|*Tau's crystal body yet rings softly from her separation from Taproot.*}}&#xA;&#xA;Again I perceive.&#xA;&#xA;Thank you, rootclimber. Chavvah's rewards are great and you are deserving of them.">
-▶{{emote|*Tau's crystal body yet rings softly from her separation from Taproot.*}}
+▶{{emote|*Il corpo cristallino di Tau ancora risuona dolcemente per la sua separazione da Taproot.*}}
 
-Again I perceive.
+Percepisco di nuovo.
 
-Thank you, rootclimber. Chavvah's rewards are great and you are deserving of them.
+Grazie, scalatore-radici. Le ricompense di Chavvah sono grandi e voi le meritate.
   </string>
   <string Context="Conversation TauNoLonger.Welcome.HowChoice.Text" ID="How are you feeling?">
 ▶Come ti senti?
@@ -15465,43 +15465,43 @@ Thank you, rootclimber. Chavvah's rewards are great and you are deserving of the
 ▶Subordineresti la tua volontà a Ptoh?
   </string>
   <string Context="Conversation TauNoLonger.Suborned.Text" ID="{{M|You}} suborn my will! You allow me to start upon this path and block it. Yes?&#xA;&#xA;Now I am truly adrift.">
-▶{{M|You}} suborn my will! You allow me to start upon this path and block it. Yes?
+▶{{M|Voi}} subordinate la mia volontà! Mi permettete di iniziare su questo cammino e poi lo bloccate. Sì?
 
-Now I am truly adrift.
+Ora sono davvero alla deriva.
   </string>
   <string Context="Conversation TauNoLonger.Uncaring.Text" ID="Ah.&#xA;&#xA;Well. You have my thanks for your help in -elseing, but by blocking my path you create fresh problems. Yes?&#xA;&#xA;I do not wish to know you.&#xA;&#xA;Live and drink.">
 ▶Ah.
 
-Well. You have my thanks for your help in -elseing, but by blocking my path you create fresh problems. Yes?
+Beh. Avete il mio grazie per il vostro aiuto nell'-altrimento, ma bloccando il mio cammino create nuovi problemi. Sì?
 
-I do not wish to know you.
+Non desidero conoscervi.
 
-Live and drink.
+Vivi e bevi.
   </string>
   <string Context="Conversation TauNoLonger.Sorry.Text" ID="I resent what has befallen me, but I am yet embodied. You have still helped me live, yes?&#xA;&#xA;I forgive you, but I don't wish to know you. Live and drink.">
-▶I resent what has befallen me, but I am yet embodied. You have still helped me live, yes?
+▶Provo risentimento per ciò che mi è capitato, ma sono ancora incarnata. Mi avete comunque aiutato a vivere, sì?
 
-I forgive you, but I don't wish to know you. Live and drink.
+Vi perdono, ma non desidero conoscervi. Vivi e bevi.
   </string>
   <string Context="Conversation TauNoLonger.Happier.Text" ID="Perhaps. My future is hazy. My future twists in the chill wind of the Gyre. I can have no faith in your vision. You understand this, yes?&#xA;&#xA;I do not wish to know you.&#xA;&#xA;Live and drink.">
-▶Perhaps. My future is hazy. My future twists in the chill wind of the Gyre. I can have no faith in your vision. You understand this, yes?
+▶Forse. Il mio futuro è nebuloso. Il mio futuro si torce nel vento gelido del Gorgo. Non posso avere fiducia nella vostra visione. Capite questo, sì?
 
-I do not wish to know you.
+Non desidero conoscervi.
 
-Live and drink.
+Vivi e bevi.
   </string>
   <string Context="Conversation TauNoLonger.How.Text" ID="Present. Alone, afraid, but anticipating my return to the embrace of a collective.">
 ▶Presente. Sola, impaurita, ma in attesa del mio ritorno all'abbraccio di un collettivo.
   </string>
   <string Context="Conversation TauNoLonger.Liaison.Text" ID="More than someone. My liaison is the extended, outstretched hands of a greater mind-haven than I have otherwise known. I might not have had the courage to -else without knowing that a collective awaited me.&#xA;&#xA;My future is hazy, my future is bright.">
-▶More than someone. My liaison is the extended, outstretched hands of a greater mind-haven than I have otherwise known. I might not have had the courage to -else without knowing that a collective awaited me.
+▶Più che qualcuno. Il mio collegamento sono le mani estese, tese, di un rifugio-mentale più grande di quanto abbia mai conosciuto altrimenti. Potrei non aver avuto il coraggio di -altrirmi senza sapere che un collettivo mi attendeva.
 
-My future is hazy, my future is bright.
+Il mio futuro è nebuloso, il mio futuro è luminoso.
   </string>
   <string Context="Conversation TauNoLonger.Ptoh.Text" ID="Speaking creatures seem very engrossed in this 'will' idea, but few agree what it is. Your mind is under influence from other thinkbeings the moment you observe them, yes? You 'learn' by imitating, your values and beliefs are adopted from observation. Yes?&#xA;&#xA;I have made a choice to offer my consciousness to a new paradigm, but this choice seems distinct from your conception of 'will'. We speak past one another.">
-▶Speaking creatures seem very engrossed in this 'will' idea, but few agree what it is. Your mind is under influence from other thinkbeings the moment you observe them, yes? You 'learn' by imitating, your values and beliefs are adopted from observation. Yes?
+▶Le creature parlanti sembrano molto assorbite in quest'idea di 'volontà', ma poche concordano su cosa sia. La vostra mente è sotto l'influenza di altri esseri-pensanti nel momento in cui li osservate, sì? 'Imparate' imitando, i vostri valori e credenze sono adottati dall'osservazione. Sì?
 
-I have made a choice to offer my consciousness to a new paradigm, but this choice seems distinct from your conception of 'will'. We speak past one another.
+Ho fatto una scelta di offrire la mia coscienza a un nuovo paradigma, ma questa scelta sembra distinta dalla vostra concezione di 'volontà'. Parliamo l'uno accanto all'altro.
   </string>
   <string Context="Conversation TauNoLonger.Ptoh.HuntChoice.Text" ID="The Seekers of the Sightless Way hunt espers.">
 ▶I Cercatori della Via Senza Vista danno la caccia agli esper.
@@ -15519,41 +15519,41 @@ I have made a choice to offer my consciousness to a new paradigm, but this choic
 ▶Ti lascio al tuo destino, allora.
   </string>
   <string Context="Conversation TauNoLonger.Hunt.Text" ID="Oh, yes? I see. Well.&#xA;&#xA;Do you... not hunt? Or align with hunters? You reek of predation yourself. You kill, yes?&#xA;&#xA;I recall no promise to become a grazing hedonist. If I am called to hunt I will hunt.">
-▶Oh, yes? I see. Well.
+▶Oh, sì? Capisco. Beh.
 
-Do you... not hunt? Or align with hunters? You reek of predation yourself. You kill, yes?
+Voi... non cacciate? O vi allineate con i cacciatori? Puzzate di predazione voi stessi. Uccidete, sì?
 
-I recall no promise to become a grazing hedonist. If I am called to hunt I will hunt.
+Non ricordo alcuna promessa di diventare un edonista al pascolo. Se sono chiamata a cacciare, caccerò.
   </string>
   <string Context="Conversation TauNoLonger.Favor.Text" ID="I wish the same for you, =name=. Live and drink.">
 ▶Auguro lo stesso a te, =name=. Vivi e bevi.
   </string>
   <string Context="Conversation TauNoLonger.FavorGift.Text" ID="I wish the same for you, =name=.&#xA;&#xA;Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#xA;&#xA;Then live and drink.">
-▶I wish the same for you, =name=.
+▶Auguro lo stesso a voi, =name=.
 
-Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.
+Prima di andare, prendete questo, un pezzo della mia sostanza-corporea, come grazie per aver completato l'-altrimento.
 
-Then live and drink.
+Poi vivete e bevete.
   </string>
   <string Context="Conversation TauNoLonger.Leave.Text" ID="As I you to yours, =name=. Live and drink.">
 ▶Anch'io a te al tuo, =name=. Vivi e bevi.
   </string>
   <string Context="Conversation TauNoLonger.LeaveGift.Text" ID="As I you to yours, =name=. &#xA;&#xA;But before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#xA;&#xA;Then live and drink.">
-▶As I you to yours, =name=. 
+▶Come anch'io a voi con il vostro, =name=. 
 
-But before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.
+Ma prima di andare, prendete questo, un pezzo della mia sostanza-corporea, come grazie per aver completato l'-altrimento.
 
-Then live and drink.
+Poi vivete e bevete.
   </string>
   <string Context="Conversation TauNoLonger.EndGift.Text" ID="Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.&#xA;&#xA;Then live and drink, =name=.">
-▶Before you go, take this, a piece of my bodystuff, as thanks for completing the -elseing.
+▶Prima di andare, prendete questo, un pezzo della mia sostanza-corporea, come grazie per aver completato l'-altrimento.
 
-Then live and drink, =name=.
+Poi vivete e bevete, =name=.
   </string>
   <string Context="Conversation WanderingTau.Orphaned.Text" ID="The echoes of ending reverberate from the roots I once called mine.&#xA;&#xA;My liaison is severed. Why?">
-▶The echoes of ending reverberate from the roots I once called mine.
+▶Gli echi del fine riverberano dalle radici che un tempo chiamavo mie.
 
-My liaison is severed. Why?
+Il mio collegamento è reciso. Perché?
   </string>
   <string Context="Conversation WanderingTau.Orphaned.HowChoice.Text" ID="How are you feeling?">
 ▶Come ti senti?
@@ -15580,26 +15580,26 @@ My liaison is severed. Why?
 ▶Dovrei diffidare di voi, vero? Mi avete aiutato nel mio -altrimento, ma trovo il mio cammino scelto bloccato.
   </string>
   <string Context="Conversation WanderingTau.Suborned.Text" ID="It is not Ptoh that has suborned my will in this case.&#xA;&#xA;I had chosen a path.">
-▶It is not Ptoh that has suborned my will in this case.
+▶Non è Ptoh ad aver subordinato la mia volontà in questo caso.
 
-I had chosen a path.
+Avevo scelto un cammino.
   </string>
   <string Context="Conversation WanderingTau.Free.Text" ID="And yet, I find my choices undermined, yes? You have my thanks for your help in -elseing, but do not convince yourself that you have 'freed' me from my own choices.&#xA;&#xA;Live and drink.">
-▶And yet, I find my choices undermined, yes? You have my thanks for your help in -elseing, but do not convince yourself that you have 'freed' me from my own choices.
+▶Eppure, trovo le mie scelte minate, sì? Avete il mio grazie per il vostro aiuto nell'-altrimento, ma non convincetevi di avermi 'liberato' dalle mie stesse scelte.
 
-Live and drink.
+Vivi e bevi.
   </string>
   <string Context="Conversation WanderingTau.Sorry.Text" ID="I resent what has befallen me, but I am yet embodied. You have still helped me live.&#xA;&#xA;My future is free. My future is murky, and I am freshly tender from the burn of your hand. I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.">
-▶I resent what has befallen me, but I am yet embodied. You have still helped me live.
+▶Provo risentimento per ciò che mi è capitato, ma sono ancora incarnata. Mi avete comunque aiutato a vivere.
 
-My future is free. My future is murky, and I am freshly tender from the burn of your hand. I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.
+Il mio futuro è libero. Il mio futuro è torbido, e sono di fresco tenera per il bruciore della vostra mano. Sento che preferirei non incontrarvi per un po'. Vivi e bevi, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation WanderingTau.Happier.Text" ID="Will I?&#xA;&#xA;Your prediction warms little against the chill wind of the Gyre. My future is free. My future is murky. I am freshly tender from the burn of your hand.&#xA;&#xA;I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.">
-▶Will I?
+▶Lo sarò?
 
-Your prediction warms little against the chill wind of the Gyre. My future is free. My future is murky. I am freshly tender from the burn of your hand.
+La vostra predizione scalda poco contro il vento gelido del Gorgo. Il mio futuro è libero. Il mio futuro è torbido. Sono di fresco tenera per il bruciore della vostra mano.
 
-I feel I had rather not encounter you for a time. Live and drink, =player.formalAddressTerm=.
+Sento che preferirei non incontrarvi per un po'. Vivi e bevi, =player.formalAddressTerm=.
   </string>
   <string Context="Conversation WanderingTau.EndGift.Text" ID="Before you go, rootclimber. I've shed a piece of me in the -elseing. Take it. I have no use for it now.">
 ▶Prima di andare, scalatore-radici. Ho perduto un pezzo di me nell'-altrimento. Prendilo. Non ne ho più uso adesso.
@@ -15611,9 +15611,9 @@ I feel I had rather not encounter you for a time. Live and drink, =player.formal
 ▶Via da me, oscura-stelle. La tua stessa mano ha vaporizzato il tuo scopo.
   </string>
   <string Context="Conversation TauCompanion.Welcome2.Text" ID="You thrived at the performance of a pruning motion, utensil. Now store yourself until Fate reshapes you.&#xA;&#xA;The end.">
-▶You thrived at the performance of a pruning motion, utensil. Now store yourself until Fate reshapes you.
+▶Avete prosperato nell'eseguire un gesto di potatura, utensile. Ora riponete voi stesso finché il Destino non vi riplasmi.
 
-The end.
+La fine.
   </string>
   <string Context="Conversation TauCompanion.WelcomeHub.Text" ID="The utensil arrives. You, to prune the fate-rhizome and free our girl. Go now and perform the motion.">
 ▶L'utensile arriva. Voi, a potare il rizoma del destino e liberare la nostra fanciulla. Andate ora e compite il gesto.
@@ -15634,9 +15634,9 @@ The end.
 ▶Utensile? È la mia vocazione, sì. Un milione di case morte-di-sole ho percorso, un trilione ancora mi attende. Sono un verme nell'humus di un bosco cosmico, appollaiato su un abisso cosmico, avvolto nel manifold-divino.
   </string>
   <string Context="Conversation TauCompanion.Taking.Text" ID="Prune! The utensil prunes! -but no, the utensil quivers in uncertainty and vibrates out a question?&#xA;&#xA;The self is riddled with category errors. The thinking brain mistakes formation for meaning.">
-▶Prune! The utensil prunes! -but no, the utensil quivers in uncertainty and vibrates out a question?
+▶Potate! L'utensile pota! -ma no, l'utensile trema nell'incertezza e vibra in una domanda?
 
-The self is riddled with category errors. The thinking brain mistakes formation for meaning.
+Il sé è costellato di errori di categoria. Il cervello pensante scambia la formazione per il significato.
   </string>
   <string Context="Conversation TauCompanion.Taking.UnderstandChoice.Text" ID="Tell me. I wish to understand.">
 ▶Ditemi. Voglio capire.
@@ -15651,20 +15651,20 @@ The self is riddled with category errors. The thinking brain mistakes formation 
 ▶Indugiaste sull'orizzonte del futuro con abbandono, utensile. Lanciate il vostro mattone se osate.
   </string>
   <string Context="Conversation TauSoft.Welcome.Text" ID="{{emote|*The chime is silent and still.*}}">
-▶{{emote|*The chime is silent and still.*}}
+▶{{emote|*Il rintocco è silenzioso e immobile.*}}
   </string>
   <string Context="Conversation TauSoft.Welcome.EndChoice.Text" ID="[touch Tau's chime to softthing]">
 ▶[tocca il rintocco di Tau verso il Morbido]
   </string>
   <string Context="Conversation Santalalotze.Welcome.Text" ID="Oh wow, an animal.&#xA;&#xA;Congratulations for... not dying.&#xA;&#xA;... wanna buy something?">
-▶Oh wow, an animal.
+▶Oh wow, un animale.
 
-Congratulations for... not dying.
+Complimenti per... non essere morto.
 
-... wanna buy something?
+... volete comprare qualcosa?
   </string>
   <string Context="Conversation Santalalotze.Welcome.NameChoice.Text" ID="I am =name=. Who are you?">
-▶Sono =name=. Who are you?
+▶Sono =name=. Chi siete?
   </string>
   <string Context="Conversation Santalalotze.Welcome.TreeChoice.Text" ID="Are you part of this tree?">
 ▶Fate parte di questo albero?
@@ -15673,21 +15673,21 @@ Congratulations for... not dying.
 ▶Perché vendete merci in un posto così remoto e pericoloso?
   </string>
   <string Context="Conversation Santalalotze.Welcome.AnimalChoice.Text" ID="Don't call me &quot;an animal.&quot;">
-▶Don't call me "an animal."
+▶Non chiamatemi "un animale."
   </string>
   <string Context="Conversation Santalalotze.Name.Text" ID="I am Santalalotze.&#xA;&#xA;... of ... the Consortium of Phyta. Some call me 'Sant', I think, in&#xA;fantasy or memory.">
-▶I am Santalalotze.
+▶Sono Santalalotze.
 
-... of ... the Consortium of Phyta. Some call me 'Sant', I think, in
-fantasy or memory.
+... del ... Consorzio di Phyta. Alcuni mi chiamano 'Sant', credo, nella
+fantasia o nel ricordo.
   </string>
   <string Context="Conversation Santalalotze.Name.MemoryChoice.Text" ID="You don't remember?">
 ▶Non ricordate?
   </string>
   <string Context="Conversation Santalalotze.Tree.Text" ID="No. Well... no, no. I don't think so.&#xA;&#xA;We're just... sharing nutrients.">
-▶No. Well... no, no. I don't think so.
+▶No. Beh... no, no. Non credo.
 
-We're just... sharing nutrients.
+Stiamo solo... condividendo nutrimento.
   </string>
   <string Context="Conversation Santalalotze.Tree.ParasiteChoice.Text" ID="So you're a parasite?">
 ▶Quindi siete un parassita?
@@ -15702,14 +15702,14 @@ We're just... sharing nutrients.
 ▶Capisco. Vivi e bevi.
   </string>
   <string Context="Conversation Santalalotze.Questions.Text" ID="Would you? Yes.&#xA;&#xA;What may... can I help with?">
-▶Would you? Yes.
+▶Davvero? Sì.
 
-What may... can I help with?
+Cosa posso... posso aiutare con?
   </string>
   <string Context="Conversation Santalalotze.Parasite.Text" ID="'Parasite' so negative. It's like... ah... economic symbiosis?&#xA;&#xA;Chavvah sustains me, and we are, I am not... them. We are in a... beneficial arrangement, you know. Yes?">
-▶'Parasite' so negative. It's like... ah... economic symbiosis?
+▶'Parassita' così negativo. È come... ah... simbiosi economica?
 
-Chavvah sustains me, and we are, I am not... them. We are in a... beneficial arrangement, you know. Yes?
+Chavvah mi sostiene, e noi siamo, io non sono... loro. Siamo in un... accordo vantaggioso, sapete. Sì?
   </string>
   <string Context="Conversation Santalalotze.Parasite.UncertainChoice.Text" ID="You don't seem sure about any of this.">
 ▶Non sembrate sicuro di nulla di questo.
@@ -15721,22 +15721,22 @@ Chavvah sustains me, and we are, I am not... them. We are in a... beneficial arr
 ▶Giusto. Vivi e bevi.
   </string>
   <string Context="Conversation Santalalotze.Dangerous.Text" ID="It is safe here.&#xA;&#xA;Business is slow, but I've... gotten attached, ahaha.">
-▶It is safe here.
+▶È sicuro qui.
 
-Business is slow, but I've... gotten attached, ahaha.
+Gli affari vanno lentamente, ma mi sono... affezionato, ahaha.
   </string>
   <string Context="Conversation Santalalotze.Animal.Text" ID="Buy something, and I will call you 'customer'.&#xA;&#xA;If I remember to.">
-▶Buy something, and I will call you 'customer'.
+▶Comprate qualcosa, e vi chiamerò 'cliente'.
 
-If I remember to.
+Se me ne ricorderò.
   </string>
   <string Context="Conversation Santalalotze.Animal.MemoryChoice.Text" ID="Are you having some memory trouble?">
 ▶Avete qualche problema di memoria?
   </string>
   <string Context="Conversation Santalalotze.Memory.Text" ID="It's fine. I... forget nothing important.&#xA;&#xA;Or, I don't remember. So no sense worrying. Right?">
-▶It's fine. I... forget nothing important.
+▶Va bene. Io... non dimentico niente di importante.
 
-Or, I don't remember. So no sense worrying. Right?
+O, non me lo ricordo. Quindi non ha senso preoccuparsi. Giusto?
   </string>
   <string Context="Conversation Santalalotze.Memory.ParasiteChoice.Text" ID="Perhaps being Chavvah's parasite is affecting your mind.">
 ▶Forse essere il parassita di Chavvah sta influenzando la vostra mente.
@@ -15748,13 +15748,13 @@ Or, I don't remember. So no sense worrying. Right?
 ▶Giusto.
   </string>
   <string Context="Conversation Santalalotze.Uncertain.Text" ID="Well. Nothing... is like Chavvah. Nothing at all.&#xA;&#xA;I once thought ... my haustorium carried only lifestuff. Now I am unsure. Am I of Twofirm, now?&#xA;&#xA;It's fine.&#xA;&#xA;Let's... change subjects.">
-▶Well. Nothing... is like Chavvah. Nothing at all.
+▶Beh. Niente... è come Chavvah. Proprio niente.
 
-I once thought ... my haustorium carried only lifestuff. Now I am unsure. Am I of Twofirm, now?
+Una volta pensavo ... che il mio haustorio portasse solo sostanza-di-vita. Ora non sono sicuro. Sono del Doppiosodo, adesso?
 
-It's fine.
+Va bene.
 
-Let's... change subjects.
+Cambiamo... argomento.
   </string>
   <string Context="Conversation Nephilim.WaterRitual.NephilimPacifyChoice.Text" ID="Will you resign your charge and swear to unvex the beings of this world?">
 ▶Rassegnerete il vostro incarico e giurerete di smettere di tormentare gli esseri di questo mondo?
