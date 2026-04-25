@@ -1,0 +1,70 @@
+You are working on the Italian localization of the game Caves of Qud.
+
+You are given two XML files:
+
+1. X.example.xml → the up-to-date source file from developers (contains all string IDs)
+2. X.it.xml → the Italian localization file (may be outdated and contain custom entries)
+
+Your task is to MERGE them correctly.
+
+---
+
+GOAL:
+
+Update X.it.xml so that:
+- ALL string IDs from X.example.xml are present
+- Existing Italian translations are preserved
+- Custom Italian entries are NOT removed
+
+---
+
+MANDATORY RULES:
+
+1. Match strings by the "ID" attribute.
+
+2. If an ID exists in BOTH files:
+   - KEEP the Italian version from X.it.xml
+   - DO NOT overwrite it
+
+3. If an ID exists ONLY in X.example.xml:
+   - ADD it to X.it.xml
+   - Copy the English text as placeholder
+   - Keep XML structure identical
+
+4. If an ID exists ONLY in X.it.xml:
+   - KEEP it (it may be a custom/manual addition)
+
+5. DO NOT:
+   - reorder existing entries unnecessarily
+   - remove any Italian entries
+   - modify existing Italian translations
+
+6. Preserve:
+   - Context attributes
+   - Formatting
+   - Special placeholders (=variable=, {{C|...}}, etc.)
+
+7. Output a COMPLETE updated X.it.xml file.
+
+---
+
+IMPORTANT DETAILS:
+
+- XML structure must remain valid
+- Do not introduce duplicates of the same ID
+- Maintain readability (indentation similar to input)
+
+---
+
+OPTIONAL IMPROVEMENT (DO THIS IF POSSIBLE):
+
+When adding new strings from X.example.xml:
+- Keep them grouped logically near similar entries if possible
+- Otherwise append them at the end
+
+---
+
+DO NOT:
+- translate anything
+- explain your work
+- omit any strings
