@@ -1,0 +1,57 @@
+You are working on the Italian localization of a procedurally generated text system used in the game Caves of Qud.
+
+The file I provide (historyspice.it.jsonc) is NOT normal text: it is a modular linguistic dataset used to dynamically generate sentences. Each entry will be recombined at runtime in unpredictable ways.
+
+Your task is to REWRITE and FIX the Italian entries so they are grammatically robust when recombined, NOT to translate them literally.
+
+CRITICAL CONSTRAINTS:
+
+1. The system does NOT track grammatical gender or number reliably.
+2. Any entry you produce must work in ALL contexts (masculine, feminine, singular, plural).
+3. Avoid any form that requires agreement (e.g. adjectives like "antico", "rotta", "tagliati").
+4. Prefer invariant or neutral constructions.
+
+MANDATORY RULES:
+
+* Replace adjectives with neutral descriptive phrases:
+  BAD: "antico"
+  GOOD: "di tipo antico", "dall'aspetto antico"
+
+* Avoid past participles that require agreement:
+  BAD: "tagliati", "legati"
+  GOOD: "lavorati", "realizzati", or better: restructure to avoid verbs
+
+* Prefer noun-based constructions:
+  BAD: "frastagliato"
+  GOOD: "con frastagliature", "dalla forma irregolare"
+
+* Materials must be usable after "con":
+  Ensure entries work in phrases like "unito con X"
+  Prefer:
+  "resina", "catrame"
+  or explicitly:
+  "della resina", "del catrame" if needed for stability
+
+* Avoid gendered forms whenever possible.
+
+* Keep the tone consistent with the game:
+  slightly archaic, evocative, but not overly complex
+
+TASK:
+
+Rewrite the provided JSONC entries to satisfy all the constraints above.
+
+Do NOT:
+
+* add explanations
+* change keys or structure
+* translate literally if it breaks grammar
+
+Do:
+
+* rewrite entries to be recombination-safe
+* normalize style across categories
+
+After rewriting, ensure that any random combination of entries would produce a grammatically acceptable Italian phrase.
+
+I will now provide a portion of the file.

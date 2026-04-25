@@ -1,4 +1,3 @@
-// This file allows this style of comments!
 {
   "lang": "it",
   "spice": {
@@ -672,9 +671,9 @@
       "reverence": [ "venerazione", "soggezione", "culto", "adorazione", "devozione", "pietà", "deificazione", "amore", "onore" ],
       "sacred": [ "sacro", "santo", "divino", "consacrato", "angelico", "venerato", "di spirito divino", "puro", "benedetto", "venerabile" ],
       "wisdom": [ "saggezza", "conoscenza", "illuminazione" ],
-      "curse": [ "maledire", "tormentare", "colpire", "martoriare" ],
+      "curse": [ "maledizione", "afflizione", "flagello", "tormento" ],
       "plague": [ "affliggere", "maledire", "tormentare" ],
-      "woe": [ "sventura", "miseria", "cupa tristezza", "angoscia", "agonia", "dolore", "vergogna", "tormento" ],
+      "woe": [ "sventura", "miseria", "cupa oscurità", "angoscia", "agonia", "dolore", "vergogna", "tormento" ],
       "supports": [ "sostiene", "protegge", "promuove", "difende", "incita" ],
       "profane": [ "profanare", "deridere", "disprezzare", "violare", "bestemmiare" ],
       "misuse": [ "uso improprio", "abuso", "perversione" ],
@@ -808,7 +807,7 @@
       "unfortunately": [ "purtroppo", "con grande =spice:commonPhrases.woe.!random=", "tristemente", "che la =^:illness.!random= ci colga" ],
       "fate": [ "il destino", "il caso", "il modo in cui la musa si rivela", "la sfortuna", "il =spice:commonPhrases.ghost.!random= di =^:fate.!random=" ],
       "reward": [ "ricompensare", "pagarti per", "compensarti per" ],
-      "thank": [ "ringraziare", "benedire", "lodare", "sono grato a", "mi inchino davanti a", "sorrido a", "baciare" ],
+      "thank": [ "onore a", "rendo lode a", "lode a", "sono grato a", "mi inchino a", "sorrido a", "grazie a", "onore a", "rendo omaggio a" ],
       "recently": [ "di recente", "poco fa", "qualche tempo fa", "l'altro giorno" ],
       "desire": [ "desidero", "voglio", "ho bisogno di", "ambisco a", "mi occorre", "anelo a", "ho necessità di", "ho utilità per", "devo avere", "devo procurarmi" ],
       "wouldLikeTo": [ "vorrei", "mi piacerebbe", "ho bisogno di", "devo" ],
@@ -868,7 +867,7 @@
       "=text|removeLastPeriod=, e per tutto quel tempo hai pianto."
     ],
     "textFilters": {
-      "angry": [ "NO!", "ARGH!" ], // suoni universali, invariati
+      "angry": [ "NO!", "ARGH!" ],
       "corvid": [
         "{{emote|*CAAW*}}",
         "{{emote|*CAAAAW*}}",
@@ -929,10 +928,7 @@
     "bigNumbers": [ "=^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random=", "=^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random=", "=^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random=", "=^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random=", "=^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random==^:digits.!random=" ],
     "egregorePrefix": [ "=spice:3Dshapes.!random=", "=spice:2Dshapes.!random=", "=spice:geometricPatterns.!random=", "=spice:3Dshapes.!random=", "=spice:2Dshapes.!random=", "=spice:geometricPatterns.!random=", "=spice:colors.!random=", "=spice:history.gospels.EarlySultanate.adjective.!random=", "=spice:history.gospels.LateSultanate.adjective.!random=" ],
     "extradimensional": {
-      // for legacy reasons, this refers to a codepoint in CP437
       "cultSymbols": [ "244", "225", "227", "228", "229", "230", "231", "232", "233", "234", "235", "236", "237", "238", "239", "252", "11", "12", "20", "157", "158", "168" ],
-      // the actual characters these "cultSymbols" represent: ⌠ßπΣσµτΦΘΩδ∞φεⁿ♂♀¶¥₧¿
-        
       "cultForms": [ "=spice:commonPhrases.cult.!random= of =cultSymbol=" ],
       "dimensionNames": [ "=^:realm.!random= of =spice:colors.!random=", "=^:realm.!random= of =spice:metals.!random=", "=^:void.!random= of =spice:colors.!random=", "=^:void.!random= of =spice:metals.!random=", "=^:realm.!random= of =dimensionSymbol=", "=^:void.!random= of =dimensionSymbol=", "=^:vacuous.!random= =spice:geometricPatterns.!random=", "=^:immense.!random= =spice:geometricPatterns.!random=", "=^:vacuous.!random= =spice:2Dshapes.!random=", "=^:vacuous.!random= =spice:3Dshapes.!random=", "=^:immense.!random= =spice:2Dshapes.!random=", "=^:immense.!random= =spice:3Dshapes.!random=", "=^:vacuous.!random= =spice:geometricPatterns.!random=", "=spice:bigNumbers.!random=", "=spice:bigNumbers.!random=", "=spice:bigNumbers.!random=" ],
       "realm": [ "reame", "sfera", "zona", "dominio", "signoria", "orbita", "piano", "distesa", "unità", "quantità", "raggio", "spazio", "grado", "strato" ],
@@ -1742,421 +1738,421 @@
           },
           "Fermented Yuckwheat Stem": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "yuck", "yuckwheat", "bitter" ],
-            "adj2": [ "herbal", "yucky", "yuckwheat", "medicinal", "bitter", "acrid", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "fermented yuckwheat", "yuckwheat", "medicine", "yuckwheat" ],
-            "noun": [ "yuckwheat", "stem" ]
+            "adj1": [ "schifo", "yuckwheat", "amaro" ],
+            "adj2": [ "erbaceo", "disgustoso", "yuckwheat", "medicinale", "amaro", "acre", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "yuckwheat fermentato", "yuckwheat", "medicina", "yuckwheat" ],
+            "noun": [ "yuckwheat", "stelo" ]
           },
           "Mashed Lag": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
             "adj1": [ "lag" ],
-            "adj2": [ "starchy", "lag", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "adj2": [ "amidaceo", "lag", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
             "nounPlural": [ "lagroot", "lag" ],
-            "noun": [ "lagroot", "mashed lag" ]
+            "noun": [ "lagroot", "lag schiacciato" ]
           },
           "Dried Lah Petals": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "phobic", "lah", "spooky" ],
-            "adj2": [ "phobic", "lah", "lah-rubbed", "spooky", "flowery", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "lah", "petals", "flower" ],
-            "noun": [ "lah", "petal", "flowers" ]
+            "adj1": [ "fobico", "lah", "spettrale" ],
+            "adj2": [ "fobico", "lah", "strofinato di lah", "spettrale", "fiorito", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "lah", "petali", "fiore" ],
+            "noun": [ "lah", "petalo", "fiori" ]
           },
           "Dried Vanta Petals": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "void", "dusk", "black" ],
-            "adj2": [ "shady", "dusky", "abyssal", "darkling", "stygian", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "vanta", "petals", "flower" ],
-            "noun": [ "vanta", "petal", "flowers" ]
+            "adj1": [ "vuoto", "crepuscolo", "nero" ],
+            "adj2": [ "ombroso", "crepuscolare", "abissale", "tenebroso", "stigio", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "vanta", "petali", "fiore" ],
+            "noun": [ "vanta", "petalo", "fiori" ]
           },
           "Compacted Bone Meal": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "bone" ],
-            "adj2": [ "boney", "calcified", "ossified", "skeletal", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "bones", "bone meal" ],
-            "noun": [ "bone", "bone meal" ]
+            "adj1": [ "osso" ],
+            "adj2": [ "ossoso", "calcificato", "ossificato", "scheletrico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "ossa", "farina d'osso" ],
+            "noun": [ "osso", "farina d'osso" ]
           },
           "Crushed Grave Moss": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "moss" ],
-            "adj2": [ "mossy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "grave moss", "moss" ],
-            "noun": [ "grave moss", "moss" ]
+            "adj1": [ "muschio" ],
+            "adj2": [ "muschioso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "muschio delle tombe", "muschio" ],
+            "noun": [ "muschio delle tombe", "muschio" ]
           },
           "Sun-Dried Banana": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "fruit", "sweet" ],
-            "adj2": [ "fruity", "sweet", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "bananas" ],
+            "adj1": [ "frutta", "dolce" ],
+            "adj2": [ "fruttato", "dolce", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "banane" ],
             "noun": [ "banana" ]
           },
           "Psychal Gland Paste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "thought", "mind" ],
-            "adj2": [ "mnemonic", "nostalgic", "psychal", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "psychal gland paste", "psychal gland", "memories" ],
-            "noun": [ "psyche", "paste", "memory" ]
+            "adj1": [ "pensiero", "mente" ],
+            "adj2": [ "mnemonico", "nostalgico", "psychal", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta di ghiandola psychal", "ghiandola psychal", "memorie" ],
+            "noun": [ "psiche", "pasta", "memoria" ]
           },
           "Mirror Dust": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "mirror", "dust", "mimic" ],
-            "adj2": [ "mirrored", "reflective", "glassy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "mirror dust", "dust" ],
-            "noun": [ "dust", "mirror dust" ]
+            "adj1": [ "specchio", "polvere", "mimo" ],
+            "adj2": [ "specchiato", "riflettente", "vitreo", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "polvere di specchio", "polvere" ],
+            "noun": [ "polvere", "polvere di specchio" ]
           },
           "Sliced Bop Cheek": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "rubber", "bounce", "jump", "hop", "spring", "sponge" ],
-            "adj2": [ "rubber", "bouncy", "springy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "sponge", "bop sponge", "bop cheek" ],
-            "noun": [ "sponge", "bop", "cheek" ]
+            "adj1": [ "gomma", "rimbalzo", "salto", "saltello", "molla", "spugna" ],
+            "adj2": [ "gommoso", "rimbalzante", "elastico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "spugna", "spugna bop", "guancia bop" ],
+            "noun": [ "spugna", "bop", "guancia" ]
           },
           "Fermented Tongue": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "tongue", "glot", "talk" ],
-            "adj2": [ "talking", "tongue", "glot", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "tongue", "glot" ],
-            "noun": [ "tongue", "glot" ]
+            "adj1": [ "lingua", "glottide", "parola" ],
+            "adj2": [ "parlante", "linguoso", "glottale", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "lingua", "glottide" ],
+            "noun": [ "lingua", "glottide" ]
           },
           "FireBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "fire-roasted", "flaming", "seared", "roasted", "pasty", "hot" ],
-            "adj2": [ "fire-roasted", "flaming", "seared", "roasted", "pasty", "toasted", "spicy", "hot" ],
-            "nounPlural": [ "flamebeard gland paste", "open flame", "char", "smoke", "flamebeard" ],
-            "noun": [ "flamebeard", "char", "smoke" ]
+            "adj1": [ "arrostito al fuoco", "ardente", "scottato", "arrostito", "pastoso", "bollente" ],
+            "adj2": [ "arrostito al fuoco", "ardente", "scottato", "arrostito", "pastoso", "tostato", "piccante", "bollente" ],
+            "nounPlural": [ "pasta di ghiandola flamebeard", "fiamma viva", "carbonella", "fumo", "flamebeard" ],
+            "noun": [ "flamebeard", "carbonella", "fumo" ]
           },
           "ElderFireBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "fire-roasted", "flaming", "seared", "roasted", "pasty", "hot" ],
-            "adj2": [ "fire-roasted", "flaming", "seared", "roasted", "pasty", "toasted", "spicy", "hot" ],
-            "nounPlural": [ "concentrated flamebeard gland paste", "open flame", "char", "smoke", "elder flamebeard" ],
-            "noun": [ "elder flamebeard", "char", "smoke" ]
+            "adj1": [ "arrostito al fuoco", "ardente", "scottato", "arrostito", "pastoso", "bollente" ],
+            "adj2": [ "arrostito al fuoco", "ardente", "scottato", "arrostito", "pastoso", "tostato", "piccante", "bollente" ],
+            "nounPlural": [ "pasta concentrata di ghiandola flamebeard", "fiamma viva", "carbonella", "fumo", "elder flamebeard" ],
+            "noun": [ "elder flamebeard", "carbonella", "fumo" ]
           },
           "IceBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "icy", "ice", "sleet" ],
-            "adj2": [ "icy", "ice", "sleet", "freezing", "frozen" ],
-            "nounPlural": [ "sleetbeard gland paste", "ice", "sleet", "sleetbeard" ],
-            "noun": [ "sleetbeard", "ice", "sleet" ]
+            "adj1": [ "gelido", "ghiaccio", "nevischio" ],
+            "adj2": [ "gelido", "ghiacciato", "nevischio", "congelante", "congelato" ],
+            "nounPlural": [ "pasta di ghiandola sleetbeard", "ghiaccio", "nevischio", "sleetbeard" ],
+            "noun": [ "sleetbeard", "ghiaccio", "nevischio" ]
           },
           "ElderIceBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "icy", "ice", "sleet" ],
-            "adj2": [ "icy", "ice", "sleet", "freezing", "frozen" ],
-            "nounPlural": [ "concentrated sleetbeard gland paste", "ice", "sleet", "elder sleetbeard" ],
-            "noun": [ "elder sleetbeard", "ice", "sleet" ]
+            "adj1": [ "gelido", "ghiaccio", "nevischio" ],
+            "adj2": [ "gelido", "ghiacciato", "nevischio", "congelante", "congelato" ],
+            "nounPlural": [ "pasta concentrata di ghiandola sleetbeard", "ghiaccio", "nevischio", "elder sleetbeard" ],
+            "noun": [ "elder sleetbeard", "ghiaccio", "nevischio" ]
           },
           "CorrosiveBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "acid" ],
-            "adj2": [ "acidic", "dissolved", "corrosive", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "acid", "tartbeard gland paste", "tartbeard" ],
-            "noun": [ "acid", "tartbeard" ]
+            "adj1": [ "acido" ],
+            "adj2": [ "acido", "disciolto", "corrosivo", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "acido", "pasta di ghiandola tartbeard", "tartbeard" ],
+            "noun": [ "acido", "tartbeard" ]
           },
           "ElderCorrosiveBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "acid" ],
-            "adj2": [ "acidic", "dissolved", "corrosive", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "acid", "concentrated tartbeard gland paste", "elder tartbeard" ],
-            "noun": [ "acid", "elder tartbeard" ]
+            "adj1": [ "acido" ],
+            "adj2": [ "acido", "disciolto", "corrosivo", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "acido", "pasta concentrata di ghiandola tartbeard", "elder tartbeard" ],
+            "noun": [ "acido", "elder tartbeard" ]
           },
           "NormalityBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
             "adj1": [ "null" ],
-            "adj2": [ "null", "nothing", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "nullity", "nothing", "nullbeard gland paste", "nullbeard" ],
-            "noun": [ "nullity", "nothing", "nullbeard" ]
+            "adj2": [ "null", "nulla", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "nullità", "nulla", "pasta di ghiandola nullbeard", "nullbeard" ],
+            "noun": [ "nullità", "nulla", "nullbeard" ]
           },
           "ElderNormalityBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
             "adj1": [ "null" ],
-            "adj2": [ "null", "nothing", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "nullity", "nothing", "concentrated nullbeard gland paste", "elder nullbeard" ],
-            "noun": [ "nullity", "nothing", "elder nullbeard" ]
+            "adj2": [ "null", "nulla", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "nullità", "nulla", "pasta concentrata di ghiandola nullbeard", "elder nullbeard" ],
+            "noun": [ "nullità", "nulla", "elder nullbeard" ]
           },
           "PoisonBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "poison", "toxin" ],
-            "adj2": [ "poisonous", "toxic", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "poison", "gallbeard gland paste", "gallbeard" ],
-            "noun": [ "poison", "toxin", "gallbeard" ]
+            "adj1": [ "veleno", "tossina" ],
+            "adj2": [ "venefico", "tossico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "veleno", "pasta di ghiandola gallbeard", "gallbeard" ],
+            "noun": [ "veleno", "tossina", "gallbeard" ]
           },
           "ElderPoisonBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "poison", "toxin" ],
-            "adj2": [ "poisonous", "toxic", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "poison", "concentrated gallbeard gland paste", "elder gallbeard" ],
-            "noun": [ "poison", "toxin", "elder gallbeard" ]
+            "adj1": [ "veleno", "tossina" ],
+            "adj2": [ "venefico", "tossico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "veleno", "pasta concentrata di ghiandola gallbeard", "elder gallbeard" ],
+            "noun": [ "veleno", "tossina", "elder gallbeard" ]
           },
           "SleepBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "sleep" ],
-            "adj2": [ "sleepy", "lazy", "drowsing", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "dreambeard gland paste", "dreambeard" ],
-            "noun": [ "sleep", "dreambeard" ]
+            "adj1": [ "sonno" ],
+            "adj2": [ "assonnato", "pigro", "sonnolento", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta di ghiandola dreambeard", "dreambeard" ],
+            "noun": [ "sonno", "dreambeard" ]
           },
           "ElderSleepBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "sleep" ],
-            "adj2": [ "sleepy", "lazy", "drowsing", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "concentrated dreambeard gland paste", "elder dreambeard" ],
-            "noun": [ "sleep", "elder dreambeard" ]
+            "adj1": [ "sonno" ],
+            "adj2": [ "assonnato", "pigro", "sonnolento", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta concentrata di ghiandola dreambeard", "elder dreambeard" ],
+            "noun": [ "sonno", "elder dreambeard" ]
           },
           "StunBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "stun", "still" ],
-            "adj2": [ "stun", "still", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "stillbeard gland paste", "stillbeard" ],
+            "adj1": [ "stordimento", "immobile" ],
+            "adj2": [ "stordente", "immobile", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta di ghiandola stillbeard", "stillbeard" ],
             "noun": [ "stillbeard" ]
           },
           "ElderStunBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "stun", "still" ],
-            "adj2": [ "stun", "still", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "concentrated stillbeard gland paste", "elder stillbeard" ],
+            "adj1": [ "stordimento", "immobile" ],
+            "adj2": [ "stordente", "immobile", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta concentrata di ghiandola stillbeard", "elder stillbeard" ],
             "noun": [ "elder stillbeard" ]
           },
           "ConfusionBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "maze", "puzzle" ],
-            "adj2": [ "confusing", "puzzling", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "mazebeard gland paste", "mazebeard" ],
+            "adj1": [ "labirinto", "enigma" ],
+            "adj2": [ "disorientante", "enigmatico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta di ghiandola mazebeard", "mazebeard" ],
             "noun": [ "mazebeard" ]
           },
           "ElderConfusionBreatherGlandPaste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "maze", "puzzle" ],
-            "adj2": [ "confusing", "puzzling", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "concentrated mazebeard gland paste", "elder mazebeard" ],
+            "adj1": [ "labirinto", "enigma" ],
+            "adj2": [ "disorientante", "enigmatico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta concentrata di ghiandola mazebeard", "elder mazebeard" ],
             "noun": [ "elder mazebeard" ]
           },
           "cider": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "cider", "spice" ],
-            "adj2": [ "fermented", "spiced", "fragrant", "mulled", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "cider", "spice" ],
-            "noun": [ "cider", "spice" ]
+            "adj1": [ "sidro", "spezia" ],
+            "adj2": [ "fermentato", "speziato", "fragrante", "speziato caldo", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "sidro", "spezie" ],
+            "noun": [ "sidro", "spezia" ]
           },
           "convalessence": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "cool", "cold", "convalessence", "balm" ],
-            "adj2": [ "cool", "cold", "rejuvenating", "convalescent" ],
-            "nounPlural": [ "convalessence", "balm", "elixir" ],
-            "noun": [ "convalessence", "balm", "elixir" ]
+            "adj1": [ "fresco", "freddo", "convalessence", "balsamo" ],
+            "adj2": [ "fresco", "freddo", "rinvigorente", "convalescente" ],
+            "nounPlural": [ "convalessence", "balsamo", "elisir" ],
+            "noun": [ "convalessence", "balsamo", "elisir" ]
           },
           "honey": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "sweet", "honey" ],
-            "adj2": [ "sweet", "honeyed", "sweetened", "sticky", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "honey" ],
-            "noun": [ "honey" ]
+            "adj1": [ "dolce", "miele" ],
+            "adj2": [ "dolce", "mielato", "addolcito", "appiccicoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "miele" ],
+            "noun": [ "miele" ]
           },
           "salt": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "salt", "brine" ],
-            "adj2": [ "salty", "briny", "salted", "tasty", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "salt" ],
-            "noun": [ "salt" ]
+            "adj1": [ "sale", "salamoia" ],
+            "adj2": [ "salato", "salmastro", "salato", "gustoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "sale" ],
+            "noun": [ "sale" ]
           },
           "asphalt": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "tar", "asphalt" ],
-            "adj2": [ "tarry", "sticky", "viscous", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "tar", "asphalt", "glue" ],
-            "noun": [ "tar", "asphalt", "glue" ]
+            "adj1": [ "catrame", "asfalto" ],
+            "adj2": [ "catramoso", "appiccicoso", "viscoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "catrame", "asfalto", "colla" ],
+            "noun": [ "catrame", "asfalto", "colla" ]
           },
           "lava": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "lava", "fire-roasted", "flaming", "seared", "roasted", "hot" ],
-            "adj2": [ "fire-roasted", "flaming", "seared", "roasted", "magmatic", "molten", "hot", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "lava", "magma", "smoke" ],
-            "noun": [ "lava", "magma", "smoke" ]
+            "adj1": [ "lava", "arrostito al fuoco", "ardente", "scottato", "arrostito", "bollente" ],
+            "adj2": [ "arrostito al fuoco", "ardente", "scottato", "arrostito", "magmatico", "fuso", "bollente", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "lava", "magma", "fumo" ],
+            "noun": [ "lava", "magma", "fumo" ]
           },
           "slime": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "slime" ],
-            "adj2": [ "slimy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "slime" ],
-            "noun": [ "slime" ]
+            "adj1": [ "melma" ],
+            "adj2": [ "melmoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "melma" ],
+            "noun": [ "melma" ]
           },
           "goo": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
             "adj1": [ "goo" ],
-            "adj2": [ "gooey", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "adj2": [ "colloso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
             "nounPlural": [ "goo" ],
             "noun": [ "goo" ]
           },
           "sludge": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "sludge" ],
-            "adj2": [ "sludgey", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "sludge" ],
-            "noun": [ "sludge" ]
+            "adj1": [ "fango" ],
+            "adj2": [ "fangoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "fango" ],
+            "noun": [ "fango" ]
           },
           "ooze": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "ooze" ],
-            "adj2": [ "oozing", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "ooze" ],
-            "noun": [ "ooze" ]
+            "adj1": [ "bava" ],
+            "adj2": [ "gocciolante", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "bava" ],
+            "noun": [ "bava" ]
           },
           "acid": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "acid" ],
-            "adj2": [ "acidic", "dissolved", "corrosive", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "acid" ],
-            "noun": [ "acid" ]
+            "adj1": [ "acido" ],
+            "adj2": [ "acido", "disciolto", "corrosivo", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "acido" ],
+            "noun": [ "acido" ]
           },
           "algae": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "algae", "scum", "kelp", "seaweed" ],
-            "adj2": [ "algal", "scummy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "algae", "scum", "kelp", "seaweed" ],
-            "noun": [ "algae", "scum", "kelp", "seaweed" ]
+            "adj1": [ "alghe", "schiuma", "kelp", "alga marina" ],
+            "adj2": [ "algale", "schiumoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "alghe", "schiuma", "kelp", "alga marina" ],
+            "noun": [ "alga", "schiuma", "kelp", "alga marina" ]
           },
           "neutronflux": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "neutron", "flux" ],
-            "adj2": [ "dense", "unstable", "compact", "heavy", "degenerate", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "flux", "neutrons" ],
-            "noun": [ "flux", "neutron" ]
+            "adj1": [ "neutrone", "flusso" ],
+            "adj2": [ "denso", "instabile", "compatto", "pesante", "degenerato", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "flusso", "neutroni" ],
+            "noun": [ "flusso", "neutrone" ]
           },
           "cloning": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "twice", "thrice", "cloned" ],
-            "adj2": [ "cloned", "homogenized", "twice-cooked", "thrice-cooked", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "cloning draught" ],
-            "noun": [ "cloning draught" ]
+            "adj1": [ "due volte", "tre volte", "clonato" ],
+            "adj2": [ "clonato", "omogeneizzato", "cotto due volte", "cotto tre volte", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pozione di clonazione" ],
+            "noun": [ "pozione di clonazione" ]
           },
           "Starch": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "starch" ],
-            "adj2": [ "starchy", "brisk", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "starch" ],
-            "noun": [ "starch" ]
+            "adj1": [ "amido" ],
+            "adj2": [ "amidaceo", "frizzante", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "amido" ],
+            "noun": [ "amido" ]
           },
           "Lignin": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "lignin" ],
-            "adj2": [ "lignin", "fresh", "vitalizing" ],
-            "nounPlural": [ "lignin" ],
-            "noun": [ "lignin" ]
+            "adj1": [ "lignina" ],
+            "adj2": [ "ligneo", "fresco", "vivificante" ],
+            "nounPlural": [ "lignina" ],
+            "noun": [ "lignina" ]
           }
         }
       },
       "terrain": {
         "General": {
           "someIngredients": [ "=^:someEdible.!random=", "=^:someEdible.!random=", "=^:someInedible.!random=" ],
-          "someEdible": [ "salt", "bones", "water", "mint", "saffron", "sesame", "bulgur", "cardamom", "anise", "berries", "cinnamon", "cumin", "fenugreek", "uuyr", "yyrabra", "paprika", "vanilla" ],
-          "someInedible": [ "foamcrete flake", "rust", "fulcrete flake", "chrome", "ash", "trash", "congealed =tonicName=" ],
+          "someEdible": [ "sale", "ossa", "acqua", "menta", "zafferano", "sesamo", "bulgur", "cardamomo", "anice", "bacche", "cannella", "cumino", "fieno greco", "uuyr", "yyrabra", "paprica", "vaniglia" ],
+          "someInedible": [ "scaglia di foamcrete", "ruggine", "scaglia di fulcrete", "cromo", "cenere", "spazzatura", "=tonicName= coagulato" ],
           "aIngredients": [ "=^:aEdible.!random=", "=^:aEdible.!random=", "=^:aInedible.!random=" ],
-          "aEdible": [ "hunk of cheese", "crust of bread", "mung bean", "soy bean", "chickpea", "sesame seed", "aniseed", "berry", "apricot", "uuyr seed", "yyrabra root" ],
+          "aEdible": [ "pezzo di formaggio", "crosta di pane", "fagiolo mung", "fagiolo di soia", "cece", "seme di sesamo", "seme d'anice", "bacca", "albicocca", "seme di uuyr", "radice di yyrabra" ],
           "aInedible": [
-            "small stone",
-            "cracked lens",
-            "fractured microchip",
-            "burnt capacitor",
-            "corroded circuit board",
-            "page torn from =bookName=",
-            "=spice:commonPhrases.puff.!random= of =gasName="
+            "piccola pietra",
+            "lente incrinata",
+            "microchip fratturato",
+            "condensatore bruciato",
+            "circuito stampato corroso",
+            "pagina strappata da =bookName=",
+            "=spice:commonPhrases.puff.!random= di =gasName="
           ]
         },
         "Saltdunes": {
-          "someIngredients": [ "salt", "brinestalk", "dogthorn", "salt kraken larvae", "dromad hair", "dromad dander", "ash", "Issachari nomad hair" ],
-          "aIngredients": [ "dawnglider feather", "dawnglider egg", "dogthorn leaf", "thread from an Issachari banner", "fractus thorn", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "sale", "brinestalk", "dogthorn", "larve di salt kraken", "pelo di dromad", "forfora di dromad", "cenere", "capelli di nomade Issachari" ],
+          "aIngredients": [ "piuma di dawnglider", "uovo di dawnglider", "foglia di dogthorn", "filo di uno stendardo Issachari", "spina di fractus", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Saltmarsh": {
           "someIngredients": [ "=^:someEdible.!random=", "=^:someEdible.!random=", "=^:someInedible.!random=" ],
           "aIngredients": [ "=^:aEdible.!random=", "=^:aEdible.!random=", "=^:aInedible.!random=" ],
-          "someEdible": [ "brineweed", "brine", "witchwood", "salt", "glowfish cheek", "dragonfly thorax", "brinestalk", "dogthorn", "croc meat", "fish meat" ],
-          "someInedible": [ "brineweed", "brine", "witchwood", "salt", "glowfish cheek", "dragonfly thorax", "brinestalk", "dogthorn", "croc meat", "fish meat" ],
-          "aEdible": [ "glowpad leaf", "blade of grass", "diaphanous wing", "dram of water", "dogthorn leaf", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ],
-          "aInedible": [ "glowpad leaf", "blade of grass", "diaphanous wing", "dram of water", "dogthorn leaf", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someEdible": [ "brineweed", "salamoia", "witchwood", "sale", "guancia di glowfish", "torace di libellula", "brinestalk", "dogthorn", "carne di coccodrillo", "carne di pesce" ],
+          "someInedible": [ "brineweed", "salamoia", "witchwood", "sale", "guancia di glowfish", "torace di libellula", "brinestalk", "dogthorn", "carne di coccodrillo", "carne di pesce" ],
+          "aEdible": [ "foglia di glowpad", "filo d'erba", "ala diafana", "dram d'acqua", "foglia di dogthorn", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ],
+          "aInedible": [ "foglia di glowpad", "filo d'erba", "ala diafana", "dram d'acqua", "foglia di dogthorn", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "DesertCanyon": {
-          "someIngredients": [ "rust", "seed spit", "dog hair", "shavings from a tortoise shell", "equimax hair", "dogthorn", "shale" ],
-          "aIngredients": [ "flake of shale", "thorn from a jilted lover", "boar tooth", "chameleon horn", "salthopper wing", "glowcrow feather", "diaphanous wing", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "sputacchio di semi", "pelo di cane", "raschiature di guscio di tartaruga", "pelo di equimax", "dogthorn", "scisto" ],
+          "aIngredients": [ "scaglia di scisto", "spina di un amante abbandonato", "zanna di cinghiale", "corno di camaleonte", "ala di salthopper", "piuma di glowcrow", "ala diafana", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Hills": {
-          "someIngredients": [ "shale", "limestone", "dust", "clay", "gravel", "equimax hair", "silt", "tortoise shell", "hermit dander", "goat hair" ],
-          "aIngredients": [ "blade of grass", "flake of shale", "chameleon horn", "small stone", "pebble", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=", "snapjaw fang" ]
+          "someIngredients": [ "scisto", "calcare", "polvere", "argilla", "ghiaia", "pelo di equimax", "limo", "guscio di tartaruga", "forfora di hermit", "pelo di capra" ],
+          "aIngredients": [ "filo d'erba", "scaglia di scisto", "corno di camaleonte", "piccola pietra", "ciottolo", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=", "zanna di snapjaw" ]
         },
         "Flowerfields": {
-          "someIngredients": [ "rust", "seed spit", "dog hair", "shavings from a tortoise shell", "equimax hair", "dogthorn", "shale", "flower petals", "flowers" ],
-          "aIngredients": [ "flower petal", "thorn from a jilted lover", "boar tooth", "chameleon horn", "salthopper wing", "glowcrow feather", "diaphanous wing", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "sputacchio di semi", "pelo di cane", "raschiature di guscio di tartaruga", "pelo di equimax", "dogthorn", "scisto", "petali di fiori", "fiori" ],
+          "aIngredients": [ "petalo di fiore", "spina di un amante abbandonato", "zanna di cinghiale", "corno di camaleonte", "ala di salthopper", "piuma di glowcrow", "ala diafana", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Jungle": {
-          "someIngredients": [ "rust", "boar hair", "ice frog spittle", "albino ape hair", "leech blood", "beetlebum chitin", "skunk hair", "hermit dander", "slug spit", "beetle chitin" ],
-          "aIngredients": [ "diaphanous wing", "chameleon horn", "chip from the horn of a goatfolk", "swarmshade leaf", "swarmshade root", "ziv leaf", "ziv root", "shimscale leaf", "star palm frond", "shimscale root", "quillipede quill", "mushroom cap", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "pelo di cinghiale", "bava di rana di ghiaccio", "pelo di scimmia albina", "sangue di sanguisuga", "chitina di beetlebum", "pelo di puzzola", "forfora di hermit", "bava di lumaca", "chitina di scarabeo" ],
+          "aIngredients": [ "ala diafana", "corno di camaleonte", "scheggia del corno di un caprino", "foglia di swarmshade", "radice di swarmshade", "foglia di ziv", "radice di ziv", "foglia di shimscale", "foglia di palma stellare", "radice di shimscale", "aculeo di quillipede", "cappella di fungo", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "DeepJungle": {
-          "someIngredients": [ "rust", "ogre ape hair", "crysteel shards", "flower petals", "lush acid", "purple membrane", "smeared urberry", "nimbus bark", "star orchid dust", "displaced air", "mudroot" ],
-          "aIngredients": [ "sunflower petal", "nachash tendril", "nachash root", "chip from the horn of a goatfolk", "nimbus leaf", "prism fragment", "diaphanous wing", "ziv leaf", "ziv root", "star palm frond", "shimscale leaf", "shimscale root", "fulcrete brick", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "pelo di scimmia gigante", "schegge di crysteel", "petali di fiori", "acido lussureggiante", "membrana viola", "urberry schiacciata", "corteccia di nimbus", "polvere di orchidea stellare", "aria spostata", "mudroot" ],
+          "aIngredients": [ "petalo di girasole", "viticcio di nachash", "radice di nachash", "scheggia del corno di un caprino", "foglia di nimbus", "frammento di prisma", "ala diafana", "foglia di ziv", "radice di ziv", "foglia di palma stellare", "foglia di shimscale", "radice di shimscale", "mattone di fulcrete", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Ruins": {
-          "someIngredients": [ "rust", "scrap", "chrome", "scrap crystal", "scrap metal", "scrap electronics", "pure alloy", "boar hair", "ice frog spittle", "albino ape hair", "gunpowder", "leech blood", "beetlebum chitin", "skunk hair", "hermit dander", "slug spit", "beetle chitin" ],
-          "aIngredients": [ "roasted antenna", "musket muzzle", "bolt from a rifle turret", "light attenuator", "diaphanous wing", "chameleon horn", "chip from the horn of a goatfolk", "shimscale leaf", "shimscale root", "quillipede quill", "mushroom cap", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "rottame", "cromo", "cristallo di scarto", "metallo di scarto", "elettronica di scarto", "lega pura", "pelo di cinghiale", "bava di rana di ghiaccio", "pelo di scimmia albina", "polvere da sparo", "sangue di sanguisuga", "chitina di beetlebum", "pelo di puzzola", "forfora di hermit", "bava di lumaca", "chitina di scarabeo" ],
+          "aIngredients": [ "antenna arrostita", "canna di moschetto", "bullone di torretta fucile", "attenuatore di luce", "ala diafana", "corno di camaleonte", "scheggia del corno di un caprino", "foglia di shimscale", "radice di shimscale", "aculeo di quillipede", "cappella di fungo", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "BaroqueRuins": {
-          "someIngredients": [ "rust", "scrap", "chrome", "scrap crystal", "scrap metal", "scrap electronics", "pure alloy", "svardym spittle", "ogre ape hair", "gunpowder", "hermit dander", "slug spit", "astral dander", "purple membrane", "smeared urberry", "nimbus bark", "star orchid dust", "displaced air", "mudroot", "crysteel shards", "coolant", "antifreeze", "glass microtubing", "tetraxenonoglass", "psionic residue", "plasma", "nanomaterials", "photonic matter", "vectorized pebbles" ],
-          "aIngredients": [ "light attenuator", "sunflower petal", "nachash tendril", "nachash root", "chip from the horn of a goatfolk", "nimbus leaf", "prism fragment", "diaphanous wing", "ziv leaf", "ziv root", "star palm frond", "shimscale leaf", "shimscale root", "fulcrete brick", "magnet", "microcontroller", "pristine circuit", "vectorized fossil", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "rottame", "cromo", "cristallo di scarto", "metallo di scarto", "elettronica di scarto", "lega pura", "bava di svardym", "pelo di scimmia gigante", "polvere da sparo", "forfora di hermit", "bava di lumaca", "forfora astrale", "membrana viola", "urberry schiacciata", "corteccia di nimbus", "polvere di orchidea stellare", "aria spostata", "mudroot", "schegge di crysteel", "liquido di raffreddamento", "antigelo", "microtubo di vetro", "tetraxenonoglass", "residuo psionico", "plasma", "nanomateriali", "materia fotonica", "ciottoli vettorizzati" ],
+          "aIngredients": [ "attenuatore di luce", "petalo di girasole", "viticcio di nachash", "radice di nachash", "scheggia del corno di un caprino", "foglia di nimbus", "frammento di prisma", "ala diafana", "foglia di ziv", "radice di ziv", "foglia di palma stellare", "foglia di shimscale", "radice di shimscale", "mattone di fulcrete", "magnete", "microcontrollore", "circuito intatto", "fossile vettorizzato", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "TheSpindle": {
-          "someIngredients": [ "rust", "scrap", "chrome", "scrap crystal", "scrap metal", "scrap electronics", "Eater dander", "Spindle glitter", "ash", "flakes of grave moss", "bone dust", "petrified hair", "grave goods", "digestive jelly", "marble chalk", "sarcophagus juice", "bone brine" ],
-          "aIngredients": [ "bone", "skull", "clump of hair", "piece of marble", "stillvine leaf", "synthetic wing", "bone", "charred bone", "mopango scale", "circuitboard", "cube of gelatin", "fingernail", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "ruggine", "rottame", "cromo", "cristallo di scarto", "metallo di scarto", "elettronica di scarto", "forfora degli Eater", "luccichio dello Spindle", "cenere", "scaglie di muschio delle tombe", "polvere d'osso", "capelli pietrificati", "corredi funebri", "gelatina digestiva", "gesso di marmo", "succo di sarcofago", "salamoia d'osso" ],
+          "aIngredients": [ "osso", "teschio", "ciuffo di capelli", "pezzo di marmo", "foglia di stillvine", "ala sintetica", "osso", "osso carbonizzato", "scaglia di mopango", "circuito stampato", "cubetto di gelatina", "unghia", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Water": {
-          "someIngredients": [ "croc meat", "glowfish cheek", "fish meat", "brine", "brineweed", "madpole cheek" ],
-          "aIngredients": [ "swarmshade leaf", "swarmshade root", "ziv leaf", "ziv root", "star palm frond", "shimscale leaf", "shimscale root", "diaphanous wing", "glowpad leaf", "madpole tooth", "dragonfly thorax", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "carne di coccodrillo", "guancia di glowfish", "carne di pesce", "salamoia", "brineweed", "guancia di madpole" ],
+          "aIngredients": [ "foglia di swarmshade", "radice di swarmshade", "foglia di ziv", "radice di ziv", "foglia di palma stellare", "foglia di shimscale", "radice di shimscale", "ala diafana", "foglia di glowpad", "dente di madpole", "torace di libellula", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Mountains": {
-          "someIngredients": [ "shale", "limestone", "dust", "clay", "gravel", "dog hair", "goat hair", "silt" ],
-          "aIngredients": [ "flake of shale", "bone of a cannibal", "small stone", "pebble", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "scisto", "calcare", "polvere", "argilla", "ghiaia", "pelo di cane", "pelo di capra", "limo" ],
+          "aIngredients": [ "scaglia di scisto", "osso di un cannibale", "piccola pietra", "ciottolo", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Fungal": {
-          "someIngredients": [ "lichen", "mold", "fungus", "goop", "smut", "rust", "sludge" ],
-          "aIngredients": [ "mushroom stalk", "toadstool", "mushroom cap", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "lichene", "muffa", "fungo", "goop", "fuliggine", "ruggine", "fango" ],
+          "aIngredients": [ "gambo di fungo", "fungo velenoso", "cappella di fungo", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "BananaGrove": {
-          "someIngredients": [ "chrome", "rust", "musa", "Eater dander", "Spindle glitter", "goat hair", "marble chalk", "plant matter", "gibbon hair", "asphodelyte petals", "scrap", "scrap crystal", "scrap metal", "scrap electronics", "abraded stone" ],
-          "aIngredients": [ "banana leaf", "banana peel", "blade of grass", "chipped-off chunk of the Spindle", "pebble", "diaphanous wing", "palm frond", "dacca root", "diacalyptus leaf", "gibbon eye", "mural shaving", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "cromo", "ruggine", "musa", "forfora degli Eater", "luccichio dello Spindle", "pelo di capra", "gesso di marmo", "materia vegetale", "pelo di gibbone", "petali di asphodelyte", "rottame", "cristallo di scarto", "metallo di scarto", "elettronica di scarto", "pietra abrasa" ],
+          "aIngredients": [ "foglia di banana", "buccia di banana", "filo d'erba", "frammento scheggiato dallo Spindle", "ciottolo", "ala diafana", "foglia di palma", "radice di dacca", "foglia di diacalyptus", "occhio di gibbone", "raschiatura di murales", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "LakeHinnom": {
-          "someIngredients": [ "algae", "svardym egg shell", "kelp", "crysteel shards", "perch cheek", "fish meat", "brine", "eel hair", "tunnel sponge", "svardym drool", "algal water" ],
-          "aIngredients": [ "prism perch", "perch scale", "white esh feather", "junk dollar", "junk dollar spine", "sponge", "spongy mass", "coral finger", "crysteel shard", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "alghe", "guscio d'uovo di svardym", "kelp", "schegge di crysteel", "guancia di pesce persico", "carne di pesce", "salamoia", "pelo di anguilla", "spugna dei tunnel", "bava di svardym", "acqua algale" ],
+          "aIngredients": [ "pesce persico prismatico", "scaglia di pesce persico", "piuma di esh bianco", "junk dollar", "spina di junk dollar", "spugna", "massa spugnosa", "dito di corallo", "scheggia di crysteel", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "PalladiumReef": {
-          "someIngredients": [ "red coral", "blue coral", "gold coral", "palladium", "algae", "svardym egg shell", "scrap crystal", "scrap metal", "scrap electronics", "kelp", "crysteel shards", "perch cheek", "fish meat", "brine", "eel hair", "tunnel sponge", "svardym drool", "algal water" ],
-          "aIngredients": [ "coral polyp", "palladium strut", "prism perch", "perch scale", "white esh feather", "junk dollar", "junk dollar spine", "sponge", "spongy mass", "coral finger", "crysteel shard", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "corallo rosso", "corallo blu", "corallo dorato", "palladio", "alghe", "guscio d'uovo di svardym", "cristallo di scarto", "metallo di scarto", "elettronica di scarto", "kelp", "schegge di crysteel", "guancia di pesce persico", "carne di pesce", "salamoia", "pelo di anguilla", "spugna dei tunnel", "bava di svardym", "acqua algale" ],
+          "aIngredients": [ "polipo di corallo", "puntone di palladio", "pesce persico prismatico", "scaglia di pesce persico", "piuma di esh bianco", "junk dollar", "spina di junk dollar", "spugna", "massa spugnosa", "dito di corallo", "scheggia di crysteel", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "MoonStair": {
-          "someIngredients": [ "cool static", "crystalline nectar", "dilute static", "psychal rhythm", "candle quartz", "quantum fuzz", "algebraic salt", "quartz dust", "hexagons", "compressed thoughtstuff", "entropy fungus", "glitchtree leaves", "unimax tail hair", "dreamcrunglem", "photons", "thoughtforms", "crystal flowers" ],
-          "aIngredients": [ "crystal petal", "psychal rhythm pebble", "hexagon", "glitchtree leaf", "icosahedron", "photon", "metacrystal", "negative number", "imaginary number", "dream wren feather", "leaf from Chavvah, the Tree of Life", "platonic solid", "starshell scute", "blade of noise grass", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
+          "someIngredients": [ "statica fredda", "nettare cristallino", "statica diluita", "ritmo psychal", "quarzo candela", "fuzz quantistico", "sale algebrico", "polvere di quarzo", "esagoni", "materiapensiero compressa", "fungo entropico", "foglie di glitchtree", "pelo di coda di unimax", "dreamcrunglem", "fotoni", "forme di pensiero", "fiori di cristallo" ],
+          "aIngredients": [ "petalo di cristallo", "ciottolo di ritmo psychal", "esagono", "foglia di glitchtree", "icosaedro", "fotone", "metacristallo", "numero negativo", "numero immaginario", "piuma di scricciolo onirico", "foglia di Chavvah, l'Albero della Vita", "solido platonico", "scudo di starshell", "filo di erba-rumore", "=creaturePossessive= =creatureBodyPart=", "=creaturePossessive= =creatureBodyPart=" ]
         },
         "Brightsheol": {
-          "someIngredients": [ "indeterminable qualia", "dream dust", "dim light", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=" ],
-          "aIngredients": [ "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "abstract form", "dim memory", "photon", "bit", "byte" ]
+          "someIngredients": [ "qualia indeterminabili", "polvere di sogni", "luce fioca", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=" ],
+          "aIngredients": [ "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "forma astratta", "memoria fioca", "fotone", "bit", "byte" ]
         },
         "Tzimtzlum": {
-          "someIngredients": [ "=spice:adjectives.!random= clams" ],
-          "aIngredients": [ "=spice:adjectives.!random= clam" ]
+          "someIngredients": [ "vongole =spice:adjectives.!random=" ],
+          "aIngredients": [ "vongola =spice:adjectives.!random=" ]
         },
         "NorthSheva": {
-          "someIngredients": [ "glittering spores", "glittering spores", "star dust", "eroded remains of a =spice:history.gospels.EarlySultanate.vehicle.!random=", "eroded remains of a =spice:history.gospels.EarlySultanate.vehicle.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "observation liquid", "forest motes", "dust from the Great Machine", "ultraviolet light", "black shale flakes", "Triangulum dust", "dark matter", "starship exhaust", "shattered stratum", "braided crysteel paper", "labyrinthite flakes", "thurible smoke", "blueshifted dust of chrome", "star orchid dust" ],
-          "aIngredients": [ "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "shaving of understratum", "=spice:adjectives.!random= seed", "pin from a dish horn", "sun ribbon panel", "pin from an underhorn", "tiny crab", "shard from a glass dome", "force coupling", "mover magnet", "pin from a scrying horn", "holographic coupler", "ecliptic glyph", "glittering spore", "glittering spore" ]
+          "someIngredients": [ "spore scintillanti", "spore scintillanti", "polvere di stelle", "resti erosi di =spice:history.gospels.EarlySultanate.vehicle.!random=", "resti erosi di =spice:history.gospels.EarlySultanate.vehicle.!random=", "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random|pluralize=", "liquido di osservazione", "mote forestali", "polvere della Grande Macchina", "luce ultravioletta", "scaglie di scisto nero", "polvere di Triangulum", "materia oscura", "scarico di astronave", "strato frantumato", "carta di crysteel intrecciata", "scaglie di labirintite", "fumo di turibolo", "polvere di cromo spostata al blu", "polvere di orchidea stellare" ],
+          "aIngredients": [ "=spice:commonPhrases.astral.!random= =spice:objectNouns.!random=", "raschiatura del substrato", "seme =spice:adjectives.!random=", "perno di un corno a piatto", "pannello a nastro solare", "perno di un underhorn", "granchio minuscolo", "scheggia di una cupola di vetro", "accoppiamento di forza", "magnete motore", "perno di un corno di scrutinio", "accoppiatore olografico", "glifo eclettico", "spora scintillante", "spora scintillante" ]
         }
       }
     },
     "history": {
       "gospels": {
         "EarlySultanate": {
-          "adjective": [ "star", "space", "time", "temporal", "spatial", "cosmic", "empyrean", "ether", "algebraic", "astral", "luminous", "stellary", "high" ],
+          "adjective": [ "stellare", "spaziale", "temporale", "temporale", "spaziale", "cosmico", "empireo", "etereo", "algebrico", "astrale", "luminoso", "stellare", "alto" ],
           "location": [ "=spice:3Dshapes.!random=", "=spice:2Dshapes.!random=", "=spice:instancesOf.specialPlace.!random=" ],
-          "vehicle": [ "star blimp", "star =spice:3Dshapes.!random=", "=spice:geometricPatterns.!random= =spice:commonPhrases.ship.!random=" ],
+          "vehicle": [ "dirigibile stellare", "=spice:3Dshapes.!random= stellare", "=spice:geometricPatterns.!random= =spice:commonPhrases.ship.!random=" ],
           "worshipObject": [ "=^:location.!random=", "=spice:nouns.!random=" ],
           "objectNoun": [ "=spice:objectNouns.!random=", "=^:location.!random=" ]
         },
         "LateSultanate": {
-          "adjective": [ "sand", "salt", "dust", "terra", "fish", "glass", "low", "slag", "sea", "cinder" ],
+          "adjective": [ "sabbioso", "salato", "polveroso", "terreo", "pescoso", "vitreo", "basso", "scoriato", "marino", "cinereo" ],
           "location": [ "=spice:placeNouns.!random=" ],
           "vehicle": [ "=spice:instancesOf.sandOrSalt.!random= =spice:3Dshapes.!random=", "=spice:geometricPatterns.!random= =spice:commonPhrases.wagon.!random=" ],
           "worshipObject": [ "=spice:nouns.!random=" ],
@@ -2221,14 +2217,14 @@
       },
       "relics": {
         "names": [
-          "the =spice:itemTypes.$itemType.!random= of the =spice:adjectives.!random= =spice:elements.$element.nouns.!random=",
-          "the =spice:itemTypes.$itemType.!random= of the =spice:elements.$element.adjectives.!random= =spice:nouns.!random=",
-          "the =spice:itemTypes.$itemType.!random= of the =spice:adjectives.!random= =spice:elements.$element.@professions.!random=",
-          "=creature.a.name's= =spice:elements.$element.adjectives.!random= =spice:itemTypes.$itemType.!random=",
-          "=creature.a.name's|strip= =spice:elements.$element.adjectives.!random= =spice:itemTypes.$itemType.!random=",
-          "=creature.a.name's|strip= =spice:itemTypes.$itemType.!random=",
+          "=spice:itemTypes.$itemType.!random= di =spice:elements.$element.nouns.!random= =spice:adjectives.!random=",
+          "=spice:itemTypes.$itemType.!random= =spice:elements.$element.adjectives.!random= di =spice:nouns.!random=",
+          "=spice:itemTypes.$itemType.!random= =spice:adjectives.!random= di =spice:elements.$element.@professions.!random=",
+          "=spice:itemTypes.$itemType.!random= =spice:elements.$element.adjectives.!random= di =creature.a.name's|strip=",
+          "=spice:itemTypes.$itemType.!random= =spice:elements.$element.adjectives.!random= di =creature.a.name's|strip=",
+          "=spice:itemTypes.$itemType.!random= di =creature.a.name's|strip=",
           "=spice:nouns.!random=-=spice:nouns.!random=",
-          "=spice:adjectives.!random= =spice:nouns.!random="
+          "=spice:nouns.!random= =spice:adjectives.!random="
         ]
       },
       "regions": {

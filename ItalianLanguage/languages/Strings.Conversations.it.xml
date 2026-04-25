@@ -2776,9 +2776,9 @@ Ci andrai, allora? E offrirai il mio ninnolo al Pozzo?
 ▶Non posso impegnarmi in questo. Vivi e bevi.
   </string>
   <string Context="Conversation JoppaFarmerConvert.Fathers.Text" ID="I am no rector, understand, but They are the molders of chrome. The gods under Shekhinah who wrought metal edifices from the raw Kasaphescence.&#xA;&#xA;Will you go?">
-▶Non sono un rettore, capisce, ma Essi sono i plasmatori del cromo. Gli dei sotto Shekhinah che forgiarono edifici metallici dalla Kasaphescenza grezza.
+▶Non sono un rettore, capisci, ma Essi sono i plasmatori del cromo. Gli dei sotto Shekhinah che forgiarono edifici metallici dalla Kasaphescenza grezza.
 
-Ci andrà?
+Ci andrai?
   </string>
   <string Context="Conversation JoppaFarmerConvert.Fathers.WhyChoice.Text" ID="Perhaps. Why?">
 ▶Forse. Perché?
@@ -2816,7 +2816,7 @@ Non vi è misericordia nel Grande Deserto, e poco di più nei canyon. Non posso 
 ▶Non posso impegnarmi in questo. Vivi e bevi.
   </string>
   <string Context="Conversation JoppaFarmerConvert.Agree.Text" ID="Moon and sun, =pronouns.formalAddressTerm=! You have my deep and many-sided thanks. Here, take the trinket now. And if you're to ever return, let us visit again.&#xA;&#xA;Live and drink!">
-▶Luna e sole, =pronouns.formalAddressTerm=! Hai la mia profonda e multiforme gratitudine. Ecco, prendi il ninnolo ora. E se mai tornerai, visitiamoci ancora.
+▶Luna e sole, =pronouns.formalAddressTerm=! Hai la mia profonda e multiforme gratitudine. Ecco, prendi il ninnolo ora. E se mai dovessi tornare, vieni a trovarci di nuovo.
 
 Vivi e bevi!
   </string>
@@ -5049,7 +5049,7 @@ Sei elevato a Discepolo, =player.formalAddressTerm=. Barathrum desidera parlarti
 ▶Sono occupato, viandante. Parla con Mafeo nella piazza commerciale se hai bisogno di qualcosa.
   </string>
   <string Context="Conversation Otho.Start18.Text" ID="=factionaddress:Barathrumites|capitalize=! You have my deepest gratitude. Few =player.personTerm|pluralize= could have defended Grit Gate so deftly.&#xA;&#xA;Now, give me time to assess our losses and consult with Barathrum. Return soon.">
-▶=factionaddress:Barathrumites|capitalize=! Hai la mia più profonda gratitudine. Pochi =player.personTerm|pluralize= avrebbero potuto difendere Grit Gate così abilmente.
+▶=factionaddress:Barathrumites|capitalize=! Hai la mia più profonda gratitudine. Raramente un =player.personTerm= avrebbe saputo difendere Grit Gate con tale destrezza.
 
 Ora, dammi il tempo di valutare le nostre perdite e consultarmi con Barathrum. Torna presto.
   </string>
