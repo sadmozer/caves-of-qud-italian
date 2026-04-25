@@ -1700,45 +1700,45 @@
           },
           "Fermented Yondercane": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "blink", "tele-", "far-", "there-" ],
-            "adj2": [ "blink", "blinking", "teleporting", "fermented", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "yondercane", "fermented yondercane", "yondercane", "fermented yondercane", "air" ],
-            "noun": [ "yondercane", "cane", "yondercane", "cane", "air" ]
+            "adj1": [ "lampeggio", "tele-", "lontano", "là" ],
+            "adj2": [ "lampeggiante", "lampeggiante", "teletrasportante", "fermentato", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "yondercane", "yondercane fermentata", "yondercane", "yondercane fermentata", "aria" ],
+            "noun": [ "yondercane", "canna", "yondercane", "canna", "aria" ]
           },
           "Voider Gland Paste": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "blink", "tele-", "far-", "there-", "pasty" ],
-            "adj2": [ "blink", "blinking", "teleporting", "pasty", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "voider gland paste", "voider gland", "voider", "air" ],
-            "noun": [ "voider", "paste", "air" ]
+            "adj1": [ "lampeggio", "tele-", "lontano", "là", "pastoso" ],
+            "adj2": [ "lampeggiante", "lampeggiante", "teletrasportante", "pastoso", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "pasta di ghiandola voider", "ghiandola voider", "voider", "aria" ],
+            "noun": [ "voider", "pasta", "aria" ]
           },
           "Spark Tick Plasma": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "spark", "voltaic", "jolt", "electric" ],
-            "adj2": [ "electric", "crackling", "sparky", "voltaic", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "spark tick plasma", "sparks", "electric current", "plasma", "electricity", "lightning" ],
-            "noun": [ "plasma", "spark", "electron", "volt", "jolt" ]
+            "adj1": [ "scintilla", "voltaico", "scossa", "elettrico" ],
+            "adj2": [ "elettrico", "crepitante", "scintillante", "voltaico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "plasma di spark tick", "scintille", "corrente elettrica", "plasma", "elettricità", "fulmine" ],
+            "noun": [ "plasma", "scintilla", "elettrone", "volt", "scossa" ]
           },
           "Canned Have-It-All": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "all" ],
-            "adj2": [ "all", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "everything" ],
-            "noun": [ "everything" ]
+            "adj1": [ "tutto" ],
+            "adj2": [ "tutto", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "tutto" ],
+            "noun": [ "tutto" ]
           },
           "Wild Rice": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "wild" ],
-            "adj2": [ "wild", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "wild rice" ],
-            "noun": [ "rice" ]
+            "adj1": [ "selvatico" ],
+            "adj2": [ "selvatico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "riso selvatico" ],
+            "noun": [ "riso" ]
           },
           "Dream Smoke": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
-            "adj1": [ "dream", "dreamy" ],
-            "adj2": [ "dream", "dreamy", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
-            "nounPlural": [ "dream smoke", "dreams", "daydreams" ],
-            "noun": [ "dream", "daydream" ]
+            "adj1": [ "sogno", "onirico" ],
+            "adj2": [ "onirico", "onirico", "=^:noun.!random=-=spice:cooking.recipeNames.suffix.!random=" ],
+            "nounPlural": [ "fumo dei sogni", "sogni", "fantasticherie" ],
+            "noun": [ "sogno", "fantasticheria" ]
           },
           "Fermented Yuckwheat Stem": {
             "adj": [ "=^:adj1.!random=", "=^:adj2.!random=" ],
