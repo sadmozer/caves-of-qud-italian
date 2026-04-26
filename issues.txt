@@ -1,4 +1,3 @@
 - traduzione errata "weep" in "pianto" 
 - correggere le parole con pluralize (esempio: sorsoes invece di sorsi)
 - uniformare nomi skills e abilità (esempio: sbattere != slam)
-  <string Context="Settlements starapple farm name 15%" ID="=spice:commonPhrases.secluded.!random|Article= starapple farm">▶=spice:commonPhrases.secluded.!random|Article= fattoria di starapple</string>

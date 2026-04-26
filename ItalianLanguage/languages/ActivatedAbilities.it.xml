@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.17
+Caves of Qud - Generated Localizable XML 2.0.212.20
 
 <activatedabilities>
 
@@ -39,7 +39,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Puoi attraversare oggetti solidi per brevi periodi di tempo.</p>
         <br />
-        <statline Name="Duration" />
+        <statline Name="Duration" DisplayName="Durata" />
       </description>
   </ability>
   <ability Command="CommandEndSubmerged">
@@ -47,11 +47,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
   </ability>
   <ability Command="ActivateFabricateFromSelf">
     <description>▶
-        <p>Tu <stat Name="FabricateVerb" /> <stat Name="An" /><stat Name="FabricateBlueprint" /> da <stat Name="FabricateSource" />.</p>
+        <switch Name="BatchSize">
+          <case Value="1"><p><gametext>Tu =fabricateVerb= =sample.a.name:single:asIfKnown= da =fabricateSource=.</gametext></p></case>
+          <default><p><gametext>Tu =fabricateVerb= =sample.name:single:asIfKnown|pluralize= da =fabricateSource=.</gametext></p></default>
+        </switch>
         <br />
         <statline Name="BatchSize" DisplayName="Dimensione del lotto" />
         <statline Name="HitpointsPer" DisplayName="Punti ferita per lotto" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPlaceMine">
@@ -59,15 +62,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Posizioni <stat Name="MineAn" /> <stat Name="MineDisplayName" /> mina.</p>
         <br />
         <statline Name="MineTimer" DisplayName="Timer" Unit="round" HideValue="-1" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandRunOver">
     <description>▶
         <p>Carichi in linea retta e travolgi le creature sul tuo percorso.</p>
         <br />
-        <statline Name="Damage" />
-        <statline Name="Range" />
+        <statline Name="Damage" DisplayName="Danno" />
+        <statline Name="Range" DisplayName="Raggio" />
         <statline Name="Knockdown" DisplayName="Tiro salvezza atterramento" />
         <statline Name="Daze" DisplayName="Tiro salvezza stordimento" />
       </description>
@@ -79,7 +82,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Costruisci <stat Name="An" /> <stat Name="TurretName" /> in uno spazio adiacente.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandEngulf">
@@ -95,35 +98,35 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Spacchi il continuum spaziotemporale, teletrasportandoti in un luogo casuale di Qud.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCathedraRuby">
     <description>▶
         <p>Generi un campo di pirocinesi intorno a te, infliggendo danni e appiccando fuoco alle cose per 3 round.</p>
         <br />
-        <statline Name="Area" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageRound1" DisplayName="Danno al round 1" />
         <statline Name="DamageRound2" DisplayName="Danno al round 2" />
         <statline Name="DamageRound3" DisplayName="Danno al round 3" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCathedraSapphire">
     <description>▶
         <p>Invochi una forza concussiva intorno a te. Le creature vengono spinte via dal centro dell'esplosione, stordite e subiscono danni da schiacciamento in fino a 3 incrementi.</p>
         <br />
-        <statline Name="Area" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageIncrement" DisplayName="Incremento di danno" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCathedraWhiteOpal">
     <description>▶
         <p>Rilasci un'esplosione di glitter intorno a te.</p>
         <br />
-        <statline Name="Duration" Unit="turno" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Duration" DisplayName="Durata" Unit="turno" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleFireSuppressionSystem">
@@ -133,28 +136,28 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Ti teletrasporti in qualsiasi spazio esplorato sulla mappa.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandInflateAxons">
     <description>▶
         <p>Ottieni +<stat Name="QuicknessBonus" /> Rapidità per <stat Name="QuicknessDuration" /> round, poi diventi lento per 10 round.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandEmergencyRecomposite">
     <description>▶
         <p>Ti teletrasporti in un luogo casuale e esplorato sulla mappa.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleMedassistModule">
     <description>▶
         <p>Applica automaticamente fino a 8 iniettori caricati quando appropriato.</p>
         <br />
-        <statline Name="Loadout" />
+        <statline Name="Loadout" DisplayName="Equipaggiamento" />
       </description>
   </ability>
   <ability Command="CommandToggleCyberNightVision">
@@ -164,7 +167,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Ottieni +<stat Name="AgilityBonus" /> Agilità e +<stat Name="MovespeedBonus" /> velocità di movimento per <stat Name="Duration" /> round.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandActivateOnboardRecoilerImprinting">
@@ -172,7 +175,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Imprime il recoiler di bordo con una posizione in cui tornare.</p>
         <br />
         <statline Name="Location" DisplayName="Posizione attuale" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandActivateOnboardRecoilerTeleporter">
@@ -180,7 +183,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Ti teletrasporti nella posizione programmata.</p>
         <br />
         <statline Name="Location" DisplayName="Posizione attuale" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTogglePenetratingRadar">
@@ -199,7 +202,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Scegli una creatura in linea di vista. Tutte le altre creature vengono messe in campi di stasi per <stat Name="Duration" />.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTogglePhaseAdaptiveScope">
@@ -212,15 +215,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Crea fino a <stat Name="Coverage" /> quadrati di campo di stasi che durano per <stat Name="Duration" />.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandActivateTetheredRecoilerTeleporter">
     <description>▶
         <p>Ti teletrasporti nella posizione collegata.</p>
         <br />
-        <statline Name="Cooldown" />
-        <statline Name="Destination" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
+        <statline Name="Destination" DisplayName="Destinazione" />
         <statline Name="TetherStatus" DisplayName="Stato del collegamento" />
       </description>
   </ability>
@@ -228,7 +231,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Soffi nella conchiglia e produci un cono di gas casuale.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandRecoil">
@@ -239,7 +242,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Generi <stat Name="DecoyNumber" /> <stat Name="Decoys" /> olografici di te stesso.</p>
         <br />
         <p>I decoy si muovono specularmente a te e attirano l'attenzione.</p>
-        <statline Name="Range" />
+        <statline Name="Range" DisplayName="Raggio" />
         <p><stat Name="ChargeDraw" /> consumo di carica per round.</p>
       </description>
   </ability>
@@ -257,7 +260,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Sei accelerato da energia creativa.</p>
         <br />
         <p><stat Name="RefreshDescription" /></p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="ActivateTeleprojector">
@@ -268,8 +271,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Tiro d'attacco: <stat Name="Attack" /> vs. MA + livello del difensore</p>
         <p>Alto consumo di carica all'attivazione.</p>
         <p>Basso consumo di carica per round.</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="ConfigureTemperatureController">
@@ -284,7 +287,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Soffi spore e diffonda il Klanq.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="ActivateSkyshroud">
@@ -297,8 +300,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Se non incontri nemici o ostacoli dopo venti spazi, smetti di muoverti.</p>
         <br />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="ActivateStopsvalinn">
@@ -322,7 +325,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Attacco mentale contro una creatura con una mente.</p>
         <p>Tiro d'attacco: <stat Name="Attack" /> vs. MA + livello del difensore</p>
         <p>Le creature affascinate ricevono <stat Name="BonusHP" /> punti ferita bonus.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBurgeoning">
@@ -330,9 +333,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Fai crescere spontaneamente piante in un'area vicina, intralciando i tuoi nemici.</p>
         <br />
         <p>Le piante variano in base al rango della mutazione.</p>
-        <statline Name="Area" />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandClairvoyance">
@@ -341,7 +344,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="VisionRadius" DisplayName="Raggio di visione" />
         <statline Name="VisionDuration" DisplayName="Durata della visione" Unit="round" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandConfuse">
@@ -351,31 +354,31 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Le creature colpite agiscono in modo semi-casuale e ricevono una penalità di <stat Name="Penalty" /> alle loro abilità mentali.</p>
         <statline Name="ConeAngle" DisplayName="Angolo del cono" />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCryokinesis">
     <description>▶
         <p>Raffreddi un'area vicina con la tua mente, infliggendo danni e congelandola per 3 round.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageRound1" DisplayName="Danno al round 1" />
         <statline Name="DamageRound2" DisplayName="Danno al round 2" />
         <statline Name="DamageRound3" DisplayName="Danno al round 3" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDisintegration">
     <description>▶
         <p>Disintegri la materia nelle vicinanze.</p>
         <br />
-        <statline Name="Area" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageNonStructural" DisplayName="Danno agli oggetti non strutturali" />
         <statline Name="DamageStructural" DisplayName="Danno agli oggetti strutturali" />
         <p>Sei esausto per 3 round dopo aver usato questo potere.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDominateCreature">
@@ -384,8 +387,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Attacco mentale contro una creatura con una mente.</p>
         <p>Tiro d'attacco: <stat Name="Attack" /> vs. MA + livello del difensore</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandForceBubble">
@@ -394,8 +397,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Crea un campo di forza 3x3 centrato su di te.</p>
         <p>Puoi sparare con armi missilistiche attraverso il campo di forza.</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandForceWall">
@@ -404,23 +407,23 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Crea 9 quadrati contigui di campo di forza immobile.</p>
         <p>Puoi sparare con armi missilistiche attraverso il campo di forza.</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandKindle">
     <description>▶
         <p>Accendi un piccolo fuoco con la tua mente.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandLeyShift">
     <description>▶
         <p>Modifichi il continuum spaziotemporale nella regione locale.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandLifeDrain">
@@ -431,8 +434,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Drena <stat Name="HP" /> per round.</p>
         <p>Il bersaglio fa un tiro salvezza mentale per resistere al danno ogni round.</p>
         <br />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandLase">
@@ -465,7 +468,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Quando subisci un attacco mentale mentre lo Specchio Mentale non è in recupero, ottieni +<stat Name="BonusMA" /> MA. Se l'attacco non riesce a penetrare il tuo MA, viene riflesso contro il tuo attaccante.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPrecognition">
@@ -475,7 +478,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Puoi attivare questo potere e poi tornare al momento in cui l'hai attivato.</p>
         <br />
         <statline Name="Duration" DisplayName="Durata tra l'uso e il ripristino" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPrecognitionRevert">
@@ -497,12 +500,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Riscaldi un'area vicina con la tua mente, infliggendo danni e appiccando fuoco alle cose per 3 round.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageRound1" DisplayName="Danno al round 1" />
         <statline Name="DamageRound2" DisplayName="Danno al round 2" />
         <statline Name="DamageRound3" DisplayName="Danno al round 3" />
-        <statline Name="Cooldown" Unit="round" />
+        <statline Name="Cooldown" Unit="round" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSpaceTimeVortex">
@@ -516,17 +519,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           <default><br /><statline Name="BonusDuration" DisplayName="Durata bonus" Unit="round" /></default>
         </switch>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandStunningForce">
     <description>▶
         <p>Invochi una forza concussiva in un'area vicina. Le creature vengono spinte via dal centro dell'esplosione, stordite e subiscono danni da schiacciamento in fino a 3 incrementi.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="DamageIncrement" DisplayName="Incremento di danno" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSunderMind">
@@ -539,8 +542,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Dopo il decimo round, infliggi danni bonus pari alla quantità totale di danni che hai inflitto finora.</p>
         <br />
         <statline Name="DamageIncrement" DisplayName="Incremento di danno" />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTelepathy">
@@ -557,30 +560,30 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Ti teletrasporti in un luogo casuale all'interno di un'area designata.</p>
         <statline Name="UncertaintyRadius" DisplayName="Raggio di incertezza" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandLeaderTeleport">
     <description>▶
         <p>Ti teletrasporti in un luogo vicino al tuo leader.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTeleportOther">
     <description>▶
         <p>Teletrasporti una creatura adiacente in un luogo casuale nelle vicinanze.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTemporalFugue">
     <description>▶
         <p>Passi rapidamente avanti e indietro nel tempo, creando più copie di te stesso.</p>
         <br />
-        <statline Name="Copies" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Copies" DisplayName="Copie" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandQuantumFugue">
@@ -588,9 +591,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Passi rapidamente avanti e indietro nel tempo, creando più copie di te stesso.</p>
         <br />
         <p>Abiti il corpo della copia più in salute quando l'effetto scade.</p>
-        <statline Name="Copies" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Copies" DisplayName="Copie" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTimeDilation">
@@ -601,8 +604,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Distanza 1: le creature ricevono una penalità di <stat Name="QuicknessPenalty1" />% alla Rapidità</p>
         <p>Distanza 4: le creature ricevono una penalità di <stat Name="QuicknessPenalty4" />% alla Rapidità</p>
         <p>Distanza 7: le creature ricevono una penalità di <stat Name="QuicknessPenalty7" />% alla Rapidità</p>
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandWillForceStrength">
@@ -612,8 +615,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Aumenta il tuo attributo Forza di un importo pari al doppio del tuo bonus Ego.</p>
         <br />
         <statline Name="Bonus" DisplayName="Bonus Forza" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandWillForceAgility">
@@ -623,8 +626,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Aumenta il tuo attributo Agilità di un importo pari al doppio del tuo bonus Ego.</p>
         <br />
         <statline Name="Bonus" DisplayName="Bonus Agilità" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandWillForceToughness">
@@ -634,8 +637,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Aumenta il tuo attributo Robustezza di un importo pari al doppio del tuo bonus Ego.</p>
         <br />
         <statline Name="Bonus" DisplayName="Bonus Robustezza" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSpitAcid">
@@ -643,9 +646,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Sputi una pozza di acido corrosivo.</p>
         <br />
         <p>Copre l'area con melma acida.</p>
-        <statline Name="Area" />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBelchUrchins">
@@ -653,16 +656,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rigurgiti vari ricci in un'area vicina.</p>
         <br />
         <statline Name="Amount" DisplayName="Numero di ricci" />
-        <statline Name="Range" />
-        <statline Name="Radius" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Radius" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBurrow">
     <description>▶
         <p>Puoi viaggiare sottoterra scavando.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDecarbonizer">
@@ -672,7 +675,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Spara un raggio dopo un riscaldamento di 3 round che smembra gli arti dei bersagli.</p>
         <br />
         <statline Name="BeamDistance" DisplayName="Distanza del raggio" Unit="spazio" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandScintillate">
@@ -682,7 +685,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Non puoi agire mentre scintilli.</p>
         <br />
         <statline Name="ConfusionRank" DisplayName="Rango di confusione" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandFearAura">
@@ -691,7 +694,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Fai fuggire le creature adiacenti nel terrore.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandStoneGaze">
@@ -700,8 +703,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Spara un raggio dopo un riscaldamento di 3 round che trasforma il bersaglio in pietra.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCrungleGaze">
@@ -710,8 +713,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Spara un raggio dopo un riscaldamento di 3 round che manda il bersaglio in un sogno da sveglio.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandIrisdualBeam">
@@ -719,21 +722,21 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Emetti raggi di potere attraverso lo spettro della luce e della materia.</p>
         <br />
         <p>Spara <stat Name="Beams" /> raggi verso nemici casuali ogni round per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandInfiltrate">
     <description>▶
         <p>Ti teletrasporti in un luogo vicino e porti con te chiunque si trovi nel raggio <stat Name="TeleportRadius" /></p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandMagneticPulse">
     <description>▶
         <p>Dopo un riscaldamento di un round, emetti un impulso con raggio <stat Name="Radius" /> che tenta di attirare oggetti metallici verso di te, incluso l'equipaggiamento indossato dalle creature.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandMassiveCharge">
@@ -741,17 +744,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Dopo un riscaldamento di un round, ti lanci in una carica distruttiva, distruggendo muri e spingendo le creature sul tuo percorso.</p>
         <br />
         <statline Name="Distance" DisplayName="Distanza di carica" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSlog">
     <description>▶
         <p>Spruzzi una pozza di liquido dal tuo spazio in un'area vicina.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
         <statline Name="KnockdownChance" DisplayName="Probabilità di atterrare gli avversari" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSpinWeb">
@@ -760,8 +763,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Mentre tessi, lasci ragnatele sul tuo cammino mentre ti muovi.</p>
         <br />
-        <statline Name="SpinDuration" Unit="azione di movimento" />
-        <statline Name="Cooldown" />
+        <statline Name="SpinDuration" DisplayName="Durata della tessitura" Unit="azione di movimento" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSpinSimpleWeb">
@@ -770,25 +773,25 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Mentre tessi, lasci ragnatele sul tuo cammino mentre ti muovi.</p>
         <br />
-        <statline Name="SpinDuration" Unit="azione di movimento" />
-        <statline Name="Cooldown" />
+        <statline Name="SpinDuration" DisplayName="Durata della tessitura" Unit="azione di movimento" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandStickyTongue">
     <description>▶
         <p>Dopo un riscaldamento di un round, attiri la creatura più vicina verso di te con la lingua.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandWaveformWorm">
     <description>▶
         <p>Ti lanci in una direzione, infliggendo danni alle creature che attraversi.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Damage" DisplayName="Danno" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_ConfusionBreather">
@@ -797,7 +800,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_CorrosiveBreather">
@@ -806,27 +809,27 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_FireBreather">
     <description>▶
         <p>Soffi fuoco.</p>
         <br />
-        <statline Name="Damage" />
+        <statline Name="Damage" DisplayName="Danno" />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_IceBreather">
     <description>▶
         <p>Soffi ghiaccio.</p>
         <br />
-        <statline Name="Damage" />
+        <statline Name="Damage" DisplayName="Danno" />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_NormalityBreather">
@@ -835,7 +838,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_PoisonBreather">
@@ -844,7 +847,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_ShameBreather">
@@ -853,7 +856,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_SleepBreather">
@@ -862,7 +865,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandBreathe_StunBreather">
@@ -871,7 +874,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="ConeLength" DisplayName="Lunghezza del cono" Unit="casella" />
         <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandReleaseAdrenaline">
@@ -879,7 +882,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Aumenti il flusso di adrenalina del tuo corpo per <stat Name="Duration" />.</p>
         <p>Mentre scorre, ottieni +<stat Name="QuicknessBonus" /> rapidità e le altre mutazioni fisiche guadagnano +<stat Name="MutationBonus" /> rango.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDigUp">
@@ -914,9 +917,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Generi un impulso elettromagnetico che disabilita artefatti e macchine nelle vicinanze.</p>
         <br />
-        <statline Name="Area" Unit="centrato su di te" />
+        <statline Name="Area" DisplayName="Area" Unit="centrato su di te" />
         <statline Name="Duration" DisplayName="Durata della disabilitazione" Unit="round" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandFlamingRay">
@@ -924,17 +927,17 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p><stat Name="EmitText" /></p>
         <br />
         <p>Emette un raggio di fiamme di <stat Name="Range" /> quadrati nella direzione scelta.</p>
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Damage" DisplayName="Danno" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandFrostWebs">
     <description>▶
         <p>Riempi un'area vicina di ragnatele ghiacciate.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandSleepGas">
@@ -942,7 +945,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di gas soporifero intorno a te</p>
         <br />
         <p>Rilascia gas soporifero per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandNormalityGas">
@@ -950,7 +953,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di gas di normalità intorno a te</p>
         <br />
         <p>Rilascia gas di normalità per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandAcidGas">
@@ -958,7 +961,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di gas corrosivo intorno a te</p>
         <br />
         <p>Rilascia gas corrosivo per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandPlasma">
@@ -966,7 +969,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di plasma intorno a te</p>
         <br />
         <p>Rilascia plasma per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandDefoliantGas">
@@ -974,7 +977,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di defogliante intorno a te</p>
         <br />
         <p>Rilascia defogliante per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandPoisonGas">
@@ -982,7 +985,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di gas velenoso intorno a te</p>
         <br />
         <p>Rilascia gas velenoso per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandFungicideGas">
@@ -990,7 +993,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di fungicida intorno a te</p>
         <br />
         <p>Rilascia fungicida per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandConfusionGas">
@@ -998,7 +1001,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di gas confusionante intorno a te</p>
         <br />
         <p>Rilascia gas confusionante per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="GasGenerationCommandGlitterGas">
@@ -1006,16 +1009,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Rilasci un'esplosione di glitter intorno a te</p>
         <br />
         <p>Rilascia glitter per <stat Name="Duration" />.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSpitLiquid">
     <description>▶
         <p>Sputi una pozza di <stat Name="Liquid" />.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Area" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandMetamorphosis">
@@ -1023,7 +1026,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Assumi la forma di qualsiasi creatura che tocchi.</p>
         <br />
         <p>Puoi assumere solo la forma di creature di livello <stat Name="MaxLevel" /> o inferiore.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandEndMetamorphosis">
@@ -1033,8 +1036,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Puoi attraversare oggetti solidi per brevi periodi di tempo.</p>
         <br />
-        <statline Name="Duration"></statline>
-        <statline Name="Cooldown"></statline>
+        <statline Name="Duration" DisplayName="Durata"></statline>
+        <statline Name="Cooldown" DisplayName="Tempo di recupero"></statline>
       </description>
   </ability>
   <ability Command="CommandBask">
@@ -1062,9 +1065,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Produci una melma vischiosa che puoi sputare sulle cose.</p>
         <br />
         <p>Copre un'area con melma.</p>
-        <statline Name="Range" />
-        <statline Name="Area" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSting">
@@ -1079,7 +1082,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           <case Value="confusing">Il veleno confonde gli avversari per <stat Name="Duration" />.</case>
           <case Value="poisonous">Il veleno avvelena gli avversari per <stat Name="Duration" />.</case>
         </switch></p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandRepellingForce">
@@ -1087,8 +1090,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Invochi una forza repulsiva nell'area circostante, scagliando indietro i nemici.</p>
         <br />
         <p>Le creature vengono spinte via dal centro dell'esplosione.</p>
-        <statline Name="Area" />
-        <statline Name="Cooldown" />
+        <statline Name="Area" DisplayName="Area" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandFreezingRay">
@@ -1096,8 +1099,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p><stat Name="EmitText" /></p>
         <br />
         <p>Emette un raggio di gelo di <stat Name="Range" /> quadrati nella direzione scelta.</p>
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Damage" DisplayName="Danno" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPowerSwitch">
@@ -1110,8 +1113,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p><stat Name="EmitText" /></p>
         <br />
         <p>Emette un raggio di gelo di <stat Name="Range" /> quadrati nella direzione scelta.</p>
-        <statline Name="Damage" />
-        <statline Name="Cooldown" />
+        <statline Name="Damage" DisplayName="Danno" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDig">
@@ -1130,7 +1133,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         </switch>
         <p>Lo sprint termina prematuramente se compi un'azione fisica diversa dal muoverti o passare.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleTrashRifling">
@@ -1151,7 +1154,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           <default><p>Non puoi saltare sopra le creature.</p></default>
         </switch>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandAxeBerserk">
@@ -1160,7 +1163,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Non puoi usare Berserk se Smembrare è in cooldown, e usare Berserk mette Smembrare in cooldown.</p>
         <p>Devi impugnare un'ascia per attivare.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleDecapitate">
@@ -1176,7 +1179,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="BleedDamage" DisplayName="Danno da sanguinamento" />
         <statline Name="BleedSave" DisplayName="Tiro salvezza sanguinamento" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandAxeHookAndDrag">
@@ -1185,9 +1188,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Se riesci, ogni volta che ti muovi, trascini il tuo avversario con te e fai un attacco gratuito con la tua ascia.</p>
         <p>Il tuo avversario ha la possibilità di resistere al movimento e di liberarsi all'inizio del suo turno.</p>
         <br />
-        <statline Name="DurationSpecial" />
+        <statline Name="DurationSpecial" DisplayName="Durata speciale" />
         <statline Name="ResistSave" DisplayName="Tiro salvezza resistenza movimento / liberarsi" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandButcherToggle">
@@ -1200,10 +1203,10 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Dopo un riscaldamento di 3 round, lanci una lastra di fulcrete a terra, infliggendo danni e creando una fossa nel quadrato bersaglio, con la possibilità di fosse aggiuntive nei quadrati adiacenti.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Damage" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Damage" DisplayName="Danno" />
         <statline Name="AdditionalDirectHitDamage" DisplayName="Danno aggiuntivo da colpo diretto" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSnapjawHowl">
@@ -1211,8 +1214,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Ululati e mandi in frenesia gli snapjaw nelle vicinanze.</p>
         <br />
         <statline Name="Radius" DisplayName="Raggio d'effetto" />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSubmerge">
@@ -1224,7 +1227,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Stordire un avversario già stordito lo tramortisce.</p>
         <p>Colpire un avversario tramortito lo fa perdere conoscenza per 30-40 round (gli avversari privi di sensi si svegliano storditi quando subiscono danni).</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandCudgelSlam">
@@ -1236,7 +1239,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Gli avversari giganteschi non vengono spinti ma vengono comunque storditi per 1 round.</p>
         <p>Distrugge un muro o una porta se la sua VA è inferiore a 5 volte il tuo modificatore Forza.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSmashUp">
@@ -1245,14 +1248,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Non puoi usare Demolisci se Slam è in cooldown, e usare Demolisci mette Slam in cooldown.</p>
         <p>Devi impugnare un manganello per attivare.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandFlurry">
     <description>▶
         <p>Effettui un attacco con ogni arto che impugna un'arma, inclusi gli arti extra concessi da mutazione o tecnologia.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSingleWeaponFighting">
@@ -1262,7 +1265,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Spari <stat Name="Shots" /> colpi con la tua arma pesante, spazzando su un cono di <stat Name="ConeWidth" /> gradi. L'arma pesante viene ricaricata prima di ogni colpo.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandAggressiveStance">
@@ -1283,7 +1286,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Per i prossimi <stat Name="Duration" />, Affondo e Fendente non hanno cooldown.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDuelingStance">
@@ -1303,7 +1306,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Devi impugnare una lama lunga nella mano principale per usare Affondo.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandSwipe">
@@ -1316,16 +1319,16 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Devi impugnare una lama lunga nella mano principale per usare Affondo.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPersuasionBerate">
     <description>▶
         <p>Vergogni una creatura vicina, infliggendole -4 a DV, al colpire, Ego e Volontà, e -10% alla Rapidità.</p>
         <br />
-        <statline Name="Duration" />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandIntimidate">
@@ -1334,7 +1337,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Attacco mentale contro le creature con mente.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandPersuasionMenacingStare">
@@ -1343,8 +1346,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Attacco mentale contro le creature con mente.</p>
         <br />
-        <statline Name="Range" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandProselytize">
@@ -1352,7 +1355,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Persuadi una creatura intelligente ad unirti.</p>
         <br />
         <p>Ego + livello del personaggio vs. MA + livello del personaggio</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandRebukeRobot">
@@ -1360,7 +1363,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Redarguisci un robot facendolo allontanare o unirsi a te.</p>
         <br />
         <p>Attacco basato sull'Ego contro un robot.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleAkimbo">
@@ -1370,8 +1373,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Sparare con una pistola richiede solo mezzo round invece di un round completo.</p>
         <br />
-        <statline Name="Duration" />
-        <statline Name="Cooldown" />
+        <statline Name="Duration" DisplayName="Durata" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandMarkTarget">
@@ -1395,7 +1398,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Se riposi per 10 o più turni, inizi automaticamente a meditare.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandShieldWall">
@@ -1403,7 +1406,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Per i prossimi tre round, blocchi automaticamente tutti gli attacchi mischia in arrivo.</p>
         <br />
         <p>Non può essere usato con i buckler.</p>
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandShieldSlam">
@@ -1412,9 +1415,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Ogni volta che carichi un avversario con uno scudo equipaggiato, ottieni un attacco gratuito di Colpo con Scudo contro di lui.</p>
         <br />
-        <statline Name="Damage" />
+        <statline Name="Damage" DisplayName="Danno" />
         <statline Name="KnockdownSave" DisplayName="Tiro salvezza atterramento" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandHobble">
@@ -1423,7 +1426,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <statline Name="HobbleEffect" DisplayName="Effetto azzoppamento" />
         <statline Name="HobbleDuration" DisplayName="Durata azzoppamento" Unit="round" />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandToggleRejoinder">
@@ -1448,8 +1451,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <description>▶
         <p>Carichi in avanti ed effettui un attacco mischia con +1 al tiro di penetrazione.</p>
         <br />
-        <statline Name="Range" Unit="spazi" />
-        <statline Name="Cooldown" />
+        <statline Name="Range" DisplayName="Raggio" Unit="spazi" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandTacticsJuke">
@@ -1458,7 +1461,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <br />
         <p>Puoi scambiare posizione con creature ostili.</p>
         <br />
-        <statline Name="Cooldown" />
+        <statline Name="Cooldown" DisplayName="Tempo di recupero" />
       </description>
   </ability>
   <ability Command="CommandDeployTurret">

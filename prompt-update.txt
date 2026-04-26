@@ -44,7 +44,7 @@ MANDATORY RULES:
    - Formatting
    - Special placeholders (=variable=, {{C|...}}, etc.)
 
-7. Output a COMPLETE updated X.it.xml file.
+7. Update the existing X.it.xml file. DO NOT PRINT OUTPUT ALL FILE CONTENT!
 
 ---
 

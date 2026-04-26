@@ -2830,11 +2830,10 @@
         "cerimonie"
       ],
       "services=": [
-        "servizi",
-        "servizio",
-        "assistenza",
-        "opera",
-        "lavoro"
+        "il servizio",
+        "l'assistenza",
+        "l'opera",
+        "il lavoro"
       ],
       "helping=": [
         "aiutando",
@@ -2857,11 +2856,11 @@
         "raccolse"
       ],
       "learnedOf=": [
-        "apprese di",
-        "venne a sapere di",
-        "scoprì",
-        "venne a conoscenza di",
-        "si imbatté in"
+        "abbiamo appreso di",
+        "siamo venuti a sapere di",
+        "abbiamo scoperto di",
+        "siamo venuti a conoscenza di",
+        "ci siamo imbattuti in"
       ],
       "visited=": [
         "visitò",
@@ -5115,7 +5114,7 @@
             "mi dicono che =item.them= =item.verb:have= è stato portato a =deliveryTarget="
           ],
           "rewardYou=": [
-            "ricompenseremo i tuoi =spice:commonPhrases.services.!random="
+            "ricompenseremo =spice:commonPhrases.services.!random="
           ]
         },
         "personal": {
@@ -5156,9 +5155,9 @@
             "=subject.fragment:NeedsItemFor=, =spice:instancesOf.wouldLikeTo.!random= =spice:instancesOf.have.!random= =item.them="
           ],
           "ifYouRetrieveIt=": [
-            "se =spice:commonPhrases.retrieve.!random= =item.them= per me, =spice:instancesOf.reward.!random= i tuoi =spice:commonPhrases.services.!random=",
-            "recupera =item.them= e =spice:instancesOf.reward.!random= i tuoi =spice:commonPhrases.services.!random=",
-            "sono disposto a =spice:instancesOf.reward.!random= i tuoi =spice:commonPhrases.services.!random= se =spice:commonPhrases.retrieve.!random= =item.them= per me"
+            "se =spice:commonPhrases.retrieve.!random= =item.them= per me, vi sarà =spice:instancesOf.reward.!random= per =spice:commonPhrases.services.!random=",
+            "recupera =item.them= e vi sarà =spice:instancesOf.reward.!random= per =spice:commonPhrases.services.!random=",
+            "sono disposto a dare =spice:instancesOf.reward.!random= per =spice:commonPhrases.services.!random= se =spice:commonPhrases.retrieve.!random= =item.them= per me"
           ],
           "willYouDoIt=": [
             "lo farai?",
@@ -5174,7 +5173,7 @@
             "=spice:quests.FindaSpecificItem.personal.intro.!random="
           ],
           "cameToOurVillage=": [
-            "alcuni =spice:personNouns.!random|pluralize= =spice:commonPhrases.traveling.!random= vennero al nostro villaggio l'altro giorno"
+            "alcuni =spice:personNouns.!random|pluralize= =spice:commonPhrases.traveling.!random= sono venuti al nostro villaggio l'altro giorno"
           ],
           "spokeOfPlace=": [
             "mentre =sample.fragment:GuestActivity:breaking bread=, parlarono di un luogo =spice:commonPhrases.interesting.!random=, =siteName="
@@ -5184,21 +5183,21 @@
             "saresti disposto a localizzarlo?"
           ],
           "greatBoon=": [
-            "sarebbe un grande =spice:commonPhrases.gift.!random= per le prospettive =spice:instancesOf.villageActivityAdj.!random= del nostro villaggio"
+            "sarebbe un grande =spice:commonPhrases.gift.!random= per le prospettive nell'ambito =spice:instancesOf.villageActivityAdj.!random= del nostro villaggio"
           ],
           "rewardYou=": [
-            "ricompenseremo i tuoi =spice:commonPhrases.services.!random="
+            "ricompenseremo =spice:commonPhrases.services.!random="
           ]
         },
         "records": {
           "intro=": [
-            "=spice:commonPhrases.adventurer.!random=, siamo stati a =^:poringOver.!random= e abbiamo =^:weHaveLearned.!random= un luogo nelle vicinanze dimenticato dal nostro popolo, =siteName|initLowerIfArticle="
+            "=spice:commonPhrases.adventurer.!random=, siamo stati a =^:poringOver.!random= e =^:weHaveLearned.!random= un luogo nelle vicinanze dimenticato dal nostro popolo, =siteName|initLowerIfArticle="
           ],
           "whatTreasures=": [
             "quali =spice:commonPhrases.treasures.!random= potrebbe =spice:commonPhrases.hold.!random= questo luogo"
           ],
           "ifYouFindIt=": [
-            "se lo =spice:commonPhrases.find.!random= per noi, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random="
+            "se lo riuscissi =spice:commonPhrases.find.!random= per noi, =spice:quests.FindaSpecificItem.sacred.rewardYou.!random="
           ],
           "poringOver=": [
             "esaminare i nostri registri",
@@ -5207,7 +5206,7 @@
             "parlare con =spice:personNouns.!random|pluralize="
           ],
           "weHaveLearned=": [
-            "abbiamo =spice:commonPhrases.learnedOf.!random="
+            "=spice:commonPhrases.learnedOf.!random="
           ]
         },
         "typeOfDirections": {
@@ -5254,7 +5253,7 @@
             "=spice:instancesOf.willYou.!random="
           ],
           "rewardYou=": [
-            "ricompenseremo i tuoi =spice:commonPhrases.services.!random="
+            "ricompenseremo =spice:commonPhrases.services.!random="
           ]
         },
         "strangeplan": {
@@ -5279,7 +5278,7 @@
             "ho bisogno che qualcuno vada a =deliveryTarget= e =verb= =item.the.name|strip= lì"
           ],
           "IRewardYou=": [
-            "ricompenserò i tuoi =spice:commonPhrases.services.!random="
+            "ti ricompenserò =spice:commonPhrases.services.!random="
           ],
           "byThe_TellNoOne=": [
             "per =sacredThing=, =^:tellNoOne.!random=",
