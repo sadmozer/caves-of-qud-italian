@@ -40,7 +40,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Ti teletrasporti in un luogo vicino e porti con te chiunque si trovi nel raggio <stat Name="TeleportRadius" />.</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Heat Absorption" DisplayName="▶Assorbimento del Calore" BearerDescription="▶coloro che assorbono il calore">
@@ -98,7 +98,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Poison Gas Generation" DisplayName="▶Generazione di Gas Tossico" BearerDescription="▶coloro che espellono gas tossico">
@@ -112,7 +112,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Defoliant Generation" DisplayName="▶Generazione di Defogliante" BearerDescription="▶coloro che espellono defogliante">
@@ -126,7 +126,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Fungicide Generation" DisplayName="▶Generazione di Fungicida" BearerDescription="▶coloro che espellono fungicida">
@@ -140,7 +140,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Confusion Gas Generation" DisplayName="▶Generazione di Gas Confusionante" BearerDescription="▶coloro che espellono gas confusionante">
@@ -154,7 +154,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Normality Gas Generation" DisplayName="▶Generazione di Gas di Normalità" BearerDescription="▶coloro che espellono gas di normalità">
@@ -168,7 +168,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Glitter Dust Generation" DisplayName="▶Generazione di Polvere Glitterata" BearerDescription="▶coloro che espellono polvere glitterata">
@@ -182,7 +182,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
   </category>
@@ -202,9 +202,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Invochi una forza repulsiva nell'area circostante, scagliando indietro i nemici.</p>
           </description>
       <leveltext>▶
-            <statline Name="Area" />
+            <statline Name="Area" DisplayName="▶Area" />
             <p><switch Name="LevelMatch"><case Value="true">Le creature vengono spinte via dal centro dell'esplosione.</case><default>{{rules|Aumentata forza di spinta}}</default></switch></p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
   </category>

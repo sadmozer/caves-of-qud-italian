@@ -45,7 +45,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <p>Puoi aumentare il flusso di adrenalina del tuo corpo per <stat Name="Duration" />.</p>
             <p>Mentre scorre, ottieni +<stat Name="QuicknessBonus" /> rapidità e le altre mutazioni fisiche guadagnano +<stat Name="MutationBonus" Unit="rank" />.</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Beak" DisplayName="▶Becco" BearerDescription="▶coloro con il becco">
@@ -96,7 +96,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Double-muscled" DisplayName="▶Doppia Muscolatura" BearerDescription="▶i dalla doppia muscolatura">
@@ -129,8 +129,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Area: <stat Name="Area" /> centrata intorno a te</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Flaming Ray" DisplayName="▶Raggio di Fiamme" BearerDescription="▶coloro dalle mani infuocate">
@@ -139,8 +139,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Emette un raggio di fiamme di <stat Name="Range" /> quadrati nella direzione scelta.</p>
-            <statline Name="Damage" />
-            <statline Name="Cooldown" />
+            <statline Name="Damage" DisplayName="▶Damage" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Gli attacchi mischia riscaldano gli avversari di <stat Name="HeatOnHit" Unit="grado" /></p>
           </leveltext>
     </mutation>
@@ -150,8 +150,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Emette un raggio di gelo di <stat Name="Range" /> quadrati nella direzione scelta.</p>
-            <statline Name="Damage" />
-            <statline Name="Cooldown" />
+            <statline Name="Damage" DisplayName="▶Damage" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Gli attacchi mischia raffreddano gli avversari di <stat Name="CoolOnHit" Unit="grado" /></p>
           </leveltext>
     </mutation>
@@ -197,7 +197,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Puoi assumere solo la forma di creature di livello <stat Name="MaxLevel" /> o inferiore.</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Multiple Arms" DisplayName="▶Braccia Multiple" BearerDescription="▶i dalle braccia multiple">
@@ -228,8 +228,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Puoi attraversare oggetti solidi per brevi periodi di tempo.</p>
           </description>
       <leveltext>▶
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Photosynthetic Skin" DisplayName="▶Pelle Fotosintetica" BearerDescription="▶i dalla pelle verde">
@@ -290,7 +290,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="lower"><p>{{rules|Diminuito <stat Name="LevelEffectDescription" />}}</p></case>
               <default></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Slime Glands" DisplayName="▶Ghiandole di Melma" BearerDescription="▶sputatori di melma">
@@ -298,9 +298,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Produci una melma vischiosa che puoi sputare sulle cose.</p>
             <p></p>
             <p>Copre un'area con melma</p>
-            <statline Name="Range" />
-            <statline Name="Area" />
-            <statline Name="Cooldown" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Area" DisplayName="▶Area" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Puoi camminare sulla melma senza scivolare.</p>
           </description>
       <leveltext></leveltext>
@@ -317,7 +317,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             </switch>
             <statline Name="SpinDuration" DisplayName="Durata" Unit="azione di movimento" />
             <saveline Name="MoveSave" />
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Sei immune all'impigliamento.</p>
             <p>+300 reputazione con {{w|arachnids}}</p>
           </leveltext>
@@ -538,9 +538,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <p>Attacco mentale contro una creatura con una mente</p>
             <p>Tiro di successo: {{rules|rango mutazione}} o mod Ego (il più alto) + livello personaggio + 1d8 VS. MA del difensore + livello personaggio</p>
-            <statline Name="Range" />
+            <statline Name="Range" DisplayName="▶Range" />
             <p>Creatura affascinata: +<stat Name="BonusHP" /> punti ferita bonus</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Burgeoning" DisplayName="▶Germogliare" BearerDescription="▶giardinieri psichici" BiomeAdjective="▶rigoglioso">
@@ -548,9 +548,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Fai crescere spontaneamente piante in un'area vicina, intralciando i tuoi nemici.</p>
           </description>
       <leveltext>▶
-            <statline Name="Range" />
+            <statline Name="Range" DisplayName="▶Range" />
             <p>Area: <stat Name="Area" /> + crescita nelle caselle adiacenti</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <switch Name="LevelMatch">
               <case Value="true"></case>
               <default><p>{{rules|Piante più potenti evocate}}</p></default>
@@ -563,7 +563,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <statline Name="VisionRadius" DisplayName="Raggio di visione" />
             <statline Name="VisionDuration" DisplayName="Durata della visione" Unit="round" />
-            <statline Name="Cooldown" Unit="round" />
+            <statline Name="Cooldown" Unit="round" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Confusion" DisplayName="▶Confusione" BearerDescription="▶gli enigmatici" BiomeEpithet="▶labirinto psichico">
@@ -572,8 +572,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Le creature colpite agiscono in modo semi-casuale e ricevono una penalità di -<stat Name="Penalty" /> alle loro abilità mentali.</p>
             <statline Name="ConeAngle" DisplayName="Angolo del cono" Unit="grado" />
             <statline Name="ConeLength" DisplayName="Lunghezza del cono" />
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Cryokinesis" DisplayName="▶Criocinesi" BearerDescription="▶criosaghi" BiomeEpithet="▶prato di gelo">
@@ -584,22 +584,22 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="raise"><p>{{rules|Aumentata intensità della temperatura di raffreddamento}}</p></case>
               <default><p>{{rules|Diminuita intensità della temperatura di raffreddamento}}</p></default>
             </switch>
-            <statline Name="Range" />
-            <statline Name="Area" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Area" DisplayName="▶Area" />
             <statline Name="DamageRound1" DisplayName="Danno al round 1" />
             <statline Name="DamageRound2" DisplayName="Danno al round 2" />
             <statline Name="DamageRound3" DisplayName="Danno al round 3" />
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Disintegration" DisplayName="▶Disintegrazione" BearerDescription="▶disintegratori" BiomeAdjective="▶in rapida risonanza">
       <description>▶Disintegri la materia nelle vicinanze.</description>
       <leveltext>▶
-            <statline Name="Area" />
+            <statline Name="Area" DisplayName="▶Area" />
             <statline Name="DamageNonStructural" DisplayName="Danno agli oggetti non strutturali" />
             <statline Name="DamageStructural" DisplayName="Danno agli oggetti strutturali" />
             <p>Sei esausto per 3 round dopo aver usato questo potere.</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Domination" DisplayName="▶Dominazione" BearerDescription="▶coloro che dominano le volontà altrui" BiomeEpithet="▶teatro delle volontà">
@@ -610,24 +610,24 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Attacco mentale contro una creatura con una mente</p>
             <p>Tiro di successo: {{rules|rango mutazione}} o mod Ego (il più alto) + livello personaggio + 1d8 VS. MA del difensore + livello personaggio</p>
             <p>Portata: 1</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Ego Projection" DisplayName="▶Proiezione dell'Ego" BearerDescription="▶coloro che proiettano il proprio ego nel mondo fisico" BiomeAdjective="▶psichicamente rifrattivo">
       <description>▶Attraverso la pura forza di volontà, compi prodezze fisiche soprannaturali.</description>
       <leveltext>▶
             <p>Potenzia un attributo fisico di un importo pari al doppio del tuo bonus Ego</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Force Bubble" DisplayName="▶Bolla di Forza" BearerDescription="▶gente bolla" BiomeAdjective="▶gorgogliante">
       <description>▶Generi un campo di forza intorno a te.</description>
       <leveltext>▶
             <p>Crea un campo di forza 3x3 centrato su di te</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Puoi sparare con armi missilistiche attraverso il campo di forza.</p>
           </leveltext>
     </mutation>
@@ -635,8 +635,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <description>▶Generi un muro di forza che ti protegge dai nemici.</description>
       <leveltext>▶
             <p>Crea 9 quadrati contigui di campo di forza immobile.</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Puoi sparare con armi missilistiche attraverso il campo di forza.</p>
           </leveltext>
     </mutation>
@@ -644,8 +644,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <description>▶
             <p>Accendi un piccolo fuoco con la tua mente.</p>
             <p></p>
-            <statline Name="Range" />
-            <statline Name="Cooldown" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </description>
       <leveltext></leveltext>
     </mutation>
@@ -668,7 +668,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
           </description>
       <leveltext>▶
             <p>Ricarica tutte le mutazioni mentali</p>
-            <statline Name="CooldownNoWillpower" Unit="round" />
+            <statline Name="CooldownNoWillpower" Unit="round" DisplayName="▶CooldownNoWillpower" />
             <p>Il tempo di recupero non è influenzato dalla Volontà.</p>
             <p>Ogni uso attira leggermente più attenzione da intrusi psichici.</p>
             <p><switch Name="LevelMatch"><case Value="true">Piccola possibilità ogni round che un altro esper rubi i tuoi poteri</case><default>{{rules|Diminuita possibilità che un altro esper rubi i tuoi poteri}}</default></switch></p>
@@ -682,7 +682,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <p>Quando subisci un attacco mentale mentre lo Specchio Mentale non è in cooldown, ottieni +<stat Name="BonusMA" /> armatura mentale (MA).</p>
             <p>Se l'attacco non riesce a penetrare il tuo MA, viene riflesso verso il tuo attaccante.</p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Precognition" DisplayName="▶Precognizione" BearerDescription="▶i precognitivi" BiomeEpithet="▶sito futuro">
@@ -692,7 +692,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <p>Puoi attivare questo potere e poi tornare al momento in cui l'hai attivato.</p>
             <p>Durata tra l'uso e il ripristino: <stat Name="Duration" /></p>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Psychometry" DisplayName="▶Psicometria" BearerDescription="▶i psicometricamente sensibili" BiomeAdjective="▶retrocognato">
@@ -715,12 +715,12 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="raise"><p>{{rules|Aumentata intensità della temperatura di tostatura}}</p></case>
               <default><p>{{rules|Diminuita intensità della temperatura di tostatura}}</p></default>
             </switch>
-            <statline Name="Range" />
-            <statline Name="Area" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Area" DisplayName="▶Area" />
             <statline Name="DamageRound1" DisplayName="Danno al round 1" />
             <statline Name="DamageRound2" DisplayName="Danno al round 2" />
             <statline Name="DamageRound3" DisplayName="Danno al round 3" />
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Sense Psychic" DisplayName="▶Percepire il Psichico" BearerDescription="▶i psichicamente sensibili" BiomeAdjective="▶nudo">
@@ -742,7 +742,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
               <case Value="0"></case>
               <default><statline Name="BonusDuration" DisplayName="Durata bonus" Unit="round" /></default>
             </switch>
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
             <p>Puoi entrare nel vortice per teletrasportarti in un luogo casuale di Qud.</p>
             <p>+200 reputazione con {{w|highly entropic beings}}</p>
           </leveltext>
@@ -752,14 +752,14 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Invochi una forza concussiva in un'area vicina, scagliando indietro i nemici e stordendoli.</p>
           </description>
       <leveltext>▶
-            <statline Name="Range" />
-            <statline Name="Area" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Area" DisplayName="▶Area" />
             <switch Name="LevelMatch">
               <case Value="true"><p>Le creature vengono spinte via dal centro dell'esplosione, stordite e subiscono danni da schiacciamento in fino a 3 incrementi.</p></case>
               <default><p>{{rules|Aumentata difficoltà del tiro salvezza stordimento}}</p></default>
             </switch>
             <statline Name="DamageIncrement" DisplayName="Incremento di danno" />
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Sunder Mind" DisplayName="▶Spacca Mente" BearerDescription="▶spaccatori di mente" BiomeEpithet="▶cimitero psichico">
@@ -772,8 +772,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Ogni round effettui un attacco mentale vs armatura mentale (MA).</p>
             <statline Name="DamageIncrement" DisplayName="Incremento di danno" />
             <p>Dopo il decimo round, infliggi danni bonus pari alla quantità totale di danni che hai inflitto finora.</p>
-            <statline Name="Range" />
-            <statline Name="Cooldown" />
+            <statline Name="Range" DisplayName="▶Range" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Syphon Vim" DisplayName="▶Sifonare la Vitalità" BearerDescription="▶succiatori di vita" BiomeEpithet="▶campo di strage">
@@ -784,8 +784,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Attacco mentale contro una creatura organica</p>
             <p>Drena <stat Name="HP" Unit="punto ferita" /> per round</p>
             <p>Il bersaglio fa un tiro salvezza mentale per resistere al danno ogni round</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Telepathy" DisplayName="▶Telepatia" BearerDescription="▶i telepatici" BiomeAdjective="▶telepatico">
@@ -804,7 +804,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
       <leveltext>▶
             <p>Ti teletrasporti in un luogo casuale all'interno di un'area designata.</p>
             <statline Name="UncertaintyRadius" DisplayName="Raggio di incertezza" />
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Teleport Other" DisplayName="▶Teletrasporto Altrui" BearerDescription="▶coloro che teletrasportano gli altri" BiomeEpithet="▶eremo">
@@ -812,7 +812,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Teletrasporti una creatura adiacente in un luogo casuale nelle vicinanze.</p>
           </description>
       <leveltext>▶
-            <statline Name="Cooldown" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Time Dilation" DisplayName="▶Dilatazione Temporale" BearerDescription="▶dilatatori del tempo" BiomeEpithet="▶prisma del tempo">
@@ -824,8 +824,8 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Distanza 1: le creature ricevono una penalità di <stat Name="QuicknessPenalty1" />% alla Rapidità</p>
             <p>Distanza 4: le creature ricevono una penalità di <stat Name="QuicknessPenalty4" />% alla Rapidità</p>
             <p>Distanza 7: le creature ricevono una penalità di <stat Name="QuicknessPenalty7" />% alla Rapidità</p>
-            <statline Name="Duration" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
     <mutation Name="Temporal Fugue" DisplayName="▶Fuga Temporale" BearerDescription="▶fuggiaschi temporali" BiomeEpithet="▶hub spaziotemporale">
@@ -833,9 +833,9 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
             <p>Passi rapidamente avanti e indietro nel tempo, creando più copie di te stesso.</p>
           </description>
       <leveltext>▶
-            <statline Name="Duration" />
-            <statline Name="Copies" />
-            <statline Name="Cooldown" />
+            <statline Name="Duration" DisplayName="▶Duration" />
+            <statline Name="Copies" DisplayName="▶Copies" />
+            <statline Name="Cooldown" DisplayName="▶Cooldown" />
           </leveltext>
     </mutation>
   </category>
