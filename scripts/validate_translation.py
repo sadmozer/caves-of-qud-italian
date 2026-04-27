@@ -56,8 +56,9 @@ def check_placeholders(en_text, it_text, file):
 
 
 def compare_elements(en_elem, it_elem, file):
-    en_children = list(en_elem)
-    it_children = list(it_elem)
+    # Skip XML comment nodes — they're not translatable content
+    en_children = [c for c in en_elem if not callable(c.tag)]
+    it_children = [c for c in it_elem if not callable(c.tag)]
 
     if en_elem.tag != it_elem.tag:
         errors.append(
@@ -116,8 +117,14 @@ def compare_elements(en_elem, it_elem, file):
                 )
 
         if len(en_children) == 0:
+            # Skip strings where EN text == ID: these are intentional passthroughs
+            # (proper nouns, game-specific terms that need no translation)
+            en_id = en_elem.get("ID", "")
+            en_text_bare = en_text.lstrip("▶").strip()
+            passthrough = en_id and en_text_bare == en_id.strip()
             if (
-                en_text
+                not passthrough
+                and en_text
                 and it_text
                 and len(en_text) > 3
                 and re.search(r"[A-Za-z]", en_text)
