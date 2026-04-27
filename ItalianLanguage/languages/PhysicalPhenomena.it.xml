@@ -143,6 +143,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
   <object Name="Frigid Mist" Load="Merge">
     <part Name="Render" DisplayName="▶nebbia gelante" />
     <part Name="Description" Short="▶L'aria si incrina sotto un gorgo e soffia umidità super-raffreddata in polvere scintillante." />
+    <xtagGrammar massNoun="▶true" />
   </object>
   <object Name="Space-Time Anomaly" Load="Merge">
     <part Name="Render" DisplayName="▶vortice spaziotemporale" />

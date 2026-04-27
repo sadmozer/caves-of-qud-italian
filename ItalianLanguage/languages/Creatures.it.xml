@@ -1489,7 +1489,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.18
   <object Name="Traipsing Mortar" Load="Merge">
     <part Name="Render" DisplayName="▶{{c|mortaio ambulante}}" />
     <part Name="Description" Short="▶Un tubo di mortaio smaltato con bolle di fuoco rimbalza su un supporto giroscopico tra un paio di calciatori dagli zoccoli cromati." />
-    <part Name="FabricateFromSelf" NameForStatus="▶FabbricazioneMunizioni" />
+    <part Name="FabricateFromSelf" FabricateAlternateSource="▶detriti e rottami" NameForStatus="▶FabbricazioneMunizioni" />
   </object>
   <object Name="TraipsingMortar_LaunchAssembly" Load="Merge">
     <part Name="Render" DisplayName="▶assemblaggio di lancio" />

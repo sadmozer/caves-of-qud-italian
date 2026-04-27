@@ -66,11 +66,21 @@ def compare_elements(en_elem, it_elem, file):
             f"{en_elem.tag} != {it_elem.tag}"
         )
 
-    if sorted(en_elem.attrib.keys()) != sorted(it_elem.attrib.keys()):
+    en_attr_keys = set(en_elem.attrib.keys())
+    it_attr_keys = set(it_elem.attrib.keys())
+    missing_attrs = en_attr_keys - it_attr_keys
+    extra_attrs = it_attr_keys - en_attr_keys
+    if missing_attrs:
         errors.append(
             f"[Line {en_elem.sourceline}] "
             f"Attribute mismatch in {file}: "
-            f"{en_elem.tag}"
+            f"{en_elem.tag} missing attrs {sorted(missing_attrs)}"
+        )
+    elif extra_attrs:
+        warnings.append(
+            f"[Line {en_elem.sourceline}] "
+            f"IT-only attributes in {file}: "
+            f"{en_elem.tag} extra attrs {sorted(extra_attrs)}"
         )
 
     for attr in KEY_ATTRS:
@@ -145,7 +155,7 @@ def compare_elements(en_elem, it_elem, file):
                 label = f"ID='{id_}'" if id_ else f"Name='{name}'"
                 if ctx:
                     label += f" Context='{ctx}'"
-                errors.append(
+                warnings.append(
                     f"[Line {en_elem.sourceline}] "
                     f"Extra in IT translation {file}: {label}"
                 )
