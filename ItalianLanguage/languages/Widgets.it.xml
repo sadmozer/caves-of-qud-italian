@@ -20,6 +20,21 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
 
 -->
 <objects Lang="it" Encoding="utf-8">
+  <object Name="LandmarkJoppaIrudadHut" Load="Merge">
+    <part Name="ZoneLandmarkBox" DisplayName="▶capanna" Preposition="▶in" />
+  </object>
+  <object Name="LandmarkJoppaArgyveWorkshop" Load="Merge">
+    <part Name="ZoneLandmarkBox" DisplayName="▶officina" Preposition="▶in" />
+  </object>
+  <object Name="LandmarkJoppaTamTent" Load="Merge">
+    <part Name="ZoneLandmarkBox" DisplayName="▶tenda" Preposition="▶in" />
+  </object>
+  <object Name="LandmarkJoppaWatervine" Load="Merge">
+    <part Name="ZoneLandmarkGroup" DisplayName="▶macchia di vite acquatica" Preposition="▶presso" />
+  </object>
+  <object Name="LandmarkJoppaMill" Load="Merge">
+    <part Name="ZoneLandmarkBox" DisplayName="▶mulino del villaggio" Preposition="▶presso" />
+  </object>
   <object Name="CoralPolypSpawner" Load="Merge">
     <part Name="Render" DisplayName="▶polipo corallino" />
   </object>
