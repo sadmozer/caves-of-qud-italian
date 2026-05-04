@@ -3613,10 +3613,10 @@ Ehi, posso interessarti a qualche merce del Consorzio?
 ▶Potrei essere disposto a commerciare.
   </string>
   <string Context="Conversation Arconaut.Start.Text.Text11" ID="{{emote|*shakes =pronouns.possessive= head*}}">
-▶{{emote|*scuote =pronouns.possessive= testa*}}
+▶{{emote|*scuote la testa*}}
   </string>
   <string Context="Conversation Arconaut.Start.Text.Text12" ID="{{emote|*puts a finger to =pronouns.possessive= lips*}}">
-▶{{emote|*porta un dito alle =pronouns.possessive= labbra*}}
+▶{{emote|*porta un dito alle labbra*}}
   </string>
   <string Context="Conversation Arconaut.Start.Text.Text13" ID="I'm armed. Don't try anything.">
 ▶Sono armato. Non tentare nulla.
@@ -5049,7 +5049,7 @@ Sei elevato a Discepolo, =player.formalAddressTerm=. Barathrum desidera parlarti
 ▶Sono occupato, viandante. Parla con Mafeo nella piazza commerciale se hai bisogno di qualcosa.
   </string>
   <string Context="Conversation Otho.Start18.Text" ID="=factionaddress:Barathrumites|capitalize=! You have my deepest gratitude. Few =player.personTerm|pluralize= could have defended Grit Gate so deftly.&#xA;&#xA;Now, give me time to assess our losses and consult with Barathrum. Return soon.">
-▶=factionaddress:Barathrumites|capitalize=! Hai la mia più profonda gratitudine. Raramente un =player.personTerm= avrebbe saputo difendere Grit Gate con tale destrezza.
+▶=factionaddress:Barathrumites|capitalize=! Hai la mia più profonda gratitudine. Raramente =player.personTerm= avrebbe saputo difendere Grit Gate con tale destrezza.
 
 Ora, dammi il tempo di valutare le nostre perdite e consultarmi con Barathrum. Torna presto.
   </string>
@@ -5224,7 +5224,7 @@ Agisci velocemente, =name=! Il Templar si avvicina anche mentre parliamo.
 ▶Me ne vado.
   </string>
   <string Context="Conversation Sparafucile.Start2.Text" ID="{{emote|*Sparafucile gives =pronouns.possessive= carbine a once-over and gives you a resolute nod.*}}">
-▶{{emote|*Sparafucile dà un'occhiata alla =pronouns.possessive= carabina e ti fa un cenno risoluto.*}}
+▶{{emote|*Sparafucile dà un'occhiata alla carabina e ti fa un cenno risoluto.*}}
   </string>
   <string Context="Conversation Sparafucile.Start2.EndChoice.Text" ID="*nod back*">
 ▶*cenno di risposta*
@@ -5290,15 +5290,15 @@ Agisci velocemente, =name=! Il Templar si avvicina anche mentre parliamo.
 ▶Abbastanza giusto, amico.
   </string>
   <string Context="Conversation Sparafucile.SparaSusa.Text" ID="{{emote|*Sparafucile instructs you to wait, and spends a minute or so rifling through the papers and scraps scattered across =pronouns.possessive= workbench. At last =pronouns.subjective= produces a graphite sketch of a cylinder, an expertly-rendered specular revealing its surface to be shiny like glass. The detail of the cylinder's contents are indistinct and dark, but somehow menacing.*}}&#xA;&#xA;{{emote|*Sparafucile points to the glass and makes a breaking motion, then draws a thumb across =pronouns.possessive= throat.*}}">
-▶{{emote|*Sparafucile ti invita ad aspettare, e trascorre un minuto circa frugando tra i fogli e i rottami sparsi sul =pronouns.possessive= banco di lavoro. Alla fine =pronouns.subjective= produce uno schizzo al grafite di un cilindro, uno specchio magistralmente reso che rivela una superficie lucida come il vetro. I dettagli del contenuto del cilindro sono indistinti e scuri, ma in qualche modo minacciosi.*}}
+▶{{emote|*Sparafucile ti invita ad aspettare, e trascorre un minuto circa frugando tra i fogli e i rottami sparsi sul banco di lavoro. Alla fine =pronouns.subjective= produce uno schizzo al grafite di un cilindro, uno specchio magistralmente reso che rivela una superficie lucida come il vetro. I dettagli del contenuto del cilindro sono indistinti e scuri, ma in qualche modo minacciosi.*}}
 
-{{emote|*Sparafucile indica il vetro e fa un gesto di rottura, poi si passa il pollice attraverso la =pronouns.possessive= gola.*}}
+{{emote|*Sparafucile indica il vetro e fa un gesto di rottura, poi si passa il pollice attraverso la gola.*}}
   </string>
   <string Context="Conversation Sparafucile.SparaSusa.SparaNodChoice.Text" ID="I'll have to be careful of... glass tubes?">
 ▶Dovrò fare attenzione a... tubi di vetro?
   </string>
   <string Context="Conversation Sparafucile.SparaFam.Text" ID="{{emote|*Sparafucile gives you a warm smile and a firm nod. Pressing both pointers to their respective thumbs, =pronouns.subjective= taps these finger-circles together before =pronouns.possessive= chest and rotates both hands in place until the smallest of =pronouns.possessive= long fingers touch. Finally, =pronouns.subjective= gestures toward the other Barathrumites working at their stations.*}}">
-▶{{emote|*Sparafucile ti sorride calorosamente e annuisce con decisione. Premendo entrambi gli indici sui rispettivi pollici, batte questi cerchi di dita davanti al =pronouns.possessive= petto e ruota entrambe le mani al loro posto finché il più piccolo delle =pronouns.possessive= dita lunghe si tocca. Infine, =pronouns.subjective= indica gli altri Barathrumiti al lavoro alle loro postazioni.*}}
+▶{{emote|*Sparafucile ti sorride calorosamente e annuisce con decisione. Premendo entrambi gli indici sui rispettivi pollici, batte questi cerchi di dita davanti al petto e ruota entrambe le mani al loro posto finché il più piccolo delle dita lunghe si tocca. Infine, =pronouns.subjective= indica gli altri Barathrumiti al lavoro alle loro postazioni.*}}
   </string>
   <string Context="Conversation Sparafucile.SparaFam.idkSpara.Text" ID="I don't understand. Can you explain aloud?">
 ▶Non capisco. Puoi spiegare ad alta voce?
@@ -5310,19 +5310,19 @@ Agisci velocemente, =name=! Il Templar si avvicina anche mentre parliamo.
 ▶Se posso cambiare argomento...
   </string>
   <string Context="Conversation Sparafucile.PraiseCarbine.Text" ID="{{emote|*Sparafucile smiles. =pronouns.Subjective= raises a flat hand to =pronouns.possessive= chin and lowers it in your direction.*}}">
-▶{{emote|*Sparafucile sorride. =pronouns.Subjective= alza una mano piatta verso il =pronouns.possessive= mento e la abbassa nella tua direzione.*}}
+▶{{emote|*Sparafucile sorride. =pronouns.Subjective= alza una mano piatta verso il mento e la abbassa nella tua direzione.*}}
   </string>
   <string Context="Conversation Sparafucile.PraiseCarbine.WelcomeSpara.Text" ID="You are welcome.">
 ▶Prego.
   </string>
   <string Context="Conversation Sparafucile.Sparatopics.Text" ID="{{emote|*With a nod, Sparafucile waits for you to continue, keeping =pronouns.possessive= eyes focused on your lips.*}}">
-▶{{emote|*Con un cenno, Sparafucile aspetta che tu continui, mantenendo il =pronouns.possessive= sguardo sulle tue labbra.*}}
+▶{{emote|*Con un cenno, Sparafucile aspetta che tu continui, mantenendo lo sguardo sulle tue labbra.*}}
   </string>
   <string Context="Conversation Sparafucile.Sparatopics.MoufSpara.Text" ID="Why are you staring at my mouth?">
 ▶Perché fissi la mia bocca?
   </string>
   <string Context="Conversation Sparafucile.QuietBear.Text" ID="{{emote|*Sparafucile places a closed fist over =pronouns.possessive= mouth, then taps =pronouns.possessive= ear, then muzzle with one long finger.*}}">
-▶{{emote|*Sparafucile porta un pugno chiuso alla =pronouns.possessive= bocca, poi tocca il =pronouns.possessive= orecchio, poi il muso con un lungo dito.*}}
+▶{{emote|*Sparafucile porta un pugno chiuso alla bocca, poi tocca l'orecchio, poi il muso con un lungo dito.*}}
   </string>
   <string Context="Conversation Sparafucile.QuietBear.oicSpara.Text" ID="You are... unable to hear or speak.">
 ▶Sei... incapace di sentire o parlare.
@@ -5337,7 +5337,7 @@ Agisci velocemente, =name=! Il Templar si avvicina anche mentre parliamo.
 ▶Eppure sei un esperto nel tuo campo? Che ispirazione!
   </string>
   <string Context="Conversation Sparafucile.Miscongenitality.Text" ID="{{emote|*Sparafucile shakes =pronouns.possessive= head.*}}">
-▶{{emote|*Sparafucile scuote la =pronouns.possessive= testa.*}}
+▶{{emote|*Sparafucile scuote la testa.*}}
   </string>
   <string Context="Conversation Sparafucile.Miscongenitality.ConfirmSpara.Text" ID="Your condition is lifelong?">
 ▶La tua condizione è congenita?
@@ -5388,9 +5388,9 @@ Agisci velocemente, =name=! Il Templar si avvicina anche mentre parliamo.
 ▶Me ne vado, allora.
   </string>
   <string Context="Conversation Sparafucile.LiveDrinkSign.Text" ID="{{emote|*Sparafucile makes an 'L' shape with both hands, thumbs facing down and fingers pointed toward one another, before flipping both hands so =pronouns.possessive= thumbs face up. =pronouns.Subjective= then raises a closed fist to =pronouns.possessive= mouth, thumb out, and mimes drinking from it.*}}&#xA;&#xA;{{emote|*This done, =pronouns.subjective= nods once more and turns back to =pronouns.possessive= work.*}}">
-▶{{emote|*Sparafucile fa la forma di una 'L' con entrambe le mani, i pollici rivolti verso il basso e le dita puntate l'una verso l'altra, prima di capovolgere entrambe le mani così che i pollici siano rivolti verso l'alto. =pronouns.Subjective= porta poi un pugno chiuso alla =pronouns.possessive= bocca, il pollice in fuori, e mima di bere da esso.*}}
+▶{{emote|*Sparafucile fa la forma di una 'L' con entrambe le mani, i pollici rivolti verso il basso e le dita puntate l'una verso l'altra, prima di capovolgere entrambe le mani così che i pollici siano rivolti verso l'alto. =pronouns.Subjective= porta poi un pugno chiuso alla bocca, il pollice in fuori, e mima di bere da esso.*}}
 
-{{emote|*Fatto ciò, =pronouns.subjective= annuisce ancora una volta e ritorna al =pronouns.possessive= lavoro.*}}
+{{emote|*Fatto ciò, =pronouns.subjective= annuisce ancora una volta e ritorna al lavoro.*}}
   </string>
   <string Context="Conversation Iseppa.Start.Text" ID="Oh. Are you lost, =player.formalAddressTerm=?&#xA;&#xA;I don't mind that you're here, but I was not expecting anyone.">
 ▶Oh. Sei perso, =player.formalAddressTerm=?
