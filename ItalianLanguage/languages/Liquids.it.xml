@@ -218,7 +218,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
     <part Name="SoupSludgeSpawner">
       <spawnMessage>▶I liquidi che reagiscono si coagulano in =object.a.name:withTitles=.</spawnMessage>
       <stopMessage>▶I liquidi smettono di reagire.</stopMessage>
-      <startMessage>▶La zuppa primordiale =subject.to.the.direction= inizia a reagire con il =liquid.name=.</startMessage>
+      <startMessage>▶La zuppa primordiale =subject.to.the.direction= inizia a reagire con =liquid.name=.</startMessage>
     </part>
     <part Name="HydrateOnDrink" Message="▶Senti la zuppa sciacquare nello stomaco." />
   </liquid>
