@@ -887,7 +887,7 @@
           "scalare una montagna",
           "navigare tra le stelle",
           "abbandonare la propria casa per sempre",
-          "partire per un'avventura alla ricerca di un celebre =spice:elements.!random.nouns.!random="
+          "partire per un'avventura alla ricerca di =spice:elements.!random.nouns.!random="
         ],
         "murdermethods=": [
           "con arma forgiata con =^:materials.!random=",
@@ -1101,7 +1101,7 @@
         "plural": "gioiellieri",
         "training": "apprendista",
         "actions=": [
-          "incastonò una gemma in un =spice:jewelry.!random= appena forgiato"
+          "incastonò una gemma in =spice:jewelry.!random= di nuova fattura"
         ],
         "guildhall": "bottega",
         "forged": "forgiò",
@@ -1282,7 +1282,7 @@
         "plural": "esploratori",
         "training": "vagabondo",
         "actions=": [
-          "partì per un'avventura alla ricerca di un sacro =spice:elements.!random.nouns.!random="
+          "partì per un'avventura alla ricerca di =spice:elements.!random.nouns.!random="
         ],
         "guildhall": "taverna",
         "forged": "trovò",
@@ -1493,7 +1493,7 @@
     ],
     "colors=": [
       "cremisi",
-      "scarlatto",
+      "color scarlatto",
       "seta di grano",
       "magnolia",
       "avorio",
@@ -1506,9 +1506,9 @@
       "telemagenta",
       "bordeaux",
       "fucsia",
-      "vermiglio",
+      "color vermiglio",
       "ambra",
-      "citrino",
+      "color citrino",
       "mogano",
       "marrone scuro",
       "corallo",
@@ -1521,8 +1521,8 @@
       "turchese",
       "viridiana",
       "acquamarina",
-      "ceruleo",
-      "azzurro",
+      "color ceruleo",
+      "color azzurro",
       "cobalto",
       "indaco",
       "oltremare"
@@ -2663,10 +2663,10 @@
         "anni fa",
         "al di là del baratro del tempo",
         "quando la musa era perpetuamente matura",
-        "prima che il primo =spice:personNouns.!random= vagasse per Qud",
+        "prima che =spice:personNouns.!random= vagasse per Qud",
         "agli inizi dei giorni dopo il regno di Resheph",
         "molto tempo fa",
-        "quando le =^:larvae.!random= strisciarono per la prima volta da =spice:placeNouns.!random="
+        "quando =^:larvae.!random= strisciarono per la prima volta da =spice:placeNouns.!random="
       ],
       "practice=": [
         "pratica",
@@ -2793,11 +2793,11 @@
       ],
       "kin=": [
         "parenti",
-        "gente",
+        "familiari",
         "simili",
         "compagni",
         "consanguinei",
-        "tribù",
+        "sodali",
         "clan"
       ],
       "clan=": [
@@ -2808,11 +2808,11 @@
       ],
       "ways=": [
         "usanze",
-        "costumi",
-        "cultura",
+        "tradizioni",
+        "pratiche",
         "abitudini",
         "priorità",
-        "modi"
+        "maniere"
       ],
       "composed=": [
         "composto",
@@ -3523,8 +3523,8 @@
       ],
       "countered=": [
         "ne uccise ognuno =spice:elements.entity@elements[random].murdermethods.!random=",
-        "trascorse la giornata a =spice:elements.entity@elements[random].practices.!random=, poi continuò il =spice.entity:possessivePronoun= regno come se niente fosse",
-        "rassicurò i =spice.entity:possessivePronoun= consiglieri spiegando =spice:commonPhrases.calmly.!random= perché non era d'accordo"
+        "trascorse la giornata a =spice:elements.entity@elements[random].practices.!random=, poi continuò =spice.entity:possessivePronoun= regno come se niente fosse",
+        "rassicurò =spice.entity:possessivePronoun= consiglieri spiegando =spice:commonPhrases.calmly.!random= perché non era d'accordo"
       ],
       "forestPlaces=": [
         "valletta",
@@ -3612,13 +3612,13 @@
         "=spice:commonPhrases.greetingFriend.!random=!",
         "vivi e bevi, =spice:commonPhrases.greetingFriend.!random=.",
         "=spice:commonPhrases.listen.!random=, =spice:commonPhrases.greetingFriend.!random=.",
-        "per il =spice:adjectives.!random= =spice:nouns.!random=, =spice:commonPhrases.greetingFriend.!random=, =spice:commonPhrases.listen.!random=."
+        "per =spice:adjectives.!random= =spice:nouns.!random=, =spice:commonPhrases.greetingFriend.!random=, =spice:commonPhrases.listen.!random=."
       ],
       "unfortunately=": [
         "purtroppo",
         "con grande =spice:commonPhrases.woe.!random=",
         "tristemente",
-        "che la =^:illness.!random= ci colga"
+        "che =^:illness.!random= ci colga"
       ],
       "fate=": [
         "il destino",
@@ -3875,8 +3875,8 @@
         "ruggì"
       ],
       "marriageBlessing=": [
-        "possano gli =spice:commonPhrases.betrothed.!random= vivere in pace per =spice:commonPhrases.eternally.!random=",
-        "pronunziare una =spice:commonPhrases.prayer.!random= per gli =spice:commonPhrases.lovers.!random="
+        "possano vivere in pace, =spice:commonPhrases.betrothed.!random=, per =spice:commonPhrases.eternally.!random=",
+        "pronunziare una =spice:commonPhrases.prayer.!random= per =spice:commonPhrases.lovers.!random="
       ],
       "warrior=": [
         "guerriero",
@@ -4583,14 +4583,14 @@
       "cryptPlaque": {
         "familyTitleSingular=": [
           "=familyName=",
-          "La =spice:commonPhrases.familySingular.!random= di =familyName=",
-          "La =spice:commonPhrases.familySingular.!random= =familyName=",
+          "=spice:commonPhrases.familySingular.!random= di =familyName=",
+          "=spice:commonPhrases.familySingular.!random= =familyName=",
           "La Famiglia di =familyName=",
           "La Famiglia =familyName="
         ],
         "familyTitlePlural=": [
-          "Il =spice:commonPhrases.familyPlural.!random= di =familyName=",
-          "Il =familyName= =spice:commonPhrases.familyPlural.!random="
+          "=spice:commonPhrases.familyPlural.!random= di =familyName=",
+          "=familyName= =spice:commonPhrases.familyPlural.!random="
         ],
         "tutor": {
           "cognomenNoun": "=spice:instancesOf.tutor.!random=",
@@ -4602,7 +4602,7 @@
           ],
           "familyWords=": [
             "=spice:commonPhrases.wisdom.!random= =markovSeed:is=",
-            "Solo i =spice:instancesOf.tutorAdj.!random= sanno =markovSeed:what=",
+            "Solo chi è =spice:instancesOf.tutorAdj.!random= sa =markovSeed:what=",
             "=spice:commonPhrases.wisdom.!random=, =spice:elements.scholarship.nounsPlural.!random=, e =markovSeed:a=",
             "Interroga =markovSeed:the="
           ]
@@ -5093,15 +5093,15 @@
             "=^:changedWays.!random= e =^:composedRituals.!random="
           ],
           "changedWays=": [
-            "cambiato le nostre =spice:commonPhrases.ways.!random="
+            "cambiato =spice:commonPhrases.ways.!random="
           ],
           "composedRituals=": [
             "=spice:commonPhrases.composed.!random= nuovi =spice:commonPhrases.rituals.!random="
           ],
           "lostOur=": [
-            "=villager.the.basename|strip= ha perso il nostro =item.name=",
-            "=item.isPlural:i nostri:il nostro= =item.name= ci =item.isPlural:sono stati rubati:è stato rubato=",
-            "=spice:instancesOf.fate.!random= ci ha separati =item.isPlural:dai nostri:dal nostro= =item.name="
+            "=villager.the.basename|strip= ha perso =item.name=",
+            "qualcuno ci ha rubato =item.name=",
+            "=spice:instancesOf.fate.!random= ci ha sottratto =item.name="
           ],
           "willingToRecover=": [
             "saresti disposto a recuperarlo per noi?",
@@ -5109,9 +5109,9 @@
             "abbiamo bisogno di qualcuno che lo recuperi, =spice:commonPhrases.greetingFriend.!random=. Lo farai?"
           ],
           "takenTo": [
-            "i miei =spice:commonPhrases.kin.!random= mi dicono che =item.isPlural:set:siano stati portati:sia stato portato= presso =deliveryTarget=",
-            "ci dicono che =item.isPlural:siano stati portati:sia stato portato= presso =deliveryTarget=",
-            "mi dicono che =item.isPlural:siano stati portati:sia stato portato= presso =deliveryTarget="
+            "i miei =spice:commonPhrases.kin.!random= mi dicono che hanno portato =item.name= a =deliveryTarget=",
+            "ci dicono che hanno portato =item.name= a =deliveryTarget=",
+            "mi dicono che hanno portato =item.name= a =deliveryTarget="
           ],
           "rewardYou=": [
             "vi ricompenseremo per =spice:commonPhrases.services.!random="
@@ -5338,8 +5338,8 @@
       ],
       "cookbooks": {
         "genericName=": [
-          "Il =spice:nouns.!random= di =spice:commonPhrases.cooking.!random=",
-          "La =spice:commonPhrases.cooking.!random= di =spice:nouns.!random=",
+          "=spice:nouns.!random= di =spice:commonPhrases.cooking.!random=",
+          "=spice:commonPhrases.cooking.!random= di =spice:nouns.!random=",
           "=MARKOVTITLE=",
           "=^:cookingPrefix.!random= =MARKOVTITLE=",
           "=MARKOVTITLE=",
@@ -5348,8 +5348,8 @@
           "=spice:commonPhrases.cooking.!random= =spice:commonPhrases.recipes.!random= =spice:adjectives.!random="
         ],
         "focalName=": [
-          "=focus=: il =spice:nouns.!random= di =spice:commonPhrases.cooking.!random=",
-          "Il =spice:nouns.!random= di =focus=",
+          "=focus=: =spice:nouns.!random= di =spice:commonPhrases.cooking.!random=",
+          "=spice:nouns.!random= di =focus=",
           "=spice:commonPhrases.cooking.!random= con =focus=",
           "=focus=: =MARKOVTITLE=",
           "=focus=: =MARKOVTITLE=",
@@ -8269,14 +8269,14 @@
         },
         "VehicularSabotage": {
           "EarlySultanate=": [
-            "sabotò il =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random=",
+            "sabotò =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random=",
             "piazzò =spice:instancesOf.explosives.!random=",
-            "ricablò il =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random="
+            "ricablò =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random="
           ],
           "LateSultanate=": [
-            "sabotò il =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random=",
+            "sabotò =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random=",
             "piazzò =spice:instancesOf.explosives.!random=",
-            "ricablò il =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random="
+            "ricablò =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random="
           ]
         },
         "VehicularSabotageResult": {
@@ -8319,13 +8319,13 @@
         },
         "CommittedWrongAgainstSultan": {
           "EarlySultanate=": [
-            "=spice:commonPhrases.commandeered.!random= il =spice.entity:possessivePronoun= =spice:history.gospels.EarlySultanate.vehicle.!random=",
-            "rubò =spice:elements.entity@elements[random].materials.!random= da =spice.entity:possessivePronoun= =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random=",
+            "=spice:commonPhrases.commandeered.!random= il mezzo denominato =spice:history.gospels.EarlySultanate.vehicle.!random=",
+            "rubò =spice:elements.entity@elements[random].materials.!random= da =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.location.!random=",
             "=spice:instancesOf.seceded.!random= per formare =spice:placeNouns.!random|capitalize= =spice:history.gospels.EarlySultanate.location.!random|capitalize="
           ],
           "LateSultanate=": [
-            "=spice:commonPhrases.commandeered.!random= il =spice.entity:possessivePronoun= =spice:history.gospels.LateSultanate.vehicle.!random=",
-            "rubò =spice:elements.entity@elements[random].materials.!random= da =spice.entity:possessivePronoun= =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random=",
+            "=spice:commonPhrases.commandeered.!random= il mezzo denominato =spice:history.gospels.LateSultanate.vehicle.!random=",
+            "rubò =spice:elements.entity@elements[random].materials.!random= da =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.location.!random=",
             "=spice:instancesOf.seceded.!random= per formare =spice:history.regions.government.city-states.name.!random= di =spice:placeNouns.!random|capitalize="
           ]
         },
@@ -8417,17 +8417,17 @@
         "CivilizationActivity": {
           "EarlySultanate=": [
             "dimostrare teoremi oscuri",
-            "=spice:randomGerund.!random= il =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.worshipObject.!random=",
-            "=spice:randomGerund.!random= il =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.worshipObject.!random=",
+            "=spice:randomGerund.!random= =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.worshipObject.!random=",
+            "=spice:randomGerund.!random= =spice:history.gospels.EarlySultanate.adjective.!random= =spice:history.gospels.EarlySultanate.worshipObject.!random=",
             "invertire il corso della scia cosmica"
           ],
           "LateSultanate=": [
             "dragare il mare di rifiuti",
             "strappare bottino dalle guglie abbattute dallo scisto",
             "accendere i fuochi dei campanili",
-            "=spice:randomGerund.!random= il =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random=",
-            "=spice:randomGerund.!random= il =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random=",
-            "=spice:randomGerund.!random= il =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random="
+            "=spice:randomGerund.!random= =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random=",
+            "=spice:randomGerund.!random= =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random=",
+            "=spice:randomGerund.!random= =spice:history.gospels.LateSultanate.adjective.!random= =spice:history.gospels.LateSultanate.worshipObject.!random="
           ]
         }
       },
@@ -9144,7 +9144,7 @@
           "aver sognato =dimension= nell'esistenza",
           "aver inventato il concetto di =spice:nouns.!random=",
           "aver scambiato la percezione di =spice:objectNouns.!random= e =spice:objectNouns.!random=",
-          "aver distorto una tasca di spaziotempo in un =spice:history.gospels.EarlySultanate.location.!random="
+          "aver distorto una tasca di spaziotempo in =spice:history.gospels.EarlySultanate.location.!random="
         ],
         "likeReasons=": [
           "aver inventato i numeri irrazionali",
@@ -9152,7 +9152,7 @@
           "aver sognato =dimension= nell'esistenza",
           "aver inventato il concetto di =spice:nouns.!random=",
           "aver scambiato la percezione di =spice:objectNouns.!random= e =spice:objectNouns.!random=",
-          "aver distorto una tasca di spaziotempo in un =spice:history.gospels.EarlySultanate.location.!random="
+          "aver distorto una tasca di spaziotempo in =spice:history.gospels.EarlySultanate.location.!random="
         ]
       },
       "_failureredirect": "spice.friendOrFoe.default"
