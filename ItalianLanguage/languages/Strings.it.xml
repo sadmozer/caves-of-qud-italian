@@ -818,7 +818,7 @@
   <string Context="Core Load Quick Save" ID="Load your last quick save?">▶Caricare l'ultimo salvataggio rapido?</string>
   <string Context="Core Load Notify" ID="Game loaded!">▶Partita caricata!</string>
   <string Context="Core No Missile" ID="You do not have a missile weapon equipped!">▶Non hai un'arma a distanza equipaggiata!</string>
-  <string Context="" ID="You need to reload! (=commandKey:CmdReload=)">▶Devi ricaricare! (=commandKey:CmdReload=)</string>
+  <string ID="You need to reload! (=commandKey:CmdReload=)">▶Devi ricaricare! (=commandKey:CmdReload=)</string>
   <string Context="Core No Target" ID="You don't have a target.">▶Non hai un bersaglio.</string>
   <string Context="Core Cannot AutoAttack Confused" ID="You cannot autoattack while you are confused.">▶Non puoi attaccare automaticamente mentre sei confuso.</string>
   <string Context="Core NoAutoattack NonHostile" ID="You do not autoattack =object.the.name= because =object.it.is= not hostile to you.">▶Non attacchi automaticamente =object.the.name= perché =object.it.is= non ti è ostile.</string>
@@ -1584,7 +1584,7 @@
   <string Context="Saving Throw Description: no type specified" ID="=bonus.signed= to saves">▶=bonus.signed= ai tiri salvezza</string>
   <string Context="Saving Throw Description: Highlight Number" ID="{{rules|=bonus.signed=}} to saves vs =type.saveBonusTypeDescription=">▶{{rules|=bonus.signed=}} ai tiri salvezza vs =type.saveBonusTypeDescription=</string>
   <string Context="Saving Throw Description: Highlight Number" ID="=bonus.signed= to saves vs =type.saveBonusTypeDescription=">▶=bonus.signed= ai tiri salvezza vs =type.saveBonusTypeDescription=</string>
-  <string Context="" ID="Loading Conversations.xml">▶Caricamento di Conversations.xml</string>
+  <string ID="Loading Conversations.xml">▶Caricamento di Conversations.xml</string>
   <string Context="Conversation Globals - begin trade option" ID="{{g|[begin trade]}}">▶{{g|[inizia scambio]}}</string>
   <string Context="Adjusted Effect DisplayName" ID="{{g|adjusted}}">▶{{g|modificato}}</string>
   <string Context="AmbientRealityStabilized Effect DisplayName" ID="{{Y|astral friction}}">▶{{Y|attrito astrale}}</string>
@@ -1645,10 +1645,10 @@
   <string Context="Disguise Blueprint Default Display" ID="creature of some kind">▶una creatura qualsiasi</string>
   <string Context="Disguised Effect DisplayName" ID="{{K|disguised}}">▶{{K|travestito}}</string>
   <string Context="ModDisguise Disguise Appearance Description" ID="=blueprint.disguise.name#object=">▶=blueprint.disguise.name#object=</string>
-  <string Context="" ID="=subject.Does:begin= =effect.name|strip= from another wound!">▶=subject.The.name= comincia a =effect.name|strip= da un'altra ferita!</string>
-  <string Context="" ID="=subject.Does:begin= =effect.name|strip=!">▶=subject.The.name= comincia a =effect.name|strip=!</string>
-  <string Context="" ID="=subject.Does:begin= acting like =subject.it.is= =effect.name|strip= from another wound.">▶=subject.The.name= comincia ad agire come se fosse =effect.name|strip= a causa di un'altra ferita.</string>
-  <string Context="" ID="=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.">▶=subject.The.name= comincia ad agire come se fosse =effect.name|strip=.</string>
+  <string ID="=subject.Does:begin= =effect.name|strip= from another wound!">▶=subject.The.name= comincia a =effect.name|strip= da un'altra ferita!</string>
+  <string ID="=subject.Does:begin= =effect.name|strip=!">▶=subject.The.name= comincia a =effect.name|strip=!</string>
+  <string ID="=subject.Does:begin= acting like =subject.it.is= =effect.name|strip= from another wound.">▶=subject.The.name= comincia ad agire come se fosse =effect.name|strip= a causa di un'altra ferita.</string>
+  <string ID="=subject.Does:begin= acting like =subject.it.is= =effect.name|strip=.">▶=subject.The.name= comincia ad agire come se fosse =effect.name|strip=.</string>
   <string Context="Liquid Covered - stains name" ID="liquids">▶liquidi</string>
   <string Context="Liquid Stained - stain type for cleaning message" ID="stains">▶macchie</string>
   <string Context="Lovesick Effect Display Name" ID="{{lovesickness|lovesick}}">▶{{lovesickness|innamorato}}</string>
@@ -2007,17 +2007,17 @@
   <string Context="Examiner CriticalFail" ID="You think you broke =object.them=...">▶Pensi di aver rotto =object.them=...</string>
   <string Context="Examiner CriticalFail puzzled" ID="You are puzzled by =object.the.name:long=.">▶Sei sconcertato da =object.the.name:long=.</string>
   <string Context="door" ID="You cannot open =object.t=.">▶Non puoi aprire =object.t=.</string>
-  <string Context="" ID="You are out of phase with =object.t=.">▶Sei fuori fase con =object.t=.</string>
-  <string Context="" ID="You cannot reach =object.t=.">▶Non riesci a raggiungere =object.t=.</string>
-  <string Context="" ID="You can't unlock =object.t= from a distance.">▶Non puoi sbloccare =object.t= a distanza.</string>
-  <string Context="" ID="You unlock =object.t=.">▶Sblocchi =object.t=.</string>
-  <string Context="" ID="You interface with =object.t= and unlock =object.them=.">▶Ti interfacci con =object.t= e sblocchi =object.them=.</string>
-  <string Context="" ID="You lay your hand upon =object.t= and draw forth =object.its= passcode. You enter the code and =object.does:unlock=.">▶Posi la mano su =object.t= e ne ricavi il codice di accesso. Inserisci il codice e =object.does:si sblocca=.</string>
-  <string Context="" ID="You can't unlock =object.t=.">▶Non riesci a sbloccare =object.t=.</string>
-  <string Context="" ID="=subject.T= cannot be closed.">▶=subject.T= non può essere chiuso.</string>
-  <string Context="" ID="You cannot close =object.t==reason=.">▶Non puoi chiudere =object.t==reason=.</string>
-  <string Context="" ID="=subject.T= cannot be closed with =object.t= in the way.">▶=subject.T= non può essere chiuso con =object.t= nel mezzo.</string>
-  <string Context="" ID="=subject.T= cannot be closed with =object.t= in the way =subject.to.its.direction#object=.">▶=subject.T= non può essere chiuso con =object.t= nel mezzo =subject.to.its.direction#object=.</string>
+  <string ID="You are out of phase with =object.t=.">▶Sei fuori fase con =object.t=.</string>
+  <string ID="You cannot reach =object.t=.">▶Non riesci a raggiungere =object.t=.</string>
+  <string ID="You can't unlock =object.t= from a distance.">▶Non puoi sbloccare =object.t= a distanza.</string>
+  <string ID="You unlock =object.t=.">▶Sblocchi =object.t=.</string>
+  <string ID="You interface with =object.t= and unlock =object.them=.">▶Ti interfacci con =object.t= e sblocchi =object.them=.</string>
+  <string ID="You lay your hand upon =object.t= and draw forth =object.its= passcode. You enter the code and =object.does:unlock=.">▶Posi la mano su =object.t= e ne ricavi il codice di accesso. Inserisci il codice e =object.does:si sblocca=.</string>
+  <string ID="You can't unlock =object.t=.">▶Non riesci a sbloccare =object.t=.</string>
+  <string ID="=subject.T= cannot be closed.">▶=subject.T= non può essere chiuso.</string>
+  <string ID="You cannot close =object.t==reason=.">▶Non puoi chiudere =object.t==reason=.</string>
+  <string ID="=subject.T= cannot be closed with =object.t= in the way.">▶=subject.T= non può essere chiuso con =object.t= nel mezzo.</string>
+  <string ID="=subject.T= cannot be closed with =object.t= in the way =subject.to.its.direction#object=.">▶=subject.T= non può essere chiuso con =object.t= nel mezzo =subject.to.its.direction#object=.</string>
   <string Context="door open reason" ID=" because you cannot figure out how" Value="▶ perché non riesci a capire come"/>
   <string Context="EaterUrn engraving" ID="=spice:tombstones.urnIntroByFaction.$faction=&#10;&#10;&#10;=name=&#10;&#10;&#10;&quot;=shortMarkov=&quot;&#10;" Value="▶=spice:tombstones.urnIntroByFaction.$faction=&#10;&#10;&#10;=name=&#10;&#10;&#10;&quot;=shortMarkov=&quot;"/>
   <string Context="EaterUrn inscription finalize" ID="=engraving|urn=">▶=engraving|urn=</string>
@@ -2108,7 +2108,7 @@
   <string Context="Inventory CommandEquipObject Error" ID="=subject.T=] Error dropping object, removing to graveyard zone! (Inventory.cs:CommandEquipObject)">▶=subject.T=] Errore nel rilascio oggetto, rimozione nella zona cimitero! (Inventory.cs:CommandEquipObject)</string>
   <string Context="Inventory Remove Fail Stuck" ID="You cannot remove items while stuck!">▶Non puoi rimuovere oggetti mentre sei bloccato!</string>
   <string Context="Inventory Remove Fail Frozen" ID="You are frozen solid!">▶Sei congelato!</string>
-  <string Context="" ID="You cannot budge =object.the.name=.">▶Non riesci a spostare =object.the.name=.</string>
+  <string ID="You cannot budge =object.the.name=.">▶Non riesci a spostare =object.the.name=.</string>
   <string Context="Inventory Unowned Container Confirm" ID="You don't own =container.the.name:withIndicativeProximal=. Are you sure you want to take =object.the.name=?">▶=container.the.name:withIndicativeProximal= non ti appartiene. Sei sicuro di voler prendere =object.the.name=?</string>
   <string Context="Inventory Drop Count" ID="How many do you want to drop?">▶Quanti ne vuoi lasciare cadere?</string>
   <string Context="CriticalThreshold Description" ID="=bonus.signed=% chance to score critical hits">▶=bonus.signed=% probabilità di colpi critici</string>
@@ -2152,8 +2152,8 @@
   <string Context="Liquid Volume - Stain of unknown liquid" ID="stained">▶macchiato</string>
   <string Context="Liquid Volume - Stain with two liquids" ID="=volume.liquid.stain.name#primary=-and-=volume.liquid.stain.name#secondary=-stained">▶=volume.liquid.stain.name#primary=-e-=volume.liquid.stain.name#secondary=-macchiato</string>
   <string Context="Liquid Volume - Stain with liquid" ID="=volume.liquid.stain.name#primary=-stained">▶=volume.liquid.stain.name#primary=-macchiato</string>
-  <string Context="" ID="=subject.Does:swim= through =object.a.name=.">▶=subject.The.name= nuota attraverso =object.a.name=.</string>
-  <string Context="" ID="=subject.Does:wade= through =object.a.name=.">▶=subject.The.name= guada attraverso =object.a.name=.</string>
+  <string ID="=subject.Does:swim= through =object.a.name=.">▶=subject.The.name= nuota attraverso =object.a.name=.</string>
+  <string ID="=subject.Does:wade= through =object.a.name=.">▶=subject.The.name= guada attraverso =object.a.name=.</string>
   <string Context="Liquid Volume - Water container sorting placeholder" ID="Water Containers">▶Contenitori d'Acqua</string>
   <string Context="Liquid Volume - Pool swimming depth adjective" ID="deep" OrderAdjust="0">▶profondo</string>
   <string Context="Liquid Volume - Base name replace, less than wading depth" ID="puddle">▶pozzanghera</string>
@@ -2254,7 +2254,7 @@
   <string Context="ModBiomech Description" ID="Biomech: Has biomechanical power transmission systems.">▶Biomech: Dotato di sistemi di trasmissione di potenza biomeccanica.</string>
   <string Context="ModBlinkEscape Techscanning NameForStatus" ID="EmergencyTeleporter">▶EmergencyTeleporter</string>
   <string Context="ModBlinkEscape Description" ID="Whenever you're about to take avoidable damage, there's =chance.a.number=% chance you blink away instead.">▶Ogni volta che stai per subire danni evitabili, hai il =chance.a.number=% di probabilità di teletrasportarti via.</string>
-  <string Context="" ID="Fate intervenes and you deal no damage to =object.the.name=.">▶Il Destino interviene e non infliggi danni a =object.the.name=.</string>
+  <string ID="Fate intervenes and you deal no damage to =object.the.name=.">▶Il Destino interviene e non infliggi danni a =object.the.name=.</string>
   <string Context="ModCleated Techscanning NameForStatus" ID="StabilityAssist">▶StabilityAssist</string>
   <string Context="ModCleated DisplayName WithClause" ID="cleats" OrderAdjust="0">▶tacchetti</string>
   <string Context="ModCleated Description" ID="Fitted with cleats: =saveVs.saveBonus#amount=">▶Dotato di tacchetti: =saveVs.saveBonus#amount=</string>
@@ -2389,7 +2389,7 @@
   <string Context="QuantumJitters Slip Message" ID="Your focus slips, causing you to dent spacetime in the local region.">▶La tua concentrazione vacilla, causando una rientranza nello spaziotempo locale.</string>
   <string Context="SpontaneousCombustion triggered message log" ID="=subject.Does:erupt= into flames!">▶=subject.The.name= prende fuoco!</string>
   <string Context="Beguiling Pick Direction Title" ID="[Select a direction to beguile a creature]">▶[Seleziona una direzione per ammaliare una creatura]</string>
-  <string Context="" ID="There are no valid targets in that square.">▶Non ci sono bersagli validi in quella casella.</string>
+  <string ID="There are no valid targets in that square.">▶Non ci sono bersagli validi in quella casella.</string>
   <string Context="Beguiling Pick Creature" ID="Who would you like to beguile?">▶Chi vorresti ammaliare?</string>
   <string Context="Beguiling Fail Self-Target" ID="You can't beguile =player.itself=!">▶Non puoi ammaliare =player.itself=!</string>
   <string Context="Beguiling failure immune" ID="=object.Does:seem= utterly impervious to your charms.">▶=object.Does:seem= completamente impermeabile al tuo fascino.</string>
@@ -2464,7 +2464,7 @@
   <string Context="Precognition Start Other (Sensed)" ID="You sense a subtle psychic disturbance.">▶Percepisci un sottile disturbo psichico.</string>
   <string Context="Precognition Revert Was Not Player" ID="You cannot access someone else's precognitive vision.">▶Non puoi accedere alla visione precognitiva di qualcun altro.</string>
   <string Context="Precognition Near Death Confirm Revert" ID="You sense your imminent demise. Would you like to return to the start of your vision?">▶Percepisci la tua imminente morte. Vuoi tornare all'inizio della tua visione?</string>
-  <string Context="" ID="=subject.Does:swim= before your eyes!">▶=subject.The.name= ondeggia davanti ai tuoi occhi!</string>
+  <string ID="=subject.Does:swim= before your eyes!">▶=subject.The.name= ondeggia davanti ai tuoi occhi!</string>
   <string Context="Precognition ActivatedAbility Start" ID="Precognition - Start vision">▶Precognizione - Inizia visione</string>
   <string Context="Precognition ActivatedAbility End" ID="Precognition - End vision">▶Precognizione - Termina visione</string>
   <string Context="Psychometry Failure Examine" ID="Do you want to continue despite being unable to use Psychometry?">▶Vuoi continuare nonostante l'impossibilità di usare la Psicometria?</string>
@@ -2545,20 +2545,20 @@
   <string Context="Infiltrate targeting" ID="=subject.Does:focus= =subject.its= sensor somewhere else.">▶=subject.The.name= focalizza il suo sensore altrove.</string>
   <string Context="Infiltrate Activated Ablity Name" ID="Infiltrate">▶Infiltra</string>
   <string Context="Mutation with Defect Display" ID="=mutationName= ({{r|D}})">▶=mutationName= ({{r|D}})</string>
-  <string Context="" ID="Your adrenaline subsides.">▶La tua adrenalina si calma.</string>
-  <string Context="" ID="Your adrenaline starts to flow.">▶La tua adrenalina inizia a scorrere.</string>
-  <string Context="" ID="Release Adrenaline">▶Rilascia Adrenalina</string>
-  <string Context="" ID="{{R|adrenaline flowing}}">▶{{R|adrenalina in circolo}}</string>
-  <string Context="" ID="You can't excavate with hostiles nearby.">▶Non puoi scavare con nemici nelle vicinanze.</string>
-  <string Context="" ID="=subject.Does:dig= a passage down.">▶=subject.The.name= scava un passaggio verso il basso.</string>
-  <string Context="" ID="You can't excavate the sky!">▶Non puoi scavare il cielo!</string>
-  <string Context="" ID="=subject.Does:dig= a passage up.">▶=subject.The.name= scava un passaggio verso l'alto.</string>
-  <string Context="" ID="carapace">▶carapace</string>
-  <string Context="" ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=">▶=subject.The.name= non riesce a stringere il suo =carapace.name=</string>
-  <string Context="" ID="You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor.name=}}.">▶Stringi il tuo =carapace.name=. Il tuo VA aumenta di {{G|=tightFactor.name=}}.</string>
-  <string Context="" ID="=subject.Does:tighten= =subject.possessive= =carapace.name=">▶=subject.The.name= stringe il suo =carapace.name=</string>
-  <string Context="" ID="=carapace.Does:loosen=. =subject.Name's= AV decreases by {{R|=tightFactor.name=}}.">▶Il carapace si allenta. La CA di =subject.Name's= diminuisce di {{R|=tightFactor.name=}}.</string>
-  <string Context="" ID="=subject.Name's= =carapace.does:loosen=.">▶Il carapace di =subject.Name's= si allenta.</string>
+  <string ID="Your adrenaline subsides.">▶La tua adrenalina si calma.</string>
+  <string ID="Your adrenaline starts to flow.">▶La tua adrenalina inizia a scorrere.</string>
+  <string ID="Release Adrenaline">▶Rilascia Adrenalina</string>
+  <string ID="{{R|adrenaline flowing}}">▶{{R|adrenalina in circolo}}</string>
+  <string ID="You can't excavate with hostiles nearby.">▶Non puoi scavare con nemici nelle vicinanze.</string>
+  <string ID="=subject.Does:dig= a passage down.">▶=subject.The.name= scava un passaggio verso il basso.</string>
+  <string ID="You can't excavate the sky!">▶Non puoi scavare il cielo!</string>
+  <string ID="=subject.Does:dig= a passage up.">▶=subject.The.name= scava un passaggio verso l'alto.</string>
+  <string ID="carapace">▶carapace</string>
+  <string ID="=subject.Does:fail= to tighten =subject.possessive= =carapace.name=">▶=subject.The.name= non riesce a stringere il suo =carapace.name=</string>
+  <string ID="You tighten your =carapace.name=. Your AV increases by {{G|=tightFactor.name=}}.">▶Stringi il tuo =carapace.name=. Il tuo VA aumenta di {{G|=tightFactor.name=}}.</string>
+  <string ID="=subject.Does:tighten= =subject.possessive= =carapace.name=">▶=subject.The.name= stringe il suo =carapace.name=</string>
+  <string ID="=carapace.Does:loosen=. =subject.Name's= AV decreases by {{R|=tightFactor.name=}}.">▶Il carapace si allenta. La CA di =subject.Name's= diminuisce di {{R|=tightFactor.name=}}.</string>
+  <string ID="=subject.Name's= =carapace.does:loosen=.">▶Il carapace di =subject.Name's= si allenta.</string>
   <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= =amount.things:unit= of electrical charge!">▶=subject.The.name= scarica =amount.things:unità= di carica elettrica!</string>
   <string Context="Elec Gen Discharge Message" ID="=subject.Does:discharge= an electrical arc!">▶=subject.The.name= scarica un arco elettrico!</string>
   <string Context="Elec Gen AbilityDisplay Discharge" ID="Discharge [=charge= charge]">▶Scarica [=charge= carica]</string>
@@ -2575,10 +2575,10 @@
   <string Context="Elec Gen Discharge Fail No Target" ID="There is nothing there that your electrical discharge can ground into.">▶Non c'è niente lì in cui la tua scarica elettrica possa scaricarsi.</string>
   <string Context="Elec Gen Discharge Target Confirm Self" ID="Are you sure you want to target yourself?">▶Sei sicuro di voler prendere di mira te stesso?</string>
   <string Context="Elec Gen ActivatedAbilityName Discharge" ID="Discharge">▶Scarica</string>
-  <string Context="" ID="You need at least =amount= charge to generate a discharge.">▶Hai bisogno di almeno =amount= carica per generare una scarica.</string>
+  <string ID="You need at least =amount= charge to generate a discharge.">▶Hai bisogno di almeno =amount= carica per generare una scarica.</string>
   <string Context="Elec Gen ActivatedAbilityName Power" ID="Power Devices">▶Alimenta Dispositivi</string>
-  <string Context="" ID="=squareSize=x=squareSize=">▶=squareSize=x=squareSize=</string>
-  <string Context="" ID="=subject.Does:emit= an electromagnetic pulse.">▶=subject.The.name= emette un impulso elettromagnetico.</string>
+  <string ID="=squareSize=x=squareSize=">▶=squareSize=x=squareSize=</string>
+  <string ID="=subject.Does:emit= an electromagnetic pulse.">▶=subject.The.name= emette un impulso elettromagnetico.</string>
   <string Context="EMP Ability Name" ID="Emit Pulse">▶Emetti Impulso</string>
   <string Context="Mutation Use Fail BodyPart Too Damaged" ID="Your =part.ordinalName= =part.is= too damaged to do that!">▶Il tuo =part.ordinalName= è troppo danneggiato per farlo!</string>
   <string Context="Mutation Use Fail BodyPart Too Damaged (null)" ID="Your =bodyPartType|lower= is too damaged to do that!">▶Il tuo =bodyPartType|lower= è troppo danneggiato per farlo!</string>
@@ -2607,8 +2607,8 @@
   <string Context="mutation gas generation level text effect" ID="Increased =description=">▶=description= aumentata</string>
   <string Context="mutation gas generation level text effect" ID="Decreased =description=">▶=description= diminuita</string>
   <string Context="mutation gas generation ability name" ID="Gas Generation">▶Generazione di Gas</string>
-  <string Context="" ID="=subject.Does:stop= releasing =gasdisplayname=.">▶=subject.The.name= smette di rilasciare =gasdisplayname=.</string>
-  <string Context="" ID="=subject.Does:start= releasing =gasdisplayname=.">▶=subject.The.name= inizia a rilasciare =gasdisplayname=.</string>
+  <string ID="=subject.Does:stop= releasing =gasdisplayname=.">▶=subject.The.name= smette di rilasciare =gasdisplayname=.</string>
+  <string ID="=subject.Does:start= releasing =gasdisplayname=.">▶=subject.The.name= inizia a rilasciare =gasdisplayname=.</string>
   <string Context="HeatAbsorbtion heal message (player only)" ID="You are healed for =amount= by the heat.">▶Sei guarito per =amount= dal calore.</string>
   <string Context="Triple-Jointed Triggered Message Log" ID="You do that with ease.">▶Lo fai con facilità.</string>
   <string Context="Triple-Jointed Triggered Combat Text" ID="No cooldown!">▶Nessun ricarica!</string>
@@ -2616,7 +2616,7 @@
   <string Context="HeightenedSmell hostile perception verb" ID="smell">▶annusi</string>
   <string Context="Metamorphed Effect DisplayName" ID="metamorphed">▶metamorfosato</string>
   <string Context="Metamorphed Effect ActiveAbility Name" ID="End Metamorphosis">▶Termina Metamorfosi</string>
-  <string Context="" ID="=subject.Does:revert= to =subject.its= original form.">▶=subject.The.name= torna alla sua forma originale.</string>
+  <string ID="=subject.Does:revert= to =subject.its= original form.">▶=subject.The.name= torna alla sua forma originale.</string>
   <string Context="Metamorphosis Target Picker Title" ID="Metamorphosis">▶Metamorfosi</string>
   <string Context="Metamorphosis assume form" ID="=subject.Does:assume= the form of =newBody.a.shortname:withTitles=.">▶=subject.The.name= assume la forma di =newBody.a.shortname:withTitles=.</string>
   <string Context="Metamorphosis Error" ID="That creature is of too high a level to duplicate!">▶Quella creatura è di livello troppo alto per essere duplicata!</string>
@@ -2655,8 +2655,8 @@
   <string Context="Wings Confirm long fall" ID="It looks like a long way down =object.the.name= you're above. Are you sure you want to stop flying?">▶Sembra molto lontano in basso. Sei sicuro di voler smettere di volare?</string>
   <string Context="Wings Failure (EMPed robot wings)" ID="=subject.Poss#wingsBlueprint|strip= will not move!">▶=subject.Poss#wingsBlueprint|strip= non si muove!</string>
   <string Context="Wings body part description default" ID="Worn around Wings">▶Indossato intorno alle Ali</string>
-  <string Context="" ID="=subject.Does:are= shamed by =subject.possessive= reflection!">▶=subject.The.name= è umiliato dal proprio riflesso!</string>
-  <string Context="" ID="=subject.Does:flip= polarity.">▶=subject.The.name= inverte la polarità.</string>
+  <string ID="=subject.Does:are= shamed by =subject.possessive= reflection!">▶=subject.The.name= è umiliato dal proprio riflesso!</string>
+  <string ID="=subject.Does:flip= polarity.">▶=subject.The.name= inverte la polarità.</string>
   <string Context="ErosTeleportaion FailMessage" ID="You can only teleport to a place you have seen before!">▶Puoi teletrasportarti solo in un posto che hai già visto!</string>
   <string Context="ErosTeleportation FailMessage" ID="You may only teleport into an empty square!">▶Puoi teletrasportarti solo in una casella vuota!</string>
   <string Context="ErosTeleportation Shout" ID="I'm coming, =partyLeader.basename=!">▶Sto arrivando, =partyLeader.basename=!</string>
@@ -2671,9 +2671,10 @@
   <string Context="shock damage message (TODO)" ID="from %t electrical discharge!">▶dalla scarica elettrica di %t!</string>
   <string Context="Physics Passing By Object With Article" ID="=object.a.name=">▶=object.a.name=</string>
   <string Context="Physics PassingBy" ID="You pass by =passed.andList=.">▶Passi accanto a =passed.andList=.</string>
-  <string Context="" ID="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.">▶=subject.An= arriva =subject.to.the.direction=.</string>
+  <string ID="=subject.An= =subject.verb#ArriveVerb= =subject.to.the.direction=.">▶=subject.An= arriva =subject.to.the.direction=.</string>
   <string Context="DeathReason Self Kill" ID="You =accidental.if:accidentally :=killed =subject.itself=.">▶=accidental.if:Accidentalmente :=hai ucciso =subject.itself=.</string>
   <string Context="DeathReason Killed By" ID="You were =accidental.if:accidentally :=killed by =object.an=.">▶Sei stato =accidental.if:accidentalmente :=ucciso da =object.an=.</string>
+  <string Context="Physics (Inventory) Category" ID="*All">▶Tutto</string>
   <string Context="Physics (Inventory) Category" ID="Ammo">▶Munizioni</string>
   <string Context="Physics (Inventory) Category" ID="Applicators">▶Applicatori</string>
   <string Context="Physics (Inventory) Category" ID="Armor">▶Armatura</string>
@@ -2932,7 +2933,7 @@
   <string Context="VillageTerrain text fragment" ID="=spice:history.regions.terrain.$terrain.over.!random=">▶=spice:history.regions.terrain.$terrain.over.!random=</string>
   <string Context="VillageTerrain text terrainFragment double" ID="=terrainFragment= and =terrainFragment2=">▶=terrainFragment= e =terrainFragment2=</string>
   <string Context="VillageTerrain Description" ID="=spice:villages.description.!random|capitalize=.">▶=spice:villages.description.!random|capitalize=.</string>
-  <string Context="" ID="Loading Relics.xml">▶Caricamento di Relics.xml</string>
+  <string ID="Loading Relics.xml">▶Caricamento di Relics.xml</string>
   <string Context="RelicGenerator personNounPossessive" ID="=spice:personNouns.!random|possessive=">▶=spice:personNouns.!random|possessive=</string>
   <string Context="RelicGenerator Name" ID="=spice:history.relics.names.!random|title=">▶=spice:history.relics.names.!random|title=</string>
   <string Context="RelicGenerator Name By Region" ID="=spice:elements.$element.adjectives.!random|title= =spice:itemTypes.$itemType.!random|title= of =spice.entity:newName|title=">▶=spice:elements.$element.adjectives.!random|title= =spice:itemTypes.$itemType.!random|title= di =spice.entity:newName|title=</string>
@@ -3015,7 +3016,7 @@
   <string Context="Golem Quest Mound Hostiles" ID="You can't do that with hostile creatures nearby.">▶Non puoi farlo con creature ostili nelle vicinanze.</string>
   <string Context="Golem Quest Mound Build Button" ID="Build">▶Costruisci</string>
   <string Context="Golem Quest Mount Build Key" ID="Backspace">▶Backspace</string>
-  <string Context="" ID="With the help of Pax Klanq and the Barathrumites, you constructed =golem.a.name= to climb the Spindle.">▶Con l'aiuto di Pax Klanq e i Barathrumiti, hai costruito =golem.a.name= per scalare il Fuso.</string>
+  <string ID="With the help of Pax Klanq and the Barathrumites, you constructed =golem.a.name= to climb the Spindle.">▶Con l'aiuto di Pax Klanq e i Barathrumiti, hai costruito =golem.a.name= per scalare il Fuso.</string>
   <string Context="Golem Quest Selection Title" ID="Choose =selection|article=">▶Scegli =selection=</string>
   <string Context="Golem Quest Selection Empty" ID="&lt;make a selection&gt;">▶&lt;fai una selezione&gt;</string>
   <string Context="Settlements Generate Farm Name fallback nameRoot" ID="Urist">▶Urist</string>
@@ -3248,21 +3249,21 @@
   <string Context="Tzimtzlum WorldZoneFactory DisplayName" ID="Tzimtzlum">▶Tzimtzlum</string>
   <string Context="Tzimtzlum WorldZoneFactory SpecialUpMessage" ID="You're in a pocket dimension with no worldmap.">▶Ti trovi in una dimensione tascabile senza mappa mondiale.</string>
   <string Context="AmbientStabilization ZonePart - Popup message" ID="You feel some ambient astral friction here.">▶Senti attrito astrale ambientale qui.</string>
-  <string Context="" ID="Generating lairs...">▶Generando tane...</string>
-  <string Context="" ID="You notice some ruins nearby. Would you like to investigate?">▶Noti alcune rovine nelle vicinanze. Vorresti investigare?</string>
-  <string Context="" ID="=goatfolkvillagename=, goatfolk village">▶=goatfolkvillagename=, villaggio goatfolk</string>
-  <string Context="" ID="You smell roasted boar nearby. Would you like to investigate?">▶Senti odore di cinghiale arrosto nelle vicinanze. Vorresti investigare?</string>
-  <string Context="" ID="=villagename=, goatfolk haunt">▶=villagename=, covo goatfolk</string>
-  <string Context="" ID="You experience a sense memory of roasted boar smell. Would you like to investigate?">▶Provi un ricordo sensoriale dell'odore di cinghiale arrosto. Vorresti investigare?</string>
+  <string ID="Generating lairs...">▶Generando tane...</string>
+  <string ID="You notice some ruins nearby. Would you like to investigate?">▶Noti alcune rovine nelle vicinanze. Vorresti investigare?</string>
+  <string ID="=goatfolkvillagename=, goatfolk village">▶=goatfolkvillagename=, villaggio goatfolk</string>
+  <string ID="You smell roasted boar nearby. Would you like to investigate?">▶Senti odore di cinghiale arrosto nelle vicinanze. Vorresti investigare?</string>
+  <string ID="=villagename=, goatfolk haunt">▶=villagename=, covo goatfolk</string>
+  <string ID="You experience a sense memory of roasted boar smell. Would you like to investigate?">▶Provi un ricordo sensoriale dell'odore di cinghiale arrosto. Vorresti investigare?</string>
   <string Context="JoppaWorldBulder Encounter Build Sultans" ID="Organizing cults...">▶Organizzazione dei culti...</string>
   <string Context="JoppaWorldBulder Encounter Build Lairs" ID="Mythologizing creatures...">▶Mitologizzazione delle creature...</string>
   <string Context="JoppaWorldBulder Encounter Build Villages" ID="Founding villages...">▶Fondazione dei villaggi...</string>
   <string Context="JoppaWorldBulder Encounter Build Quests" ID="Seeding personalities...">▶Generazione delle personalità...</string>
   <string Context="JoppaWorldBulder Encounter Build Clams" ID="Shucking clams...">▶Sgusciatura delle conchiglie...</string>
   <string Context="JoppaWorldBulder Encounter Build Gossip" ID="Spreading gossip...">▶Diffusione dei pettegolezzi...</string>
-  <string Context="" ID=" {{K|-learned from =factionname=}}" Value="▶ {{K|-learned from =factionname=}}"/>
-  <string Context="" ID="You discover an abandoned village. Would you like to investigate?">▶Scopri un villaggio abbandonato. Vorresti investigare?</string>
-  <string Context="" ID="You discover a village. Would you like to investigate?">▶Scopri un villaggio. Vorresti investigare?</string>
+  <string ID=" {{K|-learned from =factionname=}}" Value="▶ {{K|-learned from =factionname=}}"/>
+  <string ID="You discover an abandoned village. Would you like to investigate?">▶Scopri un villaggio abbandonato. Vorresti investigare?</string>
+  <string ID="You discover a village. Would you like to investigate?">▶Scopri un villaggio. Vorresti investigare?</string>
   <string Context="JoppaWorldBuilder ZoneName - Village Outskirts" ID="outskirts">▶periferia</string>
   <string Context="JoppaWorldBuilder ZoneName IndefiniteArticle - Village Outskirts" ID="some">▶delle</string>
   <string Context="JoppaWorldBuilder ZoneName - Village Outskirts Sky" ID="sky">▶cielo</string>
@@ -3271,55 +3272,56 @@
   <string Context="JoppaWorldBuilder ZoneName Article - Village Sky" ID="the">▶il</string>
   <string Context="JoppaWorldBuilder ZoneName - Village underground" ID="undervillage">▶sottovilla</string>
   <string Context="JoppaWorldBuilder ZoneName Article - Village underground" ID="the">▶il</string>
-  <string Context="" ID="You discover =regionName=.">▶Scopri =regionName=.</string>
-  <string Context="" ID=" {{K|-known by =faction.t:Joppa=}}" Value="▶ {{K|-known by =faction.t:Joppa=}}"/>
-  <string Context="" ID="You discover some historic ruins. Would you like to investigate?">▶Scopri alcune rovine storiche. Vorresti investigare?</string>
+  <string ID="You discover =regionName=.">▶Scopri =regionName=.</string>
+  <string ID=" {{K|-known by =faction.t:Joppa=}}" Value="▶ {{K|-known by =faction.t:Joppa=}}"/>
+  <string ID="You discover some historic ruins. Would you like to investigate?">▶Scopri alcune rovine storiche. Vorresti investigare?</string>
   <string Context="sultan dungeon" ID="liminal floor">▶piano liminale</string>
-  <string Context="" ID="Building forts...">▶Costruendo forti...</string>
-  <string Context="" ID="the snapjaw who wields {{R-r-K-y-Y sequence|Stopsvalinn}}">▶lo snapjaw che impugna {{R-r-K-y-Y sequence|Stopsvalinn}}</string>
-  <string Context="" ID="a snapjaw fort">▶un forte snapjaw</string>
+  <string ID="Building forts...">▶Costruendo forti...</string>
+  <string ID="the snapjaw who wields {{R-r-K-y-Y sequence|Stopsvalinn}}">▶lo snapjaw che impugna {{R-r-K-y-Y sequence|Stopsvalinn}}</string>
+  <string ID="a snapjaw fort">▶un forte snapjaw</string>
   <string Context="JoppaWorldBuilder Orchards" ID="Planting orchards...">▶Piantagione dei frutteti...</string>
   <string Context="JoppaWorldBuilder Farms" ID="Settling farms...">▶Sistemazione delle fattorie...</string>
-  <string Context="" ID="Fencing pigs...">▶Recintando maiali...</string>
-  <string Context="" ID="the lair of {{M|Oboroqoru, Ape God}}">▶il covo di {{M|Oboroqoru, Ape God}}</string>
-  <string Context="" ID="You discover a lair. Would you like to investigate?">▶Scopri una tana. Vorresti investigare?</string>
-  <string Context="" ID="the lair of Oboroqoru, Ape God">▶il covo di Oboroqoru, Ape God</string>
-  <string Context="" ID="the mouth of {{M|Shug'ruith the Burrower}}">▶la bocca di {{M|Shug'ruith the Burrower}}</string>
-  <string Context="" ID="You come upon a yawning pit. Would you like to investigate?">▶Ti imbatti in un pozzo spalancato. Vorresti investigare?</string>
-  <string Context="" ID="the cradle of {{M|Shug'ruith the Burrower}}">▶la culla di {{M|Shug'ruith the Burrower}}</string>
-  <string Context="" ID="the chuppah of {{M|Girsh Qas and Girsh Qon}}">▶il chuppah di {{M|Girsh Qas e Girsh Qon}}</string>
-  <string Context="" ID="the cradle of {{M|Girsh Rermadon}}">▶la culla di {{M|Girsh Rermadon}}</string>
-  <string Context="" ID="the cradle of {{M|Girsh Agolgot}}">▶la culla di {{M|Girsh Agolgot}}</string>
-  <string Context="" ID="the cradle of {{M|Girsh Bethsaida}}">▶la culla di {{M|Girsh Bethsaida}}</string>
-  <string Context="" ID="the village lair of {{M|Mamon Souldrinker}}">▶il covo di {{M|Mamon Souldrinker}}</string>
-  <string Context="" ID="Bey Lah">▶Bey Lah</string>
-  <string Context="" ID="outskirts">▶periferia</string>
+  <string ID="Fencing pigs...">▶Recintando maiali...</string>
+  <string ID="the lair of {{M|Oboroqoru, Ape God}}">▶il covo di {{M|Oboroqoru, Ape God}}</string>
+  <string ID="You discover a lair. Would you like to investigate?">▶Scopri una tana. Vorresti investigare?</string>
+  <string ID="the lair of Oboroqoru, Ape God">▶il covo di Oboroqoru, Ape God</string>
+  <string ID="the mouth of {{M|Shug'ruith the Burrower}}">▶la bocca di {{M|Shug'ruith the Burrower}}</string>
+  <string ID="You come upon a yawning pit. Would you like to investigate?">▶Ti imbatti in un pozzo spalancato. Vorresti investigare?</string>
+  <string ID="the cradle of {{M|Shug'ruith the Burrower}}">▶la culla di {{M|Shug'ruith the Burrower}}</string>
+  <string ID="the chuppah of {{M|Girsh Qas and Girsh Qon}}">▶il chuppah di {{M|Girsh Qas e Girsh Qon}}</string>
+  <string ID="the cradle of {{M|Girsh Rermadon}}">▶la culla di {{M|Girsh Rermadon}}</string>
+  <string ID="the cradle of {{M|Girsh Agolgot}}">▶la culla di {{M|Girsh Agolgot}}</string>
+  <string ID="the cradle of {{M|Girsh Bethsaida}}">▶la culla di {{M|Girsh Bethsaida}}</string>
+  <string ID="the village lair of {{M|Mamon Souldrinker}}">▶il covo di {{M|Mamon Souldrinker}}</string>
+  <string ID="Bey Lah">▶Bey Lah</string>
+  <string ID="outskirts">▶periferia</string>
   <string Context="JoppaWorldBuilder ZoneName Indefinite Article - Bey Lah outskirts" ID="some">▶delle</string>
-  <string Context="" ID="Hydropon">▶Hydropon</string>
-  <string Context="" ID="the Hydropon">▶l'Hydropon</string>
-  <string Context="" ID="Hamilcrab's shop">▶Negozio di Hamilcrab</string>
-  <string Context="" ID="Generating village history...">▶Generando storia del villaggio...</string>
-  <string Context="" ID="some flattened remains">▶alcuni resti appiattiti</string>
-  <string Context="" ID="a secluded merchant from the Consortium of Phyta">▶un mercante isolato del Consorzio di Phyta</string>
-  <string Context="" ID="the Ruin of House Isner">▶le Rovine di Casa Isner</string>
-  <string Context="" ID="Gyl">▶Gyl</string>
-  <string Context="" ID="Recoming nook at Gyl">▶Nicchia del Diventare a Gyl</string>
-  <string Context="" ID="a {{w|dromad}} caravan">▶una carovana di {{w|dromadi}}</string>
-  <string Context="" ID="Kindrish, the ancestral bracelet of the hindren">▶Kindrish, il braccialetto ancestrale degli hindren</string>
-  <string Context="" ID="a {{g|slime}} bog">▶una palude di {{g|melma}}</string>
-  <string Context="" ID="some {{fiery|flaming}} {{K|tar}} pits">▶alcune fosse di {{K|catrame}} {{fiery|ardente}}</string>
-  <string Context="" ID="a {{rusty|rust}} bog">▶una palude di {{rusty|ruggine}}</string>
-  <string Context="" ID="a {{m|fungus}} forest">▶una foresta di {{m|funghi}}</string>
-  <string Context="" ID="=biome.a= region">▶=biome.a= regione</string>
+  <string ID="Hydropon">▶Hydropon</string>
+  <string ID="the Hydropon">▶l'Hydropon</string>
+  <string ID="Hamilcrab's shop">▶Negozio di Hamilcrab</string>
+  <string ID="Generating village history...">▶Generando storia del villaggio...</string>
+  <string ID="some flattened remains">▶alcuni resti appiattiti</string>
+  <string ID="a secluded merchant from the Consortium of Phyta">▶un mercante isolato del Consorzio di Phyta</string>
+  <string ID="the Ruin of House Isner">▶le Rovine di Casa Isner</string>
+  <string ID="Gyl">▶Gyl</string>
+  <string ID="Recoming nook at Gyl">▶Nicchia del Diventare a Gyl</string>
+  <string ID="a {{w|dromad}} caravan">▶una carovana di {{w|dromadi}}</string>
+  <string ID="Kindrish, the ancestral bracelet of the hindren">▶Kindrish, il braccialetto ancestrale degli hindren</string>
+  <string ID="a {{g|slime}} bog">▶una palude di {{g|melma}}</string>
+  <string ID="some {{fiery|flaming}} {{K|tar}} pits">▶alcune fosse di {{K|catrame}} {{fiery|ardente}}</string>
+  <string ID="a {{rusty|rust}} bog">▶una palude di {{rusty|ruggine}}</string>
+  <string ID="a {{m|fungus}} forest">▶una foresta di {{m|funghi}}</string>
+  <string ID="=biome.a= region">▶=biome.a= regione</string>
   <string Context="JoppaWorldBuilder Weep Secret" ID="=subject.a.name:short=">▶=subject.a.name:short=</string>
   <string Context="lair noun" ID="lair">▶tana</string>
-  <string Context="" ID="the =lairname= of =subject.refname:long:withTitles:LairName=">▶il =lairname= di =subject.refname:long:withTitles:LairName=</string>
-  <string Context="" ID="the lair of =subject.refname:long:withTitles:LairName|strip=">▶il covo di =subject.refname:long:withTitles:LairName|strip=</string>
-  <string Context="" ID="lair">▶tana</string>
-  <string Context="" ID="Generating deep history...">▶Generando storia profonda...</string>
-  <string Context="" ID="Generating historical sites...">▶Generando siti storici...</string>
-  <string Context="" ID="abandoned village">▶villaggio abbandonato</string>
-  <string Context="" ID="salt marsh">▶palude salata</string>
+  <string ID="the =lairname= of =subject.refname:long:withTitles:LairName=">▶il =lairname= di =subject.refname:long:withTitles:LairName=</string>
+  <string ID="the lair of =subject.refname:long:withTitles:LairName|strip=">▶il covo di =subject.refname:long:withTitles:LairName|strip=</string>
+  <string ID="lair">▶tana</string>
+  <string ID="Generating deep history...">▶Generando storia profonda...</string>
+  <string ID="Generating historical sites...">▶Generando siti storici...</string>
+  <string ID="abandoned village">▶villaggio abbandonato</string>
+  <string ID="salt marsh">▶palude salata</string>
+  <string Context="RingGateBuilder GateName PrefixRoot -1" ID="">▶</string>
   <string Context="RingGateBuilder GateName PrefixRoot 0" ID="Aleph-">▶Aleph-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 1" ID="Bet-">▶Bet-</string>
   <string Context="RingGateBuilder GateName PrefixRoot 2" ID="Gimel-">▶Gimel-</string>
