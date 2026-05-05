@@ -2547,9 +2547,9 @@
       "gift=": [
         "dono",
         "favore",
-        "grazia",
-        "dote",
-        "beneficio"
+        "vantaggio",
+        "beneficio",
+        "privilegio"
       ],
       "inHonorOf=": [
         "in onore dell'=^:occasion.!random=",
@@ -3682,7 +3682,7 @@
         "spirituale",
         "devozionale",
         "festivo",
-        "sicurezza",
+        "protettivo",
         "musicale",
         "architettonico",
         "tecnologico"
@@ -5120,7 +5120,7 @@
         "personal": {
           "intro=": [
             "=spice:instancesOf.comeClose.!random=",
-            "=spice:instancesOf.thank.!random= =spice:nouns.!random= =spice:adjectives.!random= che tu sia qui, =spice:commonPhrases.greetingFriend.!random=."
+            "=spice:instancesOf.thank.!random= fortuna che tu sia qui, =spice:commonPhrases.greetingFriend.!random=."
           ],
           "iHaveATask=": [
             "ho =spice:commonPhrases.task.!random= per te",
@@ -5173,17 +5173,19 @@
             "=spice:quests.FindaSpecificItem.personal.intro.!random="
           ],
           "cameToOurVillage=": [
-            "un gruppo di =spice:personNouns.!random= =spice:commonPhrases.traveling.!random= è venuto al nostro villaggio l'altro giorno"
+            "=spice:personNouns.!random= =spice:commonPhrases.traveling.!random= è giunto al nostro villaggio l'altro giorno"
           ],
           "spokeOfPlace=": [
-            "mentre =sample.fragment:GuestActivity:breaking bread=, parlarono di un luogo =spice:commonPhrases.interesting.!random=, =siteName="
+            "nel condividere un pasto, parlò di un luogo =spice:commonPhrases.interesting.!random=, =siteName=",
+            "sedendo alla mensa, parlò di un luogo =spice:commonPhrases.interesting.!random=, =siteName=",
+            "riposando accanto al fuoco, parlò di un luogo =spice:commonPhrases.interesting.!random=, =siteName="
           ],
           "wouldYouFindIt=": [
             "lo troveresti per noi?",
             "saresti disposto a localizzarlo?"
           ],
           "greatBoon=": [
-            "sarebbe un grande =spice:commonPhrases.gift.!random= per le prospettive nell'ambito =spice:instancesOf.villageActivityAdj.!random= del nostro villaggio"
+            "sarebbe un grande =spice:commonPhrases.gift.!random= per le sorti =spice:instancesOf.villageActivityAdj.!random= del nostro villaggio"
           ],
           "rewardYou=": [
             "ricompenseremo per =spice:commonPhrases.services.!random="
