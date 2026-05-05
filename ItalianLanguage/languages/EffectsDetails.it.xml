@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.17
+Caves of Qud - Generated Localizable XML 2.0.212.21
 
 <templates>
 
@@ -12,12 +12,63 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>+<stat Name="QuicknessBonus" /> Rapidità</p>
         <p>+<stat Name="MutationBonus" Unit="rank" /> alle mutazioni fisiche</p>
     </template>
+  <template ID="Effect.AnemoneEffect.Details">▶
+        <switch Name="DamageBonus">
+            <case Value="0" />
+            <default><p>Danni da sanguinamento aggiuntivi: <stat Name="DamageBonus" /> per turno.</p></default>
+        </switch>
+        <saveline Name="BleedingSave" HideValue="0" />
+    </template>
+  <template ID="Effect.AshPoison.Details">▶
+        <p><stat Name="Damage" /> danni per turno.</p>
+    </template>
+  <template ID="Effect.Asleep.Details">▶
+        <switch Name="UsesSleepMode">
+            <case Value="Yes"><p>In modalità risparmio energetico.</p></case>
+            <default><p>Incosciente.</p></default>
+        </switch>
+        <p>-12 DV.</p>
+        <p>Gli attaccanti ricevono +4 ai tiri di penetrazione.</p>
+        <switch Name="UsesSleepMode">
+            <case Value="Yes"><p>Tornerà alle operazioni normali frastornato se subisce danni.</p></case>
+            <default><p>Si sveglierà frastornato se subisce danni.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.AxonsDeflated.Details">▶
+        <p><stat Name="QuicknessPenalty" Filters="signed" /> Rapidità</p>
+    </template>
+  <template ID="Effect.AxonsInflated.Details">▶
+        <p><stat Name="QuicknessBonus" Filters="signed" /> Rapidità</p>
+        <p>Diventerà lento a breve.</p>
+    </template>
+  <template ID="Effect.BasiliskPoison.Details">▶
+        <p>-1d6 Velocità di Movimento per turno per 14-18 turni.</p>
+        <p>[totale:<stat Name="MovementDebuff" Filters="signed" /> Velocità di Movimento]</p>
+    </template>
+  <template ID="Effect.Beguiled.Details">▶
+        <p>Ammaliato da un'altra creatura, la segue obbediente.</p>
+        <switch Name="HitpointBonus">
+            <case Value="0" />
+            <default><p><stat Name="HitpointBonus" Filters="signed" /> punti ferita.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.Berserk.Details">▶
+        <p>100% di probabilità di smembrare con le asce.</p>
+    </template>
+  <template ID="Effect.Disguised.Details">▶
+        <switch Name="Appearance">
+          <case Value="Yes"><p>Ha l'aspetto di <stat Name="Appearance" />.</p></case>
+          <default><p>Ha l'aspetto di un'altra creatura.</p></default>
+        </switch>
+    </template>
+  <template ID="Effect.Lovesick.Details">▶
+        <p>-6 Intelligenza</p>
+        <p>-6 Forza di Volontà</p>
+        <p>-5 Velocità di Movimento</p>
+    </template>
   <template ID="Effect.MemberOfPsychicBattle.Details">▶
         <p>Rinchiuso in un duello psichico con un nemico. (<stat Name="Turns" Unit="turn" /> rimanenti)</p>
         <switch Name="BloodyNose"><case Value="Yes"><p>Ha il naso sanguinante.</p></case></switch>
-    </template>
-  <template ID="Effect.Rebuked.Details">▶
-        <p>Redarguito nell'obbedienza da un'altra creatura.</p>
     </template>
   <template ID="Effect.Metamorphed.Details">▶
         <p>Assumendo la forma di un'altra creatura.</p>
@@ -26,19 +77,11 @@ Caves of Qud - Generated Localizable XML 2.0.212.17
         <p>Non può interagire fisicamente con creature e oggetti a meno che non siano anch'essi sfasati.</p>
         <p>Può attraversare i solidi.</p>
     </template>
-  <template ID="Effect.Lovesick.Details">▶
-        <p>-6 Intelligenza</p>
-        <p>-6 Forza di Volontà</p>
-        <p>-5 Velocità di Movimento</p>
+  <template ID="Effect.Rebuked.Details">▶
+        <p>Redarguito nell'obbedienza da un'altra creatura.</p>
     </template>
   <template ID="Effect.WakingDream.Details">▶
         <p>Guadagna un livello come questa creatura per svegliarsi piacevolmente.</p>
         <p>Muori o abbandona il personaggio per svegliarti agitato.</p>
-    </template>
-  <template ID="Effect.Disguised.Details">▶
-        <switch Name="Appearance">
-          <case Value="Yes"><p>Ha l'aspetto di <stat Name="Appearance" />.</p></case>
-          <default><p>Ha l'aspetto di un'altra creatura.</p></default>
-        </switch>
     </template>
 </templates>

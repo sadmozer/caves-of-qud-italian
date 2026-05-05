@@ -1,0 +1,181 @@
+# XML Localization Sync – Caves of Qud (Italian)
+
+## Context
+
+The project contains pairs of files:
+
+* `X.example.xml` → source (English, updated by developers)
+* `X.it.xml` → Italian localization (partially outdated)
+
+Your task is to synchronize them.
+
+---
+
+## Goal
+
+Update `X.it.xml` using `X.example.xml`:
+
+* Add missing entries
+* Update changed entries
+* Preserve existing valid translations when possible
+* Rewrite problematic Italian strings to be robust
+
+---
+
+## Critical Constraints
+
+* The system is procedural and recombines strings
+* Gender and number agreement are NOT reliable
+* There are NO helper functions for plural/gender
+* NEVER use `|pluralize=`
+
+---
+
+## Localization Rules (MANDATORY)
+
+* NEVER break template syntax (=...=)
+* NEVER remove dynamic placeholders
+* NEVER hardcode values
+
+### Avoid completely:
+
+* grammatical gender
+* singular/plural agreement
+* articles when possible
+* adjectives requiring agreement
+
+### Prefer:
+
+* verb-based constructions
+* neutral phrasing
+* structural rewrites
+
+### Key principle:
+
+If a sentence depends on agreement → REWRITE IT
+
+---
+
+## Workflow (STRICT)
+
+### STEP 1 — Compare Files
+
+* Parse both `X.example.xml` and `X.it.xml`
+* Identify:
+
+  * missing keys
+  * changed source strings
+  * existing translations that may be fragile
+
+Build an INTERNAL index.
+
+DO NOT output full files.
+
+Output ONLY:
+
+* number of entries to add
+* number of entries to update
+* number of entries to review
+
+---
+
+### STEP 2 — Batch Processing
+
+Process entries in SMALL batches (500 rows max)
+
+For each entry:
+
+[KEY]
+SOURCE: (from example)
+CURRENT: (from it.xml, if exists)
+FIXED: (new Italian)
+
+Rules:
+
+* Keep output minimal
+* No explanations unless necessary
+
+---
+
+### STEP 3 — Apply Changes
+
+After each batch:
+
+* Update `X.it.xml` directly
+* Preserve formatting and structure
+* Do NOT reorder unrelated entries
+
+---
+
+## Handling Cases
+
+### 1. Missing entry
+
+→ Create new Italian version
+
+### 2. Existing but outdated
+
+→ Update translation
+
+### 3. Existing but fragile
+
+→ Rewrite fully
+
+### 4. Already robust
+
+→ Leave unchanged (DO NOT print)
+
+---
+
+## Templates and Dynamic Content
+
+Strings may contain:
+
+* =spice...=
+* placeholders
+* dynamic names
+
+You MUST:
+
+* preserve them EXACTLY
+* adapt sentence structure around them
+
+---
+
+## Optional Tooling (ENCOURAGED)
+
+You may:
+
+* write Python scripts to diff XML files
+* build key indexes
+* use regex to detect fragile Italian patterns
+
+Do NOT execute code.
+Use scripts only to guide reasoning.
+
+---
+
+## Performance Rules
+
+* DO NOT print entire XML files
+* DO NOT dump large outputs
+* Work incrementally
+* Minimize tokens
+
+---
+
+## Tone
+
+* Natural Italian
+* Slightly archaic / evocative
+* Consistent with game style
+
+---
+
+## Start
+
+Wait for instruction specifying:
+
+* which file to process
+
+Then begin from STEP 1.

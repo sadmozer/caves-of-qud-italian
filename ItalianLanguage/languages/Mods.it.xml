@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Caves of Qud - Generated Localizable XML 2.0.212.21
+
+<mods>
+
+  <mod Part="Key" TinkerCategory="DisplayText" TinkerDisplayName="DisplayText" Description="DisplayText">
+
+-->
+<mods Lang="it" Encoding="utf-8">
+  <mod Part="ModLacquered" TinkerCategory="▶utilità" TinkerDisplayName="▶laccato" Description="▶Laccato: non può arrugginire." />
+  <mod Part="ModSturdy" TinkerCategory="▶utilità" TinkerDisplayName="▶robusto" Description="▶Robusto: non può rompersi." />
+  <mod Part="ModSlender" TinkerCategory="▶utilità" TinkerDisplayName="▶snello" Description="▶Snello: pesa meno del normale." />
+  <mod Part="ModWillowy" TinkerCategory="▶utilità" TinkerDisplayName="▶esile" Description="▶Esile: pesa molto meno del normale." />
+  <mod Part="ModSuspensor" TinkerCategory="▶utilità" TinkerDisplayName="▶con sospensori" />
+  <mod Part="ModJewelEncrusted" TinkerCategory="▶utilità" TinkerDisplayName="▶incastonato di gemme" Description="▶Incastonato di gemme: ha valore molto superiore al normale e garantisce +100 reputazione con i baroni dell'acqua." />
+  <mod Part="ModDrumLoaded" TinkerCategory="▶fucili" TinkerDisplayName="▶a caricatore a tamburo" Description="▶A caricatore a tamburo: può contenere il 20% di munizioni in più." />
+  <mod Part="ModScoped" TinkerCategory="▶fucili" TinkerDisplayName="▶con cannocchiale" Description="▶Con cannocchiale: aumenta la precisione." />
+  <mod Part="ModLiquidCooled" TinkerCategory="▶fucili" TinkerDisplayName="▶a raffreddamento liquido" />
+  <mod Part="ModBeamsplitter" TinkerCategory="▶fucili" TinkerDisplayName="▶con divisore di fascio" />
+  <mod Part="ModNanon" TinkerCategory="▶fucili" TinkerDisplayName="▶nanon" />
+  <mod Part="ModSharp" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶affilato" Description="▶Affilato: +1 ai tiri di penetrazione" />
+  <mod Part="ModMasterwork" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶capolavoro" Description="▶Capolavoro: segna colpi critici il doppio delle volte." />
+  <mod Part="ModDisplacer" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶dislocatore" />
+  <mod Part="ModMorphogenetic" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶morfogenetico" />
+  <mod Part="ModSerrated" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶seghettato" Description="▶Seghettato: 3% di probabilità di smembrare i nemici." />
+  <mod Part="ModGigantic" TinkerCategory="▶utilità" TinkerDisplayName="▶gigante" />
+  <mod Part="ModElectrified" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶elettrificato" />
+  <mod Part="ModFreezing" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶ghiacciante" />
+  <mod Part="ModFlaming" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶fiammeggiante" />
+  <mod Part="ModCounterweighted" TinkerCategory="▶armi da mischia" TinkerDisplayName="▶controbilanciato" />
+  <mod Part="ModReinforced" TinkerCategory="▶armatura" TinkerDisplayName="▶rinforzato" Description="▶Rinforzato: +1 AV" />
+  <mod Part="ModFlexiweaved" TinkerCategory="▶armatura" TinkerDisplayName="▶a trama flessibile" />
+  <mod Part="ModRecycling" TinkerCategory="▶armatura" TinkerDisplayName="▶riciclante" Description="▶Riciclante: raccoglie, purifica e immagazzina fino a 8 dramme di acque reflue." />
+  <mod Part="ModDisguise" TinkerCategory="▶armatura" TinkerDisplayName="▶mimetico" />
+  <mod Part="ModVisored" TinkerCategory="▶armatura" TinkerDisplayName="▶con visiera" Description="▶Con visiera: +1 DV" />
+  <mod Part="ModPadded" TinkerCategory="▶armatura" TinkerDisplayName="▶imbottito" />
+  <mod Part="ModLanterned" TinkerCategory="▶armatura" TinkerDisplayName="▶con lanterna" Description="▶Con lanterna: fornisce luce." />
+  <mod Part="ModFilters" TinkerCategory="▶armatura" TinkerDisplayName="▶con filtri" />
+  <mod Part="ModTwoFaced" TinkerCategory="▶armatura" TinkerDisplayName="▶bifronte" Description="▶Bifronte: aggiunge uno slot viso." />
+  <mod Part="ModTerrifyingVisage" TinkerCategory="▶armatura" TinkerDisplayName="▶dall'aspetto terrificante" Description="▶Aspetto terrificante: riduce i tempi di recupero di Rimproverare, Intimidire e Sguardo Minaccioso di 10 round. Occupa sia lo slot testa che viso." />
+  <mod Part="ModSereneVisage" TinkerCategory="▶armatura" TinkerDisplayName="▶dall'aspetto sereno" Description="▶Aspetto sereno: +1 Forza di Volontà e riduce il tempo di recupero di Meditare di 40 round. Occupa sia lo slot testa che viso." />
+  <mod Part="ModCoProcessor" TinkerCategory="▶armatura" TinkerDisplayName="▶co-processore" />
+  <mod Part="ModSpiked" TinkerCategory="▶armatura" TinkerDisplayName="▶chiodato" />
+  <mod Part="ModRefractive" TinkerCategory="▶armatura" TinkerDisplayName="▶rifrattivo" />
+  <mod Part="ModSixFingered" TinkerCategory="▶armatura" TinkerDisplayName="▶a sei dita" Description="▶A sei dita: +1 Agilità" />
+  <mod Part="ModGesticulating" TinkerCategory="▶armatura" TinkerDisplayName="▶gesticolante" />
+  <mod Part="ModFeathered" TinkerCategory="▶armatura" TinkerDisplayName="▶piumato" Description="▶Piumato: garantisce +250 reputazione con gli uccelli." />
+  <mod Part="ModScaled" TinkerCategory="▶armatura" TinkerDisplayName="▶squamato" Description="▶Squamato: garantisce +250 reputazione con i rettili senza guscio." />
+  <mod Part="ModWooly" TinkerCategory="▶armatura" TinkerDisplayName="▶lanoso" Description="▶Lanoso: garantisce resistenza al caldo e al freddo." />
+  <mod Part="ModSnailEncrusted" TinkerCategory="▶armatura" TinkerDisplayName="▶ricoperto di lumache" Description="▶Ricoperto di lumache: garantisce +250 reputazione con i molluschi." />
+  <mod Part="ModSpringLoaded" TinkerCategory="▶armatura" TinkerDisplayName="▶a molla" Description="▶A molla: +5-10 velocità di movimento" />
+  <mod Part="ModCleated" TinkerCategory="▶armatura" TinkerDisplayName="▶con ramponi" />
+  <mod Part="ModPolarized" TinkerCategory="▶armatura" TinkerDisplayName="▶polarizzato" />
+  <mod Part="ModNav" TinkerCategory="▶armatura" TinkerDisplayName="▶nav" />
+  <mod Part="ModNulling" TinkerCategory="▶utilità" TinkerDisplayName="▶nullificante" />
+  <mod Part="ModHighCapacity" TinkerCategory="▶munizioni e celle energetiche" TinkerDisplayName="▶ad alta capienza" />
+  <mod Part="ModMetered" TinkerCategory="▶munizioni e celle energetiche" TinkerDisplayName="▶dosato" />
+  <mod Part="ModRadioPowered" TinkerCategory="▶munizioni e celle energetiche" TinkerDisplayName="▶a energia radio" />
+  <mod Part="ModIlluminated" TinkerCategory="▶utilità" TinkerDisplayName="▶miniato" Description="▶Miniato: questo libro è ornato con marginalia decorative e illustrazioni. Vale il 30% in più." />
+  <mod Part="ModExtradimensional" TinkerCategory="▶utilità" TinkerDisplayName="▶extradimensionale" Description="▶Extradimensionale: si è materializzato di recente, ereditando alcune proprietà dalla dimensione d'origine." />
+  <mod Part="ModAirfoil" TinkerCategory="▶granate" TinkerDisplayName="▶aerodinamica" />
+  <mod Part="ModPhaseConjugate" TinkerCategory="▶granate" TinkerDisplayName="▶coniugato di fase" />
+  <mod Part="ModHardened" TinkerCategory="▶utilità" TinkerDisplayName="▶schermato elettromagneticamente" />
+  <mod Part="ModJacked" TinkerCategory="▶utilità" TinkerDisplayName="▶collegato" />
+  <mod Part="ModOverloaded" TinkerCategory="▶utilità" TinkerDisplayName="▶sovraccarico" />
+  <mod Part="ModPhaseHarmonic" TinkerCategory="▶utilità" TinkerDisplayName="▶armonico di fase" />
+  <mod Part="ModEngraved" TinkerCategory="▶utilità" TinkerDisplayName="▶inciso" Description="▶Inciso: riporta l'incisione di un evento storico." />
+  <mod Part="ModPainted" TinkerCategory="▶utilità" TinkerDisplayName="▶dipinto" Description="▶Dipinto: porta la raffigurazione dipinta di un evento storico." />
+</mods>
