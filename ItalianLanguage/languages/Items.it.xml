@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.21
+Caves of Qud - Generated Localizable XML 2.0.212.22
 
 <objects ExcludeFromCorpusGeneration="Key">
 
   <object Name="Key" Load="">
 
     <part Name="Key">
+
+    <builder Name="Key">
 
     <tag Name="Key" Value="DisplayText">
 
@@ -2655,6 +2657,15 @@ Caves of Qud - Generated Localizable XML 2.0.212.21
   </object>
   <object Name="Robot Corpse" Load="Merge">
     <part Name="Description" Short="▶Un cadavere." />
+  </object>
+  <object Name="GenericFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="▶Hai mangiato =this.an=." Hagiograph="▶Guai ai vinti! =name= banchettò con =this.an= alla luce della Luna dello Scarabeo." Gospel="▶Il =day= di =month=, in una taverna vicino a =landmark.nearest=, =name= si incontrò con un gruppo di salamorati e, divinamente ispirato da =spice:elements.entity@elements[random].practices.!random=, cucinò e banchettò con =this.refname=." />
+  </object>
+  <object Name="PlantFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="▶Hai mangiato =this.an=." Hagiograph="▶Guai ai vinti! =name= banchettò con =this.an= alla luce della Luna dello Scarabeo." Gospel="▶Il =day= di =month=, in una taverna vicino a =landmark.nearest=, =name= si incontrò con un gruppo di salamorati e, divinamente ispirato da =spice:elements.entity@elements[random].practices.!random=, cucinò e banchettò con =this.refname=." />
+  </object>
+  <object Name="FungusFace" Load="Merge">
+    <part Name="EatenAccomplishment" Text="▶Hai mangiato =this.an=." Hagiograph="▶Guai ai vinti! =name= banchettò con =this.an= alla luce della Luna dello Scarabeo." Gospel="▶Il =day= di =month=, in una taverna vicino a =landmark.nearest=, =name= si incontrò con un gruppo di salamorati e, divinamente ispirato da =spice:elements.entity@elements[random].practices.!random=, cucinò e banchettò con =this.refname=." />
   </object>
   <object Name="RobotLimb" Load="Merge">
     <part Name="Description" Short="▶Un pezzo di detriti metallici." />

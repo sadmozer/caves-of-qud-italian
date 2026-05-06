@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Caves of Qud - Generated Localizable XML 2.0.212.21
+Caves of Qud - Generated Localizable XML 2.0.212.22
 
 <templates>
 
@@ -24,13 +24,13 @@ Caves of Qud - Generated Localizable XML 2.0.212.21
     </template>
   <template ID="Effect.Asleep.Details">▶
         <switch Name="UsesSleepMode">
-            <case Value="Yes"><p>In modalità risparmio energetico.</p></case>
+            <case Value="true"><p>In modalità risparmio energetico.</p></case>
             <default><p>Incosciente.</p></default>
         </switch>
         <p>-12 DV.</p>
         <p>Gli attaccanti ricevono +4 ai tiri di penetrazione.</p>
         <switch Name="UsesSleepMode">
-            <case Value="Yes"><p>Tornerà alle operazioni normali frastornato se subisce danni.</p></case>
+            <case Value="true"><p>Tornerà alle operazioni normali frastornato se subisce danni.</p></case>
             <default><p>Si sveglierà frastornato se subisce danni.</p></default>
         </switch>
     </template>
@@ -55,10 +55,43 @@ Caves of Qud - Generated Localizable XML 2.0.212.21
   <template ID="Effect.Berserk.Details">▶
         <p>100% di probabilità di smembrare con le asce.</p>
     </template>
+  <template ID="Effect.Blaze_Tonic.Details">▶
+        <p>+100 Resistenza al Calore</p>
+        <p>Non può essere congelato.</p>
+        <p>+25% danni da calore inflitti.</p>
+        <p>-50 Resistenza al Freddo</p>
+        <switch Name="IsTrueKin">
+            <case Value="true"><p>+20 Rapidità</p></case>
+            <default><p>+10 Rapidità</p></default>
+        </switch>
+        <p>La temperatura non può essere aumentata da sorgenti di calore esterne.</p>
+        <p>Muoviti per evitare di prendere fuoco e perdere gli effetti del tonico.</p>
+    </template>
+  <template ID="Effect.Blind.Details">▶
+        <p>Non riesce a vedere.</p>
+    </template>
+  <template ID="Effect.BlinkingTicSickness.Details">▶
+        <p>Ogni turno in combattimento c'è una piccola probabilità di teletrasportarsi in un luogo vicino casuale.</p>
+    </template>
+  <template ID="Effect.BoostStatistic.Details">▶
+        <p><stat Name="Bonus" Filters="signed" /> <gametext>=stat.title=</gametext></p>
+    </template>
+  <template ID="Effect.BoostedImmunity.Details">▶
+        <saveline Name="DiseaseOnsetSave" Type="Disease Onset" />
+    </template>
+  <template ID="Effect.Broken.Details">▶
+        <p>Non può essere equipaggiato o usato.</p>
+    </template>
+  <template ID="Effect.Budding.Details">▶
+        <p>Creerà presto un clone.</p>
+    </template>
+  <template ID="Effect.Burrowed.Details">▶
+        <p>Viaggia sottoterra.</p>
+    </template>
   <template ID="Effect.Disguised.Details">▶
         <switch Name="Appearance">
-          <case Value="Yes"><p>Ha l'aspetto di <stat Name="Appearance" />.</p></case>
-          <default><p>Ha l'aspetto di un'altra creatura.</p></default>
+          <case Value=""><p>Ha l'aspetto di un'altra creatura.</p></case>
+          <default><p>Ha l'aspetto di <stat Name="Appearance" />.</p></default>
         </switch>
     </template>
   <template ID="Effect.Lovesick.Details">▶
@@ -68,7 +101,7 @@ Caves of Qud - Generated Localizable XML 2.0.212.21
     </template>
   <template ID="Effect.MemberOfPsychicBattle.Details">▶
         <p>Rinchiuso in un duello psichico con un nemico. (<stat Name="Turns" Unit="turn" /> rimanenti)</p>
-        <switch Name="BloodyNose"><case Value="Yes"><p>Ha il naso sanguinante.</p></case></switch>
+        <switch Name="BloodyNose"><case Value="true"><p>Ha il naso sanguinante.</p></case></switch>
     </template>
   <template ID="Effect.Metamorphed.Details">▶
         <p>Assumendo la forma di un'altra creatura.</p>
